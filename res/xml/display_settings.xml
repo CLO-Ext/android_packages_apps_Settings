@@ -208,6 +208,11 @@
             android:summary="@string/double_tap_to_sleep_summary"
             android:defaultValue="true" />
 
+        <org.zeph.support.preference.SwitchPreference
+            android:key="pocket_judge"
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
