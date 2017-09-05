@@ -140,4 +140,7 @@
     <string name="wallpaper_color">Wallpaper color</string>
     <string name="custom_color">Custom color</string>
     <string name="edge_light_custom_color_title">Custom color</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
 </resources>
