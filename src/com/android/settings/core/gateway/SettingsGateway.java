@@ -111,6 +111,7 @@ import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings;
 import com.android.settings.deviceinfo.legal.ModuleLicensesDashboard;
 import com.android.settings.display.AutoBrightnessSettings;
 import com.android.settings.display.ColorContrastFragment;
+import com.android.settings.display.DcDimmingSettings;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.display.RefreshRateSettings;
 import com.android.settings.display.ScreenTimeoutSettings;
@@ -362,6 +363,7 @@ public class SettingsGateway {
             ResetDashboardFragment.class.getName(),
             NightDisplaySettings.class.getName(),
             RefreshRateSettings.class.getName(),
+            DcDimmingSettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             StorageDashboardFragment.class.getName(),
