@@ -111,6 +111,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
+        "VendorSupport-Libs",
     ],
 
     libs: [
