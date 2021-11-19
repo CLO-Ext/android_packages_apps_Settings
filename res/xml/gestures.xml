@@ -26,6 +26,13 @@
         android:fragment="com.android.settings.gestures.AssistGestureSettings"
         settings:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController" />
 
+    <!-- Advanced reboot  -->
+    <org.proton.support.preference.SystemSettingSwitchPreference
+        android:key="advanced_reboot"
+        android:title="@string/advanced_reboot_title"
+        android:summary="@string/advanced_reboot_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="gesture_swipe_down_fingerprint_input_summary"
         android:title="@string/fingerprint_swipe_for_notifications_title"
