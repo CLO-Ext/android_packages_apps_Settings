@@ -12,4 +12,8 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- Udfps background -->
+    <string name="udfps_background_title">Fod icon background</string>
+    <string name="udfps_background_summary">Show background for fod icon in lockscreen</string>
 </resources>
