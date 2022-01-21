@@ -17,6 +17,8 @@ package com.android.settings.system;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.provider.SearchIndexableResource;
 
@@ -46,6 +48,9 @@ public class SystemDashboardFragment extends DashboardFragment {
         super.onCreate(icicle);
 
         final PreferenceScreen screen = getPreferenceScreen();
+        if (!isPackageInstalled(getContext(), "org.zephyrus.ota")) {
+            screen.removePreference(screen.findPreference("system_update"));
+        }
         // We do not want to display an advanced button if only one setting is hidden
         if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
             screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
@@ -109,4 +114,16 @@ public class SystemDashboardFragment extends DashboardFragment {
                     return Arrays.asList(sir);
                 }
             };
+
+    private static boolean isPackageInstalled(Context context, String pkg) {
+        if (pkg != null) {
+            try {
+                PackageInfo pi = context.getPackageManager().getPackageInfo(pkg, 0);
+                return pi.applicationInfo.enabled;
+            } catch (PackageManager.NameNotFoundException e) {
+                // Do nothing
+            }
+        }
+        return false;
+    }
 }

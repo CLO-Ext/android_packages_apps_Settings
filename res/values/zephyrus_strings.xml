@@ -16,5 +16,8 @@
     <!-- Small landscape notifications -->
     <string name="small_landscape_notification_title">Small landscape notifications</string>
     <string name="small_landscape_notification_summary">Shows notifications smaller in width in notification panel in landscape mode just as AOSP intended</string>
+    
+    <!-- System Update -->
+    <string name="system_update_title">System update</string>
 
 </resources>
