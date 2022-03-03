@@ -23,7 +23,8 @@
         android:key="vibration_main_switch"
         android:title="@string/accessibility_vibration_primary_switch_title"
         app:keywords="@string/keywords_accessibility_vibration_primary_switch"
-        app:controller="com.android.settings.accessibility.VibrationMainSwitchPreferenceController"/>
+        app:controller="com.android.settings.accessibility.VibrationMainSwitchPreferenceController"
+        android:disableDependentsState="true"/>
 
     <PreferenceCategory
         android:key="accessibility_call_vibration_category"
@@ -76,6 +77,13 @@
             android:title="@string/accessibility_media_vibration_title"
             app:keywords="@string/keywords_media_vibration"
             app:controller="com.android.settings.accessibility.MediaVibrationTogglePreferenceController" />
+            
+        <org.proton.support.preference.SystemSettingSwitchPreference
+            android:defaultValue="true"
+            android:dependency="vibration_main_switch"
+            android:key="haptic_on_slider"
+            android:title="@string/haptic_on_slider_title"
+            android:summary="@string/haptic_on_slider_summary" />
 
     </PreferenceCategory>
 
