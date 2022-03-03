@@ -9,6 +9,10 @@
     <string name="ringer_mute_speaker_media_title">Mute media volume on silent</string>
     <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent. This affect speaker only</string>
 
+    <!-- Haptic Settings -->
+    <string name="haptic_on_slider_title">System slider</string>
+    <string name="haptic_on_slider_summary">Do haptic feedback when changed slider value</string>
+
     <!-- Small landscape notifications -->
     <string name="small_landscape_notification_title">Small landscape notifications</string>
     <string name="small_landscape_notification_summary">Shows notifications smaller in width in notification panel in landscape mode just as AOSP intended</string>
