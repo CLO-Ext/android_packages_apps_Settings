@@ -129,6 +129,12 @@
                 android:targetPackage="@string/config_cell_broadcast_receiver_package"
                 android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings"/>
         </com.android.settingslib.RestrictedPreference>
+        
+        <org.proton.support.preference.SystemSettingSwitchPreference
+           android:key="small_landscape_notification"
+           android:title="@string/small_landscape_notification_title"
+           android:summary="@string/small_landscape_notification_summary"
+           android:defaultValue="true" />
 
         <SwitchPreference
              android:key="silent_icons"
