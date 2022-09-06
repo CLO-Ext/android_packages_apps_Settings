@@ -75,4 +75,8 @@
     <string name="charging_control_limit_title">Limit</string>
     
     <string name="reset">Reset</string>
+
+    <!-- Black theme -->
+    <string name="berry_black_theme_title">Use Black theme</string>
+    <string name="berry_black_theme_summary">Force black background colors</string>
 </resources>
