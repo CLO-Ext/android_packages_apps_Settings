@@ -14,4 +14,10 @@
     <string name="battery_percent_show_inside">Display inside icon</string>
     <string name="battery_percent_show_outside">Display next to icon</string>
 
+    <!-- Statusbar gestures -->
+    <string name="statusbar_brightness_control_title">Brightness control gesture</string>
+    <string name="statusbar_brightness_control_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="disable_in_landscape_title">Disable statusbar brightness control in landscape</string>
+    <string name="disable_in_landscape_summary">Prevent mistouch while in landscape mode</string>
+
 </resources>
