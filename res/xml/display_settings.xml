@@ -112,6 +112,12 @@
             android:summary="@string/icon_manager_summary">
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </Preference>
+
+        <Preference
+            android:key="qs_tile_layout"
+            android:title="@string/qs_tile_layout_title"
+            android:summary="@string/qs_tile_layout_summary"
+            android:fragment="com.android.settings.display.QsTileLayoutSettingsFragment" />
 	
 	<Preference
             android:key="statusbar_clock_date"
