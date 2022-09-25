@@ -149,4 +149,8 @@
     <!-- Units -->
     <string name="unit_second">sec</string>
     <string name="unit_ms">ms</string>
+
+    <!-- 4g icon -->
+    <string name="show_fourg_icon_title">Use 4G icon</string>
+    <string name="show_fourg_icon_summary">Force to display 4G in signal icon</string>
 </resources>
