@@ -194,4 +194,8 @@
     <!-- Back gesture arrow -->
     <string name="back_gesture_arrow_title">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+
+    <!-- 4g icon -->
+    <string name="show_fourg_icon_title">Use 4G icon</string>
+    <string name="show_fourg_icon_summary">Force to display 4G in signal icon</string>
 </resources>
