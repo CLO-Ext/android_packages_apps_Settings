@@ -143,6 +143,14 @@
            android:summary="@string/small_landscape_notification_summary"
            android:defaultValue="true" />
 
+        <com.android.settingslib.PrimarySwitchPreference
+            android:key="edge_light_enabled"
+            android:title="@string/edge_light_title"
+            android:summary="@string/edge_light_intro_text"
+            android:fragment="com.android.settings.display.EdgeLightSettings"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.display.EdgeLightPreferenceController" />
+
         <SwitchPreference
              android:key="silent_icons"
              android:order="20"
