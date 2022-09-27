@@ -163,6 +163,14 @@
                 android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings"/>
         </com.android.settingslib.RestrictedPreference>
 
+        <com.android.settingslib.PrimarySwitchPreference
+            android:key="edge_light_enabled"
+            android:title="@string/edge_light_title"
+            android:summary="@string/edge_light_intro_text"
+            android:fragment="com.android.settings.display.EdgeLightSettings"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.display.EdgeLightPreferenceController" />
+
         <SwitchPreferenceCompat
              android:key="silent_icons"
              android:order="22"
