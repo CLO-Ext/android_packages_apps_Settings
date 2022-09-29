@@ -116,4 +116,16 @@
     <string name="wallpaper_color">Wallpaper color</string>
     <string name="custom_color">Custom color</string>
     <string name="edge_light_custom_color_title">Custom color</string>
+
+    <!-- Battery Icon -->
+    <string name="battery_icon_title">Battery Icon</string>
+    <string name="battery_icon_summary">Customize statusbar battery icon style</string>
+    <string name="battery_style_title">Battery style</string>
+    <string name="battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="battery_style_circle">Circle</string>
+    <string name="battery_style_text">Text</string>
+    <string name="battery_percent_title">Battery percent</string>
+    <string name="battery_percent_summary">Show battery percent in status bar</string>
+    <string name="battery_percent_inside_title">Move into icon</string>
+    <string name="battery_percent_inside_summary">Show battery percent inside battery icon</string>
 </resources>
