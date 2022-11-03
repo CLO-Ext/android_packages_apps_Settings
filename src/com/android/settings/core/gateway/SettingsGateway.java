@@ -158,6 +158,7 @@ import com.android.settings.network.telephony.satellite.SatelliteSetting;
 import com.android.settings.network.tether.TetherSettings;
 import com.android.settings.nfc.PaymentSettings;
 import com.android.settings.notification.ConfigureNotificationSettings;
+import com.android.settings.notification.HeadsUpSettings;
 import com.android.settings.notification.LockScreenNotificationsPreferencePageFragment;
 import com.android.settings.notification.NotificationAccessSettings;
 import com.android.settings.notification.NotificationAssistantPicker;
@@ -424,6 +425,7 @@ public class SettingsGateway {
             ContentProtectionPreferenceFragment.class.getName(),
             ToggleScreenMagnificationPreferenceFragment.class.getName(),
             FlashNotificationsPreferenceFragment.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -470,5 +472,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
+            Settings.HeadsUpSettingsActivity.class.getName(),
     };
 }
