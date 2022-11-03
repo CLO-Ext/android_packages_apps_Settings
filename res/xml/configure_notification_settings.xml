@@ -177,6 +177,12 @@
             android:defaultValue="false"
             settings:controller="com.android.settings.display.EdgeLightPreferenceController" />
 
+        <Preference
+            android:key="heads_up_notifications"
+            android:summary="@string/heads_up_notifications_summary"
+            android:title="@string/heads_up_notifications_title"
+            android:fragment="com.android.settings.notification.HeadsUpSettings"/>
+
         <SwitchPreferenceCompat
              android:key="silent_icons"
              android:order="22"
