@@ -4620,6 +4620,17 @@
             </intent-filter>
         </activity>
 
+	<activity android:name="Settings$HeadsUpSettingsActivity"
+            android:label="@string/heads_up_notifications_title"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.android.settings.notification.HeadsUpSettings"/>
+        </activity>
+
         <!-- Bluetooth Timeout -->
         <receiver android:name="com.android.settingslib.bluetooth.BluetoothTimeoutReceiver"
             android:exported="true">
@@ -4627,7 +4638,6 @@
                 <action android:name="android.bluetooth.intent.TIMEOUT" />
             </intent-filter>
         </receiver>
-
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
