@@ -5755,6 +5755,17 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
             </intent-filter>
         </receiver>
 
+	<activity android:name="Settings$HeadsUpSettingsActivity"
+            android:label="@string/heads_up_notifications_title"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.android.settings.notification.HeadsUpSettings"/>
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
