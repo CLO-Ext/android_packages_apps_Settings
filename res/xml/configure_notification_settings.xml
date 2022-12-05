@@ -142,6 +142,12 @@
                 android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings"/>
         </com.android.settingslib.RestrictedPreference>
         
+        <!-- Heads up -->
+        <Preference
+            android:key="heads_up_settings"
+            android:title="@string/heads_up_notifications"
+            android:fragment="com.android.settings.notification.HeadsUpSettings" />
+
         <org.zeph.support.preference.SystemSettingSwitchPreference
            android:key="small_landscape_notification"
            android:title="@string/small_landscape_notification_title"
