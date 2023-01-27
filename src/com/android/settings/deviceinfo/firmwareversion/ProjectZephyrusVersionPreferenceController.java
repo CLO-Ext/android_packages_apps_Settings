@@ -24,9 +24,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class ProjectZephyrusVersionPreferenceController extends BasePreferenceController {
 
-    private static final String ZEPH_BUILD_VARIANT_PROP = "ro.zeph.build.variant";
-    private static final String ZEPH_VERSION_MAJOR_PROP = "ro.zeph.version.major";
-    private static final String ZEPH_VERSION_MINOR_PROP = "ro.zeph.version.minor";
+    private static final String ZEPH_VERSION_PROP = "ro.zeph.version";
 
     private final Context mContext;
 
@@ -42,19 +40,9 @@ public class ProjectZephyrusVersionPreferenceController extends BasePreferenceCo
 
     @Override
     public CharSequence getSummary() {
-        String zephVersionMajor = SystemProperties.get(ZEPH_VERSION_MAJOR_PROP,
-                mContext.getResources().getString(R.string.device_info_default));
-        String zephVersionMinor = SystemProperties.get(ZEPH_VERSION_MINOR_PROP,
-                mContext.getResources().getString(R.string.device_info_default));
-        String zephBuildVariant = SystemProperties.get(ZEPH_BUILD_VARIANT_PROP,
+        String zephVersion = SystemProperties.get(ZEPH_VERSION_PROP,
                 mContext.getResources().getString(R.string.device_info_default));
 
-        if (zephBuildVariant.equals("Release")) {
-            return zephVersionMajor + " " + zephVersionMinor;
-        } else if (zephBuildVariant.equals("Unofficial")) {
-           return zephVersionMajor + " " + zephBuildVariant;
-        } else {
-           return zephVersionMajor + " " + zephBuildVariant + " " + zephVersionMinor;
-        }
+           return zephVersion;
     }
 }
