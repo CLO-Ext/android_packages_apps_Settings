@@ -51,13 +51,13 @@
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
-        <!-- Paranoid Android version -->
+        <!-- Project Zephyrus version -->
         <Preference
-            android:key="aospa_version"
+            android:key="zeph_version"
             android:order="4"
-            android:title="@string/aospa_version"
+            android:title="@string/zeph_version"
             android:summary="@string/summary_placeholder"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.ParanoidAndroidVersionPreferenceController"/>
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.ProjectZephyrusVersionPreferenceController"/>
 
         <!-- Account name -->
         <Preference
