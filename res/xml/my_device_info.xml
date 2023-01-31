@@ -27,6 +27,12 @@
         android:layout="@layout/settings_entity_header"
         android:selectable="false"
         settings:isPreferenceVisible="false"/>
+        
+    <!-- Project Zephyrus logo -->
+    <PreferenceScreen
+        android:key="zeph_logo"
+        android:layout="@layout/zeph_logo"
+        android:selectable="false"/>
 
     <PreferenceCategory
         android:key="basic_info_category"
