@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Project Zephyrus version -->
-    <string name="zeph_version">Project Zephyrus version</string>
+    <string name="zeph_version">Project Zephyrus</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
