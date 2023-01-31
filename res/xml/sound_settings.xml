@@ -219,7 +219,7 @@
         android:order="-27"/>
 
     <!-- In-call feedback -->
-    <org.proton.support.preference.SystemSettingSwitchPreference
+    <org.zeph.support.preference.SystemSettingSwitchPreference
         android:key="incall_feeedback_vibrate"
         android:title="@string/incall_feeedback_vibrate_title"
         android:defaultValue="false"

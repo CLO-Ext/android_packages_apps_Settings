@@ -57,7 +57,7 @@
             settings:textEnd="@string/high_label"/>
     </PreferenceCategory>
 
-    <org.proton.support.preference.SystemSettingSwitchPreference
+    <org.zeph.support.preference.SystemSettingSwitchPreference
         android:key="back_gesture_haptic"
         android:title="@string/back_gesture_haptic_title"
         android:summary="@string/back_gesture_haptic_summary"

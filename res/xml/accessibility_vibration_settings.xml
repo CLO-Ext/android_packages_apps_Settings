@@ -77,7 +77,7 @@
             app:keywords="@string/keywords_media_vibration"
             app:controller="com.android.settings.accessibility.MediaVibrationTogglePreferenceController" />
             
-        <org.proton.support.preference.SystemSettingSwitchPreference
+        <org.zeph.support.preference.SystemSettingSwitchPreference
             android:defaultValue="true"
             android:dependency="touch_vibration_preference_screen"
             android:key="haptic_on_slider"
