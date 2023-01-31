@@ -27,6 +27,12 @@
         android:layout="@layout/settings_entity_header"
         android:selectable="false"
         settings:isPreferenceVisible="false"/>
+        
+    <!-- Neoteric OS logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="neoteric_logo"
+        android:layout="@layout/neoteric_logo"
+        android:selectable="false"/>
 
     <PreferenceCategory
         android:key="basic_info_category"
