@@ -20,6 +20,8 @@ import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
@@ -35,6 +37,9 @@ import com.android.settingslib.widget.R;
  * A {@link MainSwitchBar} with a customized Switch and provides the metrics feature.
  */
 public class SettingsMainSwitchBar extends MainSwitchBar {
+
+    private static final VibrationEffect EFFECT_CLICK =
+            VibrationEffect.createPredefined(VibrationEffect.EFFECT_CLICK);
 
     /**
      * Called before the checked state of the Switch has changed.
@@ -56,6 +61,8 @@ public class SettingsMainSwitchBar extends MainSwitchBar {
     private OnBeforeCheckedChangeListener mOnBeforeListener;
 
     private String mMetricsTag;
+
+    private final Vibrator mVibrator;
 
     public SettingsMainSwitchBar(Context context) {
         this(context, null);
@@ -83,6 +90,8 @@ public class SettingsMainSwitchBar extends MainSwitchBar {
                 onRestrictedIconClick();
             }
         });
+
+        mVibrator = context.getSystemService(Vibrator.class);
     }
 
     /**
@@ -121,6 +130,7 @@ public class SettingsMainSwitchBar extends MainSwitchBar {
 
     @Override
     public boolean performClick() {
+        mVibrator.vibrate(EFFECT_CLICK);
         return getDelegatingView().performClick();
     }
 
