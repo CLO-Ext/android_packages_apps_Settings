@@ -56,29 +56,51 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary" />
 
-        <SwitchPreference
+        <!-- SwitchPreference
             android:key="lockscreen_privacy_wallet_switch"
             android:title="@string/lockscreen_privacy_wallet_setting_toggle"
             android:summary="@string/lockscreen_privacy_wallet_summary"
-            settings:controller="com.android.settings.display.WalletPrivacyPreferenceController" />
+            settings:controller="com.android.settings.display.WalletPrivacyPreferenceController" --> 
 
-        <SwitchPreference
+        <!-- SwitchPreference
             android:key="lock_screen_show_qr_scanner"
             android:title="@string/lockscreen_privacy_qr_code_scanner_setting_toggle"
             android:summary="@string/lockscreen_privacy_qr_code_scanner_summary"
-            settings:controller="com.android.settings.display.QRCodeScannerPreferenceController" />
+            settings:controller="com.android.settings.display.QRCodeScannerPreferenceController" -->
 
-        <SwitchPreference
+        <org.zeph.support.preference.SystemSettingListPreference
+            android:key="lockscreen_shortcut_start"
+            android:title="@string/lockscreen_shortcut_start_title"
+            android:summary="%s"
+            android:entries="@array/lockscreen_shortcut_entries"
+            android:entryValues="@array/lockscreen_shortcut_values"
+            android:defaultValue="1" />
+
+        <org.zeph.support.preference.SystemSettingListPreference
+            android:key="lockscreen_shortcut_end"
+            android:title="@string/lockscreen_shortcut_end_title"
+            android:summary="%s"
+            android:entries="@array/lockscreen_shortcut_entries"
+            android:entryValues="@array/lockscreen_shortcut_values"
+            android:defaultValue="0" />
+
+        <org.zeph.support.preference.SwitchPreference
+            android:key="lockscreen_shortcut_enforce"
+            android:title="@string/lockscreen_shortcut_enforce_title"
+            android:summary="@string/lockscreen_shortcut_enforce_summary"
+            android:defaultValue="false" />
+
+        <!-- SwitchPreference
             android:key="lockscreen_privacy_controls_switch"
             android:title="@string/lockscreen_privacy_controls_setting_toggle"
             android:summary="@string/lockscreen_privacy_controls_summary"
-            settings:controller="com.android.settings.display.ControlsPrivacyPreferenceController" />
+            settings:controller="com.android.settings.display.ControlsPrivacyPreferenceController" -->
 
-        <SwitchPreference
+        <!-- SwitchPreference
             android:key="lockscreen_trivial_controls_switch"
             android:title="@string/lockscreen_trivial_controls_setting_toggle"
             android:summary="@string/lockscreen_trivial_controls_summary"
-            settings:controller="com.android.settings.display.ControlsTrivialPrivacyPreferenceController"/>
+            settings:controller="com.android.settings.display.ControlsTrivialPrivacyPreferenceController"-->
 
         <SwitchPreference
             android:key="lockscreen_double_line_clock_switch"
