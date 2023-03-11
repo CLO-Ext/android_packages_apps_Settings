@@ -76,6 +76,7 @@ public class BluetoothBroadcastDialog extends InstrumentedDialogFragment {
         TextView subTitle = layout.findViewById(com.android.settingslib.R.id.dialog_subtitle);
 
         Button broadcastBtn = layout.findViewById(com.android.settingslib.R.id.positive_btn);
+
         if (isBroadcastSupported() && mIsMediaStreaming) {
             title.setText(mContext.getString(R.string.bluetooth_broadcast_dialog_title));
             subTitle.setText(
