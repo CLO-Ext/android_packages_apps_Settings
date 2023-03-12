@@ -137,7 +137,8 @@
             android:fragment="com.android.settings.display.NetworkTraffic"
             android:title="@string/network_traffic_state_title"
             android:summary="@string/network_traffic_state_summary"
-            android:defaultValue="false"
+            android:order="30"
+	    android:defaultValue="false"
             settings:controller="com.android.settings.display.NetworkTrafficPreferenceController" />
 
 </PreferenceScreen>
