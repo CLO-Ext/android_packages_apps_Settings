@@ -40,6 +40,19 @@
             settings:userRestriction="no_config_brightness"
             settings:controller="com.android.settings.display.AutoBrightnessPreferenceController" />
 
+	<org.neoteric.preference.SystemSettingListPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_show_brightness_title"
+            android:entries="@array/qs_show_brightness_entries"
+            android:entryValues="@array/qs_show_brightness_values"
+            android:defaultValue="1" />
+
+        <org.neoteric.preference.SystemSettingSwitchPreference
+            android:key="qs_brightness_position_bottom"
+            android:title="@string/qs_brightness_position_position_title"
+            android:summary="@string/qs_brightness_position_position_summary" 
+            android:defaultValue="false" />
+
         <SwitchPreferenceCompat
             android:key="even_dimmer_activated"
             android:title="@string/even_dimmer_display_title"
