@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 Neoteric OS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- QS panel brightness slider -->
+    <string-array name="qs_show_brightness_entries" translatable="false">
+        <item>@string/qs_show_brightness_hide</item>
+        <item>@string/qs_show_brightness_normal</item>
+        <item>@string/qs_show_brightness_both</item>
+    </string-array>
+
+    <string-array name="qs_show_brightness_values" translatable="false">
+	<item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

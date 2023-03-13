@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-FileCopyrightText: 2025 Neoteric OS
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
@@ -15,4 +15,12 @@
     <!-- Pif Data -->
     <string name="pif_data_title">Select PIF JSON to spoof</string>
     <string name="pif_data_summary">Select PIF JSON used for prop attestation spoofing for google mobile services. Click the delete button in order to reset the PIF data props and use dynamic PIF props which are used by default.</string>
+
+    <!-- QS Panel -->
+    <string name="qs_show_brightness_title">Where to show</string>
+    <string name="qs_show_brightness_hide">Hide</string>
+    <string name="qs_show_brightness_normal">Show in QS Panel</string>
+    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
+    <string name="qs_brightness_position_position_title">Move to bottom</string>
+    <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
 </resources>
