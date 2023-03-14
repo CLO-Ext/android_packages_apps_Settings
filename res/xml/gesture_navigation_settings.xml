@@ -22,6 +22,18 @@
     android:key="gesture_navigation_settings_page"
     android:title="@string/gesture_settings_activity_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
+    
+    <org.zeph.support.preference.SystemSettingSwitchPreference
+        android:key="fullscreen_gestures"
+        android:title="@string/fullscreen_gestures_title"
+        android:summary="@string/fullscreen_gestures_summary"
+        android:defaultValue="false" />
+
+    <org.zeph.support.preference.SystemSettingSwitchPreference
+        android:key="immersive_gestures"
+        android:title="@string/immersive_gestures_title"
+        android:summary="@string/immersive_gestures_summary"
+        android:defaultValue="false" />
 
     <PreferenceCategory
         android:key="assistant_gesture_category"

@@ -157,4 +157,13 @@
     <!-- Show old style mobile data icon -->
     <string name="use_old_mobiletype_title">Use old style mobile data icon</string>
     <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    
+    <!-- Fullscreen gestures -->
+    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
+    <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
+    
+    <!-- Immersive gestures -->
+    <string name="immersive_gestures_title">Immersive gestures</string>
+    <string name="immersive_gestures_summary">Remove navigation bar height while keeping the gesture pill</string>
 </resources>
