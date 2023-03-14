@@ -16,12 +16,21 @@
 
 package com.android.settings.gestures;
 
+import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
+
+import androidx.preference.SwitchPreference;
+
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.om.IOverlayManager;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.os.RemoteException;
+import android.os.ServiceManager;
+import android.os.UserHandle;
 import android.provider.Settings;
+import android.util.Log;
 import android.view.WindowManager;
 
 import com.android.settings.R;
@@ -44,9 +53,16 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     private static final String LEFT_EDGE_SEEKBAR_KEY = "gesture_left_back_sensitivity";
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
+    
+    private static final String FULLSCREEN_GESTURE_PREF_KEY = "fullscreen_gestures";
+    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.zeph.overlay.systemui.navbar.gestural";
+    
+    private static final String IMMERSIVE_GESTURE_PREF_KEY = "immersive_gestures";
+    private static final String IMMERSIVE_GESTURE_OVERLAY_PKG = "com.zeph.overlay.systemui.navbar_immersive.gestural";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
+    private IOverlayManager mOverlayManager;
 
     private float[] mBackGestureInsetScales;
     private float mDefaultBackGestureInset;
@@ -61,13 +77,15 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         mIndicatorView = new BackGestureIndicatorView(getActivity());
         mWindowManager = (WindowManager) getActivity().getSystemService(Context.WINDOW_SERVICE);
+        mOverlayManager = IOverlayManager.Stub.asInterface(
+            ServiceManager.getService(Context.OVERLAY_SERVICE));
     }
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         super.onCreatePreferences(savedInstanceState, rootKey);
 
-        final Resources res = getActivity().getResources();
+        final Resources res = getResources();
         mDefaultBackGestureInset = res.getDimensionPixelSize(
                 com.android.internal.R.dimen.config_backGestureInset);
         mBackGestureInsetScales = getFloatArray(res.obtainTypedArray(
@@ -75,6 +93,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         initSeekBarPreference(LEFT_EDGE_SEEKBAR_KEY);
         initSeekBarPreference(RIGHT_EDGE_SEEKBAR_KEY);
+        initFullscreenGesturePreference();
+        initImmersiveGesturePreference();
     }
 
     @Override
@@ -114,7 +134,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     }
 
     private void initSeekBarPreference(final String key) {
-        final LabeledSeekBarPreference pref = getPreferenceScreen().findPreference(key);
+        final LabeledSeekBarPreference pref = findPreference(key);
         pref.setContinuousUpdates(true);
         pref.setHapticFeedbackMode(SeekBarPreference.HAPTIC_FEEDBACK_MODE_ON_TICKS);
 
@@ -148,6 +168,44 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             Settings.Secure.putFloat(getContext().getContentResolver(), settingsKey, scale);
             return true;
         });
+    }
+    
+    private void initFullscreenGesturePreference() {
+        findPreference(FULLSCREEN_GESTURE_PREF_KEY)
+            .setOnPreferenceChangeListener((pref, newValue) -> {
+                final boolean isChecked = (boolean) newValue;
+                SwitchPreference immersive = (SwitchPreference) findPreference(IMMERSIVE_GESTURE_PREF_KEY);
+                try {
+                    mOverlayManager.setEnabledExclusiveInCategory(
+                        isChecked ? FULLSCREEN_GESTURE_OVERLAY_PKG : NAV_BAR_MODE_GESTURAL_OVERLAY,
+                        UserHandle.USER_CURRENT);
+                } catch (RemoteException e) {
+                    Log.e(TAG, "RemoteException while setting fullscreen gesture overlay");
+                }
+                if (isChecked) {
+                immersive.setChecked(false);
+                }
+                return true;
+            });
+    }
+    
+    private void initImmersiveGesturePreference() {
+        findPreference(IMMERSIVE_GESTURE_PREF_KEY)
+            .setOnPreferenceChangeListener((pref, newValue) -> {
+                final boolean isChecked = (boolean) newValue;
+                SwitchPreference fullscreen = (SwitchPreference) findPreference(FULLSCREEN_GESTURE_PREF_KEY);
+                try {
+                    mOverlayManager.setEnabledExclusiveInCategory(
+                        isChecked ? IMMERSIVE_GESTURE_OVERLAY_PKG : NAV_BAR_MODE_GESTURAL_OVERLAY,
+                        UserHandle.USER_CURRENT);
+                } catch (RemoteException e) {
+                    Log.e(TAG, "RemoteException while setting immersive gesture overlay");
+                }
+                if (isChecked) {
+                fullscreen.setChecked(false);
+                }
+                return true;
+            });
     }
 
     private static float[] getFloatArray(TypedArray array) {
