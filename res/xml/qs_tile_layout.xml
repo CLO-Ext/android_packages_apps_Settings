@@ -14,6 +14,12 @@
         android:summary="@string/qs_tile_hide_label_summary"
         android:defaultValue="false" />
 
+    <org.zeph.support.preference.SystemSettingSwitchPreference
+        android:key="qs_tile_vertical_layout"
+        android:title="@string/qs_tile_vertical_layout_title"
+        android:summary="@string/qs_tile_vertical_layout_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="tiles_layout"
         android:title="@string/qs_tiles_layout_category">

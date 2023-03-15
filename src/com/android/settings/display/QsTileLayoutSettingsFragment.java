@@ -24,10 +24,13 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.widget.LayoutPreference;
 
 import org.zeph.support.preference.CustomSeekBarPreference;
+import org.zeph.support.preference.SystemSettingSwitchPreference;
 
 public class QsTileLayoutSettingsFragment extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
+    private static final String KEY_QS_HIDE_LABEL = "qs_tile_label_hide";
+    private static final String KEY_QS_VERTICAL_LAYOUT = "qs_tile_vertical_layout";
     private static final String KEY_QS_COLUMN_PORTRAIT = "qs_layout_columns";
     private static final String KEY_QS_ROW_PORTRAIT = "qs_layout_rows";
     private static final String KEY_QQS_ROW_PORTRAIT = "qqs_layout_rows";
@@ -40,6 +43,9 @@ public class QsTileLayoutSettingsFragment extends SettingsPreferenceFragment
     private CustomSeekBarPreference mQsColumns;
     private CustomSeekBarPreference mQsRows;
     private CustomSeekBarPreference mQqsRows;
+
+    private SystemSettingSwitchPreference mHide;
+    private SystemSettingSwitchPreference mVertical;
 
     private int[] currentValue = new int[2];
 
@@ -94,11 +100,22 @@ public class QsTileLayoutSettingsFragment extends SettingsPreferenceFragment
         });
 
         initPreference();
+
+        final boolean hideLabel = TileUtils.getQSTileLabelHide(mContext);
+
+        mHide = (SystemSettingSwitchPreference) findPreference(KEY_QS_HIDE_LABEL);
+        mHide.setOnPreferenceChangeListener(this);
+
+        mVertical = (SystemSettingSwitchPreference) findPreference(KEY_QS_VERTICAL_LAYOUT);
+        mVertical.setEnabled(!hideLabel);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mQsColumns) {
+        if (preference == mHide) {
+            boolean hideLabel = (Boolean) newValue;
+            mVertical.setEnabled(!hideLabel);
+        } else if (preference == mQsColumns) {
             int qs_columns = Integer.parseInt(newValue.toString());
             mApplyChange.setEnabled(
                 currentValue[0] != mQsRows.getValue() * 10 + qs_columns ||
