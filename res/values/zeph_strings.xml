@@ -185,4 +185,7 @@
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
     <string name="skip_manually_confirmation">Skip manually confirmation</string>
 
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">Show data usage</string>
+    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
 </resources>

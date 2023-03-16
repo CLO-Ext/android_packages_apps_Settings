@@ -132,26 +132,33 @@
         android:order="25"
         settings:controller="com.android.settings.network.AdaptiveConnectivityPreferenceController"/>
 
-     <org.zeph.support.preference.SystemSettingSwitchPreference
+        <org.zeph.support.preference.SecureSettingSwitchPreference
+            android:key="qs_show_data_usage"
+            android:title="@string/qs_show_data_usage_title"
+            android:summary="@string/qs_show_data_usage_summary"
+            android:order="30"
+            android:defaultValue="true" />
+
+        <org.zeph.support.preference.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
             android:title="@string/show_fourg_icon_title"
             android:summary="@string/show_fourg_icon_summary"
-            android:order="30"
+            android:order="35"
             android:defaultValue="false" />
             
-      <org.zeph.support.preference.SystemSettingSwitchPreference
+        <org.zeph.support.preference.SystemSettingSwitchPreference
             android:key="use_old_mobiletype"
             android:title="@string/use_old_mobiletype_title"
             android:summary="@string/use_old_mobiletype_summary"
-            android:order="35"
+            android:order="40"
             android:defaultValue="false" />
      
-     <com.android.settingslib.PrimarySwitchPreference
+        <com.android.settingslib.PrimarySwitchPreference
             android:key="network_traffic_state"
             android:fragment="com.android.settings.display.NetworkTraffic"
             android:title="@string/network_traffic_state_title"
             android:summary="@string/network_traffic_state_summary"
-            android:order="40"
+            android:order="45"
 	    android:defaultValue="false"
             settings:controller="com.android.settings.display.NetworkTrafficPreferenceController" />
 
