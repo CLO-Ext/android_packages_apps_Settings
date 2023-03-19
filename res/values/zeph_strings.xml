@@ -18,6 +18,12 @@
     <!-- Project Zephyrus version -->
     <string name="zeph_version">Project Zephyrus</string>
 
+   <!-- Units -->
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_pixels">dp</string>
+    <string name="unit_hz">hz</string>
+
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
