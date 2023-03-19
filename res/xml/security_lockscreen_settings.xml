@@ -99,6 +99,12 @@
             android:summary="%s"
             android:defaultValue="0" />
 
+        <Preference
+            android:key="android.theme.customization.lockscreen_clock_font"
+            android:title="@string/theme_customization_lock_clock_title"
+            android:summary="@string/theme_customization_lock_clock_summary"
+            android:fragment="com.android.settings.display.LockClockFonts"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory

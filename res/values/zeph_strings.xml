@@ -311,4 +311,10 @@
     <string name="clock_use_single_line_title">Custom clock format</string>
     <string name="single_line">Single-line</string>
     <string name="double_line">Double-line</string>
+
+    <!-- Fonts -->
+    <string name="clock_format">12\n26</string>
+    <string name="text_sample">AaBbCc</string>
+    <string name="theme_customization_lock_clock_title">Clock font style</string>
+    <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
 </resources>
