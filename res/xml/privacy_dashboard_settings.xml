@@ -21,6 +21,37 @@
     android:key="privacy_dashboard_page"
     android:title="@string/privacy_dashboard_title">
 
+
+    <!-- Privacy indicator -->
+    <PreferenceCategory
+        android:title="@string/privacy_toggles">
+
+        <!-- Mic / camera -->
+        <org.zeph.support.preference.SecureSettingSwitchPreference
+            android:key="mic_camera_privacy_indicators_enabled"
+            android:title="@string/mic_camera_privacy_indicator_title"
+            android:summary="@string/mic_camera_privacy_indicator_summary"
+            android:defaultValue="true"
+            settings:controller="com.android.settings.privacy.CameraIndicatorToggleController"/>
+
+        <!-- Location -->
+        <org.zeph.support.preference.SecureSettingSwitchPreference
+            android:key="location_privacy_indicator_enabled"
+            android:title="@string/location_privacy_indicator_title"
+            android:summary="@string/location_privacy_indicator_summary"
+            android:defaultValue="true"
+            settings:controller="com.android.settings.privacy.GPSIndicatorToggleController"/>
+
+        <!-- Media Projection -->
+        <org.zeph.support.preference.SecureSettingSwitchPreference
+            android:key="media_projection_indicator_enabled"
+            android:title="@string/projection_privacy_indicator_title"
+            android:summary="@string/projection_privacy_indicator_summary"
+            android:defaultValue="true"
+            settings:controller="com.android.settings.privacy.MediaIndicatorToggleController"/>
+
+    </PreferenceCategory>
+
     <!-- Work Policy info -->
     <Preference
         android:key="work_policy_info"
