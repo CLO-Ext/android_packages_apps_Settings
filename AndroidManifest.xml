@@ -5335,6 +5335,14 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
             </intent-filter>
         </receiver>
 
+        <!-- Bluetooth Timeout -->
+        <receiver android:name="com.android.settingslib.bluetooth.BluetoothTimeoutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.bluetooth.intent.TIMEOUT" />
+            </intent-filter>
+        </receiver>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
