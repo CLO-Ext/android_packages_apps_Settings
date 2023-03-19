@@ -305,4 +305,10 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+
+    <!-- Lockscreen Clock -->
+    <string name="default_string">Default</string>
+    <string name="clock_use_single_line_title">Custom clock format</string>
+    <string name="single_line">Single-line</string>
+    <string name="double_line">Double-line</string>
 </resources>
