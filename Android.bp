@@ -116,6 +116,7 @@ android_library {
         "SystemUIUnfoldLib",
         "VendorSupport-Libs",
         "faceunlock_framework",
+        "glide",
     ],
 
     libs: [
