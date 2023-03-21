@@ -18,7 +18,28 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/media_controls_title">
+
+    <org.zeph.support.preference.SystemSettingSeekBarPreference
+        android:key="media_artwork_fade_percent"
+        android:title="@string/media_artwork_fade_percent_title"
+        android:defaultValue="30"
+        android:max="50"
+        settings:min="1" />
+
+    <org.zeph.support.preference.SystemSettingSwitchPreference
+        android:key="media_artwork_blur_enabled"
+        android:title="@string/artwork_media_background_enable_blur_title"
+        android:defaultValue="false" />
+
+    <org.zeph.support.preference.SystemSettingSeekBarPreference
+        android:key="media_artwork_blur_radius"
+        android:title="@string/artwork_media_background_blur_radius_title"
+        android:dependency="media_artwork_blur_enabled"
+        android:defaultValue="5"
+        android:max="125"
+        settings:min="5" />
 
     <SwitchPreference
         android:key="media_controls_resume_switch"

@@ -392,4 +392,9 @@
     <string name="text_sample">AaBbCc</string>
     <string name="theme_customization_lock_clock_title">Clock font style</string>
     <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
+
+    <!-- Media artwork -->
+    <string name="artwork_media_background_enable_blur_title">Blur media notification artwork background</string>
+    <string name="artwork_media_background_blur_radius_title">Blur amount for media notification artwork</string>
+    <string name="media_artwork_fade_percent_title">Fade percent for media notification artwork</string>
 </resources>
