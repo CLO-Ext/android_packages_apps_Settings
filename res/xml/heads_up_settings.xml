@@ -45,6 +45,14 @@
         android:dependency="heads_up_notifications_enabled"
         android:persistent="false" />
 
+    <org.zeph.support.preference.SystemSettingListPreference
+        android:key="heads_up_notifications_threshold"
+        android:title="@string/hun_importance_title"
+        android:summary="%s"
+        android:entries="@array/hun_importance_entries"
+        android:entryValues="@array/hun_importance_values"
+        android:defaultValue="4" />
+
     <Preference
         android:key="heads_up_stoplist"
         android:title="@string/heads_up_stoplist_title"

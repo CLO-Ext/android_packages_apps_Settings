@@ -291,6 +291,14 @@
     <string name="heads_up_blacklist_title">Blacklist apps</string>
     <string name="heads_up_blacklist_summary">Disable all heads up notifications from specific applications</string>
 
+    <!-- HeadsUp notifications importance threshold -->
+    <string name="hun_importance_title">Importance threshold</string>
+    <string name="hun_importance_min">Minimum</string>
+    <string name="hun_importance_low">Low</string>
+    <string name="hun_importance_default">Default</string>
+    <string name="hun_importance_high">High</string>
+    <string name="hun_importance_max">Maximum</string>
+
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
     <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
