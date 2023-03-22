@@ -21,6 +21,7 @@ import static android.app.admin.DevicePolicyResources.Strings.Settings.WORK_PROF
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.res.Resources;
 import android.hardware.display.AmbientDisplayConfiguration;
 import android.net.Uri;
 import android.os.Bundle;
@@ -29,6 +30,7 @@ import android.os.Looper;
 import android.provider.Settings;
 
 import androidx.annotation.VisibleForTesting;
+import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
@@ -70,6 +72,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
 
     private static final String[] DEFAULT_START_SHORTCUT = new String[] { "home", "flashlight" };
     private static final String[] DEFAULT_END_SHORTCUT = new String[] { "wallet", "qr", "camera" };
+    private static final String PREF_AMBIENT_TIME_OUT = "ambient_notif_timeout";
 
     @VisibleForTesting
     static final String KEY_LOCK_SCREEN_NOTIFICATON = "security_setting_lock_screen_notif";
@@ -91,6 +94,8 @@ public class LockscreenDashboardFragment extends DashboardFragment
     private SystemSettingListPreference mEndShortcut;
     private SwitchPreference mEnforceShortcut;
 
+    private ListPreference mAmbientTimeOut;
+
     @Override
     public int getMetricsCategory() {
         return SettingsEnums.SETTINGS_LOCK_SCREEN_PREFERENCES;
@@ -109,6 +114,22 @@ public class LockscreenDashboardFragment extends DashboardFragment
                 R.string.locked_work_profile_notification_title);
         replaceEnterpriseStringTitle("security_setting_lock_screen_notif_work_header",
                 WORK_PROFILE_NOTIFICATIONS_SECTION_HEADER, R.string.profile_section_header);
+
+       Resources systemUiResources;
+        try {
+            systemUiResources = getPackageManager().getResourcesForApplication("com.android.systemui");
+        } catch (Exception e) {
+            return;
+        }
+
+        int defaultTimeOut = systemUiResources.getInteger(systemUiResources.getIdentifier(
+                    "com.android.systemui:integer/heads_up_notification_decay", null, null));
+        mAmbientTimeOut = (ListPreference) findPreference(PREF_AMBIENT_TIME_OUT);
+        mAmbientTimeOut.setOnPreferenceChangeListener(this);
+        int ambientTimeOut = Settings.System.getInt(getContentResolver(),
+                Settings.System.AMBIENT_NOTIF_TIMEOUT, defaultTimeOut);
+        mAmbientTimeOut.setValue(String.valueOf(ambientTimeOut));
+        updateAmbientTimeOutSummary(ambientTimeOut);
 
         mStartShortcut = findPreference(SHORTCUT_START_KEY);
         mEndShortcut = findPreference(SHORTCUT_END_KEY);
@@ -159,6 +180,12 @@ public class LockscreenDashboardFragment extends DashboardFragment
             setShortcutSelection(mStartShortcut.getValue(), true, value);
             setShortcutSelection(mEndShortcut.getValue(), false, value);
             return true;
+        } else if (preference == mAmbientTimeOut) {
+            int ambientTimeOut = Integer.valueOf((String) objValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.AMBIENT_NOTIF_TIMEOUT,
+                    ambientTimeOut);
+            updateAmbientTimeOutSummary(ambientTimeOut);
         }
         return false;
     }
@@ -252,6 +279,11 @@ public class LockscreenDashboardFragment extends DashboardFragment
             mConfig = new AmbientDisplayConfiguration(context);
         }
         return mConfig;
+    }
+
+    private void updateAmbientTimeOutSummary(int value) {
+        String summary = getResources().getString(R.string.heads_up_time_out_summary, value / 1000);
+        mAmbientTimeOut.setSummary(summary);
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
