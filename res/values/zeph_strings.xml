@@ -252,4 +252,8 @@
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
+
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Narrow IME space</string>
+    <string name="navigation_bar_ime_space_summary">Narrow space under keyboard while keeping the gestural pill</string>
 </resources>

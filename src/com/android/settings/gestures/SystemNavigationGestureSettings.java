@@ -77,6 +77,8 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
     
     private static final String IMMERSIVE_GESTURE_OVERLAY_PKG = "com.zeph.overlay.systemui.navbar_immersive.gestural";
 
+    private static final String IME_GESTURE_OVERLAY_PKG = "com.zeph.overlay.systemui.navbar_ime.narrow";
+
     private static final String KEY_SHOW_A11Y_TUTORIAL_DIALOG = "show_a11y_tutorial_dialog_bool";
 
     private static final int MIN_LARGESCREEN_WIDTH_DP = 600;
@@ -227,7 +229,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         setGestureNavigationTutorialDialog(key);
         return true;
     }
-
+    
     static void migrateOverlaySensitivityToSettings(Context context,
             IOverlayManager overlayManager) {
         if (!SystemNavigationPreferenceController.isGestureNavigationEnabled(context)) {
@@ -237,14 +239,17 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         OverlayInfo info = null;
         OverlayInfo fullscreenOverlayInfo = null;
         OverlayInfo immersiveOverlayInfo = null;
+        OverlayInfo imeOverlayInfo = null;
         try {
             info = overlayManager.getOverlayInfo(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
             fullscreenOverlayInfo = overlayManager.getOverlayInfo(FULLSCREEN_GESTURE_OVERLAY_PKG, USER_CURRENT);
             immersiveOverlayInfo = overlayManager.getOverlayInfo(IMMERSIVE_GESTURE_OVERLAY_PKG, USER_CURRENT);
+            imeOverlayInfo = overlayManager.getOverlayInfo(IME_GESTURE_OVERLAY_PKG, USER_CURRENT);
         } catch (RemoteException e) { /* Do nothing */ }
         if (info != null && !info.isEnabled() &&
                (fullscreenOverlayInfo == null || !fullscreenOverlayInfo.isEnabled()) && 
-               (immersiveOverlayInfo == null || !immersiveOverlayInfo.isEnabled())) {
+               (immersiveOverlayInfo == null || !immersiveOverlayInfo.isEnabled()) &&
+               (imeOverlayInfo == null || !imeOverlayInfo.isEnabled())) {
             // Enable the default gesture nav overlay. Back sensitivity for left and right are
             // stored as separate settings values, and other gesture nav overlays are deprecated.
             setCurrentSystemNavigationMode(context, overlayManager, KEY_SYSTEM_NAV_GESTURAL);
@@ -276,14 +281,18 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
                 final boolean immersive = Settings.System.getIntForUser(context.getContentResolver(),
                     Settings.System.IMMERSIVE_GESTURES, 0,
                     USER_CURRENT) == 1;
+                final boolean ime = Settings.System.getIntForUser(context.getContentResolver(),
+                Settings.System.NAVIGATION_BAR_IME_SPACE, 0, USER_CURRENT) == 1;
                 if (fullscreen) {
                 	overlayPackage = FULLSCREEN_GESTURE_OVERLAY_PKG;
                 }
                 else if (immersive) {
                 	overlayPackage = IMMERSIVE_GESTURE_OVERLAY_PKG;
                 }
-                else {
-                	overlayPackage = NAV_BAR_MODE_GESTURAL_OVERLAY; 
+                else if (ime) {
+                  overlayPackage = IME_GESTURE_OVERLAY_PKG;
+                } else {
+                  overlayPackage = NAV_BAR_MODE_GESTURAL_OVERLAY;
                 }
                 break;
             case KEY_SYSTEM_NAV_2BUTTONS:
