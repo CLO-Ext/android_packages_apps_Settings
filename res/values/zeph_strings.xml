@@ -308,6 +308,7 @@
     <string name="clock_use_single_line_title">Custom clock format</string>
     <string name="single_line">Single-line</string>
     <string name="double_line">Double-line</string>
+    <string name="kg_custom_clock_top_margin_title">Lockscreen large clock bottom spacing</string>
 
     <!-- Fonts -->
     <string name="clock_format">12\n26</string>
