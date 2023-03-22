@@ -327,4 +327,8 @@
     <string name="lockscreen_shortcut_none">None</string>
     <string name="lockscreen_shortcut_enforce_title">Single shortcut</string>
     <string name="lockscreen_shortcut_enforce_summary">Enforce chosen shortcut to be the only existing priority\nWill show nothing until the specific chosen shortcut is available</string>
+
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Narrow IME space</string>
+    <string name="navigation_bar_ime_space_summary">Narrow space under keyboard while keeping the gestural pill</string>
 </resources>
