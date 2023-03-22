@@ -317,4 +317,7 @@
     <string name="text_sample">AaBbCc</string>
     <string name="theme_customization_lock_clock_title">Clock font style</string>
     <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
+
+    <!-- Ambient timeout -->
+    <string name="ambient_time_out_title">Ambient notification time out</string>
 </resources>
