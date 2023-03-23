@@ -145,12 +145,19 @@
             android:summary="@string/show_fourg_icon_summary"
             android:order="35"
             android:defaultValue="false" />
+
+        <org.zeph.support.preference.SystemSettingSwitchPreference
+            android:key="data_disabled_icon"
+            android:title="@string/data_disabled_icon_title"
+            android:summary="@string/data_disabled_icon_summary"
+            android:order="40"
+            android:defaultValue="true" />
             
         <org.zeph.support.preference.SystemSettingSwitchPreference
             android:key="use_old_mobiletype"
             android:title="@string/use_old_mobiletype_title"
             android:summary="@string/use_old_mobiletype_summary"
-            android:order="40"
+            android:order="45"
             android:defaultValue="false" />
      
         <com.android.settingslib.PrimarySwitchPreference
@@ -158,7 +165,7 @@
             android:fragment="com.android.settings.display.NetworkTraffic"
             android:title="@string/network_traffic_state_title"
             android:summary="@string/network_traffic_state_summary"
-            android:order="45"
+            android:order="50"
 	    android:defaultValue="false"
             settings:controller="com.android.settings.display.NetworkTrafficPreferenceController" />
 
