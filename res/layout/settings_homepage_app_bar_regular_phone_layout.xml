@@ -16,7 +16,7 @@
   -->
 <com.google.android.material.appbar.CollapsingToolbarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/search_bar"
+    android:id="@+id/search_bar_container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:layout_scrollFlags="scroll|exitUntilCollapsed"
@@ -94,3 +94,4 @@
         </com.google.android.material.card.MaterialCardView>
     </androidx.appcompat.widget.Toolbar>
 </com.google.android.material.appbar.CollapsingToolbarLayout>
+
