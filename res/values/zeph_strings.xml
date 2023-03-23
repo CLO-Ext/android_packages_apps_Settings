@@ -324,4 +324,12 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+    
+    <!-- Alert Slider Pulse (OnePlus devices) -->
+    <string name="alert_slider_pulse_title">Alert slider pulse</string>
+    <string name="alert_slider_pulse_summary">Pulse ambient display when changing alert slider position</string>    
+
+    <!-- Alert Slider block -->
+    <string name="block_alert_title">Block Alert slider</string>
+    <string name="block_alert_summary">Pocket mode will block the Alert slider</string> 
 </resources>
