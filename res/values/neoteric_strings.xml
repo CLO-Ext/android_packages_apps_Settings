@@ -60,4 +60,9 @@
     <!-- Partial Screenshot -->
     <string name="click_partial_screenshot_title">Click to partial screenshot</string>
     <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+
+    <!-- Three finger swipe screenshot behavior -->
+    <string name="three_finger_title">Three finger swipe screenshot behavior</string>
+    <string name="three_finger_full">Fullscreen screenshot</string>
+    <string name="three_finger_partial">Partial screenshot</string>
 </resources>
