@@ -34,6 +34,24 @@
         settings:keywords="@string/keywords_wifi_notify_open_networks"
         settings:controller="com.android.settings.wifi.NotifyOpenNetworksPreferenceController"/>
 
+    <org.zeph.support.preference.SystemSettingListPreference
+        android:key="qs_click_behavior"
+        android:title="@string/click_internet_tile_behavior_title"
+        android:summary="%s"
+        android:entries="@array/click_internet_qs_entries"
+        android:entryValues="@array/click_internet_qs_values"
+        android:order="26"
+        android:defaultValue="0" />
+
+    <org.zeph.support.preference.SystemSettingListPreference
+        android:key="qs_long_click_behavior"
+        android:title="@string/lclick_internet_tile_behavior_title"
+        android:summary="%s"
+        android:entries="@array/lclick_internet_qs_entries"
+        android:entryValues="@array/lclick_internet_qs_values"
+        android:order="27"
+        android:defaultValue="0" />
+
     <ListPreference
         android:key="wifi_timeout"
         android:icon="@drawable/ic_wifi_off"
