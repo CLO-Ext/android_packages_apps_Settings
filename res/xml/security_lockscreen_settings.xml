@@ -127,6 +127,11 @@
             android:dependency="kg_custom_clock_color_enabled"
             android:defaultValue="0xFFFFFFFF"/>
 
+        <org.zeph.support.preference.SecureSettingSwitchPreference
+            android:key="is_kg_custom_clock_top_margin"
+            android:title="@string/clock_margin_customization_title"
+            android:defaultValue="false" />
+
         <org.zeph.support.preference.SecureSettingSeekBarPreference
             android:key="kg_custom_clock_top_margin"
             android:title="@string/kg_custom_clock_top_margin_title"
@@ -134,7 +139,13 @@
             android:min="80"
             settings:interval="1"
             android:defaultValue="120"
+            android:dependency="is_kg_custom_clock_top_margin"
             settings:units="dp" />
+
+        <org.zeph.support.preference.SecureSettingSwitchPreference
+            android:key="is_kg_big_clock_text_size"
+            android:title="@string/clock_size_customization_title"
+            android:defaultValue="false" />
 
         <org.zeph.support.preference.SecureSettingSeekBarPreference
             android:key="kg_big_clock_text_size"
@@ -143,6 +154,7 @@
             settings:min="80"
             settings:interval="1"
             android:defaultValue="180"
+            android:dependency="is_kg_big_clock_text_size"
             settings:units="dp" />
 
         <Preference

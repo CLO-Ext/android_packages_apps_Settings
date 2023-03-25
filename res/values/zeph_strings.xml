@@ -387,6 +387,8 @@
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
 
     <!-- Lockscreen Clock -->
+    <string name="clock_size_customization_title">Custom large lockscreen clock size</string>
+    <string name="clock_margin_customization_title">Custom large lockscreen clock margin</string>
     <string name="default_string">Default</string>
     <string name="clock_use_single_line_title">Custom clock format</string>
     <string name="single_line">Single-line</string>
