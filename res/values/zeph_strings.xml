@@ -487,4 +487,9 @@
     <!-- Descendant Idle Manager -->
     <string name="descendant_idle_manager_title">Idle Manager</string>
     <string name="descendant_idle_manager_summary">Algorithm to ensure efficiency (recommended on)</string>
+    
+    <!-- Three finger swipe screenshot behavior -->
+    <string name="three_finger_title">Three finger swipe screenshot behavior</string>
+    <string name="three_finger_full">Fullscreen screenshot</string>
+    <string name="three_finger_partial">Partial screenshot</string>
 </resources>
