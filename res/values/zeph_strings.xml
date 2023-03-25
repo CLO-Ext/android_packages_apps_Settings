@@ -348,4 +348,13 @@
     <!-- Tiles on secure keyguard -->
     <string name="use_tiles_on_secure_keyguard_title">Require unlocking to use sensitive tiles</string>
     <string name="use_tiles_on_secure_keyguard_summary">Ask to unlock lockscreen when using sensitive tiles</string>
+
+    <!-- Internet QS Tile behavior -->
+    <string name="lclick_internet_tile_behavior_title">Long click Internet tile behavior</string>
+    <string name="click_internet_tile_behavior_title">Click Internet tile behavior</string>
+    <string name="wd_internet_tile">Toggle Wi-Fi and Data</string>
+    <string name="w_internet_tile">Toggle Wi-Fi</string>
+    <string name="d_internet_tile">Toggle Data</string>
+    <string name="s_internet_tile">Open Wi-Fi settings</string>
+    <string name="modern_panel_internet_tile">Open Internet QS panel</string>
 </resources>

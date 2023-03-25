@@ -195,5 +195,32 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <!-- Internet QS Tile behavior -->
+    <string-array name="click_internet_qs_entries" translatable="false">
+        <item>@string/modern_panel_internet_tile</item>
+        <item>@string/wd_internet_tile</item>
+        <item>@string/w_internet_tile</item>
+        <item>@string/d_internet_tile</item>
+    </string-array>
+
+    <string-array name="click_internet_qs_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="lclick_internet_qs_entries" translatable="false">
+        <item>@string/s_internet_tile</item>
+        <item>@string/modern_panel_internet_tile</item>
+        <item>@string/wd_internet_tile</item>
+    </string-array>
+
+    <string-array name="lclick_internet_qs_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>
 
