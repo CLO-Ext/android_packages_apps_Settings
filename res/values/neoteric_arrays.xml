@@ -33,4 +33,13 @@
         <item>2</item>
     </string-array>
 
+    <!-- Three finger swipe screenshot behavior -->
+    <string-array name="three_finger_entries" translatable="false">
+        <item>@string/three_finger_full</item>
+        <item>@string/three_finger_partial</item>
+    </string-array>
+    <string-array name="three_finger_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
 </resources>
