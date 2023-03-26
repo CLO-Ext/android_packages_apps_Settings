@@ -357,4 +357,12 @@
     <string name="d_internet_tile">Toggle Data</string>
     <string name="s_internet_tile">Open Wi-Fi settings</string>
     <string name="modern_panel_internet_tile">Open Internet QS panel</string>
+        
+    <!-- Bluetooth QS Tile behavior -->
+    <string name="lclick_bluetooth_tile_behavior_title">Long click Bluetooth tile behavior</string>
+    <string name="click_bluetooth_tile_behavior_title">Click Bluetooth tile behavior</string>
+    <string name="bd_bluetooth_tile">Open Connected devices settings</string>
+    <string name="b_bluetooth_tile">Toggle Bluetooth</string>
+    <string name="p_bluetooth_tile">Open Pairing settings</string>
+    <string name="modern_panel_bluetooth_tile">Open Bluetooth QS panel</string>
 </resources>
