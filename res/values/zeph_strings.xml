@@ -344,4 +344,8 @@
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_enable_title">Enable power menu on lock screen</string>
     <string name="lockscreen_power_menu_enable_summary">This will only disable the power menu on secure lock screens</string>
+    
+    <!-- Tiles on secure keyguard -->
+    <string name="use_tiles_on_secure_keyguard_title">Require unlocking to use sensitive tiles</string>
+    <string name="use_tiles_on_secure_keyguard_summary">Ask to unlock lockscreen when using sensitive tiles</string>
 </resources>
