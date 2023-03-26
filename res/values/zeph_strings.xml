@@ -499,4 +499,8 @@
     <string name="three_finger_title">Three finger swipe screenshot behavior</string>
     <string name="three_finger_full">Fullscreen screenshot</string>
     <string name="three_finger_partial">Partial screenshot</string>
+    
+    <!-- Tiles on secure keyguard -->
+    <string name="use_tiles_on_secure_keyguard_title">Require unlocking to use sensitive tiles</string>
+    <string name="use_tiles_on_secure_keyguard_summary">Ask to unlock lockscreen when using sensitive tiles</string>
 </resources>
