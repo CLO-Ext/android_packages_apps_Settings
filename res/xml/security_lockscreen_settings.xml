@@ -174,12 +174,6 @@
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
 
-        <SwitchPreference
-            android:key="pulse_on_new_tracks"
-            android:title="@string/pulse_on_new_tracks_title"
-            android:summary="@string/pulse_on_new_tracks_summary"
-            settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
-
 	<com.android.settingslib.PrimarySwitchPreference
             android:key="gesture_tap"
             android:title="@string/ambient_display_tap_screen_title"
@@ -215,19 +209,12 @@
             android:summary="@string/doze_enabled_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
-        <!-- Controls wake for notifications -->
-        <org.zeph.support.preference.SecureSettingSwitchPreference
-            android:key="doze_for_notifications"
-            android:title="@string/doze_title"
-            android:summary="@string/doze_summary"
-            android:defaultValue="true" />
-
-        <ListPreference
-            android:key="ambient_notif_timeout"
-            android:title="@string/ambient_time_out_title"
-            android:entries="@array/heads_up_time_out_entries"
-            android:entryValues="@array/heads_up_time_out_values"
-            android:persistent="false" />
+        <Preference
+            android:key="ambient_notification_options"
+            android:title="@string/ambient_notification_title"
+            android:summary="@string/ambient_notification_summary"
+            android:fragment="com.android.settings.display.AmbientNotifications"
+            android:dependency="ambient_display_notification"/>
 
     </PreferenceCategory>
 

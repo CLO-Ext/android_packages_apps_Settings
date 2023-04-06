@@ -365,4 +365,11 @@
     <string name="b_bluetooth_tile">Toggle Bluetooth</string>
     <string name="p_bluetooth_tile">Open Pairing settings</string>
     <string name="modern_panel_bluetooth_tile">Open Bluetooth QS panel</string>
+    
+    <!-- Ambient Notification Preference -->
+    <string name="ambient_notification_title">Ambient Notification options</string>
+    <string name="ambient_notification_summary">Customize behavior of notification on the Ambient Display</string>
+    <string name="ambient_notif_cat">Ambient Notifications</string>
+    <string name="ambient_music_cat">Music</string>
+    <string name="ambient_alert_slider_cat">Alert Slider</string>
 </resources>
