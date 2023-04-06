@@ -38,7 +38,6 @@ import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController;
 import com.android.settings.display.AmbientDisplayNotificationsPreferenceController;
-import com.android.settings.display.PulseOnNewTracksPreferenceController;
 import com.android.settings.gestures.DoubleTapScreenPreferenceController;
 import com.android.settings.gestures.PickupGesturePreferenceController;
 import com.android.settings.gestures.ScreenOffUdfpsPreferenceController;
@@ -72,7 +71,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
 
     private static final String[] DEFAULT_START_SHORTCUT = new String[] { "home", "flashlight" };
     private static final String[] DEFAULT_END_SHORTCUT = new String[] { "wallet", "qr", "camera" };
-    private static final String PREF_AMBIENT_TIME_OUT = "ambient_notif_timeout";
+    private static final String PREF_AMBIENT = "ambient_notification_options";
 
     @VisibleForTesting
     static final String KEY_LOCK_SCREEN_NOTIFICATON = "security_setting_lock_screen_notif";
@@ -115,22 +114,6 @@ public class LockscreenDashboardFragment extends DashboardFragment
         replaceEnterpriseStringTitle("security_setting_lock_screen_notif_work_header",
                 WORK_PROFILE_NOTIFICATIONS_SECTION_HEADER, R.string.profile_section_header);
 
-       Resources systemUiResources;
-        try {
-            systemUiResources = getPackageManager().getResourcesForApplication("com.android.systemui");
-        } catch (Exception e) {
-            return;
-        }
-
-        int defaultTimeOut = systemUiResources.getInteger(systemUiResources.getIdentifier(
-                    "com.android.systemui:integer/heads_up_notification_decay", null, null));
-        mAmbientTimeOut = (ListPreference) findPreference(PREF_AMBIENT_TIME_OUT);
-        mAmbientTimeOut.setOnPreferenceChangeListener(this);
-        int ambientTimeOut = Settings.System.getInt(getContentResolver(),
-                Settings.System.AMBIENT_NOTIF_TIMEOUT, defaultTimeOut);
-        mAmbientTimeOut.setValue(String.valueOf(ambientTimeOut));
-        updateAmbientTimeOutSummary(ambientTimeOut);
-
         mStartShortcut = findPreference(SHORTCUT_START_KEY);
         mEndShortcut = findPreference(SHORTCUT_END_KEY);
         mEnforceShortcut = findPreference(SHORTCUT_ENFORCE_KEY);
@@ -138,6 +121,10 @@ public class LockscreenDashboardFragment extends DashboardFragment
         mStartShortcut.setOnPreferenceChangeListener(this);
         mEndShortcut.setOnPreferenceChangeListener(this);
         mEnforceShortcut.setOnPreferenceChangeListener(this);
+
+        if (!getActivity().getResources().getBoolean(com.android.internal.R.bool.config_pulseOnNotificationsAvailable)) {
+            getPreferenceScreen().removePreference(findPreference(PREF_AMBIENT));
+        }
     }
 
     @Override
@@ -158,7 +145,6 @@ public class LockscreenDashboardFragment extends DashboardFragment
         use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
         use(ScreenOffUdfpsPreferenceController.class).setConfig(getConfig(context));
-        use(PulseOnNewTracksPreferenceController.class).setConfig(getConfig(context));
     }
 
     @Override
@@ -180,12 +166,6 @@ public class LockscreenDashboardFragment extends DashboardFragment
             setShortcutSelection(mStartShortcut.getValue(), true, value);
             setShortcutSelection(mEndShortcut.getValue(), false, value);
             return true;
-        } else if (preference == mAmbientTimeOut) {
-            int ambientTimeOut = Integer.valueOf((String) objValue);
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.AMBIENT_NOTIF_TIMEOUT,
-                    ambientTimeOut);
-            updateAmbientTimeOutSummary(ambientTimeOut);
         }
         return false;
     }
@@ -279,11 +259,6 @@ public class LockscreenDashboardFragment extends DashboardFragment
             mConfig = new AmbientDisplayConfiguration(context);
         }
         return mConfig;
-    }
-
-    private void updateAmbientTimeOutSummary(int value) {
-        String summary = getResources().getString(R.string.heads_up_time_out_summary, value / 1000);
-        mAmbientTimeOut.setSummary(summary);
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

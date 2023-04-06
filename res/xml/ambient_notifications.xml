@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+     
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/ambient_notification_title">
+
+    <PreferenceCategory
+        android:key="ambient_notif"
+        android:title="@string/ambient_notif_cat">
+
+        <!-- Controls wake for notifications -->
+        <org.zeph.support.preference.SecureSettingSwitchPreference
+            android:key="doze_for_notifications"
+            android:title="@string/doze_title"
+            android:summary="@string/doze_summary"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="ambient_notif_timeout"
+            android:title="@string/ambient_time_out_title"
+            android:entries="@array/heads_up_time_out_entries"
+            android:entryValues="@array/heads_up_time_out_values"
+            android:dependency="doze_for_notifications"
+            android:persistent="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="ambient_music"
+        android:title="@string/ambient_music_cat">
+
+        <org.zeph.support.preference.SystemSettingSwitchPreference
+            android:key="pulse_on_new_tracks"
+            android:title="@string/pulse_on_new_tracks_title"
+            android:summary="@string/pulse_on_new_tracks_summary" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="ambient_alert_slider"
+        android:title="@string/ambient_alert_slider_cat">
+
+        <org.zeph.support.preference.SystemSettingSwitchPreference
+            android:key="alert_slider_pulse"
+            android:title="@string/alert_slider_pulse_title"
+            android:summary="@string/alert_slider_pulse_summary"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
