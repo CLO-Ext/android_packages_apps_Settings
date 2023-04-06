@@ -173,8 +173,20 @@
     <string name="immersive_gestures_summary">Remove navigation bar height while keeping the gesture pill</string>
 
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_title">Pocket Judge</string>
+    <string name="pocket_judge_switch">Use Pocket Judge</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_alert_slider_cat">Alert Slider</string>
+    <string name="pocket_volume_cat">Volume Keys</string>
+    <string name="pocket_media_cat">Media Keys</string>
+    <string name="block_alert_title">Block Alert slider</string>
+    <string name="block_alert_summary">Pocket mode will block the Alert slider</string> 
+    <string name="block_volume_title">Block Volume keys</string>
+    <string name="block_volume_summary">Pocket mode will block the Volume keys</string>     
+    <string name="block_media_title">Block Media keys</string>
+    <string name="block_media_summary">Pocket mode will block the Media keys</string>
+    <string name="pocket_judge_intro">Pocket judge is a feature that prevents accidental button presses while your phone is in your pocket.</string>
+    <string name="pocket_judge_footer">This feature uses the proximity/pocket sensor so it will also get triggered when laying your phone on the table, screen down.\nAlthough the feature is customizable, the power button will always be unblocked. \nThe blocking of buttons does not affect Bluetooth and wired headphones.</string>
 
     <!-- Black theme for dark mode -->
     <string name="berry_black_theme_title">Pure black</string>
@@ -329,8 +341,6 @@
     <string name="alert_slider_title">Alert slider</string>
     <string name="alert_slider_pulse_title">Alert slider pulse</string>
     <string name="alert_slider_pulse_summary">Pulse ambient display when changing alert slider position</string>    
-    <string name="block_alert_title">Block Alert slider</string>
-    <string name="block_alert_summary">Pocket mode will block the Alert slider</string> 
 
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>

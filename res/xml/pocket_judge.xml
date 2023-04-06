@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+     
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/pocket_judge_title">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="pulse_settings_intro"
+        android:title="@string/pocket_judge_intro"
+        android:selectable="false"
+        android:persistent="false" />
+
+    <com.android.settings.preference.SystemSettingMainSwitchPreference
+        android:key="pocket_judge"
+        android:title="@string/pocket_judge_switch"
+        android:defaultValue="false" />
+    
+    <PreferenceCategory
+        android:key="pocket_alert_slider"
+        android:title="@string/pocket_alert_slider_cat">
+       
+        <org.zeph.support.preference.SystemSettingSwitchPreference
+            android:key="block_alert"
+            android:title="@string/block_alert_title"
+            android:summary="@string/block_alert_summary"
+            android:dependency="pocket_judge"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pocket_volume"
+        android:title="@string/pocket_volume_cat">
+       
+        <org.zeph.support.preference.SystemSettingSwitchPreference
+            android:key="block_volume"
+            android:title="@string/block_volume_title"
+            android:summary="@string/block_volume_summary"
+            android:dependency="pocket_judge"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pocket_media"
+        android:title="@string/pocket_media_cat">
+       
+        <org.zeph.support.preference.SystemSettingSwitchPreference
+            android:key="block_media"
+            android:title="@string/block_media_title"
+            android:summary="@string/block_media_summary"
+            android:dependency="pocket_judge"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="pulse_settings_footer"
+        android:selectable="false"
+        android:title="@string/pocket_judge_footer"
+        settings:searchable="false" />
+
+</PreferenceScreen>

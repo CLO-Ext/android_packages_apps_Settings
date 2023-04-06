@@ -259,25 +259,6 @@
         <SwitchPreference
           android:key="call_connected_tones"
           android:title="@string/call_connected_tones_title" />
-        
-    <PreferenceCategory
-        android:key="alert_slider"
-        android:title="@string/alert_slider_title" >
-    
-        <org.zeph.support.preference.SystemSettingSwitchPreference
-            android:key="block_alert"
-            android:title="@string/block_alert_title"
-            android:summary="@string/block_alert_summary"
-            android:defaultValue="false"
-            android:order="-3"/>
-        
-        <org.zeph.support.preference.SystemSettingSwitchPreference
-            android:key="alert_slider_pulse"
-            android:title="@string/alert_slider_pulse_title"
-            android:summary="@string/alert_slider_pulse_summary"
-            android:defaultValue="false"
-            android:order="-2"/>
-    </PreferenceCategory>
 
     <!-- Pulse Visualizer -->
     <Preference

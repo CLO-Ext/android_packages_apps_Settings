@@ -215,10 +215,13 @@
             android:summary="@string/double_tap_to_sleep_summary"
             android:defaultValue="true" />
 
-        <org.zeph.support.preference.SwitchPreference
+        <com.android.settingslib.PrimarySwitchPreference
             android:key="pocket_judge"
             android:title="@string/pocket_judge_title"
-            android:summary="@string/pocket_judge_summary" />
+            android:summary="@string/pocket_judge_summary"
+            android:fragment="com.android.settings.display.PocketJudge"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.display.PocketJudgePreferenceController" />
 
         <ListPreference
             android:key="theme"
