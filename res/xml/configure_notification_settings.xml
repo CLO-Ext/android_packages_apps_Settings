@@ -156,11 +156,13 @@
             android:defaultValue="false"
             settings:controller="com.android.settings.display.EdgeLightPreferenceController" />
 
-        <Preference
+        <com.android.settingslib.PrimarySwitchPreference
             android:key="heads_up_notifications"
             android:summary="@string/heads_up_notifications_summary"
             android:title="@string/heads_up_notifications_title"
-            android:fragment="com.android.settings.notification.HeadsUpSettings"/>
+            android:fragment="com.android.settings.notification.HeadsUpSettings"
+            android:defaultValue="true"
+            settings:controller="com.android.settings.display.HeadsUpPreferenceController" />
 
         <SwitchPreference
              android:key="silent_icons"

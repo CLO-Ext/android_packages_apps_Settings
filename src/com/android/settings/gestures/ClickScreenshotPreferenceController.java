@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 The Android Open Source Project
+ * Copyright (C) 2019 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,11 +16,10 @@
 
 package com.android.settings.gestures;
 
-import static android.provider.Settings.System.TORCH_POWER_BUTTON_GESTURE;
+import static android.provider.Settings.System.CLICK_PARTIAL_SCREENSHOT;
 
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.pm.PackageManager;
 import android.content.SharedPreferences;
 import android.database.ContentObserver;
 import android.net.Uri;
@@ -36,54 +35,52 @@ import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;    
 import com.android.settings.preference.SystemSettingMainSwitchPreference;
 
-public class PowerButtonTorchGesturePreferenceController extends GesturePreferenceController 
+public class ClickScreenshotPreferenceController extends GesturePreferenceController
         implements LifecycleObserver, OnStart, OnStop {
-            
+
     private final int ON = 1;
     private final int OFF = 0;
 
     private SystemSettingMainSwitchPreference mPreference;
     private SettingObserver mSettingObserver;
 
-    private final String PREF_KEY_VIDEO = "gesture_quick_torch_video";
+    private static final String PREF_KEY_VIDEO = "gesture_screen_off_udfps_video";
 
-    public PowerButtonTorchGesturePreferenceController(Context context, String key) {
+    public ClickScreenshotPreferenceController(Context context, String key) {
         super(context, key);
     }
 
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
-        mPreference = (SystemSettingMainSwitchPreference) screen.findPreference(TORCH_POWER_BUTTON_GESTURE);
+        mPreference = (SystemSettingMainSwitchPreference) screen.findPreference(CLICK_PARTIAL_SCREENSHOT);
         mSettingObserver = new SettingObserver(mPreference);
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return mContext.getPackageManager()
-                .hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH) ? AVAILABLE :
-                        UNSUPPORTED_ON_DEVICE;
+        return AVAILABLE;
     }
 
     @Override
     public boolean isSliceable() {
-        return TextUtils.equals(getPreferenceKey(), "power_button_torch");
+        return TextUtils.equals(getPreferenceKey(), "click_partial_screenshot");
     }
 
     @Override
-    public String getVideoPrefKey() {
+    protected String getVideoPrefKey() {
         return PREF_KEY_VIDEO;
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        return Settings.System.putInt(mContext.getContentResolver(), TORCH_POWER_BUTTON_GESTURE,
+        return Settings.System.putInt(mContext.getContentResolver(), CLICK_PARTIAL_SCREENSHOT,
                 isChecked ? ON : OFF);
     }
 
     @Override
     public boolean isChecked() {
-        return Settings.System.getInt(mContext.getContentResolver(), TORCH_POWER_BUTTON_GESTURE, OFF) != OFF;
+        return Settings.System.getInt(mContext.getContentResolver(), CLICK_PARTIAL_SCREENSHOT, 0) != 0;
     }
     
     @Override
@@ -102,7 +99,7 @@ public class PowerButtonTorchGesturePreferenceController extends GesturePreferen
     }
 
     private class SettingObserver extends ContentObserver {
-        private final Uri mUri = Settings.System.getUriFor(TORCH_POWER_BUTTON_GESTURE);
+        private final Uri mUri = Settings.System.getUriFor(CLICK_PARTIAL_SCREENSHOT);
 
         private final SystemSettingMainSwitchPreference mPreference;
 

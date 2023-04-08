@@ -223,7 +223,8 @@
         android:key="incall_feeedback_vibrate"
         android:title="@string/incall_feeedback_vibrate_title"
         android:defaultValue="false"
-        settings:controller="com.android.settings.sound.IncallFeedbackPreferenceController" />
+        settings:controller="com.android.settings.sound.IncallFeedbackPreferenceController"
+        android:order="-25"/>
 
     <!-- Dock speaker plays -->
     <DropDownPreference
@@ -258,11 +259,13 @@
         android:order="-4"/>
 
     <!-- Pulse Visualizer -->
-    <Preference
-        android:key="pulse"
+    <com.android.settingslib.PrimarySwitchPreference
+        android:key="pulse_enabled"
         android:title="@string/pulse_settings" 
         android:summary="@string/pulse_settings_summary" 
         android:fragment="com.android.settings.sound.PulseSettings" 
+        android:defaultValue="false"
+        settings:controller="com.android.settings.display.PulsePreferenceController"
         android:order="-1"/>
 
     <Preference

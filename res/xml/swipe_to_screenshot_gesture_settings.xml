@@ -22,15 +22,20 @@
     android:key="swipe_to_screenshot_screen"
     android:title="@string/three_finger_gesture">
 
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="swipe_to_screenshot_intro"
+        android:title="@string/three_finger_gesture_summary"
+        android:selectable="false"
+        android:persistent="false" />
+
     <com.android.settingslib.widget.IllustrationPreference
         android:key="swipe_to_screenshot_video" 
         settings:searchable="true"
         app:lottie_rawRes="@raw/lottie_gesture_swipe_to_screenshot" />
 
-    <SwitchPreference
-        android:key="swipe_to_screenshot"
+    <com.android.settings.preference.SystemSettingMainSwitchPreference
+        android:key="three_finger_gesture"
         android:title="@string/three_finger_gesture"
-        android:summary="@string/three_finger_gesture_summary"
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
@@ -40,6 +45,6 @@
         android:summary="%s"
         android:entries="@array/three_finger_entries"
         android:entryValues="@array/three_finger_values"
-        android:dependency="swipe_to_screenshot"
+        android:dependency="three_finger_gesture"
         android:defaultValue="0" />
 </PreferenceScreen>

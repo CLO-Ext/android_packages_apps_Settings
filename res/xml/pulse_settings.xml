@@ -20,15 +20,22 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/pulse_settings" >
 
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="pulse_enabled"
+        android:title="@string/pulse_main_toggle"
+        android:defaultValue="false"/>
+
     <SwitchPreference
         android:key="lockscreen_pulse_enabled"
         android:title="@string/show_lockscreen_pulse_title"
-        android:summary="@string/show_lockscreen_pulse_summary"/>
+        android:summary="@string/show_lockscreen_pulse_summary"
+        android:dependency="pulse_enabled"/>
 
     <SwitchPreference
         android:key="ambient_pulse_enabled"
         android:title="@string/show_ambient_pulse_title"
-        android:summary="@string/show_ambient_pulse_summary"/>
+        android:summary="@string/show_ambient_pulse_summary"
+        android:dependency="pulse_enabled"/>
 
     <org.zeph.support.preference.SecureSettingListPreference
         android:key="pulse_render_style"

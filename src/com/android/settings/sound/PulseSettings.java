@@ -23,6 +23,7 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
+import android.widget.Switch;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -35,13 +36,17 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.android.settingslib.widget.MainSwitchPreference;
+import com.android.settingslib.widget.OnMainSwitchChangeListener;
+
 import org.zeph.support.colorpicker.ColorPickerPreference;
 
 public class PulseSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
+        Preference.OnPreferenceChangeListener, OnMainSwitchChangeListener {
 
     private static final String TAG = PulseSettings.class.getSimpleName();
 
+    private static final String PULSE_ENABLED_KEY = "pulse_enabled";
     private static final String LOCKSCREEN_PULSE_ENABLED_KEY = "lockscreen_pulse_enabled";
     private static final String AMBIENT_PULSE_ENABLED_KEY = "ambient_pulse_enabled";
     private static final String PULSE_SMOOTHING_KEY = "pulse_smoothing_enabled";
@@ -51,6 +56,9 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     private static final String PULSE_RENDER_CATEGORY_SOLID = "pulse_2";
     private static final String PULSE_RENDER_CATEGORY_FADING = "pulse_fading_bars_category";
     private static final String PULSE_RENDER_MODE_KEY = "pulse_render_style";
+    private static final String PULSE_CUSTOM_GRAVITY_KEY = "pulse_custom_gravity";
+    private static final String PULSE_VISUALIZER_MIRRORED_KEY = "visualizer_center_mirrored";
+    private static final String PULSE_VERTICAL_MIRROR_KEY = "pulse_vertical_mirror";
     private static final int RENDER_STYLE_FADING_BARS = 0;
     private static final int RENDER_STYLE_SOLID_LINES = 1;
     private static final int COLOR_TYPE_ACCENT = 0;
@@ -60,6 +68,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
 
     private static final String PULSE_SETTINGS_FOOTER = "pulse_settings_footer";
 
+    private MainSwitchPreference mSwitchBar;
     private SwitchPreference mLockscreenPulse;
     private SwitchPreference mAmbientPulse;
     private SwitchPreference mPulseSmoothing;
@@ -68,6 +77,9 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     private ColorPickerPreference mColorPickerPref;
     private Preference mLavaSpeedPref;
     private Preference mFooterPref;
+    private ListPreference mGravity;
+    private SwitchPreference mVisualizerMirrored;
+    private SwitchPreference mVerticalMirror;
 
     private PreferenceCategory mFadingBarsCat;
     private PreferenceCategory mSolidBarsCat;
@@ -105,11 +117,27 @@ public class PulseSettings extends SettingsPreferenceFragment implements
         mSolidBarsCat = (PreferenceCategory) findPreference(
                 PULSE_RENDER_CATEGORY_SOLID);
 
+        mGravity = (ListPreference) findPreference(PULSE_CUSTOM_GRAVITY_KEY);
+        mVisualizerMirrored = (SwitchPreference) findPreference(PULSE_VISUALIZER_MIRRORED_KEY);
+        mVerticalMirror = (SwitchPreference) findPreference(PULSE_VERTICAL_MIRROR_KEY);
+
         mPulseSmoothing = (SwitchPreference) findPreference(PULSE_SMOOTHING_KEY);
 
         mFooterPref = findPreference(PULSE_SETTINGS_FOOTER);
         mFooterPref.setTitle(R.string.pulse_help_policy_notice_summary);
 
+        mSwitchBar = (MainSwitchPreference) findPreference(PULSE_ENABLED_KEY);
+        int enabled = Settings.Secure.getInt(resolver, PULSE_ENABLED_KEY, 0);
+        mSwitchBar.setChecked(enabled != 0);
+        mSwitchBar.addOnSwitchChangeListener(this);
+        updateAllPrefs();
+    }
+
+    @Override
+    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        Settings.Secure.putInt(resolver, PULSE_ENABLED_KEY, isChecked ? 1 : 0);
+        mSwitchBar.setChecked(isChecked);
         updateAllPrefs();
     }
 
@@ -140,16 +168,17 @@ public class PulseSettings extends SettingsPreferenceFragment implements
 
     private void updateAllPrefs() {
         ContentResolver resolver = getContext().getContentResolver();
+        boolean enabledPulse = Settings.Secure.getIntForUser(resolver,
+                Settings.Secure.PULSE_ENABLED, 0, UserHandle.USER_CURRENT) != 0;
 
-        boolean lockscreenPulse = Settings.Secure.getIntForUser(resolver,
-                Settings.Secure.LOCKSCREEN_PULSE_ENABLED, 0, UserHandle.USER_CURRENT) != 0;
-        boolean ambientPulse = Settings.Secure.getIntForUser(resolver,
-                Settings.Secure.AMBIENT_PULSE_ENABLED, 0, UserHandle.USER_CURRENT) != 0;
+        mGravity.setEnabled(enabledPulse);
+        mVisualizerMirrored.setEnabled(enabledPulse);
+        mVerticalMirror.setEnabled(enabledPulse);
 
-        mPulseSmoothing.setEnabled(lockscreenPulse || ambientPulse);
+        mPulseSmoothing.setEnabled(enabledPulse);
 
-        mColorModePref.setEnabled(lockscreenPulse || ambientPulse);
-        if (lockscreenPulse || ambientPulse) {
+        mColorModePref.setEnabled(enabledPulse);
+        if (enabledPulse) {
             int colorMode = Settings.Secure.getIntForUser(resolver,
                 Settings.Secure.PULSE_COLOR_MODE, COLOR_TYPE_LAVALAMP, UserHandle.USER_CURRENT);
             updateColorPrefs(colorMode);
@@ -158,8 +187,8 @@ public class PulseSettings extends SettingsPreferenceFragment implements
             mLavaSpeedPref.setEnabled(false);
         }
 
-        mRenderMode.setEnabled(lockscreenPulse || ambientPulse);
-        if (lockscreenPulse || ambientPulse) {
+        mRenderMode.setEnabled(enabledPulse);
+        if (enabledPulse) {
             int renderMode = Settings.Secure.getIntForUser(resolver,
                 Settings.Secure.PULSE_RENDER_STYLE, RENDER_STYLE_SOLID_LINES, UserHandle.USER_CURRENT);
             updateRenderCategories(renderMode);
@@ -168,7 +197,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
             mSolidBarsCat.setEnabled(false);
         }
 
-        mFooterPref.setEnabled(lockscreenPulse || ambientPulse);
+        mFooterPref.setEnabled(enabledPulse);
     }
 
     private void updateColorPrefs(int val) {
@@ -193,8 +222,12 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     }
 
     private void updateRenderCategories(int mode) {
-        mFadingBarsCat.setEnabled(mode == RENDER_STYLE_FADING_BARS);
-        mSolidBarsCat.setEnabled(mode == RENDER_STYLE_SOLID_LINES);
+        ContentResolver resolver = getContext().getContentResolver();
+        boolean enabledPulse = Settings.Secure.getIntForUser(resolver,
+                Settings.Secure.PULSE_ENABLED, 0, UserHandle.USER_CURRENT) != 0;
+        
+        mFadingBarsCat.setEnabled(mode == RENDER_STYLE_FADING_BARS && enabledPulse);
+        mSolidBarsCat.setEnabled(mode == RENDER_STYLE_SOLID_LINES && enabledPulse);
     }
 
     public static void reset(Context mContext) {

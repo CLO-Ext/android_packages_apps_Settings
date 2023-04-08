@@ -109,7 +109,7 @@
 
     <!-- Edge light -->
     <string name="edge_light_title">Edge light</string>
-    <string name="enable_edge_light">Enable edge light</string>
+    <string name="enable_edge_light">Use Edge Light</string>
     <string name="edge_light_intro_text">Display an animation along the edges of the screen when pulsing</string>
     <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
     <string name="edge_light_always_trigger_on_pulse_summary">Show edge light whenever ambient display is shown instead of just for notifications</string>
@@ -296,7 +296,7 @@
     <!-- Heads up -->
     <string name="heads_up_notifications_title">Heads up</string>
     <string name="heads_up_notifications_summary">Customise heads up notifications settings</string>
-    <string name="heads_up_notifications_enable">Enable Heads up</string>
+    <string name="heads_up_notifications_enable">Use Heads up</string>
     <string name="heads_up_stoplist_title">Stoplist apps</string>
     <string name="heads_up_stoplist_summary">Disable all heads up notifications in specific applications</string>
     <string name="heads_up_blacklist_title">Blacklist apps</string>
@@ -352,6 +352,7 @@
     <string name="navigation_bar_ime_space_summary">Narrow space under keyboard while keeping the gestural pill</string>
 
     <!-- Pulse music visualizer -->
+    <string name="pulse_main_toggle">Use Pulse</string>
     <string name="pulse_help_policy_notice_title">About Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
     <string name="pulse_settings">Pulse</string>
