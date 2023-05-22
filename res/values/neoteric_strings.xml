@@ -237,4 +237,10 @@
     <!-- Single tap for keyguard affordance -->
     <string name="keyguard_affordance_single_tap_title">Keyguard affordance single tap</string>
     <string name="keyguard_affordance_single_tap_summary">Toggle keyguard affordances with a single tap</string>
+
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="gesture_wake_ambient">Show Ambient</string>
+    <string name="gesture_wake">Fully wake</string>
 </resources>
