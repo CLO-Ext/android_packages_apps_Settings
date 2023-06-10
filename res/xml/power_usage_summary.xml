@@ -58,6 +58,14 @@
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController"
         settings:keywords="@string/keywords_battery_adaptive_preferences" />
 
+    <!-- Charging control -->
+    <Preference
+        android:key="charging_control"
+        android:title="@string/charging_control_title"
+        android:summary="@string/charging_control_summary"
+        android:fragment="com.android.settings.neoteric.health.ChargingControlSettings"
+        settings:controller="com.android.settings.neoteric.health.ChargingControlPreferenceController" />
+
     <Preference
         android:key="battery_icon"
         android:title="@string/battery_icon_title"
