@@ -174,6 +174,13 @@
             android:summary="@string/contact_discovery_opt_in_summary"
             settings:controller="com.android.settings.network.telephony.ContactDiscoveryPreferenceController"/>
 
+	<SwitchPreferenceCompat
+            android:key="smart_5g"
+            android:title="@string/smart_5g_title"
+            android:persistent="false"
+            android:summary="@string/smart_5g_summary"
+            settings:controller="com.android.settings.network.telephony.Smart5gPreferenceController"/>
+
         <ListPreference
             android:key="preferred_network_mode_key"
             android:title="@string/preferred_network_mode_title"
