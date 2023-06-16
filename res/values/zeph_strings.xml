@@ -332,4 +332,8 @@
     <!-- Alert Slider block -->
     <string name="block_alert_title">Block Alert slider</string>
     <string name="block_alert_summary">Pocket mode will block the Alert slider</string> 
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
 </resources>
