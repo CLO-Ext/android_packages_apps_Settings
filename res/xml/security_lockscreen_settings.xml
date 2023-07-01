@@ -131,7 +131,7 @@
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
         <!-- Controls wake for notifications -->
-        <co.aospa.framework.preference.SecureSettingSwitchPreference
+        <org.zeph.support.preference.SecureSettingSwitchPreference
             android:key="doze_for_notifications"
             android:title="@string/doze_title"
             android:summary="@string/doze_summary"
