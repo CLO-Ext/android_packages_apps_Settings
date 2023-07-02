@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2021 AOSP-Krypton Project
  *           (C) 2022 Nameless-AOSP Project
- *           (C) 2022 Paranoid Android
+ *           (C) 2022 Project Zephyrus
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
