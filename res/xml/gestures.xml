@@ -27,7 +27,7 @@
         settings:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController" />
 
     <!-- Advanced reboot  -->
-    <org.proton.support.preference.SystemSettingSwitchPreference
+    <org.zeph.support.preference.SystemSettingSwitchPreference
         android:key="advanced_reboot"
         android:title="@string/advanced_reboot_title"
         android:summary="@string/advanced_reboot_summary"
