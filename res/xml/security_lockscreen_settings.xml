@@ -28,6 +28,12 @@
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_lock_screen_notif"/>
 
+	<org.zeph.support.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_enable_power_menu"
+            android:title="@string/lockscreen_power_menu_enable_title"
+            android:summary="@string/lockscreen_power_menu_enable_summary"
+            android:defaultValue="true" />
+
         <org.zeph.support.preference.SecureSettingListPreference
             android:key="face_unlock_method"
             android:title="@string/face_unlock_method_title"

@@ -341,4 +341,8 @@
     <string name="app_volume">App volume</string>
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Show per-app volume button into volume dialog</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_enable_title">Enable power menu on lock screen</string>
+    <string name="lockscreen_power_menu_enable_summary">This will only disable the power menu on secure lock screens</string>
 </resources>
