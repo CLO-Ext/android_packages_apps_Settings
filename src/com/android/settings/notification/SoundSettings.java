@@ -18,9 +18,11 @@ package com.android.settings.notification;
 
 import static android.app.admin.DevicePolicyResources.Strings.Settings.WORK_PROFILE_SOUND_SETTINGS_SECTION_HEADER;
 
+import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -32,6 +34,8 @@ import android.text.TextUtils;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.RingtonePreference;
@@ -54,6 +58,8 @@ import java.util.List;
 public class SoundSettings extends DashboardFragment implements OnActivityResultListener {
     private static final String TAG = "SoundSettings";
 
+    private static final String ALERT_SLIDER_PREF = "alert_slider";
+    
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
     private static final int REQUEST_CODE = 200;
     private static final int SAMPLE_CUTOFF = 2000;  // manually cap sample playback at 2 seconds
@@ -75,6 +81,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
         }
     };
 
+    private PreferenceCategory mAlertSlider;
     private RingtonePreference mRequestPreference;
     private UpdatableListPreferenceDialogFragment mDialogFragment;
     private String mHfpOutputControllerKey;
@@ -102,6 +109,16 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
         replaceEnterpriseStringTitle("sound_work_settings",
                 WORK_PROFILE_SOUND_SETTINGS_SECTION_HEADER,
                 R.string.sound_work_settings);
+        
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        final Context mContext = getActivity().getApplicationContext();
+        final Resources res = mContext.getResources();
+        
+        mAlertSlider = (PreferenceCategory) prefScreen.findPreference(ALERT_SLIDER_PREF);
+        boolean mAlertSliderAvailable = res.getBoolean(
+                com.android.internal.R.bool.config_hasAlertSlider);
+        if (!mAlertSliderAvailable)
+            prefScreen.removePreference(mAlertSlider);
     }
 
     @Override
