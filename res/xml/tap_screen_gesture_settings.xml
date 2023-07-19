@@ -39,6 +39,6 @@
         android:key="doze_tap_gesture_ambient"
         android:title="@string/doze_gesture_ambient_title"
         android:summary="@string/doze_gesture_ambient_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
 </PreferenceScreen>
