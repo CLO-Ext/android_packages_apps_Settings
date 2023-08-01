@@ -447,4 +447,8 @@
     <!-- Single tap for keyguard affordance -->
     <string name="keyguard_affordance_single_tap_title">Keyguard affordance single tap</string>
     <string name="keyguard_affordance_single_tap_summary">Toggle keyguard affordances with a single tap</string>
+
+    <!-- wake gestures haptics -->
+    <string name="doze_gesture_vibrate_title">Haptic Feedback</string>
+    <string name="doze_gesture_vibrate_summary">Vibrate when this gesture is invoked</string>
 </resources>
