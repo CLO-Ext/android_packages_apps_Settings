@@ -28,10 +28,16 @@
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_lock_screen_notif"/>
 
-	<org.zeph.support.preference.SystemSettingSwitchPreference
+	      <org.zeph.support.preference.SystemSettingSwitchPreference
             android:key="lockscreen_enable_power_menu"
             android:title="@string/lockscreen_power_menu_enable_title"
             android:summary="@string/lockscreen_power_menu_enable_summary"
+            android:defaultValue="true" />
+            
+        <org.zeph.support.preference.SecureSettingSwitchPreference
+            android:key="disable_secure_tiles_on_lockscreen"
+            android:title="@string/use_tiles_on_secure_keyguard_title"
+            android:summary="@string/use_tiles_on_secure_keyguard_summary"
             android:defaultValue="true" />
 
         <org.zeph.support.preference.SecureSettingListPreference
