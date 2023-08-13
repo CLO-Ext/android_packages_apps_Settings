@@ -35,7 +35,7 @@ import androidx.lifecycle.OnLifecycleEvent;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.network.SubscriptionUtil;

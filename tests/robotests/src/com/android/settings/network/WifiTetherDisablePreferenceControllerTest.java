@@ -31,7 +31,7 @@ import android.content.Context;
 import android.net.TetheringManager;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 import androidx.test.core.app.ApplicationProvider;
 
 import com.android.settings.R;

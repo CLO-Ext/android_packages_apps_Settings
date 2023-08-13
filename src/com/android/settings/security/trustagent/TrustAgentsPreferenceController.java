@@ -34,7 +34,7 @@ import android.util.IconDrawableFactory;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.core.BasePreferenceController;

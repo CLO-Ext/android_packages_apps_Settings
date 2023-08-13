@@ -27,7 +27,7 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.provider.Settings;
 
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.testutils.FakeFeatureFactory;

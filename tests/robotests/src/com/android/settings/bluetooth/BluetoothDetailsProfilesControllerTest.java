@@ -31,7 +31,7 @@ import android.content.Context;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.testutils.shadow.ShadowBluetoothDevice;

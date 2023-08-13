@@ -33,7 +33,7 @@ import android.os.UserManager;
 import android.provider.Settings;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

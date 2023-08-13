@@ -20,7 +20,7 @@ import android.telephony.CarrierConfigManager;
 import android.telephony.SubscriptionManager;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;

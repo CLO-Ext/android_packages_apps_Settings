@@ -20,7 +20,7 @@ import android.content.Context;
 import android.provider.Settings;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.accessibility.TextReadingPreferenceFragment.EntryPoint;

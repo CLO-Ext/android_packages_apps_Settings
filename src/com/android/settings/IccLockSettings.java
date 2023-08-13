@@ -53,7 +53,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.network.ProxySubscriptionManager;
 import com.android.settings.network.SubscriptionUtil;

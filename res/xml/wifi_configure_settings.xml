@@ -19,14 +19,14 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/wifi_configure_settings_preference_title">
 
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="enable_wifi_wakeup"
         android:title="@string/wifi_wakeup"
         android:icon="@drawable/ic_auto_wifi"
         android:summary="@string/wifi_wakeup_summary"
         settings:controller="com.android.settings.wifi.WifiWakeupPreferenceController"/>
 
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="notify_open_networks"
         android:title="@string/wifi_notify_open_networks"
         android:icon="@drawable/ic_open_wifi_notifications"
@@ -61,7 +61,7 @@
         android:entryValues="@array/custom_timeout_values"
         settings:controller="com.android.settings.wifi.WifiTimeoutPreferenceController"/>
 
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="wifi_cellular_data_fallback"
         android:title="@string/wifi_cellular_data_fallback_title"
         android:summary="@string/wifi_cellular_data_fallback_summary"

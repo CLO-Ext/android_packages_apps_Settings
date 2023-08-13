@@ -22,7 +22,7 @@ import android.util.Log;
 import android.util.Pair;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settingslib.core.lifecycle.Lifecycle;

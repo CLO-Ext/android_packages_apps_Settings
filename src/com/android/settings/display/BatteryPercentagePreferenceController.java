@@ -23,7 +23,7 @@ import android.provider.Settings;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.internal.R;
 import com.android.settings.Utils;

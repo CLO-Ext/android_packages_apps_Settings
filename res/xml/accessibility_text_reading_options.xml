@@ -45,13 +45,13 @@
         settings:iconStartContentDescription="@string/screen_zoom_make_smaller_desc"
         settings:keywords="@string/keywords_display_size" />
 
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="toggle_force_bold_text"
         android:persistent="false"
         android:title="@string/force_bold_text"
         settings:keywords="@string/keywords_bold_text" />
 
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="toggle_high_text_contrast_preference"
         android:persistent="false"
         android:summary="@string/accessibility_toggle_high_text_contrast_preference_summary"

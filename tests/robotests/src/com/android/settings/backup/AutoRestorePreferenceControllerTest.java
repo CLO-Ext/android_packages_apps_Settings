@@ -20,7 +20,7 @@ import static com.google.common.truth.Truth.assertThat;
 
 import android.content.Context;
 
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.core.BasePreferenceController;
 

@@ -31,7 +31,7 @@ import android.util.Log;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.internal.statusbar.IStatusBarService;
 import com.android.settings.core.BasePreferenceController;

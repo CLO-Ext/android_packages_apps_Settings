@@ -29,7 +29,7 @@ import static org.mockito.Mockito.when;
 import android.os.SystemProperties;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

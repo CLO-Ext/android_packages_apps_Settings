@@ -20,7 +20,7 @@ import android.content.Context;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.internal.annotations.VisibleForTesting;
 import com.android.settings.core.PreferenceControllerMixin;

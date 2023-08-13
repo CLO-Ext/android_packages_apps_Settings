@@ -21,7 +21,7 @@ import android.net.wifi.SoftApConfiguration;
 import android.net.wifi.WifiManager;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.core.BasePreferenceController;

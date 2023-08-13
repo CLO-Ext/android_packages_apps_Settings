@@ -31,7 +31,7 @@ import android.content.Context;
 import android.provider.Settings;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.notification.zen.ZenModeBackend;
 import com.android.settings.notification.zen.ZenModeEventsPreferenceController;

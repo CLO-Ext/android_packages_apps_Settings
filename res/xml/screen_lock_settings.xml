@@ -23,12 +23,12 @@
     settings:searchable="false">
 
     <!-- available in pattern -->
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="visiblepattern"
         android:title="@string/lockpattern_settings_enable_visible_pattern_title" />
 
     <!-- available in pin -->
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="enhancedPinPrivacy"
         android:title="@string/lockpattern_settings_enhanced_pin_privacy_title"
         android:summary="@string/lockpattern_settings_enhanced_pin_privacy_summary" />
@@ -42,7 +42,7 @@
         android:entryValues="@array/lock_after_timeout_values" />
 
     <!-- available in pin/pattern/password -->
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 

@@ -52,7 +52,7 @@
         settings:searchable="false"/>
 
     <!-- Show media on lock screen -->
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="privacy_media_controls_lockscreen"
         android:title="@string/media_controls_lockscreen_title"
         android:summary="@string/media_controls_lockscreen_description"
@@ -89,7 +89,7 @@
          Hence, we show both here, but the controller itself will decide if it's available or not.
     -->
 
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="content_capture"
         android:title="@string/content_capture"
         android:summary="@string/content_capture_summary"

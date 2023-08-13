@@ -23,7 +23,7 @@ import android.text.TextUtils;
 import android.text.format.DateFormat;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 import androidx.preference.TwoStatePreference;
 
 import com.android.settings.core.PreferenceControllerMixin;

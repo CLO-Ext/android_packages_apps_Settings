@@ -30,7 +30,7 @@ import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.telephony.data.ApnSetting;
 
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 

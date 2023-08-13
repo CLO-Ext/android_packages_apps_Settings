@@ -31,7 +31,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.testutils.shadow.ShadowUtils;
 

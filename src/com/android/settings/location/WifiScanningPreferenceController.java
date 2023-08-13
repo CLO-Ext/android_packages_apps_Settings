@@ -17,7 +17,7 @@ import android.content.Context;
 import android.net.wifi.WifiManager;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;

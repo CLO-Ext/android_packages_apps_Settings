@@ -30,7 +30,7 @@ import android.location.LocationManager;
 import android.net.wifi.WifiManager;
 import android.text.TextUtils;
 
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;

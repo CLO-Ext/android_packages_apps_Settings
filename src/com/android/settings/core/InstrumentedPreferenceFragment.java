@@ -27,7 +27,7 @@ import android.util.Log;
 import androidx.annotation.XmlRes;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.internal.jank.InteractionJankMonitor;

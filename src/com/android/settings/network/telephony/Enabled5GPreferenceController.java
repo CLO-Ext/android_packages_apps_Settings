@@ -47,7 +47,7 @@ import android.util.Log;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.internal.telephony.TelephonyIntents;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;

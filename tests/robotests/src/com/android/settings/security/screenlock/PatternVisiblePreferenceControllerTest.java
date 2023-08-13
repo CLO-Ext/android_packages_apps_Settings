@@ -23,7 +23,7 @@ import static org.mockito.Mockito.when;
 
 import android.content.Context;
 
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.internal.widget.LockPatternUtils;
 

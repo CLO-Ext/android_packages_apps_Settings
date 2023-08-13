@@ -51,7 +51,7 @@ import android.util.FeatureFlagUtils;
 
 import androidx.fragment.app.FragmentActivity;
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.core.FeatureFlags;
 import com.android.settingslib.RestrictedSwitchPreference;

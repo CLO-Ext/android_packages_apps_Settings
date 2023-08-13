@@ -26,7 +26,7 @@ import android.content.Context;
 import android.util.ArraySet;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 import androidx.test.core.app.ApplicationProvider;
 
 import com.android.settingslib.dream.DreamBackend;

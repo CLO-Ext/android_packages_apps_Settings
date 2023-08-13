@@ -28,7 +28,7 @@ import android.content.Context;
 import android.os.UserHandle;
 import android.provider.Settings;
 
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

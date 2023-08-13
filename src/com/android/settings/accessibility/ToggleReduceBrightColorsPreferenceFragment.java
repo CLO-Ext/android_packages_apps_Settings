@@ -33,7 +33,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.preference.PreferenceCategory;
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.accessibility.AccessibilityUtil.QuickSettingsTooltipType;

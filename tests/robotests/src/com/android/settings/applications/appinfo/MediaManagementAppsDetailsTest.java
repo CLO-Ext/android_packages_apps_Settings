@@ -26,7 +26,7 @@ import static org.mockito.Mockito.when;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import com.android.settings.applications.AppStateAppOpsBridge;
 import com.android.settings.applications.AppStateMediaManagementAppsBridge;

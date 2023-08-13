@@ -18,7 +18,7 @@ package com.android.settings.gestures;
 
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
 
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 

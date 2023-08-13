@@ -60,7 +60,7 @@
         android:fragment="com.android.settings.print.PrintSettingsFragment"
         android:order="-3"/>
 
-    <SwitchPreference
+    <org.zeph.support.preference.SwitchPreference
         android:key="uwb_settings"
         android:title="@string/uwb_settings_title"
         android:order="100"

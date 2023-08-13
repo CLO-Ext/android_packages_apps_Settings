@@ -26,7 +26,7 @@ import android.content.Context;
 import android.net.wifi.SoftApConfiguration;
 import android.net.wifi.WifiManager;
 
-import androidx.preference.SwitchPreference;
+import org.zeph.support.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;
