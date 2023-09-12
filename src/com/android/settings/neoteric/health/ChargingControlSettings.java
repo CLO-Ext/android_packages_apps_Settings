@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.zeph.health;
+package com.android.settings.neoteric.health;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -42,9 +42,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import org.zeph.support.preference.CustomDialogPreference;
-import org.zeph.support.preference.SystemSettingDropDownPreference;
-import org.zeph.support.preference.SystemSettingMainSwitchPreference;
+import org.neoteric.support.preference.CustomDialogPreference;
+import org.neoteric.support.preference.SystemSettingDropDownPreference;
+import org.neoteric.support.preference.SystemSettingMainSwitchPreference;
 
 import static com.android.internal.lineage.health.HealthInterface.MODE_AUTO;
 import static com.android.internal.lineage.health.HealthInterface.MODE_MANUAL;

@@ -32,7 +32,7 @@ import android.util.Log;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.internal.telephony.util.ArrayUtils;
 import com.android.settings.R;

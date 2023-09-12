@@ -29,13 +29,13 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import org.zeph.support.colorpicker.ColorPickerPreference;
+import org.neoteric.support.colorpicker.ColorPickerPreference;
 
 public class PulseSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {

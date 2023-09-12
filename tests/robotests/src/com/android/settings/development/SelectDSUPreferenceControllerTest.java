@@ -19,7 +19,7 @@ package com.android.settings.development;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.fragment.app.FragmentActivity;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

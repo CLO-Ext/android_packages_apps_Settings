@@ -28,19 +28,19 @@
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_lock_screen_notif"/>
 
-	      <org.zeph.support.preference.SystemSettingSwitchPreference
+	      <org.neoteric.support.preference.SystemSettingSwitchPreference
             android:key="lockscreen_enable_power_menu"
             android:title="@string/lockscreen_power_menu_enable_title"
             android:summary="@string/lockscreen_power_menu_enable_summary"
             android:defaultValue="true" />
             
-        <org.zeph.support.preference.SecureSettingSwitchPreference
+        <org.neoteric.support.preference.SecureSettingSwitchPreference
             android:key="disable_secure_tiles_on_lockscreen"
             android:title="@string/use_tiles_on_secure_keyguard_title"
             android:summary="@string/use_tiles_on_secure_keyguard_summary"
             android:defaultValue="true" />
 
-        <org.zeph.support.preference.SecureSettingListPreference
+        <org.neoteric.support.preference.SecureSettingListPreference
             android:key="face_unlock_method"
             android:title="@string/face_unlock_method_title"
             android:summary="%s"
@@ -51,7 +51,7 @@
             settings:searchable="false"
             settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenUnlockMethodPreferenceController" />
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="security_display_lockscreen_bypass"
             android:title="@string/lockscreen_bypass_title"
             android:summary="@string/lockscreen_bypass_summary"
@@ -68,25 +68,25 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary" />
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="lockscreen_privacy_wallet_switch"
             android:title="@string/lockscreen_privacy_wallet_setting_toggle"
             android:summary="@string/lockscreen_privacy_wallet_summary"
             settings:controller="com.android.settings.display.WalletPrivacyPreferenceController" />
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="lock_screen_show_qr_scanner"
             android:title="@string/lockscreen_privacy_qr_code_scanner_setting_toggle"
             android:summary="@string/lockscreen_privacy_qr_code_scanner_summary"
             settings:controller="com.android.settings.display.QRCodeScannerPreferenceController" />
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="lockscreen_privacy_controls_switch"
             android:title="@string/lockscreen_privacy_controls_setting_toggle"
             android:summary="@string/lockscreen_privacy_controls_summary"
             settings:controller="com.android.settings.display.ControlsPrivacyPreferenceController" />
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="lockscreen_trivial_controls_switch"
             android:title="@string/lockscreen_trivial_controls_setting_toggle"
             android:summary="@string/lockscreen_trivial_controls_summary"
@@ -97,13 +97,13 @@
             android:title="@string/lockscreen_quick_affordances_title"
             settings:controller="com.android.settings.display.CustomizableLockScreenQuickAffordancesPreferenceController" />
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="lockscreen_double_line_clock_switch"
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
             android:summary="@string/lockscreen_double_line_clock_summary"
             settings:controller="com.android.settings.display.LockscreenClockPreferenceController" />
 
-        <org.zeph.support.preference.SecureSettingListPreference
+        <org.neoteric.support.preference.SecureSettingListPreference
             android:key="clock_use_custom_format"
             android:title="@string/clock_use_single_line_title"
             android:entries="@array/clock_use_single_line_entries"
@@ -111,7 +111,7 @@
             android:summary="%s"
             android:defaultValue="0" />
 
-        <org.zeph.support.preference.SecureSettingSeekBarPreference
+        <org.neoteric.support.preference.SecureSettingSeekBarPreference
             android:key="kg_custom_clock_top_margin"
             android:title="@string/kg_custom_clock_top_margin_title"
             android:max="500"
@@ -120,7 +120,7 @@
             android:defaultValue="120"
             settings:units="dp" />
 
-        <org.zeph.support.preference.SecureSettingSeekBarPreference
+        <org.neoteric.support.preference.SecureSettingSeekBarPreference
             android:key="kg_large_clock_text_size"
             android:title="@string/kg_large_clock_text_size_title"
             android:max="350"
@@ -129,7 +129,7 @@
             android:defaultValue="180"
             settings:units="dp" />
 
-        <org.zeph.support.preference.SecureSettingSeekBarPreference
+        <org.neoteric.support.preference.SecureSettingSeekBarPreference
             android:key="kg_small_clock_text_size"
             android:title="@string/kg_small_clock_text_size_title"
             android:max="100"
@@ -150,12 +150,12 @@
         android:key="lockscreen_media_art_options"
         android:title="@string/lockscreen_media_art_options_title" >
 
-        <org.zeph.support.preference.SystemSettingSwitchPreference
+        <org.neoteric.support.preference.SystemSettingSwitchPreference
             android:key="show_lockscreen_media_art"
             android:title="@string/show_lockscreen_media_art_title"
             android:defaultValue="true" />
 
-        <org.zeph.support.preference.SystemSettingSeekBarPreference
+        <org.neoteric.support.preference.SystemSettingSeekBarPreference
             android:key="lockscreen_media_blur"
             android:title="@string/lockscreen_media_blur_title"
             android:dependency="show_lockscreen_media_art"
@@ -209,7 +209,7 @@
             settings:controller="com.android.settings.gestures.ScreenOffUdfpsPreferenceController" />
 
         <!-- Actually controls doze enablement -->
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="ambient_display_notification"
             android:title="@string/doze_enabled_title"
             android:summary="@string/doze_enabled_summary"

@@ -48,7 +48,7 @@ public class SystemDashboardFragment extends DashboardFragment {
         super.onCreate(icicle);
 
         final PreferenceScreen screen = getPreferenceScreen();
-        if (!isPackageInstalled(getContext(), "org.zephyrus.ota")) {
+        if (!isPackageInstalled(getContext(), "org.neoteric.ota")) {
             screen.removePreference(screen.findPreference("system_update"));
         }
         // We do not want to display an advanced button if only one setting is hidden

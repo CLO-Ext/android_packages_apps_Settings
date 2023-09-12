@@ -24,7 +24,7 @@ import android.os.Looper;
 import android.util.AttributeSet;
 import android.view.Display;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 

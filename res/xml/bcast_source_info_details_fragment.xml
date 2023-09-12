@@ -68,13 +68,13 @@
          android:summary="Music"
          />
 <!--
-     <org.zeph.support.preference.SwitchPreference
+     <org.neoteric.support.preference.SwitchPreference
          android:key="broadcast_si_enable_metadata_sync"
          android:title="@string/bcast_enable_metadata_sync"
          android:defaultValue="false"
          settings:allowDividerAbove="true"/>
 -->
-     <org.zeph.support.preference.SwitchPreference
+     <org.neoteric.support.preference.SwitchPreference
             android:key="broadcast_si_enable_audio_sync"
             android:title="@string/bcast_enable_audio_sync"
             android:defaultValue="false"   />

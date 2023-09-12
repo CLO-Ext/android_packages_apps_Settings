@@ -21,7 +21,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.FeatureFlagUtils;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 public class FeatureFlagPreference extends SwitchPreference {
 

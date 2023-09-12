@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.zeph.health;
+package com.android.settings.neoteric.health;
 
 import android.content.Context;
 import android.os.IBinder;

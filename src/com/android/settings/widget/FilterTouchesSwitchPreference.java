@@ -20,7 +20,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import androidx.preference.PreferenceViewHolder;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 /**
  *  This widget with enabled filterTouchesWhenObscured attribute use to replace

@@ -25,7 +25,7 @@ import android.content.Context;
 import android.os.Looper;
 import android.os.SystemProperties;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
 import androidx.test.core.app.ApplicationProvider;

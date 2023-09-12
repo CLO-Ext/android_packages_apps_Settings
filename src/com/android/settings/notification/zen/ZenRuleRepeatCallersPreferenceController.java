@@ -23,7 +23,7 @@ import android.util.Pair;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settingslib.core.lifecycle.Lifecycle;

@@ -27,7 +27,7 @@ import android.util.Log;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import java.util.Arrays;
 import java.util.List;

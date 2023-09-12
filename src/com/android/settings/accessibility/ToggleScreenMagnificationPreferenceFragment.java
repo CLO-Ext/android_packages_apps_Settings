@@ -42,7 +42,7 @@ import android.widget.CheckBox;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.internal.annotations.VisibleForTesting;
 import com.android.settings.DialogCreatable;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 2019 Project Zephyrus
+<!-- Copyright 2019 Neoteric OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@
         settings:searchable="false"
         app:lottie_rawRes="@raw/lottie_volume_button_music_control" />
 
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="volume_button_music_control"
         android:title="@string/volume_button_music_control_title"
         android:summary="@string/volume_button_music_control_summary"

@@ -24,7 +24,7 @@
         android:title="@string/ambient_notif_cat">
 
         <!-- Controls wake for notifications -->
-        <org.zeph.support.preference.SecureSettingSwitchPreference
+        <org.neoteric.support.preference.SecureSettingSwitchPreference
             android:key="doze_for_notifications"
             android:title="@string/doze_title"
             android:summary="@string/doze_summary"
@@ -43,7 +43,7 @@
         android:key="ambient_music"
         android:title="@string/ambient_music_cat">
 
-        <org.zeph.support.preference.SystemSettingSwitchPreference
+        <org.neoteric.support.preference.SystemSettingSwitchPreference
             android:key="pulse_on_new_tracks"
             android:title="@string/pulse_on_new_tracks_title"
             android:summary="@string/pulse_on_new_tracks_summary" />
@@ -53,7 +53,7 @@
         android:key="ambient_alert_slider"
         android:title="@string/ambient_alert_slider_cat">
 
-        <org.zeph.support.preference.SystemSettingSwitchPreference
+        <org.neoteric.support.preference.SystemSettingSwitchPreference
             android:key="alert_slider_pulse"
             android:title="@string/alert_slider_pulse_title"
             android:summary="@string/alert_slider_pulse_summary"

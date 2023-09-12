@@ -54,7 +54,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.Preference.OnPreferenceClickListener;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceViewHolder;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;

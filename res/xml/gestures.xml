@@ -27,7 +27,7 @@
         settings:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController" />
 
     <!-- Advanced reboot  -->
-    <org.zeph.support.preference.SystemSettingSwitchPreference
+    <org.neoteric.support.preference.SystemSettingSwitchPreference
         android:key="advanced_reboot"
         android:title="@string/advanced_reboot_title"
         android:summary="@string/advanced_reboot_summary"
@@ -107,7 +107,7 @@
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
-    <org.zeph.support.preference.SystemSettingSwitchPreference
+    <org.neoteric.support.preference.SystemSettingSwitchPreference
         android:key="click_partial_screenshot"
         android:title="@string/click_partial_screenshot_title"
         android:summary="@string/click_partial_screenshot_summary"

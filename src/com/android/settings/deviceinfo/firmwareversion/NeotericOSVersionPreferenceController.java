@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2021 Project Zephyrus
+ * Copyright 2016-2021 Neoteric OS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,13 +22,13 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class ProjectZephyrusVersionPreferenceController extends BasePreferenceController {
+public class NeotericOSVersionPreferenceController extends BasePreferenceController {
 
-    private static final String ZEPH_VERSION_PROP = "ro.zeph.version";
+    private static final String NEOTERIC_VERSION_PROP = "ro.neoteric.version";
 
     private final Context mContext;
 
-    public ProjectZephyrusVersionPreferenceController(Context context, String key) {
+    public NeotericOSVersionPreferenceController(Context context, String key) {
         super(context, key);
         mContext = context;
     }
@@ -40,9 +40,9 @@ public class ProjectZephyrusVersionPreferenceController extends BasePreferenceCo
 
     @Override
     public CharSequence getSummary() {
-        String zephVersion = SystemProperties.get(ZEPH_VERSION_PROP,
+        String neotericVersion = SystemProperties.get(NEOTERIC_VERSION_PROP,
                 mContext.getResources().getString(R.string.device_info_default));
 
-           return zephVersion;
+           return neotericVersion;
     }
 }

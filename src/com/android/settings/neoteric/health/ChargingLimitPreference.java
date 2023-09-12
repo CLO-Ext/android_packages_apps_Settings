@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.settings.zeph.health;
+package com.android.settings.neoteric.health;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
 import com.android.internal.lineage.health.HealthInterface;
 
-import org.zeph.support.preference.CustomSeekBarPreference;
+import org.neoteric.support.preference.CustomSeekBarPreference;
 
 public class ChargingLimitPreference extends CustomSeekBarPreference {
     private static final String TAG = ChargingLimitPreference.class.getSimpleName();

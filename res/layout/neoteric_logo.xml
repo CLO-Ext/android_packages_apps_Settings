@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 **
-** Copyright 2023, Project-Zephyrus
+** Copyright 2023, Project-Neoteric
 **
 ** Licensed under the Apache License, Version 2.0 (the "License")
 ** you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@
     <ImageView
         android:layout_width="1250dp"
         android:layout_height="200dp" 
-        android:src="@drawable/zeph_logo"
+        android:src="@drawable/neoteric_logo"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
         android:layout_marginTop="2dp"

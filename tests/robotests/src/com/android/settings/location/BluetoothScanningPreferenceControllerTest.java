@@ -24,7 +24,7 @@ import android.content.ContentResolver;
 import android.provider.Settings;
 import android.provider.Settings.Global;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -46,7 +46,7 @@ import android.telephony.ims.RcsUceAdapter;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.LifecycleOwner;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.network.CarrierConfigCache;
 import com.android.settings.network.SubscriptionUtil;

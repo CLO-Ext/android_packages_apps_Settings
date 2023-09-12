@@ -22,7 +22,7 @@ import android.content.Context;
 import android.util.Log;
 
 import androidx.preference.Preference;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.development.BluetoothA2dpConfigStore;
 import com.android.settingslib.core.lifecycle.Lifecycle;

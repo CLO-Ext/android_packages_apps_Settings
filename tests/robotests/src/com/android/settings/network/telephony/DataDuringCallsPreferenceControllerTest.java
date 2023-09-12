@@ -33,7 +33,7 @@ import android.content.Context;
 import android.telephony.TelephonyManager;
 
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

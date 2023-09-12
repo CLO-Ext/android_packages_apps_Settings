@@ -16,7 +16,7 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import org.zeph.support.preference.SystemSettingListPreference;
+import org.neoteric.support.preference.SystemSettingListPreference;
 
 public class BatteryIconSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {

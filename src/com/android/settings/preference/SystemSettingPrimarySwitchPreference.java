@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 
 import com.android.settingslib.PrimarySwitchPreference;
 
-import org.zeph.support.preference.SystemSettingsStore;
+import org.neoteric.support.preference.SystemSettingsStore;
 
 public class SystemSettingPrimarySwitchPreference extends PrimarySwitchPreference {
 

@@ -28,7 +28,7 @@ import android.content.Context;
 import android.os.UserHandle;
 import android.os.UserManager;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 

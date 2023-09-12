@@ -30,7 +30,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-import org.zeph.support.preference.SecureSettingSwitchPreference;
+import org.neoteric.support.preference.SecureSettingSwitchPreference;
 
 public class TapPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin, OnMainSwitchChangeListener {

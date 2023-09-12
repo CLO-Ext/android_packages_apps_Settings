@@ -23,7 +23,7 @@ import android.content.Intent;
 import android.provider.Settings;
 import android.text.format.DateFormat;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

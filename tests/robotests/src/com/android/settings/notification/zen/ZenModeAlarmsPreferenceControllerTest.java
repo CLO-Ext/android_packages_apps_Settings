@@ -45,7 +45,7 @@ import org.robolectric.shadows.ShadowApplication;
 import org.robolectric.util.ReflectionHelpers;
 
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 @RunWith(RobolectricTestRunner.class)
 public class ZenModeAlarmsPreferenceControllerTest {

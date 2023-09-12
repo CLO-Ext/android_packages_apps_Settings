@@ -20,7 +20,7 @@ import android.content.Context;
 import android.view.View;
 
 import androidx.preference.PreferenceViewHolder;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 /**
  * A switch preference that has a divider below and above. Used for Accessibility Settings use

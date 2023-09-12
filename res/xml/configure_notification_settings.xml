@@ -98,7 +98,7 @@
             android:summary="@string/lock_screen_notifs_redact_work_summary"
             settings:controller="com.android.settings.notification.RedactNotificationPreferenceController" />
 
-        <org.zeph.support.preference.SecureSettingListPreference
+        <org.neoteric.support.preference.SecureSettingListPreference
             android:key="face_unlock_method"
             android:order="16"
             android:title="@string/face_unlock_method_title"
@@ -110,7 +110,7 @@
             settings:searchable="false"
             settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenUnlockMethodPreferenceController" />
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="notification_lockscreen_bypass"
             android:order="17"
             android:title="@string/lockscreen_bypass_title"
@@ -131,7 +131,7 @@
             android:fragment="com.android.settings.notification.zen.ZenModeSettings"
             settings:controller="com.android.settings.notification.zen.ZenModePreferenceController"
         />
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="lock_screen_show_only_unseen_notifs"
             android:order="18"
             android:title="@string/unseen_notifs_lock_screen"
@@ -149,7 +149,7 @@
                 android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings"/>
         </com.android.settingslib.RestrictedPreference>
         
-        <org.zeph.support.preference.SystemSettingSwitchPreference
+        <org.neoteric.support.preference.SystemSettingSwitchPreference
            android:key="small_landscape_notification"
            android:title="@string/small_landscape_notification_title"
            android:summary="@string/small_landscape_notification_summary"
@@ -169,27 +169,27 @@
             android:title="@string/heads_up_notifications_title"
             android:fragment="com.android.settings.notification.HeadsUpSettings"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
              android:key="silent_icons"
              android:order="20"
              android:title="@string/silent_notifications_status_bar"
              settings:controller="com.android.settings.notification.SilentStatusBarPreferenceController"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="show_snooze_options"
             android:order="21"
             android:title="@string/snooze_options_title"
             settings:controller="com.android.settings.notification.SnoozeNotificationPreferenceController" />
 
         <!-- Notification badging -->
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="notification_badging"
             android:order="22"
             android:title="@string/notification_badging_title"
             settings:controller="com.android.settings.notification.BadgingNotificationPreferenceController"/>
 
         <!-- Pulse notification light, on devices that support it -->
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="notification_pulse"
             android:order="23"
             android:title="@string/notification_pulse_title"

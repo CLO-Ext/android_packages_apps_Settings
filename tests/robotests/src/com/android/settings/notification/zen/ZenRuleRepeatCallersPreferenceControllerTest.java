@@ -26,7 +26,7 @@ import android.content.Context;
 import android.service.notification.ZenPolicy;
 
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settingslib.core.lifecycle.Lifecycle;
 

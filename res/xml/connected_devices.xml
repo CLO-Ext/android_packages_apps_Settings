@@ -52,7 +52,7 @@
         settings:useAdminDisabledSummary="true"
         settings:controller="com.android.settings.connecteddevice.AddDevicePreferenceController"/>
 
-    <org.zeph.support.preference.SystemSettingListPreference
+    <org.neoteric.support.preference.SystemSettingListPreference
         android:key="qs_bt_click_behavior"
         android:title="@string/click_bluetooth_tile_behavior_title"
         android:summary="%s"
@@ -61,7 +61,7 @@
         android:order="26"
         android:defaultValue="0" />
 
-    <org.zeph.support.preference.SystemSettingListPreference
+    <org.neoteric.support.preference.SystemSettingListPreference
         android:key="qs_bt_long_click_behavior"
         android:title="@string/lclick_bluetooth_tile_behavior_title"
         android:summary="%s"

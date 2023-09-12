@@ -55,7 +55,7 @@ import android.widget.Toast;
 import androidx.annotation.VisibleForTesting;
 import androidx.fragment.app.FragmentActivity;
 import androidx.preference.Preference;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsActivity;

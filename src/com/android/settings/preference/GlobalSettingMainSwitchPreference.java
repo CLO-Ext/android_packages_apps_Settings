@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 
 import com.android.settingslib.widget.MainSwitchPreference;
 
-import org.zeph.support.preference.GlobalSettingsStore;
+import org.neoteric.support.preference.GlobalSettingsStore;
 
 public class GlobalSettingMainSwitchPreference extends MainSwitchPreference {
 

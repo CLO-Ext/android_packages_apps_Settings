@@ -38,7 +38,7 @@ import android.service.quicksettings.TileService;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.internal.statusbar.IStatusBarService;
 import com.android.settings.R;

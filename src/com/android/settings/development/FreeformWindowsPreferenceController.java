@@ -23,7 +23,7 @@ import android.provider.Settings;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;

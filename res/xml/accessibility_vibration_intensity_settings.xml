@@ -41,7 +41,7 @@
             android:entries="@array/ring_vibration_pattern_entries"
             android:entryValues="@array/ring_vibration_pattern_values"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="ramping_ringer"
             android:title="@string/vibrate_when_ringing_option_ramping_ringer"
             app:keywords="@string/keywords_ramping_ringer_vibration"

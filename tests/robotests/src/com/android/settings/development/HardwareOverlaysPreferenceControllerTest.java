@@ -34,7 +34,7 @@ import android.os.IBinder;
 import android.os.RemoteException;
 
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.testutils.shadow.ShadowParcel;
 

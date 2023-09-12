@@ -26,7 +26,7 @@ import android.content.pm.IShortcutService;
 import android.os.RemoteException;
 
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

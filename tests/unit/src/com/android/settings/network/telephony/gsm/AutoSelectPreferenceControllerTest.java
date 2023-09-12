@@ -33,7 +33,7 @@ import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 
 import androidx.lifecycle.Lifecycle;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 

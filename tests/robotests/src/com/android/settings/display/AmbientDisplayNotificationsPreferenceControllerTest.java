@@ -33,7 +33,7 @@ import android.hardware.display.AmbientDisplayConfiguration;
 import android.os.UserHandle;
 import android.provider.Settings;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.testutils.shadow.ShadowSecureSettings;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;

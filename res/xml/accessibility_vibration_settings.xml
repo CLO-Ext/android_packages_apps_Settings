@@ -29,7 +29,7 @@
         android:key="accessibility_call_vibration_category"
         android:title="@string/accessibility_call_vibration_category_title">
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="ring_vibration_preference_screen"
             android:title="@string/accessibility_ring_vibration_title"
             app:keywords="@string/keywords_ring_vibration"
@@ -41,7 +41,7 @@
             android:entries="@array/ring_vibration_pattern_entries"
             android:entryValues="@array/ring_vibration_pattern_values"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="ramping_ringer"
             android:title="@string/vibrate_when_ringing_option_ramping_ringer"
             app:keywords="@string/keywords_ramping_ringer_vibration"
@@ -53,7 +53,7 @@
         android:key="accessibility_notification_alarm_vibration_category"
         android:title="@string/accessibility_notification_alarm_vibration_category_title">
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="notification_vibration_preference_screen"
             android:title="@string/accessibility_notification_vibration_title"
             app:keywords="@string/keywords_notification_vibration"
@@ -65,7 +65,7 @@
             android:entries="@array/notification_vibration_pattern_entries"
             android:entryValues="@array/notification_vibration_pattern_values"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="alarm_vibration_preference_screen"
             android:title="@string/accessibility_alarm_vibration_title"
             app:keywords="@string/keywords_alarm_vibration"
@@ -77,19 +77,19 @@
         android:key="accessibility_interactive_haptics_category"
         android:title="@string/accessibility_interactive_haptics_category_title">
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="touch_vibration_preference_screen"
             android:title="@string/accessibility_touch_vibration_title"
             app:keywords="@string/keywords_touch_vibration"
             app:controller="com.android.settings.accessibility.HapticFeedbackTogglePreferenceController" />
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="media_vibration_preference_screen"
             android:title="@string/accessibility_media_vibration_title"
             app:keywords="@string/keywords_media_vibration"
             app:controller="com.android.settings.accessibility.MediaVibrationTogglePreferenceController" />
             
-        <org.zeph.support.preference.SystemSettingSwitchPreference
+        <org.neoteric.support.preference.SystemSettingSwitchPreference
             android:defaultValue="true"
             android:dependency="touch_vibration_preference_screen"
             android:key="haptic_on_slider"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 2016-2021 Project Zephyrus
+<!-- Copyright 2016-2021 Neoteric OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,8 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Project Zephyrus version -->
-    <string name="zeph_version">Project Zephyrus</string>
+    <!-- Neoteric OS version -->
+    <string name="neoteric_version">Neoteric OS</string>
 
    <!-- Units -->
     <string name="unit_seconds">seconds</string>
@@ -421,4 +421,19 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    
+     <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Mute media volume on silent</string>
+    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent. This affect speaker only</string>
+
+    <!-- Haptic Settings -->
+    <string name="haptic_on_slider_title">System slider</string>
+    <string name="haptic_on_slider_summary">Do haptic feedback when changed slider value</string>
+
+    <!-- Small landscape notifications -->
+    <string name="small_landscape_notification_title">Small landscape notifications</string>
+    <string name="small_landscape_notification_summary">Shows notifications smaller in width in notification panel in landscape mode just as AOSP intended</string>
+    
+    <!-- System Update -->
+    <string name="system_update_title">System update</string>
 </resources>

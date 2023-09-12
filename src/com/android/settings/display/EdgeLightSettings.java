@@ -23,9 +23,9 @@ import com.android.settings.preference.SystemSettingMainSwitchPreference;
 
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-import org.zeph.support.colorpicker.ColorPickerPreference;
-import org.zeph.support.preference.SystemSettingListPreference;
-import org.zeph.support.preference.SystemSettingSwitchPreference;
+import org.neoteric.support.colorpicker.ColorPickerPreference;
+import org.neoteric.support.preference.SystemSettingListPreference;
+import org.neoteric.support.preference.SystemSettingSwitchPreference;
 
 public class EdgeLightSettings extends SettingsPreferenceFragment implements
         OnMainSwitchChangeListener, OnPreferenceChangeListener {

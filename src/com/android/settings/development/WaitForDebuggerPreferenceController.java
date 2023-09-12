@@ -29,7 +29,7 @@ import android.text.TextUtils;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;

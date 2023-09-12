@@ -31,7 +31,7 @@ import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.util.DataUnit;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.net.DataUsageController;

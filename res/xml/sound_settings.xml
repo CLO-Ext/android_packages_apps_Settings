@@ -98,7 +98,7 @@
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
 
     <!-- Link ringtone and notification volumes -->
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:order="-138"
@@ -186,7 +186,7 @@
         android:ringtoneType="alarm"
         android:order="-60"/>
 
-    <org.zeph.support.preference.SystemSettingSwitchPreference
+    <org.neoteric.support.preference.SystemSettingSwitchPreference
         android:key="show_app_volume"
         android:title="@string/app_volume_title"
         android:summary="@string/app_volume_summary"
@@ -194,49 +194,49 @@
         android:order="-5"/>
 
     <!-- Dial pad tones -->
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="dial_pad_tones"
         android:title="@string/dial_pad_tones_title"
         android:order="-50"/>
 
     <!-- Screen locking sounds -->
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="screen_locking_sounds"
         android:title="@string/screen_locking_sounds_title"
         android:order="-45"/>
 
     <!-- Screenshot sound -->
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="screenshot_shutter_sound"
         android:title="@string/screenshot_shutter_sound_title"
         android:order="-43"/>
 
     <!-- Charging sounds -->
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="charging_sounds"
         android:title="@string/charging_sounds_title"
         android:order="-40"/>
 
     <!-- Docking sounds -->
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="docking_sounds"
         android:title="@string/docking_sounds_title"
         android:order="-35"/>
 
     <!-- Touch sounds -->
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="touch_sounds"
         android:title="@string/touch_sounds_title"
         android:order="-30"/>
 
     <!-- Show vibrate icon in status bar -->
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="vibrate_icon"
         android:title="@string/vibrate_icon_title"
         android:order="-27"/>
 
     <!-- In-call feedback -->
-    <org.zeph.support.preference.SystemSettingSwitchPreference
+    <org.neoteric.support.preference.SystemSettingSwitchPreference
         android:key="incall_feeedback_vibrate"
         android:title="@string/incall_feeedback_vibrate_title"
         android:defaultValue="false"
@@ -250,7 +250,7 @@
         android:order="-20"/>
 
     <!-- Boot sounds -->
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="boot_sounds"
         android:title="@string/boot_sounds_title"
         android:order="-15"/>
@@ -263,11 +263,11 @@
         android:order="-10"/>
         <!-- Call connected tones -->
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
           android:key="call_connected_tones"
           android:title="@string/call_connected_tones_title" />
           
-    <org.zeph.support.preference.GlobalSettingSwitchPreference
+    <org.neoteric.support.preference.GlobalSettingSwitchPreference
         android:key="ringer_mute_speaker_media"
         android:title="@string/ringer_mute_speaker_media_title"
         android:summary="@string/ringer_mute_speaker_media_summary"

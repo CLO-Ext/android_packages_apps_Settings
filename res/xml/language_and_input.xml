@@ -107,7 +107,7 @@
             android:dialogTitle="@string/pointer_speed" />
     </PreferenceCategory>
 
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="vibrate_input_devices"
         android:title="@string/vibrate_input_devices"
         android:summary="@string/vibrate_input_devices_summary"

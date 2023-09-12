@@ -72,7 +72,7 @@
     <string name="bluetooth_devices" msgid="1063177983261608277">"Amadivaysi e-Bluetooth"</string>
     <string name="bluetooth_device_name" msgid="1294669733490268384">"Igama ledivaysi"</string>
     <string name="bluetooth_device_details" msgid="630702184344217832">"Izilungiselelo zedivayisi"</string>
-    <string name="bluetooth_profile_details" msgid="1269419918127093325">"Izilungiselelo zephrofayela"</string>
+    <string name="bluetooth_profile_details" msgid="1269419918127093325">"Izilungiselelo neotericrofayela"</string>
     <string name="bluetooth_name_not_set" msgid="4654357917928126208">"Alikho igama elisethiwe, usebenzisa igama le-akhawunti"</string>
     <string name="bluetooth_scan_for_devices" msgid="8143654526358934069">"Skena amadivaysi"</string>
     <string name="bluetooth_rename_device" msgid="4219655243836021443">"Qamba kabusha le divayisi"</string>
@@ -4084,7 +4084,7 @@
     <string name="lock_screen_notifs_show_none" msgid="1941044980403067101">"Ungabonisi nhlobo izaziso"</string>
     <string name="lock_screen_notifs_redact" msgid="9024158855454642296">"Izaziso ezizwelayo"</string>
     <string name="lock_screen_notifs_redact_summary" msgid="1395483766035470612">"Bonisa okuqukethwe okuzwelayo uma ikhiyiwe"</string>
-    <string name="lock_screen_notifs_redact_work" msgid="3833920196569208430">"Izaziso zephrofayela yomsebenzi ozwelayo"</string>
+    <string name="lock_screen_notifs_redact_work" msgid="3833920196569208430">"Izaziso neotericrofayela yomsebenzi ozwelayo"</string>
     <string name="lock_screen_notifs_redact_work_summary" msgid="3238238380405430156">"Bonisa okuqukethwe kwephrofayela yomsebenzi uma kukhiyiwe"</string>
     <string name="lock_screen_notifications_summary_show" msgid="6540443483088311328">"Bonisa konke okuqukethwe kwesaziso"</string>
     <string name="lock_screen_notifications_summary_hide" msgid="7837303171531166789">"Bonisa okuqukethwe okuzwelayo kuphela uma kuvuliwe"</string>
@@ -4093,8 +4093,8 @@
     <string name="lock_screen_notifications_interstitial_title" msgid="1360388192096354315">"Khiya isikrini"</string>
     <string name="lock_screen_notifications_summary_show_profile" msgid="8373401288962523946">"Bonisa konke okuqukethwe kwesaziso somsebenzi"</string>
     <string name="lock_screen_notifications_summary_hide_profile" msgid="2183455323048921579">"Fihla okuqukethwe komsebenzi okuzwelayo"</string>
-    <string name="lock_screen_notifications_interstitial_message_profile" msgid="1456262034599029028">"Uma idivayisi yakho ikhiyiwe, ufuna ukuthi izaziso zephrofayela zivele kanjani?"</string>
-    <string name="lock_screen_notifications_interstitial_title_profile" msgid="6950124772255324448">"Izaziso zephrofayela"</string>
+    <string name="lock_screen_notifications_interstitial_message_profile" msgid="1456262034599029028">"Uma idivayisi yakho ikhiyiwe, ufuna ukuthi izaziso neotericrofayela zivele kanjani?"</string>
+    <string name="lock_screen_notifications_interstitial_title_profile" msgid="6950124772255324448">"Izaziso neotericrofayela"</string>
     <string name="notifications_title" msgid="4221655533193721131">"Izaziso"</string>
     <string name="app_notifications_title" msgid="248374669037385148">"Izaziso zohlelo lokusebenza"</string>
     <string name="notification_channel_title" msgid="8859880871692797611">"Isigaba sezaziso"</string>
@@ -4169,7 +4169,7 @@
     <string name="notifications_sent_never" msgid="9081278709126812062">"Soze"</string>
     <string name="manage_notification_access_title" msgid="6481256069087219982">"Idivayisi nezaziso ze-app"</string>
     <string name="manage_notification_access_summary" msgid="2907135226478903997">"Lawula ukuthi yimaphi ama-app namadivayisi angafunda izaziso"</string>
-    <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"Ukufinyelela kuzaziso zephrofayela yomsebenzi zivinjelwe"</string>
+    <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"Ukufinyelela kuzaziso neotericrofayela yomsebenzi zivinjelwe"</string>
     <string name="manage_notification_access_summary_zero" msgid="7528633634628627431">"Izinhlelo zokusebenza azikwazi ukufunda izaziso"</string>
     <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="3703008881487586312">
       <item quantity="one">%d izinhlelo zokusebenza zingakwazi ukufunda izaziso</item>

@@ -63,8 +63,8 @@
         android:key="charging_control"
         android:title="@string/charging_control_title"
         android:summary="@string/charging_control_summary"
-        android:fragment="com.android.settings.zeph.health.ChargingControlSettings"
-        settings:controller="com.android.settings.zeph.health.ChargingControlPreferenceController" />
+        android:fragment="com.android.settings.neoteric.health.ChargingControlSettings"
+        settings:controller="com.android.settings.neoteric.health.ChargingControlPreferenceController" />
 
     <Preference
         android:key="battery_icon"

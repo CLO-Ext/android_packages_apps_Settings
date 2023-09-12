@@ -49,8 +49,8 @@
         android:title="@string/system_update_title"
         android:icon="@drawable/ic_system_update"
         android:order="-235">
-        <intent android:targetPackage="org.zephyrus.ota"
-                android:targetClass="org.zephyrus.ota.UpdatesActivity" />
+        <intent android:targetPackage="org.neoteric.ota"
+                android:targetClass="org.neoteric.ota.UpdatesActivity" />
     </Preference>
 
     <Preference

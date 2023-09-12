@@ -29,7 +29,7 @@ import android.telephony.TelephonyManager;
 import android.telephony.ims.ProvisioningManager;
 
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.network.CarrierConfigCache;
 import com.android.settings.network.ims.MockVolteQueryImsState;

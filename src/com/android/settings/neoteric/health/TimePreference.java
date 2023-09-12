@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.zeph.health;
+package com.android.settings.neoteric.health;
 
 import static java.time.format.FormatStyle.SHORT;
 
@@ -29,7 +29,7 @@ import androidx.preference.PreferenceViewHolder;
 
 import com.android.settings.R;
 
-import org.zeph.support.preference.CustomDialogPreference;
+import org.neoteric.support.preference.CustomDialogPreference;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;

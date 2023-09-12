@@ -22,7 +22,7 @@
         android:title="@string/heads_up_notifications_enable"
         android:defaultValue="true" />
 
-    <org.zeph.support.preference.SystemSettingSwitchPreference
+    <org.neoteric.support.preference.SystemSettingSwitchPreference
         android:key="less_boring_heads_up"
         android:title="@string/less_boring_heads_up_title"
         android:summary="@string/less_boring_heads_up_summary"

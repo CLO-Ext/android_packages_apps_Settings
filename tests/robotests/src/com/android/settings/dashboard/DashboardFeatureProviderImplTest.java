@@ -59,7 +59,7 @@ import android.util.Pair;
 
 import androidx.fragment.app.FragmentActivity;
 import androidx.preference.Preference;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;

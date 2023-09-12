@@ -26,7 +26,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import androidx.preference.PreferenceViewHolder;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settingslib.widget.AnimatedImageView;

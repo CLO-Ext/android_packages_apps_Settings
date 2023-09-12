@@ -31,7 +31,7 @@ import android.sysprop.AdbProperties;
 
 import androidx.fragment.app.Fragment;
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.testutils.shadow.ShadowUtils;
 

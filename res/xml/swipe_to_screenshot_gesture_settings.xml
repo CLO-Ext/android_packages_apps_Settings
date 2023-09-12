@@ -27,14 +27,14 @@
         settings:searchable="true"
         app:lottie_rawRes="@raw/lottie_gesture_swipe_to_screenshot" />
 
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="swipe_to_screenshot"
         android:title="@string/three_finger_gesture"
         android:summary="@string/three_finger_gesture_summary"
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
-    <org.zeph.support.preference.SystemSettingListPreference
+    <org.neoteric.support.preference.SystemSettingListPreference
         android:key="swipe_type"
         android:title="@string/three_finger_title"
         android:summary="%s"

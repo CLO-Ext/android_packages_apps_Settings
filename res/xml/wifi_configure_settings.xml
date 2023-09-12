@@ -19,14 +19,14 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/wifi_configure_settings_preference_title">
 
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="enable_wifi_wakeup"
         android:title="@string/wifi_wakeup"
         android:icon="@drawable/ic_auto_wifi"
         android:summary="@string/wifi_wakeup_summary"
         settings:controller="com.android.settings.wifi.WifiWakeupPreferenceController"/>
 
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="notify_open_networks"
         android:title="@string/wifi_notify_open_networks"
         android:icon="@drawable/ic_open_wifi_notifications"
@@ -34,7 +34,7 @@
         settings:keywords="@string/keywords_wifi_notify_open_networks"
         settings:controller="com.android.settings.wifi.NotifyOpenNetworksPreferenceController"/>
 
-    <org.zeph.support.preference.SystemSettingListPreference
+    <org.neoteric.support.preference.SystemSettingListPreference
         android:key="qs_click_behavior"
         android:title="@string/click_internet_tile_behavior_title"
         android:summary="%s"
@@ -43,7 +43,7 @@
         android:order="26"
         android:defaultValue="0" />
 
-    <org.zeph.support.preference.SystemSettingListPreference
+    <org.neoteric.support.preference.SystemSettingListPreference
         android:key="qs_long_click_behavior"
         android:title="@string/lclick_internet_tile_behavior_title"
         android:summary="%s"
@@ -61,7 +61,7 @@
         android:entryValues="@array/custom_timeout_values"
         settings:controller="com.android.settings.wifi.WifiTimeoutPreferenceController"/>
 
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="wifi_cellular_data_fallback"
         android:title="@string/wifi_cellular_data_fallback_title"
         android:summary="@string/wifi_cellular_data_fallback_summary"

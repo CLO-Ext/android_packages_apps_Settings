@@ -62,7 +62,7 @@
             settings:allowDividerAbove="true"
             settings:allowDividerBelow="false"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="mobile_data_enable"
             android:title="@string/mobile_data_settings_title"
             android:summary="@string/mobile_data_settings_summary"
@@ -88,7 +88,7 @@
             android:title="@string/billing_cycle"
             settings:controller="com.android.settings.datausage.BillingCyclePreferenceController"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="carrier_wifi_toggle"
             android:title="@string/carrier_wifi_offload_title"
             android:summary="@string/carrier_wifi_offload_summary"
@@ -100,19 +100,19 @@
             android:selectable="false"
             settings:searchable="false"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="mms_message"
             android:title="@string/mms_message_title"
             android:summary="@string/mms_message_summary"
             settings:controller="com.android.settings.network.telephony.MmsMessagePreferenceController"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="data_during_calls"
             android:title="@string/data_during_calls_title"
             android:summary="@string/data_during_calls_summary"
             settings:controller="com.android.settings.network.telephony.DataDuringCallsPreferenceController"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="enhanced_4g_lte"
             android:title="@string/enhanced_4g_lte_mode_title"
             android:persistent="false"
@@ -120,34 +120,34 @@
             settings:keywords="@string/keywords_enhance_4g_lte"
             settings:controller="com.android.settings.network.telephony.Enhanced4gLtePreferenceController"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="4g_calling"
             android:title="@string/enhanced_4g_lte_mode_title_4g_calling"
             android:persistent="false"
             android:summary="@string/enhanced_4g_lte_mode_summary_4g_calling"
             settings:keywords="@string/keywords_enhance_4g_lte"
             settings:controller="com.android.settings.network.telephony.Enhanced4gCallingPreferenceController"/>
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="advance_call"
             android:title="@string/enhanced_4g_lte_mode_title_advanced_calling"
             android:persistent="false"
             android:summary="@string/enhanced_4g_lte_mode_summary"
             settings:keywords="@string/keywords_enhance_4g_lte"
             settings:controller="com.android.settings.network.telephony.Enhanced4gAdvancedCallingPreferenceController"/>
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="enabled_5g"
             android:title="@string/enabled_5g_mode_title"
             android:persistent="true"
             settings:controller="com.android.settings.network.telephony.Enabled5GPreferenceController"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="smart_5g"
             android:title="@string/smart_5g_title"
             android:persistent="false"
             android:summary="@string/smart_5g_summary"
             settings:controller="com.android.settings.network.telephony.Smart5gPreferenceController"/>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="contact_discovery_opt_in"
             android:title="@string/contact_discovery_opt_in_title"
             android:persistent="false"
@@ -198,13 +198,13 @@
                 </intent>
             </Preference>
 
-            <org.zeph.support.preference.SwitchPreference
+            <org.neoteric.support.preference.SwitchPreference
                 android:key="video_calling_key"
                 android:title="@string/video_calling_settings_title"
                 android:persistent="true"
                 settings:controller="com.android.settings.network.telephony.VideoCallingPreferenceController"/>
 
-            <org.zeph.support.preference.SwitchPreference
+            <org.neoteric.support.preference.SwitchPreference
                 android:key="backup_calling_key"
                 android:title="@string/backup_calling_settings_title"
                 android:persistent="false"
@@ -237,12 +237,12 @@
             android:title="@string/network_operator_category"
             settings:controller="com.android.settings.network.telephony.NetworkPreferenceCategoryController">
 
-            <org.zeph.support.preference.SwitchPreference
+            <org.neoteric.support.preference.SwitchPreference
                 android:key="select_network_key"
                 android:title="@string/enable_snpn"
                 settings:controller="com.android.settings.network.telephony.gsm.SelectNetworkPreferenceController"/>
 
-            <org.zeph.support.preference.SwitchPreference
+            <org.neoteric.support.preference.SwitchPreference
                 android:key="auto_select_key"
                 android:title="@string/select_automatically"
                 settings:controller="com.android.settings.network.telephony.gsm.AutoSelectPreferenceController"/>
@@ -277,13 +277,13 @@
             settings:controller="com.android.settings.network.telephony.CarrierPreferenceController">
         </Preference>
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="enable_2g"
             android:title="@string/enable_2g_title"
             android:summary="@string/enable_2g_summary"
             settings:controller="com.android.settings.network.telephony.Enable2gPreferenceController" />
 
-        <org.zeph.support.preference.SwitchPreference
+        <org.neoteric.support.preference.SwitchPreference
             android:key="nr_advanced_calling"
             android:title="@string/nr_advanced_calling_title"
             android:persistent="false"

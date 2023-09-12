@@ -31,7 +31,7 @@ import android.content.pm.PackageManager;
 import android.os.UserHandle;
 import android.provider.Settings;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.internal.R;
 import com.android.internal.view.RotationPolicy;

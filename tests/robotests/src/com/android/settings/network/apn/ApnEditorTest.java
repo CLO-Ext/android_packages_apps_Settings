@@ -45,7 +45,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.preference.EditTextPreference;
 import androidx.preference.ListPreference;
 import androidx.preference.MultiSelectListPreference;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 import com.android.settings.R;
 import com.android.settings.network.ProxySubscriptionManager;
 import com.android.settings.network.apn.ApnEditor.ApnData;

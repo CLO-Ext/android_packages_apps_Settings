@@ -37,7 +37,7 @@ import android.util.Slog;
 
 import androidx.annotation.NonNull;
 import androidx.preference.Preference;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.google.common.annotations.VisibleForTesting;
 

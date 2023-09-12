@@ -30,8 +30,8 @@ import com.android.settings.core.BasePreferenceController;
 
 public class GameSpaceController extends BasePreferenceController {
 
-    private static final String GAME_PACKAGE = "com.zeph.gamespace";
-    private static final String GAME_SETTINGS = "com.zeph.gamespace.settings.SettingsActivity";
+    private static final String GAME_PACKAGE = "com.neoteric.gamespace";
+    private static final String GAME_SETTINGS = "com.neoteric.gamespace.settings.SettingsActivity";
 
     private final PackageManager mPackageManager;
 

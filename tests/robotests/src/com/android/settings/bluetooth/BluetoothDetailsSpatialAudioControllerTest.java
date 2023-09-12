@@ -29,7 +29,7 @@ import android.media.AudioManager;
 import android.media.Spatializer;
 
 import androidx.preference.PreferenceCategory;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settingslib.core.lifecycle.Lifecycle;
 

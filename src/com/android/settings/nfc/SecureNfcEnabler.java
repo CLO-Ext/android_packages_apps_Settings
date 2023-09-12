@@ -20,7 +20,7 @@ import android.content.Context;
 import android.nfc.NfcAdapter;
 import android.os.UserManager;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.R;
 

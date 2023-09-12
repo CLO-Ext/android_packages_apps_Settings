@@ -14,32 +14,32 @@
  * limitations under the License.
  */
 
-package com.android.settings.zeph.health;
+package com.android.settings.neoteric.health;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
 import com.android.settings.R;
 
-public class StartTimePreference extends TimePreference {
-    private static final String TAG = StartTimePreference.class.getSimpleName();
+public class TargetTimePreference extends TimePreference {
+    private static final String TAG = TargetTimePreference.class.getSimpleName();
 
-    public StartTimePreference(Context context, AttributeSet attrs) {
+    public TargetTimePreference(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
     @Override
     protected int getSummaryResourceId() {
-        return R.string.charging_control_start_time_summary;
+        return R.string.charging_control_target_time_summary;
     }
 
     @Override
     protected int getTimeSetting() {
-        return mHealthInterface.getStartTime();
+        return mHealthInterface.getTargetTime();
     }
 
     @Override
     protected void setTimeSetting(int secondOfDay) {
-        mHealthInterface.setStartTime(secondOfDay);
+        mHealthInterface.setTargetTime(secondOfDay);
     }
 }

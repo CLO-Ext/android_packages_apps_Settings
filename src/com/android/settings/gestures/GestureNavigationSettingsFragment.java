@@ -18,7 +18,7 @@ package com.android.settings.gestures;
 
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
 
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 
@@ -57,13 +57,13 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
     
     private static final String FULLSCREEN_GESTURE_PREF_KEY = "fullscreen_gestures";
-    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.zeph.overlay.systemui.navbar.gestural";
+    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.neoteric.overlay.systemui.navbar.gestural";
     
     private static final String IMMERSIVE_GESTURE_PREF_KEY = "immersive_gestures";
-    private static final String IMMERSIVE_GESTURE_OVERLAY_PKG = "com.zeph.overlay.systemui.navbar_immersive.gestural";
+    private static final String IMMERSIVE_GESTURE_OVERLAY_PKG = "com.neoteric.overlay.systemui.navbar_immersive.gestural";
 
     private static final String IME_GESTURE_PREF_KEY = "navigation_bar_ime_space";
-    private static final String IME_GESTURE_OVERLAY_PKG = "com.zeph.overlay.systemui.navbar_ime.narrow";
+    private static final String IME_GESTURE_OVERLAY_PKG = "com.neoteric.overlay.systemui.navbar_ime.narrow";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;

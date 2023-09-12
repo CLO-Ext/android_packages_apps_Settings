@@ -17,8 +17,8 @@ import com.android.settings.preference.SystemSettingMainSwitchPreference;
 
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-import org.zeph.support.preference.SystemSettingListPreference;
-import org.zeph.support.preference.SystemSettingSeekBarPreference;
+import org.neoteric.support.preference.SystemSettingListPreference;
+import org.neoteric.support.preference.SystemSettingSeekBarPreference;
 
 public class NetworkTraffic extends SettingsPreferenceFragment
         implements OnMainSwitchChangeListener {

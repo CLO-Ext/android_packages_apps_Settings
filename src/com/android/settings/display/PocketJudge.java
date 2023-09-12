@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 Project Zephyrus
+ * Copyright (C) 2023 Neoteric OS
  * SPDX-License-Identifier: Apache-2.0
  */
 

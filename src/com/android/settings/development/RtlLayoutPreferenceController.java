@@ -22,7 +22,7 @@ import android.sysprop.DisplayProperties;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.internal.app.LocalePicker;
 import com.android.settings.core.PreferenceControllerMixin;

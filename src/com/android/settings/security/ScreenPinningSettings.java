@@ -31,7 +31,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceScreen;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;

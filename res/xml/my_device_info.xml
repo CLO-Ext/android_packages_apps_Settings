@@ -28,10 +28,10 @@
         android:selectable="false"
         settings:isPreferenceVisible="false"/>
         
-    <!-- Project Zephyrus logo -->
+    <!-- Neoteric OS logo -->
     <PreferenceScreen
-        android:key="zeph_logo"
-        android:layout="@layout/zeph_logo"
+        android:key="neoteric_logo"
+        android:layout="@layout/neoteric_logo"
         android:selectable="false"/>
 
     <PreferenceCategory
@@ -57,13 +57,13 @@
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
-        <!-- Project Zephyrus version -->
+        <!-- Neoteric OS version -->
         <Preference
-            android:key="zeph_version"
+            android:key="neoteric_version"
             android:order="4"
-            android:title="@string/zeph_version"
+            android:title="@string/neoteric_version"
             android:summary="@string/summary_placeholder"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.ProjectZephyrusVersionPreferenceController"/>
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.NeotericOSVersionPreferenceController"/>
 
         <!-- Account name -->
         <Preference

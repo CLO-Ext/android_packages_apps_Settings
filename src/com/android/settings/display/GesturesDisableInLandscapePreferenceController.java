@@ -22,7 +22,7 @@ import com.android.settingslib.core.lifecycle.events.OnStop;
 
 import com.android.settings.core.BasePreferenceController;
 
-import org.zeph.support.preference.SystemSettingSwitchPreference;
+import org.neoteric.support.preference.SystemSettingSwitchPreference;
 
 public class GesturesDisableInLandscapePreferenceController extends BasePreferenceController
         implements LifecycleObserver, OnStart, OnStop {

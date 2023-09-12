@@ -77,7 +77,7 @@
         android:title="@string/wifi_subscription"
         android:summary="@string/wifi_subscription_summary"/>
 
-    <org.zeph.support.preference.SwitchPreference
+    <org.neoteric.support.preference.SwitchPreference
         android:key="auto_connect"
         android:title="@string/wifi_auto_connect_title"
         android:summary="@string/wifi_auto_connect_summary"/>

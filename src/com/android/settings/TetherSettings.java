@@ -50,7 +50,7 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
-import org.zeph.support.preference.SwitchPreference;
+import org.neoteric.support.preference.SwitchPreference;
 
 import com.android.settings.core.FeatureFlags;
 import com.android.settings.datausage.DataSaverBackend;
