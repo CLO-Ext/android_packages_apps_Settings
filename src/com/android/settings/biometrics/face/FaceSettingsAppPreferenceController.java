@@ -80,7 +80,7 @@ public class FaceSettingsAppPreferenceController extends FaceSettingsPreferenceC
     @Override
     public int getAvailabilityStatus() {
         // When the device supports multiple biometrics auth, this preference will be hidden.
-        if (Utils.isMultipleBiometricsSupported(mContext) && !FaceUtils.isFaceUnlockSupported()) {
+        if (Utils.isMultipleBiometricsSupported(mContext) && !(FaceUtils.isFaceUnlockSupported() || FaceUtils.isFaceUnlockPixelSupported())) {
             return UNSUPPORTED_ON_DEVICE;
         }
 

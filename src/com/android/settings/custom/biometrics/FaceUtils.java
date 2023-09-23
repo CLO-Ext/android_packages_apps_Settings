@@ -14,6 +14,10 @@ public final class FaceUtils {
         return FaceUnlockUtils.isFaceUnlockSupported();
     }
 
+    public static boolean isFaceUnlockPixelSupported() {
+        return FaceUnlockUtils.isFaceUnlockPixelSupported();
+    }
+
     public static boolean isFaceDisabledByAdmin(Context context) {
         DevicePolicyManager devicePolicyManager = (DevicePolicyManager) context.getSystemService("device_policy");
         try {

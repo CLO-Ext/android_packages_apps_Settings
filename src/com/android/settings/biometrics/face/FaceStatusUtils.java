@@ -64,7 +64,7 @@ public class FaceStatusUtils {
      * Returns the summary of face settings entity.
      */
     public String getSummary() {
-        if (FaceUtils.isFaceUnlockSupported() && FaceUtils.isFaceDisabledByAdmin(mContext)) {
+        if ((FaceUtils.isFaceUnlockSupported() || FaceUtils.isFaceUnlockPixelSupported()) && FaceUtils.isFaceDisabledByAdmin(mContext)) {
             return mContext.getResources().getString(R.string.disabled_by_administrator_summary);
         }
         return mContext.getResources().getString(hasEnrolled()

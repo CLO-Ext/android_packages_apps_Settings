@@ -33,6 +33,6 @@ public class FaceUnlockCategoryPreferenceController extends BasePreferenceContro
 
     @Override
     public int getAvailabilityStatus() {
-        return Utils.isMultipleBiometricsSupported(mContext) && !FaceUtils.isFaceUnlockSupported() ? UNSUPPORTED_ON_DEVICE : AVAILABLE;
+        return Utils.isMultipleBiometricsSupported(mContext) && !(FaceUtils.isFaceUnlockSupported() || FaceUtils.isFaceUnlockPixelSupported()) ? UNSUPPORTED_ON_DEVICE : AVAILABLE;
     }
 }
