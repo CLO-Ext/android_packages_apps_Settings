@@ -200,7 +200,7 @@
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
-    <string name="skip_manually_confirmation">Skip manually confirmation</string>
+    <string name="skip_manually_confirmation">Skip manual confirmation</string>
 
     <!-- QS footer data usage -->
     <string name="qs_show_data_usage_title">Show data usage</string>
