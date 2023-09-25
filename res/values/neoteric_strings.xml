@@ -232,4 +232,8 @@
 
     <!-- Ambient timeout -->
     <string name="ambient_time_out_title">Ambient notification time out</string>
+
+    <!-- Single tap for keyguard affordance -->
+    <string name="keyguard_affordance_single_tap_title">Keyguard affordance single tap</string>
+    <string name="keyguard_affordance_single_tap_summary">Toggle keyguard affordances with a single tap</string>
 </resources>
