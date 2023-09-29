@@ -30,12 +30,13 @@ import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settings.core.PreferenceControllerMixin;
 
 /**
  * This class allows choosing a vibration pattern while ringing
  */
 public class PhoneVibrationPatternPreferenceController extends AbstractPreferenceController
-        implements Preference.OnPreferenceChangeListener {
+        implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
     private static final String KEY_VIB_PATTERN = "ring_vibration_pattern";
 

@@ -20,11 +20,13 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.os.VibrationEffect;
 import android.provider.Settings;
+import com.android.settings.core.PreferenceControllerMixin;
 
 /**
  * This class allows choosing a vibration pattern for notifications
  */
-public class NotificationVibrationPatternPreferenceController extends PhoneVibrationPatternPreferenceController {
+public class NotificationVibrationPatternPreferenceController extends PhoneVibrationPatternPreferenceController implements 
+        PreferenceControllerMixin {
 
     private static final String KEY_VIB_PATTERN = "notification_vibration_pattern";
     private static final long[] DEFAULT_VIBRATE_PATTERN = {0, 250, 250, 250};
