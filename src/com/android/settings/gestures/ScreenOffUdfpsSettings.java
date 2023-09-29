@@ -47,9 +47,6 @@ public class ScreenOffUdfpsSettings extends DashboardFragment {
                 .getSuggestionFeatureProvider(context);
         SharedPreferences prefs = suggestionFeatureProvider.getSharedPrefs(context);
         prefs.edit().putBoolean(PREF_KEY_SUGGESTION_COMPLETE, true).apply();
-
-        use(ScreenOffUdfpsPreferenceController.class)
-                .setConfig(new AmbientDisplayConfiguration(context));
     }
 
 

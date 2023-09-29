@@ -122,7 +122,6 @@ public class LockscreenDashboardFragment extends DashboardFragment
         use(AmbientDisplayNotificationsPreferenceController.class).setConfig(getConfig(context));
         use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
-        use(ScreenOffUdfpsPreferenceController.class).setConfig(getConfig(context));
 
         mControlsContentObserver = new ContentObserver(
                 new Handler(Looper.getMainLooper())) {

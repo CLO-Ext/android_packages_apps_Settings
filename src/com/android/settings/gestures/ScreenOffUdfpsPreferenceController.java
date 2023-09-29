@@ -44,30 +44,25 @@ public class ScreenOffUdfpsPreferenceController extends GesturePreferenceControl
         mUserId = UserHandle.myUserId();
     }
 
-    public ScreenOffUdfpsPreferenceController setConfig(AmbientDisplayConfiguration config) {
-        mAmbientConfig = config;
-        return this;
+    private boolean screenOffUdfpsAvailable() {
+        return !getAmbientConfig().udfpsLongPressSensorType().isBlank();
     }
 
-    private static boolean screenOffUdfpsAvailable(AmbientDisplayConfiguration config) {
-        return !TextUtils.isEmpty(config.udfpsLongPressSensorType());
-    }
-
-    public static boolean isSuggestionComplete(Context context, SharedPreferences prefs) {
+    public boolean isSuggestionComplete(Context context, SharedPreferences prefs) {
         return isSuggestionComplete(new AmbientDisplayConfiguration(context), prefs);
     }
 
     @VisibleForTesting
-    static boolean isSuggestionComplete(AmbientDisplayConfiguration config,
+    boolean isSuggestionComplete(AmbientDisplayConfiguration config,
             SharedPreferences prefs) {
-        return !screenOffUdfpsAvailable(config)
+        return !screenOffUdfpsAvailable()
                 || prefs.getBoolean(ScreenOffUdfpsSettings.PREF_KEY_SUGGESTION_COMPLETE, false);
     }
 
     @Override
     public int getAvailabilityStatus() {
         // No hardware support for Screen-Off UDFPS
-        if (!screenOffUdfpsAvailable(mAmbientConfig)) {
+        if (!screenOffUdfpsAvailable()) {
             return UNSUPPORTED_ON_DEVICE;
         }
 
