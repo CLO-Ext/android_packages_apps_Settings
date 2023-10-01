@@ -34,4 +34,10 @@
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
+    <org.neoteric.preference.SystemSettingSwitchPreference
+        android:key="ambient_screen_screenshot_swipe"
+        android:title="@string/three_finger_ambient_title"
+        android:summary="@string/three_finger_ambient_summary"
+        android:dependency="swipe_to_screenshot"
+        android:defaultValue="true" />
 </PreferenceScreen>

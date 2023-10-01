@@ -56,4 +56,8 @@
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for other bootable components in power menu</string>
+
+    <!-- Three-fingers screenshot on ambient -->
+    <string name="three_finger_ambient_title">Swipe to screenshot on Ambient Display</string>
+    <string name="three_finger_ambient_summary">Swipe three fingers to take screenshot even on Ambient Display</string>
 </resources>
