@@ -54,4 +54,6 @@
     <string name="three_finger_title">Three finger swipe screenshot behavior</string>
     <string name="three_finger_full">Fullscreen screenshot</string>
     <string name="three_finger_partial">Partial screenshot</string>
+    <string name="three_finger_ambient_title">Swipe to screenshot on Ambient Display</string>
+    <string name="three_finger_ambient_summary">Swipe three fingers to take screenshot even on Ambient Display</string>
 </resources>
