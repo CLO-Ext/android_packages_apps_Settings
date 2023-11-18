@@ -216,6 +216,12 @@
             android:summary="@string/display_white_balance_summary"
             settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController"/>
 
+        <SwitchPreferenceCompat
+            android:key="touch_polling"
+            android:title="@string/touch_polling_title"
+            android:summary="@string/touch_polling_summary"
+            settings:controller="com.android.settings.display.TouchPollingPreferenceController" />
+
 	<!--
         <SwitchPreferenceCompat
             android:key="peak_refresh_rate"
