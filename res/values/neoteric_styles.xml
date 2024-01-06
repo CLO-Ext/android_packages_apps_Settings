@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Text Styles -->
+    <style name="neotericTextPrimary">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
+    <style name="neotericTextPrimaryMedium" parent="neotericTextPrimary">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="neotericTextSecondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <!-- Dashboard -->
+    <style name="neotericDashboardPreferenceSingle" parent="neotericPreferenceSingle">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+    <style name="neotericDashboardPreferenceTop" parent="neotericPreferenceTop">
+        <item name="android:layout_marginTop">@dimen/neoteric_pref_horizontal_padding</item>
+    </style>
+
+    <style name="neotericDashboardPreferenceBottom" parent="neotericPreferenceBottom">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <!-- General -->
+    <style name="neotericPreferenceSingle" parent="neotericPreferenceBase">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/neoteric_preference_background_single</item>
+    </style>
+
+    <style name="neotericPreferenceBase">
+        <item name="android:layout_marginStart">@dimen/neoteric_pref_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/neoteric_pref_horizontal_padding</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="neotericPreferenceTop" parent="neotericPreferenceBase">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@drawable/neoteric_preference_background_top</item>
+    </style>
+
+    <style name="neotericPreferenceMiddle" parent="neotericPreferenceBase">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:background">@drawable/neoteric_preference_background_middle</item>
+    </style>
+
+    <style name="neotericPreferenceBottom" parent="neotericPreferenceBase">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/neoteric_preference_background_bottom</item>
+    </style>
+
+    <style name="neotericDashboardPreferenceSingleAccent">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/neoteric_preference_background_single_accent</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+</resources>
