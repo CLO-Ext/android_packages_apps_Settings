@@ -22,6 +22,7 @@ import static com.android.settingslib.search.SearchIndexable.MOBILE;
 import android.app.ActivityManager;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -57,6 +58,8 @@ import com.android.settingslib.core.instrumentation.Instrumentable;
 import com.android.settingslib.drawer.Tile;
 import com.android.settingslib.search.SearchIndexable;
 
+import java.util.Set;
+
 @SearchIndexable(forTarget = MOBILE)
 public class TopLevelSettings extends DashboardFragment implements SplitLayoutListener,
         PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
@@ -71,6 +74,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     private boolean mScrollNeeded = true;
     private boolean mFirstStarted = true;
     private ActivityEmbeddingController mActivityEmbeddingController;
+    private boolean gAppsExists;
 
     public TopLevelSettings() {
         final Bundle args = new Bundle();
@@ -104,6 +108,8 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
+        // Check if Google Apps exist and set the gAppsExists flag accordingly
+        gAppsExists = checkIfGoogleAppsExist(context);
         HighlightableMenu.fromXml(context, getPreferenceScreenResId());
         use(SupportPreferenceController.class).setActivity(getActivity());
     }
@@ -201,6 +207,18 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
         return taskInfo.numActivities == 1;
     }
 
+    private boolean checkIfGoogleAppsExist(Context context) {
+        // Perform the necessary check to determine if Google Apps exist
+        // For example, you might use PackageManager to check for the existence of a Google app package
+        PackageManager packageManager = context.getPackageManager();
+        try {
+            packageManager.getPackageInfo("com.google.android.gsf", 0);
+            return true; // Google Apps exist
+        } catch (PackageManager.NameNotFoundException e) {
+            return false; // Google Apps do not exist
+        }
+    }
+
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
@@ -222,6 +240,39 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 icon.setTint(tintColor);
             }
         });
+
+     onSetPrefCard();
+    }
+
+    private void onSetPrefCard() {
+        final PreferenceScreen screen = getPreferenceScreen();
+        final int count = screen.getPreferenceCount();
+
+        // Define key sets for layout grouping
+        Set<String> topKeys = Set.of(
+                "top_level_network", "top_level_display", "top_level_apps",
+                "top_level_accessibility", "top_level_emergency", "top_level_system"
+        );
+        Set<String> middleKeys = Set.of(
+                "top_level_battery", "top_level_security", "top_level_privacy",
+                "top_level_safety_center", "top_level_storage", "top_level_wellbeing",
+                "top_level_notifications"
+        );
+
+        for (int i = 0; i < count; i++) {
+            final Preference preference = screen.getPreference(i);
+            String key = preference.getKey();
+
+            if (topKeys.contains(key)) {
+                preference.setLayoutResource(R.layout.neoteric_dashboard_preference_top);
+            } else if (middleKeys.contains(key) || ("top_level_accounts".equals(key) && gAppsExists)) {
+                preference.setLayoutResource(R.layout.neoteric_dashboard_preference_middle);
+            } else if ("top_level_google".equals(key)) {
+                preference.setLayoutResource(R.layout.neoteric_dashboard_preference_bottom);
+            } else {
+                preference.setLayoutResource(R.layout.neoteric_dashboard_preference_bottom);
+            }
+	}
     }
 
     @Override
