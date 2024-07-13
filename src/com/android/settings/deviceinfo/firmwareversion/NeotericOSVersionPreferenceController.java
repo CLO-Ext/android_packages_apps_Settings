@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2021 Paranoid Android
+ * Copyright 2024 Neoteric OS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,13 +22,13 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class ParanoidAndroidVersionPreferenceController extends BasePreferenceController {
+public class NeotericOSVersionPreferenceController extends BasePreferenceController {
 
-    private static final String AOSPA_DISPLAY_VERSION_PROP = "ro.aospa.version";
+    private static final String NEOTERIC_VERSION_PROP = "ro.neoteric.version";
 
     private final Context mContext;
 
-    public ParanoidAndroidVersionPreferenceController(Context context, String key) {
+    public NeotericOSVersionPreferenceController(Context context, String key) {
         super(context, key);
         mContext = context;
     }
@@ -40,7 +40,7 @@ public class ParanoidAndroidVersionPreferenceController extends BasePreferenceCo
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(AOSPA_DISPLAY_VERSION_PROP,
+        return SystemProperties.get(NEOTERIC_VERSION_PROP,
                 mContext.getResources().getString(R.string.device_info_default));
     }
 }
