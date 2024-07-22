@@ -338,6 +338,15 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
         return nDDS;
     }
 
+    private BroadcastReceiver mBrocastReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (intent.getAction().equals(CarrierConfigManager.ACTION_CARRIER_CONFIG_CHANGED)) {
+                redrawPreferenceControllers();
+            }
+        }
+    };
+
     public MobileNetworkSettings() {
         super(UserManager.DISALLOW_CONFIG_MOBILE_NETWORKS);
     }
@@ -621,6 +630,10 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
         Log.d(LOG_TAG, "onResume() subId=" + mSubId);
         getActivity().registerReceiver(mBroadcastReceiver,
                 new IntentFilter(CarrierConfigManager.ACTION_CARRIER_CONFIG_CHANGED));
+
+        IntentFilter intentFilter = new IntentFilter();
+        intentFilter.addAction(CarrierConfigManager.ACTION_CARRIER_CONFIG_CHANGED);
+        getContext().registerReceiver(mBrocastReceiver, intentFilter, Context.RECEIVER_EXPORTED);
     }
 
     private void onSubscriptionDetailChanged() {
@@ -640,6 +653,7 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
     @Override
     public void onPause() {
         mMobileNetworkRepository.removeRegister(this);
+        getContext().unregisterReceiver(mBrocastReceiver);
         super.onPause();
         getActivity().unregisterReceiver(mBroadcastReceiver);
     }
