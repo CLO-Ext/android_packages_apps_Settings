@@ -49,7 +49,6 @@ import com.android.settingslib.mobile.dataservice.MobileNetworkInfoDao;
 import com.android.settingslib.mobile.dataservice.MobileNetworkInfoEntity;
 import com.android.settingslib.mobile.dataservice.SubscriptionInfoDao;
 import com.android.settingslib.mobile.dataservice.SubscriptionInfoEntity;
-import com.android.settingslib.mobile.dataservice.UiccInfoDao;
 import com.android.settingslib.mobile.dataservice.UiccInfoEntity;
 
 import java.util.ArrayList;
@@ -83,12 +82,9 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
     private SubscriptionManager mSubscriptionManager;
     private MobileNetworkDatabase mMobileNetworkDatabase;
     private SubscriptionInfoDao mSubscriptionInfoDao;
-    private UiccInfoDao mUiccInfoDao;
     private MobileNetworkInfoDao mMobileNetworkInfoDao;
     private List<SubscriptionInfoEntity> mAvailableSubInfoEntityList = new ArrayList<>();
     private List<SubscriptionInfoEntity> mActiveSubInfoEntityList = new ArrayList<>();
-    private List<UiccInfoEntity> mUiccInfoEntityList = new ArrayList<>();
-    private List<MobileNetworkInfoEntity> mMobileNetworkInfoEntityList = new ArrayList<>();
     private Context mContext;
     private AirplaneModeObserver mAirplaneModeObserver;
     private DataRoamingObserver mDataRoamingObserver;
@@ -128,7 +124,6 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
         mMetricsFeatureProvider.action(mContext, SettingsEnums.ACTION_MOBILE_NETWORK_DB_CREATED);
         mSubscriptionManager = context.getSystemService(SubscriptionManager.class);
         mSubscriptionInfoDao = mMobileNetworkDatabase.mSubscriptionInfoDao();
-        mUiccInfoDao = mMobileNetworkDatabase.mUiccInfoDao();
         mMobileNetworkInfoDao = mMobileNetworkDatabase.mMobileNetworkInfoDao();
         mAirplaneModeObserver = new AirplaneModeObserver(new Handler(Looper.getMainLooper()));
         mDataRoamingObserver = new DataRoamingObserver(new Handler(Looper.getMainLooper()));
@@ -342,22 +337,6 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
                 lifecycleOwner, this::onAllMobileNetworkInfoChanged);
     }
 
-    public List<SubscriptionInfoEntity> getAvailableSubInfoEntityList() {
-        return mAvailableSubInfoEntityList;
-    }
-
-    public List<SubscriptionInfoEntity> getActiveSubscriptionInfoList() {
-        return mActiveSubInfoEntityList;
-    }
-
-    public List<UiccInfoEntity> getUiccInfoEntityList() {
-        return mUiccInfoEntityList;
-    }
-
-    public List<MobileNetworkInfoEntity> getMobileNetworkInfoEntityList() {
-        return mMobileNetworkInfoEntityList;
-    }
-
     public SubscriptionInfoEntity getSubInfoById(String subId) {
         return mSubscriptionInfoDao.querySubInfoById(subId);
     }
@@ -469,7 +448,6 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
     }
 
     private void onAllUiccInfoChanged(List<UiccInfoEntity> uiccInfoEntityList) {
-        mUiccInfoEntityList = new ArrayList<>(uiccInfoEntityList);
         for (MobileNetworkCallback callback : sCallbacks) {
             callback.onAllUiccInfoChanged(uiccInfoEntityList);
         }
@@ -479,7 +457,6 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
 
     private void onAllMobileNetworkInfoChanged(
             List<MobileNetworkInfoEntity> mobileNetworkInfoEntityList) {
-        mMobileNetworkInfoEntityList = new ArrayList<>(mobileNetworkInfoEntityList);
         for (MobileNetworkCallback callback : sCallbacks) {
             callback.onAllMobileNetworkInfoChanged(mobileNetworkInfoEntityList);
         }
@@ -520,8 +497,6 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
         mMobileNetworkDatabase.deleteSubInfoBySubId(subId);
         mMobileNetworkDatabase.deleteUiccInfoBySubId(subId);
         mMobileNetworkDatabase.deleteMobileNetworkInfoBySubId(subId);
-        mUiccInfoEntityList.removeIf(info -> info.subId.equals(subId));
-        mMobileNetworkInfoEntityList.removeIf(info -> info.subId.equals(subId));
         int id = Integer.parseInt(subId);
         removerRegisterBySubId(id);
         mSubscriptionInfoMap.remove(id);
@@ -750,7 +725,6 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
     }
 
     private class PhoneCallStateTelephonyCallback extends TelephonyCallback implements
-            TelephonyCallback.CallStateListener,
             TelephonyCallback.UserMobileDataStateListener,
             TelephonyCallback.ActiveDataSubscriptionIdListener {
 
@@ -764,16 +738,6 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
 
         public boolean isCallIdle() {
             return mCallState == TelephonyManager.CALL_STATE_IDLE;
-        }
-
-        @Override
-        public void onCallStateChanged(int state) {
-            mCallState = state;
-            final boolean isAnyCallOngoing = isAnyOngoingCallOnDevice();
-            for (MobileNetworkCallback callback : sCallbacks) {
-                callback.onCallStateChanged(state);
-                callback.onAnyOngoingCallOnDevice(isAnyCallOngoing);
-            }
         }
 
         @Override
@@ -819,9 +783,6 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
         default void onDataRoamingChanged(int subId, boolean enabled) {
         }
 
-        default void onCallStateChanged(int state) {
-        }
-
         default void onAnyOngoingCallOnDevice(boolean isAnyCallOngoing) {
         }
     }
@@ -831,8 +792,6 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
         printwriter.increaseIndent();
         printwriter.println(" availableSubInfoEntityList= " + mAvailableSubInfoEntityList);
         printwriter.println(" activeSubInfoEntityList=" + mActiveSubInfoEntityList);
-        printwriter.println(" mobileNetworkInfoEntityList= " + mMobileNetworkInfoEntityList);
-        printwriter.println(" uiccInfoEntityList= " + mUiccInfoEntityList);
         printwriter.println(" CacheSubscriptionInfoEntityMap= " + sCacheSubscriptionInfoEntityMap);
         printwriter.println(" SubscriptionInfoMap= " + mSubscriptionInfoMap);
         printwriter.flush();

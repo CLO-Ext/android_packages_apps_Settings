@@ -112,7 +112,6 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
     @VisibleForTesting
     static final String KEY_CLICKED_PREF = "key_clicked_pref";
 
-    private static final String KEY_ROAMING_PREF = "button_roaming_key";
     private static final String KEY_DATA_PREF = "data_preference";
     private static final String KEY_CALLS_PREF = "calls_preference";
     private static final String KEY_SMS_PREF = "sms_preference";
@@ -415,8 +414,6 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
 
         return Arrays.asList(
                 new DataUsageSummaryPreferenceController(context, mSubId),
-                new RoamingPreferenceController(context, KEY_ROAMING_PREF, getSettingsLifecycle(),
-                        this, mSubId),
                 new DataDefaultSubscriptionController(context, KEY_DATA_PREF,
                         getSettingsLifecycle(), this),
                 new CallsDefaultSubscriptionController(context, KEY_CALLS_PREF,
@@ -505,11 +502,10 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
                             null /* WifiPickerTrackerCallback */));
         }
 
-        final RoamingPreferenceController roamingPreferenceController =
-                use(RoamingPreferenceController.class);
+        final RoamingPreferenceControllerAOSP roamingPreferenceController =
+                use(RoamingPreferenceControllerAOSP.class);
         if (roamingPreferenceController != null) {
-            roamingPreferenceController.init(getFragmentManager(), mSubId,
-                    mMobileNetworkInfoEntity);
+            roamingPreferenceController.init(getParentFragmentManager(), mSubId);
         }
         final SatelliteSettingPreferenceController satelliteSettingPreferenceController = use(
                 SatelliteSettingPreferenceController.class);
