@@ -45,7 +45,6 @@ import com.android.settingslib.bluetooth.A2dpProfile;
 import com.android.settingslib.bluetooth.BluetoothUtils;
 import com.android.settingslib.bluetooth.CachedBluetoothDevice;
 import com.android.settingslib.bluetooth.HeadsetProfile;
-import com.android.settingslib.bluetooth.HearingAidProfile;
 import com.android.settingslib.bluetooth.LeAudioProfile;
 import com.android.settingslib.bluetooth.LocalBluetoothManager;
 import com.android.settingslib.bluetooth.LocalBluetoothProfile;
@@ -97,6 +96,7 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
             new HashMap<String, List<CachedBluetoothDevice>>();
     private boolean mIsLeContactSharingEnabled = false;
     private boolean mIsLeAudioToggleEnabled = false;
+    private boolean mIsLeAudioOnlyDevice = false;
 
     @VisibleForTesting
     PreferenceCategory mProfilesContainer;
@@ -184,7 +184,15 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
         }
 
         if (profile instanceof LeAudioProfile) {
-            profilePref.setVisible(mIsLeAudioToggleEnabled);
+            boolean showLeAudioToggle = mIsLeAudioToggleEnabled;
+            if (Flags.hideLeAudioToggleForLeAudioOnlyDevice() && mIsLeAudioOnlyDevice) {
+                showLeAudioToggle = false;
+                Log.d(
+                        TAG,
+                        "Hide LeAudio toggle for LeAudio-only Device: "
+                                + mCachedDevice.getDevice().getAnonymizedAddress());
+            }
+            profilePref.setVisible(showLeAudioToggle);
         }
 
         if (profile instanceof MapProfile) {
@@ -351,6 +359,11 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
         if (leAudioSupported && classicAudioSupported) {
             result.remove(mManager.getProfileManager().getA2dpProfile());
             result.remove(mManager.getProfileManager().getHeadsetProfile());
+        }
+        boolean hearingAidSupported = result.contains(
+                mManager.getProfileManager().getHearingAidProfile());
+        if (leAudioSupported && !classicAudioSupported && !hearingAidSupported) {
+            mIsLeAudioOnlyDevice = true;
         }
         Log.d(TAG, "getProfiles:Map:" + mProfileDeviceMap);
         return result;
@@ -533,19 +546,6 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
         refresh();
     }
 
-    private boolean isLeAudioOnlyDevice() {
-        if (mCachedDevice.getProfiles().stream()
-                .noneMatch(profile -> profile instanceof LeAudioProfile)) {
-            return false;
-        }
-        return mCachedDevice.getProfiles().stream()
-                .noneMatch(
-                        profile ->
-                                profile instanceof HearingAidProfile
-                                        || profile instanceof A2dpProfile
-                                        || profile instanceof HeadsetProfile);
-    }
-
     private void updateLeAudioConfig() {
         mIsLeContactSharingEnabled = DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_SETTINGS_UI,
                 SettingsUIDeviceConfig.BT_LE_AUDIO_CONTACT_SHARING_ENABLED, true);
@@ -554,13 +554,6 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
         boolean isLeEnabledByDefault =
                 SystemProperties.getBoolean(LE_AUDIO_CONNECTION_BY_DEFAULT_PROPERTY, true);
         mIsLeAudioToggleEnabled = isLeAudioToggleVisible || isLeEnabledByDefault;
-        if (Flags.hideLeAudioToggleForLeAudioOnlyDevice() && isLeAudioOnlyDevice()) {
-            mIsLeAudioToggleEnabled = false;
-            Log.d(
-                    TAG,
-                    "Hide LeAudio toggle for LeAudio-only Device: "
-                            + mCachedDevice.getDevice().getAnonymizedAddress());
-        }
         Log.d(TAG, "BT_LE_AUDIO_CONTACT_SHARING_ENABLED:" + mIsLeContactSharingEnabled
                 + ", LE_AUDIO_TOGGLE_VISIBLE_PROPERTY:" + isLeAudioToggleVisible
                 + ", LE_AUDIO_CONNECTION_BY_DEFAULT_PROPERTY:" + isLeEnabledByDefault);

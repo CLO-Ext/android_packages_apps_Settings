@@ -17,6 +17,7 @@
 package com.android.settings.notification.modes;
 
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
@@ -25,9 +26,7 @@ import android.content.Context;
 import android.platform.test.annotations.EnableFlags;
 import android.platform.test.flag.junit.SetFlagsRule;
 
-import androidx.preference.Preference;
-
-import com.android.settingslib.notification.modes.ZenModesBackend;
+import com.android.settingslib.notification.modes.TestModeBuilder;
 
 import org.junit.Before;
 import org.junit.Rule;
@@ -48,8 +47,6 @@ public final class ZenModePeopleLinkPreferenceControllerTest {
 
     private Context mContext;
     @Mock
-    private ZenModesBackend mBackend;
-    @Mock
     private ZenHelperBackend mHelperBackend;
 
     @Before
@@ -59,14 +56,17 @@ public final class ZenModePeopleLinkPreferenceControllerTest {
         mContext = RuntimeEnvironment.application;
 
         mController = new ZenModePeopleLinkPreferenceController(
-                mContext, "something", mBackend, mHelperBackend);
+                mContext, "something", mHelperBackend);
     }
 
     @Test
     @EnableFlags(Flags.FLAG_MODES_UI)
     public void testHasSummary() {
-        Preference pref = mock(Preference.class);
+        CircularIconsPreference pref = mock(CircularIconsPreference.class);
+
         mController.updateZenMode(pref, TestModeBuilder.EXAMPLE);
+
         verify(pref).setSummary(any());
+        verify(pref).displayIcons(eq(CircularIconSet.EMPTY));
     }
 }
