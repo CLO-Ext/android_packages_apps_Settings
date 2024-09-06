@@ -91,7 +91,7 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
     private LocalBluetoothManager mManager;
     private LocalBluetoothProfileManager mProfileManager;
     private CachedBluetoothDevice mCachedDevice;
-    private List<CachedBluetoothDevice> mAllOfCachedDevices;
+    private Set<CachedBluetoothDevice> mCachedDeviceGroup;
     private Map<String, List<CachedBluetoothDevice>> mProfileDeviceMap =
             new HashMap<String, List<CachedBluetoothDevice>>();
     private boolean mIsLeContactSharingEnabled = false;
@@ -107,7 +107,7 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
         mManager = manager;
         mProfileManager = mManager.getProfileManager();
         mCachedDevice = device;
-        mAllOfCachedDevices = Utils.getAllOfCachedBluetoothDevices(mManager, mCachedDevice);
+        mCachedDeviceGroup = Utils.findAllCachedBluetoothDevicesByGroupId(mManager, mCachedDevice);
     }
 
     @Override
@@ -317,10 +317,10 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
     private List<LocalBluetoothProfile> getProfiles() {
         List<LocalBluetoothProfile> result = new ArrayList<>();
         mProfileDeviceMap.clear();
-        if (mAllOfCachedDevices == null || mAllOfCachedDevices.isEmpty()) {
+        if (mCachedDeviceGroup == null || mCachedDeviceGroup.isEmpty()) {
             return result;
         }
-        for (CachedBluetoothDevice cachedItem : mAllOfCachedDevices) {
+        for (CachedBluetoothDevice cachedItem : mCachedDeviceGroup) {
             List<LocalBluetoothProfile> tmpResult = cachedItem.getUiAccessibleProfiles();
             for (LocalBluetoothProfile profile : tmpResult) {
                 if (mProfileDeviceMap.containsKey(profile.toString())) {
@@ -533,7 +533,7 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
 
     @Override
     public void onPause() {
-        for (CachedBluetoothDevice item : mAllOfCachedDevices) {
+        for (CachedBluetoothDevice item : mCachedDeviceGroup) {
             item.unregisterCallback(this);
         }
         mProfileManager.removeServiceListener(this);
@@ -542,7 +542,7 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
     @Override
     public void onResume() {
         updateLeAudioConfig();
-        for (CachedBluetoothDevice item : mAllOfCachedDevices) {
+        for (CachedBluetoothDevice item : mCachedDeviceGroup) {
             item.registerCallback(this);
         }
         mProfileManager.addServiceListener(this);
@@ -565,11 +565,11 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
 
     @Override
     public void onDeviceAttributesChanged() {
-        for (CachedBluetoothDevice item : mAllOfCachedDevices) {
+        for (CachedBluetoothDevice item : mCachedDeviceGroup) {
             item.unregisterCallback(this);
         }
-        mAllOfCachedDevices = Utils.getAllOfCachedBluetoothDevices(mManager, mCachedDevice);
-        for (CachedBluetoothDevice item : mAllOfCachedDevices) {
+        mCachedDeviceGroup = Utils.findAllCachedBluetoothDevicesByGroupId(mManager, mCachedDevice);
+        for (CachedBluetoothDevice item : mCachedDeviceGroup) {
             item.registerCallback(this);
         }
 
