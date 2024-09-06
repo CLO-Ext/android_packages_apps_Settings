@@ -23,7 +23,7 @@ import com.android.settings.R
 import com.android.settings.network.SubscriptionUtil
 import com.android.settings.network.telephony.MmsMessagePreferenceController.Companion.MmsMessageSearchItem
 import com.android.settings.network.telephony.NrAdvancedCallingPreferenceController.Companion.NrAdvancedCallingSearchItem
-import com.android.settings.network.telephony.RoamingPreferenceController.Companion.RoamingSearchItem
+import com.android.settings.network.telephony.RoamingPreferenceControllerAOSP.Companion.RoamingSearchItem
 import com.android.settings.network.telephony.WifiCallingPreferenceController.Companion.WifiCallingSearchItem
 import com.android.settings.spa.SpaSearchLanding.BundleValue
 import com.android.settings.spa.SpaSearchLanding.SpaSearchLandingFragment
