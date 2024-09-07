@@ -55,6 +55,7 @@ import com.android.settings.connecteddevice.stylus.StylusDevicesController;
 import com.android.settings.core.SettingsUIDeviceConfig;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.dashboard.RestrictedDashboardFragment;
+import com.android.settings.flags.Flags;
 import com.android.settings.inputmethod.KeyboardSettingsPreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.slices.SlicePreferenceController;
@@ -238,8 +239,8 @@ public class BluetoothDeviceDetailsFragment extends RestrictedDashboardFragment 
             finish();
             return;
         }
-        use(AdvancedBluetoothDetailsHeaderController.class).init(mCachedDevice);
-        use(LeAudioBluetoothDetailsHeaderController.class).init(mCachedDevice, mManager);
+        use(AdvancedBluetoothDetailsHeaderController.class).init(mCachedDevice, this);
+        use(LeAudioBluetoothDetailsHeaderController.class).init(mCachedDevice, mManager, this);
         use(KeyboardSettingsPreferenceController.class).init(mCachedDevice);
 
         final BluetoothFeatureProvider featureProvider =
@@ -363,7 +364,7 @@ public class BluetoothDeviceDetailsFragment extends RestrictedDashboardFragment 
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        if (!mUserManager.isGuestUser()) {
+        if (!Flags.enableBluetoothDeviceDetailsPolish() && !mUserManager.isGuestUser()) {
             MenuItem item = menu.add(0, EDIT_DEVICE_NAME_ITEM_ID, 0,
                     R.string.bluetooth_rename_button);
             item.setIcon(com.android.internal.R.drawable.ic_mode_edit);
@@ -400,6 +401,9 @@ public class BluetoothDeviceDetailsFragment extends RestrictedDashboardFragment 
             Lifecycle lifecycle = getSettingsLifecycle();
             controllers.add(new BluetoothDetailsHeaderController(context, this, mCachedDevice,
                     lifecycle));
+            controllers.add(
+                    new GeneralBluetoothDetailsHeaderController(
+                            context, this, mCachedDevice, lifecycle));
             controllers.add(new BluetoothDetailsButtonsController(context, this, mCachedDevice,
                     lifecycle));
             controllers.add(new BluetoothDetailsCompanionAppsController(context, this,
