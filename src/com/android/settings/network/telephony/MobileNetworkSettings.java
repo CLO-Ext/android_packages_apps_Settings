@@ -439,7 +439,6 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-
         if (mSubId == SubscriptionManager.INVALID_SUBSCRIPTION_ID) {
             Log.d(LOG_TAG, "Invalid subId, get the default subscription to show.");
             SubscriptionInfo info = SubscriptionUtil.getSubscriptionOrDefault(context, mSubId);
@@ -500,7 +499,7 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
         use(NrDisabledInDsdsFooterPreferenceController.class).init(mSubId);
 
         use(MobileNetworkSpnPreferenceController.class).init(this, mSubId);
-        use(MobileNetworkPhoneNumberPreferenceController.class).init(this, mSubId);
+        use(MobileNetworkPhoneNumberPreferenceController.class).init(mSubId);
         use(MobileNetworkImeiPreferenceController.class).init(this, mSubId);
 
         final MobileDataPreferenceController mobileDataPreferenceController =
@@ -595,6 +594,11 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
                 setTelephonyAvailabilityStatus(getPreferenceControllersAsList());
 
         super.onCreate(icicle);
+        if (isUiRestricted()) {
+            Log.d(LOG_TAG, "Mobile network page is disallowed.");
+            finish();
+            return;
+        }
         if (mSubId == SubscriptionManager.INVALID_SUBSCRIPTION_ID) {
             Log.i(LOG_TAG, "onCreate: invalid subId. finish");
             session.close();
@@ -756,14 +760,10 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
                         boolean enabled) {
                     return super.getXmlResourcesToIndex(context, enabled);
                 }
-
-                /** suppress full page if user is not admin */
                 @Override
                 protected boolean isPageSearchEnabled(Context context) {
-                    boolean isAirplaneOff = Settings.Global.getInt(context.getContentResolver(),
-                            Settings.Global.AIRPLANE_MODE_ON, 0) == 0;
-                    return isAirplaneOff && SubscriptionUtil.isSimHardwareVisible(context)
-                            && context.getSystemService(UserManager.class).isAdminUser();
+                    return MobileNetworkSettingsSearchIndex
+                            .isMobileNetworkSettingsSearchable(context);
                 }
             };
 
