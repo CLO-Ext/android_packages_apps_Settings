@@ -117,6 +117,7 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
     static final String KEY_CLICKED_PREF = "key_clicked_pref";
 
     private static final String KEY_DATA_PREF = "data_preference";
+    private static final String KEY_ROAMING_PREF = "button_roaming_key";
     private static final String KEY_CALLS_PREF = "calls_preference";
     private static final String KEY_SMS_PREF = "sms_preference";
     private static final String KEY_MOBILE_DATA_PREF = "mobile_data_enable";
@@ -430,6 +431,8 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
                 new DataUsageSummaryPreferenceController(context, mSubId),
                 new DataDefaultSubscriptionController(context, KEY_DATA_PREF,
                         getSettingsLifecycle(), this),
+                new RoamingPreferenceController(context, KEY_ROAMING_PREF, getSettingsLifecycle(),
+                        this, mSubId),
                 new CallsDefaultSubscriptionController(context, KEY_CALLS_PREF,
                         getSettingsLifecycle(), this),
                 new SmsDefaultSubscriptionController(context, KEY_SMS_PREF, getSettingsLifecycle(),
@@ -516,10 +519,11 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
                             null /* WifiPickerTrackerCallback */));
         }
 
-        final RoamingPreferenceControllerAOSP roamingPreferenceController =
-                use(RoamingPreferenceControllerAOSP.class);
+        final RoamingPreferenceController roamingPreferenceController =
+                use(RoamingPreferenceController.class);
         if (roamingPreferenceController != null) {
-            roamingPreferenceController.init(getParentFragmentManager(), mSubId);
+            roamingPreferenceController.init(getFragmentManager(), mSubId,
+                    mMobileNetworkInfoEntity);
         }
         final SatelliteSettingPreferenceController satelliteSettingPreferenceController = use(
                 SatelliteSettingPreferenceController.class);
