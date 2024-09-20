@@ -42,10 +42,20 @@
             settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
             settings:enableCopying="true"/>
 
+        <!-- Neoteric OS version -->
+        <Preference
+            android:key="neoteric_version"
+            android:order="2"
+            android:title="@string/neoteric_version"
+            android:summary="@string/summary_placeholder"
+            settings:enableCopying="true"
+            settings:searchable="false"
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.NeotericVersionPreferenceController"/>
+
         <!-- Account name -->
         <Preference
             android:key="branded_account"
-            android:order="2"
+            android:order="3"
             android:title="@string/my_device_info_account_preference_title"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
@@ -54,7 +64,7 @@
         <!-- Phone number -->
         <Preference
             android:key="phone_number"
-            android:order="3"
+            android:order="4"
             android:selectable="false"
             android:title="@string/status_number"
             android:summary="@string/summary_placeholder"
