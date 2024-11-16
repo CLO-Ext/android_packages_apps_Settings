@@ -297,4 +297,8 @@
     <!-- Ignore secure flag -->
     <string name="window_ignore_secure_title">Ignore window secure flags</string>
     <string name="window_ignore_secure_summary">Remove screenshot / screenrecord limits for all applications</string>
+
+    <!-- Hide screen capture status -->
+    <string name="hide_screen_capture_status_title">Hide screen capture status</string>
+    <string name="hide_screen_capture_status_summary">Hide screen capture and screen record status from all applications. Can be convenient in some cases but may lead to privacy leaks.</string>
 </resources>
