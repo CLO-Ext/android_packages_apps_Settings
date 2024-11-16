@@ -135,6 +135,12 @@
         android:summary="@string/pif_data_summary"
         android:defaultValue=""/>
 
+    <org.neoteric.preference.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/window_ignore_secure_title"
+        android:summary="@string/window_ignore_secure_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="advanced_category"
         android:title="@string/advanced_apps"
