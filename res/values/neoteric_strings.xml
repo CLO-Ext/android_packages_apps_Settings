@@ -152,4 +152,8 @@
     <!-- Haptic Settings -->
     <string name="haptic_on_slider_title">System slider</string>
     <string name="haptic_on_slider_summary">Do haptic feedback when changed slider value</string>
+
+    <!-- Tiles on secure keyguard -->
+    <string name="qs_lock_screen_secure_title">Require unlocking to use qs tiles</string>
+    <string name="qs_lock_screen_secure_summary">Ask to unlock lockscreen when using qs tiles</string>
 </resources>
