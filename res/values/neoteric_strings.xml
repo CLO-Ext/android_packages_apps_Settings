@@ -293,4 +293,8 @@
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+
+    <!-- Ignore secure flag -->
+    <string name="window_ignore_secure_title">Ignore window secure flags</string>
+    <string name="window_ignore_secure_summary">Remove screenshot / screenrecord limits for all applications</string>
 </resources>
