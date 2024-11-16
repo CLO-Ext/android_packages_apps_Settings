@@ -119,6 +119,12 @@
         android:summary="@string/window_ignore_secure_summary"
         android:defaultValue="false" />
 
+    <org.neoteric.preference.GlobalSettingSwitchPreference
+        android:key="hide_screen_capture_status"
+        android:title="@string/hide_screen_capture_status_title"
+        android:summary="@string/hide_screen_capture_status_summary"
+        android:defaultValue="false"/>
+
     <PreferenceCategory
         android:key="advanced_category"
         android:title="@string/advanced_apps"
