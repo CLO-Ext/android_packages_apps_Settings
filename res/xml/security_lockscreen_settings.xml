@@ -89,6 +89,12 @@
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
             android:summary="@string/lockscreen_double_line_clock_summary"
             settings:controller="com.android.settings.display.LockscreenClockPreferenceController" />
+
+	<org.neoteric.preference.SystemSettingSwitchPreference
+            android:key="secure_lockscreen_qs_disabled"
+            android:title="@string/qs_lock_screen_secure_title"
+            android:summary="@string/qs_lock_screen_secure_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
