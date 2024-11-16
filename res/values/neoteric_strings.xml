@@ -152,4 +152,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+
+    <!-- Tiles on secure keyguard -->
+    <string name="qs_lock_screen_secure_title">Require unlocking to use qs tiles</string>
+    <string name="qs_lock_screen_secure_summary">Ask to unlock lockscreen when using qs tiles</string>
 </resources>
