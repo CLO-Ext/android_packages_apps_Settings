@@ -344,4 +344,9 @@
     <string name="enable_protection">Enable protection</string>
     <string name="hide_from_launcher_title">Hide from launcher</string>
     <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+
+    <!-- Bluetooth QS Tile behavior -->
+    <string name="click_bluetooth_tile_behavior_title">Click Bluetooth tile behavior</string>
+    <string name="b_bluetooth_tile">Toggle Bluetooth</string>
+    <string name="modern_panel_bluetooth_tile">Open Bluetooth QS panel</string>
 </resources>

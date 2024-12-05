@@ -60,6 +60,15 @@
         settings:useAdminDisabledSummary="true"
         settings:userRestriction="no_config_bluetooth" />
 
+    <org.neoteric.preference.SystemSettingListPreference
+        android:key="qs_bt_click_behavior"
+        android:title="@string/click_bluetooth_tile_behavior_title"
+        android:summary="%s"
+        android:entries="@array/click_bluetooth_qs_entries"
+        android:entryValues="@array/click_bluetooth_qs_values"
+        android:order="26"
+        android:defaultValue="0" />
+
     <ListPreference
         android:key="bluetooth_timeout"
         android:title="@string/bluetooth_timeout"
