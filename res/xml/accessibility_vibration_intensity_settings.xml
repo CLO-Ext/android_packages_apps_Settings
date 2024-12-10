@@ -84,6 +84,13 @@
             android:title="@string/haptic_on_slider_title"
             android:summary="@string/haptic_on_slider_summary" />
 
+        <org.neoteric.preference.SystemSettingSwitchPreference
+            android:defaultValue="true"
+            android:dependency="vibration_intensity_preference_touch"
+            android:key="haptic_on_scroll"
+            android:title="@string/haptic_on_scroll_title"
+            android:summary="@string/haptic_on_scroll_summary" />
+
         <SwitchPreferenceCompat
             android:key="vibration_intensity_preference_keyboard"
             android:title="@string/accessibility_keyboard_vibration_title"
