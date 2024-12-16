@@ -74,6 +74,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 
+// LINT.IfChange
 /**
  * Displays preferences for Tethering.
  */
@@ -156,6 +157,7 @@ public class TetherSettings extends RestrictedDashboardFragment
         return R.xml.tether_prefs;
     }
 
+    @SuppressWarnings("NullAway")
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -207,16 +209,19 @@ public class TetherSettings extends RestrictedDashboardFragment
 
         mWifiTetherPreferenceController.displayPreference(getPreferenceScreen());
 
-        if (!bluetoothAvailable) {
-            getPreferenceScreen().removePreference(mBluetoothTether);
-        } else {
-            BluetoothPan pan = mBluetoothPan.get();
-            if (pan != null && pan.isTetheringOn()) {
-                mBluetoothTether.setChecked(true);
+        if (!isCatalystEnabled()) {
+            if (!bluetoothAvailable) {
+                mBluetoothTether.setVisible(false);
             } else {
-                mBluetoothTether.setChecked(false);
+                BluetoothPan pan = mBluetoothPan.get();
+                if (pan != null && pan.isTetheringOn()) {
+                    mBluetoothTether.setChecked(true);
+                } else {
+                    mBluetoothTether.setChecked(false);
+                }
             }
         }
+
         if (!ethernetAvailable) getPreferenceScreen().removePreference(mEthernetTether);
         // Set initial state based on Data Saver mode.
         onDataSaverChanged(mDataSaverBackend.isDataSaverEnabled());
@@ -265,7 +270,9 @@ public class TetherSettings extends RestrictedDashboardFragment
         mDataSaverEnabled = isDataSaving;
         mWifiTetherPreferenceController.setDataSaverEnabled(mDataSaverEnabled);
         mUsbTether.setEnabled(!mDataSaverEnabled);
-        mBluetoothTether.setEnabled(!mDataSaverEnabled);
+        if (!isCatalystEnabled()) {
+            mBluetoothTether.setEnabled(!mDataSaverEnabled);
+        }
         mEthernetTether.setEnabled(!mDataSaverEnabled);
         mDataSaverFooter.setVisible(mDataSaverEnabled);
     }
@@ -515,6 +522,8 @@ public class TetherSettings extends RestrictedDashboardFragment
     }
 
     private void updateBluetoothState() {
+        if (isCatalystEnabled()) return;
+
         final int btState = getBluetoothState();
         if (DEBUG) {
             Log.d(TAG, "updateBluetoothState() btState : " + btState);
@@ -570,7 +579,7 @@ public class TetherSettings extends RestrictedDashboardFragment
     }
 
     private void startTethering(int choice) {
-        if (choice == TETHERING_BLUETOOTH) {
+        if (choice == TETHERING_BLUETOOTH && !isCatalystEnabled()) {
             // Turn on Bluetooth first.
             BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
             if (adapter.getState() == BluetoothAdapter.STATE_OFF) {
@@ -592,7 +601,7 @@ public class TetherSettings extends RestrictedDashboardFragment
             } else {
                 mCm.stopTethering(TETHERING_USB);
             }
-        } else if (preference == mBluetoothTether) {
+        } else if (preference == mBluetoothTether && !isCatalystEnabled()) {
             if (mBluetoothTether.isChecked()) {
                 startTethering(TETHERING_BLUETOOTH);
             } else {
@@ -745,3 +754,4 @@ public class TetherSettings extends RestrictedDashboardFragment
         return TetherScreen.KEY;
     }
 }
+// LINT.ThenChange(BluetoothTetherSwitchPreference.kt)
