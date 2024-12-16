@@ -15,8 +15,6 @@
  */
 package com.android.settings.network;
 
-import static android.provider.SettingsSlicesContract.KEY_AIRPLANE_MODE;
-
 import static com.android.settings.network.SatelliteWarningDialogActivity.EXTRA_TYPE_OF_SATELLITE_WARNING_DIALOG;
 import static com.android.settings.network.SatelliteWarningDialogActivity.TYPE_IS_AIRPLANE_MODE;
 
@@ -60,6 +58,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+// LINT.IfChange
 public class AirplaneModePreferenceController extends TogglePreferenceController
         implements LifecycleObserver, OnStart, OnResume, OnStop, OnDestroy,
         AirplaneModeEnabler.OnAirplaneModeChangedListener {
@@ -103,9 +102,9 @@ public class AirplaneModePreferenceController extends TogglePreferenceController
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
-        if (KEY_AIRPLANE_MODE.equals(preference.getKey()) && isAvailable()) {
-            if(mAirplaneModeEnabler.isInEcmMode()) {
-                // In ECM mode launch ECM app dialog
+        if (AirplaneModePreference.KEY.equals(preference.getKey()) && isAvailable()) {
+            // In ECM mode launch ECM app dialog
+            if (mAirplaneModeEnabler.isInEcmMode()) {
                 if (mFragment != null) {
                     mFragment.startActivityForResult(
                             new Intent(TelephonyManager.ACTION_SHOW_NOTICE_ECM_BLOCK_OTHERS, null)
@@ -307,3 +306,4 @@ public class AirplaneModePreferenceController extends TogglePreferenceController
         }
     }
 }
+// LINT.ThenChange(AirplaneModePreference.kt)
