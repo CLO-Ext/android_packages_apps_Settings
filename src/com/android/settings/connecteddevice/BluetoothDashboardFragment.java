@@ -24,6 +24,9 @@ import android.util.Log;
 import android.view.View;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.accessibility.AccessibilityEvent;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -186,6 +189,7 @@ public class BluetoothDashboardFragment extends DashboardFragment {
         SettingsActivity activity = (SettingsActivity) getActivity();
         mSwitchBar = activity.getSwitchBar();
         mSwitchBar.setTitle(getContext().getString(R.string.bluetooth_main_switch_title));
+        mSwitchBar.getRootView().setAccessibilityDelegate(new MainSwitchAccessibilityDelegate());
         mController = new BluetoothSwitchPreferenceController(activity,
                 new MainSwitchBarController(mSwitchBar), mFooterPreference);
         mController.setAlwaysDiscoverable(isAlwaysDiscoverable(callingAppPackageName, action));
@@ -211,5 +215,20 @@ public class BluetoothDashboardFragment extends DashboardFragment {
     @Override
     public @Nullable String getPreferenceScreenBindingKey(@NonNull Context context) {
         return BluetoothDashboardScreen.KEY;
+    }
+
+    private static final class MainSwitchAccessibilityDelegate extends View.AccessibilityDelegate {
+        @Override
+        public boolean onRequestSendAccessibilityEvent(
+                @NonNull ViewGroup host, @NonNull View view, @NonNull AccessibilityEvent event) {
+            if (event.getEventType() == AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED
+                    && (event.getContentChangeTypes()
+                    & AccessibilityEvent.CONTENT_CHANGE_TYPE_ENABLED)
+                    != 0) {
+                Log.d(TAG, "Skip accessibility event for CONTENT_CHANGE_TYPE_ENABLED");
+                return false;
+            }
+            return super.onRequestSendAccessibilityEvent(host, view, event);
+        }
     }
 }
