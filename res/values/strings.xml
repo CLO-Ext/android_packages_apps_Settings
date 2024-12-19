@@ -4669,17 +4669,17 @@
     <!-- Title for the 'Bounce keys' preference switch. [CHAR LIMIT=35] -->
     <string name="bounce_keys">Bounce keys</string>
     <!-- Summary text for the 'Bounce keys' preference sub-screen. [CHAR LIMIT=300] -->
-    <string name="bounce_keys_summary">The keyboard ignores quickly repeated presses of the same key </string>
+    <string name="bounce_keys_summary">Ignore quickly repeated presses of the same key</string>
     <!-- Title for the 'Bounce keys' threshold dialog. [CHAR LIMIT=35] -->
-    <string name="bounce_keys_dialog_title">Bounce key threshold</string>
+    <string name="bounce_keys_dialog_title">Bounce key delay</string>
     <!-- Subtitle for the 'Bounce keys' threshold dialog. [CHAR LIMIT=300] -->
-    <string name="bounce_keys_dialog_subtitle">Choose the duration of time your keyboard ignores repeated key presses</string>
+    <string name="bounce_keys_dialog_subtitle">Choose how long the keyboard ignores repeated keystrokes</string>
     <!-- Option title for the input setting keys threshold dialog for 200 millisecond. [CHAR LIMIT=35] -->
-    <string name="input_setting_keys_dialog_option_200">0.2s</string>
+    <string name="input_setting_keys_dialog_option_200">0.2 seconds</string>
     <!-- Option title for the input setting keys threshold dialog for 400 millisecond. [CHAR LIMIT=35] -->
-    <string name="input_setting_keys_dialog_option_400">0.4s</string>
+    <string name="input_setting_keys_dialog_option_400">0.4 seconds</string>
     <!-- Option title for the input setting keys threshold dialog for 600 millisecond. [CHAR LIMIT=35] -->
-    <string name="input_setting_keys_dialog_option_600">0.6s</string>
+    <string name="input_setting_keys_dialog_option_600">0.6 seconds</string>
     <!-- Option title for the input setting keys threshold dialog for custom value. [CHAR LIMIT=35] -->
     <string name="input_setting_keys_custom_title">Custom</string>
     <!-- Option subtitle for the input setting keys threshold dialog for custom value. [CHAR LIMIT=35] -->
@@ -4688,7 +4688,7 @@
     <!-- Title for the 'Slow keys' preference switch. [CHAR LIMIT=35] -->
     <string name="slow_keys">Slow keys</string>
     <!-- Summary text for the 'Slow keys' preference sub-screen. [CHAR LIMIT=300] -->
-    <string name="slow_keys_summary">Adjusts the time it takes for a key press to activate</string>
+    <string name="slow_keys_summary">Change how long you need to hold down a key before it\'s registered</string>
     <!-- Title for the 'Sticky keys' preference switch. [CHAR LIMIT=35] -->
     <string name="sticky_keys">Sticky keys</string>
     <!-- Summary text for the 'Sticky keys' preference sub-screen. [CHAR LIMIT=300] -->
@@ -4739,6 +4739,8 @@
     <string name="trackpad_mouse_settings">Touchpad &amp; mouse</string>
     <!-- Title for the button to trigger the 'mouse settings' page if connect with a mouse. [CHAR LIMIT=35] -->
     <string name="mouse_settings">Mouse</string>
+    <!-- Summary text for mouse setting page. [CHAR LIMIT=35] -->
+    <string name="mouse_settings_summary">Pointer speed, swap buttons, button customisation</string>
     <!-- Summary text for the 'trackpad settings' page. [CHAR LIMIT=100] -->
     <string name="trackpad_settings_summary">Pointer speed, gestures</string>
 
@@ -5484,6 +5486,10 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title">High contrast text</string>
     <!-- Summary for the accessibility preference to high contrast text. [CHAR LIMIT=NONE] -->
     <string name="accessibility_toggle_high_text_contrast_preference_summary">Change text color to black or white. Maximizes contrast with the background.</string>
+    <!-- Content for the notification to high contrast text. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_notification_high_contrast_text_content">High contrast text has a new look and feel.</string>
+    <!-- Action for the notification to high contrast text. [CHAR LIMIT=35] -->
+    <string name="accessibility_notification_high_contrast_text_action">Open Settings</string>
     <!-- Title for the accessibility preference to high contrast text. [CHAR LIMIT=35] -->
     <string name="accessibility_toggle_maximize_text_contrast_preference_title">Maximize text contrast</string>
     <!-- Summary for the accessibility preference to high contrast text. [CHAR LIMIT=NONE] -->
