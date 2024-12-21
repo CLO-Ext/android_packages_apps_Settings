@@ -131,7 +131,6 @@ import com.android.settings.gestures.PowerMenuSettings;
 import com.android.settings.gestures.SwipeToNotificationSettings;
 import com.android.settings.gestures.SystemNavigationGestureSettings;
 import com.android.settings.inputmethod.AvailableVirtualKeyboardFragment;
-import com.android.settings.inputmethod.KeyboardLayoutPickerFragment;
 import com.android.settings.inputmethod.KeyboardSettings;
 import com.android.settings.inputmethod.ModifierKeysSettings;
 import com.android.settings.inputmethod.NewKeyboardLayoutEnabledLocalesFragment;
@@ -312,7 +311,6 @@ public class SettingsGateway {
             PrintJobSettingsFragment.class.getName(),
             TrustedCredentialsSettings.class.getName(),
             PaymentSettings.class.getName(),
-            KeyboardLayoutPickerFragment.class.getName(),
             PhysicalKeyboardFragment.class.getName(),
             ZenModeSettings.class.getName(),
             SoundSettings.class.getName(),
