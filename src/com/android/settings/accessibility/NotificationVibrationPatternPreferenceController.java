@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.notification;
+package com.android.settings.accessibility;
 
 import android.content.Context;
 import android.content.res.Resources;
