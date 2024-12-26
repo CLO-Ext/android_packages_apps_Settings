@@ -41,6 +41,12 @@
             app:keywords="@string/keywords_ramping_ringer_vibration"
             app:controller="com.android.settings.accessibility.VibrationRampingRingerTogglePreferenceController"/>
 
+        <ListPreference
+            android:key="ring_vibration_pattern"
+            android:title="@string/ring_vibration_pattern_title"
+            android:entries="@array/ring_vibration_pattern_entries"
+            android:entryValues="@array/ring_vibration_pattern_values"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -58,6 +64,12 @@
             android:title="@string/accessibility_alarm_vibration_title"
             app:keywords="@string/keywords_alarm_vibration"
             app:controller="com.android.settings.accessibility.AlarmVibrationIntensityPreferenceController" />
+
+        <ListPreference
+            android:key="notification_vibration_pattern"
+            android:title="@string/notification_vibration_pattern_title"
+            android:entries="@array/notification_vibration_pattern_entries"
+            android:entryValues="@array/notification_vibration_pattern_values"/>
 
     </PreferenceCategory>
 
