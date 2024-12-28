@@ -3,51 +3,102 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:paddingStart="5dp">
 
-    <RadioGroup
-        android:id="@+id/radio_group"
+    <!-- Default -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground">
 
         <RadioButton
             android:id="@+id/radio_default"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/display_engine_default"
-            android:textSize="18sp"
-            android:paddingStart="20dp"
-            android:layout_marginTop="16dp" />
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            android:textColor="?android:textColorPrimary" />
+    </LinearLayout>
+
+    <!-- X-Reality -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground">
 
         <RadioButton
             android:id="@+id/radio_x_reality"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/x_reality_engine_mode_title"
-            android:textSize="18sp"
-            android:paddingStart="20dp"
-            android:layout_marginTop="16dp" />
+            android:layout_height="wrap_content" />
 
-        <RadioButton
-            android:id="@+id/radio_triluminous"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/triluminous_display_mode_title"
-            android:textSize="18sp"
-            android:paddingStart="20dp"
-            android:layout_marginTop="16dp" />
+            android:text="@string/x_reality_engine_mode_title"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            android:textColor="?android:textColorPrimary" />
+    </LinearLayout>
+
+    <!-- Vivid -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground">
 
         <RadioButton
             android:id="@+id/radio_vivid"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/vivid_engine_mode_title"
-            android:textSize="18sp"
-            android:paddingStart="20dp"
-            android:layout_marginTop="16dp" />
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            android:textColor="?android:textColorPrimary" />
+    </LinearLayout>
 
-    </RadioGroup>
+    <!-- Triluminous -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground">
+
+        <RadioButton
+            android:id="@+id/radio_triluminous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/triluminous_display_mode_title"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            android:textColor="?android:textColorPrimary" />
+    </LinearLayout>
 
 </LinearLayout>
-

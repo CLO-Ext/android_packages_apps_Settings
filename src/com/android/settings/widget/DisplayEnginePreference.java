@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2023-2024 The risingOS Android Project
+ * Copyright (C) 2024 Neoteric-OS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +20,8 @@ import android.content.Context;
 import android.provider.Settings;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.RadioGroup;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
 
 import com.android.settings.R;
 
@@ -39,30 +41,43 @@ public class DisplayEnginePreference extends Preference {
     public void onBindViewHolder(PreferenceViewHolder holder) {
         super.onBindViewHolder(holder);
         View view = holder.itemView;
-        RadioGroup radioGroup = view.findViewById(R.id.radio_group);
+
+        // Get RadioButtons
+        RadioButton radioDefault = view.findViewById(R.id.radio_default);
+        RadioButton radioXReality = view.findViewById(R.id.radio_x_reality);
+        RadioButton radioVivid = view.findViewById(R.id.radio_vivid);
+        RadioButton radioTriluminous = view.findViewById(R.id.radio_triluminous);
+
+        // Get parent LinearLayouts (cast from ViewParent)
+        LinearLayout layoutDefault = (LinearLayout) radioDefault.getParent();
+        LinearLayout layoutXReality = (LinearLayout) radioXReality.getParent();
+        LinearLayout layoutVivid = (LinearLayout) radioVivid.getParent();
+        LinearLayout layoutTriluminous = (LinearLayout) radioTriluminous.getParent();
+
+        // Retrieve current mode from settings
         currentMode = Settings.Secure.getInt(
                 getContext().getContentResolver(),
                 "display_engine_mode",
                 0
         );
-        if (currentMode == 0) {
-            radioGroup.check(R.id.radio_default);
-        } else if (currentMode == 1) {
-            radioGroup.check(R.id.radio_x_reality);
-        } else if (currentMode == 2) {
-            radioGroup.check(R.id.radio_vivid);
-        } else if (currentMode == 3) {
-            radioGroup.check(R.id.radio_triluminous);
-        }
-        radioGroup.setOnCheckedChangeListener((group, checkedId) -> {
+
+        // Set initial checked states
+        radioDefault.setChecked(currentMode == 0);
+        radioXReality.setChecked(currentMode == 1);
+        radioVivid.setChecked(currentMode == 2);
+        radioTriluminous.setChecked(currentMode == 3);
+
+        // Common click listener
+        View.OnClickListener listener = v -> {
             int newMode = 0;
-            if (checkedId == R.id.radio_x_reality) {
+            if (v == layoutXReality) {
                 newMode = 1;
-            } else if (checkedId == R.id.radio_vivid) {
+            } else if (v == layoutVivid) {
                 newMode = 2;
-            } else if (checkedId == R.id.radio_triluminous) {
+            } else if (v == layoutTriluminous) {
                 newMode = 3;
             }
+
             if (newMode != currentMode) {
                 Settings.Secure.putInt(
                         getContext().getContentResolver(),
@@ -70,7 +85,19 @@ public class DisplayEnginePreference extends Preference {
                         newMode
                 );
                 currentMode = newMode;
+
+                // Update UI
+                radioDefault.setChecked(newMode == 0);
+                radioXReality.setChecked(newMode == 1);
+                radioVivid.setChecked(newMode == 2);
+                radioTriluminous.setChecked(newMode == 3);
             }
-        });
+        };
+
+        // Attach listeners to LinearLayouts
+        layoutDefault.setOnClickListener(listener);
+        layoutXReality.setOnClickListener(listener);
+        layoutVivid.setOnClickListener(listener);
+        layoutTriluminous.setOnClickListener(listener);
     }
 }
