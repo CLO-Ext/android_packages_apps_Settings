@@ -46,7 +46,10 @@ public class HidePrivateSpaceController extends TogglePreferenceController {
     @Override
     @AvailabilityStatus
     public int getAvailabilityStatus() {
-        return UNSUPPORTED_ON_DEVICE;
+        return android.os.Flags.allowPrivateProfile()
+                        && android.multiuser.Flags.enablePrivateSpaceFeatures()
+                ? AVAILABLE
+                : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
