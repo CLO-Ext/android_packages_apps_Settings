@@ -17,4 +17,8 @@
 
     <!-- Whether device supports increased touch sensitvity -->
     <bool name="config_supportTouchPollingMode">false</bool>
+
+    <!-- Power share thresholds -->
+    <integer name="config_minPowerShareThreshold">10</integer>
+    <integer name="config_maxPowerShareThreshold">50</integer>
 </resources>

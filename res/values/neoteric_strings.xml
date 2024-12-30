@@ -399,4 +399,12 @@
     <string name="vivid_engine_mode_title">Vivid Display</string>
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia Engine, the Display Engine offers multiple modes to enhance brightness, color saturation, detail, and color accuracy for an better visual experience.</string>
+
+    <!-- Reverse wireless charging -->
+    <string name="keywords_battery_share">share, battery share</string>
+    <string name="battery_share_title">Battery Share</string>
+    <string name="battery_share_summary">Charge other devices by placing them on the back of your device</string>
+    <string name="battery_share_limit_title">Stop sharing battery when device reaches:</string>
+    <string name="battery_share_state_on">On</string>
+    <string name="battery_share_state_off">Off</string>
 </resources>
