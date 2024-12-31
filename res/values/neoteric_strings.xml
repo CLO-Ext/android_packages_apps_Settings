@@ -405,11 +405,14 @@
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia Engine, the Display Engine offers multiple modes to enhance brightness, color saturation, detail, and color accuracy for an better visual experience.</string>
 
     <!-- Reverse wireless charging -->
-    <string name="battery_share_title">Battery Share</string>
     <string name="keywords_battery_saver">share, battery share</string>
-    <string name="battery_share_summary">Charge other devices by placing them on the back of your device</string>
-    <string name="battery_share_state_on">On</string>
-    <string name="battery_share_state_off">Off</string>
-    <string name="battery_share_unavailable">Unavailable</string>
-    <string name="battery_share_error">Error retrieving state</string>
+    <string name="battery_share_title">Battery Share</string>
+    <string name="battery_share_summary">Enable or disable Battery Share</string>
+    <string name="battery_share_threshold_title">Battery Share Threshold</string>
+    <string name="battery_share_threshold_summary">Set the battery percentage to stop sharing</string>
+    <string name="battery_share_unavailable">Battery Share is unavailable</string>
+    <string name="battery_share_error">Error accessing Battery Share</string>
+    <string name="battery_share_state_on">Battery Share is On</string>
+    <string name="battery_share_state_off">Battery Share is Off</string>
+    <string name="unit_percentage">%</string>
 </resources>

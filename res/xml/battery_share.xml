@@ -22,4 +22,12 @@
         android:summary="@string/battery_share_summary"
         app:controller="com.android.settings.fuelgauge.BatterySharePreferenceController" />
 
+    <org.neoteric.preference.SystemSettingSeekBarPreference
+        android:key="battery_share_threshold"
+        android:title="@string/battery_share_threshold_title"
+        android:summary="@string/battery_share_threshold_summary"
+        android:defaultValue="20"
+        setting:max="50"
+        settings:min="10"
+        settings:units="@string/unit_percentage" />
 </PreferenceScreen>
