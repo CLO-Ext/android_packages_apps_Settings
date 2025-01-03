@@ -953,6 +953,8 @@
     <string name="security_settings_fingerprint_settings_preferences_category">When using Fingerprint Unlock</string>
     <!-- Title shown for work menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
     <string name="security_settings_work_fingerprint_preference_title">Fingerprint for work</string>
+    <!-- Preference to check enrolled fingerprints -->
+    <string name="fingerprint_check_enrolled_title">Check enrolled fingerprints</string>
     <!-- Preference to add another fingerprint -->
     <string name="fingerprint_add_title">Add fingerprint</string>
     <!-- Message showing the current number of fingerprints set up. Shown for a menu item that launches fingerprint settings or enrollment. -->
@@ -1006,7 +1008,10 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_6">For best results, use a screen protector that\u2019s Made for Google certified. With other screen protectors, your child\u2019s fingerprint may not work.</string>
     <!-- Introduction detail message shown in fingerprint enrollment introduction to learn more about fingerprint [CHAR LIMIT=NONE]-->
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more"></string>
-
+    <!-- Description shown on the check enrolled fingerprint dialog -->
+    <string name="fingerprint_check_enroll_touch_sensor">Touch the fingerprint sensor</string>
+    <!-- Description shown on the check enrolled fingerprint dialog -->
+    <string name="fingerprint_check_enroll_not_recognized">Fingerprint not recognized</string>
     <!-- Watch unlock enrollment and settings --><skip />
     <!-- Title shown for menu item that launches watch unlock settings. [CHAR LIMIT=40] -->
     <string name ="security_settings_activeunlock_preference_title">Watch Unlock</string>
@@ -2050,6 +2055,11 @@
     <string name="bluetooth_companion_app_body"><xliff:g id="app_name" example="App Name">%1$s</xliff:g> app will no longer connect to your <xliff:g id="device_name" example="Device Name">%2$s</xliff:g></string>
     <!-- Summary of Bluetooth LE Audio toggle in Device Details. [CHAR LIMIT=40] -->
     <string name="device_details_leaudio_toggle_summary">Experimental. Improves audio quality.</string>
+    <!-- Content Description for battery icon in device details screen [CHAR LIMIT=NONE]-->
+    <string name="device_details_battery">Battery</string>
+    <!-- Content Description for battery charging icon in device details screen [CHAR LIMIT=NONE]-->
+    <string name="device_details_battery_charging">Battery, charging</string>
+
 
     <!--  Bluetooth device details. In the confirmation dialog for unpairing a paired device, this is the label on the button that will complete the unpairing action. -->
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Forget device</string>
