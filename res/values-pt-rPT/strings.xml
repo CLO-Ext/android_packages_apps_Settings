@@ -201,10 +201,12 @@
     <string name="language_selection_title" msgid="968179636453982415">"Adicione um idioma"</string>
     <string name="country_selection_title" msgid="5376929821458644732">"Preferência de região"</string>
     <string name="search_language_hint" msgid="1739082427104506694">"Introduza o idioma"</string>
+    <string name="more_language_settings_category" msgid="3669703092480725416">"Mais definições de idioma"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Preferências regionais"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Defina preferências de números e unidades"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Permita que as apps conheçam as suas preferências regionais para poderem personalizar a sua experiência."</string>
     <string name="regional_preferences_option_page_sub_title" msgid="8303661099255197036">"As apps vão usar as suas preferências regionais sempre que possível."</string>
+    <string name="regional_preferences_category_title" msgid="6754667410178749022">"Preferências regionais"</string>
     <string name="temperature_preferences_title" msgid="5009881556503629058">"Temperatura"</string>
     <string name="first_day_of_week_preferences_title" msgid="1971850087589599553">"Primeiro dia da semana"</string>
     <string name="numbers_preferences_title" msgid="8197418984391195446">"Preferências de números"</string>
@@ -896,6 +898,7 @@
     <string name="external_display_on" msgid="2560104443500154333">"Ativado"</string>
     <string name="external_display_off" msgid="5634413756025351374">"Desativado"</string>
     <string name="external_display_settings_title" msgid="6256884595821605779">"Ecrã externo"</string>
+    <string name="builtin_display_settings_category" msgid="3441388849060771885">"Ecrã integrado"</string>
     <string name="external_display_use_title" msgid="8198257340836261386">"Usar ecrã externo"</string>
     <string name="external_display_resolution_settings_title" msgid="2446784716488289268">"Resolução do ecrã"</string>
     <string name="external_display_not_found" msgid="1912355133386555798">"O ecrã externo está desligado"</string>
@@ -907,6 +910,7 @@
     <string name="external_display_change_resolution_footer_title" msgid="9024291681663573443">"Alterar a rotação ou a resolução pode parar as apps que estejam em execução"</string>
     <string name="external_display_not_found_footer_title" msgid="8882902921634316363">"O seu dispositivo tem de estar ligado a um ecrã externo para espelhar o seu ecrã"</string>
     <string name="external_display_more_options_title" msgid="1222751990705118774">"Mais opções"</string>
+    <string name="external_display_topology_hint" msgid="854973327795578470">"Toque sem soltar e arraste para reorganizar os ecrãs."</string>
     <string name="wifi_display_settings_title" msgid="6451625615274960175">"Transmitir"</string>
     <string name="keywords_wifi_display_settings" msgid="5753883229564422679">"espelhar"</string>
     <string name="wifi_display_enable_menu_item" msgid="7391841780777318134">"Ativar display sem fios"</string>
@@ -1240,8 +1244,8 @@
     <string name="auto_rotate_link_a11y" msgid="5146188567212233286">"Saiba mais sobre a rotação automática"</string>
     <string name="screen_resolution_title" msgid="2690518693139811486">"Resolução de ecrã"</string>
     <string name="screen_resolution_option_high" msgid="2617496842852992853">"Alta resolução"</string>
-    <string name="screen_resolution_option_full" msgid="2694003735219114186">"Resolução total"</string>
-    <string name="screen_resolution_footer" msgid="6772341522952795647">"A resolução total consome mais bateria. Se mudar a resolução, algumas apps podem ser reiniciadas."</string>
+    <string name="screen_resolution_option_full" msgid="4456839315039000517">"Resolução máxima"</string>
+    <string name="screen_resolution_footer" msgid="1230761249204935717">"A resolução máxima consome mais bateria. Se mudar a resolução, algumas apps podem ser reiniciadas."</string>
     <string name="screen_resolution_selected_a11y" msgid="6158451180032224977">"Selecionada"</string>
     <string name="color_mode_title" msgid="8666690832113906028">"Cores"</string>
     <string name="color_mode_option_natural" msgid="6192875655101283303">"Naturais"</string>
@@ -1320,7 +1324,7 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"Definições do Modo de hora de dormir"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{Os modos também podem ativar o tema escuro}=1{{mode_1} também ativa o tema escuro}=2{{mode_1} e {mode_2} também ativam o tema escuro}=3{{mode_1}, {mode_2} e {mode_3} também ativam o tema escuro}other{{mode_1}, {mode_2} e mais # também ativam o tema escuro}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"Definições de modos"</string>
-    <string name="even_dimmer_display_title" msgid="6731255736830410149">"Escurecer ainda mais"</string>
+    <string name="even_dimmer_display_title" msgid="4509732439977906028">"Escurecimento extra"</string>
     <string name="even_dimmer_display_summary" msgid="120301078873242172">"Permita que o dispositivo fique mais escuro do que o habitual"</string>
     <string name="screen_timeout" msgid="7709947617767439410">"Limite de tempo do ecrã"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"Depois de <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> de inatividade"</string>
@@ -1958,6 +1962,7 @@
     <string name="keyboard_options_category" msgid="8040137073401152608">"Opções"</string>
     <string name="keyboard_a11y_category" msgid="8230758278046841469">"Acessibilidade"</string>
     <string name="physical_keyboard_title" msgid="3328134097512350958">"Teclado físico"</string>
+    <string name="physical_keyboard_layout_picker_title" msgid="4526600767648916256">"Seletor de esquema de tecl. físico"</string>
     <string name="bounce_keys" msgid="7419450970351743904">"Evitar pressão repetida"</string>
     <string name="bounce_keys_summary" msgid="7418024428905737729">"O teclado ignora as pressões rápidas repetidas da mesma tecla"</string>
     <string name="bounce_keys_dialog_title" msgid="4088646362538368693">"Limiar para evitar pressão repetida"</string>
@@ -2004,6 +2009,7 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Clicar no canto inferior direito"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Clique no canto inferior direito do touchpad para mais opções"</string>
     <string name="trackpad_pointer_speed" msgid="7786579408631352625">"Velocidade do ponteiro"</string>
+    <string name="three_finger_tap_preference_title" msgid="7130739855086106052">"Usar toque com 3 dedos"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Cor do ponteiro"</string>
     <string name="pointer_fill_style_black_button" msgid="4540815366995820960">"Alt. est. preenc. ponteiro p/ preto"</string>
     <string name="pointer_fill_style_green_button" msgid="3731413496528067979">"Alt. est. preenc. ponteiro p/ verde"</string>
@@ -2018,6 +2024,11 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Aprender gestos do touchpad"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"trackpad, track pad, rato, cursor, deslocar, deslizar, clicar com o botão direito do rato, clicar, ponteiro"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"clique com o botão direito do rato, toque"</string>
+    <string name="three_finger_tap_middle_click" msgid="5274906692591143158">"Clicar no meio"</string>
+    <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Iniciar Assistente"</string>
+    <string name="three_finger_tap_go_home" msgid="6526301745535089812">"Aceder ao ecrã principal"</string>
+    <string name="three_finger_tap_go_back" msgid="2898205524575684271">"Voltar"</string>
+    <string name="three_finger_tap_recent_apps" msgid="5578228979519733605">"Ver apps recentes"</string>
     <string name="gesture_title_go_home" msgid="3682238648647225933">"Aceder ao ecrã principal"</string>
     <string name="gesture_summary_go_home" msgid="6409031586904205741">"Deslize para cima com 3 dedos em qualquer parte do touchpad"</string>
     <string name="gesture_title_go_back" msgid="6619462058488419802">"Voltar"</string>
@@ -2564,8 +2575,8 @@
     <string name="background_activity_warning_dialog_text" msgid="8202776985767701095">"Se limitar a atividade em segundo plano de uma aplicação, esta pode apresentar um comportamento anormal."</string>
     <string name="background_activity_disabled_dialog_text" msgid="4053170297325882494">"A app não está def. p/ otimizar a bateria, não a pode restringir.\n\nP/ restringir a app, ative a otimiz. da bateria."</string>
     <string name="manager_battery_usage_category_title" msgid="1493303237531629961">"Faça a gestão da utilização da bateria"</string>
-    <string name="manager_battery_usage_allow_background_usage_settings_title" msgid="8150026934645052635">"Permitir a utilização em segundo plano"</string>
-    <string name="manager_battery_usage_allow_background_usage_title" msgid="6294649996820358852">"Permitir a utilização em segundo plano"</string>
+    <string name="manager_battery_usage_allow_background_usage_settings_title" msgid="8150026934645052635">"Permitir utilização em segundo plano"</string>
+    <string name="manager_battery_usage_allow_background_usage_title" msgid="6294649996820358852">"Permitir utilização em segundo plano"</string>
     <string name="manager_battery_usage_allow_background_usage_summary" msgid="8021153755201340819">"Ative para atualizações em tempo real, desative para poupar bateria"</string>
     <string name="manager_battery_usage_unrestricted_title" msgid="2426486290463258032">"Sem restrições"</string>
     <string name="manager_battery_usage_optimized_title" msgid="8080765739761921817">"Otimizada"</string>
@@ -3628,6 +3639,14 @@
     <string name="lock_screen_notif_minimalism_summary" msgid="4607237285421814421">"Mostrar menos notificações no ecrã de bloqueio"</string>
     <string name="unseen_notifs_lock_screen" msgid="6910701117021324612">"Mostrar apenas novas notificações no ecrã de bloqueio"</string>
     <string name="unseen_notifs_lock_screen_summary" msgid="5996722793868021391">"Remove automaticamente do ecrã de bloqueio as notificações vistas anteriormente"</string>
+    <!-- no translation found for lock_screen_notifs_show_full_list (6767009263807771108) -->
+    <skip />
+    <!-- no translation found for lock_screen_notifs_full_list_desc (4868489278443057427) -->
+    <skip />
+    <!-- no translation found for lock_screen_notifs_show_compact (1133598661314460528) -->
+    <skip />
+    <!-- no translation found for lock_screen_notifs_compact_desc (2442594880539709057) -->
+    <skip />
     <string name="lock_screen_notifs_title" msgid="3412042692317304449">"Notificações no ecrã de bloqueio"</string>
     <string name="lock_screen_notifs_show_all_summary" msgid="4226586018375762117">"Mostrar conversas predefinidas e silenciosas"</string>
     <string name="lock_screen_notifs_show_all" msgid="1300418674456749664">"Mostrar conversas predefinidas e silenciosas"</string>
@@ -3645,6 +3664,14 @@
     <string name="lock_screen_notifications_summary_show_profile" msgid="8373401288962523946">"Mostrar todo o conteúdo de notificações de trabalho"</string>
     <string name="lock_screen_notifications_summary_hide_profile" msgid="2183455323048921579">"Ocultar conteúdo de trabalho confidencial"</string>
     <string name="lock_screen_notifications_interstitial_message_profile" msgid="1456262034599029028">"Como quer que as notificações do perfil sejam apresentadas quando o dispositivo estiver bloqueado?"</string>
+    <!-- no translation found for lock_screen_notification_hide_seen_title (6356324850662946426) -->
+    <skip />
+    <!-- no translation found for lock_screen_notification_hide_seen_summary (8345971177658888274) -->
+    <skip />
+    <!-- no translation found for lock_screen_notification_hide_silent_title (3284314455767315329) -->
+    <skip />
+    <!-- no translation found for lock_screen_notification_hide_silent_summary (1934066619526795468) -->
+    <skip />
     <string name="lock_screen_notifications_interstitial_title_profile" msgid="6950124772255324448">"Notificações do perfil"</string>
     <string name="notifications_title" msgid="4221655533193721131">"Notificações"</string>
     <string name="app_notifications_title" msgid="248374669037385148">"Notificações de apps"</string>
@@ -4205,12 +4232,9 @@
     <string name="full_screen_intent_title" msgid="5888548315628268674">"Notificações em ecrã inteiro"</string>
     <string name="permit_full_screen_intent" msgid="2414307667550523630">"Permitir notificações desta app em ecrã inteiro"</string>
     <string name="footer_description_full_screen_intent" msgid="7716518411349225528">"Permita que esta app mostre notificações que ocupam o ecrã inteiro quando o dispositivo está bloqueado. As apps podem usá-las para destacar alarmes, chamadas recebidas ou outras notificações urgentes."</string>
-    <!-- no translation found for write_system_preferences_page_title (4775435310385611055) -->
-    <skip />
-    <!-- no translation found for write_system_preferences_switch_title (213522354119233085) -->
-    <skip />
-    <!-- no translation found for write_system_preferences_footer_description (8645052087619752514) -->
-    <skip />
+    <string name="write_system_preferences_page_title" msgid="4775435310385611055">"Escreva preferências do sistema"</string>
+    <string name="write_system_preferences_switch_title" msgid="213522354119233085">"Permita que esta app modifique as preferências do sistema em seu nome"</string>
+    <string name="write_system_preferences_footer_description" msgid="8645052087619752514">"Esta autorização permite que uma app modifique as principais preferências do sistema."</string>
     <string name="media_management_apps_title" msgid="8222942355578724582">"Apps de gestão de multimédia"</string>
     <string name="media_management_apps_toggle_label" msgid="166724270857067456">"Permitir que a app faça a gestão de conteúdo multimédia"</string>
     <string name="media_management_apps_description" msgid="8000565658455268524">"Se for permitido, esta app pode modificar ou eliminar ficheiros multimédia criados com outras apps sem lhe pedir autorização. A app tem de ter autorização para aceder a ficheiros e a multimédia."</string>
@@ -4456,6 +4480,13 @@
     <string name="gesture_preference_title" msgid="8291899281322647187">"Gestos"</string>
     <string name="double_tap_power_for_camera_title" msgid="7982364144330923683">"Abrir a câmara rapidamente"</string>
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Para abrir rapidamente a câmara, prima duas vezes o botão ligar/desligar. Funciona a partir de qualquer ecrã."</string>
+    <string name="double_tap_power_title" msgid="8705875166298116659">"Toque duas vezes no botão ligar/desligar"</string>
+    <string name="double_tap_power_enabled" msgid="305978257631612678">"Usar o gesto de tocar duas vezes"</string>
+    <string name="double_tap_power_target_action_category" msgid="6186809788568348488">"Tocar duas vezes no botão ligar/desligar"</string>
+    <string name="double_tap_power_camera_action_title" msgid="8398392033718681209">"Abrir Câmara"</string>
+    <string name="double_tap_power_camera_action_summary" msgid="1231656402570674349">"Aceda à Câmara"</string>
+    <string name="double_tap_power_wallet_action_title" msgid="2238628756927241786">"Abrir Carteira"</string>
+    <string name="double_tap_power_wallet_action_summary" msgid="6567586974229774570">"Aceda à Carteira"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"Inverter a câmara para tirar uma selfie"</string>
     <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="system_navigation_title" msgid="4890381153527184636">"Modo de navegação"</string>
@@ -4853,11 +4884,11 @@
     <string name="satellite_setting_title" msgid="2543034229989047673">"Mensagens por satélite"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Envie e receba mensagens de texto por satélite. Incluído na sua conta."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Envie e receba mensagens de texto por satélite. Não está incluído na sua conta."</string>
-    <string name="keywords_satellite_setting" msgid="3312183289776517695">"Mensagens por satélite"</string>
-    <string name="category_name_about_satellite_messaging" msgid="3756205049485508340">"Acerca das mensagens por satélite"</string>
+    <string name="keywords_satellite_setting" msgid="613553612424945946">"Mensagens por satélite, conetividade por satélite"</string>
+    <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"Acerca de <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="title_about_satellite_setting" msgid="9212860038048311345">"Pode enviar e receber mensagens de texto por satélite através de uma conta elegível da operadora <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
     <string name="category_title_your_satellite_plan" msgid="3017895097366691841">"O seu plano da operadora <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
-    <string name="title_have_satellite_plan" msgid="2048372355699977947">"As mensagens por satélite estão incluídas na sua conta"</string>
+    <string name="title_have_satellite_plan" msgid="857337944804101443">"As mensagens estão incluídas na sua conta"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"As mensagens por satélite não estão incluídas na sua conta"</string>
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"Saiba mais"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"Como funciona"</string>
@@ -4865,10 +4896,33 @@
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"O seu telemóvel vai ligar-se automaticamente a um satélite. Para conseguir a melhor ligação, procure uma vista desimpedida para o céu."</string>
     <string name="title_supported_service" msgid="4275535165812691571">"Depois de o seu telemóvel estabelecer ligação a um satélite"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Pode enviar mensagens de texto a qualquer pessoa, incluindo aos serviços de emergência. O seu telemóvel vai voltar a ligar-se a uma rede móvel quando esta estiver disponível."</string>
-    <string name="satellite_setting_summary_more_information" msgid="7729454610548016356">"As mensagens por satélite podem demorar mais tempo e só estão disponíveis em algumas zonas. As condições meteorológicas e determinadas estruturas podem afetar a sua ligação por satélite. As chamadas por satélite não estão disponíveis. Pode continuar a fazer chamadas de emergência.\n\nPode demorar algum tempo até que as alterações à conta sejam apresentadas nas Definições. Contacte a sua operadora para mais detalhes."</string>
-    <string name="more_about_satellite_messaging" msgid="3385673133561348509">"Mais acerca das mensagens por satélite"</string>
+    <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"A funcionalidade <xliff:g id="SUBJECT">%1$s</xliff:g> pode demorar mais tempo e só está disponível em algumas áreas. As condições meteorológicas e determinadas estruturas podem afetar a sua ligação por satélite. As chamadas por satélite não estão disponíveis. Pode continuar a fazer chamadas de emergência.\n\nPode demorar algum tempo até que as alterações à conta sejam apresentadas nas Definições. Contacte a operadora <xliff:g id="CARRIER_NAME">%1$s</xliff:g> para mais detalhes."</string>
+    <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Mais acerca de <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Não é possível ativar a função <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Para ativar a função <xliff:g id="FUNCTION">%1$s</xliff:g>, termine primeiro a ligação por satélite"</string>
+    <string name="category_title_satellite_connectivity" msgid="7540022356863917632">"Conetividade por satélite"</string>
+    <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"Conetividade por satélite"</string>
+    <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"conetividade por satélite"</string>
+    <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"mensagens por satélite"</string>
+    <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"A utilização de dados está incluída na sua conta"</string>
+    <string name="title_for_satellite_sos" msgid="4608739357329147285">"Satélite SOS"</string>
+    <string name="summary_for_satellite_sos_entry" msgid="4981480371923329605">"Envie mensagens para os serviços de emergência quando não conseguir estabelecer ligação a uma rede móvel ou Wi‑Fi"</string>
+    <string name="keywords_satellite_sos" msgid="6275777197418023949">"satélite sos, sos"</string>
+    <string name="category_title_about_satellite_sos" msgid="7229724397303154919">"Acerca do Satélite SOS"</string>
+    <string name="satellite_sos_introduction" msgid="4670230212117495751">"Pode enviar mensagens para serviços de emergência e partilhar a localização mesmo sem ligação à rede móvel ou Wi-Fi. Este serviço pode não estar sempre disponível em todas as localizações ou circunstâncias."</string>
+    <string name="satellite_sos_how_it_works_step_1" msgid="4669862942425306921">"Ligue ou envie uma mensagem de texto para os serviços de emergência"</string>
+    <string name="satellite_sos_how_it_works_step_2" msgid="3558248744927579016">"Responda a perguntas sobre a emergência"</string>
+    <string name="satellite_sos_how_it_works_step_3" msgid="4496038314890474893">"Siga os passos para estabelecer ligação ao satélite"</string>
+    <string name="satellite_sos_how_it_works_summary_1" msgid="4497178023367920284">"Se não tiver uma rede móvel, é apresentada uma opção para usar o Satélite SOS"</string>
+    <string name="satellite_sos_how_it_works_summary_2" msgid="1302661361673503362">"Envie respostas para os serviços de emergência para que lhe seja prestada a ajuda adequada"</string>
+    <string name="satellite_sos_how_it_works_summary_3" msgid="4612675365617172405">"Quando estabelecer ligação, pode enviar mensagens para os serviços de emergência"</string>
+    <string name="satellite_sos_try_demo" msgid="1915233782211344468">"Experimentar demonstração"</string>
+    <string name="satellite_sos_footer_text" msgid="4454885538165117230">"Quando estabelece ligação aos serviços de emergência por satélite, o seu nome, email, número de telefone, localização, informações do dispositivo (IMEI, idioma, modelo e nível da bateria) e informações de contacto de emergência são partilhadas com serviços de emergência e fornecedores de serviços de satélite. \n\nPara usar a app Satélite SOS, a app Mensagens Google tem de ser a sua app de SMS predefinida. \n\nSe a seleção automática de rede estiver desativada, vai ser ativada e o seu dispositivo vai ligar-se automaticamente a qualquer rede."</string>
+    <string name="satellite_sos_sharing_preferences_subheader_title" msgid="5701538329333628267">"Preferências de partilha"</string>
+    <string name="satellite_sos_sharing_preferences_step_1" msgid="3106774199702637359">"Contactos de emergência"</string>
+    <string name="satellite_sos_sharing_preferences_step_2" msgid="738246589687762115">"A sua Conta Google"</string>
+    <string name="satellite_sos_sharing_preferences_description" msgid="782508188142964342">"Reveja ou atualize as informações que são partilhadas com os serviços de emergência"</string>
+    <string name="satellite_sos_learn_more_link" msgid="2442930426165677255">"https://support.google.com/pixelphone/answer/15254448"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Nomes dos pontos de acesso"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Indisponível quando ligado a <xliff:g id="CARRIER">%1$s</xliff:g>."</string>
@@ -5055,6 +5109,9 @@
     <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Está ativado o modo de 16 KB do modo sem página. A integridade do software não pode ser garantida neste modo e quaisquer dados armazenados no telemóvel enquanto o carregador de arranque estiver desbloqueado podem estar em risco. Algumas funcionalidades são desativadas nestes modos, por isso, algumas apps podem não funcionar. Para voltar a ativar o modo de produção, tem de voltar ao modo de 4 KB e, de seguida, bloquear o carregador de arranque do dispositivo. Esta ação permite fazer uma reposição de fábrica do dispositivo e restaurá-lo para as definições de produção. Depois de o dispositivo arrancar com êxito no Android, desative o desbloqueio pelo OEM nas Opções de programador. Se o dispositivo não conseguir arrancar no Android ou estiver instável, volte a atualizar o dispositivo com as imagens de fábrica mais recentes de &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; ou use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; e selecione \"Limpar dispositivo\", \"Bloquear carregador de arranque\" e \"Forçar a atualização de todas as partições\"."</string>
     <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Modo sem página de 16 KB"</string>
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Ler mais"</string>
+    <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Execute a app com o modo de compatibilidade com o tamanho da página"</string>
+    <!-- no translation found for enable_16k_app_compat_details (3389401258168314266) -->
+    <skip />
     <string name="bug_report_handler_title" msgid="713439959113250125">"Controlador do relatório de erro"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"Determina que aplicação processa o atalho para Relatório de erro no seu dispositivo."</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"Pessoal"</string>

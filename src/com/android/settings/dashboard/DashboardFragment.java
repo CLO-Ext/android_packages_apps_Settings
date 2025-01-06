@@ -348,6 +348,13 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
         return null;
     }
 
+    /** Returns grouped controllers of input type T. */
+    protected <T extends AbstractPreferenceController> List<AbstractPreferenceController> useGroup(
+            Class<T> clazz) {
+        return mPreferenceControllers.values().stream().flatMap(Collection::stream).filter(
+                controller -> clazz.isInstance(controller)).toList();
+    }
+
     /** Returns all controllers of type T. */
     protected <T extends AbstractPreferenceController> List<T> useAll(Class<T> clazz) {
         return (List<T>) mPreferenceControllers.getOrDefault(clazz, Collections.emptyList());
@@ -427,6 +434,7 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
     private void removeControllersForHybridMode() {
         Set<String> keys = getPreferenceKeysInHierarchy();
         Iterator<AbstractPreferenceController> iterator = mControllers.iterator();
+        Lifecycle lifecycle = getSettingsLifecycle();
         while (iterator.hasNext()) {
             AbstractPreferenceController controller = iterator.next();
             String key = controller.getPreferenceKey();
@@ -437,6 +445,9 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
                         controller.getClass());
                 if (controllers != null) {
                     controllers.remove(controller);
+                }
+                if (controller instanceof LifecycleObserver) {
+                    lifecycle.removeObserver((LifecycleObserver) controller);
                 }
             }
         }
