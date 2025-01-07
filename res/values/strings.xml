@@ -184,6 +184,16 @@
     <string name="bluetooth_ambient_volume_unmute">Unmute surroundings</string>
     <!-- Message when changing ambient state failed. [CHAR LIMIT=NONE] -->
     <string name="bluetooth_ambient_volume_error">Couldn\u2019t update surroundings</string>
+    <!-- Connected devices settings. Title for hearing device input routing control preference. -->
+    <string name="bluetooth_hearing_device_input_routing_title">Default microphone for calls</string>
+    <!-- Connected devices settings. Title for hearing device input routing control dialog. -->
+    <string name="bluetooth_hearing_device_input_routing_dialog_title">Default microphone</string>
+    <!-- Connected devices settings. Summary for hearing device input routing control dialog. -->
+    <string name="bluetooth_hearing_device_input_routing_dialog_summary">Choose a microphone for calls.</string>
+    <!-- Connected devices settings. One of the input routing option. It will change input routing to hearing aid microphone. -->
+    <string name="bluetooth_hearing_device_input_routing_hearing_device_option">Hearing aid microphone</string>
+    <!-- Connected devices settings. One of the input routing option. It will change input routing to this phone's builtin microphone -->
+    <string name="bluetooth_hearing_device_input_routing_builtin_option">This phone\'s microphone</string>
     <!-- Connected devices settings. Title of the preference to show the entrance of the audio output page. It can change different types of audio are played on phone or other bluetooth devices. [CHAR LIMIT=35] -->
     <string name="bluetooth_audio_routing_title">Audio output</string>
     <!-- Title for bluetooth audio routing page footer. [CHAR LIMIT=30] -->
@@ -451,6 +461,9 @@
     <!-- Category for the locale picker. [CHAR LIMIT=50]-->
     <string name="all_supported_locales_title">All languages</string>
 
+    <!-- Category for the app locale picker. [CHAR LIMIT=50]-->
+    <string name="more_supported_locales_title">More languages</string>
+
     <!-- Category for the locale region picker. [CHAR LIMIT=50]-->
     <string name="all_supported_locales_regions_title">All regions</string>
 
@@ -484,6 +497,12 @@
     <!-- Link for Locale helper page. [CHAR LIMIT=NONE]-->
     <string name="link_locale_picker_footer_learn_more" translatable="false">https://support.google.com/android?p=per_language_app_settings</string>
 
+    <!-- Title for asking to change system region or not. [CHAR LIMIT=50]-->
+    <string name="title_change_system_region">Change region to %s ?</string>
+
+    <!-- The content of a confirmation dialog indicating the impact when the user change the system region. [CHAR LIMIT=NONE]-->
+    <string name="desc_notice_device_region_change">Your device will keep %s as a system language</string>
+
     <!-- Title for asking to change system locale or not. [CHAR LIMIT=50]-->
     <string name="title_change_system_locale">Change system language to %s ?</string>
 
@@ -507,12 +526,20 @@
 
     <!-- Menu item in the locale menu  [CHAR LIMIT=30] -->
     <string name="locale_search_menu">Search</string>
+    <!-- Title for the language and region selection screen [CHAR LIMIT=25] -->
+    <string name="language_and_region_title">Language &amp; region</string>
     <!-- Title for the language selection screen [CHAR LIMIT=25] -->
     <string name="language_selection_title">Add a language</string>
+    <!-- Title for the region picker [CHAR LIMIT=25] -->
+    <string name="region_selection_title">Choose a region</string>
     <!-- Title for the region selection screen [CHAR LIMIT=25] -->
     <string name="country_selection_title">Region preference</string>
     <!-- Hint text in a search edit box (used to filter long language / country lists) [CHAR LIMIT=25] -->
-    <string name="search_language_hint">Type language name</string>
+    <string name="search_language_hint">Search languages</string>
+    <!-- Hint text in a search edit box (used to filter long region) [CHAR LIMIT=25] -->
+    <string name="search_region_hint">Search regions</string>
+    <!-- The title for Choose a region page -->
+    <string name="top_intro_region_title">The region you choose affects how your phone displays time, dates, temperature, and more</string>
     <!-- Category for more language settings. [CHAR LIMIT=NONE]-->
     <string name="more_language_settings_category">More language settings</string>
 
@@ -822,8 +849,6 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity"></string>
     <!-- Message shown for a toggle which when enabled, allows the user to enroll using a simpler flow for accessibility [CHAR LIMIT=NONE] -->
     <string name="security_settings_face_enroll_introduction_accessibility_vision"></string>
-    <!-- Message on the face enrollment introduction page that explains privacy controls for face unlock [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_learn_more_message"></string>
     <!-- Button text to cancel enrollment from the introduction [CHAR LIMIT=22] -->
     <string name="security_settings_face_enroll_introduction_cancel">Cancel</string>
     <!-- Button text to cancel enrollment [CHAR LIMIT=30] -->
@@ -928,6 +953,8 @@
     <string name="security_settings_fingerprint_settings_preferences_category">When using Fingerprint Unlock</string>
     <!-- Title shown for work menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
     <string name="security_settings_work_fingerprint_preference_title">Fingerprint for work</string>
+    <!-- Preference to check enrolled fingerprints -->
+    <string name="fingerprint_check_enrolled_title">Check enrolled fingerprints</string>
     <!-- Preference to add another fingerprint -->
     <string name="fingerprint_add_title">Add fingerprint</string>
     <!-- Message showing the current number of fingerprints set up. Shown for a menu item that launches fingerprint settings or enrollment. -->
@@ -951,8 +978,6 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_consent_1">You and your child are in control</string>
     <!-- Introduction title shown in the bottom of fingerprint enrollment dialog [CHAR LIMIT=NONE]-->
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2">Keep in mind</string>
-    <!-- Introduction title shown in the bottom of fingerprint enrollment dialog [CHAR LIMIT=NONE]-->
-    <string name="security_settings_fingerprint_enroll_introduction_footer_title_3">Secure and helpful</string>
     <!-- Introduction detail message shown in fingerprint enrollment dialog, when fingerprint unlock is disabled by device admin [CHAR LIMIT=NONE]-->
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">Use your fingerprint to unlock your phone or approve purchases.\n\nNote: You can\u2019t use your fingerprint to unlock this device. For more information, contact your organization\u2019s admin.</string>
     <!-- Button text to cancel enrollment from the introduction [CHAR LIMIT=22] -->
@@ -983,9 +1008,10 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_6">For best results, use a screen protector that\u2019s Made for Google certified. With other screen protectors, your child\u2019s fingerprint may not work.</string>
     <!-- Introduction detail message shown in fingerprint enrollment introduction to learn more about fingerprint [CHAR LIMIT=NONE]-->
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more"></string>
-    <!-- Introduction detail message shown in fingerprint enrollment introduction to learn more about fingerprint [CHAR LIMIT=NONE]-->
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more_2"></string>
-
+    <!-- Description shown on the check enrolled fingerprint dialog -->
+    <string name="fingerprint_check_enroll_touch_sensor">Touch the fingerprint sensor</string>
+    <!-- Description shown on the check enrolled fingerprint dialog -->
+    <string name="fingerprint_check_enroll_not_recognized">Fingerprint not recognized</string>
     <!-- Watch unlock enrollment and settings --><skip />
     <!-- Title shown for menu item that launches watch unlock settings. [CHAR LIMIT=40] -->
     <string name ="security_settings_activeunlock_preference_title">Watch Unlock</string>
@@ -2029,6 +2055,11 @@
     <string name="bluetooth_companion_app_body"><xliff:g id="app_name" example="App Name">%1$s</xliff:g> app will no longer connect to your <xliff:g id="device_name" example="Device Name">%2$s</xliff:g></string>
     <!-- Summary of Bluetooth LE Audio toggle in Device Details. [CHAR LIMIT=40] -->
     <string name="device_details_leaudio_toggle_summary">Experimental. Improves audio quality.</string>
+    <!-- Content Description for battery icon in device details screen [CHAR LIMIT=NONE]-->
+    <string name="device_details_battery">Battery</string>
+    <!-- Content Description for battery charging icon in device details screen [CHAR LIMIT=NONE]-->
+    <string name="device_details_battery_charging">Battery, charging</string>
+
 
     <!--  Bluetooth device details. In the confirmation dialog for unpairing a paired device, this is the label on the button that will complete the unpairing action. -->
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Forget device</string>
@@ -4737,6 +4768,10 @@
     <string name="mouse_swap_primary_button">Swap left and right buttons</string>
     <!-- Summary text for the 'Swap buttons' preference switch indicating to users that when this switch is enabled, their left click will behave as though it is the right click (secondary action) and that the right click will be the primary action. [CHAR LIMIT=NONE] -->
     <string name="mouse_swap_primary_button_summary">Use the left mouse button as your right</string>
+    <!-- Title for the 'Cursor acceleration' preference switch, which dynamically adjusts cursor movement based on speed. [CHAR LIMIT=60] -->
+    <string name="mouse_pointer_acceleration">Cursor acceleration</string>
+    <!-- Summary text for the 'Cursor acceleration' preference switch indicating to users that when this switch is enabled, faster movements with your mouse will move the cursor farther. [CHAR LIMIT=NONE] -->
+    <string name="mouse_pointer_acceleration_summary">Faster movements with your mouse will move the cursor farther</string>
     <!-- page title for Mouse key main page. [CHAR LIMIT=NONE] -->
     <string name="mouse_key_main_page_title">Mouse keys for <xliff:g id="keyboard name" example="my keyboard">%s</xliff:g></string>
     <!-- Summary text for Mouse keys directional image. [CHAR LIMIT=NONE] -->
@@ -4944,6 +4979,10 @@
 
     <!-- Title for the 'Speech' preference category. [CHAR LIMIT=45] -->
     <string name="speech_category_title">Speech</string>
+    <!-- Title for the 'Speech' preference. [CHAR LIMIT=45] -->
+    <string name="speech_preference_title">Speech</string>
+    <!-- Summary text for the 'Speech' preference. [CHAR LIMIT=45] -->
+    <string name="speech_preference_summary">Control speech recognition and output</string>
 
     <!-- On Languages & input settings screen, setting summary.  Setting for mouse pointer speed. [CHAR LIMIT=35] -->
     <string name="pointer_speed">Pointer speed</string>
@@ -5539,9 +5578,9 @@
     <!-- Summary for the accessibility preference for enabling/disabling large icons for mouse/trackpad pointers. [CHAR LIMIT=60] -->
     <string name="accessibility_toggle_large_pointer_icon_summary">Make the mouse pointer more noticeable</string>
     <!-- Title for the accessibility preference for forcing all apps to use dark theme. [CHAR LIMIT=35] -->
-    <string name="accessibility_force_invert_title">Make all apps dark</string>
+    <string name="accessibility_force_invert_title">Make more apps dark</string>
     <!-- Summary for the accessibility preference for forcing all apps to use dark theme. [CHAR LIMIT=100] -->
-    <string name="accessibility_force_invert_summary">Applies to apps without their own dark theme. Some apps may have display issues, like inverted colors.</string>
+    <string name="accessibility_force_invert_summary">Automatically convert light theme apps to dark theme</string>
     <!-- Title for the accessibility preference for disabling animations. [CHAR LIMIT=35] -->
     <string name="accessibility_disable_animations">Remove animations</string>
     <!-- Summary for the accessibility preference for disabling animations. [CHAR LIMIT=60] -->
@@ -8868,6 +8907,13 @@
     <!-- App Info > Notifications: Title for section where notifications bundles can be configured [CHAR LIMIT=80]-->
     <string name="notification_bundles">Notification bundles</string>
 
+    <!-- App Info > Notifications: Title for section controlling whether this app may show notifications in a promoted format [CHAR LIMIT=80] -->
+    <string name="live_notifications">Live notifications</string>
+    <!-- App Info > Notifications: Text on the switch to enable or disable an app from showing notifications in a live/promoted format [CHAR LIMIT=50] -->
+    <string name="live_notifications_switch">Show live info</string>
+    <!-- App Info > Notifications: Text accompanying the "Show live info" switch explaining the purpose of the setting -->
+    <string name="live_notifications_desc">Pinned notifications display live info from apps, and always appear on the status bar and lock screen</string>
+
     <!-- Configure Notifications: Title for the notification bubbles option. [CHAR LIMIT=60] -->
     <string name="notification_bubbles_title">Bubbles</string>
     <!-- Title for the toggle shown on the app-level bubbles page  [CHAR LIMIT=60] -->
@@ -10789,11 +10835,6 @@
     <string name="admin_financed_message">Your device administrator may be able to access data
         associated with this device, manage apps, and change this device\’s settings.</string>
 
-    <!-- Title for dialog displayed when user taps a setting on their phone that's blocked by Advanced Protection. [CHAR LIMIT=50] -->
-    <string name="disabled_by_advanced_protection_title">Prevented by Advanced Protection</string>
-    <!-- Short summary for dialog displayed when user taps a setting on their phone that's blocked by Advanced Protection. [CHAR LIMIT=NONE] -->
-    <string name="disabled_by_advanced_protection_message">This action is not allowed because Advanced Protection is on for your device.</string>
-
     <!-- Turn off a conditional state of the device (e.g. airplane mode, or hotspot) [CHAR LIMIT=30] -->
     <string name="condition_turn_off">Turn off</string>
 
@@ -12461,11 +12502,6 @@
     <!-- Summary for an item in the page listing multiple mobile service subscriptions, indicating
          that service is inactive and is tied to an eSIM profile [CHAR LIMIT=40] -->
     <string name="mobile_network_inactive_esim">Inactive / eSIM</string>
-    <!-- Title of a dialog that lets a user modify the display name used for a mobile network
-         subscription in various places in the Settings app. The default name is typically just the
-         carrier name, but especially in multi-SIM configurations users may want to use a different
-         name. [CHAR LIMIT=40] -->
-    <string name="mobile_network_sim_name">SIM name &amp; color</string>
     <!-- Label for an item listing the name of the SIM that the user has specified. [CHAR LIMIT=40] -->
     <string name="mobile_network_sim_name_label">Name</string>
     <!-- Label for an item listing the color of the SIM that the user has specified. [CHAR LIMIT=40] -->

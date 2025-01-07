@@ -40,7 +40,7 @@ import com.android.settingslib.metadata.preferenceHierarchy
 import com.android.settingslib.preference.PreferenceScreenBinding
 import com.android.settingslib.preference.PreferenceScreenCreator
 
-@ProvidePreferenceScreen
+@ProvidePreferenceScreen(AutoBrightnessScreen.KEY)
 class AutoBrightnessScreen :
     PreferenceScreenCreator,
     PreferenceScreenBinding,
@@ -60,10 +60,14 @@ class AutoBrightnessScreen :
 
     override fun hasCompleteHierarchy() = false
 
-    override fun getPreferenceHierarchy(context: Context) = preferenceHierarchy(this) {}
+    override fun getPreferenceHierarchy(context: Context) = preferenceHierarchy(context, this) {}
 
     override fun storage(context: Context): KeyValueStore =
         AutoBrightnessDataStore(SettingsSystemStore.get(context))
+
+    override fun getReadPermissions(context: Context) = SettingsSystemStore.getReadPermissions()
+
+    override fun getWritePermissions(context: Context) = SettingsSystemStore.getWritePermissions()
 
     override fun getReadPermit(context: Context, callingPid: Int, callingUid: Int) =
         ReadWritePermit.ALLOW
