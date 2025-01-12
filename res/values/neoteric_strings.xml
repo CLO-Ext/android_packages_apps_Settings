@@ -373,4 +373,8 @@
     <string name="battery_share_limit_title">Stop sharing battery when device reaches:</string>
     <string name="battery_share_state_on">On</string>
     <string name="battery_share_state_off">Off</string>
+
+    <!-- aptX Settings -->
+    <string name="connected_device_codec_preference">Qualcomm® aptX™ preferences</string>
+    <string name="connected_device_codec_preference_summary">Setitngs for configuring Qualcomm® aptX™ audio codec</string>
 </resources>
