@@ -16,9 +16,6 @@
 
 package com.android.settings.inputmethod;
 
-import static android.app.settings.SettingsEnums.ACTION_MOUSE_SWAP_PRIMARY_BUTTON_DISABLED;
-import static android.app.settings.SettingsEnums.ACTION_MOUSE_SWAP_PRIMARY_BUTTON_ENABLED;
-
 import android.content.Context;
 import android.hardware.input.InputSettings;
 
@@ -26,35 +23,28 @@ import androidx.annotation.NonNull;
 
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
-import com.android.settings.overlay.FeatureFactory;
-import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 
-public class MouseSwapPrimaryButtonPreferenceController extends TogglePreferenceController {
-    private final MetricsFeatureProvider mMetricsFeatureProvider;
+public class MouseScrollingAccelerationPreferenceController extends TogglePreferenceController {
 
-    public MouseSwapPrimaryButtonPreferenceController(
+    public MouseScrollingAccelerationPreferenceController(
             @NonNull Context context, @NonNull String key) {
         super(context, key);
-        mMetricsFeatureProvider = FeatureFactory.getFeatureFactory().getMetricsFeatureProvider();
     }
 
     @Override
     public boolean isChecked() {
-        return InputSettings.isMouseSwapPrimaryButtonEnabled(mContext);
+        return !InputSettings.isMouseScrollingAccelerationEnabled(mContext);
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        InputSettings.setMouseSwapPrimaryButton(mContext, isChecked);
-        mMetricsFeatureProvider.action(mContext,
-                isChecked ? ACTION_MOUSE_SWAP_PRIMARY_BUTTON_ENABLED :
-                        ACTION_MOUSE_SWAP_PRIMARY_BUTTON_DISABLED);
+        InputSettings.setMouseScrollingAcceleration(mContext, !isChecked);
         return true;
     }
 
     @Override
     public int getAvailabilityStatus() {
-        if (!InputSettings.isMouseSwapPrimaryButtonFeatureFlagEnabled()) {
+        if (!InputSettings.isMouseScrollingAccelerationFeatureFlagEnabled()) {
             return UNSUPPORTED_ON_DEVICE;
         }
         return AVAILABLE;
