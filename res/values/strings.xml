@@ -4025,12 +4025,22 @@
     <string name="location_time_zone_detection_not_allowed">Location time zone detection changes are not allowed</string>
     <!-- [CHAR LIMIT=NONE] Location settings screen, summary when location time zone detection is enabled. -->
     <string name="location_time_zone_detection_auto_is_on">If your device location is available, it may be used to set your time zone</string>
+    
     <!-- Security & location settings screen, setting check box label if Assisted GPS should be enabled -->
     <string name="assisted_gps">Use assisted GPS</string>
     <!-- Security & location settings screen, setting summary when Assisted GPS check box is selected -->
     <string name="assisted_gps_enabled">Use server to assist GPS (uncheck to reduce network usage)</string>
     <!-- Security & location settings screen, setting summary when Assisted GPS check box is clear -->
     <string name="assisted_gps_disabled">Use server to assist GPS (uncheck to improve GPS performance)</string>
+
+    <!-- Date&Time settings screen, title of the notification category [CHAR LIMIT=60] -->
+    <string name="time_notifications_title">Notifications</string>
+    <!-- Date&Time settings screen, title of the time zone change notification toggle [CHAR LIMIT=60] -->
+    <string name="time_zone_change_notifications_toggle_title">Time zone change</string>
+    <!-- Date&Time settings screen, summary of the time zone change notification toggle [CHAR_LIMIT=NONE] -->
+    <string name="time_zone_change_notifications_toggle_summary">Receive a notification when your time zone is automatically updated</string>
+    <!-- Search keywords for the time zone notification category / section in Date & Time settings. [CHAR_LIMIT=NONE] -->
+    <string name="keywords_time_notification_category">notification, time, zone, timezone</string>
 
     <!-- Main settings screen, setting summary for the user to go into the About phone screen-->
     <string name="about_settings_summary">View legal info, status, software version</string>

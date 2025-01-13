@@ -475,6 +475,9 @@ public class BluetoothDeviceDetailsFragment extends RestrictedDashboardFragment 
                             context, this, mCachedDevice, lifecycle));
             controllers.add(new BluetoothDetailsButtonsController(context, this, mCachedDevice,
                     lifecycle));
+            controllers.add(
+                    new BluetoothDetailsAudioSharingController(
+                            context, this, mManager, mCachedDevice, lifecycle));
             controllers.add(new BluetoothDetailsCompanionAppsController(context, this,
                     mCachedDevice, lifecycle));
             controllers.add(new BluetoothDetailsAudioDeviceTypeController(context, this, mManager,
