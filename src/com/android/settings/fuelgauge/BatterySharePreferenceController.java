@@ -7,6 +7,7 @@ package com.android.settings.fuelgauge;
 
 import android.content.Context;
 import android.hardware.PowerShareManager;
+import android.os.PowerManager;
 import android.os.ServiceManager;
 
 import androidx.preference.Preference;
@@ -21,10 +22,12 @@ public class BatterySharePreferenceController extends BasePreferenceController i
     private static final String BATTERY_SHARE_KEY = "battery_share";
     private static final String BATTERY_SHARE_SUMMARY = "battery_share_summary";
 
+    private final PowerManager mPowerManager;
     private final PowerShareManager mPowerShareManager;
 
     public BatterySharePreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
+        mPowerManager = context.getSystemService(PowerManager.class);
         mPowerShareManager = (PowerShareManager) context.getSystemService(Context.POWER_SHARE_SERVICE);
     }
 
@@ -36,14 +39,23 @@ public class BatterySharePreferenceController extends BasePreferenceController i
     @Override
     public void updateState(Preference preference) {
         boolean isEnabled = mPowerShareManager.isEnabled();
+        boolean isPowerSaveMode = mPowerManager.isPowerSaveMode();
+        if (isPowerSaveMode) {
+            isEnabled = false;
+        }
         if (preference.getKey().equals(BATTERY_SHARE_KEY)) {
             ((MainSwitchPreference) preference).setChecked(isEnabled);
         } else if (preference.getKey().equals(BATTERY_SHARE_SUMMARY)) {
-            String state = isEnabled
-                    ? mContext.getString(R.string.battery_share_state_on)
-                    : mContext.getString(R.string.battery_share_state_off);
-            preference.setSummary(state);
+            if (isPowerSaveMode) {
+                preference.setSummary(mContext.getString(R.string.dark_ui_mode_disabled_summary_dark_theme_on));
+            } else {
+                String state = isEnabled
+                        ? mContext.getString(R.string.battery_share_state_on)
+                        : mContext.getString(R.string.battery_share_state_off);
+                preference.setSummary(state);
+            }
         }
+        preference.setEnabled(!isPowerSaveMode);
     }
 
     @Override
