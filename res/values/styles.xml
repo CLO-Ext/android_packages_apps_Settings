@@ -1044,4 +1044,9 @@
         <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
     </style>
 
+    <style name="DeviceIconRoundedCornerStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
 </resources>
