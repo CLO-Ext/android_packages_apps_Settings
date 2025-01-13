@@ -3231,6 +3231,10 @@
     <string name="screensaver_settings_summary_dock">While docked</string>
     <!-- Display settings screen, summary fragment for screen saver options, activated never [CHAR LIMIT=35] -->
     <string name="screensaver_settings_summary_never">Never</string>
+    <!-- Summary for when screensaver is enabled, only while stationary and upright [CHAR LIMIT=35] -->
+    <string name="screensaver_settings_summary_postured">While postured</string>
+    <!-- Summary for when screensaver is enabled, only while stationary and upright and charging [CHAR LIMIT=35] -->
+    <string name="screensaver_settings_summary_postured_and_charging">While postured and charging</string>
     <!-- Display settings screen, summary for screen saver options, screen saver is turned on [CHAR LIMIT=50] -->
     <string name="screensaver_settings_summary_on">
         On / <xliff:g id="screen_saver" example="Art gallery">%1$s</xliff:g>
@@ -4801,7 +4805,7 @@
     <string name="mouse_keys_release2_summary">Use the \“<xliff:g id="release_2_label" example="/">%s</xliff:g>\” key to click the secondary mouse button</string>
 
     <!-- Title for the button to trigger the 'keyboard shortcuts helper' dialog. [CHAR LIMIT=35] -->
-    <string name="keyboard_shortcuts_helper">Keyboard shortcuts</string>
+    <string name="keyboard_shortcuts_helper">View keyboard shortcuts</string>
     <!-- Summary text for the 'keyboard shortcuts helper' dialog. [CHAR LIMIT=100] -->
     <string name="keyboard_shortcuts_helper_summary">Show list of shortcuts</string>
     <!-- Title for the 'Work profile keyboards & tools' preference category inside Languages and inputs'. [CHAR LIMIT=50] -->
@@ -5177,6 +5181,12 @@
     <string name="accessibility_tap_assistance_title">Timing controls</string>
     <!-- Title for the accessibility system controls page. [CHAR LIMIT=50] -->
     <string name="accessibility_system_controls_title">System controls</string>
+    <!-- Title for the accessibility feedback preference. [CHAR LIMIT=50] -->
+    <string name="accessibility_feedback_title">Feedback</string>
+    <!-- Summary for the accessibility feedback preference. [CHAR LIMIT=100] -->
+    <string name="accessibility_feedback_summary">Help improve by taking a survey</string>
+    <!-- Summary for the accessibility feedback preference is disabled. [CHAR LIMIT=100] -->
+    <string name="accessibility_feedback_disabled_summary">No surveys available</string>
     <!-- Title for the accessibility preference category of services downloaded by the user. [CHAR LIMIT=50] -->
     <string name="user_installed_services_category_title">Downloaded apps</string>
     <!-- Title for the accessibility preference category of settings considered to be experimental, meaning they might be changed or removed in the future. [CHAR LIMIT=50] -->
