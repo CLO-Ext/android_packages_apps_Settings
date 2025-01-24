@@ -318,6 +318,8 @@
 
     <!-- Title for Bluetooth device group with media capability group [CHAR LIMIT=none]-->
     <string name="connected_device_media_device_title">Media devices</string>
+    <!-- Title for temporary bond device group [CHAR LIMIT=none]-->
+    <string name="connected_device_temp_bond_device_title">Guest devices</string>
     <!-- Title for Bluetooth device group with media capability group [CHAR LIMIT=none]-->
     <string name="connected_device_call_device_title">Call devices</string>
     <!-- Title for connected device group [CHAR LIMIT=none]-->
@@ -2144,6 +2146,8 @@
     <string name="external_display_more_options_title">More options</string>
     <!-- External Display settings. -->
     <string name="external_display_topology_hint">Hold and drag to rearrange displays.</string>
+    <!-- External Display settings. -->
+    <string name="external_display_mirroring_title">Mirror built-in display</string>
 
     <!-- Wifi Display settings. The title of the screen. [CHAR LIMIT=40] -->
     <string name="wifi_display_settings_title">Cast</string>
@@ -14293,4 +14297,17 @@
 
     <!-- Content description for device details icon on Connected device page [CHAR LIMIT=NONE] -->
     <string name="device_detail_icon_content_description"><xliff:g id="device_name">%1$s</xliff:g>. Configure device detail.</string>
+
+    <!-- Supervision settings -->
+
+    <!-- Title for Supervision settings menu entry [CHAR LIMIT=60] -->
+    <string name="supervision_settings_title">Supervision</string>
+    <!-- Description for Supervision settings menu entry [CHAR LIMIT=NONE] -->
+    <string name="supervision_settings_summary">Content restrictions &amp; other limits</string>
+    <!-- Title of toggle to enable or disable device supervision [CHAR LIMIT=60] -->
+    <string name="device_supervision_switch_title">Use device supervision</string>
+    <!-- Description of device supervision toggle when PIN has never been set up [CHAR LIMIT=NONE] -->
+    <string name="device_supervision_switch_no_pin_summary">Set up PIN to get started</string>
+    <!-- Search keywords for supervision settings [CHAR LIMIT=NONE] -->
+    <string name="keywords_supervision_settings">supervision, parental supervision, parental controls</string>
 </resources>
