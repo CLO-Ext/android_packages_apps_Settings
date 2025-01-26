@@ -167,6 +167,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
     <uses-permission android:name="android.permission.GET_BACKGROUND_INSTALLED_PACKAGES" />
     <uses-permission android:name="android.permission.SATELLITE_COMMUNICATION" />
     <uses-permission android:name="android.permission.READ_SYSTEM_GRAMMATICAL_GENDER" />
+    <uses-permission android:name="android.permission.MANAGE_COMPANION_DEVICES" />
 
     <application
             android:name=".SettingsApplication"
@@ -1129,6 +1130,54 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.gestures.SystemNavigationGestureSettings"/>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_system"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true"/>
+        </activity>
+
+        <activity
+            android:name=".Settings$RegionSettingsActivity"
+            android:label="@string/region_picker_preference_title"
+            android:exported="true" >
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.REGION_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.regionalpreferences.RegionPickerFragment"/>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_system"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true"/>
+        </activity>
+
+        <activity
+            android:name=".Settings$NumberingSystemSettingsActivity"
+            android:label="@string/numbers_preferences_title"
+            android:exported="true" >
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.NUMBERING_SYSTEM_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.regionalpreferences.NumberingSystemLocaleListFragment"/>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_system"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true"/>
+        </activity>
+
+        <activity
+            android:name=".Settings$MeasurementSystemSettingsActivity"
+            android:label="@string/measurement_system_preferences_title"
+            android:exported="true" >
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.MEASUREMENT_SYSTEM_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.regionalpreferences.MeasurementSystemItemFragment"/>
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
                 android:value="@string/menu_key_system"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
@@ -5517,7 +5566,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
         </service>
 
         <receiver android:name="com.android.settings.connecteddevice.audiosharing.AudioSharingReceiver"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_SHARING_STATE_CHANGE" />
                 <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_SHARING_STOP" />

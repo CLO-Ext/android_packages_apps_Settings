@@ -80,6 +80,14 @@
     <string name="bluetooth_hearing_aids_presets" msgid="4615094985857156388">"الإعدادات المسبقة"</string>
     <string name="bluetooth_hearing_aids_presets_empty_list_message" msgid="4240241268432643259">"لا يوجد أي إعداد مسبق مُبرمج من قِبَل أخصائي السمعيات"</string>
     <string name="bluetooth_hearing_aids_presets_error" msgid="2095249829735188484">"تعذَّر تعديل الإعداد المسبق"</string>
+    <string name="bluetooth_ambient_volume_control" msgid="5106474499808101548">"الأصوات المحيطة"</string>
+    <string name="bluetooth_ambient_volume_control_expand" msgid="6726334974948737504">"توسيع لوحة التحكّم الموحّدة إلى عناصر تحكُّم منفصلة على اليسار واليمين"</string>
+    <string name="bluetooth_ambient_volume_control_collapse" msgid="7103189728479091531">"تصغير عناصر التحكّم في مستوى الصوت إلى لوحة تحكُّم موحّدة"</string>
+    <string name="bluetooth_ambient_volume_control_left" msgid="1927760358765239141">"الجهاز الأيسر"</string>
+    <string name="bluetooth_ambient_volume_control_right" msgid="5783836267230662002">"الجهاز الأيمن"</string>
+    <string name="bluetooth_ambient_volume_mute" msgid="2700088105160838096">"كتم الأصوات المحيطة"</string>
+    <string name="bluetooth_ambient_volume_unmute" msgid="8055038818824925188">"إعادة الأصوات المحيطة"</string>
+    <string name="bluetooth_ambient_volume_error" msgid="259328969488233714">"تعذَّر تعديل حالة الأصوات المحيطة"</string>
     <string name="bluetooth_audio_routing_title" msgid="5541729245424856226">"مصدر إخراج الصوت"</string>
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"لمحة عن إخراج الصوت"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"يمكنك توجيه الأصوات إلى سماعة الأذن الطبية أو مكبّر صوت الهاتف."</string>
@@ -166,6 +174,16 @@
     <string name="ping_test_label" msgid="265427033290391845">"‏تشغيل اختبار Ping"</string>
     <string name="skip_label" msgid="6380034601349015895">"التخطي"</string>
     <string name="next_label" msgid="1248293387735652187">"التالي"</string>
+    <!-- no translation found for region_picker_preference_title (9195149951917299277) -->
+    <skip />
+    <!-- no translation found for region_picker_title (6743800249134439329) -->
+    <skip />
+    <!-- no translation found for region_picker_sub_title (7092062110753164836) -->
+    <skip />
+    <!-- no translation found for suggested_region_title (2554129334404390153) -->
+    <skip />
+    <!-- no translation found for all_supported_region_title (4817156933097703066) -->
+    <skip />
     <string name="language_picker_title" msgid="4271307478263345133">"اللغات"</string>
     <string name="language_picker_category_title" msgid="1792199453060454565">"ترتيب اللغات المفضَّلة"</string>
     <string name="desc_current_default_language" msgid="1901157141663662859">"لغة النظام"</string>
@@ -210,6 +228,7 @@
     <string name="temperature_preferences_title" msgid="5009881556503629058">"درجة الحرارة"</string>
     <string name="first_day_of_week_preferences_title" msgid="1971850087589599553">"أول يوم في الأسبوع"</string>
     <string name="numbers_preferences_title" msgid="8197418984391195446">"الإعدادات المفضّلة لنظام الأرقام"</string>
+    <string name="measurement_system_preferences_title" msgid="5539250190895110890">"نظام القياس"</string>
     <string name="default_string_of_regional_preference" msgid="3428899072914884203">"استخدام الخيار التلقائي"</string>
     <string name="celsius_temperature_unit" msgid="8896459071273084507">"درجة مئوية (°م)"</string>
     <string name="fahrenheit_temperature_unit" msgid="1118677820614569801">"فهرنهايت (°ف)"</string>
@@ -222,6 +241,9 @@
     <string name="saturday_first_day_of_week" msgid="3702282590450322727">"السبت"</string>
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"سيستخدم التطبيق الذي لا يتوافق مع الإعدادات المفضّلة لمنطقتك إعداداته التلقائية للّغة."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"تعرَّف على مزيد من المعلومات عن الإعدادات المفضّلة للّغة."</string>
+    <string name="metric_measurement_system" msgid="7489725697268321541">"المقياس"</string>
+    <string name="us_measurement_system" msgid="8738587232938189052">"المقاييس الأمريكية"</string>
+    <string name="uk_measurement_system" msgid="4196897001775627597">"المقاييس البريطانية"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"الإعدادات المفضَّلة الإضافية"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"اختيار صيغة مخاطبتك"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"يمكن لجهازك تخصيص صيغة مخاطبتك"</string>
@@ -389,8 +411,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_1" msgid="6808124116419325722">"القرار لك"</string>
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_consent_1" msgid="1122676690472680734">"ستتحكّم في هذه الميزة أنت وطفلك"</string>
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"تنبيه"</string>
-    <!-- no translation found for security_settings_fingerprint_enroll_introduction_footer_title_3 (6474415050918819260) -->
-    <skip />
+    <string name="security_settings_fingerprint_enroll_introduction_footer_title_3" msgid="6474415050918819260">"آمن ومفيد"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"استخدم بصمة الإصبع لفتح قفل هاتفك أو الموافقة على عمليات الشراء.\n\nملاحظة: لا يمكنك استخدام بصمة الإصبع لفتح قفل هذا الجهاز. للحصول على المزيد من المعلومات، اتصل بمشرف المؤسسة."</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"إلغاء"</string>
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"لاحقًا"</string>
@@ -1938,6 +1959,7 @@
     <string name="language_input_gesture_title" msgid="3292455685728572960">"اللغات والإدخال والإيماءات"</string>
     <string name="language_settings" msgid="8700174277543875046">"اللغات والإدخال"</string>
     <string name="languages_settings" msgid="5784775502251770671">"اللغات"</string>
+    <string name="language_and_region_settings" msgid="2950394107276025120">"اللغة والمنطقة"</string>
     <string name="keyboard_settings" msgid="184185708597386454">"لوحة المفاتيح"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"ليس لديك إذن بتغيير لغة الجهاز."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"اللغات والإدخال"</string>
@@ -1968,16 +1990,16 @@
     <string name="physical_keyboard_title" msgid="3328134097512350958">"لوحة المفاتيح الخارجية"</string>
     <string name="physical_keyboard_layout_picker_title" msgid="4526600767648916256">"أداة اختيار تخطيط لوحة المفاتيح الخارجية"</string>
     <string name="bounce_keys" msgid="7419450970351743904">"تجاهُل النقرات المتكرّرة"</string>
-    <string name="bounce_keys_summary" msgid="7418024428905737729">"تتجاهل لوحة المفاتيح الضغطات المتكررة بسرعة على المفتاح نفسه"</string>
-    <string name="bounce_keys_dialog_title" msgid="4088646362538368693">"حدّ تجاهُل النقرات المتكرّرة"</string>
-    <string name="bounce_keys_dialog_subtitle" msgid="5640575860258120026">"اختَر المدة الزمنية التي تتجاهل فيها لوحة المفاتيح الضغطات المتكرّرة على المفاتيح"</string>
-    <string name="input_setting_keys_dialog_option_200" msgid="3121006986226247560">"‫0.2 ثانية"</string>
-    <string name="input_setting_keys_dialog_option_400" msgid="2634500629396699440">"‫0.4 ثانية"</string>
-    <string name="input_setting_keys_dialog_option_600" msgid="3828362866751805146">"‫0.6 ثانية"</string>
+    <string name="bounce_keys_summary" msgid="8890925059943636911">"يؤدي هذا الإعداد إلى تجاهُل الضغطات المتكرّرة بسرعة على المفتاح نفسه"</string>
+    <string name="bounce_keys_dialog_title" msgid="1090578395028456023">"مهلة تجاهُل النقرات المتكرّرة"</string>
+    <string name="bounce_keys_dialog_subtitle" msgid="6804676895876861863">"يُرجى اختيار المدة الزمنية التي تتجاهل خلالها لوحة المفاتيح الضغطات المتكرّرة"</string>
+    <string name="input_setting_keys_dialog_option_200" msgid="2785528287150314940">"‫0.2 ثانية"</string>
+    <string name="input_setting_keys_dialog_option_400" msgid="91571674179896177">"‫0.4 ثانية"</string>
+    <string name="input_setting_keys_dialog_option_600" msgid="6983252972219539375">"‫0.6 ثانية"</string>
     <string name="input_setting_keys_custom_title" msgid="670425691119253202">"مخصّصة"</string>
     <string name="input_setting_keys_custom_value" msgid="4455905650507193648">"قيمة مخصّصة"</string>
     <string name="slow_keys" msgid="2891452895499690837">"المفاتيح البطيئة"</string>
-    <string name="slow_keys_summary" msgid="2914214326648535377">"تضبط هذه الميزة المهلة قبل أن يعمل المفتاح عند الضغط عليه"</string>
+    <string name="slow_keys_summary" msgid="3852534180402969185">"يمكنك تغيير المدة التي يجب خلالها الضغط مع الاستمرار على مفتاح معيّن قبل تسجيله"</string>
     <string name="sticky_keys" msgid="7317317044898161747">"تثبيت المفاتيح"</string>
     <string name="sticky_keys_summary" msgid="1844953803625480623">"اضغط على مفتاح واحد في كل مرة للحصول على الاختصارات بدلاً من الضغط باستمرار على المفاتيح معًا"</string>
     <string name="mouse_keys" msgid="6237254627808525540">"مفاتيح الماوس"</string>
@@ -2002,6 +2024,7 @@
     <string name="trackpad_settings" msgid="2071131324087677005">"لوحة اللمس"</string>
     <string name="trackpad_mouse_settings" msgid="136226693583218429">"لوحة اللمس والماوس"</string>
     <string name="mouse_settings" msgid="7301671756721327122">"ماوس"</string>
+    <string name="mouse_settings_summary" msgid="4609720443781972646">"سرعة المؤشر، زرّا تبديل، تخصيص الزر"</string>
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"سرعة المؤشر، والإيماءات"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"الضغط للنقر"</string>
     <string name="trackpad_tap_dragging_title" msgid="798644199582480712">"السحب بعد النقر"</string>
@@ -2313,6 +2336,11 @@
     <string name="accessibility_button_disabled_button_mode_summary" msgid="1978174613270619492">"لا تتوفّر الإعدادات أثناء استخدام وضع زرّ شريط التنقّل."</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"نص بدرجة تباين عالية"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"يمكنك تغيير لون النص إلى الأبيض أو الأسود. سيؤدي ذلك إلى زيادة التباين مع الخلفية."</string>
+    <!-- no translation found for accessibility_notification_high_contrast_text_title (85109818203175520) -->
+    <skip />
+    <!-- no translation found for accessibility_notification_high_contrast_text_content (5073923345319368046) -->
+    <skip />
+    <string name="accessibility_notification_high_contrast_text_action" msgid="7190559555068414342">"فتح \"الإعدادات\""</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8737272017343509753">"زيادة تباين النص إلى أقصى حد"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"إضافة خلفية سوداء أو بيضاء حول النص لزيادة مستوى التباين"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"التحديث التلقائي لتكبير الشاشة"</string>
@@ -2431,7 +2459,10 @@
     <string name="accessibility_hac_mode_title" msgid="2037950424429555652">"التوافق مع السماعات الطبية"</string>
     <string name="accessibility_hac_mode_summary" msgid="5198760061256669067">"تحسين التوافق مع الملفات المغناطيسية وتقليل الضوضاء غير المرغوب فيها"</string>
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"لمحة عن سماعات الأذن الطبية"</string>
-    <string name="accessibility_hearing_device_footer_summary" msgid="256061045064940818">"‏للعثور على سماعات أذن طبية أخرى غير متوافقة مع بروتوكول ASHA أو LE Audio، انقر على "<b>"إقران جهاز جديد"</b>" &gt; "<b>"عرض المزيد من الأجهزة"</b></string>
+    <!-- no translation found for accessibility_hearing_device_footer_summary (5513620078219951077) -->
+    <skip />
+    <!-- no translation found for accessibility_hearing_device_footer_summary_tts (955527026890456959) -->
+    <skip />
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"إقران سماعة الأذن الطبية"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"‏يمكنك إقران سماعات الأذن الطبية المزودة بتكنولوجيا ASHA وتطبيق LE Audio على هذه الصفحة. تأكَّد من تشغيل سماعة الأذن الطبية وجاهزيتها للإقران."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"سماعات الأذن الطبية المتاحة"</string>
@@ -3643,14 +3674,10 @@
     <string name="lock_screen_notif_minimalism_summary" msgid="4607237285421814421">"إظهار إشعارات أقل على شاشة القفل"</string>
     <string name="unseen_notifs_lock_screen" msgid="6910701117021324612">"إظهار الإشعارات الجديدة فقط على شاشة القفل"</string>
     <string name="unseen_notifs_lock_screen_summary" msgid="5996722793868021391">"لإزالة الإشعارات تلقائيًا من شاشة القفل إذا سبق واطّلعت عليها"</string>
-    <!-- no translation found for lock_screen_notifs_show_full_list (6767009263807771108) -->
-    <skip />
-    <!-- no translation found for lock_screen_notifs_full_list_desc (4868489278443057427) -->
-    <skip />
-    <!-- no translation found for lock_screen_notifs_show_compact (1133598661314460528) -->
-    <skip />
-    <!-- no translation found for lock_screen_notifs_compact_desc (2442594880539709057) -->
-    <skip />
+    <string name="lock_screen_notifs_show_full_list" msgid="6767009263807771108">"القائمة الكاملة"</string>
+    <string name="lock_screen_notifs_full_list_desc" msgid="4868489278443057427">"الموضع التلقائي الحالي هو رفّ كامل ومجموعة من الإشعارات."</string>
+    <string name="lock_screen_notifs_show_compact" msgid="1133598661314460528">"الإشعارات المصغَّرة"</string>
+    <string name="lock_screen_notifs_compact_desc" msgid="2442594880539709057">"يتم تصغير الإشعارات الجديدة في رفّ على شاشة القفل."</string>
     <string name="lock_screen_notifs_title" msgid="3412042692317304449">"الإشعارات على شاشة القفل"</string>
     <string name="lock_screen_notifs_show_all_summary" msgid="4226586018375762117">"إظهار إشعارات المحادثات والإشعارات التلقائية والصامتة"</string>
     <string name="lock_screen_notifs_show_all" msgid="1300418674456749664">"إظهار إشعارات المحادثات والإشعارات التلقائية والصامتة"</string>
@@ -3668,14 +3695,10 @@
     <string name="lock_screen_notifications_summary_show_profile" msgid="8373401288962523946">"عرض محتوى إشعارات العمل كاملاً"</string>
     <string name="lock_screen_notifications_summary_hide_profile" msgid="2183455323048921579">"إخفاء محتوى العمل الحساس"</string>
     <string name="lock_screen_notifications_interstitial_message_profile" msgid="1456262034599029028">"كيف تريد أن يتم عرض إشعارات الملف الشخصي عندما يكون الجهاز مقفلاً؟"</string>
-    <!-- no translation found for lock_screen_notification_hide_seen_title (6356324850662946426) -->
-    <skip />
-    <!-- no translation found for lock_screen_notification_hide_seen_summary (8345971177658888274) -->
-    <skip />
-    <!-- no translation found for lock_screen_notification_hide_silent_title (3284314455767315329) -->
-    <skip />
-    <!-- no translation found for lock_screen_notification_hide_silent_summary (1934066619526795468) -->
-    <skip />
+    <string name="lock_screen_notification_hide_seen_title" msgid="6356324850662946426">"إخفاء الإشعارات المقروءة"</string>
+    <string name="lock_screen_notification_hide_seen_summary" msgid="8345971177658888274">"الإشعارات التي تم الاطّلاع عليها تتم إزالتها من شاشة القفل."</string>
+    <string name="lock_screen_notification_hide_silent_title" msgid="3284314455767315329">"إخفاء الإشعارات الصامتة"</string>
+    <string name="lock_screen_notification_hide_silent_summary" msgid="1934066619526795468">"تتم إزالة المحادثات والإشعارات الصامتة من شاشة القفل."</string>
     <string name="lock_screen_notifications_interstitial_title_profile" msgid="6950124772255324448">"إشعارات الملف الشخصي"</string>
     <string name="notifications_title" msgid="4221655533193721131">"الإشعارات"</string>
     <string name="app_notifications_title" msgid="248374669037385148">"إشعارات التطبيقات"</string>
@@ -3702,7 +3725,7 @@
     <string name="clear" msgid="5092178335409471100">"محو"</string>
     <string name="clear_conversation" msgid="5564321180363279096">"محو المحادثة مع \"<xliff:g id="CONVERSATION_NAME">%1$s</xliff:g>\""</string>
     <string name="conversation_onboarding_title" msgid="5194559958353468484">"ستظهر هنا المحادثات ذات الأولوية والمُعدَّلة"</string>
-    <string name="conversation_onboarding_summary" msgid="2484845363368486941">"بعد وضع علامة على محادثة لمنحها الأولوية، أو إجراء أي تغييرات أخرى على المحادثات، ستظهر هذه المحادثات هنا. \n\nلتغيير إعدادات المحادثة: \nمرّر سريعًا من أعلى الشاشة من أسفلها لفتح مركز الإشعارات، ثم انقر مع الاستمرار على المحادثة."</string>
+    <string name="conversation_onboarding_summary" msgid="2484845363368486941">"لدى منح محادثة ما الأولوية أو إجراء أي تغييرات أخرى على المحادثات، ستظهر جميعها هنا. \n\nلتغيير إعدادات المحادثة: \nمرّر سريعًا من أعلى الشاشة إلى أسفلها لفتح مركز الإشعارات، ثم انقر مع الاستمرار على المحادثة."</string>
     <string name="notification_importance_min_title" msgid="7676541266705442501">"تصغير"</string>
     <string name="notification_importance_high_title" msgid="394129291760607808">"عرض على الشاشة"</string>
     <string name="notification_silence_title" msgid="4085829874452944989">"الإشعارات الصامتة"</string>
@@ -4292,6 +4315,10 @@
     <string name="admin_profile_owner_user_message" msgid="4929926887231544950">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بهذا المستخدم وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="admin_device_owner_message" msgid="5503131744126520590">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بهذا الجهاز وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="admin_financed_message" msgid="1156197630834947884">"قد يتمكن مشرف الجهاز من الوصول إلى البيانات المرتبطة بهذا الجهاز وإدارة التطبيقات وتغيير إعدادات الجهاز."</string>
+    <!-- no translation found for disabled_by_advanced_protection_title (766656508280098112) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_message (5515085544669304056) -->
+    <skip />
     <string name="condition_turn_off" msgid="402707350778441939">"إيقاف"</string>
     <string name="condition_turn_on" msgid="3911077299444314791">"تفعيل"</string>
     <string name="condition_expand_show" msgid="1501084007540953213">"إظهار"</string>
@@ -4374,7 +4401,7 @@
     <string name="data_saver_title" msgid="2593804270788863815">"توفير البيانات"</string>
     <string name="unrestricted_data_saver" msgid="5913547065342097274">"التطبيقات المسموح لها بالاستخدام غير المحدود لبيانات الجوّال"</string>
     <string name="restrict_background_blocklisted" msgid="2308345280442438232">"تم إيقاف بيانات الخلفية."</string>
-    <string name="data_saver_on" msgid="7848893946018448793">"قيد التفعيل"</string>
+    <string name="data_saver_on" msgid="7848893946018448793">"الميزة مفعَّلة"</string>
     <string name="data_saver_off" msgid="5891210864117269045">"الميزة غير مفعّلة"</string>
     <string name="data_saver_switch_title" msgid="7111538580123722959">"استخدام ميزة \"توفير البيانات\""</string>
     <string name="unrestricted_app_title" msgid="8531936851059106374">"الاستخدام غير المحدود لبيانات الجوّال"</string>
@@ -5096,8 +5123,7 @@
     <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"الوضع 16 كيلوبايت غير المستند إلى حجم الصفحة"</string>
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"قراءة المزيد"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"تشغيل التطبيق في وضع التوافق مع حجم الصفحة"</string>
-    <!-- no translation found for enable_16k_app_compat_details (3389401258168314266) -->
-    <skip />
+    <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"سيتم تشغيل التطبيق في وضع التوافق مع حجم الصفحة على جهاز يعرض الصفحة بحجم 16 كيلوبايت عند التبديل."</string>
     <string name="bug_report_handler_title" msgid="713439959113250125">"معالِج تقارير الأخطاء"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"يحدّد هذا الإعداد التطبيق الذي سيعالج اختصار \"تقرير الأخطاء\" على جهازك."</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"شخصي"</string>
@@ -5552,9 +5578,10 @@
     <string name="contacts_storage_set_default_account_error_message" msgid="849847649756411393">"حدث خطأ أثناء ضبط الحساب التلقائي"</string>
     <string name="contacts_storage_no_account_set_summary" msgid="7454973781666475276">"لم يتم ضبط حساب تلقائي"</string>
     <string name="contacts_storage_local_account_summary" msgid="5034805108128685712">"الجهاز فقط"</string>
-    <string name="contacts_storage_account_title" msgid="4939024280942927810">"‏الأجهزة و%1$s"</string>
+    <string name="contacts_storage_account_title" msgid="4939024280942927810">"‏الجهاز و%1$s"</string>
     <string name="contacts_storage_first_time_add_account_message" msgid="5161093169928132323">"يُرجى إضافة حساب للبدء"</string>
     <string name="contacts_storage_account_category_title" msgid="6427149157377815586">"مكان حفظ جهات الاتصال"</string>
     <string name="search_gesture_feature_title" msgid="7037117019612710960">"دائرة البحث"</string>
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"انقر مع الاستمرار على زر الشاشة الرئيسية أو مؤشر التنقُّل للبحث باستخدام المحتوى الذي يظهر على شاشتك."</string>
+    <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. ضبط تفاصيل الجهاز"</string>
 </resources>

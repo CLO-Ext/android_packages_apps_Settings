@@ -16,6 +16,7 @@
 
 package com.android.settings.wifi
 
+import android.Manifest
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -30,11 +31,14 @@ import com.android.settings.PreferenceRestrictionMixin
 import com.android.settings.R
 import com.android.settings.network.SatelliteRepository.Companion.isSatelliteOn
 import com.android.settings.network.SatelliteWarningDialogActivity
+import com.android.settings.wifi.utils.isWifiEnabled
+import com.android.settings.wifi.utils.wifiManager
 import com.android.settingslib.RestrictedSwitchPreference
 import com.android.settingslib.WirelessUtils
 import com.android.settingslib.datastore.AbstractKeyedDataObservable
 import com.android.settingslib.datastore.DataChangeReason
 import com.android.settingslib.datastore.KeyValueStore
+import com.android.settingslib.datastore.Permissions
 import com.android.settingslib.metadata.PreferenceLifecycleProvider
 import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.ReadWritePermit
@@ -92,6 +96,15 @@ class WifiSwitchPreference :
         return true
     }
 
+    override fun getReadPermissions(context: Context) =
+        Permissions.allOf(Manifest.permission.ACCESS_WIFI_STATE)
+
+    override fun getWritePermissions(context: Context) =
+        Permissions.anyOf(
+            Manifest.permission.NETWORK_SETTINGS,
+            Manifest.permission.CHANGE_WIFI_STATE,
+        )
+
     override fun getReadPermit(context: Context, callingPid: Int, callingUid: Int) =
         ReadWritePermit.ALLOW
 
@@ -118,16 +131,14 @@ class WifiSwitchPreference :
 
         private var broadcastReceiver: BroadcastReceiver? = null
 
-        override fun contains(key: String) =
-            key == KEY && context.getSystemService(WifiManager::class.java) != null
+        override fun contains(key: String) = key == KEY && context.wifiManager != null
 
         override fun <T : Any> getValue(key: String, valueType: Class<T>): T? =
-            context.getSystemService(WifiManager::class.java)?.isWifiEnabled as T?
+            context.isWifiEnabled as T?
 
-        @Suppress("DEPRECATION")
         override fun <T : Any> setValue(key: String, valueType: Class<T>, value: T?) {
             if (value is Boolean) {
-                context.getSystemService(WifiManager::class.java)?.isWifiEnabled = value
+                context.isWifiEnabled = value
             }
         }
 

@@ -49,10 +49,13 @@ import java.lang.annotation.RetentionPolicy;
 public class HighContrastTextMigrationReceiver extends BroadcastReceiver {
     private static final String TAG = HighContrastTextMigrationReceiver.class.getSimpleName();
     @VisibleForTesting
-    static final String NOTIFICATION_CHANNEL = "high_contrast_text_notification_channel";
+    static final String NOTIFICATION_CHANNEL = "accessibility_notification_channel";
     @VisibleForTesting
     static final String ACTION_RESTORED =
             "com.android.settings.accessibility.ACTION_HIGH_CONTRAST_TEXT_RESTORED";
+    @VisibleForTesting
+    static final String ACTION_OPEN_SETTINGS =
+            "com.android.settings.accessibility.ACTION_OPEN_HIGH_CONTRAST_TEXT_SETTINGS";
     @VisibleForTesting
     static final int NOTIFICATION_ID = 1;
 
@@ -74,7 +77,16 @@ public class HighContrastTextMigrationReceiver extends BroadcastReceiver {
             return;
         }
 
-        if (ACTION_RESTORED.equals(intent.getAction())) {
+        if (ACTION_OPEN_SETTINGS.equals(intent.getAction())) {
+            // Close notification drawer before opening the HCT setting.
+            context.sendBroadcast(new Intent(Intent.ACTION_CLOSE_SYSTEM_DIALOGS));
+
+            Intent settingsIntent = createHighContrastTextSettingsIntent(context);
+            settingsIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(settingsIntent);
+
+            context.getSystemService(NotificationManager.class).cancel(NOTIFICATION_ID);
+        } else if (ACTION_RESTORED.equals(intent.getAction())) {
             Log.i(TAG, "HCT attempted to be restored from backup; showing notification for userId: "
                     + context.getUserId());
             Settings.Secure.putInt(context.getContentResolver(),
@@ -120,39 +132,49 @@ public class HighContrastTextMigrationReceiver extends BroadcastReceiver {
                 NOTIFICATION_CHANNEL)
                 .setSmallIcon(R.drawable.ic_settings_24dp)
                 .setContentTitle(context.getString(
-                        R.string.accessibility_toggle_high_text_contrast_preference_title))
+                        R.string.accessibility_notification_high_contrast_text_title))
                 .setContentText(context.getString(
                         R.string.accessibility_notification_high_contrast_text_content))
-                .setAutoCancel(true);
+                .setFlag(Notification.FLAG_NO_CLEAR, true);
 
-        Intent settingsIntent = new Intent(Settings.ACTION_TEXT_READING_SETTINGS);
-        settingsIntent.setPackage(context.getPackageName());
+        Intent settingsIntent = createHighContrastTextSettingsIntent(context);
         if (settingsIntent.resolveActivity(context.getPackageManager()) != null) {
-            Bundle fragmentArgs = new Bundle();
-            fragmentArgs.putString(EXTRA_FRAGMENT_ARG_KEY,
-                    TextReadingPreferenceFragment.HIGH_TEXT_CONTRAST_KEY);
-            settingsIntent.putExtra(EXTRA_SHOW_FRAGMENT_ARGUMENTS, fragmentArgs);
             PendingIntent settingsPendingIntent = PendingIntent.getActivity(context,
                     /* requestCode = */ 0, settingsIntent, PendingIntent.FLAG_IMMUTABLE);
 
+            Intent actionIntent = new Intent(context, HighContrastTextMigrationReceiver.class);
+            actionIntent.setAction(ACTION_OPEN_SETTINGS);
+            PendingIntent actionPendingIntent = PendingIntent.getBroadcast(context, 0,
+                    actionIntent, PendingIntent.FLAG_IMMUTABLE);
             Notification.Action settingsAction = new Notification.Action.Builder(
                     /* icon= */ null,
                     context.getString(
                             R.string.accessibility_notification_high_contrast_text_action),
-                    settingsPendingIntent
+                    actionPendingIntent
             ).build();
 
-            notificationBuilder.addAction(settingsAction);
+            notificationBuilder
+                    .setContentIntent(settingsPendingIntent)
+                    .addAction(settingsAction)
+                    .setAutoCancel(true);
         }
-
         NotificationManager notificationManager =
                 context.getSystemService(NotificationManager.class);
         NotificationChannel notificationChannel = new NotificationChannel(
                 NOTIFICATION_CHANNEL,
-                context.getString(
-                        R.string.accessibility_toggle_high_text_contrast_preference_title),
+                context.getString(R.string.accessibility_settings),
                 NotificationManager.IMPORTANCE_LOW);
         notificationManager.createNotificationChannel(notificationChannel);
         notificationManager.notify(NOTIFICATION_ID, notificationBuilder.build());
+    }
+
+    private Intent createHighContrastTextSettingsIntent(Context context) {
+        Intent settingsIntent = new Intent(Settings.ACTION_TEXT_READING_SETTINGS);
+        settingsIntent.setPackage(context.getPackageName());
+        Bundle fragmentArgs = new Bundle();
+        fragmentArgs.putString(EXTRA_FRAGMENT_ARG_KEY,
+                TextReadingPreferenceFragment.HIGH_TEXT_CONTRAST_KEY);
+        settingsIntent.putExtra(EXTRA_SHOW_FRAGMENT_ARGUMENTS, fragmentArgs);
+        return settingsIntent;
     }
 }
