@@ -2880,6 +2880,12 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
                   android:screenOrientation="portrait"/>
 
         <activity android:name=".biometrics.face.FaceEnrollIntroduction"
+                  android:exported="false"
+                  android:theme="@style/GlifV4Theme.DayNight"
+                  android:screenOrientation="nosensor">
+        </activity>
+
+        <activity android:name=".biometrics.face.FaceEnroll"
                   android:exported="true"
                   android:theme="@style/GlifV4Theme.DayNight"
                   android:screenOrientation="nosensor">
@@ -4164,6 +4170,11 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
                 <action android:name="android.settings.APP_NOTIFICATION_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+            <intent-filter android:priority="2"
+                           android:featureFlag="android.app.ui_rich_ongoing">
+                <action android:name="android.settings.APP_NOTIFICATION_PROMOTION_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.notification.app.AppNotificationSettings" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
@@ -4554,6 +4565,19 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
                   android:launchMode="singleTop">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.SHOW_RESTRICTED_SETTING_DIALOG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".security.ActionDisabledByAdvancedProtectionDialog"
+            android:theme="@style/Theme.AlertDialog"
+            android:taskAffinity="com.android.settings.security"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:featureFlag="android.security.aapm_api">
+            <intent-filter android:priority="1">
+                <action android:name="android.security.advancedprotection.action.SHOW_ADVANCED_PROTECTION_SUPPORT_DIALOG" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -5297,7 +5321,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
                   android:permission="android.permission.MASTER_CLEAR"
                   android:label="@string/main_clear_title"
                   android:exported="true"
-                  android:theme="@style/SudThemeGlif.Light">
+                  android:theme="@style/SettingsSudThemeGlif.Light">
             <intent-filter>
                 <action android:name="com.android.settings.action.FACTORY_RESET"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -5311,7 +5335,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
         <activity android:name="Settings$FactoryResetConfirmActivity"
                   android:label="@string/main_clear_confirm_title"
                   android:exported="false"
-                  android:theme="@style/SudThemeGlif.Light">
+                  android:theme="@style/SettingsSudThemeGlif.Light">
         </activity>
 
        <activity android:name=".network.telephony.UserPLMNListActivity"
@@ -5349,6 +5373,23 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
                    android:value="com.android.settings.gestures.OneHandedSettings"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                        android:value="true" />
+        </activity>
+
+        <activity
+            android:name="Settings$DoubleTapPowerSettingsActivity"
+            android:label="@string/double_tap_power_title"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.action.DOUBLE_TAP_POWER_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.gestures.DoubleTapPowerSettings"/>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_system"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
         </activity>
 
         <receiver android:name=".safetycenter.SafetySourceBroadcastReceiver"
@@ -5520,6 +5561,12 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
                 <action android:name="android.settings.AUDIO_STREAM_DIALOG" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="bluetooth" />
+                <data android:scheme="BLUETOOTH" />
+            </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.connecteddevice.audiosharing.audiostreams.AudioStreamConfirmDialog" />
         </activity>
@@ -5541,7 +5588,8 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
             android:name="com.android.settings.connecteddevice.audiosharing.audiostreams.AudioStreamMediaService"
             android:foregroundServiceType="mediaPlayback"
             android:enabled="true"
-            android:exported="false" />
+            android:exported="true"
+            android:permission="android.permission.BLUETOOTH_PRIVILEGED" />
 
         <!-- Once b/364771256 is fixed, add android:featureFlag="com.android.settings.flags.catalyst_service". -->
         <!-- Permission is not yet finalized, use READ_BASIC_PHONE_STATE temporarily. -->
@@ -5606,6 +5654,21 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
                        android:value="@string/menu_key_apps"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                        android:value="true" />
+        </activity>
+
+
+        <activity android:name=".Settings$ContentProtectionSettingsActivity"
+            android:label="@string/content_protection_preference_title"
+            android:exported="true"
+            android:featureFlag="android.view.contentprotection.flags.exported_settings_activity_enabled">
+            <intent-filter>
+                <action android:name="android.settings.CONTENT_PROTECTION_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.security.ContentProtectionPreferenceFragment"/>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_system"/>
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->

@@ -83,7 +83,7 @@ public class FaceSettingsEnrollButtonPreferenceController extends BasePreference
     public void onClick(View v) {
         mIsClicked = true;
         final Intent intent = new Intent();
-        intent.setClassName(SETTINGS_PACKAGE_NAME, FaceEnrollIntroduction.class.getName());
+        intent.setClassName(SETTINGS_PACKAGE_NAME, FaceEnroll.class.getName());
         intent.putExtra(Intent.EXTRA_USER_ID, mUserId);
         intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_CHALLENGE_TOKEN, mToken);
         if (mListener != null) {
