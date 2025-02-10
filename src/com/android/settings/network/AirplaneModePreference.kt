@@ -47,6 +47,7 @@ import com.android.settingslib.metadata.PreferenceLifecycleProvider
 import com.android.settingslib.metadata.ReadWritePermit
 import com.android.settingslib.metadata.SensitivityLevel
 import com.android.settingslib.metadata.SwitchPreference
+import com.qti.extphone.ExtTelephonyManager;
 
 // LINT.IfChange
 class AirplaneModePreference :
@@ -151,6 +152,10 @@ class AirplaneModePreference :
                     showSatelliteDialog(context)
                     return@OnPreferenceChangeListener false
                 }
+                if (isInScbmMode()) {
+                    showScbmDialog(context)
+                    return@OnPreferenceChangeListener false
+                }
                 return@OnPreferenceChangeListener true
             }
     }
@@ -161,7 +166,8 @@ class AirplaneModePreference :
         resultCode: Int,
         data: Intent?,
     ): Boolean {
-        if (requestCode == REQUEST_CODE_EXIT_ECM && resultCode == Activity.RESULT_OK) {
+        if ((requestCode == REQUEST_CODE_EXIT_ECM || requestCode == REQUEST_CODE_EXIT_SCBM)
+            && resultCode == Activity.RESULT_OK) {
             context.getKeyValueStore(KEY)?.setBoolean(KEY, true)
         }
         return true
@@ -180,6 +186,13 @@ class AirplaneModePreference :
         context.startActivityForResult(intent, REQUEST_CODE_EXIT_ECM, null)
     }
 
+    private fun showScbmDialog(context: PreferenceLifecycleContext) {
+        val intent =
+            Intent(ExtTelephonyManager.ACTION_SHOW_NOTICE_SCM_BLOCK_OTHERS, null)
+                .setPackage(Utils.PHONE_PACKAGE_NAME)
+        context.startActivityForResult(intent, REQUEST_CODE_EXIT_SCBM, null)
+    }
+
     private fun showSatelliteDialog(context: PreferenceLifecycleContext) {
         val intent =
             Intent(context, SatelliteWarningDialogActivity::class.java)
@@ -190,10 +203,13 @@ class AirplaneModePreference :
         context.startActivity(intent)
     }
 
+    private fun isInScbmMode() = AirplaneModeEnabler.isInScbm()
+
     companion object {
         const val KEY = Settings.Global.AIRPLANE_MODE_ON
         const val DEFAULT_VALUE = false
         const val REQUEST_CODE_EXIT_ECM = 1
+        const val REQUEST_CODE_EXIT_SCBM = 2
 
         fun Context.isAirplaneModeOn() = SettingsGlobalStore.get(this).getBoolean(KEY) == true
     }
