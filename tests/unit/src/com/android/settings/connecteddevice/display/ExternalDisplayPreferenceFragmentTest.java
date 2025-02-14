@@ -17,19 +17,10 @@ package com.android.settings.connecteddevice.display;
 
 import static android.view.Display.INVALID_DISPLAY;
 
-import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.DISPLAYS_LIST_PREFERENCE_KEY;
 import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_CHANGE_RESOLUTION_FOOTER_RESOURCE;
 import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_NOT_FOUND_FOOTER_RESOURCE;
-import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_RESOLUTION_PREFERENCE_KEY;
-import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_RESOLUTION_TITLE_RESOURCE;
-import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_ROTATION_KEY;
-import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_ROTATION_TITLE_RESOURCE;
 import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_SETTINGS_RESOURCE;
-import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_SIZE_PREFERENCE_KEY;
 import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_SIZE_SUMMARY_RESOURCE;
-import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_SIZE_TITLE_RESOURCE;
-import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_USE_PREFERENCE_KEY;
-import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.EXTERNAL_DISPLAY_USE_TITLE_RESOURCE;
 import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.PREVIOUSLY_SHOWN_LIST_KEY;
 import static com.android.settings.flags.Flags.FLAG_DISPLAY_SIZE_CONNECTED_DISPLAY_SETTING;
 import static com.android.settings.flags.Flags.FLAG_DISPLAY_TOPOLOGY_PANE_IN_DISPLAY_LIST;
@@ -61,6 +52,7 @@ import androidx.test.annotation.UiThreadTest;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.DisplayPreference;
+import com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.PrefBasics;
 import com.android.settingslib.widget.FooterPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
 
@@ -97,23 +89,22 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         fragment.onSaveInstanceStateCallback(outState);
         assertThat(outState.getBoolean(PREVIOUSLY_SHOWN_LIST_KEY)).isFalse();
         assertThat(mHandler.getPendingMessages().size()).isEqualTo(1);
-        PreferenceCategory pref = mPreferenceScreen.findPreference(DISPLAYS_LIST_PREFERENCE_KEY);
+        PreferenceCategory pref = mPreferenceScreen.findPreference(PrefBasics.DISPLAYS_LIST.key);
         assertThat(pref).isNull();
         verify(mMockedInjector, never()).getAllDisplays();
         mHandler.flush();
         assertThat(mHandler.getPendingMessages().size()).isEqualTo(0);
         verify(mMockedInjector).getAllDisplays();
-        pref = mPreferenceScreen.findPreference(DISPLAYS_LIST_PREFERENCE_KEY);
+        pref = mPreferenceScreen.findPreference(PrefBasics.DISPLAYS_LIST.key);
         assertThat(pref).isNotNull();
         assertThat(pref.getPreferenceCount()).isEqualTo(2);
         fragment.onSaveInstanceStateCallback(outState);
         assertThat(outState.getBoolean(PREVIOUSLY_SHOWN_LIST_KEY)).isTrue();
 
-        pref = mPreferenceScreen.findPreference(DisplayTopologyKt.TOPOLOGY_PREFERENCE_KEY);
+        pref = mPreferenceScreen.findPreference(PrefBasics.DISPLAY_TOPOLOGY.key);
         assertThat(pref).isNull();
 
-        pref = mPreferenceScreen.findPreference(
-                ExternalDisplayPreferenceFragment.BUILTIN_DISPLAY_LIST_PREFERENCE_KEY);
+        pref = mPreferenceScreen.findPreference(PrefBasics.BUILTIN_DISPLAY_LIST.key);
         assertThat(pref).isNull();
     }
 
@@ -126,44 +117,16 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         doReturn(new Display[] {mDisplays[1]}).when(mMockedInjector).getAllDisplays();
         mHandler.flush();
 
-        var pref = mPreferenceScreen.findPreference(DisplayTopologyKt.TOPOLOGY_PREFERENCE_KEY);
+        var pref = mPreferenceScreen.findPreference(PrefBasics.DISPLAY_TOPOLOGY.key);
         assertThat(pref).isNotNull();
-        pref = mPreferenceScreen.findPreference(MirroringKt.MIRROR_PREFERENCE_KEY);
+        pref = mPreferenceScreen.findPreference(PrefBasics.MIRROR.key);
         assertThat(pref).isNotNull();
 
-        PreferenceCategory listPref =
-                mPreferenceScreen.findPreference(DISPLAYS_LIST_PREFERENCE_KEY);
-        assertThat(listPref).isNotNull();
-        assertThat(listPref.getPreferenceCount()).isEqualTo(1);
-
-        listPref = mPreferenceScreen.findPreference(
-                ExternalDisplayPreferenceFragment.BUILTIN_DISPLAY_LIST_PREFERENCE_KEY);
-        assertThat(listPref).isNotNull();
-        assertThat(listPref.getPreferenceCount()).isEqualTo(1);
-    }
-
-    @Test
-    @UiThreadTest
-    public void testShowDisplayListWithPane_NoExternalDisplays() {
-        mFlags.setFlag(FLAG_DISPLAY_TOPOLOGY_PANE_IN_DISPLAY_LIST, true);
-
-        initFragment();
-        doReturn(new Display[0]).when(mMockedInjector).getAllDisplays();
-        mHandler.flush();
-
-        var pref = mPreferenceScreen.findPreference(DisplayTopologyKt.TOPOLOGY_PREFERENCE_KEY);
-        assertThat(pref).isNotNull();
-        pref = mPreferenceScreen.findPreference(MirroringKt.MIRROR_PREFERENCE_KEY);
+        pref = mPreferenceScreen.findPreference(PrefBasics.DISPLAYS_LIST.key);
         assertThat(pref).isNull();
 
         PreferenceCategory listPref =
-                mPreferenceScreen.findPreference(DISPLAYS_LIST_PREFERENCE_KEY);
-        assertThat(listPref).isNull();
-
-        listPref = mPreferenceScreen.findPreference(
-                ExternalDisplayPreferenceFragment.BUILTIN_DISPLAY_LIST_PREFERENCE_KEY);
-        assertThat(listPref).isNotNull();
-        assertThat(listPref.getPreferenceCount()).isEqualTo(1);
+                mPreferenceScreen.findPreference(PrefBasics.BUILTIN_DISPLAY_LIST.key);
         var builtinPref = listPref.getPreference(0);
         assertThat(builtinPref.getOnPreferenceClickListener().onPreferenceClick(builtinPref))
                 .isTrue();
@@ -172,10 +135,33 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
 
     @Test
     @UiThreadTest
+    public void testDontShowDisplayListOrPane_NoExternalDisplays() {
+        mFlags.setFlag(FLAG_DISPLAY_TOPOLOGY_PANE_IN_DISPLAY_LIST, true);
+
+        initFragment();
+        doReturn(new Display[0]).when(mMockedInjector).getAllDisplays();
+        mHandler.flush();
+
+        // When no external display is attached, interactive preferences are omitted.
+        var pref = mPreferenceScreen.findPreference(PrefBasics.DISPLAY_TOPOLOGY.key);
+        assertThat(pref).isNull();
+        pref = mPreferenceScreen.findPreference(PrefBasics.MIRROR.key);
+        assertThat(pref).isNull();
+
+        PreferenceCategory listPref =
+                mPreferenceScreen.findPreference(PrefBasics.DISPLAYS_LIST.key);
+        assertThat(listPref).isNull();
+
+        listPref = mPreferenceScreen.findPreference(PrefBasics.BUILTIN_DISPLAY_LIST.key);
+        assertThat(listPref).isNull();
+    }
+
+    @Test
+    @UiThreadTest
     public void testLaunchDisplaySettingFromList() {
         initFragment();
         mHandler.flush();
-        PreferenceCategory pref = mPreferenceScreen.findPreference(DISPLAYS_LIST_PREFERENCE_KEY);
+        PreferenceCategory pref = mPreferenceScreen.findPreference(PrefBasics.DISPLAYS_LIST.key);
         assertThat(pref).isNotNull();
         var display1Category = (PreferenceCategory) pref.getPreference(0);
         var display1Pref = (DisplayPreference) display1Category.getPreference(0);
@@ -204,7 +190,7 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         // Only one display available
         doReturn(new Display[] {mDisplays[1]}).when(mMockedInjector).getAllDisplays();
         mHandler.flush();
-        PreferenceCategory pref = mPreferenceScreen.findPreference(DISPLAYS_LIST_PREFERENCE_KEY);
+        PreferenceCategory pref = mPreferenceScreen.findPreference(PrefBasics.DISPLAYS_LIST.key);
         assertThat(pref).isNotNull();
         assertThat(pref.getPreferenceCount()).isEqualTo(1);
     }
@@ -219,15 +205,15 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         // Init
         initFragment();
         mHandler.flush();
-        PreferenceCategory list = mPreferenceScreen.findPreference(DISPLAYS_LIST_PREFERENCE_KEY);
+        PreferenceCategory list = mPreferenceScreen.findPreference(PrefBasics.DISPLAYS_LIST.key);
         assertThat(list).isNull();
-        var pref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_RESOLUTION_PREFERENCE_KEY);
+        var pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_RESOLUTION.key);
         assertThat(pref).isNotNull();
-        pref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_ROTATION_KEY);
+        pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat(pref).isNotNull();
         var footerPref = (FooterPreference) mPreferenceScreen.findPreference(KEY_FOOTER);
         assertThat(footerPref).isNotNull();
-        var sizePref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_SIZE_PREFERENCE_KEY);
+        var sizePref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         assertThat(sizePref).isNull();
         verify(footerPref).setTitle(EXTERNAL_DISPLAY_CHANGE_RESOLUTION_FOOTER_RESOURCE);
     }
@@ -241,15 +227,15 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         // Init
         initFragment();
         mHandler.flush();
-        PreferenceCategory list = mPreferenceScreen.findPreference(DISPLAYS_LIST_PREFERENCE_KEY);
+        PreferenceCategory list = mPreferenceScreen.findPreference(PrefBasics.DISPLAYS_LIST.key);
         assertThat(list).isNull();
-        var pref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_RESOLUTION_PREFERENCE_KEY);
+        var pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_RESOLUTION.key);
         assertThat(pref).isNotNull();
-        pref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_ROTATION_KEY);
+        pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat(pref).isNotNull();
         var footerPref = (FooterPreference) mPreferenceScreen.findPreference(KEY_FOOTER);
         assertThat(footerPref).isNotNull();
-        var sizePref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_SIZE_PREFERENCE_KEY);
+        var sizePref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         assertThat(sizePref).isNotNull();
         verify(footerPref).setTitle(EXTERNAL_DISPLAY_CHANGE_RESOLUTION_FOOTER_RESOURCE);
     }
@@ -263,13 +249,13 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         verify(mMockedInjector, never()).getDisplay(anyInt());
         mHandler.flush();
         verify(mMockedInjector).getDisplay(mDisplayIdArg);
-        var pref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_RESOLUTION_PREFERENCE_KEY);
+        var pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_RESOLUTION.key);
         assertThat(pref).isNotNull();
-        pref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_ROTATION_KEY);
+        pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat(pref).isNotNull();
         var footerPref = (FooterPreference) mPreferenceScreen.findPreference(KEY_FOOTER);
         assertThat(footerPref).isNotNull();
-        var sizePref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_SIZE_PREFERENCE_KEY);
+        var sizePref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         assertThat(sizePref).isNotNull();
         verify(footerPref).setTitle(EXTERNAL_DISPLAY_CHANGE_RESOLUTION_FOOTER_RESOURCE);
     }
@@ -283,20 +269,20 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         mHandler.flush();
         verify(mMockedInjector).getDisplay(mDisplayIdArg);
         var mainPref = (MainSwitchPreference) mPreferenceScreen.findPreference(
-                EXTERNAL_DISPLAY_USE_PREFERENCE_KEY);
+                PrefBasics.EXTERNAL_DISPLAY_USE.key);
         assertThat(mainPref).isNotNull();
         assertThat("" + mainPref.getTitle()).isEqualTo(
-                getText(EXTERNAL_DISPLAY_USE_TITLE_RESOURCE));
+                getText(PrefBasics.EXTERNAL_DISPLAY_USE.titleResource));
         assertThat(mainPref.isChecked()).isFalse();
         assertThat(mainPref.isEnabled()).isTrue();
         assertThat(mainPref.getOnPreferenceChangeListener()).isNotNull();
-        var pref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_RESOLUTION_PREFERENCE_KEY);
+        var pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_RESOLUTION.key);
         assertThat(pref).isNull();
-        pref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_ROTATION_KEY);
+        pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat(pref).isNull();
         var footerPref = (FooterPreference) mPreferenceScreen.findPreference(KEY_FOOTER);
         assertThat(footerPref).isNull();
-        var sizePref = mPreferenceScreen.findPreference(EXTERNAL_DISPLAY_SIZE_PREFERENCE_KEY);
+        var sizePref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         assertThat(sizePref).isNull();
     }
 
@@ -307,10 +293,10 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         initFragment();
         mHandler.flush();
         var mainPref = (MainSwitchPreference) mPreferenceScreen.findPreference(
-                EXTERNAL_DISPLAY_USE_PREFERENCE_KEY);
+                PrefBasics.EXTERNAL_DISPLAY_USE.key);
         assertThat(mainPref).isNotNull();
         assertThat("" + mainPref.getTitle()).isEqualTo(
-                getText(EXTERNAL_DISPLAY_USE_TITLE_RESOURCE));
+                getText(PrefBasics.EXTERNAL_DISPLAY_USE.titleResource));
         assertThat(mainPref.isChecked()).isFalse();
         assertThat(mainPref.isEnabled()).isFalse();
         assertThat(mainPref.getOnPreferenceChangeListener()).isNull();
@@ -327,9 +313,9 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         var fragment = initFragment();
         mHandler.flush();
         var pref = fragment.getRotationPreference(mContext);
-        assertThat(pref.getKey()).isEqualTo(EXTERNAL_DISPLAY_ROTATION_KEY);
+        assertThat(pref.getKey()).isEqualTo(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat("" + pref.getTitle()).isEqualTo(
-                getText(EXTERNAL_DISPLAY_ROTATION_TITLE_RESOURCE));
+                getText(PrefBasics.EXTERNAL_DISPLAY_ROTATION.titleResource));
         assertThat(pref.getEntries().length).isEqualTo(4);
         assertThat(pref.getEntryValues().length).isEqualTo(4);
         assertThat(pref.getEntryValues()[0].toString()).isEqualTo("0");
@@ -359,9 +345,9 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         var fragment = initFragment();
         mHandler.flush();
         var pref = fragment.getResolutionPreference(mContext);
-        assertThat(pref.getKey()).isEqualTo(EXTERNAL_DISPLAY_RESOLUTION_PREFERENCE_KEY);
+        assertThat(pref.getKey()).isEqualTo(PrefBasics.EXTERNAL_DISPLAY_RESOLUTION.key);
         assertThat("" + pref.getTitle()).isEqualTo(
-                getText(EXTERNAL_DISPLAY_RESOLUTION_TITLE_RESOURCE));
+                getText(PrefBasics.EXTERNAL_DISPLAY_RESOLUTION.titleResource));
         assertThat("" + pref.getSummary()).isEqualTo("1920 x 1080");
         assertThat(pref.isEnabled()).isTrue();
         assertThat(pref.getOnPreferenceClickListener()).isNotNull();
@@ -378,8 +364,9 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         var fragment = initFragment();
         mHandler.flush();
         var pref = fragment.getSizePreference(mContext);
-        assertThat(pref.getKey()).isEqualTo(EXTERNAL_DISPLAY_SIZE_PREFERENCE_KEY);
-        assertThat("" + pref.getTitle()).isEqualTo(getText(EXTERNAL_DISPLAY_SIZE_TITLE_RESOURCE));
+        assertThat(pref.getKey()).isEqualTo(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
+        assertThat("" + pref.getTitle())
+                .isEqualTo(getText(PrefBasics.EXTERNAL_DISPLAY_SIZE.titleResource));
         assertThat("" + pref.getSummary())
                 .isEqualTo(getText(EXTERNAL_DISPLAY_SIZE_SUMMARY_RESOURCE));
         assertThat(pref.isEnabled()).isTrue();
@@ -398,8 +385,9 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         var fragment = initFragment();
         mHandler.flush();
         var pref = fragment.getUseDisplayPreference(mContext);
-        assertThat(pref.getKey()).isEqualTo(EXTERNAL_DISPLAY_USE_PREFERENCE_KEY);
-        assertThat("" + pref.getTitle()).isEqualTo(getText(EXTERNAL_DISPLAY_USE_TITLE_RESOURCE));
+        assertThat(pref.getKey()).isEqualTo(PrefBasics.EXTERNAL_DISPLAY_USE.key);
+        assertThat("" + pref.getTitle())
+                .isEqualTo(getText(PrefBasics.EXTERNAL_DISPLAY_USE.titleResource));
         assertThat(pref.isEnabled()).isTrue();
         assertThat(pref.isChecked()).isTrue();
         assertThat(pref.getOnPreferenceChangeListener()).isNotNull();

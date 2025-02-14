@@ -16,12 +16,14 @@
 
 package com.android.settings.display
 
+import android.app.settings.SettingsEnums.ACTION_AMBIENT_DISPLAY_ALWAYS_ON
 import android.content.Context
 import android.hardware.display.AmbientDisplayConfiguration
 import android.os.SystemProperties
 import android.os.UserHandle
 import android.os.UserManager
 import android.provider.Settings.Secure.DOZE_ALWAYS_ON
+import com.android.settings.PreferenceActionMetricsProvider
 import com.android.settings.PreferenceRestrictionMixin
 import com.android.settings.R
 import com.android.settings.contract.KEY_AMBIENT_DISPLAY_ALWAYS_ON
@@ -41,12 +43,18 @@ import com.android.settingslib.metadata.SwitchPreference
 // LINT.IfChange
 class AmbientDisplayAlwaysOnPreference :
     SwitchPreference(KEY, R.string.doze_always_on_title, R.string.doze_always_on_summary),
+    PreferenceActionMetricsProvider,
     PreferenceAvailabilityProvider,
     PreferenceSummaryProvider,
     PreferenceRestrictionMixin {
 
     override val keywords: Int
         get() = R.string.keywords_always_show_time_info
+
+    override val preferenceActionMetrics: Int
+        get() = ACTION_AMBIENT_DISPLAY_ALWAYS_ON
+
+    override fun tags(context: Context) = arrayOf(KEY_AMBIENT_DISPLAY_ALWAYS_ON)
 
     override val restrictionKeys: Array<String>
         get() = arrayOf(UserManager.DISALLOW_AMBIENT_DISPLAY)

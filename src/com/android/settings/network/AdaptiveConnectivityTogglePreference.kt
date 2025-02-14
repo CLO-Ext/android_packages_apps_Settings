@@ -16,10 +16,13 @@
 
 package com.android.settings.network
 
+import android.app.settings.SettingsEnums.ACTION_ADAPTIVE_CONNECTIVITY
 import android.content.Context
 import android.net.wifi.WifiManager
 import android.provider.Settings.Secure.ADAPTIVE_CONNECTIVITY_ENABLED
+import com.android.settings.PreferenceActionMetricsProvider
 import com.android.settings.R
+import com.android.settings.contract.KEY_ADAPTIVE_CONNECTIVITY
 import com.android.settingslib.datastore.KeyValueStore
 import com.android.settingslib.datastore.KeyedObservableDelegate
 import com.android.settingslib.datastore.SettingsSecureStore
@@ -31,7 +34,13 @@ import com.android.settingslib.metadata.SensitivityLevel
 
 // LINT.IfChange
 class AdaptiveConnectivityTogglePreference :
-    MainSwitchPreference(KEY, R.string.adaptive_connectivity_main_switch_title) {
+    MainSwitchPreference(KEY, R.string.adaptive_connectivity_main_switch_title),
+    PreferenceActionMetricsProvider {
+
+    override val preferenceActionMetrics: Int
+        get() = ACTION_ADAPTIVE_CONNECTIVITY
+
+    override fun tags(context: Context) = arrayOf(KEY_ADAPTIVE_CONNECTIVITY)
 
     override fun storage(context: Context): KeyValueStore =
         AdaptiveConnectivityToggleStorage(context, SettingsSecureStore.get(context))

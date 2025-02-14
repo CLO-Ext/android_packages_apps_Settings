@@ -26,7 +26,6 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
-import com.android.internal.telephony.flags.Flags;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.network.SubscriptionUtil;
 
@@ -60,9 +59,6 @@ public class CellularSecurityNotificationsDividerController extends
 
     @Override
     public int getAvailabilityStatus() {
-        if (!Flags.enableModemCipherTransparencyUnsolEvents()) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
         if (!isSafetyCenterSupported()) {
             return UNSUPPORTED_ON_DEVICE;
         }

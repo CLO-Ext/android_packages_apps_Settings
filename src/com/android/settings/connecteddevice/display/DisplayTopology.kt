@@ -159,8 +159,6 @@ class TopologyScale(
     }
 }
 
-const val TOPOLOGY_PREFERENCE_KEY = "display_topology_preference"
-
 /** Represents a draggable block in the topology pane. */
 class DisplayBlock(context : Context) : Button(context) {
     @VisibleForTesting var mSelectedImage: Drawable = ColorDrawable(Color.BLACK)
@@ -240,7 +238,6 @@ class DisplayTopologyPreference(context : Context)
         // Prevent highlight when hovering with mouse.
         isSelectable = false
 
-        key = TOPOLOGY_PREFERENCE_KEY
         isPersistent = false
 
         injector = Injector(context)
