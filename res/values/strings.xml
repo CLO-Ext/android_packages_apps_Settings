@@ -980,6 +980,8 @@
     <string name="security_settings_fingerprint">Fingerprint</string>
     <!-- Title shown for a category shown for fingerprint settings page. [CHAR LIMIT=22] -->
     <string name="security_settings_fingerprint_title">Fingerprints</string>
+    <!-- Description shown for fingerprint settings page. [CHAR LIMIT=22] -->
+    <string name="security_settings_fingerprint_description"></string>
     <!-- Fingerprint category title - fingerprint options for unlocking the device. [CHAR LIMIT=60] -->
     <string name="security_settings_category_use_fingerprint">Use fingerprint to</string>
     <!-- Title shown for menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
@@ -4800,6 +4802,11 @@
     <string name="input_setting_keys_custom_title">Custom</string>
     <!-- Option subtitle for the input setting keys threshold dialog for custom value. [CHAR LIMIT=35] -->
     <string name="input_setting_keys_custom_value">custom value</string>
+    <!-- Content description for the bounce key threshold dialog for custom value seekbar. [CHAR LIMIT=35] -->
+    <string name="input_setting_bounce_keys_seekbar_desc">Bounce key threshold time</string>
+    <!-- Content description for the slow key threshold dialog for custom value seekbar. [CHAR LIMIT=35] -->
+    <string name="input_setting_slow_keys_seekbar_desc">Slow key threshold time</string>
+
 
     <!-- Title for the 'Slow keys' preference switch. [CHAR LIMIT=35] -->
     <string name="slow_keys">Slow keys</string>
@@ -4835,17 +4842,17 @@
     <!-- page title for Mouse key main page. [CHAR LIMIT=NONE] -->
     <string name="mouse_key_main_page_title">Mouse keys for <xliff:g id="keyboard name" example="my keyboard">%s</xliff:g></string>
     <!-- Summary text for Mouse keys directional image. [CHAR LIMIT=NONE] -->
-    <string name="mouse_keys_directional_summary">Use the \“<xliff:g id="directional_label" example="7,8,9,u,o,j,k,l">%s</xliff:g>\” keys to move the mouse pointer</string>
+    <string name="mouse_keys_directional_summary">Use the \"<xliff:g id="directional_label" example="7,8,9,u,o,j,k,l">%s</xliff:g>\" keys to move the mouse pointer</string>
     <!-- Summary text for Mouse keys click image. [CHAR LIMIT=NONE] -->
-    <string name="mouse_keys_click_summary">Use the \“<xliff:g id="click_label" example="i">%s</xliff:g>\” key to click the primary mouse button</string>
+    <string name="mouse_keys_click_summary">Use the \"<xliff:g id="click_label" example="i">%s</xliff:g>\" key to click the primary mouse button</string>
     <!-- Summary text for Mouse keys press hold image. [CHAR LIMIT=NONE] -->
-    <string name="mouse_keys_press_hold_summary">Use the \“<xliff:g id="press_hold_label" example="m">%s</xliff:g>\” key to press &amp; hold the primary mouse button</string>
+    <string name="mouse_keys_press_hold_summary">Use the \"<xliff:g id="press_hold_label" example="m">%s</xliff:g>\" key to press &amp; hold the primary mouse button</string>
     <!-- Summary text for Mouse keys release image. [CHAR LIMIT=NONE] -->
-    <string name="mouse_keys_release_summary">Use the \“<xliff:g id="release_label" example=",">%s</xliff:g>\” key to release the primary mouse button</string>
+    <string name="mouse_keys_release_summary">Use the \"<xliff:g id="release_label" example=",">%s</xliff:g>\" key to release the primary mouse button</string>
     <!-- Summary text for Mouse keys toggle scroll image. [CHAR LIMIT=NONE] -->
-    <string name="mouse_keys_toggle_scroll_summary">Use the \“<xliff:g id="release_label_1" example=".">%1$s</xliff:g>\” key to toggle scroll mode. This will make the \“<xliff:g id="release_label_2" example="8, k, o, u">%2$s</xliff:g>\” keys scroll the view top, down, left or right</string>
+    <string name="mouse_keys_toggle_scroll_summary">Use the \"<xliff:g id="release_label_1" example=".">%1$s</xliff:g>\" key to toggle scroll mode. This will make the \"<xliff:g id="release_label_2" example="8, k, o, u">%2$s</xliff:g>\" keys scroll the view top, down, left or right</string>
     <!-- Summary text for Mouse keys click secondary button image. [CHAR LIMIT=NONE] -->
-    <string name="mouse_keys_release2_summary">Use the \“<xliff:g id="release_2_label" example="/">%s</xliff:g>\” key to click the secondary mouse button</string>
+    <string name="mouse_keys_release2_summary">Use the \"<xliff:g id="release_2_label" example="/">%s</xliff:g>\" key to click the secondary mouse button</string>
 
     <!-- Title for the button to trigger the 'keyboard shortcuts helper' dialog. [CHAR LIMIT=35] -->
     <string name="keyboard_shortcuts_helper">View keyboard shortcuts</string>
@@ -4865,7 +4872,7 @@
     <!-- Title for the button to trigger the 'mouse settings' page if connect with a mouse. [CHAR LIMIT=35] -->
     <string name="mouse_settings">Mouse</string>
     <!-- Summary text for mouse setting page. [CHAR LIMIT=35] -->
-    <string name="mouse_settings_summary">Pointer speed, swap buttons, button customisation</string>
+    <string name="mouse_settings_summary">Pointer speed, swap buttons, button customization</string>
     <!-- Summary text for the 'trackpad settings' page. [CHAR LIMIT=100] -->
     <string name="trackpad_settings_summary">Pointer speed, gestures</string>
 
@@ -4890,7 +4897,7 @@
     <!-- Title text for 'Pointer speed'. [CHAR LIMIT=35] -->
     <string name="trackpad_pointer_speed">Cursor speed</string>
     <!-- Title text for 'Three finger tap' touchpad preference. This preference allows the user to select an action that will trigger when they tap three fingers on a touchpad. [CHAR LIMIT=60] -->
-    <string name="three_finger_tap_preference_title">Customise 3-finger tap</string>
+    <string name="three_finger_tap_preference_title">Customize 3-finger tap</string>
     <!-- Title for the 'Touchpad acceleration' preference switch, which dynamically adjusts cursor movement based on speed. [CHAR LIMIT=60] -->
     <string name="touchpad_acceleration_title">Touchpad acceleration</string>
     <!-- Summary text for the 'Touchpad acceleration' preference switch indicating to users that when this switch is enabled, faster movements with your fingers will move the cursor farther. [CHAR LIMIT=NONE] -->
@@ -14149,6 +14156,10 @@
     <string name="audio_sharing_close_button_label">Close</string>
     <!-- Content for audio sharing share dialog with no device, ask users to connect device  [CHAR LIMIT=none]-->
     <string name="audio_sharing_dialog_connect_device_content">Connect another pair of compatible headphones, or share your stream\'s name and password with the other person</string>
+    <!-- Content for audio sharing share dialog with no device, ask users to scan qr code [CHAR LIMIT=none]-->
+    <string name="audio_sharing_dialog_qr_code_content">Let others scan this code and listen to your audio\n\nStream name: <xliff:g example="Pixel 8" id="stream_name">%1$s</xliff:g>\nPassword: <xliff:g example="123456" id="password">%2$s</xliff:g></string>
+    <!-- Content for audio sharing share dialog with no device, ask users to pair new device [CHAR LIMIT=none]-->
+    <string name="audio_sharing_dialog_pair_new_device_content">or pair another set of compatible headphones</string>
     <!-- Content for audio sharing share dialog with no device, ask users to pair device  [CHAR LIMIT=none]-->
     <string name="audio_sharing_dialog_pair_device_content">Pair another set of compatible headphones, or share your audio stream QR code with the other person</string>
     <!-- Text for sharing audio sharing state [CHAR LIMIT=none]-->
@@ -14257,7 +14268,7 @@
     <!-- The preference summary when add source succeed [CHAR LIMIT=NONE] -->
     <string name="audio_streams_listening_now">Listening now</string>
     <!-- The preference summary when source is present on sinks [CHAR LIMIT=NONE] -->
-    <string name="audio_streams_present_now">Paused by host</string>
+    <string name="audio_streams_present_now">Stream paused</string>
     <!-- Le audio streams service notification leave broadcast text [CHAR LIMIT=NONE] -->
     <string name="audio_streams_media_service_notification_leave_broadcast_text">Stop listening</string>
     <!-- Le audio streams no le device dialog title [CHAR LIMIT=NONE] -->
@@ -14312,7 +14323,7 @@
     <!-- Text for "device only" preference label in Contacts Storage Settings [CHAR LIMIT=34] -->
     <string name="contacts_storage_device_only_preference_label">Device only</string>
     <!-- Text for "device only" preference summary in Contacts Storage Settings [CHAR LIMIT=NONE] -->
-    <string name="contacts_storage_device_only_preference_summary">New contacts won\'t be synced with an account</string>
+    <string name="contacts_storage_device_only_preference_summary">Contacts may not sync or be available on your other devices</string>
     <!-- Text for explaining the selection in Contacts Storage Settings [CHAR LIMIT=NONE] -->
     <string name="contacts_storage_selection_message">Contacts will be saved to your device and synced to your account by default</string>
     <!-- Text for error toast when there's error setting the default account in Contacts Storage Settings [CHAR LIMIT=NONE] -->
