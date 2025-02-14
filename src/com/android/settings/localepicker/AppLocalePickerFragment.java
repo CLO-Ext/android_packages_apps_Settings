@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2024 The Android Open Source Project
+ * Copyright (C) 2025 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,10 +19,12 @@ package com.android.settings.localepicker;
 import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.LocaleList;
-import android.provider.Settings;
 import android.text.TextUtils;
+import android.util.FeatureFlagUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -36,18 +38,21 @@ import android.widget.SearchView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
+import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.android.internal.app.AppLocaleCollector;
 import com.android.internal.app.LocaleHelper;
 import com.android.internal.app.LocaleStore;
-import com.android.internal.app.SystemLocaleCollector;
 import com.android.settings.R;
+import com.android.settings.Utils;
+import com.android.settings.applications.AppLocaleUtil;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
-import com.android.settingslib.widget.TopIntroPreference;
 
 import com.google.android.material.appbar.AppBarLayout;
 
@@ -58,21 +63,25 @@ import java.util.Locale;
 import java.util.Set;
 
 /**
- * A locale picker fragment to show system languages.
+ * A locale picker fragment to show app languages.
  *
  * <p>It shows suggestions at the top, then the rest of the locales.
  * Allows the user to search for locales using both their native name and their name in the
  * default locale.</p>
  */
-public class SystemLocalePickerFragment extends DashboardFragment implements
+public class AppLocalePickerFragment extends DashboardFragment implements
         SearchView.OnQueryTextListener, MenuItem.OnActionExpandListener {
+    public static final String ARG_PACKAGE_NAME = "package";
+    public static final String ARG_PACKAGE_UID = "uid";
 
-    private static final String TAG = "SystemLocalePickerFragment";
+    private static final String TAG = "AppLocalePickerFragment";
     private static final String EXTRA_EXPAND_SEARCH_VIEW = "expand_search_view";
-    private static final String KEY_PREFERENCE_SYSTEM_LOCALE_LIST = "system_locale_list";
-    private static final String KEY_PREFERENCE_SYSTEM_LOCALE_SUGGESTED_LIST =
-            "system_locale_suggested_list";
-    private static final String KEY_TOP_INTRO_PREFERENCE = "top_intro_region";
+    private static final String KEY_PREFERENCE_APP_LOCALE_LIST = "app_locale_list";
+    private static final String KEY_PREFERENCE_APP_LOCALE_SUGGESTED_LIST =
+            "app_locale_suggested_list";
+    private static final String KEY_PREFERENCE_APP_DISCLAIMER = "app_locale_disclaimer";
+    private static final String KEY_PREFERENCE_APP_INTRO = "app_intro";
+    private static final String KEY_PREFERENCE_APP_DESCRIPTION = "app_locale_description";
 
     @Nullable
     private SearchView mSearchView = null;
@@ -83,38 +92,57 @@ public class SystemLocalePickerFragment extends DashboardFragment implements
     @Nullable
     private List<LocaleStore.LocaleInfo> mOriginalLocaleInfos;
     @Nullable
-    private SystemLocaleAllListPreferenceController mSystemLocaleAllListPreferenceController;
+    private LocaleStore.LocaleInfo mLocaleInfo;
     @Nullable
-    private SystemLocaleSuggestedListPreferenceController mSuggestedListPreferenceController;
+    private AppLocaleAllListPreferenceController mAppLocaleAllListPreferenceController;
+    @Nullable
+    private AppLocaleSuggestedListPreferenceController mSuggestedListPreferenceController;
     private AppBarLayout mAppBarLayout;
     private RecyclerView mRecyclerView;
-    private Activity mActivity;
+    private PreferenceScreen mPreferenceScreen;
     private boolean mExpandSearch;
+    private int mUid;
+    private Activity mActivity;
+    @SuppressWarnings("NullAway")
+    private String mPackageName;
+    @Nullable
+    private ApplicationInfo mApplicationInfo;
+    private boolean mIsNumberingMode;
 
     @Override
     public void onCreate(@NonNull Bundle icicle) {
         super.onCreate(icicle);
         mActivity = getActivity();
+
         if (mActivity.isFinishing()) {
             return;
         }
-        setHasOptionsMenu(true);
 
+        if (TextUtils.isEmpty(mPackageName)) {
+            Log.d(TAG, "There is no package name.");
+            return;
+        }
+
+        if (!canDisplayLocaleUi()) {
+            Log.w(TAG, "Not allow to display Locale Settings UI.");
+            return;
+        }
+
+        mPreferenceScreen = getPreferenceScreen();
+        setHasOptionsMenu(true);
+        mApplicationInfo = getApplicationInfo(mPackageName, mUid);
+        setupDisclaimerPreference();
+        setupIntroPreference();
+        setupDescriptionPreference();
         mExpandSearch = mActivity.getIntent().getBooleanExtra(EXTRA_EXPAND_SEARCH_VIEW, false);
         if (icicle != null) {
             mExpandSearch = icicle.getBoolean(EXTRA_EXPAND_SEARCH_VIEW);
         }
 
-        SystemLocaleCollector systemLocaleCollector = new SystemLocaleCollector(getContext(), null);
-        Set<LocaleStore.LocaleInfo> localeList = systemLocaleCollector.getSupportedLocaleList(null,
+        AppLocaleCollector appLocaleCollector = new AppLocaleCollector(mActivity, mPackageName);
+        Set<LocaleStore.LocaleInfo> localeList = appLocaleCollector.getSupportedLocaleList(null,
                 false, false);
         mLocaleOptions = new ArrayList<>(localeList.size());
-
-        TopIntroPreference topIntroPreference = findPreference(KEY_TOP_INTRO_PREFERENCE);
-        if (topIntroPreference != null) {
-            topIntroPreference.setVisible(false);
-        }
-
     }
 
     @Override
@@ -147,7 +175,7 @@ public class SystemLocalePickerFragment extends DashboardFragment implements
             searchMenuItem.setOnActionExpandListener(this);
             mSearchView = (SearchView) searchMenuItem.getActionView();
             mSearchView.setQueryHint(
-                    getContext().getResources().getText(R.string.search_language_hint));
+                    mActivity.getResources().getText(R.string.search_language_hint));
             mSearchView.setOnQueryTextListener(this);
             mSearchView.setMaxWidth(Integer.MAX_VALUE);
             if (mExpandSearch) {
@@ -156,8 +184,72 @@ public class SystemLocalePickerFragment extends DashboardFragment implements
         }
     }
 
+    private void setupDisclaimerPreference() {
+        final Preference pref = mPreferenceScreen.findPreference(KEY_PREFERENCE_APP_DISCLAIMER);
+        boolean shouldShowPref = pref != null && FeatureFlagUtils.isEnabled(
+                mActivity, FeatureFlagUtils.SETTINGS_APP_LOCALE_OPT_IN_ENABLED);
+        pref.setVisible(shouldShowPref);
+    }
+
+    private void setupIntroPreference() {
+        final Preference pref = mPreferenceScreen.findPreference(KEY_PREFERENCE_APP_INTRO);
+        if (pref != null && mApplicationInfo != null) {
+            pref.setIcon(Utils.getBadgedIcon(mActivity, mApplicationInfo));
+            pref.setTitle(mApplicationInfo.loadLabel(mActivity.getPackageManager()));
+        }
+    }
+
+    private void setupDescriptionPreference() {
+        final Preference pref = mPreferenceScreen.findPreference(
+                KEY_PREFERENCE_APP_DESCRIPTION);
+        int res = getAppDescription();
+        if (pref != null && res != -1) {
+            pref.setVisible(true);
+            pref.setTitle(mActivity.getString(res));
+        } else {
+            pref.setVisible(false);
+        }
+    }
+
+    private int getAppDescription() {
+        LocaleList packageLocaleList = AppLocaleUtil.getPackageLocales(mActivity, mPackageName);
+        String[] assetLocaleList = AppLocaleUtil.getAssetLocales(mActivity, mPackageName);
+        // TODO add appended url string, "Learn more", to these both sentences.
+        if ((packageLocaleList != null && packageLocaleList.isEmpty())
+                || (packageLocaleList == null && assetLocaleList.length == 0)) {
+            return R.string.desc_no_available_supported_locale;
+        }
+        return -1;
+    }
+
+    private @Nullable ApplicationInfo getApplicationInfo(String packageName, int userId) {
+        ApplicationInfo applicationInfo;
+        try {
+            applicationInfo = mActivity.getPackageManager()
+                    .getApplicationInfoAsUser(packageName, /* flags= */ 0, userId);
+            return applicationInfo;
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.w(TAG, "Application info not found for: " + packageName);
+            return null;
+        }
+    }
+
+    private boolean canDisplayLocaleUi() {
+        try {
+            PackageManager packageManager = getPackageManager();
+            return AppLocaleUtil.canDisplayLocaleUi(mActivity,
+                    packageManager.getApplicationInfo(mPackageName, 0),
+                    packageManager.queryIntentActivities(AppLocaleUtil.LAUNCHER_ENTRY_INTENT,
+                            PackageManager.GET_META_DATA));
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.e(TAG, "Unable to find info for package: " + mPackageName);
+        }
+
+        return false;
+    }
+
     private void filterSearch(@Nullable String query) {
-        if (mSystemLocaleAllListPreferenceController == null) {
+        if (mAppLocaleAllListPreferenceController == null) {
             Log.d(TAG, "filterSearch(), can not get preference.");
             return;
         }
@@ -166,7 +258,7 @@ public class SystemLocalePickerFragment extends DashboardFragment implements
             mSearchFilter = new SearchFilter();
         }
 
-        mOriginalLocaleInfos = mSystemLocaleAllListPreferenceController.getSupportedLocaleList();
+        mOriginalLocaleInfos = mAppLocaleAllListPreferenceController.getSupportedLocaleList();
         // If we haven't load apps list completely, don't filter anything.
         if (mOriginalLocaleInfos == null) {
             Log.w(TAG, "Locales haven't loaded completely yet, so nothing can be filtered");
@@ -218,7 +310,7 @@ public class SystemLocalePickerFragment extends DashboardFragment implements
 
         @Override
         protected void publishResults(CharSequence constraint, FilterResults results) {
-            if (mSystemLocaleAllListPreferenceController == null
+            if (mAppLocaleAllListPreferenceController == null
                     || mSuggestedListPreferenceController == null) {
                 Log.d(TAG, "publishResults(), can not get preference.");
                 return;
@@ -230,7 +322,7 @@ public class SystemLocalePickerFragment extends DashboardFragment implements
                 mRecyclerView.post(() -> mRecyclerView.scrollToPosition(0));
             }
 
-            mSystemLocaleAllListPreferenceController.onSearchListChanged(mLocaleOptions, null);
+            mAppLocaleAllListPreferenceController.onSearchListChanged(mLocaleOptions, null);
             mSuggestedListPreferenceController.onSearchListChanged(mLocaleOptions, null);
         }
 
@@ -285,12 +377,12 @@ public class SystemLocalePickerFragment extends DashboardFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return SettingsEnums.USER_LOCALE_LIST;
+        return SettingsEnums.APPS_LOCALE_LIST;
     }
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.system_language_picker;
+        return R.xml.app_language_picker;
     }
 
     @Override
@@ -300,33 +392,28 @@ public class SystemLocalePickerFragment extends DashboardFragment implements
 
     private List<AbstractPreferenceController> buildPreferenceControllers(
             @NonNull Context context) {
-        LocaleList explicitLocales = null;
-        if (isDeviceDemoMode()) {
-            Bundle bundle = getIntent().getExtras();
-            explicitLocales = bundle == null
-                    ? null
-                    : bundle.getParcelable(Settings.EXTRA_EXPLICIT_LOCALES, LocaleList.class);
-            Log.i(TAG, "Has explicit locales : " + explicitLocales);
-        }
+        Bundle args = getArguments();
+        mPackageName = args.getString(ARG_PACKAGE_NAME);
+        mUid = args.getInt(ARG_PACKAGE_UID);
+        mLocaleInfo = (LocaleStore.LocaleInfo) args.getSerializable(
+                RegionAndNumberingSystemPickerFragment.EXTRA_TARGET_LOCALE);
+        mIsNumberingMode = args.getBoolean(
+                RegionAndNumberingSystemPickerFragment.EXTRA_IS_NUMBERING_SYSTEM);
+
         mSuggestedListPreferenceController =
-                new SystemLocaleSuggestedListPreferenceController(context,
-                        KEY_PREFERENCE_SYSTEM_LOCALE_SUGGESTED_LIST);
-        mSystemLocaleAllListPreferenceController = new SystemLocaleAllListPreferenceController(
-                context, KEY_PREFERENCE_SYSTEM_LOCALE_LIST, explicitLocales);
+                new AppLocaleSuggestedListPreferenceController(context,
+                        KEY_PREFERENCE_APP_LOCALE_SUGGESTED_LIST, mPackageName, mIsNumberingMode,
+                        mLocaleInfo);
+        mAppLocaleAllListPreferenceController = new AppLocaleAllListPreferenceController(
+                context, KEY_PREFERENCE_APP_LOCALE_LIST, mPackageName, mIsNumberingMode,
+                mLocaleInfo);
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
-        mSuggestedListPreferenceController.setFragmentManager(getFragmentManager());
-        mSystemLocaleAllListPreferenceController.setFragmentManager(getFragmentManager());
         controllers.add(mSuggestedListPreferenceController);
-        controllers.add(mSystemLocaleAllListPreferenceController);
+        controllers.add(mAppLocaleAllListPreferenceController);
 
         return controllers;
     }
 
-    private boolean isDeviceDemoMode() {
-        return Settings.Global.getInt(
-                getContentResolver(), Settings.Global.DEVICE_DEMO_MODE, 0) == 1;
-    }
-
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.system_language_picker);
+            new BaseSearchIndexProvider(R.xml.app_language_picker);
 }
