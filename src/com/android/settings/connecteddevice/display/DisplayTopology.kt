@@ -334,12 +334,15 @@ class DisplayTopologyPreference(context : Context)
      * @param displayHeight height of display being dragged in actual (not View) coordinates
      * @param dragOffsetX difference between event rawX coordinate and X of the display in the pane
      * @param dragOffsetY difference between event rawY coordinate and Y of the display in the pane
+     * @param didMove true if we have detected the user intentionally wanted to drag rather than
+     *                just click
      */
     private data class BlockDrag(
             val stationaryDisps : List<Pair<Int, RectF>>,
             val display: DisplayBlock, val displayId: Int,
             val displayWidth: Float, val displayHeight: Float,
-            val dragOffsetX: Float, val dragOffsetY: Float)
+            val dragOffsetX: Float, val dragOffsetY: Float,
+            var didMove: Boolean = false)
 
     private var mTopologyInfo : TopologyInfo? = null
     private var mDrag : BlockDrag? = null
@@ -369,7 +372,7 @@ class DisplayTopologyPreference(context : Context)
         applyTopology(topology)
     }
 
-    @VisibleForTesting var mTimesReceivedSameTopology = 0
+    @VisibleForTesting var mTimesRefreshedBlocks = 0
 
     private fun applyTopology(topology: DisplayTopology) {
         mTopologyHint.text = context.getString(R.string.external_display_topology_hint)
@@ -386,7 +389,6 @@ class DisplayTopologyPreference(context : Context)
                 oldBounds.zip(newBounds).all { (old, new) ->
                     old.first == new.first && sameDisplayPosition(old.second, new.second)
                 }) {
-            mTimesReceivedSameTopology++
             return
         }
 
@@ -438,6 +440,7 @@ class DisplayTopologyPreference(context : Context)
             }
         }
         mPaneContent.removeViews(newBounds.size, recycleableBlocks.size)
+        mTimesRefreshedBlocks++
 
         mTopologyInfo = TopologyInfo(topology, scaling, newBounds)
 
@@ -481,6 +484,7 @@ class DisplayTopologyPreference(context : Context)
         val snapRect = clampPosition(drag.stationaryDisps.map { it.second }, dispDragRect)
 
         drag.display.place(topology.scaling.displayToPaneCoor(snapRect.left, snapRect.top))
+        drag.didMove = true
 
         return true
     }
@@ -491,6 +495,15 @@ class DisplayTopologyPreference(context : Context)
         mPaneContent.requestDisallowInterceptTouchEvent(false)
         drag.display.setHighlighted(false)
 
+        mDrag = null
+        if (!drag.didMove) {
+            // If no move event occurred, ignore the drag completely.
+            // TODO(b/352648432): Responding to a single move event no matter how small may be too
+            // sensitive. It is easy to slide by a small amount just by force of pressing down the
+            // mouse button. Keep an eye on this.
+            return true
+        }
+
         val newCoor = topology.scaling.paneToDisplayCoor(
                 drag.display.x, drag.display.y)
         val newTopology = topology.topology.copy()
@@ -499,9 +512,15 @@ class DisplayTopologyPreference(context : Context)
 
         val arr = hashMapOf(*newPositions.toTypedArray())
         newTopology.rearrange(arr)
+
+        // Setting mTopologyInfo to null forces applyTopology to skip the no-op drag check. This is
+        // necessary because we don't know if newTopology.rearrange has mutated the topology away
+        // from what the user has dragged into position.
+        mTopologyInfo = null
+        applyTopology(newTopology)
+
         injector.displayTopology = newTopology
 
-        refreshPane()
         return true
     }
 }

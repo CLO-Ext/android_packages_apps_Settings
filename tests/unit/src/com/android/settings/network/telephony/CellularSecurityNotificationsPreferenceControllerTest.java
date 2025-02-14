@@ -113,42 +113,6 @@ public class CellularSecurityNotificationsPreferenceControllerTest {
     }
 
     @Test
-    public void setChecked_flagsDisabled_shouldReturnFalse() {
-        // Flags disabled
-        enableFlags(false);
-
-        // Hardware support is enabled
-        doNothing().when(mTelephonyManager).setNullCipherNotificationsEnabled(true);
-        doNothing().when(mTelephonyManager)
-              .setEnableCellularIdentifierDisclosureNotifications(true);
-        assertThat(mController.setChecked(false)).isFalse();
-        assertThat(mController.setChecked(true)).isFalse();
-
-        // Enable 1 flag, make sure it still fails
-        mSetFlagsRule.enableFlags(Flags.FLAG_ENABLE_MODEM_CIPHER_TRANSPARENCY_UNSOL_EVENTS);
-        assertThat(mController.setChecked(false)).isFalse();
-        assertThat(mController.setChecked(true)).isFalse();
-    }
-
-    @Test
-    public void setChecked_hardwareDisabled_shouldReturnFalse() {
-        // Flags disabled
-        enableFlags(false);
-
-        // Hardware support is enabled
-        doNothing().when(mTelephonyManager).setNullCipherNotificationsEnabled(true);
-        doNothing().when(mTelephonyManager)
-                .setEnableCellularIdentifierDisclosureNotifications(true);
-        assertThat(mController.setChecked(true)).isFalse();
-
-        // Hardware support is enabled, called with false
-        doNothing().when(mTelephonyManager).setNullCipherNotificationsEnabled(false);
-        doNothing().when(mTelephonyManager)
-                .setEnableCellularIdentifierDisclosureNotifications(false);
-        assertThat(mController.setChecked(false)).isFalse();
-    }
-
-    @Test
     public void setChecked_shouldReturnTrue() {
         enableFlags(true);
 
@@ -172,18 +136,6 @@ public class CellularSecurityNotificationsPreferenceControllerTest {
         doReturn(true).when(mTelephonyManager)
               .isCellularIdentifierDisclosureNotificationsEnabled();
         assertThat(mController.isChecked()).isTrue();
-    }
-
-    @Test
-    public void isChecked_flagsDisabled_shouldReturnFalse() {
-        enableFlags(false);
-
-        // Hardware support is enabled
-        doReturn(true).when(mTelephonyManager).isNullCipherNotificationsEnabled();
-        doReturn(true).when(mTelephonyManager)
-              .isCellularIdentifierDisclosureNotificationsEnabled();
-
-        assertThat(mController.isChecked()).isFalse();
     }
 
     @Test

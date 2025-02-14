@@ -47,3 +47,42 @@ const val KEY_ADAPTIVE_BRIGHTNESS = "auto_brightness"
 
 /** Contract key for the "Screen attention" setting. */
 const val KEY_SCREEN_ATTENTION = "screen_attention"
+
+/** Contract key for the "Use adaptive connectivity" setting. */
+const val KEY_ADAPTIVE_CONNECTIVITY = "adaptive_connectivity"
+
+/** Contract key for the "WiFi hotspot" setting. */
+const val KEY_WIFI_HOTSPOT = "enable_wifi_ap"
+
+/** Contract key for the "Battery Gauge Slider" setting. */
+const val KEY_BATTERY_LEVEL = "battery_level"
+
+/** Contract key for the "Battery Percentage" setting. */
+const val KEY_BATTERY_PERCENTAGE = "battery_percentage"
+
+/** Contract key for the "Brightness level" setting. */
+const val KEY_BRIGHTNESS_LEVEL = "brightness_level"
+
+/** Contract key for the "Smooth display" setting. */
+const val KEY_SMOOTH_DISPLAY = "smooth_display"
+
+/** Contract key for the "Dark theme" setting. */
+const val KEY_DARK_THEME = "dark_theme"
+
+/** Contract key for the "Always show time and info" setting. */
+const val KEY_AMBIENT_DISPLAY_ALWAYS_ON = "ambient_display_always_on"
+
+/** Contract key for the "Use vibration & haptics" setting. */
+const val KEY_VIBRATION_HAPTICS = "vibration_haptics"
+
+/** Contract key for the "Media volume" setting. */
+const val KEY_MEDIA_VOLUME = "media_volume"
+
+/** Contract key for the "Call volume" setting. */
+const val KEY_CALL_VOLUME = "call_volume"
+
+/** Contract key for the "Ring volume" setting. */
+const val KEY_RING_VOLUME = "separate_ring_volume"
+
+/** Contract key for the "Remove animation" setting. */
+const val KEY_REMOVE_ANIMATION = "remove_animation"

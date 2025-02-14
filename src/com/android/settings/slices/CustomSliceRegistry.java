@@ -171,7 +171,7 @@ public class CustomSliceRegistry {
             .scheme(ContentResolver.SCHEME_CONTENT)
             .authority(SettingsSliceProvider.SLICE_AUTHORITY)
             .appendPath(SettingsSlicesContract.PATH_SETTING_ACTION)
-            .appendPath("call_volume")
+            .appendPath(SettingsContractKt.KEY_CALL_VOLUME)
             .build();
     /**
      * Full {@link Uri} for the Media Volume Slice.
@@ -180,7 +180,7 @@ public class CustomSliceRegistry {
             .scheme(ContentResolver.SCHEME_CONTENT)
             .authority(SettingsSliceProvider.SLICE_AUTHORITY)
             .appendPath(SettingsSlicesContract.PATH_SETTING_ACTION)
-            .appendPath("media_volume")
+            .appendPath(SettingsContractKt.KEY_MEDIA_VOLUME)
             .build();
 
     /**
@@ -190,7 +190,7 @@ public class CustomSliceRegistry {
             .scheme(ContentResolver.SCHEME_CONTENT)
             .authority(SettingsSliceProvider.SLICE_AUTHORITY)
             .appendPath(SettingsSlicesContract.PATH_SETTING_ACTION)
-            .appendPath("separate_ring_volume")
+            .appendPath(SettingsContractKt.KEY_RING_VOLUME)
             .build();
 
     /**
@@ -268,7 +268,7 @@ public class CustomSliceRegistry {
             .scheme(ContentResolver.SCHEME_CONTENT)
             .authority(SettingsSliceProvider.SLICE_AUTHORITY)
             .appendPath(SettingsSlicesContract.PATH_SETTING_ACTION)
-            .appendPath("dark_theme")
+            .appendPath(SettingsContractKt.KEY_DARK_THEME)
             .build();
 
     /**

@@ -24,6 +24,7 @@ import android.os.UserManager
 import android.provider.Settings.Secure.DOZE_ALWAYS_ON
 import com.android.settings.PreferenceRestrictionMixin
 import com.android.settings.R
+import com.android.settings.contract.KEY_AMBIENT_DISPLAY_ALWAYS_ON
 import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController.isAodSuppressedByBedtime
 import com.android.settingslib.datastore.AbstractKeyedDataObservable
 import com.android.settingslib.datastore.HandlerExecutor
@@ -123,7 +124,7 @@ class AmbientDisplayAlwaysOnPreference :
     }
 
     companion object {
-        const val KEY = "ambient_display_always_on"
+        const val KEY = KEY_AMBIENT_DISPLAY_ALWAYS_ON
         private const val PROP_AWARE_AVAILABLE = "ro.vendor.aware_available"
     }
 }
