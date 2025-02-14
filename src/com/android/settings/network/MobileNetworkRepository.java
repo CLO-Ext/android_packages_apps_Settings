@@ -30,7 +30,6 @@ import android.telephony.TelephonyCallback;
 import android.telephony.TelephonyManager;
 import android.telephony.UiccSlotInfo;
 import android.util.ArrayMap;
-import android.util.IndentingPrintWriter;
 import android.util.Log;
 
 import androidx.annotation.GuardedBy;
@@ -597,16 +596,5 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
 
         default void onAnyOngoingCallOnDevice(boolean isAnyCallOngoing) {
         }
-    }
-
-    public void dump(IndentingPrintWriter printwriter) {
-        printwriter.println(TAG + ": ");
-        printwriter.increaseIndent();
-        printwriter.println(" availableSubInfoEntityList= " + mAvailableSubInfoEntityList);
-        printwriter.println(" activeSubInfoEntityList=" + mActiveSubInfoEntityList);
-        printwriter.println(" CacheSubscriptionInfoEntityMap= " + sCacheSubscriptionInfoEntityMap);
-        printwriter.println(" SubscriptionInfoMap= " + mSubscriptionInfoMap);
-        printwriter.flush();
-        printwriter.decreaseIndent();
     }
 }
