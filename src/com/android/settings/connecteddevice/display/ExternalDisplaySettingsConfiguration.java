@@ -342,7 +342,8 @@ public class ExternalDisplaySettingsConfiguration {
     }
 
     static boolean isUseDisplaySettingEnabled(@Nullable Injector injector) {
-        return injector != null && injector.getFlags().resolutionAndEnableConnectedDisplaySetting();
+        return injector != null && injector.getFlags().resolutionAndEnableConnectedDisplaySetting()
+                && !injector.getFlags().displayTopologyPaneInDisplayList();
     }
 
     static boolean isResolutionSettingEnabled(@Nullable Injector injector) {
@@ -351,5 +352,9 @@ public class ExternalDisplaySettingsConfiguration {
 
     static boolean isRotationSettingEnabled(@Nullable Injector injector) {
         return injector != null && injector.getFlags().rotationConnectedDisplaySetting();
+    }
+
+    static boolean isDisplaySizeSettingEnabled(@Nullable Injector injector) {
+        return injector != null && injector.getFlags().displaySizeConnectedDisplaySetting();
     }
 }
