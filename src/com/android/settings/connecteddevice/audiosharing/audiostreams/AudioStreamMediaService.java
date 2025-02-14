@@ -36,6 +36,7 @@ import android.media.session.PlaybackState;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
+import android.view.KeyEvent;
 
 import androidx.annotation.IntRange;
 import androidx.annotation.NonNull;
@@ -432,6 +433,25 @@ public class AudioStreamMediaService extends Service {
     }
 
     private class MediaSessionCallback extends MediaSession.Callback {
+        @Override
+        public boolean onMediaButtonEvent(@NonNull Intent mediaButtonIntent) {
+            KeyEvent keyEvent = mediaButtonIntent.getParcelableExtra(Intent.EXTRA_KEY_EVENT);
+            if (keyEvent != null) {
+                Log.d(TAG, "onMediaButtonEvent(): triggered by MediaSessionCallback");
+                switch (keyEvent.getKeyCode()) {
+                    case KeyEvent.KEYCODE_MEDIA_PLAY:
+                        handleOnPlay();
+                        break;
+                    case KeyEvent.KEYCODE_MEDIA_PAUSE:
+                        handleOnPause();
+                        break;
+                    default: // fall out
+                }
+            }
+            return super.onMediaButtonEvent(mediaButtonIntent);
+        }
+
+        @Override
         public void onSeekTo(long pos) {
             Log.d(TAG, "onSeekTo: " + pos);
             synchronized (mLocalSessionLock) {
@@ -443,29 +463,12 @@ public class AudioStreamMediaService extends Service {
 
         @Override
         public void onPause() {
-            if (mDevices == null || mDevices.isEmpty()) {
-                Log.w(TAG, "active device or device has source is null!");
-                return;
-            }
-            Log.d(
-                    TAG,
-                    "onPause() setting volume for device : " + mDevices.get(0) + " volume: " + 0);
-            setDeviceVolume(mDevices.get(0), /* volume= */ 0);
+            handleOnPause();
         }
 
         @Override
         public void onPlay() {
-            if (mDevices == null || mDevices.isEmpty()) {
-                Log.w(TAG, "active device or device has source is null!");
-                return;
-            }
-            Log.d(
-                    TAG,
-                    "onPlay() setting volume for device : "
-                            + mDevices.get(0)
-                            + " volume: "
-                            + mLatestPositiveVolume.get());
-            setDeviceVolume(mDevices.get(0), mLatestPositiveVolume.get());
+            handleOnPlay();
         }
 
         @Override
@@ -478,18 +481,43 @@ public class AudioStreamMediaService extends Service {
                         SettingsEnums.ACTION_AUDIO_STREAM_NOTIFICATION_LEAVE_BUTTON_CLICK);
             }
         }
+    }
 
-        private void setDeviceVolume(BluetoothDevice device, int volume) {
-            int event = SettingsEnums.ACTION_AUDIO_STREAM_NOTIFICATION_MUTE_BUTTON_CLICK;
-            var unused =
-                    ThreadUtils.postOnBackgroundThread(
-                            () -> {
-                                if (mVolumeControl != null) {
-                                    mVolumeControl.setDeviceVolume(device, volume, true);
-                                    mMetricsFeatureProvider.action(
-                                            getApplicationContext(), event, volume == 0 ? 1 : 0);
-                                }
-                            });
+    private void handleOnPlay() {
+        if (mDevices == null || mDevices.isEmpty()) {
+            Log.w(TAG, "active device or device has source is null!");
+            return;
         }
+        Log.d(
+                TAG,
+                "onPlay() setting volume for device : "
+                        + mDevices.getFirst()
+                        + " volume: "
+                        + mLatestPositiveVolume.get());
+        setDeviceVolume(mDevices.getFirst(), mLatestPositiveVolume.get());
+    }
+
+    private void handleOnPause() {
+        if (mDevices == null || mDevices.isEmpty()) {
+            Log.w(TAG, "active device or device has source is null!");
+            return;
+        }
+        Log.d(
+                TAG,
+                "onPause() setting volume for device : " + mDevices.getFirst() + " volume: " + 0);
+        setDeviceVolume(mDevices.getFirst(), /* volume= */ 0);
+    }
+
+    private void setDeviceVolume(BluetoothDevice device, int volume) {
+        int event = SettingsEnums.ACTION_AUDIO_STREAM_NOTIFICATION_MUTE_BUTTON_CLICK;
+        var unused =
+                ThreadUtils.postOnBackgroundThread(
+                        () -> {
+                            if (mVolumeControl != null) {
+                                mVolumeControl.setDeviceVolume(device, volume, true);
+                                mMetricsFeatureProvider.action(
+                                        getApplicationContext(), event, volume == 0 ? 1 : 0);
+                            }
+                        });
     }
 }

@@ -37,9 +37,7 @@ import com.android.settingslib.widget.UsageProgressBarPreference
 
 // LINT.IfChange
 class BatteryHeaderPreference :
-    IntRangeValuePreference,
-    PreferenceBinding,
-    PreferenceLifecycleProvider {
+    IntRangeValuePreference, PreferenceBinding, PreferenceLifecycleProvider {
 
     @VisibleForTesting var batteryBroadcastReceiver: BatteryBroadcastReceiver? = null
 
@@ -108,7 +106,7 @@ class BatteryHeaderPreference :
 
     override fun getWritePermissions(context: Context) = Permissions.EMPTY
 
-    override fun getWritePermit(context: Context, value: Int?, callingPid: Int, callingUid: Int) =
+    override fun getWritePermit(context: Context, callingPid: Int, callingUid: Int) =
         ReadWritePermit.DISALLOW
 
     override val sensitivityLevel: Int

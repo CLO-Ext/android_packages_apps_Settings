@@ -15,7 +15,6 @@
  */
 package com.android.settings.display
 
-import android.Manifest
 import android.app.ActivityOptions
 import android.content.Context
 import android.content.Intent
@@ -111,7 +110,7 @@ class BrightnessLevelPreference :
     override fun getReadPermit(context: Context, callingPid: Int, callingUid: Int) =
         ReadWritePermit.ALLOW
 
-    override fun getWritePermit(context: Context, value: Int?, callingPid: Int, callingUid: Int) =
+    override fun getWritePermit(context: Context, callingPid: Int, callingUid: Int) =
         ReadWritePermit.DISALLOW
 
     override val sensitivityLevel
