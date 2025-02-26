@@ -10908,7 +10908,7 @@
     <string name="apps_summary"><xliff:g id="count" example="24">%1$d</xliff:g> apps installed</string>
 
     <!-- Summary of storage usage [CHAR LIMIT=NONE] -->
-    <string name="storage_summary"><xliff:g id="percentage" example="54%">%1$s</xliff:g> used - <xliff:g id="free_space" example="32GB">%2$s</xliff:g> free</string>
+    <string name="storage_summary"><xliff:g id="percentage" example="54%">%1$s</xliff:g> used - <xliff:g id="free_space_value" example="32">%2$s</xliff:g> <xliff:g id="free_space_units" example="GB">%3$s</xliff:g> free</string>
 
     <!-- Summary for Display settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="display_dashboard_summary">Dark theme, font size, brightness</string>
@@ -11102,6 +11102,9 @@
 
     <!-- Label for section about ethernet in data usage screen [CHAR LIMIT=60] -->
     <string name="ethernet">Ethernet</string>
+
+    <!-- Label for ethernet interface sub rows -->
+    <string name="ethernet_interface_title">Ethernet <xliff:g id="interfaceid">%1$s</xliff:g></string>
 
     <!-- Format string for amount of cellular data used [CHAR LIMIT=30] -->
     <string name="cell_data_template"><xliff:g id="amount" example="1 GB">^1</xliff:g> mobile data</string>
@@ -14276,6 +14279,8 @@
     <string name="audio_sharing_block_pairing_dialog_content">To pair a new device, turn off Audio Sharing first.</string>
     <!-- Text for audio sharing turn off button [CHAR LIMIT=none]-->
     <string name="audio_sharing_turn_off_button_label">Turn off</string>
+    <!-- Title for audio sharing notification to share audio with headset [CHAR LIMIT=none]-->
+    <string name="share_audio_notification_title">Share audio with <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
 
     <!-- Title for audio streams preference category [CHAR LIMIT=none]-->
     <string name="audio_streams_category_title">Connect to a LE audio stream</string>

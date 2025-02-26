@@ -33,13 +33,14 @@ import java.util.concurrent.Executor
 class EthernetSwitchPreferenceController(context: Context, private val lifecycle: Lifecycle) :
     AbstractPreferenceController(context),
     LifecycleEventObserver,
-    EthernetInterfaceTracker.EthernetInterfaceTrackerListener {
+    EthernetTracker.EthernetInterfaceTrackerListener {
 
     private val ethernetManager: EthernetManager? =
         context.getSystemService(EthernetManager::class.java)
     private var preference: RestrictedSwitchPreference? = null
     private val executor = ContextCompat.getMainExecutor(context)
-    private val ethernetInterfaceTracker = EthernetInterfaceTracker.getInstance(context)
+    private val ethernetTracker =
+        EthernetTrackerImpl.getInstance(context)
 
     init {
         lifecycle.addObserver(this)
@@ -50,7 +51,7 @@ class EthernetSwitchPreferenceController(context: Context, private val lifecycle
     }
 
     override fun isAvailable(): Boolean {
-        return (Flags.ethernetSettings() && ethernetInterfaceTracker.availableInterfaces.size > 0)
+        return (Flags.ethernetSettings() && ethernetTracker.availableInterfaces.size > 0)
     }
 
     override fun displayPreference(screen: PreferenceScreen) {
@@ -63,12 +64,12 @@ class EthernetSwitchPreferenceController(context: Context, private val lifecycle
         when (event) {
             Lifecycle.Event.ON_START -> {
                 ethernetManager?.addEthernetStateListener(executor, this::onEthernetStateChanged)
-                ethernetInterfaceTracker.registerInterfaceListener(this)
+                ethernetTracker.registerInterfaceListener(this)
             }
 
             Lifecycle.Event.ON_STOP -> {
                 ethernetManager?.removeEthernetStateListener(this::onEthernetStateChanged)
-                ethernetInterfaceTracker.unregisterInterfaceListener(this)
+                ethernetTracker.unregisterInterfaceListener(this)
             }
 
             else -> {}

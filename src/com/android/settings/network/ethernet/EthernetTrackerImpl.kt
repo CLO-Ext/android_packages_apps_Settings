@@ -21,35 +21,40 @@ import android.net.EthernetManager
 import android.net.IpConfiguration
 import androidx.core.content.ContextCompat
 
-class EthernetInterfaceTracker private constructor(private val context: Context) :
-    EthernetManager.InterfaceStateListener {
-    interface EthernetInterfaceTrackerListener {
-        fun onInterfaceListChanged(ethernetInterfaces: List<EthernetInterface>)
-    }
+class EthernetTrackerImpl
+private constructor(private val context: Context) :
+    EthernetManager.InterfaceStateListener, EthernetTracker {
+
+    private val TAG = "EthernetTracker"
 
     private val ethernetManager: EthernetManager? =
-        context.applicationContext.getSystemService(EthernetManager::class.java)
-    private val TAG = "EthernetInterfaceTracker"
+        context.getSystemService(EthernetManager::class.java)
 
     // Maps ethernet interface identifier to EthernetInterface object
     private val ethernetInterfaces = mutableMapOf<String, EthernetInterface>()
-    private val interfaceListeners = mutableListOf<EthernetInterfaceTrackerListener>()
+    private val interfaceListeners =
+        mutableListOf<EthernetTracker.EthernetInterfaceTrackerListener>()
 
-    fun getInterface(id: String): EthernetInterface? {
+    override fun getInterface(id: String): EthernetInterface? {
         return ethernetInterfaces.get(id)
     }
 
-    val availableInterfaces: Collection<EthernetInterface>
+    override val availableInterfaces: Collection<EthernetInterface>
         get() = ethernetInterfaces.values
 
-    fun registerInterfaceListener(listener: EthernetInterfaceTrackerListener) {
+    override fun registerInterfaceListener(
+        listener: EthernetTracker.EthernetInterfaceTrackerListener
+    ) {
         if (interfaceListeners.isEmpty()) {
             ethernetManager?.addInterfaceStateListener(ContextCompat.getMainExecutor(context), this)
         }
         interfaceListeners.add(listener)
+        listener.onInterfaceListChanged(ethernetInterfaces.values.toList())
     }
 
-    fun unregisterInterfaceListener(listener: EthernetInterfaceTrackerListener) {
+    override fun unregisterInterfaceListener(
+        listener: EthernetTracker.EthernetInterfaceTrackerListener
+    ) {
         interfaceListeners.remove(listener)
         if (interfaceListeners.isEmpty()) {
             ethernetManager?.removeInterfaceStateListener(this)
@@ -73,12 +78,16 @@ class EthernetInterfaceTracker private constructor(private val context: Context)
     }
 
     companion object {
-        @Volatile private var INSTANCE: EthernetInterfaceTracker? = null
+        @Volatile private var INSTANCE: EthernetTrackerImpl? = null
 
-        fun getInstance(context: Context): EthernetInterfaceTracker {
+        @JvmStatic
+        fun getInstance(
+            context: Context
+        ): EthernetTrackerImpl {
             return INSTANCE
                 ?: synchronized(this) {
-                    val instance = EthernetInterfaceTracker(context.applicationContext)
+                    val instance =
+                        EthernetTrackerImpl(context.applicationContext)
                     INSTANCE = instance
                     instance
                 }
