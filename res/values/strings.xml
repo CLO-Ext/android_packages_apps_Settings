@@ -14335,6 +14335,12 @@
     <string name="audio_streams_media_service_notification_leave_broadcast_text">Stop listening</string>
     <!-- Le audio streams no le device dialog title [CHAR LIMIT=NONE] -->
     <string name="audio_streams_dialog_no_le_device_title">Connect compatible headphones</string>
+    <!-- Le audio streams turn off talkback dialog title [CHAR LIMIT=NONE] -->
+    <string name="audio_streams_dialog_turn_off_talkback_title">Turn off Talkback temporarily</string>
+    <!-- Le audio streams turn off talkback dialog subtitle [CHAR LIMIT=NONE] -->
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle">Talkback cannot be used when listening to audio streams. Turn off talkback to start listening.</string>
+    <!-- Le audio streams turn off talkback dialog button [CHAR LIMIT=NONE] -->
+    <string name="audio_streams_dialog_turn_off_talkback_button">Turn off</string>
     <!-- Le audio streams no le device dialog button [CHAR LIMIT=NONE] -->
     <string name="audio_streams_dialog_no_le_device_button">Connect a device</string>
     <!-- Le audio streams detail page title [CHAR LIMIT=NONE] -->

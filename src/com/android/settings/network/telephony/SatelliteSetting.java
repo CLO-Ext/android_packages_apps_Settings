@@ -50,7 +50,6 @@ import androidx.annotation.Nullable;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 
-import com.android.internal.telephony.flags.Flags;
 import com.android.settings.R;
 import com.android.settings.dashboard.RestrictedDashboardFragment;
 import com.android.settingslib.HelpUtils;
@@ -102,14 +101,6 @@ public class SatelliteSetting extends RestrictedDashboardFragment {
     @Override
     public void onCreate(@NonNull Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        // In case carrier roaming satellite is not supported, do nothing.
-        if (!Flags.carrierEnabledSatelliteFlag()) {
-            Log.d(TAG, "SatelliteSettings: satellite feature is not supported, do nothing.");
-            finish();
-            return;
-        }
-
         mActivity = getActivity();
 
         mSatelliteManager = mActivity.getSystemService(SatelliteManager.class);

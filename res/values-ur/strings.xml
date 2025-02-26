@@ -41,6 +41,10 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"معطل شدہ"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"نامعلوم"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"پیش منظر"</string>
+    <!-- no translation found for preview_pager_previous_button (607771113300838313) -->
+    <skip />
+    <!-- no translation found for preview_pager_next_button (8700907912508927271) -->
+    <skip />
     <string name="qr_code_content_description" msgid="1852208464419291347">"‏‫QR کوڈ"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"چھوٹا کریں"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"بڑا کریں"</string>
@@ -140,7 +144,6 @@
     <string name="bluetooth_bypass_leaudio_allowlist" msgid="7392319491894565552">"‏بلوٹوتھ LE آڈیو کی اجازت یافتہ فہرست کو بائی پاس کریں"</string>
     <string name="bluetooth_bypass_leaudio_allowlist_summary" msgid="8999245286359656738">"‏اجازت یافتہ کی فہرست کے معیار کو پورا کرنے کے لیے LE آڈیو پیریفرل کی تصدیق کے نہ ہونے کے باوجود LE آڈیو کو بطور ڈیفالٹ استعمال کریں۔"</string>
     <string name="connected_device_media_device_title" msgid="3783388247594566734">"میڈیا آلات"</string>
-    <string name="connected_device_temp_bond_device_title" msgid="1141199848329262106">"مہمان آلات"</string>
     <string name="connected_device_call_device_title" msgid="88732390601723608">"کال آلات"</string>
     <string name="connected_device_other_device_title" msgid="4652120430615729193">"دیگر آلات"</string>
     <string name="connected_device_saved_title" msgid="5607274378851905959">"محفوظ کردہ آلات"</string>
@@ -228,9 +231,12 @@
     <string name="search_region_hint" msgid="1748708432568237552">"علاقے تلاش کریں"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"آپ جو علاقہ منتخب کرتے ہیں اس پر اثر انداز ہوتا ہے کہ آپ کا فون کیسے وقت، تاریخیں، درجہ حرارت اور مزید کو ڈسپلے کرتا ہے"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"زبان کی مزید ترتیبات"</string>
-    <string name="title_change_system_locale_region" msgid="2239197787972916177">"‏علاقہ کو ‎%s میں تبدیل کریں؟"</string>
-    <string name="body_change_system_locale_region" msgid="2706171830649357930">"‏آپ کا آلہ ‎%s کو سسٹم کی زبان کے طور پر برقرار رکھے گا"</string>
-    <string name="top_intro_numbering_system_title" msgid="3560237920807539566">"استعمال شدہ ہندسوں کا انحصار نمبر دینے کے نظام پر ہوگا"</string>
+    <!-- no translation found for title_change_system_locale_region (1977530992614685128) -->
+    <skip />
+    <!-- no translation found for body_change_system_locale_region (9064318449821043189) -->
+    <skip />
+    <!-- no translation found for top_intro_numbering_system_title (8234587334207926397) -->
+    <skip />
     <string name="regional_preferences_title" msgid="4304567374498629528">"علاقائی ترجیحات"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"یونٹس اور نمبر کی ترجیحات سیٹ کریں"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"ایپس کو اپنی علاقائی ترجیحات کو جاننے کی اجازت دیں تاکہ وہ آپ کے تجربے کو ذاتی نوعیت کا بنا سکیں۔"</string>
@@ -754,8 +760,7 @@
     <string name="lock_settings_picker_admin_restricted_personal_message" msgid="3532653662159888328">"‏اگر آپ اپنا اسکرین لاک بھول جاتے ہیں تو آپ کا IT منتظم اسے ری سیٹ نہیں کر سکتا۔"</string>
     <string name="lock_settings_picker_admin_restricted_personal_message_action" msgid="5956615234246626264">"علیحدہ دفتری لاک سیٹ کریں"</string>
     <string name="lock_settings_picker_profile_message" msgid="9142379549980873478">"‏اس لاک کو بھول جانے پر اسے ری سیٹ کرنے کے لئے اپنے IT منتظم سے کہیں"</string>
-    <!-- no translation found for lock_settings_screen_lock_settings_title (738577630596146754) -->
-    <skip />
+    <string name="lock_settings_screen_lock_settings_title" msgid="738577630596146754">"اسکرین لاک کی ترتیبات"</string>
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"اسکرین لاک کے اختیارات"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"اسکرین لاک کے اختیارات"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"خودکار توثیق غیر مقفل کریں"</string>
@@ -1279,6 +1284,12 @@
     <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="8102786488994263815">"ایمرجنسی پتہ"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"‏جب آپ Wi-Fi سے ایمرجنسی کال کرتے ہیں، تو آپ کے مقام کے طور پر استعمال ہوتا ہے"</string>
+    <!-- no translation found for private_dns_title (1180823690693258572) -->
+    <skip />
+    <!-- no translation found for private_dns_field_require (2318400923953435586) -->
+    <skip />
+    <!-- no translation found for private_dns_hostname_invalid (5085498734835552780) -->
+    <skip />
     <string name="private_dns_help_message" msgid="851221502063782306">"‏نجی DNS کی خصوصیات کے بارے میں "<annotation id="url">"مزید جانیں"</annotation></string>
     <string name="private_dns_mode_on" msgid="8878679071975375696">"آن"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"‏Wi-Fi کالنگ فعال کریں"</string>
@@ -1676,8 +1687,7 @@
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"‏USB ٹیدرنگ"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"بلوٹوتھ ٹیدرنگ"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"ایتھرنیٹ ٹیدرنگ"</string>
-    <!-- no translation found for tethering_footer_info (6824352505979800594) -->
-    <skip />
+    <string name="tethering_footer_info" msgid="6824352505979800594">"اپنے ڈیٹا کنکشن کے ذریعے دیگر آلات کو انٹرنیٹ فراہم کرنے کیلئے ہاٹ اسپاٹ اور ٹیدرنگ کا استعمال کریں۔ ایپس بھی قریبی آلات کے ساتھ مواد کا اشتراک کرنے کیلئے ایک ہاٹ اسپاٹ تخلیق کر سکتی ہیں۔"</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"‏اپنے Wi‑Fi یا موبائل ڈیٹا کنکشن کے ذریعے دیگر آلات کو انٹرنیٹ فراہم کرنے کے لیے ہاٹ اسپاٹ اور ٹیدرنگ کا استعمال کریں۔ ایپس بھی قریبی آلات کے ساتھ مواد کا اشتراک کرنے کے لیے ایک ہاٹ اسپاٹ تخلیق کر سکتی ہیں۔"</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"مدد"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"موبائل نیٹ ورک"</string>
@@ -2484,6 +2494,10 @@
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"جاری رکھیں"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"سماعتی آلات"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"‏ASHA اور LE آڈیو سماعتی آلات، کوکلیئر امپلانٹس اور دیگر ایمپلیفیکیشن آلات سیٹ اپ اور ان کا نظم کریں"</string>
+    <!-- no translation found for accessibility_hearingaid_asha_only_intro (7402419984664822832) -->
+    <skip />
+    <!-- no translation found for accessibility_hearingaid_hap_only_intro (3332144138443825311) -->
+    <skip />
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"کوئی سماعت کا آلہ منسلک نہیں ہے"</string>
     <string name="accessibility_hearingaid_adding_summary" msgid="999051610528600783">"سماعتی آلات شامل کریں"</string>
     <string name="accessibility_hearingaid_pair_instructions_title" msgid="2357706801112207624">"سماعتی آلات کا جوڑا بنائیں"</string>
@@ -2503,6 +2517,14 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"آلات کو سننے کے بارے میں"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"‏ایسے دیگر آلات سماعت تلاش کرنے کے لیے جو ASHA یا LE آڈیو سے تعاون یافتہ نہیں ہیں، ‎&lt;b&gt;‎نئے آلے کا جوڑا بنائیں‎&lt;/b&gt; &gt; &lt;b&gt;‎مزید آلات دیکھیں‎&lt;/b&gt;‎ پر تھتھپائیں"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"‏ایسے دیگر آلات سماعت تلاش کرنے کیلئے جو ASHA یا LE آڈیو سے تعاون یافتہ نہیں ہیں، "<b>"نئے آلے کا جوڑا بنائیں"</b>" پھر "<b>"مزید آلات دیکھیں"</b>" پر تھپتھپائیں"</string>
+    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary (3377169209330540616) -->
+    <skip />
+    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary_tts (8192971114504608531) -->
+    <skip />
+    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary (3531758698830915205) -->
+    <skip />
+    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary_tts (4440097982533045507) -->
+    <skip />
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"سماعتی آلہ کا جوڑا بنائیں"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"‏آپ اس صفحہ پر ASHA اور LE آڈیو سماعت کے آلات کا جوڑا بنا سکتے ہیں۔ یقینی بنائیں کہ آپ کا سماعتی آلہ آن ہے اور جوڑا بنانے کے لیے تیار ہے۔"</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"دستیاب سماعتی آلات"</string>
@@ -4218,8 +4240,7 @@
     <string name="high_power_off" msgid="317000444619279018">"بیٹری استعمال کو بہترین بنا رہی ہے"</string>
     <string name="high_power_system" msgid="3966701453644915787">"بیٹری بہترین بنانا دستیاب نہیں ہے"</string>
     <string name="high_power_prompt_title" msgid="2574478825228409124">"ایپ کو ہمیشہ پس منظر میں چلنے دیں؟"</string>
-    <!-- no translation found for high_power_prompt_body (8570446878622133298) -->
-    <skip />
+    <string name="high_power_prompt_body" msgid="8570446878622133298">"‫<xliff:g id="APP_NAME">%1$s</xliff:g> کو پس منظر میں ہمیشہ چلنے کی اجازت دینے سے بیٹری لائف کم ہو سکتی ہے۔ \n\nآپ بعد میں ترتیبات اور ایپس میں جا کر اسے تبدیل کر سکتے ہیں۔"</string>
     <string name="battery_summary" msgid="2491764359695671207">"پچھلے مکمل چارج کے بعد سے <xliff:g id="PERCENTAGE">%1$s</xliff:g> استعمال"</string>
     <string name="battery_summary_24hr" msgid="7656033283282656551">"گزشتہ 24 گھنٹے میں <xliff:g id="PERCENTAGE">%1$s</xliff:g> کا استعمال"</string>
     <string name="no_battery_summary" msgid="5769159953384122003">"پچھلے مکمل چارج کے بعد سے بیٹری کا کوئی استعمال نہیں"</string>
@@ -4973,6 +4994,8 @@
     <string name="satellite_setting_title" msgid="2543034229989047673">"سٹلائٹ پیغام رسانی"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"سیٹلائٹ کے ذریعے ٹیکسٹ پیغامات بھیجیں اور موصول کریں۔ آپ کے اکاؤنٹ میں شامل ہے۔"</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"سیٹلائٹ کے ذریعے ٹیکسٹ پیغامات بھیجیں اور موصول کریں۔ آپ کے اکاؤنٹ میں شامل نہیں ہے۔"</string>
+    <!-- no translation found for satellite_setting_summary_without_entitlement (5284998840770992554) -->
+    <skip />
     <string name="keywords_satellite_setting" msgid="613553612424945946">"سیٹلائٹ پیغام رسانی، سیٹلائٹ کنیکٹیوٹی"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"‫<xliff:g id="SUBJECT">%1$s</xliff:g> کے بارے میں"</string>
     <string name="title_about_satellite_setting" msgid="3563087940535642558">"آپ ایک اہل <xliff:g id="CARRIER_NAME">%1$s</xliff:g> اکاؤنٹ کے ساتھ سیٹلائٹ کے ذریعے ٹیکسٹ پیغامات بھیج اور موصول کر سکتے ہیں"</string>
@@ -4986,6 +5009,8 @@
     <string name="title_supported_service" msgid="4275535165812691571">"آپ کا فون سیٹلائٹ سے منسلک ہونے کے بعد"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"آپ ایمرجنسی سروسز سمیت کسی کو بھی ٹیکسٹ پیغام بھیج سکتے ہیں۔ دستیاب ہونے پر آپ کا فون موبائل نیٹ ورک سے دوبارہ منسلک ہو جائے گا۔"</string>
     <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"‫<xliff:g id="SUBJECT">%1$s</xliff:g> میں زیادہ وقت لگ سکتا ہے اور یہ صرف کچھ علاقوں میں دستیاب ہے۔ موسم اور کچھ ساختیں آپ کے سیٹلائٹ کنکشن کو متاثر کر سکتی ہیں۔ سیٹلائٹ کالنگ دستیاب نہیں ہے۔ ایمرجنسی کالز اب بھی منسلک ہو سکتی ہیں۔\n\nاکاؤنٹ کی تبدیلیوں کو ترتیبات میں ظاہر ہونے میں کچھ وقت لگ سکتا ہے۔ تفصیلات کے لیے <xliff:g id="CARRIER_NAME">%2$s</xliff:g> سے رابطہ کریں۔"</string>
+    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (8042240156141790447) -->
+    <skip />
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"‫<xliff:g id="SUBJECT">%1$s</xliff:g> کے بارے میں مزید"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> آن نہیں ہو سکتا"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> آن کرنے کے لیے، پہلے سیٹلائٹ کنکشن ختم کریں"</string>
@@ -5558,6 +5583,8 @@
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"بند کریں"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"مطابقت پذیر ہیڈ فونز کا دوسرا جوڑا منسلک کریں یا اپنے سلسلے کے نام اور پاس ورڈ کا دوسرے شخص کے ساتھ اشتراک کریں"</string>
     <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"دوسروں کو یہ کوڈ اسکین کرنے اور آپ کی آڈیو سننے کی اجازت دیں\n\nسلسلے کا نام: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nپاس ورڈ: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
+    <!-- no translation found for audio_sharing_dialog_qr_code_content_no_password (7824076083031650113) -->
+    <skip />
     <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"یا موافق ہیڈ فونز کے کسی اور سیٹ کا جوڑا بنائیں"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"‏مطابقت پذیر ہیڈ فونز کے دوسرے سیٹ کا جوڑا بنائیں یا اپنے آڈیو اسٹریم کے QR کوڈ کا دوسرے شخص کے ساتھ اشتراک کریں"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"آڈیو کا اشتراک ہو رہا ہے"</string>
@@ -5586,6 +5613,12 @@
     <string name="audio_sharing_retry_dialog_content" msgid="6014534433894608834">"کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔"</string>
     <string name="audio_sharing_incompatible_dialog_title" msgid="4586805264392802115">"‫<xliff:g id="DEVICE_NAME">%1$s</xliff:g> کے ساتھ آڈیو کا اشتراک نہیں کیا جا سکتا"</string>
     <string name="audio_sharing_incompatible_dialog_content" msgid="3943223683620405311">"‏آڈیو کا اشتراک صرف ہیڈ فونز کے ساتھ کام کرتی ہے جو LE آڈیو کو سپورٹ کرتے ہیں"</string>
+    <!-- no translation found for audio_sharing_block_pairing_dialog_title (1756723860075818856) -->
+    <skip />
+    <!-- no translation found for audio_sharing_block_pairing_dialog_content (6352030314206654722) -->
+    <skip />
+    <!-- no translation found for audio_sharing_turn_off_button_label (1934956352475393641) -->
+    <skip />
     <string name="audio_streams_category_title" msgid="4878022761829895463">"‏LE آڈیو سلسلہ سے منسلک کریں"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"قریبی آڈیو سلسلے"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"آڈیو سلسلے"</string>
