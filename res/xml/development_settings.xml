@@ -136,6 +136,9 @@
                     android:dialogTitle="@string/select_webview_provider_dialog_title"
                     android:fragment="com.android.settings.webview.WebViewAppPicker" />
 
+        <Preference android:key="webview_launch_devtools"
+                    android:title="@string/webview_launch_devtools_title" />
+
         <SwitchPreferenceCompat
             android:key="color_temperature"
             android:title="@string/color_temperature"
