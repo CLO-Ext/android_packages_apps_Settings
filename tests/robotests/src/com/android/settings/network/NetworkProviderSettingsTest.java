@@ -47,6 +47,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.location.LocationManager;
+import android.net.EthernetManager;
 import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
@@ -157,6 +158,8 @@ public class NetworkProviderSettingsTest {
     PreferenceCategory mFirstWifiEntryPreferenceCategory;
     @Mock
     NetworkProviderSettings.WifiRestriction mWifiRestriction;
+    @Mock
+    EthernetManager mEtherentManager;
 
     private NetworkProviderSettings mNetworkProviderSettings;
 
@@ -178,6 +181,7 @@ public class NetworkProviderSettingsTest {
         doReturn(mWifiManager).when(mContext).getSystemService(WifiManager.class);
         doReturn(mUserManager).when(mContext).getSystemService(Context.USER_SERVICE);
         doReturn(mLocationManager).when(mContext).getSystemService(LocationManager.class);
+        doReturn(mEtherentManager).when(mContext).getSystemService(Context.ETHERNET_SERVICE);
         when(mUserManager.hasBaseUserRestriction(any(), any())).thenReturn(true);
         doReturn(mContext).when(mPreferenceManager).getContext();
         mNetworkProviderSettings.mAddWifiNetworkPreference = new AddWifiNetworkPreference(mContext);

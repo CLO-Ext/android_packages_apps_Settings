@@ -69,6 +69,7 @@ import com.android.settings.dashboard.RestrictedDashboardFragment;
 import com.android.settings.datausage.DataUsagePreference;
 import com.android.settings.datausage.DataUsageUtils;
 import com.android.settings.location.WifiScanningFragment;
+import com.android.settings.network.ethernet.EthernetSwitchPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.wifi.AddNetworkFragment;
 import com.android.settings.wifi.AddWifiNetworkPreference;
@@ -84,6 +85,7 @@ import com.android.settings.wifi.dpp.WifiDppUtils;
 import com.android.settingslib.HelpUtils;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
+import com.android.settingslib.RestrictedSwitchPreference;
 import com.android.settingslib.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.utils.StringUtil;
@@ -129,6 +131,8 @@ public class NetworkProviderSettings extends RestrictedDashboardFragment
     private static final String PREF_KEY_EMPTY_WIFI_LIST = "wifi_empty_list";
     @VisibleForTesting
     static final String PREF_KEY_WIFI_TOGGLE = "main_toggle_wifi";
+    @VisibleForTesting
+    static final String PREF_KEY_ETHERNET_TOGGLE = "main_toggle_ethernet";
     // TODO(b/70983952): Rename these to use WifiEntry instead of AccessPoint.
     @VisibleForTesting
     static final String PREF_KEY_CONNECTED_ACCESS_POINTS = "connected_access_point";
@@ -242,10 +246,12 @@ public class NetworkProviderSettings extends RestrictedDashboardFragment
     LayoutPreference mResetInternetPreference;
     @VisibleForTesting
     ConnectedEthernetNetworkController mConnectedEthernetNetworkController;
+    private EthernetSwitchPreferenceController mEthernetSwitchPreferenceController;
     @VisibleForTesting
     FooterPreference mWifiStatusMessagePreference;
     @VisibleForTesting
     MenuProvider mMenuProvider;
+    RestrictedSwitchPreference mEthernetSwitchPreference;
 
     /**
      * Mobile networks list for provider model
@@ -383,12 +389,18 @@ public class NetworkProviderSettings extends RestrictedDashboardFragment
         mDataUsagePreference.setTemplate(new NetworkTemplate.Builder(NetworkTemplate.MATCH_WIFI)
                         .build(), SubscriptionManager.INVALID_SUBSCRIPTION_ID);
         mResetInternetPreference = findPreference(PREF_KEY_RESET_INTERNET);
+        mEthernetSwitchPreference = findPreference(PREF_KEY_ETHERNET_TOGGLE);
         if (mResetInternetPreference != null) {
             mResetInternetPreference.setVisible(false);
         }
         addNetworkMobileProviderController();
         addConnectedEthernetNetworkController();
         addWifiSwitchPreferenceController();
+        if (com.android.settings.connectivity.Flags.ethernetSettings()) {
+            addEthernetSwitchPreferenceController();
+        } else {
+            mEthernetSwitchPreference.setVisible(false);
+        }
         mWifiStatusMessagePreference = findPreference(PREF_KEY_WIFI_STATUS_MESSAGE);
 
         checkConnectivityRecovering();
@@ -439,6 +451,14 @@ public class NetworkProviderSettings extends RestrictedDashboardFragment
                     new WifiSwitchPreferenceController(getContext(), getSettingsLifecycle());
         }
         mWifiSwitchPreferenceController.displayPreference(getPreferenceScreen());
+    }
+
+    private void addEthernetSwitchPreferenceController() {
+        if (mEthernetSwitchPreferenceController == null) {
+            mEthernetSwitchPreferenceController =
+                    new EthernetSwitchPreferenceController(getContext(), getSettingsLifecycle());
+        }
+        mEthernetSwitchPreferenceController.displayPreference(getPreferenceScreen());
     }
 
     private void checkConnectivityRecovering() {

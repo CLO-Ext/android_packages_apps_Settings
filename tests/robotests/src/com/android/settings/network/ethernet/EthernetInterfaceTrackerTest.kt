@@ -42,7 +42,7 @@ class EthernetInterfaceTrackerTest {
                 }
         }
 
-    private val ethernetInterfaceTracker = EthernetInterfaceTracker(context)
+    private val ethernetInterfaceTracker = EthernetInterfaceTracker.getInstance(context)
 
     @Test
     fun getInterface_shouldReturnEmpty() {
@@ -51,7 +51,7 @@ class EthernetInterfaceTrackerTest {
 
     @Test
     fun getAvailableInterfaces_shouldReturnEmpty() {
-        assertEquals(ethernetInterfaceTracker.getAvailableInterfaces().size, 0)
+        assertEquals(ethernetInterfaceTracker.availableInterfaces.size, 0)
     }
 
     @Test
@@ -64,7 +64,7 @@ class EthernetInterfaceTrackerTest {
         )
 
         assertNotNull(ethernetInterfaceTracker.getInterface("id0"))
-        assertEquals(ethernetInterfaceTracker.getAvailableInterfaces().size, 1)
+        assertEquals(ethernetInterfaceTracker.availableInterfaces.size, 1)
 
         ethernetInterfaceTracker.onInterfaceStateChanged(
             "id0",
@@ -74,6 +74,6 @@ class EthernetInterfaceTrackerTest {
         )
 
         assertNull(ethernetInterfaceTracker.getInterface("id0"))
-        assertEquals(ethernetInterfaceTracker.getAvailableInterfaces().size, 0)
+        assertEquals(ethernetInterfaceTracker.availableInterfaces.size, 0)
     }
 }
