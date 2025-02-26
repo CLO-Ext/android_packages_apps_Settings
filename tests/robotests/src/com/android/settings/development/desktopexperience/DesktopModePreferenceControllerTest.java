@@ -114,6 +114,7 @@ public class DesktopModePreferenceControllerTest {
     }
 
     @Test
+    @DisableFlags(Flags.FLAG_SHOW_DESKTOP_EXPERIENCE_DEV_OPTION)
     public void isAvailable_desktopModeDevOptionNotSupported_returnsFalse() {
         mController = spy(mController);
         // Dev option is not supported if Desktop mode is not supported
@@ -125,6 +126,7 @@ public class DesktopModePreferenceControllerTest {
     }
 
     @Test
+    @DisableFlags(Flags.FLAG_SHOW_DESKTOP_EXPERIENCE_DEV_OPTION)
     public void isAvailable_desktopModeDevOptionSupported_returnsTrue() {
         mController = spy(mController);
 
