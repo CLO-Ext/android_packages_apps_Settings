@@ -23,9 +23,9 @@
 package com.android.settings.network.telephony;
 
 import static android.telephony.CarrierConfigManager.CARRIER_ROAMING_NTN_CONNECT_AUTOMATIC;
-import static android.telephony.CarrierConfigManager.CARRIER_ROAMING_NTN_CONNECT_MANUAL;
 import static android.telephony.CarrierConfigManager.KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT;
 import static android.telephony.CarrierConfigManager.KEY_SATELLITE_ATTACH_SUPPORTED_BOOL;
+import static android.telephony.CarrierConfigManager.KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL;
 import static android.telephony.NetworkRegistrationInfo.SERVICE_TYPE_DATA;
 import static android.telephony.NetworkRegistrationInfo.SERVICE_TYPE_SMS;
 
@@ -71,9 +71,9 @@ public class SatelliteSettingPreferenceController extends
     @Nullable
     private Boolean mIsSatelliteEligible = null;
     private boolean mIsServiceDataType = false;
-    private boolean mIsSatelliteSmsAvailableForManualType = false;
-    private boolean mIsCarrierSatelliteAttachSupported = false;
-    private boolean mIsCarrierRoamingNtnConnectedTypeManual = false;
+    @VisibleForTesting
+    boolean mIsSatelliteSmsAvailableForManualType = false;
+    private PersistableBundle mCarrierConfigs = new PersistableBundle();
 
     public SatelliteSettingPreferenceController(@NonNull Context context, @NonNull String key) {
         super(context, key);
@@ -102,13 +102,15 @@ public class SatelliteSettingPreferenceController extends
             return UNSUPPORTED_ON_DEVICE;
         }
 
-        int availabilityStatus = mIsCarrierSatelliteAttachSupported
-                ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
-        if (availabilityStatus == AVAILABLE && mIsCarrierRoamingNtnConnectedTypeManual
-                && !mIsSatelliteSmsAvailableForManualType) {
-            availabilityStatus = CONDITIONALLY_UNAVAILABLE;
+        boolean isSatelliteAttachSupport = mCarrierConfigs.getBoolean(
+                KEY_SATELLITE_ATTACH_SUPPORTED_BOOL);
+
+        if (isSatelliteAttachSupport && isCarrierRoamingNtnConnectedTypeAuto()
+                && mIsSatelliteSmsAvailableForManualType) {
+            return AVAILABLE;
         }
-        return availabilityStatus;
+
+        return CONDITIONALLY_UNAVAILABLE;
     }
 
     @Override
@@ -135,7 +137,7 @@ public class SatelliteSettingPreferenceController extends
     @Override
     public void updateState(@Nullable Preference preference) {
         super.updateState(preference);
-        if (preference != null) {
+        if (preference != null && preference.getKey().equals(getPreferenceKey())) {
             mCarrierRoamingNtnModeCallback.mPref = preference;
             updateSummary(preference);
         }
@@ -169,18 +171,7 @@ public class SatelliteSettingPreferenceController extends
         logd("init(), subId=" + subId);
         mSubId = subId;
         mTelephonyManager = mTelephonyManager.createForSubscriptionId(subId);
-
-        final PersistableBundle carrierConfig = mCarrierConfigCache.getConfigForSubId(subId);
-        if (carrierConfig == null) {
-            logd("init(), no carrier config data");
-            return;
-        }
-        mIsCarrierSatelliteAttachSupported = carrierConfig.getBoolean(
-                KEY_SATELLITE_ATTACH_SUPPORTED_BOOL);
-        mIsCarrierRoamingNtnConnectedTypeManual =
-                CARRIER_ROAMING_NTN_CONNECT_MANUAL == carrierConfig.getInt(
-                        KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT,
-                        CARRIER_ROAMING_NTN_CONNECT_AUTOMATIC);
+        mCarrierConfigs = mCarrierConfigCache.getConfigForSubId(subId);
     }
 
     private void updateSummary(Preference preference) {
@@ -193,11 +184,12 @@ public class SatelliteSettingPreferenceController extends
             return;
         }
 
-        if (mIsCarrierRoamingNtnConnectedTypeManual) {
-            preference.setSummary(mIsSatelliteSmsAvailableForManualType
-                    ? R.string.satellite_setting_enabled_summary
-                    : R.string.satellite_setting_disabled_summary);
-        } else {
+        if (!mCarrierConfigs.getBoolean(KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL)) {
+            preference.setSummary(R.string.satellite_setting_summary_without_entitlement);
+            return;
+        }
+
+        if (isCarrierRoamingNtnConnectedTypeAuto()) {
             try {
                 Set<Integer> restrictionReason = null;
                 if (mSatelliteManager != null) {
@@ -219,7 +211,17 @@ public class SatelliteSettingPreferenceController extends
                 loge(ex.toString());
                 preference.setSummary(R.string.satellite_setting_disabled_summary);
             }
+        } else {
+            preference.setSummary(mIsSatelliteSmsAvailableForManualType
+                    ? R.string.satellite_setting_enabled_summary
+                    : R.string.satellite_setting_disabled_summary);
         }
+    }
+
+    private boolean isCarrierRoamingNtnConnectedTypeAuto() {
+        return CARRIER_ROAMING_NTN_CONNECT_AUTOMATIC == mCarrierConfigs.getInt(
+                KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT,
+                CARRIER_ROAMING_NTN_CONNECT_AUTOMATIC);
     }
 
     @VisibleForTesting

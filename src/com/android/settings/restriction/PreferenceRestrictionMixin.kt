@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings
+package com.android.settings.restriction
 
 import android.content.Context
 import android.os.UserHandle
