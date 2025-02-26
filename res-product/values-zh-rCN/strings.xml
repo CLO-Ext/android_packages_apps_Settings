@@ -185,7 +185,7 @@
     <string name="lock_screen_pin_skip_biometrics_message" product="device" msgid="3023595865822720071">"必须设置 PIN 码，才能设置指纹解锁和人脸解锁。\n\n设备丢失或被盗时，PIN 码可为其提供保护。"</string>
     <string name="lock_screen_pattern_skip_biometrics_message" product="device" msgid="3039110875534893916">"必须设置解锁图案，才能设置指纹解锁和人脸解锁。\n\n设备丢失或被盗时，解锁图案可为其提供保护。"</string>
     <string name="lock_screen_password_skip_biometrics_message" product="device" msgid="6506194961404887073">"必须设置密码，才能设置指纹解锁和人脸解锁。\n\n设备丢失或被盗时，密码可为其提供保护。"</string>
-    <string name="lock_screen_pin_skip_biometrics_message" product="default" msgid="6614355211073480369">"必须设置 PIN 码，才能设置指纹解锁和人脸解锁。\n\n手机丢失或被盗时，PIN 码可为其提供保护。"</string>
+    <string name="lock_screen_pin_skip_biometrics_message" product="default" msgid="6614355211073480369">"必须设置 PIN 码，才能设置指纹解锁和人脸解锁。\n\n手机丢失或被盗时，PIN 码可保护手机中的信息。"</string>
     <string name="lock_screen_pattern_skip_biometrics_message" product="default" msgid="969489650005656159">"必须设置解锁图案，才能设置指纹解锁和人脸解锁。\n\n手机丢失或被盗时，解锁图案可为其提供保护。"</string>
     <string name="lock_screen_password_skip_biometrics_message" product="default" msgid="2934343185175325368">"必须设置密码，才能设置指纹解锁和人脸解锁。\n\n手机丢失或被盗时，密码可为其提供保护。"</string>
     <string name="fingerprint_v2_delete_message" product="default" msgid="8723083814238510088">"确认删除后，手机上存储的与“<xliff:g id="FINGERPRINT_ID">%1$s</xliff:g>”关联的指纹图像和模型将被删除"</string>
@@ -267,10 +267,16 @@
     <string name="main_clear_button_text" product="default" msgid="3763748694468489783">"清除所有数据"</string>
     <string name="usb_tethering_subtext" product="default" msgid="5969806206311342779">"通过 USB 共享手机的互联网连接"</string>
     <string name="usb_tethering_subtext" product="tablet" msgid="4550828946207155142">"通过 USB 共享平板电脑的互联网连接"</string>
-    <string name="bluetooth_tethering_subtext" product="tablet" msgid="1339730853653511849">"通过蓝牙共享平板电脑的互联网连接"</string>
+    <!-- no translation found for usb_tethering_subtext (6586391707794559573) -->
+    <skip />
     <string name="bluetooth_tethering_subtext" product="default" msgid="3638886236597805392">"通过蓝牙共享手机的互联网连接"</string>
+    <string name="bluetooth_tethering_subtext" product="tablet" msgid="1339730853653511849">"通过蓝牙共享平板电脑的互联网连接"</string>
+    <!-- no translation found for bluetooth_tethering_subtext (4847586521141330988) -->
+    <skip />
     <string name="ethernet_tethering_subtext" product="default" msgid="8652438909365718644">"通过以太网共享手机的互联网连接"</string>
     <string name="ethernet_tethering_subtext" product="tablet" msgid="2227710549796706455">"通过以太网共享平板电脑的互联网连接"</string>
+    <!-- no translation found for ethernet_tethering_subtext (454840171632885947) -->
+    <skip />
     <string name="about_settings" product="tablet" msgid="1471390492111370330">"关于本机"</string>
     <string name="about_settings" product="default" msgid="2621311564780208250">"关于本机"</string>
     <string name="about_settings" product="device" msgid="7595574154492383452">"关于设备"</string>

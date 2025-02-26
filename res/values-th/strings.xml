@@ -397,6 +397,9 @@
     <string name="security_settings_face_enroll_improve_face_alert_body" msgid="2670118180411127323">"ลบรูปแบบใบหน้าปัจจุบันแล้วตั้งค่าการปลดล็อกด้วยใบหน้าอีกครั้ง\n\nระบบจะลบรูปแบบใบหน้าออกอย่างถาวรและปลอดภัย\n\nหลังจากที่ลบแล้ว คุณจะต้องใช้ PIN, รูปแบบ หรือรหัสผ่านเพื่อปลดล็อกโทรศัพท์ หรือสำหรับการตรวจสอบสิทธิ์ในแอป"</string>
     <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint" msgid="2469599074650327489">"ลบรูปแบบใบหน้าปัจจุบันแล้วตั้งค่าการปลดล็อกด้วยใบหน้าอีกครั้ง\n\nระบบจะลบรูปแบบใบหน้าออกอย่างถาวรและปลอดภัย\n\nหลังจากที่ลบแล้ว คุณจะต้องใช้ลายนิ้วมือ, PIN, รูปแบบ หรือรหัสผ่านเพื่อปลดล็อกโทรศัพท์ หรือสำหรับการตรวจสอบสิทธิ์ในแอป"</string>
     <string name="security_settings_face_settings_use_face_category" msgid="1638314154119800188">"ใช้การปลดล็อกด้วยใบหน้าเพื่อ"</string>
+    <string name="security_settings_face_description" msgid="4978624729863151372"></string>
+    <string name="security_settings_face_footer_description_class3" msgid="2639208414351635622"></string>
+    <string name="security_settings_face_footer_learn_more_description" msgid="1418112576619086897"></string>
     <string name="security_settings_face_settings_face_category" msgid="60058016983772899">"ใบหน้า"</string>
     <string name="security_settings_face_settings_use_face_to_category" msgid="3349153603335284583">"ใช้ใบหน้าเพื่อ"</string>
     <string name="security_settings_face_settings_preferences_category" msgid="7628929873407280453">"เมื่อใช้การปลดล็อกด้วยใบหน้า"</string>
@@ -414,8 +417,10 @@
     <string name="security_settings_face_remove_dialog_details_fingerprint" msgid="7609582230650860974">"ระบบจะลบรูปแบบใบหน้าออกอย่างถาวรและปลอดภัย\n\nหลังจากที่ลบแล้ว คุณจะต้องใช้ลายนิ้วมือ, PIN, รูปแบบ หรือรหัสผ่านเพื่อปลดล็อกโทรศัพท์ หรือสำหรับการตรวจสอบสิทธิ์ในแอป"</string>
     <string name="security_settings_face_remove_dialog_details_fingerprint_conv" msgid="2627374706274503259">"ระบบจะลบรูปแบบใบหน้าออกอย่างถาวรและปลอดภัย\n\nหลังจากที่ลบแล้ว คุณจะต้องใช้ลายนิ้วมือ, PIN, รูปแบบ หรือรหัสผ่านเพื่อปลดล็อกโทรศัพท์"</string>
     <string name="security_settings_face_settings_context_subtitle" msgid="8284262560781442403">"ใช้การปลดล็อกด้วยใบหน้าเพื่อปลดล็อกโทรศัพท์"</string>
+    <string name="security_settings_face_add" msgid="3118249538477856897">"เพิ่มใบหน้า"</string>
     <string name="security_settings_fingerprint" msgid="6387775386189204201">"ลายนิ้วมือ"</string>
     <string name="security_settings_fingerprint_title" msgid="7564944192711394896">"ลายนิ้วมือ"</string>
+    <string name="security_settings_fingerprint_description" msgid="629796299137157167"></string>
     <string name="security_settings_category_use_fingerprint" msgid="4273932435979772330">"ใช้ลายนิ้วมือเพื่อ"</string>
     <string name="security_settings_fingerprint_preference_title" msgid="2484965173528415458">"ลายนิ้วมือ"</string>
     <string name="security_settings_fingerprint_settings_preferences_category" msgid="8975029409126780752">"เมื่อใช้การปลดล็อกด้วยลายนิ้วมือ"</string>
@@ -749,6 +754,7 @@
     <string name="lock_settings_picker_admin_restricted_personal_message" msgid="3532653662159888328">"หากคุณลืมการล็อกหน้าจอ ผู้ดูแลระบบไอทีจะรีเซ็ตให้คุณไม่ได้"</string>
     <string name="lock_settings_picker_admin_restricted_personal_message_action" msgid="5956615234246626264">"ตั้งค่าล็อกงานแยกต่างหาก"</string>
     <string name="lock_settings_picker_profile_message" msgid="9142379549980873478">"หากคุณจำการล็อกนี้ไม่ได้ โปรดขอให้ผู้ดูแลระบบไอทีรีเซ็ตการล็อก"</string>
+    <string name="lock_settings_screen_lock_settings_title" msgid="738577630596146754">"การตั้งค่าการล็อกหน้าจอ"</string>
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"ตัวเลือกการล็อกหน้าจอ"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"ตัวเลือกการล็อกหน้าจอ"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"ปลดล็อกด้วยการยืนยันโดยอัตโนมัติ"</string>
@@ -1669,7 +1675,7 @@
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"เชื่อมต่ออินเทอร์เน็ตผ่าน USB"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"ต่ออินเทอร์เน็ตผ่านบลูทูธ"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"เชื่อมต่ออินเทอร์เน็ตผ่านอีเทอร์เน็ต"</string>
-    <string name="tethering_footer_info" msgid="6782375845587483281">"ใช้ฮอตสปอตและการเชื่อมต่ออินเทอร์เน็ตผ่านมือถือเพื่อให้อุปกรณ์อื่นๆ ใช้อินเทอร์เน็ตจากการเชื่อมต่ออินเทอร์เน็ตมือถือได้ แอปยังสร้างฮอตสปอตเพื่อแชร์เนื้อหากับอุปกรณ์ที่อยู่ใกล้เคียงได้อีกด้วย"</string>
+    <string name="tethering_footer_info" msgid="6824352505979800594">"ใช้ฮอตสปอตและการเชื่อมต่ออินเทอร์เน็ตผ่านมือถือเพื่อให้อุปกรณ์อื่นๆ ใช้อินเทอร์เน็ตจากการเชื่อมต่ออินเทอร์เน็ตของคุณได้ แอปยังสร้างฮอตสปอตเพื่อแชร์เนื้อหากับอุปกรณ์ที่อยู่ใกล้เคียงได้ด้วย"</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"ใช้ฮอตสปอตและการเชื่อมต่ออินเทอร์เน็ตผ่านมือถือเพื่อ⁠ให้⁠อุ⁠ป⁠ก⁠ร⁠ณ์อื่นๆ ใช้อินเทอร์เน็ตจาก Wi-Fi หรือการเชื่อมต่ออินเทอร์เน็ตมือถือของคุณได้ แอปยังสร้างฮอตสปอตเพื่อแชร์เนื้อหากับอุปกรณ์ที่อยู่ใกล้เคียงได้อีกด้วย"</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"ความช่วยเหลือ"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"เครือข่ายมือถือ"</string>
@@ -2029,6 +2035,10 @@
     <string name="input_setting_keys_dialog_option_600" msgid="6983252972219539375">"0.6 วินาที"</string>
     <string name="input_setting_keys_custom_title" msgid="670425691119253202">"กำหนดเอง"</string>
     <string name="input_setting_keys_custom_value" msgid="4455905650507193648">"ค่าที่กำหนดเอง"</string>
+    <!-- no translation found for input_setting_bounce_keys_seekbar_desc (4575595566548124309) -->
+    <skip />
+    <!-- no translation found for input_setting_slow_keys_seekbar_desc (2171726970136563995) -->
+    <skip />
     <string name="slow_keys" msgid="2891452895499690837">"เพิ่มระยะเวลาในการกดปุ่ม"</string>
     <string name="slow_keys_summary" msgid="3852534180402969185">"เปลี่ยนระยะเวลาที่ต้องกดแป้นค้างไว้ก่อนที่จะลงทะเบียน"</string>
     <string name="sticky_keys" msgid="7317317044898161747">"คีย์ติดหนึบ"</string>
@@ -2043,12 +2053,18 @@
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"การเร่งความเร็วของเคอร์เซอร์"</string>
     <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"การเคลื่อนไหวที่เร็วขึ้นด้วยเมาส์จะเลื่อนเคอร์เซอร์ไปไกลกว่าเดิม"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"แป้นเมาส์สำหรับ <xliff:g id="KEYBOARD_NAME">%s</xliff:g>"</string>
-    <string name="mouse_keys_directional_summary" msgid="8108444346340180562">"ใช้แป้น <xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g> เพื่อเลื่อนเคอร์เซอร์เมาส์"</string>
-    <string name="mouse_keys_click_summary" msgid="1642125742164614577">"ใช้แป้น <xliff:g id="CLICK_LABEL">%s</xliff:g> เพื่อคลิกปุ่มหลักของเมาส์"</string>
-    <string name="mouse_keys_press_hold_summary" msgid="2313418505798763112">"ใช้แป้น <xliff:g id="PRESS_HOLD_LABEL">%s</xliff:g> เพื่อกดปุ่มหลักของเมาส์ค้างไว้"</string>
-    <string name="mouse_keys_release_summary" msgid="2379239679203818720">"ใช้แป้น <xliff:g id="RELEASE_LABEL">%s</xliff:g> เพื่อปล่อยปุ่มหลักของเมาส์"</string>
-    <string name="mouse_keys_toggle_scroll_summary" msgid="8129249227018251990">"ใช้แป้น <xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g> เพื่อเปิด/ปิดโหมดเลื่อน ซึ่งจะทำให้แป้น <xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g> เลื่อนมุมมองขึ้น ลง ไปทางซ้าย หรือขวา"</string>
-    <string name="mouse_keys_release2_summary" msgid="2395196580659122185">"ใช้แป้น <xliff:g id="RELEASE_2_LABEL">%s</xliff:g> เพื่อคลิกปุ่มรองของเมาส์"</string>
+    <!-- no translation found for mouse_keys_directional_summary (2215425656757420699) -->
+    <skip />
+    <!-- no translation found for mouse_keys_click_summary (8271700153598258484) -->
+    <skip />
+    <!-- no translation found for mouse_keys_press_hold_summary (112969663769147732) -->
+    <skip />
+    <!-- no translation found for mouse_keys_release_summary (7209370896835993434) -->
+    <skip />
+    <!-- no translation found for mouse_keys_toggle_scroll_summary (7492663135290108272) -->
+    <skip />
+    <!-- no translation found for mouse_keys_release2_summary (5504548339731577210) -->
+    <skip />
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"ดูแป้นพิมพ์ลัด"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"แสดงรายการแป้นพิมพ์ลัด"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"แป้นพิมพ์และเครื่องมือของโปรไฟล์งาน"</string>
@@ -2057,7 +2073,8 @@
     <string name="trackpad_settings" msgid="2071131324087677005">"ทัชแพด"</string>
     <string name="trackpad_mouse_settings" msgid="136226693583218429">"ทัชแพดและเมาส์"</string>
     <string name="mouse_settings" msgid="7301671756721327122">"เมาส์"</string>
-    <string name="mouse_settings_summary" msgid="4609720443781972646">"ความเร็วของตัวชี้ สลับปุ่ม การปรับแต่งปุ่ม"</string>
+    <!-- no translation found for mouse_settings_summary (8732973589097368936) -->
+    <skip />
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"ความเร็วของตัวชี้ ท่าทางสัมผัส"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"แตะเพื่อคลิก"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"แตะแล้วลากเพื่อย้ายรายการ"</string>
@@ -2069,7 +2086,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"คลิกด้านขวาล่าง"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"คลิกที่มุมขวาล่างของทัชแพดเพื่อดูตัวเลือกเพิ่มเติม"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"ความเร็วของเคอร์เซอร์"</string>
-    <string name="three_finger_tap_preference_title" msgid="2114347152933865780">"ปรับแต่งการแตะ 3 นิ้ว"</string>
+    <!-- no translation found for three_finger_tap_preference_title (3779242412749283386) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"การเร่งความเร็วของทัชแพด"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"การเคลื่อนไหวที่เร็วขึ้นบนทัชแพดจะเลื่อนเคอร์เซอร์ไปไกลกว่าเดิม"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"สีของตัวชี้"</string>
@@ -2371,10 +2389,10 @@
     <string name="accessibility_button_disabled_button_mode_summary" msgid="1978174613270619492">"ไม่ทำงานขณะใช้โหมดปุ่มแถบนำทาง"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"ข้อความคอนทราสต์สูง"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"เปลี่ยนสีข้อความเป็นสีดำหรือสีขาว เพิ่มความ​​คอนทราสต์เมื่อเทียบกับพื้นหลังให้สูงสุด"</string>
-    <string name="accessibility_notification_high_contrast_text_title" msgid="85109818203175520">"ข้อความคอนทราสต์สูงถูกแทนที่แล้ว"</string>
-    <string name="accessibility_notification_high_contrast_text_content" msgid="7159316497764514501">"ลองใช้สีขอบของข้อความแทน โดยค้นหาได้ในการตั้งค่า"</string>
-    <string name="accessibility_notification_high_contrast_text_action" msgid="7190559555068414342">"เปิดการตั้งค่า"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="6940551350643305572">"สีขอบของข้อความ"</string>
+    <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"ปรับปรุงคอนทราสต์ของข้อความ"</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> ได้แทนที่ <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> แล้ว ซึ่งสามารถเปิดได้ใน <xliff:g id="SETTINGS">%3$s</xliff:g>"</string>
+    <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"ไปที่<xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"สีขอบข้อความ"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"เพิ่มพื้นหลังสีดำหรือขาวรอบๆ ข้อความเพื่อเพิ่มความคอนทราสต์"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"อัปเดตการขยายหน้าจอโดยอัตโนมัติ"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"อัปเดตการขยายหน้าจอเมื่อเปลี่ยนแอปพลิเคชัน"</string>
@@ -3678,7 +3696,13 @@
     <string name="notification_summarization_on" msgid="5692758038788359790">"เปิด"</string>
     <string name="notification_summarization_off" msgid="4660131515915234037">"ปิด"</string>
     <string name="notification_summarization_main_control_title" msgid="3341727937605794607">"ใช้สรุปการแจ้งเตือน"</string>
-    <string name="notification_summarization_description" msgid="3468513132824606481">"สรุปการแจ้งเตือนการสนทนาจากทุกแอปโดยอัตโนมัติ"</string>
+    <string name="notification_summarization_description" msgid="8787422238462516765">"สรุปการแจ้งเตือนการสนทนาจากแอปโดยอัตโนมัติ"</string>
+    <string name="notification_summarization_excluded_description" msgid="3772411462994322275">"จะไม่สรุปการแจ้งเตือนการสนทนาจากแอปเหล่านี้"</string>
+    <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"จัดการแอป"</string>
+    <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"อนุญาตให้สรุปการแจ้งเตือนสำหรับแอป"</string>
+    <string name="notification_excluded_apps" msgid="6648267716069216826">"ข้อยกเว้นแอป"</string>
+    <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"สรุปการแจ้งเตือน"</string>
+    <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"สรุปการแจ้งเตือนการสนทนาจากแอปนี้"</string>
     <string name="live_notifications" msgid="4650406646292963831">"การแจ้งเตือนแบบเรียลไทม์"</string>
     <string name="live_notifications_switch" msgid="50547709843410137">"แสดงข้อมูลแบบเรียลไทม์"</string>
     <string name="live_notifications_desc" msgid="7383414458419053003">"การแจ้งเตือนที่ปักหมุดไว้จะแสดงข้อมูลแบบเรียลไทม์จากแอป และจะปรากฏในแถบสถานะและหน้าจอล็อกเสมอ"</string>
@@ -3836,6 +3860,10 @@
     <string name="notification_bundle_off" msgid="1550261372988157377">"ปิด"</string>
     <string name="notification_bundle_main_control_title" msgid="4746182488388939403">"ใช้การรวมกลุ่มการแจ้งเตือน"</string>
     <string name="notification_bundle_description" msgid="3896142878395333784">"การแจ้งเตือนที่มีธีมคล้ายกันจะถูกปิดเสียงและจัดกลุ่มไว้ด้วยกันเพื่อให้คุณได้รับประสบการณ์การใช้งานที่เงียบกว่า การรวมกลุ่มจะลบล้างการตั้งค่าการแจ้งเตือนของแอปนั้นๆ"</string>
+    <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"การแจ้งเตือนแบบชุด"</string>
+    <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"การแจ้งเตือนที่มีธีมคล้ายกันจะถูกปิดเสียงและจัดกลุ่มไว้ด้วยกันเพื่อให้คุณได้รับประสบการณ์การใช้งานที่เงียบกว่า"</string>
+    <string name="notification_bundle_excluded_description" msgid="7249934130756103812">"การแจ้งเตือนจากแอปเหล่านี้จะไม่ถูกนำมารวมกัน"</string>
+    <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"อนุญาตการรวมการแจ้งเตือนสำหรับแอป"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"บริการตัวช่วย VR"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"แอปที่ติดตั้งอยู่ไม่ได้ขอให้เรียกใช้เป็นบริการตัวช่วย VR"</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"อนุญาตให้ <xliff:g id="SERVICE">%1$s</xliff:g> เข้าถึงบริการ VR ไหม"</string>
@@ -4198,7 +4226,8 @@
     <string name="high_power_off" msgid="317000444619279018">"เพิ่มประสิทธิภาพการใช้แบตเตอรี"</string>
     <string name="high_power_system" msgid="3966701453644915787">"การเพิ่มประสิทธิภาพแบตเตอรี่ไม่พร้อมใช้งาน"</string>
     <string name="high_power_prompt_title" msgid="2574478825228409124">"ให้แอปทำงานอยู่เบื้องหลังเสมอไหม"</string>
-    <string name="high_power_prompt_body" msgid="6029266540782139941">"การอนุญาตให้ \"<xliff:g id="APP_NAME">%1$s</xliff:g>\" ทำงานอยู่เบื้องหลังเสมออาจลดอายุการใช้งานแบตเตอรี่ \n\nคุณเปลี่ยนค่านี้ได้ภายหลังในการตั้งค่า &gt; แอป"</string>
+    <!-- no translation found for high_power_prompt_body (8570446878622133298) -->
+    <skip />
     <string name="battery_summary" msgid="2491764359695671207">"ใช้ <xliff:g id="PERCENTAGE">%1$s</xliff:g> ตั้งแต่ชาร์จจนเต็มครั้งล่าสุด"</string>
     <string name="battery_summary_24hr" msgid="7656033283282656551">"ใช้แบตเตอรี่ <xliff:g id="PERCENTAGE">%1$s</xliff:g> ในช่วง 24 ชั่วโมงที่ผ่านมา"</string>
     <string name="no_battery_summary" msgid="5769159953384122003">"ไม่มีการใช้แบตเตอรี่ตั้งแต่การชาร์จเต็มครั้งล่าสุด"</string>
@@ -5536,6 +5565,10 @@
     <string name="audio_sharing_share_with_button_label" msgid="4146194430380237357">"แชร์กับ <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"ปิด"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"เชื่อมต่อหูฟังที่เข้ากันได้อีกคู่หนึ่ง หรือแชร์ชื่อและรหัสผ่านของสตรีมกับผู้อื่น"</string>
+    <!-- no translation found for audio_sharing_dialog_qr_code_content (2246980817848351361) -->
+    <skip />
+    <!-- no translation found for audio_sharing_dialog_pair_new_device_content (6720472590211440206) -->
+    <skip />
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"จับคู่หูฟังที่เข้ากันได้อีกชุดหนึ่ง หรือแชร์คิวอาร์โค้ดของสตรีมเสียงกับผู้อื่น"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"กำลังแชร์เสียง"</string>
     <string name="audio_sharing_pair_button_label" msgid="7987236990273083588">"จับคู่อุปกรณ์ใหม่"</string>
@@ -5589,7 +5622,8 @@
     <string name="audio_streams_dialog_learn_more" msgid="6711241053442211345">"ดูข้อมูลเพิ่มเติม"</string>
     <string name="audio_streams_dialog_cannot_play" msgid="1358828316927479091">"เล่นสตรีมเสียงนี้ใน <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ไม่ได้"</string>
     <string name="audio_streams_listening_now" msgid="4205614429222949176">"กำลังฟังอยู่"</string>
-    <string name="audio_streams_present_now" msgid="1128360774541089402">"โฮสต์หยุดชั่วคราว"</string>
+    <!-- no translation found for audio_streams_present_now (7519818719382756366) -->
+    <skip />
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"หยุดฟัง"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"เชื่อมต่อหูฟังที่เข้ากันได้"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"เชื่อมต่ออุปกรณ์"</string>
@@ -5614,13 +5648,13 @@
     <string name="keywords_contacts_storage" msgid="9061213057165337893">"รายชื่อติดต่อ พื้นที่เก็บข้อมูล บัญชี"</string>
     <string name="contacts_storage_settings_title" msgid="1574030546525203810">"พื้นที่เก็บข้อมูลรายชื่อติดต่อ"</string>
     <string name="contacts_storage_device_only_preference_label" msgid="970250816918108264">"อุปกรณ์เท่านั้น"</string>
-    <string name="contacts_storage_device_only_preference_summary" msgid="2339782491812039153">"รายชื่อติดต่อใหม่จะไม่ซิงค์กับบัญชี"</string>
+    <!-- no translation found for contacts_storage_device_only_preference_summary (8585284581093336284) -->
+    <skip />
     <string name="contacts_storage_selection_message" msgid="8082077300632059003">"ระบบจะบันทึกรายชื่อติดต่อไว้ในอุปกรณ์และซิงค์กับบัญชีของคุณโดยค่าเริ่มต้น"</string>
     <string name="contacts_storage_set_default_account_error_message" msgid="849847649756411393">"เกิดข้อผิดพลาดในการตั้งค่าบัญชีเริ่มต้น"</string>
     <string name="contacts_storage_no_account_set_summary" msgid="7454973781666475276">"ไม่ได้ตั้งค่าบัญชีเริ่มต้น"</string>
     <string name="contacts_storage_local_account_summary" msgid="5034805108128685712">"อุปกรณ์เท่านั้น"</string>
-    <!-- no translation found for contacts_storage_account_title (7334522539665856395) -->
-    <skip />
+    <string name="contacts_storage_account_title" msgid="7334522539665856395">"อุปกรณ์และ %1$s"</string>
     <string name="contacts_storage_first_time_add_account_message" msgid="5161093169928132323">"เพิ่มบัญชีเพื่อเริ่มต้นใช้งาน"</string>
     <string name="contacts_storage_account_category_title" msgid="6427149157377815586">"ตำแหน่งที่จะบันทึกรายชื่อติดต่อ"</string>
     <string name="search_gesture_feature_title" msgid="7037117019612710960">"วงเพื่อค้นหา"</string>
@@ -5633,6 +5667,6 @@
     <string name="keywords_supervision_settings" msgid="2580555201483955376">"การควบคุมดูแล การควบคุมดูแลโดยผู้ปกครอง การควบคุมโดยผู้ปกครอง"</string>
     <string name="supervision_pin_management_preference_title" msgid="961680798581006465">"จัดการ PIN"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="3244161328612671896">"เพิ่มวิธีการกู้คืน PIN"</string>
-    <!-- no translation found for supervision_change_pin_preference_title (2288584039438231801) -->
-    <skip />
+    <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"เปลี่ยน PIN"</string>
+    <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"ลืม PIN"</string>
 </resources>

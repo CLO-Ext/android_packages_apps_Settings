@@ -397,6 +397,9 @@
     <string name="security_settings_face_enroll_improve_face_alert_body" msgid="2670118180411127323">"ਫ਼ੇਸ ਅਣਲਾਕ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦਾ ਮੌਜੂਦਾ ਮਾਡਲ ਮਿਟਾਓ।\n\nਤੁਹਾਡੇ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਪੱਕੇ ਤੌਰ \'ਤੇ ਅਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਮਿਟਾਇਆ ਜਾਵੇਗਾ।\n\nਮਿਟਾਉਣ ਤੋਂ ਬਾਅਦ, ਤੁਹਾਨੂੰ ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਲਈ ਜਾਂ ਐਪਾਂ ਵਿੱਚ ਪ੍ਰਮਾਣੀਕਰਨ ਲਈ ਆਪਣੇ ਪਿੰਨ, ਪੈਟਰਨ ਜਾਂ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"</string>
     <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint" msgid="2469599074650327489">"ਫ਼ੇਸ ਅਣਲਾਕ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦਾ ਮੌਜੂਦਾ ਮਾਡਲ ਮਿਟਾਓ।\n\nਤੁਹਾਡੇ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਪੱਕੇ ਤੌਰ \'ਤੇ ਅਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਮਿਟਾਇਆ ਜਾਵੇਗਾ।\n\nਮਿਟਾਉਣ ਤੋਂ ਬਾਅਦ, ਤੁਹਾਨੂੰ ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਲਈ ਜਾਂ ਐਪਾਂ ਵਿੱਚ ਪ੍ਰਮਾਣੀਕਰਨ ਲਈ ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟ, ਪਿੰਨ, ਪੈਟਰਨ ਜਾਂ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"</string>
     <string name="security_settings_face_settings_use_face_category" msgid="1638314154119800188">"ਫ਼ੇਸ ਅਣਲਾਕ ਇਸ ਲਈ ਵਰਤੋ"</string>
+    <string name="security_settings_face_description" msgid="4978624729863151372"></string>
+    <string name="security_settings_face_footer_description_class3" msgid="2639208414351635622"></string>
+    <string name="security_settings_face_footer_learn_more_description" msgid="1418112576619086897"></string>
     <string name="security_settings_face_settings_face_category" msgid="60058016983772899">"ਚਿਹਰਾ"</string>
     <string name="security_settings_face_settings_use_face_to_category" msgid="3349153603335284583">"ਇਹ ਕਰਨ ਲਈ ਚਿਹਰਾ ਵਰਤੋ"</string>
     <string name="security_settings_face_settings_preferences_category" msgid="7628929873407280453">"ਫ਼ੇਸ ਅਣਲਾਕ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਸਮੇਂ"</string>
@@ -414,8 +417,10 @@
     <string name="security_settings_face_remove_dialog_details_fingerprint" msgid="7609582230650860974">"ਤੁਹਾਡੇ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਪੱਕੇ ਤੌਰ \'ਤੇ ਅਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਮਿਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।\n\n ਮਿਟਾਉਣ ਤੋਂ ਬਾਅਦ, ਤੁਹਾਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਐਪਾਂ ਵਿੱਚ ਪ੍ਰਮਾਣੀਕਰਨ ਲਈ ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟ, ਪਿੰਨ, ਪੈਟਰਨ ਜਾਂ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਪਵੇਗੀ।"</string>
     <string name="security_settings_face_remove_dialog_details_fingerprint_conv" msgid="2627374706274503259">"ਤੁਹਾਡੇ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਪੱਕੇ ਤੌਰ \'ਤੇ ਅਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਮਿਟਾਇਆ ਜਾਵੇਗਾ।\n\nਮਿਟਾਉਣ ਤੋਂ ਬਾਅਦ, ਤੁਹਾਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਲਈ ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟ, ਪਿੰਨ, ਪੈਟਰਨ ਜਾਂ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਪਵੇਗੀ।"</string>
     <string name="security_settings_face_settings_context_subtitle" msgid="8284262560781442403">"ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਲਈ ਫ਼ੇਸ ਅਣਲਾਕ ਵਰਤੋ"</string>
+    <string name="security_settings_face_add" msgid="3118249538477856897">"ਚਿਹਰਾ ਸ਼ਾਮਲ ਕਰੋ"</string>
     <string name="security_settings_fingerprint" msgid="6387775386189204201">"ਫਿੰਗਰਪ੍ਰਿੰਟ"</string>
     <string name="security_settings_fingerprint_title" msgid="7564944192711394896">"ਫਿੰਗਰਪ੍ਰਿੰਟ"</string>
+    <string name="security_settings_fingerprint_description" msgid="629796299137157167"></string>
     <string name="security_settings_category_use_fingerprint" msgid="4273932435979772330">"ਇਹ ਕਰਨ ਲਈ ਫਿੰਗਰਪ੍ਰਿੰਟ ਵਰਤੋ"</string>
     <string name="security_settings_fingerprint_preference_title" msgid="2484965173528415458">"ਫਿੰਗਰਪ੍ਰਿੰਟ"</string>
     <string name="security_settings_fingerprint_settings_preferences_category" msgid="8975029409126780752">"ਫਿੰਗਰਪ੍ਰਿੰਟ ਅਣਲਾਕ ਵਰਤਣ ਵੇਲੇ"</string>
@@ -749,6 +754,8 @@
     <string name="lock_settings_picker_admin_restricted_personal_message" msgid="3532653662159888328">"ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਸਕ੍ਰੀਨ ਲਾਕ ਭੁੱਲ ਜਾਂਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡਾ ਆਈ.ਟੀ. ਪ੍ਰਸ਼ਾਸਕ ਇਸਨੂੰ ਰੀਸੈੱਟ ਨਹੀਂ ਕਰ ਸਕਦਾ।"</string>
     <string name="lock_settings_picker_admin_restricted_personal_message_action" msgid="5956615234246626264">"ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਲਈ ਕੋਈ ਵੱਖਰਾ ਲਾਕ ਸੈੱਟ ਕਰੋ"</string>
     <string name="lock_settings_picker_profile_message" msgid="9142379549980873478">"ਜੇ ਤੁਸੀਂ ਇਹ ਲਾਕ ਭੁੱਲ ਗਏ ਹੋ, ਤਾਂ ਆਪਣੇ ਆਈ.ਟੀ. ਪ੍ਰਸ਼ਾਸਕ ਨੂੰ ਇਸਨੂੰ ਰੀਸੈੱਟ ਕਰਨ ਲਈ ਕਹੋ"</string>
+    <!-- no translation found for lock_settings_screen_lock_settings_title (738577630596146754) -->
+    <skip />
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"ਸਕ੍ਰੀਨ ਲਾਕ ਵਿਕਲਪ"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"ਸਕ੍ਰੀਨ ਲਾਕ ਵਿਕਲਪ"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"ਅਣਲਾਕ ਕਰਨ ਦੀ ਸੁਵਿਧਾ ਦੀ ਸਵੈ-ਤਸਦੀਕ ਕਰੋ"</string>
@@ -1669,7 +1676,8 @@
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"USB ਟੈਦਰਿੰਗ"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"ਬਲੂਟੁੱਥ ਟੈਦਰਿੰਗ"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"ਈਥਰਨੈੱਟ ਟੈਦਰਿੰਗ"</string>
-    <string name="tethering_footer_info" msgid="6782375845587483281">"ਆਪਣੇ ਮੋਬਾਈਲ ਡਾਟਾ ਕਨੈਕਸ਼ਨ ਦੇ ਰਾਹੀਂ ਦੂਜਿਆਂ ਡੀਵਾਈਸਾਂ ਨੂੰ ਇੰਟਰਨੈੱਟ ਮੁਹੱਈਆ ਕਰਵਾਉਣ ਲਈ ਹੌਟਸਪੌਟ ਅਤੇ ਟੈਦਰਿੰਗ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਨੇੜਲੇ ਡੀਵਾਈਸਾਂ ਨਾਲ ਸਮੱਗਰੀ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਲਈ ਐਪਾਂ ਵੀ ਇੱਕ ਹੌਟਸਪੌਟ ਬਣਾ ਸਕਦੀਆਂ ਹਨ।"</string>
+    <!-- no translation found for tethering_footer_info (6824352505979800594) -->
+    <skip />
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"ਹੋਰਾਂ ਡੀਵਾਈਸਾਂ ਨੂੰ ਆਪਣੇ ਵਾਈ-ਫਾਈ ਜਾਂ ਮੋਬਾਈਲ ਡਾਟਾ ਕਨੈਕਸ਼ਨ ਰਾਹੀਂ ਇੰਟਰਨੈੱਟ ਮੁਹੱਈਆ ਕਰਵਾਉਣ ਲਈ ਹੌਟਸਪੌਟ ਅਤੇ ਟੈਦਰਿੰਗ ਵਰਤੋ। ਐਪਾਂ ਨਜ਼ਦੀਕੀ ਡੀਵਾਈਸਾਂ ਨਾਲ ਸਮੱਗਰੀ ਸਾਂਝੀ ਕਰਨ ਲਈ ਇੱਕ ਹੌਟਸਪੌਟ ਵੀ ਬਣਾ ਸਕਦੀਆਂ ਹਨ।"</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"ਮਦਦ"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"ਮੋਬਾਈਲ ਨੈੱਟਵਰਕ"</string>
@@ -2029,6 +2037,10 @@
     <string name="input_setting_keys_dialog_option_600" msgid="6983252972219539375">"0.6 ਸਕਿੰਟ"</string>
     <string name="input_setting_keys_custom_title" msgid="670425691119253202">"ਵਿਉਂਤਬੱਧ"</string>
     <string name="input_setting_keys_custom_value" msgid="4455905650507193648">"ਵਿਉਂਤਬੱਧ ਮੁੱਲ"</string>
+    <!-- no translation found for input_setting_bounce_keys_seekbar_desc (4575595566548124309) -->
+    <skip />
+    <!-- no translation found for input_setting_slow_keys_seekbar_desc (2171726970136563995) -->
+    <skip />
     <string name="slow_keys" msgid="2891452895499690837">"ਸਲੋ ਕੁੰਜੀਆਂ"</string>
     <string name="slow_keys_summary" msgid="3852534180402969185">"ਇਸ ਚੀਜ਼ ਨੂੰ ਬਦਲੋ ਕਿ ਕਿਸੇ ਬਟਨ ਨੂੰ ਕਿੰਨੀ ਦੇਰ ਤੱਕ ਦਬਾਉਣ \'ਤੇ ਇਸਨੂੰ ਰਜਿਸਟਰ ਕੀਤਾ ਜਾਵੇ"</string>
     <string name="sticky_keys" msgid="7317317044898161747">"ਸਥਿਰ ਕੁੰਜੀਆਂ"</string>
@@ -2043,12 +2055,18 @@
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"ਕਰਸਰ ਐਕਸੈੱਲਰੇਸ਼ਨ"</string>
     <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"ਤੁਹਾਡੇ ਮਾਊਸ ਨਾਲ ਜ਼ਿਆਦਾ ਤੇਜ਼ ਹਲਚਲ ਕਰਸਰ ਨੂੰ ਜ਼ਿਆਦਾ ਦੂਰ ਲੈ ਜਾਵੇਗੀ"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"<xliff:g id="KEYBOARD_NAME">%s</xliff:g> ਲਈ ਮਾਊਸ ਕੁੰਜੀਆਂ"</string>
-    <string name="mouse_keys_directional_summary" msgid="8108444346340180562">"ਮਾਊਸ ਪੁਆਇੰਟਰ ਨੂੰ ਹਿਲਾਉਣ ਲਈ <xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g> ਕੁੰਜੀਆਂ ਵਰਤੋ"</string>
-    <string name="mouse_keys_click_summary" msgid="1642125742164614577">"ਮਾਊਸ ਦੇ ਪ੍ਰਾਇਮਰੀ ਬਟਨ ਨੂੰ ਕਲਿੱਕ ਕਰਨ ਲਈ <xliff:g id="CLICK_LABEL">%s</xliff:g> ਕੁੰਜੀ ਵਰਤੋ"</string>
-    <string name="mouse_keys_press_hold_summary" msgid="2313418505798763112">"ਮਾਊਸ ਦੇ ਪ੍ਰਾਇਮਰੀ ਬਟਨ ਨੂੰ ਦਬਾਈ ਰੱਖਣ ਲਈ <xliff:g id="PRESS_HOLD_LABEL">%s</xliff:g> ਕੁੰਜੀ ਵਰਤੋ"</string>
-    <string name="mouse_keys_release_summary" msgid="2379239679203818720">"ਮਾਊਸ ਦੇ ਪ੍ਰਾਇਮਰੀ ਬਟਨ ਨੂੰ ਛੱਡਣ ਲਈ <xliff:g id="RELEASE_LABEL">%s</xliff:g> ਕੁੰਜੀ ਵਰਤੋ"</string>
-    <string name="mouse_keys_toggle_scroll_summary" msgid="8129249227018251990">"ਸਕ੍ਰੋਲ ਮੋਡ ਨੂੰ ਟੌਗਲ ਕਰਨ ਲਈ <xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g> ਕੁੰਜੀ ਵਰਤੋ। ਇਸ ਨਾਲ <xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g> ਰਾਹੀਂ ਉੱਪਰ, ਹੇਠਾਂ, ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਸਕ੍ਰੋਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ"</string>
-    <string name="mouse_keys_release2_summary" msgid="2395196580659122185">"ਮਾਊਸ ਦੇ ਸੈਕੰਡਰੀ ਬਟਨ ਨੂੰ ਕਲਿੱਕ ਕਰਨ ਲਈ <xliff:g id="RELEASE_2_LABEL">%s</xliff:g> ਕੁੰਜੀ ਵਰਤੋ"</string>
+    <!-- no translation found for mouse_keys_directional_summary (2215425656757420699) -->
+    <skip />
+    <!-- no translation found for mouse_keys_click_summary (8271700153598258484) -->
+    <skip />
+    <!-- no translation found for mouse_keys_press_hold_summary (112969663769147732) -->
+    <skip />
+    <!-- no translation found for mouse_keys_release_summary (7209370896835993434) -->
+    <skip />
+    <!-- no translation found for mouse_keys_toggle_scroll_summary (7492663135290108272) -->
+    <skip />
+    <!-- no translation found for mouse_keys_release2_summary (5504548339731577210) -->
+    <skip />
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"ਕੀ-ਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਦੇਖੋ"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"ਸ਼ਾਰਟਕੱਟਾਂ ਦੀ ਸੂਚੀ ਦਿਖਾਓ"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਕੀ-ਬੋਰਡ ਅਤੇ ਟੂਲ"</string>
@@ -2057,7 +2075,8 @@
     <string name="trackpad_settings" msgid="2071131324087677005">"ਟੱਚਪੈਡ"</string>
     <string name="trackpad_mouse_settings" msgid="136226693583218429">"ਟੱਚਪੈਡ ਅਤੇ ਮਾਊਸ"</string>
     <string name="mouse_settings" msgid="7301671756721327122">"ਮਾਊਸ"</string>
-    <string name="mouse_settings_summary" msgid="4609720443781972646">"ਪੁਆਇੰਟਰ ਸਪੀਡ, ਸਵੈਪ ਬਟਨ, ਬਟਨ ਵਿਉਂਤਣਾ"</string>
+    <!-- no translation found for mouse_settings_summary (8732973589097368936) -->
+    <skip />
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"ਪੁਆਇੰਟਰ ਸਪੀਡ, ਇਸ਼ਾਰੇ"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"ਕਲਿੱਕ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"ਆਈਟਮ ਦੂਜੀ ਥਾਂ ਲਿਜਾਉਣ ਲਈ ਟੈਪ ਕਰ ਕੇ ਘਸੀਟੋ"</string>
@@ -2069,7 +2088,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"ਹੇਠਲਾ-ਸੱਜਾ ਕਲਿੱਕ"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"ਹੋਰ ਵਿਕਲਪਾਂ ਲਈ ਟੱਚਪੈਡ ਦੇ ਹੇਠਲੇ ਸੱਜੇ ਕੋਨੇ \'ਤੇ ਕਲਿੱਕ ਕਰੋ"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"ਕਰਸਰ ਦੀ ਗਤੀ"</string>
-    <string name="three_finger_tap_preference_title" msgid="2114347152933865780">"3-ਉਂਗਲਾਂ ਵਾਲੇ ਟੈਪ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ"</string>
+    <!-- no translation found for three_finger_tap_preference_title (3779242412749283386) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"ਟੱਚਪੈਡ ਐਕਸੈੱਲਰੇਸ਼ਨ"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"ਤੁਹਾਡੇ ਟੱਚਪੈਡ \'ਤੇ ਜ਼ਿਆਦਾ ਤੇਜ਼ ਹਲਚਲ ਕਰਸਰ ਨੂੰ ਜ਼ਿਆਦਾ ਦੂਰ ਲੈ ਜਾਵੇਗੀ"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"ਪੁਆਇੰਟਰ ਦਾ ਰੰਗ"</string>
@@ -2371,10 +2391,10 @@
     <string name="accessibility_button_disabled_button_mode_summary" msgid="1978174613270619492">"ਨੈਵੀਗੇਸ਼ਨ ਵਾਲੀ ਪੱਟੀ ਬਟਨ ਮੋਡ ਵਰਤਣ ਵੇਲੇ ਅਣਉਪਲਬਧ।"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"ਉੱਚ ਕੰਟ੍ਰਾਸਟ ਲਿਖਤ"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"ਲਿਖਤ ਦਾ ਰੰਗ ਬਦਲ ਕੇ ਕਾਲਾ ਜਾਂ ਸਫ਼ੈਦ ਕਰੋ। ਇਹ ਬੈਕਗ੍ਰਾਉਂਡ ਦੇ ਨਾਲ ਕੰਟ੍ਰਾਸਟ ਵਧਾ ਦਿੰਦਾ ਹੈ।"</string>
-    <string name="accessibility_notification_high_contrast_text_title" msgid="85109818203175520">"ਉੱਚ ਕੰਟ੍ਰਾਸਟ ਵਾਲੀ ਲਿਖਤ ਨੂੰ ਬਦਲ ਦਿੱਤਾ ਗਿਆ ਹੈ"</string>
-    <string name="accessibility_notification_high_contrast_text_content" msgid="7159316497764514501">"ਇਸਦੀ ਬਜਾਏ ਲਿਖਤ ਆਊਟਲਾਈਨਾਂ ਵਰਤ ਕੇ ਦੇਖੋ। ਇਸਨੂੰ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਲੱਭੋ।"</string>
-    <string name="accessibility_notification_high_contrast_text_action" msgid="7190559555068414342">"ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="6940551350643305572">"ਲਿਖਤ ਆਊਟਲਾਈਨਾਂ"</string>
+    <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"ਲਿਖਤ ਕੰਟ੍ਰਾਸਟ ਨੂੰ ਬਿਹਤਰ ਬਣਾਓ"</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> ਨੇ <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> ਦੀ ਥਾਂ ਲੈ ਲਈ ਹੈ। ਤੁਸੀਂ <xliff:g id="SETTINGS">%3$s</xliff:g> ਵਿੱਚ ਜਾ ਕੇ ਇਸਨੂੰ ਚਾਲੂ ਕਰ ਸਕਦੇ ਹੋ।"</string>
+    <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"<xliff:g id="SETTINGS">%1$s</xliff:g> \'ਤੇ ਜਾਓ"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"ਲਿਖਤ ਨੂੰ ਆਊਟਲਾਈਨ ਕਰੋ"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"ਕੰਟ੍ਰਾਸਟ ਵਧਾਉਣ ਲਈ ਲਿਖਤ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਕਾਲਾ ਜਾਂ ਸਫ਼ੈਦ ਬੈਕਗ੍ਰਾਊਂਡ ਸ਼ਾਮਲ ਕਰੋ"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"ਸਕ੍ਰੀਨ ਵਿਸਤਰੀਕਰਨ ਸਵੈ-ਅੱਪਡੇਟ ਕਰੋ"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"ਐਪ ਟ੍ਰਾਂਜਿਸ਼ਨਾਂ ਤੇ ਸਕ੍ਰੀਨ ਵਿਸਤਰੀਕਰਨ ਅੱਪਡੇਟ ਕਰੋ"</string>
@@ -3678,7 +3698,13 @@
     <string name="notification_summarization_on" msgid="5692758038788359790">"ਚਾਲੂ ਹੈ"</string>
     <string name="notification_summarization_off" msgid="4660131515915234037">"ਬੰਦ ਹੈ"</string>
     <string name="notification_summarization_main_control_title" msgid="3341727937605794607">"ਸੂਚਨਾ ਦੇ ਸਾਰਾਂਸ਼ਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ"</string>
-    <string name="notification_summarization_description" msgid="3468513132824606481">"ਕਿਸੇ ਵੀ ਐਪ ਤੋਂ ਗੱਲਬਾਤ ਸੂਚਨਾਵਾਂ ਦਾ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਸਾਰਾਂਸ਼ ਕਰੋ"</string>
+    <string name="notification_summarization_description" msgid="8787422238462516765">"ਐਪਾਂ ਤੋਂ ਪ੍ਰਾਪਤ ਗੱਲਬਾਤ ਸੰਬੰਧੀ ਸੂਚਨਾਵਾਂ ਦਾ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਸਾਰਾਂਸ਼ ਦਿਓ"</string>
+    <string name="notification_summarization_excluded_description" msgid="3772411462994322275">"ਇਨ੍ਹਾਂ ਐਪਾਂ ਤੋਂ ਪ੍ਰਾਪਤ ਗੱਲਬਾਤ ਸੰਬੰਧੀ ਸੂਚਨਾਵਾਂ ਦਾ ਸਾਰਾਂਸ਼ ਨਹੀਂ ਦਿੱਤਾ ਜਾਵੇਗਾ"</string>
+    <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"ਐਪਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"</string>
+    <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"ਐਪਾਂ ਲਈ ਸੂਚਨਾ ਸੰਬੰਧੀ ਸਾਰਾਂਸ਼ਾਂ ਦੀ ਆਗਿਆ ਦਿਓ"</string>
+    <string name="notification_excluded_apps" msgid="6648267716069216826">"ਐਪ ਅਪਵਾਦ"</string>
+    <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"ਸੂਚਨਾਵਾਂ ਦਾ ਸਾਰਾਂਸ਼ ਦਿਓ"</string>
+    <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"ਇਸ ਐਪ ਤੋਂ ਗੱਲਬਾਤ ਸੰਬੰਧੀ ਸੂਚਨਾਵਾਂ ਦਾ ਸਾਰਾਂਸ਼ ਦਿਓ"</string>
     <string name="live_notifications" msgid="4650406646292963831">"ਲਾਈਵ ਸੂਚਨਾਵਾਂ"</string>
     <string name="live_notifications_switch" msgid="50547709843410137">"ਲਾਈਵ ਜਾਣਕਾਰੀ ਦਿਖਾਓ"</string>
     <string name="live_notifications_desc" msgid="7383414458419053003">"ਪਿੰਨ ਕੀਤੀਆਂ ਸੂਚਨਾਵਾਂ ਐਪਾਂ ਤੋਂ ਲਾਈਵ ਜਾਣਕਾਰੀ ਦਿਖਾਉਂਦੀਆਂ ਹਨ ਅਤੇ ਇਹ ਜਾਣਕਾਰੀ ਹਮੇਸ਼ਾਂ ਸਥਿਤੀ ਪੱਟੀ ਅਤੇ ਲਾਕ ਸਕ੍ਰੀਨ \'ਤੇ ਦਿਖਦੀ ਹੈ"</string>
@@ -3836,6 +3862,10 @@
     <string name="notification_bundle_off" msgid="1550261372988157377">"ਬੰਦ"</string>
     <string name="notification_bundle_main_control_title" msgid="4746182488388939403">"ਸੂਚਨਾ ਬੰਡਲਿੰਗ ਦੀ ਵਰਤੋਂ ਕਰੋ"</string>
     <string name="notification_bundle_description" msgid="3896142878395333784">"ਵਧੇਰੇ ਸ਼ਾਂਤ ਅਨੁਭਵ ਲਈ ਮਿਲਦੇ-ਜੁਲਦੇ ਥੀਮਾਂ ਵਾਲੀਆਂ ਸੂਚਨਾਵਾਂ ਨੂੰ ਖਮੋਸ਼ ਅਤੇ ਇਕੱਠੇ ਗਰੁੱਪਬੱਧ ਕੀਤਾ ਜਾਵੇਗਾ। ਬੰਡਲਿੰਗ, ਐਪ ਦੀਆਂ ਆਪਣੀਆਂ ਸੂਚਨਾ ਸੈਟਿੰਗਾਂ ਨੂੰ ਓਵਰਰਾਈਡ ਕਰੇਗੀ।"</string>
+    <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"ਬੰਡਲ ਸੂਚਨਾਵਾਂ"</string>
+    <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"ਵਧੇਰੇ ਸ਼ਾਂਤ ਅਨੁਭਵ ਲਈ ਮਿਲਦੇ-ਜੁਲਦੇ ਥੀਮਾਂ ਵਾਲੀਆਂ ਸੂਚਨਾਵਾਂ ਨੂੰ ਖਮੋਸ਼ ਅਤੇ ਇਕੱਠੇ ਗਰੁੱਪਬੱਧ ਕੀਤਾ ਜਾਵੇਗਾ"</string>
+    <string name="notification_bundle_excluded_description" msgid="7249934130756103812">"ਇਨ੍ਹਾਂ ਐਪਾਂ ਤੋਂ ਪ੍ਰਾਪਤ ਸੂਚਨਾਵਾਂ ਨੂੰ ਬੰਡਲ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ"</string>
+    <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"ਐਪਾਂ ਲਈ ਸੂਚਨਾ ਨੂੰ ਬੰਡਲ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿਓ"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR ਮਦਦਗਾਰ ਸੇਵਾਵਾਂ"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"ਕਿਸੇ ਵੀ ਸਥਾਪਤ ਐਪ ਵੱਲੋਂ VR ਮਦਦਗਾਰ ਸੇਵਾਵਾਂ ਵਜੋਂ ਚਲਾਉਣ ਦੀ ਬੇਨਤੀ ਨਹੀਂ ਕੀਤੀ ਗਈ।"</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"ਕੀ <xliff:g id="SERVICE">%1$s</xliff:g> ਲਈ VR ਸੇਵਾ ਪਹੁੰਚ ਨੂੰ ਆਗਿਆ ਦੇਣੀ ਹੈ?"</string>
@@ -4198,7 +4228,8 @@
     <string name="high_power_off" msgid="317000444619279018">"ਬੈਟਰੀ ਵਰਤੋਂ ਨੂੰ ਸੁਯੋਗ ਕਰਨਾ"</string>
     <string name="high_power_system" msgid="3966701453644915787">"ਬੈਟਰੀ ਸੁਯੋਗਤਾ ਉਪਲਬਧ ਨਹੀਂ"</string>
     <string name="high_power_prompt_title" msgid="2574478825228409124">"ਕੀ ਐਪ ਨੂੰ ਹਮੇਸ਼ਾਂ ਬੈਕਗ੍ਰਾਊਂਡ ਵਿੱਚ ਚੱਲਣ ਦੇਣਾ ਹੈ?"</string>
-    <string name="high_power_prompt_body" msgid="6029266540782139941">"<xliff:g id="APP_NAME">%1$s</xliff:g> ਨੂੰ ਬੈਕਗ੍ਰਾਊਂਡ ਵਿੱਚ ਹਮੇਸ਼ਾਂ ਚਾਲੂ ਰੱਖਣ ਨਾਲ ਬੈਟਰੀ ਲਾਈਫ਼ ਘੱਟ ਸਕਦੀ ਹੈ। \n\nਤੁਸੀਂ ਇਸਨੂੰ ਬਾਅਦ ਵਿੱਚ ਸੈਟਿੰਗਾਂ &gt; ਐਪਾਂ ਵਿੱਚ ਜਾ ਕੇ ਬਦਲ ਸਕਦੇ ਹੋ।"</string>
+    <!-- no translation found for high_power_prompt_body (8570446878622133298) -->
+    <skip />
     <string name="battery_summary" msgid="2491764359695671207">"ਪਿਛਲੀ ਵਾਰ ਪੂਰਾ ਚਾਰਜ ਕਰਨ ਤੋਂ ਬਾਅਦ ਬੈਟਰੀ ਦੀ <xliff:g id="PERCENTAGE">%1$s</xliff:g> ਵਰਤੋਂ ਹੋਈ"</string>
     <string name="battery_summary_24hr" msgid="7656033283282656551">"ਪਿਛਲੇ 24 ਘੰਟਿਆਂ ਵਿੱਚ <xliff:g id="PERCENTAGE">%1$s</xliff:g> ਵਰਤੀ ਗਈ"</string>
     <string name="no_battery_summary" msgid="5769159953384122003">"ਪਿਛਲੀ ਵਾਰ ਪੂਰਾ ਚਾਰਜ ਕਰਨ ਤੋਂ ਬਾਅਦ ਬੈਟਰੀ ਦੀ ਕੋਈ ਵਰਤੋਂ ਨਹੀਂ"</string>
@@ -4551,7 +4582,7 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"ਕੈਮਰੇ ਨੂੰ ਤੁਰੰਤ ਖੋਲ੍ਹਣ ਲਈ, ਪਾਵਰ ਬਟਨ ਨੂੰ ਦੋ ਵਾਰ ਦਬਾਓ। ਇਹ ਕਿਸੇ ਵੀ ਸਕ੍ਰੀਨ ਤੋਂ ਕੰਮ ਕਰਦਾ ਹੈ।"</string>
     <string name="double_tap_power_title" msgid="8129216801770589261">"ਪਾਵਰ ਬਟਨ ਨੂੰ ਦੋ ਵਾਰ ਦਬਾਓ"</string>
     <string name="double_tap_power_enabled" msgid="7609935047996304482">"ਦੋ ਵਾਰ ਦਬਾਉਣ ਦੀ ਸੁਵਿਧਾ ਵਰਤੋ"</string>
-    <string name="double_tap_power_target_action_category" msgid="2568741597095863728">"ਖੋਲ੍ਹਣ ਲਈ ਪਾਵਰ ਬਟਨ ਨੂੰ ਦੋ ਵਾਰ ਦਬਾਓ"</string>
+    <string name="double_tap_power_target_action_category" msgid="2568741597095863728">"ਇਸਨੂੰ ਖੋਲ੍ਹਣ ਲਈ ਪਾਵਰ ਬਟਨ ਨੂੰ ਦੋ ਵਾਰ ਦਬਾਓ"</string>
     <string name="double_tap_power_camera_action_title" msgid="6641206739933181509">"ਕੈਮਰਾ"</string>
     <string name="double_tap_power_camera_action_summary" msgid="4942585540579590444">"ਕੈਮਰਾ ਖੋਲ੍ਹੋ"</string>
     <string name="double_tap_power_wallet_action_title" msgid="2460162990983117189">"Wallet"</string>
@@ -5536,6 +5567,10 @@
     <string name="audio_sharing_share_with_button_label" msgid="4146194430380237357">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"ਬੰਦ ਕਰੋ"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"ਅਨੁਰੂਪ ਹੈੱਡਫ਼ੋਨਾਂ ਦਾ ਇੱਕ ਹੋਰ ਜੋੜਾ ਕਨੈਕਟ ਕਰੋ ਜਾਂ ਆਪਣੀ ਸਟ੍ਰੀਮ ਦੇ ਨਾਮ ਅਤੇ ਪਾਸਵਰਡ ਨੂੰ ਦੂਜੇ ਵਿਅਕਤੀ ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
+    <!-- no translation found for audio_sharing_dialog_qr_code_content (2246980817848351361) -->
+    <skip />
+    <!-- no translation found for audio_sharing_dialog_pair_new_device_content (6720472590211440206) -->
+    <skip />
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"ਅਨੁਰੂਪ ਹੈੱਡਫ਼ੋਨਾਂ ਦੇ ਕਿਸੇ ਹੋਰ ਸੈੱਟ ਨੂੰ ਜੋੜਾਬੱਧ ਕਰੋ ਜਾਂ ਆਪਣੇ ਆਡੀਓ ਸਟ੍ਰੀਮ ਦੇ QR ਕੋਡ ਨੂੰ ਦੂਜੇ ਵਿਅਕਤੀ ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"ਆਡੀਓ ਨੂੰ ਸਾਂਝਾ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"</string>
     <string name="audio_sharing_pair_button_label" msgid="7987236990273083588">"ਨਵਾਂ ਡੀਵਾਈਸ ਜੋੜਾਬੱਧ ਕਰੋ"</string>
@@ -5589,7 +5624,8 @@
     <string name="audio_streams_dialog_learn_more" msgid="6711241053442211345">"ਹੋਰ ਜਾਣੋ"</string>
     <string name="audio_streams_dialog_cannot_play" msgid="1358828316927479091">"ਇਸ ਆਡੀਓ ਸਟ੍ਰੀਮ ਨੂੰ <xliff:g id="DEVICE_NAME">%1$s</xliff:g> \'ਤੇ ਨਹੀਂ ਚਲਾਇਆ ਜਾ ਸਕਦਾ।"</string>
     <string name="audio_streams_listening_now" msgid="4205614429222949176">"ਹੁਣ ਸੁਣਿਆ ਜਾ ਰਿਹਾ ਹੈ"</string>
-    <string name="audio_streams_present_now" msgid="1128360774541089402">"ਹੋਸਟ ਨੇ ਰੋਕ ਦਿੱਤਾ"</string>
+    <!-- no translation found for audio_streams_present_now (7519818719382756366) -->
+    <skip />
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"ਸੁਣਨਾ ਬੰਦ ਕਰੋ"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"ਅਨੁਰੂਪ ਹੈੱਡਫ਼ੋਨਾਂ ਨੂੰ ਕੁਨੈਕਟ ਕਰੋ"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"ਡੀਵਾਈਸ ਕਨੈਕਟ ਕਰੋ"</string>
@@ -5614,13 +5650,13 @@
     <string name="keywords_contacts_storage" msgid="9061213057165337893">"ਸੰਪਰਕ, ਸਟੋਰੇਜ, ਖਾਤਾ"</string>
     <string name="contacts_storage_settings_title" msgid="1574030546525203810">"ਸੰਪਰਕ ਸਟੋਰੇਜ"</string>
     <string name="contacts_storage_device_only_preference_label" msgid="970250816918108264">"ਸਿਰਫ਼ ਡੀਵਾਈਸ"</string>
-    <string name="contacts_storage_device_only_preference_summary" msgid="2339782491812039153">"ਨਵੇਂ ਸੰਪਰਕਾਂ ਨੂੰ ਕਿਸੇ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ"</string>
+    <!-- no translation found for contacts_storage_device_only_preference_summary (8585284581093336284) -->
+    <skip />
     <string name="contacts_storage_selection_message" msgid="8082077300632059003">"ਸੰਪਰਕਾਂ ਨੂੰ ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਤੌਰ \'ਤੇ ਤੁਹਾਡੇ ਡੀਵਾਈਸ \'ਤੇ ਰੱਖਿਅਤ ਕੀਤਾ ਜਾਵੇਗਾ ਅਤੇ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਕੀਤਾ ਜਾਵੇਗਾ"</string>
     <string name="contacts_storage_set_default_account_error_message" msgid="849847649756411393">"ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਖਾਤਾ ਸੈੱਟ ਕਰਨ ਵਿੱਚ ਗੜਬੜ ਹੋਈ"</string>
     <string name="contacts_storage_no_account_set_summary" msgid="7454973781666475276">"ਕੁਝ ਵੀ ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਵਜੋਂ ਸੈੱਟ ਨਹੀਂ ਹੈ"</string>
     <string name="contacts_storage_local_account_summary" msgid="5034805108128685712">"ਸਿਰਫ਼ ਡੀਵਾਈਸ"</string>
-    <!-- no translation found for contacts_storage_account_title (7334522539665856395) -->
-    <skip />
+    <string name="contacts_storage_account_title" msgid="7334522539665856395">"ਡੀਵਾਈਸ &amp; %1$s"</string>
     <string name="contacts_storage_first_time_add_account_message" msgid="5161093169928132323">"ਸ਼ੁਰੂਆਤ ਕਰਨ ਲਈ ਕੋਈ ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ"</string>
     <string name="contacts_storage_account_category_title" msgid="6427149157377815586">"ਸੰਪਰਕ ਕਿੱਥੇ ਰੱਖਿਅਤ ਕਰਨੇ ਹਨ"</string>
     <string name="search_gesture_feature_title" msgid="7037117019612710960">"ਖੋਜਣ ਲਈ ਚੱਕਰ ਬਣਾਓ"</string>
@@ -5633,6 +5669,6 @@
     <string name="keywords_supervision_settings" msgid="2580555201483955376">"ਨਿਗਰਾਨੀ, ਮਾਪਿਆਂ ਦੁਆਰਾ ਨਿਗਰਾਨੀ, ਮਾਪਿਆਂ ਦੇ ਕੰਟਰੋਲ"</string>
     <string name="supervision_pin_management_preference_title" msgid="961680798581006465">"ਪਿੰਨ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="3244161328612671896">"ਪਿੰਨ ਰਿਕਵਰੀ ਵਿਧੀ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ"</string>
-    <!-- no translation found for supervision_change_pin_preference_title (2288584039438231801) -->
-    <skip />
+    <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"ਪਿੰਨ ਬਦਲੋ"</string>
+    <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"ਪਿੰਨ ਭੁੱਲ ਗਏ"</string>
 </resources>
