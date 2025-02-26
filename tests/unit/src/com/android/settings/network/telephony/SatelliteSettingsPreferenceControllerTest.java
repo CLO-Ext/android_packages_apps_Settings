@@ -48,7 +48,6 @@ import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import com.android.internal.telephony.flags.Flags;
-import com.android.settings.R;
 import com.android.settings.network.CarrierConfigCache;
 
 import org.junit.Before;
@@ -167,7 +166,7 @@ public class SatelliteSettingsPreferenceControllerTest {
     @Test
     @EnableFlags(com.android.settings.flags.Flags.FLAG_SATELLITE_OEM_SETTINGS_UX_MIGRATION)
     public void onResume_registerTelephonyCallback_success() {
-        mController.init(TEST_SUB_ID);
+        mController.initialize(TEST_SUB_ID);
         mController.onResume(null);
 
         verify(mTelephonyManager).registerTelephonyCallback(any(), any());
@@ -176,7 +175,7 @@ public class SatelliteSettingsPreferenceControllerTest {
     @Test
     @EnableFlags(com.android.settings.flags.Flags.FLAG_SATELLITE_OEM_SETTINGS_UX_MIGRATION)
     public void getAvailabilityStatus_unregisterTelephonyCallback_success() {
-        mController.init(TEST_SUB_ID);
+        mController.initialize(TEST_SUB_ID);
         mController.onPause(null);
 
         verify(mTelephonyManager).unregisterTelephonyCallback(any());
@@ -185,7 +184,7 @@ public class SatelliteSettingsPreferenceControllerTest {
     @Test
     @EnableFlags(com.android.settings.flags.Flags.FLAG_SATELLITE_OEM_SETTINGS_UX_MIGRATION)
     public void getAvailabilityStatus_hasServiceDataType_showDataUi() {
-        mController.init(TEST_SUB_ID);
+        mController.initialize(TEST_SUB_ID);
         Preference preference = new Preference(mContext);
         preference.setKey(KEY);
         preference.setTitle("test title");
@@ -194,14 +193,13 @@ public class SatelliteSettingsPreferenceControllerTest {
         mController.mCarrierRoamingNtnModeCallback.onCarrierRoamingNtnAvailableServicesChanged(
                 new int[]{SERVICE_TYPE_SMS, SERVICE_TYPE_DATA});
 
-        assertThat(preference.getTitle()).isEqualTo(
-                mContext.getString(R.string.title_satellite_setting_connectivity));
+        assertThat(preference.getTitle()).isEqualTo("Satellite connectivity");
     }
 
     @Test
     @EnableFlags(com.android.settings.flags.Flags.FLAG_SATELLITE_OEM_SETTINGS_UX_MIGRATION)
     public void getAvailabilityStatus_onlyHasServiceSmsType_showSmsUi() {
-        mController.init(TEST_SUB_ID);
+        mController.initialize(TEST_SUB_ID);
         Preference preference = new Preference(mContext);
         preference.setKey(KEY);
         preference.setTitle("test title");
@@ -210,8 +208,7 @@ public class SatelliteSettingsPreferenceControllerTest {
         mController.mCarrierRoamingNtnModeCallback.onCarrierRoamingNtnAvailableServicesChanged(
                 new int[]{SERVICE_TYPE_SMS});
 
-        assertThat(preference.getTitle()).isEqualTo(
-                mContext.getString(R.string.satellite_setting_title));
+        assertThat(preference.getTitle()).isEqualTo("Satellite messaging");
     }
 
     @Test
@@ -220,14 +217,14 @@ public class SatelliteSettingsPreferenceControllerTest {
         mCarrierConfig.putBoolean(
                 KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL,
                 false);
-        mController.init(TEST_SUB_ID);
+        mController.initialize(TEST_SUB_ID);
         Preference preference = new Preference(mContext);
         preference.setKey(KEY);
         preference.setTitle("test title");
         mController.updateState(preference);
 
         assertThat(preference.getSummary()).isEqualTo(
-                mContext.getString(R.string.satellite_setting_summary_without_entitlement));
+                "Send and receive text messages by satellite. Contact your carrier for details.");
     }
 
     @Test
@@ -239,7 +236,7 @@ public class SatelliteSettingsPreferenceControllerTest {
         mCarrierConfig.putInt(
                 CarrierConfigManager.KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT,
                 CARRIER_ROAMING_NTN_CONNECT_MANUAL);
-        mController.init(TEST_SUB_ID);
+        mController.initialize(TEST_SUB_ID);
         PreferenceManager preferenceManager = new PreferenceManager(mContext);
         PreferenceScreen preferenceScreen = preferenceManager.createPreferenceScreen(mContext);
         Preference preference = new Preference(mContext);
@@ -250,7 +247,7 @@ public class SatelliteSettingsPreferenceControllerTest {
         mController.displayPreference(preferenceScreen);
 
         assertThat(preference.getSummary()).isEqualTo(
-                mContext.getString(R.string.satellite_setting_enabled_summary));
+                "Send and receive text messages by satellite. Included with your account.");
     }
 
     @Test
@@ -262,7 +259,7 @@ public class SatelliteSettingsPreferenceControllerTest {
         mCarrierConfig.putInt(
                 CarrierConfigManager.KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT,
                 CARRIER_ROAMING_NTN_CONNECT_MANUAL);
-        mController.init(TEST_SUB_ID);
+        mController.initialize(TEST_SUB_ID);
         PreferenceManager preferenceManager = new PreferenceManager(mContext);
         PreferenceScreen preferenceScreen = preferenceManager.createPreferenceScreen(mContext);
         Preference preference = new Preference(mContext);
@@ -273,6 +270,6 @@ public class SatelliteSettingsPreferenceControllerTest {
         mController.displayPreference(preferenceScreen);
 
         assertThat(preference.getSummary()).isEqualTo(
-                mContext.getString(R.string.satellite_setting_disabled_summary));
+                "Send and receive text messages by satellite. Not included with your account.");
     }
 }

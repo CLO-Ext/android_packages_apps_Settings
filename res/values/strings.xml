@@ -5256,6 +5256,8 @@
     <string name="accessibility_feedback_summary">Help improve by taking a survey</string>
     <!-- Summary for the accessibility feedback preference is disabled. [CHAR LIMIT=100] -->
     <string name="accessibility_feedback_disabled_summary">No surveys available</string>
+    <!-- The menu item to start the feedback process for the accessibility [CHAR LIMIT=30] -->
+    <string name="accessibility_send_feedback_title">Send feedback</string>
     <!-- Title for the accessibility preference category of services downloaded by the user. [CHAR LIMIT=50] -->
     <string name="user_installed_services_category_title">Downloaded apps</string>
     <!-- Title for the accessibility preference category of settings considered to be experimental, meaning they might be changed or removed in the future. [CHAR LIMIT=50] -->
