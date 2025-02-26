@@ -104,7 +104,8 @@ public class DesktopModePreferenceControllerTest {
         // Set desktop mode available
         when(mResources.getBoolean(R.bool.config_isDesktopModeSupported))
                 .thenReturn(true);
-        when(mResources.getBoolean(com.android.internal.R.bool.config_canInternalDisplayHostDesktops))
+        when(mResources
+                .getBoolean(com.android.internal.R.bool.config_canInternalDisplayHostDesktops))
                 .thenReturn(true);
         ShadowSystemProperties.override("persist.wm.debug.desktop_mode_enforce_device_restrictions",
                 "false");

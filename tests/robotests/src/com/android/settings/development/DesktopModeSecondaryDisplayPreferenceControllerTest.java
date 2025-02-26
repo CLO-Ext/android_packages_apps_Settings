@@ -97,7 +97,8 @@ public class DesktopModeSecondaryDisplayPreferenceControllerTest {
         when(mScreen.findPreference(mController.getPreferenceKey())).thenReturn(mPreference);
         mController.displayPreference(mScreen);
         when(mResources.getBoolean(R.bool.config_isDesktopModeSupported)).thenReturn(false);
-        when(mResources.getBoolean(com.android.internal.R.bool.config_canInternalDisplayHostDesktops))
+        when(mResources
+            .getBoolean(com.android.internal.R.bool.config_canInternalDisplayHostDesktops))
             .thenReturn(false);
     }
 

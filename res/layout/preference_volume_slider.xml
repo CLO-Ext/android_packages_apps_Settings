@@ -66,6 +66,8 @@
                 android:layout_gravity="center_vertical"
                 android:paddingStart="0dp"
                 android:paddingEnd="12dp"
+                android:progressBackgroundTint="@color/settingslib_materialColorOutline"
+                android:progressTint="@color/settingslib_materialColorPrimaryFixed"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"/>
 

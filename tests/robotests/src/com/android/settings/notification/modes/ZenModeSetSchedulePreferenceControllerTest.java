@@ -80,7 +80,7 @@ public class ZenModeSetSchedulePreferenceControllerTest {
     }
 
     @Test
-    @EnableFlags({Flags.FLAG_MODES_API, Flags.FLAG_MODES_UI})
+    @EnableFlags(Flags.FLAG_MODES_UI)
     public void updateScheduleRule_updatesConditionAndTriggerDescription() {
         ZenMode mode = new TestModeBuilder()
                 .setPackage(SystemZenRules.PACKAGE_ANDROID)

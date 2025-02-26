@@ -91,6 +91,7 @@ public class FreeformWindowsPreferenceControllerTest {
         doReturn(mFragmentManager).when(mActivity).getSupportFragmentManager();
         doReturn(mActivity).when(mFragment).getActivity();
         doReturn(true).when(mResources).getBoolean(R.bool.config_isDesktopModeSupported);
+        doReturn(true).when(mResources).getBoolean(R.bool.config_canInternalDisplayHostDesktops);
         mController = new FreeformWindowsPreferenceController(mContext, mFragment);
         when(mScreen.findPreference(mController.getPreferenceKey())).thenReturn(mPreference);
         when(mContext.getPackageManager()).thenReturn(mPackageManager);

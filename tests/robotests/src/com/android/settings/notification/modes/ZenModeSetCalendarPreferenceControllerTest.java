@@ -85,7 +85,7 @@ public class ZenModeSetCalendarPreferenceControllerTest {
     }
 
     @Test
-    @EnableFlags({Flags.FLAG_MODES_API, Flags.FLAG_MODES_UI})
+    @EnableFlags(Flags.FLAG_MODES_UI)
     public void updateEventMode_updatesConditionAndTriggerDescription() {
         ZenMode mode = new TestModeBuilder()
                 .setPackage(SystemZenRules.PACKAGE_ANDROID)
