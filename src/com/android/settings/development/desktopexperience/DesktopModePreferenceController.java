@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.development.desktopexperience;
 
 import static android.provider.Settings.Global.DEVELOPMENT_OVERRIDE_DESKTOP_MODE_FEATURES;
 import static android.window.DesktopModeFlags.ToggleOverride.fromSetting;
@@ -33,6 +33,9 @@ import androidx.preference.TwoStatePreference;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settings.development.DevelopmentSettingsDashboardFragment;
+import com.android.settings.development.RebootConfirmationDialogFragment;
+import com.android.settings.development.RebootConfirmationDialogHost;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 import com.android.wm.shell.shared.desktopmode.DesktopModeStatus;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.development.desktopexperience;
 
 import static android.content.pm.PackageManager.FEATURE_FREEFORM_WINDOW_MANAGEMENT;
 
@@ -28,6 +28,9 @@ import androidx.preference.TwoStatePreference;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settings.development.DevelopmentSettingsDashboardFragment;
+import com.android.settings.development.RebootConfirmationDialogFragment;
+import com.android.settings.development.RebootConfirmationDialogHost;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 import com.android.wm.shell.shared.desktopmode.DesktopModeStatus;
 

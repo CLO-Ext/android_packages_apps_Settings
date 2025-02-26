@@ -79,7 +79,8 @@ public class AvailableMediaBluetoothDeviceUpdater extends BluetoothDeviceUpdater
             // If device is LE Audio, it is compatible with HFP and A2DP.
             // It would show in Available Devices group if the audio sharing flag is disabled or
             // the device is not in the audio sharing session.
-            if (cachedDevice.isConnectedLeAudioDevice()) {
+            if (cachedDevice.isConnectedLeAudioDevice()
+                    || cachedDevice.hasConnectedLeAudioMemberDevice()) {
                 if (BluetoothUtils.isAudioSharingUIAvailable(mContext)
                         && BluetoothUtils.hasConnectedBroadcastSource(
                         cachedDevice, mLocalBtManager)) {

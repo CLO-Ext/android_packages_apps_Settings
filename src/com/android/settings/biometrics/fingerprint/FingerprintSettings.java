@@ -1067,8 +1067,11 @@ public class FingerprintSettings extends SubSettings {
                 mRemovalSidecar.setListener(mRemovalListener);
             }
 
-            mCalibrator = FeatureFactory.getFeatureFactory().getFingerprintFeatureProvider()
-                    .getUdfpsEnrollCalibrator(getActivity().getApplicationContext(), null, null);
+            if (!mLaunchedConfirm && !mIsEnrolling) {
+                mCalibrator = FeatureFactory.getFeatureFactory().getFingerprintFeatureProvider()
+                        .getUdfpsEnrollCalibrator(getActivity().getApplicationContext(), null,
+                                null);
+            }
         }
 
         private void updatePreferences() {
@@ -1517,6 +1520,11 @@ public class FingerprintSettings extends SubSettings {
                 intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_CHALLENGE_TOKEN, mToken);
                 intent.putExtra(BiometricEnrollBase.EXTRA_KEY_CHALLENGE, mChallenge);
             }
+
+            if (mCalibrator != null) {
+                intent.putExtras(mCalibrator.getExtrasForNextIntent());
+            }
+
             startActivityForResult(intent, AUTO_ADD_FIRST_FINGERPRINT_REQUEST);
         }
 

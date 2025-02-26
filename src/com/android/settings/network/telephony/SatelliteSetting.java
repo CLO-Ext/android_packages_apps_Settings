@@ -26,6 +26,7 @@ import static android.telephony.CarrierConfigManager.KEY_SATELLITE_INFORMATION_R
 
 import android.app.Activity;
 import android.app.settings.SettingsEnums;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
@@ -90,6 +91,12 @@ public class SatelliteSetting extends RestrictedDashboardFragment {
     @Override
     public int getMetricsCategory() {
         return SettingsEnums.SATELLITE_SETTING;
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        use(SatelliteAppListCategoryController.class).init();
     }
 
     @Override

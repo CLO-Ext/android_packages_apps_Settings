@@ -82,6 +82,11 @@
 
     <!-- Content description for preview pager. [CHAR LIMIT=NONE] -->
     <string name="preview_pager_content_description">Preview</string>
+    <!-- Previous button for preview pager. [CHAR LIMIT=NONE] -->
+    <string name="preview_pager_previous_button">Previous preview</string>
+    <!-- Next button for preview pager. [CHAR LIMIT=NONE] -->
+    <string name="preview_pager_next_button">Next preview</string>
+
     <!-- Content description for qrcode image. [CHAR LIMIT=none]-->
     <string name="qr_code_content_description">QR code</string>
 
@@ -12769,6 +12774,12 @@
     <string name="description_satellite_setting_messaging">satellite messaging</string>
     <!-- Title for notifying user's account be able to use data transmission of Satellite" [CHAR_LIMIT=NONE] -->
     <string name="title_have_satellite_data_plan">Use of data is included with your account</string>
+    <!-- Category title for Satellite supported apps info  [CHAR LIMIT=60] -->
+    <string name="category_title_satellite_supported_apps">Supported apps on your phone</string>
+    <!-- Title for a entry to start apps list page with Satellite service supported.  [CHAR LIMIT=60] -->
+    <string name="title_satellite_supported_app_list_entry">see all apps</string>
+    <!-- Title for a page of apps list page with Satellite service supported.  [CHAR LIMIT=60] -->
+    <string name="title_satellite_supported_app_list_page">Supported apps on your phone</string>
 
     <!-- Title for Apn settings in mobile network settings [CHAR LIMIT=60] -->
     <string name="mobile_network_apn_title">Access Point Names</string>

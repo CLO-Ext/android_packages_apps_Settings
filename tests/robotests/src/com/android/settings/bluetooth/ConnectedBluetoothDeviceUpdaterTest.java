@@ -270,6 +270,20 @@ public class ConnectedBluetoothDeviceUpdaterTest {
     }
 
     @Test
+    public void onProfileConnectionStateChanged_hasLeaMemberConnected_inCall_removesPreference() {
+        setUpDeviceUpdaterWithAudioMode(AudioManager.MODE_IN_CALL);
+        when(mBluetoothDeviceUpdater
+                .isDeviceConnected(any(CachedBluetoothDevice.class))).thenReturn(true);
+        when(mCachedBluetoothDevice.isConnectedLeAudioDevice()).thenReturn(false);
+        when(mCachedBluetoothDevice.hasConnectedLeAudioMemberDevice()).thenReturn(true);
+
+        mBluetoothDeviceUpdater.onProfileConnectionStateChanged(mCachedBluetoothDevice,
+                BluetoothProfile.STATE_CONNECTED, BluetoothProfile.LE_AUDIO);
+
+        verify(mBluetoothDeviceUpdater).removePreference(mCachedBluetoothDevice);
+    }
+
+    @Test
     public void onProfileConnectionStateChanged_leAudioDeviceConnected_notInCall_removesPreference()
     {
         setUpDeviceUpdaterWithAudioMode(AudioManager.MODE_NORMAL);
@@ -282,6 +296,22 @@ public class ConnectedBluetoothDeviceUpdaterTest {
 
         verify(mBluetoothDeviceUpdater).removePreference(mCachedBluetoothDevice);
     }
+
+    @Test
+    public void
+            onProfileConnectionStateChanged_hasLeaMemberConnected_notInCall_removesPreference() {
+        setUpDeviceUpdaterWithAudioMode(AudioManager.MODE_NORMAL);
+        when(mBluetoothDeviceUpdater
+                .isDeviceConnected(any(CachedBluetoothDevice.class))).thenReturn(true);
+        when(mCachedBluetoothDevice.isConnectedLeAudioDevice()).thenReturn(false);
+        when(mCachedBluetoothDevice.hasConnectedLeAudioMemberDevice()).thenReturn(true);
+
+        mBluetoothDeviceUpdater.onProfileConnectionStateChanged(mCachedBluetoothDevice,
+                BluetoothProfile.STATE_CONNECTED, BluetoothProfile.LE_AUDIO);
+
+        verify(mBluetoothDeviceUpdater).removePreference(mCachedBluetoothDevice);
+    }
+
     @Test
     public void onProfileConnectionStateChanged_deviceIsNotInList_inCall_invokesRemovesPreference()
     {

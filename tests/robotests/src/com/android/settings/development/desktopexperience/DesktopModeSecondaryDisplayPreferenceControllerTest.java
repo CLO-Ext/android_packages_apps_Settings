@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.development.desktopexperience;
 
 import static android.provider.Settings.Global.DEVELOPMENT_ENABLE_FREEFORM_WINDOWS_SUPPORT;
 import static android.provider.Settings.Global.DEVELOPMENT_FORCE_DESKTOP_MODE_ON_EXTERNAL_DISPLAYS;
 
-import static com.android.settings.development.DesktopModeSecondaryDisplayPreferenceController.SETTING_VALUE_OFF;
-import static com.android.settings.development.DesktopModeSecondaryDisplayPreferenceController.SETTING_VALUE_ON;
+import static com.android.settings.development.desktopexperience.DesktopModeSecondaryDisplayPreferenceController.SETTING_VALUE_OFF;
+import static com.android.settings.development.desktopexperience.DesktopModeSecondaryDisplayPreferenceController.SETTING_VALUE_ON;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -44,6 +44,8 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.R;
+import com.android.settings.development.DevelopmentSettingsDashboardFragment;
+import com.android.settings.development.RebootConfirmationDialogFragment;
 import com.android.window.flags.Flags;
 
 import org.junit.Before;
@@ -97,9 +99,9 @@ public class DesktopModeSecondaryDisplayPreferenceControllerTest {
         when(mScreen.findPreference(mController.getPreferenceKey())).thenReturn(mPreference);
         mController.displayPreference(mScreen);
         when(mResources.getBoolean(R.bool.config_isDesktopModeSupported)).thenReturn(false);
-        when(mResources
-            .getBoolean(com.android.internal.R.bool.config_canInternalDisplayHostDesktops))
-            .thenReturn(false);
+        when(mResources.getBoolean(
+                com.android.internal.R.bool.config_canInternalDisplayHostDesktops)).thenReturn(
+                false);
     }
 
     @DisableFlags(Flags.FLAG_SHOW_DESKTOP_EXPERIENCE_DEV_OPTION)

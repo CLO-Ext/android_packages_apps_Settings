@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.development.window;
 
 import static android.provider.Settings.Global.DEVELOPMENT_ENABLE_NON_RESIZABLE_MULTI_WINDOW;
 

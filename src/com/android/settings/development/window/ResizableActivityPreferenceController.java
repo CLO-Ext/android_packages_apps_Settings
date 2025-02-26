@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.development.window;
 
 import android.content.Context;
 import android.provider.Settings;
@@ -32,9 +32,9 @@ public class ResizableActivityPreferenceController extends DeveloperOptionsPrefe
     private static final String FORCE_RESIZABLE_KEY = "force_resizable_activities";
 
     @VisibleForTesting
-    final static int SETTING_VALUE_ON = 1;
+    static final int SETTING_VALUE_ON = 1;
     @VisibleForTesting
-    final static int SETTING_VALUE_OFF = 0;
+    static final int SETTING_VALUE_OFF = 0;
 
     public ResizableActivityPreferenceController(Context context) {
         super(context);

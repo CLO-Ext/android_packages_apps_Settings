@@ -1,7 +1,5 @@
-package com.android.settings.development;
-
 /*
- * Copyright (C) 2017 The Android Open Source Project
+ * Copyright (C) 2019 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,6 +13,13 @@ package com.android.settings.development;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+package com.android.settings.development.window;
+
+import static android.provider.Settings.Global.DEVELOPMENT_ENABLE_NON_RESIZABLE_MULTI_WINDOW;
+
+import static com.android.settings.development.window.NonResizableMultiWindowPreferenceController.SETTING_VALUE_OFF;
+import static com.android.settings.development.window.NonResizableMultiWindowPreferenceController.SETTING_VALUE_ON;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -36,7 +41,7 @@ import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
 
 @RunWith(RobolectricTestRunner.class)
-public class ResizableActivityPreferenceControllerTest {
+public class NonResizableMultiWindowPreferenceControllerTest {
 
     @Mock
     private SwitchPreference mPreference;
@@ -44,44 +49,39 @@ public class ResizableActivityPreferenceControllerTest {
     private PreferenceScreen mScreen;
 
     private Context mContext;
-    private ResizableActivityPreferenceController mController;
+    private NonResizableMultiWindowPreferenceController mController;
 
     @Before
     public void setup() {
         MockitoAnnotations.initMocks(this);
         mContext = RuntimeEnvironment.application;
-        mController = new ResizableActivityPreferenceController(mContext);
+        mController = new NonResizableMultiWindowPreferenceController(mContext);
         when(mScreen.findPreference(mController.getPreferenceKey())).thenReturn(mPreference);
         mController.displayPreference(mScreen);
     }
 
     @Test
-    public void onPreferenceChange_settingEnabled_shouldEnableResizableActivities() {
+    public void onPreferenceChange_switchEnabled_shouldEnableNonResizableMultiWindow() {
         mController.onPreferenceChange(mPreference, true /* new value */);
 
         final int mode = Settings.Global.getInt(mContext.getContentResolver(),
-                Settings.Global.DEVELOPMENT_FORCE_RESIZABLE_ACTIVITIES, -1 /* default */);
-
-        assertThat(mode).isEqualTo(
-                ResizableActivityPreferenceController.SETTING_VALUE_ON);
+                DEVELOPMENT_ENABLE_NON_RESIZABLE_MULTI_WINDOW, -1 /* default */);
+        assertThat(mode).isEqualTo(SETTING_VALUE_ON);
     }
 
     @Test
-    public void onPreferenceChange_settingDisabled_shouldDisableResizableActivities() {
+    public void onPreferenceChange_switchDisabled_shouldDisableNonResizableMultiWindow() {
         mController.onPreferenceChange(mPreference, false /* new value */);
 
         final int mode = Settings.Global.getInt(mContext.getContentResolver(),
-                Settings.Global.DEVELOPMENT_FORCE_RESIZABLE_ACTIVITIES, -1 /* default */);
-
-        assertThat(mode).isEqualTo(
-                ResizableActivityPreferenceController.SETTING_VALUE_OFF);
+                DEVELOPMENT_ENABLE_NON_RESIZABLE_MULTI_WINDOW, -1 /* default */);
+        assertThat(mode).isEqualTo(SETTING_VALUE_OFF);
     }
 
     @Test
     public void updateState_settingEnabled_preferenceShouldBeChecked() {
         Settings.Global.putInt(mContext.getContentResolver(),
-                Settings.Global.DEVELOPMENT_FORCE_RESIZABLE_ACTIVITIES,
-                ResizableActivityPreferenceController.SETTING_VALUE_ON);
+                DEVELOPMENT_ENABLE_NON_RESIZABLE_MULTI_WINDOW, SETTING_VALUE_ON);
 
         mController.updateState(mPreference);
 
@@ -91,8 +91,7 @@ public class ResizableActivityPreferenceControllerTest {
     @Test
     public void updateState_settingDisabled_preferenceShouldNotBeChecked() {
         Settings.Global.putInt(mContext.getContentResolver(),
-                Settings.Global.DEVELOPMENT_FORCE_RESIZABLE_ACTIVITIES,
-                ResizableActivityPreferenceController.SETTING_VALUE_OFF);
+                DEVELOPMENT_ENABLE_NON_RESIZABLE_MULTI_WINDOW, SETTING_VALUE_OFF);
 
         mController.updateState(mPreference);
 
@@ -100,14 +99,12 @@ public class ResizableActivityPreferenceControllerTest {
     }
 
     @Test
-    public void onDeveloperOptionsSwitchDisabled_preferenceShouldBeDisabled() {
+    public void onDeveloperOptionsSwitchDisabled_shouldDisablePreference() {
         mController.onDeveloperOptionsSwitchDisabled();
-        final int mode = Settings.Global.getInt(mContext.getContentResolver(),
-                Settings.Global.DEVELOPMENT_FORCE_RESIZABLE_ACTIVITIES, -1 /* default */);
 
-        assertThat(mode).isEqualTo(
-                ResizableActivityPreferenceController.SETTING_VALUE_OFF);
-        verify(mPreference).setChecked(false);
+        final int mode = Settings.Global.getInt(mContext.getContentResolver(),
+                DEVELOPMENT_ENABLE_NON_RESIZABLE_MULTI_WINDOW, -1 /* default */);
+        assertThat(mode).isEqualTo(SETTING_VALUE_OFF);
         verify(mPreference).setEnabled(false);
     }
 }

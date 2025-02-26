@@ -222,4 +222,9 @@
     <!-- Connected displays -->
     <color name="display_topology_background_color">@color/settingslib_color_grey100</color>
     <color name="system_secondary">@android:color/system_secondary_light</color>
+
+    <!-- Volume seekbar colors -->
+    <color name="seekbar_thumb_tint_color">@android:color/system_accent1_800</color>
+    <color name="seekbar_progress_tint_color">@android:color/system_accent1_800</color>
+    <color name="seekbar_progress_background_tint_color">@android:color/system_neutral2_50</color>
 </resources>

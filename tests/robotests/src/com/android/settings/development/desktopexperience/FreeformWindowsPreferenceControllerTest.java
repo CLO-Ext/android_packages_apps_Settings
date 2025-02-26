@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.development.desktopexperience;
 
 import static android.content.pm.PackageManager.FEATURE_FREEFORM_WINDOW_MANAGEMENT;
 
-import static com.android.settings.development.FreeformWindowsPreferenceController.SETTING_VALUE_OFF;
-import static com.android.settings.development.FreeformWindowsPreferenceController.SETTING_VALUE_ON;
+import static com.android.settings.development.desktopexperience.FreeformWindowsPreferenceController.SETTING_VALUE_OFF;
+import static com.android.settings.development.desktopexperience.FreeformWindowsPreferenceController.SETTING_VALUE_ON;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -43,6 +43,8 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.R;
+import com.android.settings.development.DevelopmentSettingsDashboardFragment;
+import com.android.settings.development.RebootConfirmationDialogFragment;
 import com.android.window.flags.Flags;
 
 import org.junit.Before;

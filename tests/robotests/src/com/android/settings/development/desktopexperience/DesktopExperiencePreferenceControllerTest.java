@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.development.desktopexperience;
 
 import static android.provider.Settings.Global.DEVELOPMENT_OVERRIDE_DESKTOP_EXPERIENCE_FEATURES;
 import static android.window.DesktopModeFlags.ToggleOverride.OVERRIDE_OFF;
@@ -44,6 +44,8 @@ import androidx.preference.SwitchPreference;
 import androidx.test.core.app.ApplicationProvider;
 
 import com.android.settings.R;
+import com.android.settings.development.DevelopmentSettingsDashboardFragment;
+import com.android.settings.development.RebootConfirmationDialogFragment;
 import com.android.window.flags.Flags;
 
 import org.junit.Before;
