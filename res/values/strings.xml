@@ -939,6 +939,10 @@
     <string name="security_settings_face_settings_require_attention">Require eyes to be open</string>
     <!-- Text shown on the details of a toggle which disables/enables face unlock, depending if the user's eyes are open. [CHAR LIMIT=70] -->
     <string name="security_settings_face_settings_require_attention_details">To unlock the phone, your eyes must be open</string>
+    <!-- Text shown on a toggle which disables/enables face unlock, depending if the gaze supported. [CHAR LIMIT=30] -->
+    <string name="security_settings_face_settings_gaze"></string>
+    <!-- Text shown on the details of a toggle which disables/enables face unlock, depending if the gaze supported. [CHAR LIMIT=70] -->
+    <string name="security_settings_face_settings_gaze_details"></string>
     <!-- When authenticating in apps, always require confirmation (e.g. confirm button) after a face is authenticated. [CHAR LIMIT=50] -->
     <string name="security_settings_face_settings_require_confirmation">Always require confirmation</string>
     <!-- When authenticating in apps, always require confirmation (e.g. confirm button) after a face is authenticated. [CHAR LIMIT=70] -->
@@ -5811,6 +5815,8 @@
     <string name="accessibility_shortcut_edit_screen_title">Edit accessibility shortcuts</string>
     <!-- Prompt for editing the shortcuts of multiple accessibility features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_shortcut_edit_screen_prompt">Choose your shortcut for %1$s</string>
+    <!-- Summary to display when a shortcut setting is disabled, due to the shortcut being unassigned -->
+    <string name="accessibility_shortcut_unassigned_setting_unavailable_summary">To use this, turn on the %1$s shortcut on an accessibility feature\'s page</string>
 
     <!-- Button text for the accessibility dialog continue to the next screen for hearing aid. [CHAR LIMIT=32] -->
     <string name="accessibility_hearingaid_instruction_continue_button">Continue</string>
@@ -8951,6 +8957,13 @@
     <!-- App Info > Notifications: Title for section where notifications bundles can be configured [CHAR LIMIT=80]-->
     <string name="notification_bundles">Notification bundles</string>
 
+    <!-- App Info > Notifications: Title for section where notifications summaries can be configured [CHAR LIMIT=80]-->
+    <string name="notification_summarization_title">Notification summaries</string>
+    <string name="notification_summarization_on">On</string>
+    <string name="notification_summarization_off">Off</string>
+    <string name="notification_summarization_main_control_title">Use notification summaries</string>
+    <string name="notification_summarization_description">Automatically summarize conversation notifications from any app</string>
+
     <!-- App Info > Notifications: Title for section controlling whether this app may show notifications in a promoted format [CHAR LIMIT=80] -->
     <string name="live_notifications">Live notifications</string>
     <!-- App Info > Notifications: Text on the switch to enable or disable an app from showing notifications in a live/promoted format [CHAR LIMIT=50] -->
@@ -9372,7 +9385,6 @@
     <string name="notification_bundle_off">Off</string>
     <string name="notification_bundle_main_control_title">Use notification bundling</string>
     <string name="notification_bundle_description">Notifications with similar themes will be silenced and grouped together for a quieter experience. Bundling will override an app\'s own notification settings.</string>
-
 
     <!-- Title for managing VR (virtual reality) helper services. [CHAR LIMIT=50] -->
     <string name="vr_listeners_title">VR helper services</string>
@@ -12125,6 +12137,9 @@
     <!-- Help URI, action disabled by restricted settings [DO NOT TRANSLATE] -->
     <string name="help_url_action_disabled_by_restricted_settings" translatable="false"></string>
 
+    <!-- Help URI, action disabled by advanced protection [DO NOT TRANSLATE] -->
+    <string name="help_url_action_disabled_by_advanced_protection" translatable="false"></string>
+
     <!-- Title label for dnd suggestion, which is displayed in Settings homepage [CHAR LIMIT=100] -->
     <string name="zen_suggestion_title">Update Do Not Disturb</string>
 
@@ -12943,6 +12958,13 @@
 
     <!-- Title for a toggle that enables freeform windows. Freeform windows enables users to freely arrange and resize overlapping apps. [CHAR LIMIT=50] -->
     <string name="enable_desktop_mode">Enable freeform windows</string>
+
+    <!-- Title for a toggle that enables desktop experience features. This includes desktop view and connected displays. [CHAR LIMIT=50] -->
+    <string name="enable_desktop_experience_features">Enable desktop experience features</string>
+    <!-- Summary for a toggle that enables desktop experience features when the device itself can show the desktop (but it is not available without the developer option). [CHAR LIMIT=NONE] -->
+    <string name="enable_desktop_experience_features_summary_with_desktop">Enable Desktop View on the device and on secondary displays.</string>
+    <!-- Summary for a toggle that enables desktop experience features when desktop views don't need to be enable. [CHAR LIMIT=NONE] -->
+    <string name="enable_desktop_experience_features_summary_without_desktop">Enable Desktop View on secondary displays.</string>
 
     <!-- Title for a toggle that enables freeform windows on secondary display. Freeform windows enables users to freely arrange and resize overlapping apps. [CHAR LIMIT=50] -->
     <string name="enable_desktop_mode_on_secondary_display">Enable freeform windows on secondary display</string>
@@ -14306,4 +14328,10 @@
     <string name="device_supervision_switch_no_pin_summary">Set up PIN to get started</string>
     <!-- Search keywords for supervision settings [CHAR LIMIT=NONE] -->
     <string name="keywords_supervision_settings">supervision, parental supervision, parental controls</string>
+    <!-- Title for supervision PIN management settings entry [CHAR LIMIT=60] -->
+    <string name="supervision_pin_management_preference_title">Manage PIN</string>
+    <!-- Description for supervision PIN management settings entry, in the case of adding a PIN [CHAR LIMIT=NONE] -->
+    <string name="supervision_pin_management_preference_summary_add">Add a PIN recovery method</string>
+    <!-- Title for supervision change PIN setting entry [CHAR LIMIT=60] -->
+    <string name="supervision_change_pin_preference_title">Change PIN</string>
 </resources>
