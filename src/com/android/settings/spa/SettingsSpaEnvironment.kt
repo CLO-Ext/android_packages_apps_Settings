@@ -64,6 +64,7 @@ import com.android.settingslib.spa.framework.common.SpaLogger
 import com.android.settingslib.spa.framework.common.createSettingsPage
 import com.android.settingslib.spaprivileged.template.app.TogglePermissionAppListProvider
 import com.android.settingslib.spaprivileged.template.app.TogglePermissionAppListTemplate
+import com.android.settingslib.widget.theme.flags.Flags
 
 open class SettingsSpaEnvironment(context: Context) : SpaEnvironment(context) {
     open fun getTogglePermissionAppListProviders(): List<TogglePermissionAppListProvider> {
@@ -132,4 +133,8 @@ open class SettingsSpaEnvironment(context: Context) : SpaEnvironment(context) {
         )
     ) SpaLogMetricsProvider // ToDo: Implement 'SpaLogProvider' for SPA settings.
     else object : SpaLogger {}
+
+    override val isSpaExpressiveEnabled by lazy {
+        super.isSpaExpressiveEnabled || Flags.isExpressiveDesignEnabled()
+    }
 }
