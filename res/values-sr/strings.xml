@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Обустављено"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Непознато"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Преглед"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Претходни преглед"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Следећи преглед"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR кôд"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Умањи"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Увећај"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"О аудио излазу"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Усмерава звукове на слушни апарат или звучник телефона"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Сродно"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Мелодија звона и аларми"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Звук током позива"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Звуци медија и система"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Користите тастере миша"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Контролишите показивач помоћу тастатуре"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Обрнуто скроловање"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Садржај се помера нагоре када скролујете надоле"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Скролујте нагоре да бисте померили страницу надоле"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Замени примарно дугме миша"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Користите леви тастер миша као десни"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Убрзавање курсора"</string>
@@ -2388,7 +2396,7 @@
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Побољшајте контраст текста"</string>
     <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> је заменио <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>. Можете да га укључите у делу <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Отворите <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Оивичите текст"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Оивичен текст"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Додајте црну или белу позадину око текста да бисте повећали контраст"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Аутоматски ажурирај увелич. екрана"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Ажурира увеличавање екрана при прелазу апликација"</string>
@@ -4364,8 +4372,7 @@
     <string name="disconnected" msgid="3469373726996129247">"Није повезано"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Није повезана"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Инсталираних апликација: <xliff:g id="COUNT">%1$d</xliff:g>"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"Користи се <xliff:g id="PERCENTAGE">%1$s</xliff:g> – слободно: <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Тамна тема, величина фонта, осветљеност"</string>
     <string name="memory_summary" msgid="8221954450951651735">"У просеку је у употреби <xliff:g id="USED_MEMORY">%1$s</xliff:g> од <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> меморије"</string>
     <string name="users_summary" msgid="8473589474976307510">"Пријављени сте као <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4434,8 +4441,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Потрошња података на етернету"</string>
     <string name="wifi" msgid="2932584495223243842">"WiFi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Етернет"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"Етернет <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> мобилних података"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> WiFi података"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> података на етернету"</string>
@@ -5180,27 +5186,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Информације о смерницама за посао"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Подешавањима управља ИТ администратор"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Укључи уз величину страница 16 KB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Укључи уређај уз језгро подржано за 16 KB странице"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Пређите са режима од 4 KB на режим од 16 KB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Користите режим независан од величине странице са језгром од 4 kB, а прелазите на режим од 16 kB. У овом режиму не може да се гарантује интегритет софтвера, па подаци који сe чувају на телефону док је покретачки програм откључан могу да буду угрожени. Овим ћете рестартовати уређај. Неке функције су онемогућене у овим режимима, што значи да неке апликације можда неће радити. Да бисте уређај вратили на производни режим, треба да га вратите на режим од 4 kB и закључате покретачки програм, што ће ресетовати уређај на фабричка подешавања. Када се на уређају укључи Android, онемогућите OEM откључавање у Опцијама за програмера."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Пређите са режима од 16 kB на режим од 4 kB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Користите режим независан од величине странице са језгром за 16 kB, а прелазите на режим од 4 kB. У овом режиму не може да се гарантује интегритет софтвера, па подаци који сe чувају на телефону док је покретачки програм откључан могу да буду угрожени. Овим ћете рестартовати уређај. Неке функције су онемогућене у овим режимима, што значи да неке апликације можда неће радити. Да бисте уређај вратили на производни режим, треба да закључате покретачки програм, што ће ресетовати уређај на фабричка подешавања. Када се на уређају укључи Android, онемогућите OEM откључавање у Опцијама за програмера."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Ажурирање на језгро компатибилно са 16 KB страницама није успело."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Примењује се промена"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Реформатираћете уређај на ext4? (потребно за режим од 16 kB)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Да би овај уређај могао да користи опцију за програмера од 16 kB, његова партиција података треба да се конвертује у ext4. У овом режиму не може да се гарантује интегритет софтвера, па подаци који сe чувају на телефону док је покретачки програм откључан могу да буду угрожени. Активирање опције од 16 kB захтева још једно рестартовање. Када будете у овом режиму, моћи ћете да прелазите са режима од 4 kB на режим од 16 kB и обратно уз једно рестартовање. Неке функције су онемогућене у овим режимима, што значи да неке апликације можда неће радити. Да бисте уређај вратили на производни режим, треба да га вратите на режим од 4 kB и закључате покретачки програм, чиме ће се уређај ресетовати на фабричка подешавања. Када се на уређају укључи Android, онемогућите OEM откључавање у Опцијама за програмера. Уређај ће после потврде бити обрисан, а систем фајлова промењен на ext4. Када се то заврши, вратите се овде да бисте поново омогућили режим од 16 kB."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Обриши све податке"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Реформатирање и брисање партиције података на ext4 није успело."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Треба да откључате покретачки програм"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Да би овај уређај могао да користи опцију за програмера од 16 kB, на њему треба да буде откључан покретачки програм. У овом режиму не може да се гарантује интегритет софтвера, па могу бити угрожени подаци који сe чувају на телефону док је покретачки програм откључан. Када се активира режим од 16 kB, сви подаци и подешавања корисника ће бити избрисани. Када се покретачки програм откључа, активирање опције од 16 kB захтева два рестартовања. Када будете у овом режиму, моћи ћете да прелазите са режима од 4 kB на режим од 16 kB и обратно уз једно рестартовање. Неке функције су онемогућене у овим режимима, што значи да неке апликације можда неће радити. Да бисте уређај вратили на производни режим, треба да га вратите на режим од 4 kB и закључате OEM или покретачки програм на уређају (што ће га ресетовати на фабричка подешавања). Откључајте покретачки програм и пробајте поново. Упутства како то да урадите потражите на &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Користите режим од 4 kB независан од величине странице"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Користите режим од 4 kB у оквиру режима независног од величине странице. У овом режиму не може да се гарантује интегритет софтвера, па подаци који сe чувају на телефону док је покретачки програм откључан могу да буду угрожени. Неке функције су онемогућене у овим режимима, што значи да неке апликације можда неће радити. Да бисте уређај поново вратили у производни режим, морате да закључате покретачки програм уређаја. Додирните да бисте прочитали више."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Користите режим од 4 kB у оквиру режима независног од величине странице. У овом режиму не може да се гарантује интегритет софтвера, па могу бити угрожени подаци који сe чувају на телефону док је покретачки програм откључан. Неке функције су онемогућене у овим режимима, што значи да неке апликације можда неће радити. Да бисте уређај поново вратили у производни режим, морате да закључате покретачки програм уређаја. То ће поново ресетовати уређај на фабричка подешавања и вратити га на производна подешавања. Када се на уређају укључи Android, онемогућите OEM откључавање у Опцијама за програмера. Ако је уређај нестабилан или се на њему не укључи Android, поново га флешујте користећи најновије слике са фабричким подешавањима са &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;. Можете и да користите &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; и изаберете Обриши уређај, Закључај покретачки програм и Принудно флешуј све партиције."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Користите режим од 16 kB независан од величине странице"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Користите режим од 16 KB у оквиру режима независног од величине странице. У овом режиму не може да се гарантује интегритет софтвера, па могу бити угрожени подаци који сe чувају на телефону док је покретачки програм откључан. Неке функције су онемогућене у овим режимима, што значи да неке апликације можда неће радити. Да бисте уређај поново вратили у производни режим, морате да га вратите на режим од 4 KB и закључате покретачки програм уређаја. Додирните да бисте прочитали више."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Користите режим од 16 KB у оквиру режима независног од величине странице. У овом режиму не може да се гарантује интегритет софтвера, па могу бити угрожени подаци који сe чувају на телефону док је покретачки програм откључан. Неке функције су онемогућене у овим режимима, што значи да неке апликације можда неће радити. Да бисте уређај поново вратили у производни режим, морате да га вратите на режим од 4 KB и закључате покретачки програм уређаја. То ће поново ресетовати уређај на фабричка подешавања и вратити га на производна подешавања. Када се на уређају укључи Android, онемогућите OEM откључавање у Опцијама за програмера. Ако је уређај нестабилан или се на њему не укључи Android, поново га флешујте користећи најновије слике са фабричким подешавањима са &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;. Можете и да користите &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; и изаберете Обриши уређај, Закључај покретачки програм и Принудно флешуј све партиције."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Режим од 16 kB независан од величине странице"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Прочитајте више"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Покрените апликацију у режиму компатибилности величине странице"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Апликација ће се покретати у режиму компатибилности величине странице на уређају на ком је укључена величина странице од 16 KB."</string>
@@ -5610,8 +5633,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Искључите дељење звука"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Да бисте упарили нови уређај, прво искључите Дељење звука."</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Искључи"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"Делите звук са: <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Повежите се са LE Audio стримом"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Аудио стримови у близини"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"Аудио стримови"</string>

@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Angehalten"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Unbekannt"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Vorschau"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Vorherige Vorschau"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Nächste Vorschau"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR-Code"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Verkleinern"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Vergrößern"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Informationen zur Audioausgabe"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Audio an dein Hörgerät oder den Lautsprecher deines Smartphones weiterleiten lassen"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Ähnlich"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Klingeltöne und Wecker"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Audio bei Anrufen"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Medien- und Systemtöne"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Tastaturmaus verwenden"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Zum Steuern des Mauszeigers die Tastatur verwenden"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Scrollrichtung umkehren"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Inhalte bewegen sich nach oben, wenn du nach unten scrollst"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Wenn du nach oben scrollst, wird die Seite nach unten verschoben"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Primäre Maustaste tauschen"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Die linke Maustaste übernimmt die Funktion der rechten Maustaste (und umgekehrt)"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Cursorbeschleunigung"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Feedback"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Hilf uns, die Funktionen zu verbessern, indem du an einer Umfrage teilnimmst"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Keine Umfragen verfügbar"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Feedback geben"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Heruntergeladene Apps"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Experimentell"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Funktions-Flags"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"Satellitenverbindung"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"Nachrichten per Satellit"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Dein Konto unterstützt Datennutzung"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Unterstützte Apps auf deinem Smartphone"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"alle Apps ansehen"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Unterstützte Apps auf deinem Smartphone"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Zugangspunkte (APNs)"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Bei Verbindung mit <xliff:g id="CARRIER">%1$s</xliff:g> nicht verfügbar"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Informationen zu den Arbeitsrichtlinien"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Einstellungen, die von deinem IT-Administrator verwaltet werden"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Mit Seitengröße von 16 KB starten"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Mit Kernel starten, der 16-KB-Seiten unterstützt"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Vom 4‑KB-Modus zum 16‑KB-Modus wechseln"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Du befindest dich zurzeit im speicherseitenunabhängigen Modus mit einem 4‑KB-Kernel und bist dabei, zum 16‑KB-Modus zu wechseln. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Wenn du dennoch wechselst, wird das Gerät neu gestartet. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du das Gerät in den Produktionsmodus zurückversetzen möchtest, musst du zurück in den 4‑KB-Modus wechseln und dann den Bootloader sperren. Dadurch wird das Gerät auf die Werkseinstellungen zurückgesetzt. Nachdem das Gerät hochgefahren und Android gestartet wurde, deaktiviere in den Entwickleroptionen die OEM-Entsperrung."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Vom 16‑KB-Modus zum 4‑KB-Modus wechseln"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Du befindest dich zurzeit im speicherseitenunabhängigen Modus mit einem 16‑KB-Kernel und bist dabei, zum 4‑KB-Modus zu wechseln. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Wenn du dennoch wechselst, wird das Gerät neu gestartet. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du das Gerät in den Produktionsmodus zurückversetzen möchtest, musst du zuerst den Bootloader sperren. Dadurch wird das Gerät auf die Werkseinstellungen zurückgesetzt. Nachdem das Gerät hochgefahren und Android gestartet wurde, deaktiviere in den Entwickleroptionen die OEM-Entsperrung."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Kernel konnte nicht auf mit 16-KB-Seiten kompatiblen Kernel aktualisiert werden."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Änderung wird übernommen"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Gerät mit ext4 neu formatieren (für den 16‑KB-Modus erforderlich)?"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Bevor die 16‑KB-Entwickleroption verwendet werden kann, muss die Datenpartition des Geräts in ext4 umgewandelt werden. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Zum Aktivieren der 16‑KB-Option muss das Gerät danach noch einmal neu gestartet werden. Wenn du dann in diesem Modus bist, reicht für den Wechsel zwischen dem 4‑KB-Modus und dem 16‑KB-Modus ein einmaliger Neustart aus. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du das Gerät in den Produktionsmodus zurückversetzen möchtest, musst du zurück in den 4‑KB-Modus wechseln und dann den Bootloader sperren. Dadurch wird das Gerät auf die Werkseinstellungen zurückgesetzt. Nachdem das Gerät hochgefahren und Android gestartet wurde, deaktiviere in den Entwickleroptionen die OEM-Entsperrung. Alle Daten auf dem Gerät werden gelöscht und das Dateisystem wird nach entsprechender Bestätigung in ext4 geändert. Nach Abschluss dieses Vorgangs kannst du hierher zurückkehren, um den 16‑KB-Modus zu aktivieren."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Alle Daten löschen"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Die Datenpartition konnte nicht gelöscht und mit ext4 neu formatiert werden."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Entsperrren des Bootloaders erforderlich"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Bevor auf diesem Gerät die 16‑KB-Entwickleroption verwendet werden kann, muss der Bootloader entsperrt werden. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Durch Aktivieren des 16‑KB-Modus werden alle Nutzerdaten und ‑einstellungen gelöscht. Nachdem der Bootloader entsperrt wurde, sind zur Aktivierung des 16‑KB-Modus zwei Neustarts erforderlich. Wenn du dann in diesem Modus bist, reicht für den Wechsel zwischen dem 4‑KB-Modus und dem 16‑KB-Modus ein einmaliger Neustart aus. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du das Gerät in den Produktionsmodus zurückversetzen möchtest, musst du zurück in den 4‑KB-Modus wechseln und dann die OEM-/Bootloader-Sperre einrichten. Dadurch wird das Gerät auf die Werkseinstellungen zurückgesetzt. Bitte entsperre den Bootloader und versuch es noch einmal. Eine Anleitung hierzu findest du unter &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;."</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Speicherseitenunabhängigen 4‑KB-Modus verwenden"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Du befindest dich im 4‑KB-Modus des speicherseitenunabhängigen Modus. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du wieder in den Produktionsmodus wechseln möchtest, musst du den Bootloader des Geräts sperren. Wenn du mehr erfahren möchtest, tippe hier."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Du befindest dich im 4‑KB-Modus des speicherseitenunabhängigen Modus. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du wieder in den Produktionsmodus wechseln möchtest, musst du den Bootloader des Geräts sperren. Dadurch wird das Gerät wieder auf die Werkseinstellungen zurückgesetzt und die Produktionseinstellungen werden wiederhergestellt. Nachdem das Gerät hochgefahren und Android gestartet wurde, deaktiviere in den Entwickleroptionen die OEM-Entsperrung. Wenn Android auf dem Gerät nicht gestartet werden kann oder das Gerät instabil ist, flashe das aktuelle Factory Image unter &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; oder verwende &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; und wähle „Gerätedaten löschen“, „Bootloader sperren“ und „Flashen aller Partitionen erzwingen“ aus."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Hinweis zu speicherseitenunabhängigem 16‑KB-Modus"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Du befindest dich im 16‑KB-Modus des speicherseitenunabhängigen Modus. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du wieder in den Produktionsmodus wechseln möchtest, musst du zurück zum 4‑KB-Modus wechseln und dann den Bootloader des Geräts sperren. Wenn du mehr erfahren möchtest, tippe hier."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Du befindest dich im 16‑KB-Modus des speicherseitenunabhängigen Modus. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du wieder in den Produktionsmodus wechseln möchtest, musst du zurück zum 4‑KB-Modus wechseln und dann den Bootloader des Geräts sperren. Dadurch wird das Gerät wieder auf die Werkseinstellungen zurückgesetzt und die Produktionseinstellungen werden wiederhergestellt. Nachdem das Gerät hochgefahren und Android gestartet wurde, deaktiviere in den Entwickleroptionen die OEM-Entsperrung. Wenn Android auf dem Gerät nicht gestartet werden kann oder das Gerät instabil ist, flashe das aktuelle Factory Image unter &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; oder verwende &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; und wähle „Gerätedaten löschen“, „Bootloader sperren“ und „Flashen aller Partitionen erzwingen“ aus."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Speicherseitenunabhängiger 16‑KB-Modus"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Weitere Informationen"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"App im Kompatibilitätsmodus für die Seitengröße ausführen"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Wenn diese Funktion aktiviert ist, wird die App auf 16‑KB-Geräten im Kompatibilitätsmodus für die Seitengröße ausgeführt."</string>
@@ -5644,12 +5665,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Stream pausiert"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Zuhören beenden"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Kompatible Kopfhörer verbinden"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"TalkBack vorübergehend deaktivieren"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"TalkBack kann nicht verwendet werden, wenn du dir Audiostreams anhörst. Deaktiviere TalkBack, um Streams zu hören."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Deaktivieren"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Gerät verbinden"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Details zum Audiostream"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"QR-Code des Audiostreams"</string>

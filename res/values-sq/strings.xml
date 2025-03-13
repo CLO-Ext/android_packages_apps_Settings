@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"I pezulluar"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"E panjohur"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Pamja paraprake"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Pamja paraprake e mëparshme"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Pamja tjetër paraprake"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Kodi QR"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Zvogëlo"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Zmadho"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Rreth daljes së audios"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Drejto tingujt te pajisja jote e dëgjimit ose tek altoparlanti i telefonit"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Të ngjashme"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Toni i ziles dhe alarmet"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Audioja gjatë telefonatave"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Tingujt e medias dhe sistemit"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Përdor tastet e miut"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Përdor tastierën për të kontrolluar treguesin"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Lëvizja në të kundërt"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Përmbajtja zhvendoset lart kur ti lëviz poshtë"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Lëviz lart për ta zhvendosur faqen poshtë"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Ndërro butonin kryesor të miut"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Përdor butonin e majtë të miut si buton të djathtë"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Përshpejtimi i kursorit"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Komentet"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Ndihmo në përmirësimin duke plotësuar një anketë"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Nuk ka anketa të disponueshme"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Dërgo komente"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Aplikacionet e shkarkuara"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Eksperimentale"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Raportimet e veçorive"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"lidhja satelitore"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"shkëmbimi i mesazheve nëpërmjet satelitit"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Përdorimi i të dhënave është i përfshirë me llogarinë tënde"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Aplikacionet e mbështetura në telefonin tënd"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"shiko të gjitha aplikacionet"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Aplikacionet e mbështetura në telefonin tënd"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Emrat e pikës së qasjes"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Nuk ofrohet kur është e lidhur me <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Informacioni i politikës sate të punës"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Cilësimet menaxhohen nga administratori yt i TI-së"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Nise me madhësinë e faqeve 16 KB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Nise pajisjen duke përdorur bërthamën e mbështetur me madhësinë e faqeve 16&amp;nbsp;KB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Kalo nga modaliteti 4 KB në modalitetin 16 KB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Je në modalitetin e pavarësisë nga madhësia e faqes duke ekzekutuar një bërthamë 4 KB dhe po kalon në modalitetin me 16 KB. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Ky veprim do ta rinisë pajisjen. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për ta kthyer pajisjen në modalitetin e prodhimit, do të duhet që të kthehesh përsëri në modalitetin 4 KB dhe të kyçësh ngarkuesin e fillimit, i cili e rivendos pajisjen në gjendje fabrike. Pasi pajisja të niset me sukses në Android, çaktivizo shkyçjen e OEM-së tek \"Opsionet e zhvilluesit\"."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Kalo nga modaliteti 16 KB në modalitetin 4 KB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Je në modalitetin e pavarësisë nga madhësia e faqes duke ekzekutuar një bërthamë 16 KB dhe po kalon në modalitetin me 4 KB. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Ky veprim do ta rinisë pajisjen. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për ta kthyer pajisjen në modalitetin e prodhimit, do të duhet që të kyçësh më pas ngarkuesin e fillimit, i cili e rivendos pajisjen në gjendje fabrike. Pasi pajisja të niset me sukses në Android, çaktivizo shkyçjen e OEM-së tek \"Opsionet e zhvilluesit\"."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Përditësimi i bërthamës në bërthamën e përputhshme me faqet 16 KB dështoi"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Ndryshimi po zbatohet"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Të riformatohet pajisja në ext4? (kërkohet për modalitetin 16 KB)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Ndarja e të dhënave të kësaj pajisjeje duhet të konvertohet në ext4 para se të përdoret opsioni i zhvilluesit 16 KB. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Aktivizimi i opsioni 16 KB do të kërkojë një rinisje tjetër pas kësaj. Pasi të jesh në këtë modalitet, mund t\'i ndërrosh modalitetet 4 KB dhe 16 KB me vetëm një rinisje. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për ta kthyer pajisjen në modalitetin e prodhimit, do të duhet që të kthehesh përsëri në modalitetin 4 KB dhe të kyçësh më pas ngarkuesin e fillimit, i cili e rivendos pajisjen në gjendje fabrike. Pasi pajisja të niset me sukses në Android, çaktivizo shkyçjen e OEM-së tek \"Opsionet e zhvilluesit\". Pajisja do të pastrohet dhe sistemi i skedarëve do të ndryshohet në ext4 pas konfirmimit. Pasi të përfundojë kjo, kthehu për të aktivizuar përsëri 16 KB."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Spastro të gjitha të dhënat"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Riformatimi dhe pastrimi i ndarjes së të dhënave në ext4 dështoi."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Kërkohet shkyçja e ngarkuesit të fillimit"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Kjo pajisje duhet ta ketë të shkyçur ngarkuesin e fillimit para se të përdoret opsioni i zhvilluesit 16 KB. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Të gjitha të dhënat dhe cilësimet e përdoruesit do të pastrohen kur të aktivizohet modaliteti 16 KB. Kur të shkyçet ngarkuesi i fillimit, aktivizimi i opsionit 16 KB do të kërkojë dy rinisje. Pasi të jesh në këtë modalitet, mund t\'i ndërrosh modalitetet 4 KB dhe 16 KB me vetëm një rinisje. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për ta kthyer pajisjen në modalitetin e prodhimit, do të duhet që të kthehesh përsëri në modalitetin 4 KB dhe më pas të kyçësh OEM-në/ngarkuesin e fillimit (që e rivendos pajisjen në gjendje fabrike). Shkyçe ngarkuesin e fillimit dhe provo përsëri. Mund t\'i shikosh udhëzimet se si ta bësh këtë në &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Po përdor modalitetin 4 KB të pavarësisë nga madhësia e faqes"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Je në modalitetin 4 KB të modalitetit të pavarësisë nga madhësia e faqes. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për të hyrë përsëri në modalitetin e prodhimit, duhet të kyçësh ngarkuesin e fillimit të pajisjes. Trokit për të lexuar më shumë."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Je në modalitetin 4 KB të modalitetit të pavarësisë nga madhësia e faqes. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për të hyrë përsëri në modalitetin e prodhimit, duhet të kyçësh ngarkuesin e fillimit të pajisjes. Ky veprim do ta rivendosë pajisjen në gjendje fabrike dhe do ta restaurojë te cilësimet e prodhimit. Pasi pajisja të niset me sukses në Android, çaktivizo shkyçjen e OEM-së tek \"Opsionet e zhvilluesit\". Nëse pajisja nuk arrin të niset në Android ose është e paqëndrueshme, riinstalo në pajisje imazhet më të fundit të fabrikës nga &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; ose përdor &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; dhe zgjidh \"Pastro pajisjen\", \"Kyç ngarkuesin e fillimit\" dhe \"Riinstalo me forcë të gjitha ndarjet\"."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Po përdor modalitetin 16 KB të pavarësisë nga madhësia e faqes"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Je në modalitetin 16 KB të modalitetit të pavarësisë nga madhësia e faqes. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për të hyrë përsëri në modalitetin e prodhimit, duhet të kthehesh përsëri në modalitetin 4 KB dhe më pas të kyçësh ngarkuesin e fillimit të pajisjes. Trokit për të lexuar më shumë."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Je në modalitetin 16 KB të modalitetit të pavarësisë nga madhësia e faqes. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për të hyrë përsëri në modalitetin e prodhimit, duhet të kthehesh përsëri në modalitetin 4 KB dhe më pas të kyçësh ngarkuesin e fillimit të pajisjes. Ky veprim do ta rivendosë pajisjen në gjendje fabrike dhe do ta restaurojë te cilësimet e prodhimit. Pasi pajisja të niset me sukses në Android, çaktivizo shkyçjen e OEM-së tek \"Opsionet e zhvilluesit\". Nëse pajisja nuk arrin të niset në Android ose është e paqëndrueshme, riinstalo në pajisje imazhet më të fundit të fabrikës nga &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; ose përdor &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; dhe zgjidh \"Pastro pajisjen\", \"Kyç ngarkuesin e fillimit\" dhe \"Riinstalo me forcë të gjitha ndarjet\"."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Modaliteti 16 KB i pavarësisë nga madhësia e faqes"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Lexo më shumë"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Ekzekuto aplikacionin me modalitetin e përputhshmërisë me madhësinë e faqes"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Aplikacioni do të ekzekutohet në modalitetin e përputhshmërisë me madhësinë e faqes në pajisjen ku është aktivizuar modaliteti 16 KB."</string>
@@ -5644,12 +5665,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Transmetimi u vendos në pauzë"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Ndalo dëgjimin"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Lidh kufje të përputhshme"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Çaktivizo përkohësisht TalkBack"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"Talkback nuk mund të përdoret kur dëgjon transmetimet audio. Çaktivizo TalkBack për të filluar të dëgjosh."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Çaktivizo"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Lidh një pajisje"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Detajet e transmetimit audio"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Kodi QR i transmetimit audio"</string>

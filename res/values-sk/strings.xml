@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Pozastavená"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Neznáme"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Ukážka"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Predchádzajúca ukážka"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Ďalšia ukážka"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR kód"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Zmenšiť"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Zväčšiť"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Zvukový výstup"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Prehrávajte zvuk v načúvacom zariadení alebo reproduktore telefónu"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Podobné"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Tóny zvonenia a budíky"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Zvuk počas hovorov"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Médiá a zvuky systému"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Používať tlačidlá na ovládanie myši"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Ovládajte kurzor pomocou klávesnice"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Obrátené posúvanie"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Pri posúvaní nadol sa obsah pohybuje nahor"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Prechádzajte po stránke nadol posúvaním myši nahor"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Zameniť primárne tlačidlo myši"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Používajte ľavé tlačidlo myši ako pravé"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Zrýchlenie kurzora"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Spätná väzba"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Vyplňte prieskum a pomôžte nám tak so zlepšovaním"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"K dispozícii nie sú žiadne prieskumy"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Odoslať spätnú väzbu"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Stiahnuté aplikácie"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Experimentálne"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Experimentálne funkcie"</string>
@@ -2387,9 +2394,9 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Text s vysokým kontrastom"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"Zmeňte farbu textu na čiernu alebo bielu, aby lepšie vynikol na pozadí"</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Zlepšenie kontrastu textu"</string>
-    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"Text <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> bol nahradený textom <xliff:g id="OUTLINE_TEXT">%1$s</xliff:g>. Môžete ho zapnúť v sekcii <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> nahradil <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>. Môžete ho zapnúť v aplikácii <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Prejsť na <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Pridať obrys textu"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Obrys textu"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Zvyšovať kontrast pridaním čierneho alebo bieleho pozadia okolo textu"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Auto. aktualiz. priblíž. obrazovky"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Aktualizovať priblíž. obrazov. pri prechodoch apl."</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"Pripojenie cez satelit"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"Správy cez satelit"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Používanie dát máte zahrnuté v rámci účtu"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Podporované aplikácie vo vašom telefóne"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"zobrazte všetky aplikácie"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Podporované aplikácie vo vašom telefóne"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Názvy prístupových bodov"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Nie je k dispozícii pri pripojení k operátorovi <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Informácie o pracovných pravidlách"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Nastavenia spravované vaším správcom IT"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"Grafický procesor"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Zapínať s veľkosťou stránok 16 kB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Zapínať s jadrom s podporou 16 kB stránok"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Prepnutie z režimu 4 kB na 16 kB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Nachádzate sa v režime, ktorý nezohľadňuje stránkovanie, s jadrom 4 kB a prepínate na režim 16 kB. V tomto režime nie je možné zaručiť integritu softvéru a všetky dáta uložené v telefóne môžu byť počas odomknutia zavádzacieho programu systému ohrozené. Tento postup zariadenie reštartuje. Niektoré funkcie budú v týchto režimoch vypnuté, takže niektoré aplikácie nemusia fungovať. Ak chcete zariadenie vrátiť do ostrého režimu, musíte potom prepnúť späť do režimu 4 kB a uzamknúť zavádzací program systému, čím sa v zariadení obnovia výrobné nastavenia. Po úspešnom zapnutí zariadenia do Androidu vypnite odomknutie OEM v sekcii Pre vývojárov."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Prepnutie z režimu 16 kB na 4 kB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Nachádzate sa v režime, ktorý nezohľadňuje stránkovanie, s jadrom 16 kB a prepínate na režim 4 kB. V tomto režime nie je možné zaručiť integritu softvéru a všetky dáta uložené v telefóne môžu byť počas odomknutia zavádzacieho programu systému ohrozené. Tento postup zariadenie reštartuje. Niektoré funkcie budú v týchto režimoch vypnuté, takže niektoré aplikácie nemusia fungovať. Ak chcete zariadenie vrátiť do ostrého režimu, musíte uzamknúť zavádzací program systému, čím sa v zariadení obnovia výrobné nastavenia. Po úspešnom zapnutí zariadenia do Androidu vypnite odomknutie OEM v sekcii Pre vývojárov."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Jadro sa nepodarilo aktualizovať na kompatibilné jadro so 16 KB stránkami"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Zmena sa uplatňuje"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Chcete zmeniť formát zariadenia na ext4? (vyžadované pre režim 16 kB)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Dátový oddiel tohto zariadenia je potrebné pred použitím možnosti 16 kB pre vývojárov konvertovať na ext4. V tomto režime nie je možné zaručiť integritu softvéru a všetky dáta uložené v telefóne môžu byť počas odomknutia zavádzacieho programu systému ohrozené. Aktivácia možnosti 16 kB si potom vyžiada ešte jedno reštartovanie. Keď budete v tomto režime, môžete prepínať medzi režimom 4 kB a 16 kB jedným reštartovaním. Niektoré funkcie budú v týchto režimoch vypnuté, takže niektoré aplikácie nemusia fungovať. Ak chcete zariadenie vrátiť do ostrého režimu, musíte prepnúť späť na režim 4 kB a potom uzamknúť zavádzací program systému, čím sa v zariadení obnovia výrobné nastavenia. Po úspešnom zapnutí Androidu v zariadení vypnite odomknutie OEM v sekcii Pre vývojárov. Zariadenie sa trvalo vymaže a systém súborov sa po potvrdení zmení na ext4. Po dokončení tohto kroku sa vráťte a znova zapnite režim 16 kB."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Vymazať všetky údaje"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Nepodarilo sa zmeniť formát ani trvale vymazať oddiel dát na ext4."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Vyžaduje sa odomknutie zavádzacieho programu systému"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Toto zariadenie musí mať pred použitím možnosti pre vývojárov 16 kB odomknutý zavádzací program systému. V tomto režime nie je možné zaručiť integritu softvéru a všetky dáta uložené v telefóne môžu byť počas odomknutia zavádzacieho programu systému ohrozené. Pri aktivácii režimu 16 kB sa vymažú všetky dáta a nastavenia používateľa. Po odomknutí zavádzacieho programu systému si aktivácia možnosti 16 kB vyžiada dve reštartovania. Keď budete v tomto režime, môžete prepínať medzi režimom 4 kB a 16 kB jedným reštartovaním. Niektoré funkcie budú v týchto režimoch vypnuté, takže niektoré aplikácie nemusia fungovať. Ak chcete zariadenie vrátiť do ostrého režimu, musíte prepnúť späť na režim 4 kB a potom uzamknúť OEM alebo zavádzací program systému, čím sa v zariadení obnovia výrobné nastavenia. Odomknite zavádzací program systému a skúste to znova. Postup, ako to vykonať, nájdete na &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Používa sa režim 4 kB, ktorý nezohľadňuje stránkovanie"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Ste v režime 4 kB, ktorý nezohľadňuje stránkovanie. V tomto režime nie je možné zaručiť integritu softvéru a všetky dáta uložené v telefóne môžu byť počas odomknutia zavádzacieho programu systému ohrozené. Niektoré funkcie budú v týchto režimoch vypnuté, takže niektoré aplikácie nemusia fungovať. Ak chcete znova vstúpiť do ostrého režimu, musíte uzamknúť zavádzací program systému zariadenia. Klepnutím zobrazíte ďalšie informácie."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Ste v režime 4 kB, ktorý nezohľadňuje stránkovanie. V tomto režime nie je možné zaručiť integritu softvéru a všetky dáta uložené v telefóne môžu byť počas odomknutia zavádzacieho programu systému ohrozené. Niektoré funkcie budú v týchto režimoch vypnuté, takže niektoré aplikácie nemusia fungovať. Ak chcete znova vstúpiť do ostrého režimu, musíte uzamknúť zavádzací program systému zariadenia. Tým sa v zariadení znova obnovia výrobné nastavenia na nastavenia ostrého režimu. Po úspešnom zapnutí zariadenia do Androidu vypnite odomknutie OEM v sekcii Pre vývojárov. Ak sa zariadeniu nepodarí spustiť Android alebo bude nestabilné, znova nainštalujte najnovšie výrobné obrazy systému z webu &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; alebo prejdite na &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; a vyberte Wipe Device (Trvale vymazať zariadenie), Lock Bootloader (Uzamknúť zavádzací program systému) a Force Flash all partitions (Vynútiť inštaláciu obrazu systému vo všetkých oddieloch)."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Používa sa režim 16 kB, ktorý nezohľadňuje stránkovanie"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Ste v režime 16 kB, ktorý nezohľadňuje stránkovanie. V tomto režime nie je možné zaručiť integritu softvéru a všetky dáta uložené v telefóne môžu byť počas odomknutia zavádzacieho programu systému ohrozené. Niektoré funkcie budú v týchto režimoch vypnuté, takže určité aplikácie nemusia fungovať. Ak chcete znova prejsť do ostrého režimu, musíte prepnúť späť do režimu 4 kB a potom uzamknúť zavádzací program systému zariadenia. Klepnutím zobrazíte ďalšie informácie."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Ste v režime 16 kB, ktorý nezohľadňuje stránkovanie. V tomto režime nie je možné zaručiť integritu softvéru a všetky dáta uložené v telefóne môžu byť počas odomknutia zavádzacieho programu systému ohrozené. Niektoré funkcie budú v týchto režimoch vypnuté, takže určité aplikácie nemusia fungovať. Ak chcete znova prejsť do ostrého režimu, musíte prepnúť späť do režimu 4 kB a potom uzamknúť zavádzací program systému zariadenia. Tým sa v zariadení znova obnovia výrobné nastavenia na nastavenia ostrého režimu. Po úspešnom zapnutí zariadenia do Androidu vypnite odomknutie OEM v sekcii Pre vývojárov. Ak sa zariadeniu nepodarí spustiť Android alebo bude nestabilné, znova nainštalujte najnovšie výrobné obrazy systému z webu &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; alebo prejdite na &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; a vyberte Vymazať zariadenie, Uzamknúť zavádzací program systému a Vynútiť inštaláciu obrazu systému vo všetkých oddieloch."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Režim 16 kB nezohľadňujúci stránkovanie"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Ďalšie informácie"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Spustiť aplikáciu v režime kompatibility s veľkosťou stránok"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Aplikácia sa po prepnutí spustí v 16 kB zariadení v režime kompatibility s veľkosťou stránok."</string>
@@ -5646,12 +5667,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Stream bol pozastavený"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Zastavenie počúvania"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Pripojenie kompatibilných slúchadiel"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Dočasne vypnite TalkBack"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"TalkBack sa nedá používať pri počúvaní zvukových streamov. Ak chcete začať počúvať, vypnite TalkBack."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Vypnúť"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Pripojiť zariadenie"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Podrobnosti o zvukovom streame"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"QR kód zvukového streamu"</string>

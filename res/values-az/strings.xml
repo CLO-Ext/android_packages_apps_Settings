@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Dayandırılıb"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Naməlum"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Önizləmə"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Əvvəlki önizləmə"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Növbəti önizləmə"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR kodu"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Kiçildin"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Böyüdün"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Audio çıxışı haqqında"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Səsləri eşitmə cihazına və ya telefon dinamikinə yönləndirin"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Oxşar"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Zəng melodiyası, zəngli saat"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Zənglər zamanı audio"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Media və sistem səsləri"</string>
@@ -253,7 +255,7 @@
     <string name="saturday_first_day_of_week" msgid="3702282590450322727">"Şənbə"</string>
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"Tətbiq regional tərcihləri dəstəkləmirsə, defolt ayarlardan istifadə edəcək."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Dil tərcihləri haqqında ətraflı."</string>
-    <string name="metric_measurement_system" msgid="7489725697268321541">"Göstərici"</string>
+    <string name="metric_measurement_system" msgid="7489725697268321541">"Metrik"</string>
     <string name="us_measurement_system" msgid="8738587232938189052">"İmperial (ABŞ)"</string>
     <string name="uk_measurement_system" msgid="4196897001775627597">"İmperial (BK)"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"Əlavə tərcihlər"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Maus düymələrindən istifadə edin"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Poynteri idarə etmək üçün klaviaturadan istifadə edin"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Tərs sürüşdürmə"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Aşağı sürüşdürdükdə kontent yuxarı hərəkət edir"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Səhifəni aşağı hərəkət etdirmək üçün yuxarı sürüşdürün"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Əsas maus düyməsini çəkin"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Mausun sol düyməsini sağ kimi istifadə edin"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Kursor sürətləndirmə"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Rəy"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Sorğu keçirərək təkmilləşdirməyə kömək edin"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Əlçatan sorğu yoxdur"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Rəy göndərin"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Endirilmiş tətbiqlər"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Eksperimental"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Eksperimental funksiyalar"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"peyk bağlantısı"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"peyk mesajlaşması"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Data istifadəsi hesabınıza daxildir"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Telefonunuzdakı dəstəklənən tətbiqlər"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"bütün tətbiqlərə baxın"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Telefonunuzdakı dəstəklənən tətbiqlər"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Giriş nöqtəsi adları"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g> ünvanına qoşulduqda əlçatan deyil"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"İş siyasətiniz haqqında məlumat"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Ayarlar IT admininiz tərəfindən idarə edilir"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"16KB səhifə ölçüsü ilə yükləyin"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Cihazı 16Kb səhifə ölçüsünə uyğun özək ilə yükləyin"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"4KB rejimindən 16KB rejiminə dəyişin"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"4KB özək ilə işləyən səhifə-aqnostik rejimindəsiniz və 16KB rejiminə keçirsiniz. Bu rejimdə proqram təminatının bütövlüyü təmin edilə bilməz və yükləyicinin kilidi açıq halda telefonda saxlanılan data risk altında ola bilər. Bununla cihaz yenidən başladılacaq. Bu rejimlərdə bəzi funksiyalar deaktiv ediləcək, buna görə də bəzi tətbiqlər işləməyə bilər. Cihazı istehsal rejiminə qaytarmaq üçün 4KB rejiminə qayıtmalı və yükləyicini kilidləməlisiniz ki, bu da cihazı zavod ayarlarına sıfırlayır. Cihaz Android-ə yükləndikdən sonra Developer seçimlərində OEM kiliddən çıxarılmasını deaktiv edin."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"16KB rejimindən 4KB rejiminə dəyişin"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"16KB özək ilə işləyən səhifə-aqnostik rejimindəsiniz və 4KB rejiminə keçirsiniz. Bu rejimdə proqram təminatının bütövlüyü təmin edilə bilməz və yükləyicinin kilidi açıq halda telefonda saxlanılan data risk altında ola bilər. Bununla cihaz yenidən başladılacaq. Bu rejimlərdə bəzi funksiyalar deaktiv ediləcək, buna görə də bəzi proqramlar işləməyə bilər. Cihazı istehsal rejiminə qaytarmaq üçün yükləyicini kilidləməlisiniz ki, bu da cihazı zavod ayarlarına sıfırlayır. Cihaz Android-ə yükləndikdən sonra Developer seçimlərində OEM kiliddən çıxarılmasını deaktiv edin."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Özək 16KB səhifələrə uyğun özəyə güncəllənmədi."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Dəyişiklik tətbiq edilir"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Cihaz yenidən ext4-ə formatlansın? (16KB rejimi üçün tələb edilir)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"16KB developer seçimindən istifadə etməzdən əvvəl bu cihazın data bölməsi ext4-ə çevrilməlidir. Bu rejimdə proqram təminatının bütövlüyü təmin edilə bilməz və yükləyicinin kilidi açıq halda telefonda saxlanılan data risk altında ola bilər. 16 KB seçimini aktivləşdirmək üçün bundan sonra daha bir yenidən başlatma tələb ediləcək. Bu rejimdə bir dəfə yenidən başlatma ilə 4KB və 16KB rejimi arasında dəyişə bilərsiniz. Bu rejimlərdə bəzi funksiyalar deaktiv ediləcək, buna görə də bəzi proqramlar işləməyə bilər. Cihazı istehsal rejiminə qaytarmaq üçün 4KB rejiminə qaytarmalı və sonra yükləyicini kilidləməlisiniz ki, bu da cihazı zavod ayarlarına sıfırlayır. Cihaz Android-ə yükləndikdən sonra Developer seçimlərində OEM kiliddən çıxarılmasını deaktiv edin. Təsdiqdən sonra cihaz datası silinəcək və fayl sistemi ext4-ə dəyişdiriləcək. Bu tamamlandıqdan sonra 16KB-ni yenidən aktivləşdirmək üçün geri qayıdın."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Bütün datanı silin"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Data bölməsini yenidən formatlamaq və ext4-ə ayarlamaq alınmadı."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Yükləyici kilidaçması tələb edilir"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Bu cihaz 16KB developer seçimindən istifadə etməzdən əvvəl yükləyicinin kilidini açmalıdır. Bu rejimdə proqram təminatının bütövlüyü təmin edilə bilməz və yükləyicinin kilidi açıq halda telefonda saxlanılan data risk altında ola bilər. 16KB rejimi aktivləşdirildikdə bütün istifadəçi datası və ayarları silinəcək. Yükləyici kilidi açıldıqdan sonra 16KB seçimini aktivləşdirmək üçün iki dəfə yenidən başlatma tələb olunacaq. Bu rejimdə bir dəfə yenidən başlatma ilə 4KB və 16KB rejimi arasında dəyişə bilərsiniz. Bu rejimlərdə bəzi funksiyalar deaktiv ediləcək, buna görə də bəzi proqramlar işləməyə bilər. Cihazı istehsal rejiminə qaytarmaq üçün yenidən 4KB rejiminə keçməli və sonra cihazda OEM/yükləyici kilidləməsi (zavod ayarlarına sıfırlayır) icra etməlisiniz. Yükləyicini kiliddən çıxarın və yenidən cəhd edin. Təlimatlara burada baxa bilərsiniz: &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"4KB səhifə-aqnostik rejimindən istifadə"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Səhifə-aqnostik rejiminin 4KB rejimindəsiniz. Bu rejimdə proqram təminatının bütövlüyü təmin edilə bilməz və yükləyicinin kilidi açıq halda telefonda saxlanılan data risk altında ola bilər. Bu rejimlərdə bəzi funksiyalar deaktiv ediləcək, buna görə də bəzi proqramlar işləməyə bilər. İstehsal rejiminə yenidən daxil olmaq üçün cihazın yükləyicisini kilidləməlisiniz. Toxunaraq ətraflı oxuyun."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Səhifə-aqnostik rejiminin 4KB rejimindəsiniz. Bu rejimdə proqram təminatının bütövlüyü təmin edilə bilməz və yükləyicinin kilidi açıq halda telefonda saxlanılan data risk altında ola bilər. Bu rejimlərdə bəzi funksiyalar deaktiv ediləcək, buna görə də bəzi proqramlar işləməyə bilər. İstehsal rejiminə yenidən daxil olmaq üçün cihazın yükləyicisini kilidləməlisiniz. Bununla cihaz yenidən zavod ayarlarına qayıdacaq və istehsal ayarları bərpa ediləcək. Cihaz Android-ə yükləndikdən sonra Developer seçimlərində OEM kiliddən çıxarılmasını deaktiv edin. Cihaz Android-ə yüklənmirsə və ya qeyri-sabitdirsə, cihazı buradan əldə edilən ən son fabrik şəkilləri ilə yenidən işə salın: &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; yaxud &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; istifadə edin və \"Cihaz datasını silin\", \"Yükləyicini kilidləyin\" və \"Bütün hissələri məcburi yükləyin\" seçin."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"16KB səhifə-aqnostik rejimindən istifadə"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Səhifədən asılı olmayan rejimin 16 KB rejimindəsiniz. Bu rejimdə proqram təminatının bütövlüyü təmin edilə bilməz və yükləyicinin kilidi açıq halda telefonda saxlanılan data risk altında ola bilər. Bu rejimlərdə bəzi funksiyalar deaktiv ediləcək, buna görə də bəzi tətbiqlər işləməyə bilər. İstehsal rejiminə yenidən daxil olmaq üçün yenidən 4 KB rejiminə keçməli və sonra cihazın yükləyicisini kilidləməlisiniz. Toxunaraq ətraflı oxuyun."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Səhifədən asılı olmayan rejimin 16 KB rejimindəsiniz. Bu rejimdə proqram təminatının bütövlüyü təmin edilə bilməz və yükləyicinin kilidi açıq halda telefonda saxlanılan data risk altında ola bilər. Bu rejimlərdə bəzi funksiyalar deaktiv ediləcək, buna görə də bəzi tətbiqlər işləməyə bilər. İstehsal rejiminə yenidən daxil olmaq üçün yenidən 4 KB rejiminə keçməli və sonra cihazın yükləyicisini kilidləməlisiniz. Bununla cihaz yenidən zavod ayarlarına qayıdacaq və istehsal ayarları bərpa ediləcək. Cihaz Android-ə yükləndikdən sonra Developer seçimlərində OEM kiliddən çıxarılmasını deaktiv edin. Cihaz Android-ə yüklənmirsə və ya qeyri-sabitdirsə, cihazı buradan əldə edilən ən son fabrik şəkilləri ilə yenidən işə salın: &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; yaxud &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; istifadə edin və \"Cihaz datasını silin\", \"Yükləyicini kilidləyin\" və \"Bütün hissələri məcburi yükləyin\" seçin."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"16KB səhifə-aqnostik rejimi"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Ətraflı məlumat"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Tətbiqi səhifə ölçüsü uyğunluq rejimi ilə işə salın"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Tətbiq aktiv edildikdə 16 KB-lıq cihazda səhifə ölçüsü uyğunluğu rejimində işləyəcək."</string>
@@ -5644,12 +5665,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Yayım durduruldu"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Dinləməni dayandırın"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Uyğun qulaqlıqları qoşun"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Talkback-i müvəqqəti söndürün"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"Audio yayımları dinləyərkən Talkback istifadə etmək mümkün deyil. Dinləməyə başlamaq üçün talkback-i söndürün."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Söndürün"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Cihaz qoşun"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Audio yayımı detalları"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Audio yayımı QR kodu"</string>

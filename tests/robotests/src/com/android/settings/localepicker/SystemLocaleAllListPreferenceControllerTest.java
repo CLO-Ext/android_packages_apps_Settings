@@ -34,6 +34,7 @@ import android.os.LocaleList;
 import android.os.Looper;
 import android.telephony.TelephonyManager;
 import android.util.ArrayMap;
+import android.util.Log;
 
 import com.android.internal.app.LocaleStore;
 import com.android.settings.testutils.shadow.ShadowActivityManager;
@@ -57,37 +58,34 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.Shadows;
-import org.robolectric.shadows.ShadowTelephonyManager;
 import org.robolectric.annotation.Config;
+import org.robolectric.shadows.ShadowTelephonyManager;
+import org.robolectric.util.ReflectionHelpers;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 @RunWith(RobolectricTestRunner.class)
-@Config(shadows = {
-        ShadowFragment.class,
-        ShadowActivityManager.class,
-})
-public class SystemLocaleSuggestedListPreferenceControllerTest {
-    private static final String KEY_CATEGORY_SYSTEM_SUGGESTED_LIST =
-            "system_language_suggested_category";
-    private static final String KEY_SUGGESTED = "system_locale_suggested_list";
+@Config(shadows = {ShadowFragment.class, ShadowActivityManager.class,})
+public class SystemLocaleAllListPreferenceControllerTest {
+    private static final String KEY_CATEGORY_SYSTEM_SUPPORTED_LIST =
+            "system_language_all_supported_category";
+    private static final String KEY_SUPPORTED = "system_locale_list";
 
     private Context mContext;
+    private PreferenceManager mPreferenceManager;
     private PreferenceCategory mPreferenceCategory;
     private PreferenceScreen mPreferenceScreen;
-    private SystemLocaleSuggestedListPreferenceController mController;
+    private SystemLocaleAllListPreferenceController mController;
     private List<LocaleStore.LocaleInfo> mLocaleList;
     private Map<String, Preference> mPreferences = new ArrayMap<>();
     @Mock
-    private PreferenceManager mPreferenceManager;
-    @Mock
     private IActivityManager mActivityService;
     @Mock
-    private LocaleStore.LocaleInfo mSuggestedLocaleInfo_1;
+    private LocaleStore.LocaleInfo mSupportedLocaleInfo_1;
     @Mock
-    private LocaleStore.LocaleInfo mSuggestedLocaleInfo_2;
+    private LocaleStore.LocaleInfo mSupportedLocaleInfo_2;
     @Mock
     private FragmentTransaction mFragmentTransaction;
 
@@ -102,8 +100,8 @@ public class SystemLocaleSuggestedListPreferenceControllerTest {
         ShadowActivityManager.setService(mActivityService);
         final Configuration config = new Configuration();
         setUpLocaleConditions();
-        config.setLocales(new LocaleList(mSuggestedLocaleInfo_1.getLocale(),
-                mSuggestedLocaleInfo_2.getLocale()));
+        config.setLocales(new LocaleList(mSupportedLocaleInfo_1.getLocale(),
+                mSupportedLocaleInfo_2.getLocale()));
         when(mActivityService.getConfiguration()).thenReturn(config);
         ShadowTelephonyManager shadowTelephonyManager =
                 Shadows.shadowOf(mContext.getSystemService(TelephonyManager.class));
@@ -111,40 +109,42 @@ public class SystemLocaleSuggestedListPreferenceControllerTest {
         shadowTelephonyManager.setNetworkCountryIso("us");
         mPreferenceScreen = spy(new PreferenceScreen(mContext, null));
         mPreferenceCategory = spy(new PreferenceCategory(mContext, null));
-        when(mPreferenceScreen.getPreferenceManager()).thenReturn(mPreferenceManager);
-        when(mPreferenceCategory.getPreferenceManager()).thenReturn(mPreferenceManager);
+        when(mPreferenceScreen.getPreferenceManager()).thenReturn(mock(PreferenceManager.class));
+        when(mPreferenceCategory.getPreferenceManager()).thenReturn(mock(PreferenceManager.class));
         mPreferenceManager = new PreferenceManager(mContext);
         mPreferenceScreen = mPreferenceManager.createPreferenceScreen(mContext);
-        mPreferenceCategory.setKey(KEY_CATEGORY_SYSTEM_SUGGESTED_LIST);
+        mPreferenceCategory.setKey(KEY_CATEGORY_SYSTEM_SUPPORTED_LIST);
         mPreferenceScreen.addPreference(mPreferenceCategory);
-        mController = new SystemLocaleSuggestedListPreferenceController(mContext, KEY_SUGGESTED);
+        mController = new SystemLocaleAllListPreferenceController(mContext, KEY_SUPPORTED, null);
     }
 
     private void setUpLocaleConditions() {
         mLocaleList = new ArrayList<>();
-        when(mSuggestedLocaleInfo_1.getFullNameNative()).thenReturn("English");
-        when(mSuggestedLocaleInfo_1.getLocale()).thenReturn(
+        when(mSupportedLocaleInfo_1.getFullNameNative()).thenReturn("English");
+        when(mSupportedLocaleInfo_1.getLocale()).thenReturn(
                 LocaleList.forLanguageTags("en-US").get(0));
-        mLocaleList.add(mSuggestedLocaleInfo_1);
-        when(mSuggestedLocaleInfo_2.getFullNameNative()).thenReturn("Español (Estados Unidos)");
-        when(mSuggestedLocaleInfo_2.getLocale()).thenReturn(
+        mLocaleList.add(mSupportedLocaleInfo_1);
+        when(mSupportedLocaleInfo_2.getFullNameNative()).thenReturn("Español (Estados Unidos)");
+        when(mSupportedLocaleInfo_2.getLocale()).thenReturn(
                 LocaleList.forLanguageTags("es-US").get(0));
-        mLocaleList.add(mSuggestedLocaleInfo_2);
+        mLocaleList.add(mSupportedLocaleInfo_2);
     }
 
     @Test
-    public void displayPreference_hasSuggestedPreference_categoryIsVisible() {
-        mController.displayPreference(mPreferenceScreen);
+    public void setupPreference_hasSupportedPreference_categoryIsVisible() {
+        ReflectionHelpers.setField(mController, "mLocaleOptions", mLocaleList);
+        ReflectionHelpers.setField(mController, "mPreferenceCategory", mPreferenceCategory);
         mController.setupPreference(mLocaleList, mPreferences);
 
         assertTrue(mPreferenceCategory.isVisible());
-        assertThat(mPreferenceCategory.getPreferenceCount()).isEqualTo(2);
+        assertThat(mPreferenceCategory.getPreferenceCount()).isEqualTo(mLocaleList.size());
     }
 
     @Test
-    public void displayPreference_noSuggestedPreference_categoryIsGone() {
+    public void setupPreference_noSupportedPreference_categoryIsGone() {
         mLocaleList.clear();
-        mController.displayPreference(mPreferenceScreen);
+        ReflectionHelpers.setField(mController, "mLocaleOptions", mLocaleList);
+        ReflectionHelpers.setField(mController, "mPreferenceCategory", mPreferenceCategory);
         mController.setupPreference(mLocaleList, mPreferences);
 
         assertFalse(mPreferenceCategory.isVisible());
@@ -153,24 +153,24 @@ public class SystemLocaleSuggestedListPreferenceControllerTest {
 
     @Test
     public void switchFragment_shouldShowLocaleEditor() {
-        when(mSuggestedLocaleInfo_1.isSuggested()).thenReturn(true);
-        mController.shouldShowLocaleEditor(mSuggestedLocaleInfo_1);
-        mController.switchFragment(mSuggestedLocaleInfo_1);
+        when(mSupportedLocaleInfo_1.isSuggested()).thenReturn(true);
+        mController.shouldShowLocaleEditor(mSupportedLocaleInfo_1);
+        mController.switchFragment(mSupportedLocaleInfo_1);
 
-        verify(mFragmentTransaction, never()).add(any(LocaleListEditor.class),
-                anyString());
+        verify(mFragmentTransaction, never()).add(any(LocaleListEditor.class), anyString());
     }
 
     @Test
     public void switchFragment_shouldShowRegionNumberingPicker() {
+        mController.displayPreference(mPreferenceScreen);
         Context activityContext = mock(Context.class);
-        mController = new SystemLocaleSuggestedListPreferenceController(activityContext,
-                KEY_SUGGESTED);
-        when(mSuggestedLocaleInfo_1.isSuggested()).thenReturn(false);
-        when(mSuggestedLocaleInfo_1.isSystemLocale()).thenReturn(false);
-        when(mSuggestedLocaleInfo_1.getParent()).thenReturn(null);
-        mController.shouldShowLocaleEditor(mSuggestedLocaleInfo_1);
-        mController.switchFragment(mSuggestedLocaleInfo_1);
+        mController = new SystemLocaleAllListPreferenceController(activityContext, KEY_SUPPORTED,
+                null);
+        when(mSupportedLocaleInfo_1.isSuggested()).thenReturn(false);
+        when(mSupportedLocaleInfo_1.isSystemLocale()).thenReturn(false);
+        when(mSupportedLocaleInfo_1.getParent()).thenReturn(null);
+        mController.shouldShowLocaleEditor(mSupportedLocaleInfo_1);
+        mController.switchFragment(mSupportedLocaleInfo_1);
 
         verify(mFragmentTransaction, never()).add(any(RegionAndNumberingSystemPickerFragment.class),
                 anyString());

@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"निलम्बित"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"अज्ञात"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"प्रिभ्यू"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"अघिल्लो प्रिभ्यू"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"अर्को प्रिभ्यू"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR कोड"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"अझ सानो बनाउनुहोस्"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"अझ ठुलो बनाउनुहोस्"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"अडियो आउटपुटका बारेमा"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"आफ्नो हियरिङ डिभाइस वा फोनको स्पिकरबाट आवाज सुन्नुहोस्"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"सम्बन्धित"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"रिङटोन र अलार्महरू"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"कलमा सुनिने अडियो"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"मिडिया र सिस्टमका आवाजहरू"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"माउसका कीहरू प्रयोग गर्नुहोस्"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"पोइन्टर नियन्त्रण गर्न किबोर्ड प्रयोग गर्नुहोस्"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"विपरीत दिशामा स्क्रोल गर्ने विकल्प"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"तपाईंले तलतिर स्क्रोल गर्दा सामग्री माथितिर सर्छ"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"पेज सारेर तल लैजान माथितिर स्क्रोल गर्नुहोस्"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"माउसको मुख्य बटन अदलबदल गर्नुहोस्"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"माउसको बायाँपट्टिको बटनलाई दायाँ बटनका रूपमा प्रयोग गर्नुहोस्"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"कर्सर एक्सेलेरेसन"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"प्रतिक्रिया"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"कुनै सर्वेक्षणमा सहभागी भएर गुणस्तर सुधार्न मद्दत गर्नुहोस्"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"कुनै पनि सर्वेक्षण उपलब्ध छैन"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"प्रतिक्रिया पठाउनुहोस्"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"डाउनलोड गरिएका एपहरू"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"प्रयोगात्मक"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"विशेष फ्ल्यागहरू"</string>
@@ -2387,7 +2394,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"हाइ कन्ट्रास्ट टेक्स्ट"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"टेक्स्टको रङ बदलेर कालो वा सेतो बनाउनुहोस्। यसले ब्याकग्राउन्डमा कन्ट्रास्टको लेभल अधिकतम बनाउँछ।"</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"टेक्स्टको कन्ट्रास्टमा सुधार ल्याउनुहोस्"</string>
-    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> को ठाउँमा <xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> हालिएको छ। तपाईं <xliff:g id="SETTINGS">%3$s</xliff:g>मा गई यसलाई अन गर्न सक्नुहुन्छ।"</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>को ठाउँमा <xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> प्रयोग गरिएको छ। तपाईं <xliff:g id="SETTINGS">%3$s</xliff:g>मा गई यसलाई अन गर्न सक्नुहुन्छ।"</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"<xliff:g id="SETTINGS">%1$s</xliff:g>मा जानुहोस्"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"आउटलाइन टेक्स्ट"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"कन्ट्रास्ट बढाउन टेक्स्टको वरिपरि कालो वा सेतो ब्याकग्राउन्ड हाल्नुहोस्"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"स्याटलाइट कनेक्टिभिटी"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"स्याटलाइटमार्फत म्यासेज पठाउने सुविधा"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"डेटा प्रयोग गर्ने सुविधा तपाईंको खातामा समावेश गरिएको हुन्छ"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"तपाईंको फोनमा भएका स्याटलाइट सेवा प्रयोग गर्न मिल्ने एपहरू"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"सबै एप हेर्नुहोस्"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"तपाईंको फोनमा भएका स्याटलाइट सेवा प्रयोग गर्न मिल्ने एपहरू"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"एक्सेस पोइन्ट नेम"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g> मा जडान हुँदा उपलब्ध छैन"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"तपाईंको कार्यको नीतिसम्बन्धी जानकारी"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"तपाईंका IT एडमिनले व्यवस्थापन गरेका सेटिङहरू"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"१६ के.बि. आकारको पेज चल्ने गरी बुट गर्नुहोस्"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"१६ के.बि. आकारको पेज चल्ने कर्नेल प्रयोग गरी डिभाइस बुट गर्नुहोस्"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"४ के.बि. मोड बदलेर १६ के.बि. मोड प्रयोग गर्नुहोस्"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"तपाईं हाल ४ के.बि. कर्नेल चलिरहेको पेज एग्नोस्टिक मोड प्रयोग गर्दै हुनुहुन्छ र १६ के.बि. मोड प्रयोग गर्न लाग्दै हुनुहुन्छ। यो मोडमा सफ्टवेयरको पूर्णताको ग्यारेन्टी गर्न सकिँदैन र बुटलोडर अनलक गरिएका बेला फोनमा भण्डारण गरिएको सबै डेटा जोखिममा पर्न सक्छ। यसो गरेपछि डिभाइस रिबुट हुने छ। यी मोडमा केही सुविधाहरू अफ हुने हुनाले केही एपहरू नचल्न सक्छन्। डिभाइसलाई प्रोडक्सन मोडमा फर्काउन तपाईंले ४ के.बि. मोडमा फर्किएर बुटलोडर लक गर्नु पर्ने हुन्छ। यसो गर्दा डिभाइस फ्याक्ट्री रिसेट हुन्छ। डिभाइस Android मा बुट भएपछि विकासकर्ता मोडमा गई OEM अनलक सेटिङ अफ गर्नुहोस्।"</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"१६ के.बि. मोड बदलेर ४ के.बि. मोड प्रयोग गर्नुहोस्"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"तपाईं हाल १६ के.बि. कर्नेल चलिरहेको पेज एग्नोस्टिक मोड प्रयोग गर्दै हुनुहुन्छ र ४ के.बि. मोड प्रयोग गर्न लाग्दै हुनुहुन्छ। यो मोडमा सफ्टवेयरको पूर्णताका बारेमा ग्यारेन्टी गर्न सकिँदैन र बुटलोडर अनलक गरिएका बेला फोनमा भण्डारण गरिएको सबै डेटा जोखिममा पर्न सक्छ। यसो गरेपछि डिभाइस रिबुट हुने छ। यी मोडमा केही सुविधाहरू अफ हुने हुनाले केही एपहरू नचल्न सक्छन्। डिभाइसलाई प्रोडक्सन मोडमा फर्काउन तपाईंले बुटलोडर लक गर्नु पर्ने हुन्छ। यसो गर्दा डिभाइस फ्याक्ट्री रिसेट हुन्छ। डिभाइस Android मा बुट भएपछि विकासकर्ता मोडमा गई OEM अनलक सेटिङ अफ गर्नुहोस्।"</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"कर्नेल अपडेट गरी १६ के.बि. का पेजसँग कम्प्याटिबल कर्नेल बनाउन सकिएन।"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"परिवर्तन लागू गरिँदै छ"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"डिभाइस रिफर्म्याट गरी ext4 बनाउने हो? (१६ के.बि. मोड प्रयोग गर्न यसो गर्नु पर्ने हुन्छ)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"१६ के.बि. विकासकर्ता मोड प्रयोग गर्नुअघि यो डिभाइसको डेटा पार्टिसन रूपान्तरण गरी ext4 बनाउनु पर्ने हुन्छ। यो मोडमा सफ्टवेयरको पूर्णताका बारेमा ग्यारेन्टी गर्न सकिँदैन र बुटलोडर अनलक गरिएका बेला फोनमा भण्डारण गरिएको सबै डेटा जोखिममा पर्न सक्छ। १६ के.बि. विकल्प अन गर्न यसपछि अरू एक पटक रिबुट गर्नु पर्ने हुन्छ। तपाईंले यो मोड प्रयोग गर्न थालेपछि भने तपाईं एक पटक रिबुट गरेकै भरमा ४ के.बि. र १६ के.बि. मोडमा अदलबदल गर्न सक्नुहुन्छ। यी मोडमा केही सुविधाहरू अफ हुने हुनाले केही एपहरू नचल्न सक्छन्। डिभाइसलाई प्रोडक्सन मोडमा फर्काउन तपाईंले ४ के.बि. मोडमा फर्किएर बुटलोडर लक गर्नु पर्ने हुन्छ। यसो गर्दा डिभाइस फ्याक्ट्री रिसेट हुन्छ। डिभाइस Android मा बुट भएपछि विकासकर्ता मोडमा गई OEM अनलक सेटिङ अफ गर्नुहोस्। डिभाइसमा भएको सबै डेटा मेटिने छ र पुष्टि गरेपछि फाइल सिस्टम परिवर्तन भई ext4 हुने छ। यो प्रक्रिया पूरा भएपछि १६ के.बि. अन गर्न कृपया यहाँ फर्किएर आउनुहोस्।"</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"सबै डेटा मेटाउनुहोस्"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"रिफर्म्याट गर्न र डेटाको पार्टिसन मेटाएर ext4 बनाउन सकिएन।"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"बुटलोडर अनलक गर्नु पर्ने हुन्छ"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"१६ के.बि. विकासकर्ता मोड प्रयोग गर्नुअघि यो डिभाइसको बुटलोडर अनलक गर्नु पर्ने हुन्छ। यो मोडमा सफ्टवेयरको पूर्णताका बारेमा ग्यारेन्टी गर्न सकिँदैन र बुटलोडर अनलक गरिएका बेला फोनमा भण्डारण गरिएको सबै डेटा जोखिममा पर्न सक्छ। १६ के.बि. मोड अन गर्दा प्रयोगकर्ताका सबै डेटा तथा सेटिङ मेटिने छ। बुटलोडर अनलक भइसकेपछि १६ के.बि. विकल्प एक्टिभेट गर्न दुई पटक रिबुट गर्नु पर्ने हुन्छ। तपाईंले यो मोड प्रयोग गर्न थालेपछि भने तपाईं एक पटक रिबुट गरेकै भरमा ४ के.बि. र १६ के.बि. मोडमा अदलबदल गर्न सक्नुहुन्छ। यी मोडमा केही सुविधाहरू अफ हुने हुनाले केही एपहरू नचल्न सक्छन्। डिभाइसलाई प्रोडक्सन मोडमा फर्काउन तपाईंले ४ के.बि. मोडमा फर्किएर OEM/बुटलोडर फेरि लक गर्नु पर्ने हुन्छ (यसो गर्दा डिभाइस फ्याक्ट्री रिसेट हुन्छ)। कृपया बुटलोडर अनलक गर्नुहोस् र फेरि प्रयास गर्नुहोस्। तपाईं &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt; मा गई यसो गर्ने तरिका हेर्न सक्नुहुन्छ"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"४ के.बि. पेज एग्नोस्टिक मोड प्रयोग गरिँदै छ"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"तपाईं पेज एग्नोस्टिक मोडअन्तर्गतको ४ के.बि. मोड प्रयोग गर्दै हुनुहुन्छ। यो मोडमा सफ्टवेयरको पूर्णताका बारेमा ग्यारेन्टी गर्न सकिँदैन र बुटलोडर अनलक गरिएका बेला फोनमा भण्डारण गरिएको सबै डेटा जोखिममा पर्न सक्छ। यी मोडमा केही सुविधाहरू अफ हुने हुनाले केही एपहरू नचल्न सक्छन्। तपाईंले डिभाइसको बुटलोडर लक गरेपछि मात्र तपाईं प्रोडक्सन मोडमा फेरि प्रवेश गर्न सक्नुहुन्छ। यस सम्बन्धमा थप जानकारी पढ्न ट्याप गर्नुहोस्।"</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"तपाईं पेज एग्नोस्टिक मोडअन्तर्गतको ४ के.बि. मोड प्रयोग गर्दै हुनुहुन्छ। यो मोडमा सफ्टवेयरको पूर्णताका बारेमा ग्यारेन्टी गर्न सकिँदैन र बुटलोडर अनलक गरिएका बेला फोनमा भण्डारण गरिएको सबै डेटा जोखिममा पर्न सक्छ। यी मोडमा केही सुविधाहरू अफ हुने हुनाले केही एपहरू नचल्न सक्छन्। तपाईंले डिभाइसको बुटलोडर लक गरेपछि मात्र तपाईं प्रोडक्सन मोडमा फेरि प्रवेश गर्न सक्नुहुन्छ। यसो गरेपछि डिभाइस फेरि फ्याक्ट्री रिसेट हुने छ र त्यसका सेटिङ रिस्टोर भई प्रोडक्सन सेटिङ कायम हुने छ। डिभाइस Android मा बुट भएपछि विकासकर्ता मोडमा गई OEM अनलक सेटिङ अफ गर्नुहोस्। डिभाइस Android मा बुट भएन वा डिभाइसको पर्फर्मेन्स अस्थिर भयो भने &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; मा भएको नवीनतम फ्याक्ट्री इमेज प्रयोग गरी डिभाइस रिफ्ल्यास गर्नुहोस् वा &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; प्रयोग गर्नुहोस् र \'डिभाइस मेटाउनुहोस्\', \'बुटलोडर लक गर्नुहोस्\' र \'सबै पार्टिसन बल‌पूर्वक फ्ल्यास गर्नुहोस्\' चयन गर्नुहोस्।"</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"१६ के.बि. पेज एग्नोस्टिक मोड प्रयोग गरिँदै छ"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"तपाईं पेज एग्नोस्टिक मोडअन्तर्गतको १६ के.बि. मोड प्रयोग गर्दै हुनुहुन्छ। यो मोडमा सफ्टवेयरको पूर्णताको ग्यारेन्टी गर्न सकिँदैन र बुटलोडर अनलक गरिएका बेला फोनमा भण्डारण गरिएको सबै डेटा जोखिममा पर्न सक्छ। यी मोडमा केही सुविधाहरू अफ हुने हुनाले केही एपहरू नचल्न सक्छन्। तपाईंले ४ के.बि. मोडमा फर्किएर डिभाइसको बुटलोडर लक गरेपछि मात्र तपाईं प्रोडक्सन मोडमा फेरि प्रवेश गर्न सक्नुहुन्छ। यस सम्बन्धमा थप जानकारी पढ्न ट्याप गर्नुहोस्।"</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"तपाईं पेज एग्नोस्टिक मोडअन्तर्गतको १६ के.बि. मोड प्रयोग गर्दै हुनुहुन्छ। यो मोडमा सफ्टवेयरको पूर्णताको ग्यारेन्टी गर्न सकिँदैन र बुटलोडर अनलक गरिएका बेला फोनमा भण्डारण गरिएको सबै डेटा जोखिममा पर्न सक्छ। यी मोडमा केही सुविधाहरू अफ हुने हुनाले केही एपहरू नचल्न सक्छन्। तपाईंले ४ के.बि. मोडमा फर्किएर डिभाइसको बुटलोडर लक गरेपछि मात्र तपाईं प्रोडक्सन मोडमा फेरि प्रवेश गर्न सक्नुहुन्छ। यसो गरेपछि डिभाइस फेरि फ्याक्ट्री रिसेट हुने छ र त्यसका सेटिङ रिस्टोर भई प्रोडक्सन सेटिङ कायम हुने छ। डिभाइस Android मा बुट भएपछि विकासकर्ता मोडमा गई OEM अनलक सेटिङ अफ गर्नुहोस्। डिभाइस Android मा बुट भएन वा डिभाइसको पर्फर्मेन्स अस्थिर भयो भने &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; मा भएको नवीनतम फ्याक्ट्री इमेज प्रयोग गरी डिभाइस रिफ्ल्यास गर्नुहोस् वा &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; प्रयोग गर्नुहोस् र \'डिभाइस मेटाउनुहोस्\', \'बुटलोडर लक गर्नुहोस्\' र \'सबै पार्टिसन बलपूर्वक फ्ल्यास गर्नुहोस्\' चयन गर्नुहोस्।"</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"१६ के.बि. पेज एग्नोस्टिक मोड"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"थप पढ्नुहोस्"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"यो एप पेज साइज कम्प्याटिबिलिटी मोडमा चलाउनुहोस्"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"यसलाई टगल गरेका खण्डमा यो एप १६ के.बि. भएको डिभाइसमा पेज साइज कम्प्याटिबिलिटी मोडमा चल्ने छ।"</string>
@@ -5644,12 +5665,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"स्ट्रिम पज गरिएको छ"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"सुन्न छाड्नुहोस्"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"कम्प्याटिबल हेडफोन कनेक्ट गर्नुहोस्"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"केही समयका लागि TalkBack अफ गर्नुहोस्"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"अडियो स्ट्रिम सुन्दा TalkBack प्रयोग गर्न सकिँदैन। अडियो स्ट्रिम सुन्न थाल्न TalkBack अफ गर्नुहोस्।"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"अफ गर्नुहोस्"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"कुनै डिभाइस कनेक्ट गर्नुहोस्"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"अडियो स्ट्रिमसम्बन्धी विवरणहरू"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"अडियो स्ट्रिमको QR कोड"</string>

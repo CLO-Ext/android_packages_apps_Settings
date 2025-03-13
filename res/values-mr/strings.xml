@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"निलंबित"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"अज्ञात"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"पूर्वावलोकन"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"मागील पूर्वावलोकन"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"पुढील पूर्वावलोकन"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR कोड"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"आणखी लहान करा"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"आणखी मोठे करा"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"ऑडिओ आउटपुटबद्दल"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"तुमच्या श्रवणयंत्रावर किंवा फोनच्या स्पीकरवर आवाज राउट करा"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"संबंधित"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"रिंगटोन आणि अलार्म"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"कॉलदरम्यान ऑडिओ"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"मीडिया आणि सिस्टीमचे आवाज"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"माउस की वापरा"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"पॉइंटर नियंत्रित करण्यासाठी तुमचा कीबोर्ड वापरा"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"स्क्रोलिंग उलट करा"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"तुम्ही खाली स्क्रोल करता, तेव्हा आशय वरती हलतो"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"पेज खाली हलवण्यासाठी वरती स्क्रोल करा"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"प्राथमिक माउस बटण स्वॅप करा"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"माउसच्या डाव्या बटणाला तुमचे उजवे बटण म्हणून वापरा"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"कर्सर अ‍ॅक्सिलरेशन"</string>
@@ -2386,7 +2394,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"उच्च कॉंट्रास्ट मजकूर"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"मजकुराचा रंग काळा किंवा पांढरा यावर बदला. बॅकग्राउंड वापरून काँट्रास्ट वाढवते."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"मजकुराच्या काँट्रास्टमध्ये सुधारणा करा"</string>
-    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> ने <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> जागा घेतली आहे. तुम्ही ते <xliff:g id="SETTINGS">%3$s</xliff:g> मध्ये सुरू करू शकता."</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> ने <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> ची जागा घेतली आहे. तुम्ही ते <xliff:g id="SETTINGS">%3$s</xliff:g> मध्ये सुरू करू शकता."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"<xliff:g id="SETTINGS">%1$s</xliff:g> वर जा"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"मजकुराची आउटलाइन"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"कॉंट्रास्ट वाढवण्यासाठी मजकुराभोवती काळी किंवा पांढरी बॅकग्राउंड जोडा"</string>
@@ -4364,8 +4372,7 @@
     <string name="disconnected" msgid="3469373726996129247">"कनेक्ट केलेले नाही"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"कनेक्ट केलेले नाही"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> अ‍ॅप्स इंस्टॉल केले"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> वापरले आहे - <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> मोकळे आहे"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"गडद थीम, फॉंटचा आकार, ब्राइटनेस"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> पैकी सरासरी <xliff:g id="USED_MEMORY">%1$s</xliff:g> मेमरी वापरली"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> म्हणून साइन इन केले"</string>
@@ -4434,8 +4441,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"इथरनेट डेटा वापर"</string>
     <string name="wifi" msgid="2932584495223243842">"वाय-फाय"</string>
     <string name="ethernet" msgid="4665162609974492983">"इथरनेट"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"इथरनेट <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> मोबाइल डेटा"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> वाय-फाय डेटा"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> इथरनेट डेटा"</string>
@@ -5180,27 +5186,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"तुमच्या कार्य धोरणाची माहिती"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"तुमच्या आयटी ॲडमिनद्वारे व्यवस्थापित केलेली सेटिंग्ज"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"१६KB पेज आकार वापरून बूट करा"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"१६KB च्या पेजला सपोर्ट असलेल्या कर्नेलने डिव्हाइस बूट करा"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"४KB मोडवरून १६KB मोडवर स्विच करा"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"तुम्ही ४KB कर्नेल रन करणाऱ्या पेज अज्ञात मोडमध्ये आहात आणि तुम्ही १६KB मोडवर स्विच करत आहात. या मोडमध्ये सॉफ्टवेअर इंटेग्रिटीची हमी देता येणार नाही आणि बूटलोडर अनलॉक केलेला असताना फोनवर स्टोअर केलेल्या कोणत्याही डेटाला धोका असू शकतो. यामुळे डिव्हाइस रीबूट केले जाईल. या मोडमध्ये काही वैशिष्ट्ये बंद केली जातील, त्यामुळे काही अ‍ॅप्लिकेशन कदाचित काम करणार नाहीत. डिव्हाइसला उत्पादन मोडवर परत आणण्यासाठी, तुम्हाला त्यानंतर ४kB मोडवर परत स्विच करावे लागेल आणि बूटलोडर लॉक करावा लागेल, ज्यामुळे डिव्हाइसला फॅक्टरी रीसेट केले जाईल. Android मध्ये डिव्हाइस यशस्वीरीत्या बूट झाल्यानंतर, डेव्हलपर पर्यायांमध्ये OEM अनलॉक करणे हे बंद करा."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"१६KB मोडवरून ४KB मोडवर स्विच करा"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"तुम्ही १६kB कर्नेल रन करणाऱ्या पेज अज्ञात मोडमध्ये आहात आणि तुम्ही ४KB मोडवर स्विच करत आहात. या मोडमध्ये सॉफ्टवेअर इंटेग्रिटीची हमी देता येणार नाही आणि बूटलोडर अनलॉक केलेला असताना फोनवर स्टोअर केलेल्या कोणत्याही डेटाला धोका असू शकतो. यामुळे डिव्हाइस रीबूट होईल. या मोडमध्ये काही वैशिष्ट्ये बंद केली जातील, त्यामुळे काही अ‍ॅप्लिकेशन कदाचित काम करणार नाहीत. डिव्हाइसला उत्पादन मोडवर परत आणण्यासाठी, त्यानंतर तुम्हाला डिव्हाइसला फॅक्टरी रीसेट करणारा बूटलोडर लॉक करावा लागेल. Android मध्ये डिव्हाइस यशस्वीरीत्या बूट झाल्यानंतर, डेव्हलपर पर्यायांमध्ये OEM अनलॉक करणे हे बंद करा."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"कर्नेल हे 16KB पेज कंपॅटिबल असलेल्या कर्नेलवर अपडेट करता आले नाही."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"बदल लागू करत आहे"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"डिव्हाइस ext4 वर पुन्हा फॉरमॅट करायचे आहे का? (१६KB मोडसाठी आवश्यक)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"१६KB डेव्हलपर पर्याय वापरण्यापूर्वी या डिव्हाइसच्या डेटा पार्टिशनचे ext4 मध्ये रूपांतर करणे आवश्यक आहे. या मोडमध्ये सॉफ्टवेअर इंटेग्रिटीची हमी देता येणार नाही आणि बूटलोडर अनलॉक केलेला असताना फोनवर स्टोअर केलेल्या कोणत्याही डेटाला धोका असू शकतो. १६KB पर्याय अ‍ॅक्टिव्हेट करण्यासाठी यानंतर आणखी एकदा रीबूट करावे लागेल. तुम्ही या मोडमध्ये असाल, तेव्हा तुम्ही एकदाच रीबूट करून ४KB आणि १६KB मोडमध्ये मागे व पुढे स्विच करू शकता. या मोडमध्ये काही वैशिष्ट्ये बंद केली जातील, त्यामुळे काही अ‍ॅप्लिकेशन कदाचित काम करणार नाहीत. डिव्हाइसला उत्पादन मोडवर परत आणण्यासाठी, तुम्हाला ४kB मोडवर परत स्विच करावे लागेल आणि त्यानंतर डिव्हाइसला फॅक्टरी रीसेट करणारा बूटलोडर लॉक करावा लागेल. Android मध्ये डिव्हाइस यशस्वीरीत्या बूट झाल्यानंतर, डेव्हलपर पर्यायांमध्ये OEM अनलॉक करणे हे बंद करा. डिव्हाइस पुसून टाकले जाईल आणि कन्फर्मेशननंतर फाइलसिस्टीम ext4 वर बदलली जाईल. हे पूर्ण झाल्यानंतर, कृपया १६KB पुन्हा सुरू करण्यासाठी परत या."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"सर्व डेटा मिटवा"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"डेटाचे पार्टिशन ext4 वर पुन्हा फॉरमॅट करून पुसून टाकता आले नाही."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"बूटलोडर अनलॉक करणे आवश्यक आहे"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"१६KB डेव्हलपर पर्याय वापरण्यापूर्वी या डिव्हाइसचा बूटलोडर अनलॉक करावा लागेल. या मोडमध्ये सॉफ्टवेअर इंटेग्रिटीची हमी देता येणार नाही आणि बूटलोडर अनलॉक केलेला असताना फोनवर स्टोअर केलेल्या कोणत्याही डेटाला धोका असू शकतो. १६KB मोड अ‍ॅक्टिव्हेट केल्यावर सर्व वापरकर्ता डेटा आणि सेटिंग्ज पुसून टाकली जातील. बूटलोडर अनलॉक केल्यावर, १६KB पर्याय अ‍ॅक्टिव्हेट करण्यासाठी दोन वेळा रीबूट करावे लागेल. तुम्ही या मोडमध्ये असाल, तेव्हा तुम्ही एकदाच रीबूट करून ४KB आणि १६KB मोडमध्ये मागे व पुढे स्विच करू शकता. या मोडमध्ये काही वैशिष्ट्ये बंद केली जातील, त्यामुळे काही अ‍ॅप्लिकेशन कदाचित काम करणार नाहीत. डिव्हाइसला उत्पादन मोडवर परत आणण्यासाठी, तुम्हाला ४KB मोडवर परत स्विच करावे लागेल आणि त्यानंतर डिव्हाइस (फॅक्टरी रीसेट करणारा) OEM/बूटलोडर लॉक करावा लागेल. कृपया बूटलोडर अनलॉक करा आणि पुन्हा प्रयत्न करा. हे कसे करावे यासाठीच्या सूचना तुम्ही &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt; येथे पाहू शकता"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"४KB पेज अज्ञात मोड वापरत आहे"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"तुम्ही पेज अज्ञात मोडच्या ४KB मोडमध्ये आहात. या मोडमध्ये सॉफ्टवेअर इंटेग्रिटीची हमी देता येणार नाही आणि बूटलोडर अनलॉक केलेला असताना फोनवर स्टोअर केलेल्या कोणत्याही डेटाला धोका असू शकतो. या मोडमध्ये काही वैशिष्ट्ये बंद केली जातील, त्यामुळे काही अ‍ॅप्लिकेशन कदाचित काम करणार नाहीत. उत्पादन मोडमध्ये पुन्हा एंटर करण्यासाठी, तुम्हाला डिव्हाइसचा बूटलोडर लॉक करावा लागेल. आणखी वाचण्यासाठी टॅप करा."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"तुम्ही पेज अज्ञात मोडच्या ४KB मोडमध्ये आहात. या मोडमध्ये सॉफ्टवेअर इंटेग्रिटीची हमी देता येणार नाही आणि बूटलोडर अनलॉक केलेला असताना फोनवर स्टोअर केलेल्या कोणत्याही डेटाला धोका असू शकतो. या मोडमध्ये काही वैशिष्ट्ये बंद केली जातील, त्यामुळे काही अ‍ॅप्लिकेशन कदाचित काम करणार नाहीत. उत्पादन मोडमध्ये पुन्हा एंटर करण्यासाठी, तुम्हाला डिव्हाइसचा बूटलोडर लॉक करावा लागेल. यामुळे डिव्हाइस पुन्हा फॅक्टरी रीसेट होईल आणि उत्पादन सेटिंग्जवर रिस्टोअर केले जाईल. Android मध्ये डिव्हाइस यशस्वीरीत्या बूट झाल्यानंतर, डेव्हलपर पर्यायांमध्ये OEM अनलॉक करणे हे बंद करा. डिव्हाइस Android मध्ये बूट होत नसल्यास किंवा ते अस्थिर असल्यास, &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; येथील नवीनतम फॅक्टरी इमेजच्या मदतीने डिव्हाइस पुन्हा फ्लॅश करा किंवा &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; वापरा आणि \'डिव्हाइस पुसून टाका\', \'बूटलोडर लॉक करा\' व \'सर्व पार्टिशन सक्तीने फ्लॅश करा\' हे निवडा."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"१६KB पेज अज्ञात मोड वापरत आहे"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"तुम्ही पेज-अ‍ॅग्नॉस्टिक मोडच्या १६KB मोडमध्ये आहात. या मोडमध्ये सॉफ्टवेअर इंटेग्रिटीची हमी देता येणार नाही आणि बूटलोडर अनलॉक केलेला असताना फोनवर स्टोअर केलेल्या कोणत्याही डेटाला धोका असू शकतो. या मोडमध्ये काही वैशिष्ट्ये बंद केली जातील, त्यामुळे काही अ‍ॅप्लिकेशन कदाचित काम करणार नाहीत. उत्पादन मोडमध्ये पुन्हा एंटर करण्यासाठी, तुम्हाला ४KB मोडवर परत स्विच करावे लागेल आणि त्यानंतर डिव्हाइसचा बूटलोडर लॉक करावा लागेल. आणखी वाचण्यासाठी टॅप करा."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"तुम्ही पेज-अ‍ॅग्नॉस्टिक मोडच्या १६KB मोडमध्ये आहात. या मोडमध्ये सॉफ्टवेअर इंटेग्रिटीची हमी देता येणार नाही आणि बूटलोडर अनलॉक केलेला असताना फोनवर स्टोअर केलेल्या कोणत्याही डेटाला धोका असू शकतो. या मोडमध्ये काही वैशिष्ट्ये बंद केली जातील, त्यामुळे काही अ‍ॅप्लिकेशन कदाचित काम करणार नाहीत. उत्पादन मोडमध्ये पुन्हा एंटर करण्यासाठी, तुम्हाला ४KB मोडवर परत स्विच करावे लागेल आणि त्यानंतर डिव्हाइसचा बूटलोडर लॉक करावा लागेल. यामुळे डिव्हाइस पुन्हा फॅक्टरी रीसेट होईल आणि उत्पादन सेटिंग्जवर रिस्टोअर केले जाईल. Android मध्ये डिव्हाइस यशस्वीरीत्या बूट झाल्यानंतर, डेव्हलपर पर्यायांमध्ये OEM अनलॉक करणे हे बंद करा. डिव्हाइस Android मध्ये बूट होत नसल्यास किंवा ते अस्थिर असल्यास, &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; येथील नवीनतम फॅक्टरी इमेजच्या मदतीने डिव्हाइस पुन्हा फ्लॅश करा किंवा &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; वापरा आणि \'डिव्हाइस पुसून टाका\', \'बूटलोडर लॉक करा\' व \'सर्व पार्टिशन सक्तीने फ्लॅश करा\' हे निवडा."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"१६KB पेज अज्ञात मोड"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"आणखी वाचा"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"पेज आकार कंपॅटिबिलिटी मोडसह रन करा"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"ॲप हे टॉगल केल्यावर १६ KB डिव्हाइसवर पेज आकार कंपॅटिबिलिटी मोडमध्ये रन केले जाईल."</string>
@@ -5609,8 +5632,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"ऑडिओ शेअरिंग बंद करा"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"नवीन डिव्हाइस पेअर करण्यासाठी, प्रथम ऑडिओ शेअरिंग बंद करा."</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"बंद करा"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> सोबत ऑडिओ शेअर करा"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"LE ऑडिओ स्ट्रीमशी कनेक्ट करा"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"जवळपासची ऑडिओ स्ट्रीम"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"ऑडिओ स्ट्रीम"</string>

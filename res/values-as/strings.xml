@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"স্থগিত"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"অজ্ঞাত"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"পূৰ্বদৰ্শন"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"পূৰ্বৱৰ্তী পূৰ্বদৰ্শন"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"পৰৱৰ্তী পূৰ্বদৰ্শন"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"কিউআৰ ক’ড"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"সৰু কৰক"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"ডাঙৰ কৰক"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"অডিঅ’ আউটপুটৰ বিষয়ে"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"আপোনাৰ শুনাৰ ডিভাইচ অথবা ফ’নৰ স্পীকাৰলৈ ধ্বনি পঠিয়াওক"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"প্ৰাসংগিক"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"ৰিংট’ন আৰু এলাৰ্ম"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"কল কৰি থকাৰ সময়ত অডিঅ’"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"মিডিয়া আৰু ছিষ্টেমৰ ধ্বনি"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"মাউছৰ কীসমূহ ব্যৱহাৰ কৰক"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"পইণ্টাৰ নিয়ন্ত্ৰণ কৰিবলৈ আপোনাৰ কীব’ৰ্ড ব্যৱহাৰ কৰক"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"বিপৰীত দিশলৈ স্ক্ৰ’ল কৰাৰ সুবিধা"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"আপুনি তললৈ স্ক্ৰ’ল কৰিলে সমল ওপৰলৈ যায়"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"পৃষ্ঠাটো তললৈ নিবলৈ ওপৰলৈ স্ক্ৰ’ল কৰক"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"মাউছৰ প্ৰাথমিক বুটাম সলনি-সলনি কৰক"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"মাউছৰ বাওঁফালৰ বুটামটো আপোনাৰ সোঁফালৰ হিচাপে ব্যৱহাৰ কৰক"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"কাৰ্ছৰৰ এক্সিলাৰেশ্বন"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"মতামত"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"এটা সমীক্ষাত ভাগ লৈ উন্নত কৰাত সহায় কৰক"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"কোনো সমীক্ষা উপলব্ধ নহয়"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"মতামত পঠিয়াওক"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"ডাউনল’ড কৰা এপ্"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"পৰীক্ষামূলক"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"বৈশিষ্ট সম্পৰ্কীয় পতাকাবোৰ"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"উপগ্ৰহৰ সংযোগ"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"উপগ্ৰহৰ দ্বাৰা বাৰ্তা বিনিময়"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"আপোনাৰ একাউণ্টত ডেটা ব্যৱহাৰ কৰাটো অন্তর্ভুক্ত"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"আপোনাৰ ফ’নৰ সমৰ্থিত এপ্‌"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"আটাইবোৰ এপ্‌ চাওক"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"আপোনাৰ ফ’নৰ সমৰ্থিত এপ্‌"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"এক্সেছ পইণ্টৰ নাম"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"এপিএন"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g>ৰ সৈতে সংযোগ কৰিলে উপলব্ধ নহয়"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"আপোনাৰ কর্মস্থান নীতিৰ তথ্য"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"আপোনাৰ আইটি প্ৰশাসকে পৰিচালনা কৰা ছেটিং"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"১৬ কেবি পৃষ্ঠাৰ আকাৰৰ জৰিয়তে বুট কৰক"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"১৬ কেবি পৃষ্ঠা আকাৰৰ সমৰ্থিত কাৰ্নেল ব্যৱহাৰ কৰি ডিভাইচ বুট কৰক"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"৪ কেবি ম’ডৰ পৰা ১৬ কেবি ম’ডলৈ সলনি কৰক"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"আপুনি এটা ৪ কেবি কাৰ্ণেল চলাই থকা পেজ-এগন’ষ্টিক ম’ডত আছে আৰু আপুনি ১৬ কেবি ম’ডলৈ সলনি কৰি আছে। এই ম’ডত ছফ্টৱেৰৰ অখণ্ডতা নিশ্চিত কৰিব নোৱাৰি আৰু বুটল’ডাৰ আনলক হৈ থকাৰ সময়ত ফ’নত ষ্ট’ৰ কৰা যিকোনো ডেটাৰ ক্ষেত্ৰত বিপদাশংকা থাকিব পাৰে। ই ডিভাইচটো ৰিবুট কৰিব। এই ম’ডসমূহত কিছুমান সুবিধা অক্ষম কৰা হ’ব, গতিকে কিছুমান এপ্লিকেশ্বনে কাম নকৰিবও পাৰে। ডিভাইচটোক উৎপাদন ম’ডলৈ উভতাই নিবলৈ, আপুনি তেতিয়া, ৪ কেবি ম’ডলৈ পুনৰ সলনি কৰিব লাগিব আৰু বুটল’ডাৰ লক কৰিব লাগিব, যিয়ে ডিভাইচটো ফেক্টৰী ৰিছেট কৰে। ডিভাইচটোৱে Androidত সফলতাৰে বুট কৰাৰ পাছত, বিকাশকৰ্তাৰ বিকল্পসমূহত OEM আনলক কৰাটো অক্ষম কৰক।"</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"১৬ কেবি ম’ডৰ পৰা ৪ কেবি ম’ডলৈ সলনি কৰক"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"আপুনি এটা ১৬ কেবি কাৰ্ণেল চলাই থকা পেজ-এগন’ষ্টিক ম’ডত আছে আৰু আপুনি ৪ কেবি ম’ডলৈ সলনি কৰি আছে। এই ম’ডত ছফ্টৱেৰৰ অখণ্ডতা নিশ্চিত কৰিব নোৱাৰি আৰু বুটল’ডাৰ আনলক হৈ থকাৰ সময়ত ফ’নত ষ্ট’ৰ কৰা যিকোনো ডেটাৰ ক্ষেত্ৰত বিপদাশংকা থাকিব পাৰে। ই ডিভাইচটো ৰিবুট কৰিব। এই ম’ডসমূহত কিছুমান সুবিধা অক্ষম কৰা হ’ব, গতিকে কিছুমান এপ্লিকেশ্বনে কাম নকৰিবও পাৰে। ডিভাইচটোক উৎপাদন ম’ডলৈ উভতাই নিবলৈ, আপুনি তেতিয়া বুটল’ডাৰ লক কৰিব লাগিব, যিয়ে ডিভাইচটো ফেক্টৰী ৰিছেট কৰে। ডিভাইচটোৱে Androidত সফলতাৰে বুট কৰাৰ পাছত, বিকাশকৰ্তাৰ বিকল্পসমূহত OEM আনলক কৰাটো অক্ষম কৰক।"</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"কাৰ্নেলক ১৬ কেবি পৃষ্ঠাৰ সৈতে সমিল কাৰ্নেললৈ আপডে’ট কৰিব পৰা নগ’ল।"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"সালসলনি প্ৰয়োগ কৰি থকা হৈছে"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"ডিভাইচ ext4 হিচাপে পুনৰ ফৰ্মেট কৰিবনে? (১৬ কেবি ম’ডৰ বাবে আৱশ্যক)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"১৬ কেবি বিকাশকৰ্তাৰ বিকল্প ব্যৱহাৰ কৰাৰ আগতে এই ডিভাইচৰ ডেটা বিভাজন ext4 লৈ ৰূপান্তৰ কৰিব লাগিব। এই ম’ডত ছফ্টৱেৰৰ অখণ্ডতা নিশ্চিত কৰিব নোৱাৰি আৰু বুটল’ডাৰ আনলক হৈ থকাৰ সময়ত ফ’নত ষ্ট’ৰ কৰা যিকোনো ডেটাৰ ক্ষেত্ৰত বিপদাশংকা থাকিব পাৰে। ১৬ কেবি বিকল্প সক্ৰিয় কৰাৰ বাবে ইয়াৰ পাছত আৰু এবাৰ ৰিবুট কৰাৰ প্ৰয়োজন হ’ব। আপুনি এবাৰ এই ম’ডত থাকিলে, আপুনি এবাৰ ৰিবুট কৰিয়েই ৪ কেবি আৰু ১৬ কেবি ম’ডৰ মাজত আগ-পিছ কৰিব পাৰিব। এই ম’ডসমূহত কিছুমান সুবিধা অক্ষম কৰা হ’ব, গতিকে কিছুমান এপ্লিকেশ্বনে কাম নকৰিবও পাৰে। ডিভাইচটোক উৎপাদন ম’ডলৈ উভতাই নিবলৈ, আপুনি ৪ কেবি ম’ডলৈ পুনৰ সলনি কৰিব লাগিব আৰু বুটল’ডাৰ লক কৰিব লাগিব, যিয়ে ডিভাইচটো ফেক্টৰী ৰিছেট কৰে। ডিভাইচটোৱে Androidত সফলতাৰে বুট কৰাৰ পাছত, বিকাশকৰ্তাৰ বিকল্পসমূহত OEM আনলক কৰাটো অক্ষম কৰক। ডিভাইচটো মচি পেলোৱা হ’ব আৰু নিশ্চিতকৰণৰ পাছত ফাইলছিষ্টেম ext4লৈ সলনি কৰা হ’ব। এইটো সম্পূৰ্ণ হোৱাৰ পাছত, ১৬ কেবি পুনৰ সক্ষম কৰিবলৈ কৰিবলৈ অনুগ্ৰহ কৰি উভতি আহক।"</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"আটাইবোৰ ডেটা মচক"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"ডেটা বিভাজন মচিব আৰু ext4 হিচাপে পুনৰ ফৰ্মেট কৰিব পৰা নগ’ল।"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"বুটল’ডাৰ আনলক কৰাৰ আৱশ্যক"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"১৬ কেবি বিকাশকৰ্তাৰ বিকল্প ব্যৱহাৰ কৰাৰ আগতে এই ডিভাইচত বুটল’ডাৰ আনলক কৰিব লাগিব। এই ম’ডত ছফ্টৱেৰৰ অখণ্ডতা নিশ্চিত কৰিব নোৱাৰি আৰু বুটল’ডাৰ আনলক হৈ থকাৰ সময়ত ফ’নত ষ্ট’ৰ কৰা যিকোনো ডেটাৰ ক্ষেত্ৰত বিপদাশংকা থাকিব পাৰে। ১৬ কেবি ম’ড সক্ৰিয় কৰাৰ সময়ত ব্যৱহাৰকাৰীৰ আটাইবোৰ ডেটা আৰু ছেটিং মচি পেলোৱা হ’ব। এবাৰ বুটল’ডাৰ আনলক কৰা হ’লে, ১৬ কেবি বিকল্প সক্ৰিয় কৰিবলৈ দুবাৰ ৰিবুট কৰাৰ প্ৰয়োজন হ’ব। আপুনি এবাৰ এই ম’ডত থাকিলে, আপুনি এবাৰ ৰিবুট কৰিয়েই ৪ কেবি আৰু ১৬ কেবি ম’ডৰ মাজত আগ-পিছ কৰিব পাৰিব। এই ম’ডসমূহত কিছুমান সুবিধা অক্ষম কৰা হ’ব, গতিকে কিছুমান এপ্লিকেশ্বনে কাম নকৰিবও পাৰে। ডিভাইচটোক উৎপাদন ম’ডলৈ উভতাই নিবলৈ, আপুনি ৪ কেবি ম’ডলৈ পুনৰ সলনি কৰিব লাগিব আৰু ডিভাইচটো OEM/বুটল’ডাৰ লক (যিয়ে ফেক্টৰী ৰিছেট কৰে) কৰিব লাগিব। অনুগ্ৰহ কৰি বুটল’ডাৰ আনলক কৰক আৰু পুনৰ চেষ্টা কৰক। আপুনি এইটো কেনেকৈ কৰিব লাগে তাৰ নিৰ্দেশনা &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;ত চাব পাৰে"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"৪ কেবি পেজ-এগন’ষ্টিক ম’ড ব্যৱহাৰ কৰি থকা হৈছে"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"আপুনি পেজ-এগন’ষ্টিক ম’ডৰ ৪ কেবি ম’ডত আছে। এই ম’ডত ছফ্টৱেৰৰ অখণ্ডতা নিশ্চিত কৰিব নোৱাৰি আৰু বুটল’ডাৰ আনলক হৈ থকাৰ সময়ত ফ’নত ষ্ট’ৰ কৰা যিকোনো ডেটাৰ ক্ষেত্ৰত বিপদাশংকা থাকিব পাৰে। এই ম’ডসমূহত কিছুমান সুবিধা অক্ষম কৰা হ’ব, গতিকে কিছুমান এপ্লিকেশ্বনে কাম নকৰিবও পাৰে। উৎপাদন ম’ডত পুনৰ প্ৰৱেশ কৰিবলৈ, আপুনি ডিভাইচৰ বুটল’ডাৰ লক কৰিবই লাগিব। অধিক পঢ়িবলৈ টিপক।"</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"আপুনি পেজ-এগন’ষ্টিক ম’ডৰ ৪ কেবি ম’ডত আছে। এই ম’ডত ছফ্টৱেৰৰ অখণ্ডতা নিশ্চিত কৰিব নোৱাৰি আৰু বুটল’ডাৰ আনলক হৈ থকাৰ সময়ত ফ’নত ষ্ট’ৰ কৰা যিকোনো ডেটাৰ ক্ষেত্ৰত বিপদাশংকা থাকিব পাৰে। এই ম’ডসমূহত কিছুমান সুবিধা অক্ষম কৰা হ’ব, গতিকে কিছুমান এপ্লিকেশ্বনে কাম নকৰিবও পাৰে। উৎপাদন ম’ডত পুনৰ প্ৰৱেশ কৰিবলৈ, আপুনি ডিভাইচৰ বুটল’ডাৰ লক কৰিবই লাগিব। ই ডিভাইচটো পুনৰ ফেক্টৰী ৰিছেট কৰিব আৰু সেইটোক উৎপাদন ছেটিঙলৈ পুনঃস্থাপন কৰিব। ডিভাইচটোৱে Androidত সফলতাৰে বুট কৰাৰ পাছত, বিকাশকৰ্তাৰ বিকল্পসমূহত OEM আনলক কৰাটো অক্ষম কৰক। যদি ডিভাইচটো Androidত বুট কৰিব পৰা নাযায় বা অস্থিৰ হয়, তেন্তে &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; or use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt;ৰ পৰা শেহতীয়া ফেক্টৰী প্ৰতিচ্ছবিসমূহৰ সৈতে ডিভাইচটো পুনৰ ফ্লেশ্ব কৰক আৰু \'ডিভাইচ মচি পেলাওক\', \'বুটল’ডাৰ লক কৰক\' আৰু \'আটাইবোৰ বিভাজন বলপূৰ্বক ফ্লেশ্ব কৰক\' বাছনি কৰক।"</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"১৬ কেবি পেজ-এগন’ষ্টিক ম’ড ব্যৱহাৰ কৰি থকা হৈছে"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"আপুনি পেজ-এগন’ষ্টিক ম’ডৰ ১৬ কেবি ম’ডত আছে। এই ম’ডত ছফ্টৱেৰৰ অখণ্ডতা নিশ্চিত কৰিব নোৱাৰি আৰু বুটল’ডাৰ আনলক হৈ থকাৰ সময়ত ফ’নত ষ্ট’ৰ কৰা যিকোনো ডেটাৰ ক্ষেত্ৰত বিপদাশংকা থাকিব পাৰে। এই ম’ডসমূহত কিছুমান সুবিধা অক্ষম কৰা হ’ব, গতিকে কিছুমান এপ্লিকেশ্বনে কাম নকৰিবও পাৰে। উৎপাদন ম’ডত পুনৰ প্ৰৱেশ কৰিবলৈ, আপুনি ৪ কেবি ম’ডলৈ উভতি যাবই লাগিব আৰু তাৰ পাছত ডিভাইচৰ বুটল’ডাৰ লক কৰিবই লাগিব। অধিক পঢ়িবলৈ টিপক।"</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"আপুনি পেজ-এগন’ষ্টিক ম’ডৰ ১৬ কেবি ম’ডত আছে। এই ম’ডত ছফ্টৱেৰৰ অখণ্ডতা নিশ্চিত কৰিব নোৱাৰি আৰু বুটল’ডাৰ আনলক হৈ থকাৰ সময়ত ফ’নত ষ্ট’ৰ কৰা যিকোনো ডেটাৰ ক্ষেত্ৰত বিপদাশংকা থাকিব পাৰে। এই ম’ডসমূহত কিছুমান সুবিধা অক্ষম কৰা হ’ব, গতিকে কিছুমান এপ্লিকেশ্বনে কাম নকৰিবও পাৰে। উৎপাদন ম’ডত পুনৰ প্ৰৱেশ কৰিবলৈ, আপুনি ৪ কেবি ম’ডলৈ উভতি যাবই লাগিব আৰু তাৰ পাছত ডিভাইচৰ বুটল’ডাৰ লক কৰিবই লাগিব। ই ডিভাইচটো পুনৰ ফেক্টৰী ৰিছেট কৰিব আৰু সেইটোক উৎপাদন ছেটিঙলৈ পুনঃস্থাপন কৰিব। ডিভাইচটোৱে Androidত সফলতাৰে বুট কৰাৰ পাছত, বিকাশকৰ্তাৰ বিকল্পসমূহত OEM আনলক কৰাটো অক্ষম কৰক। যদি ডিভাইচটো Androidত বুট কৰিব পৰা নাযায় বা অস্থিৰ হয়, তেন্তে &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; or use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt;ৰ পৰা শেহতীয়া ফেক্টৰী প্ৰতিচ্ছবিসমূহৰ সৈতে ডিভাইচটো পুনৰ ফ্লেশ্ব কৰক আৰু \'ডিভাইচৰ ডেটা মচি পেলাওক\', \'বুটল’ডাৰ লক কৰক\' আৰু \'আটাইবোৰ বিভাজন বলপূৰ্বক ফ্লেশ্ব কৰক\' বাছনি কৰক।"</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"১৬ কেবি পেজ-এগন’ষ্টিক ম’ড"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"অধিক পঢ়ক"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"এপ্‌টো পৃষ্ঠাৰ আকাৰৰ সুসমতা ম’ডৰ জৰিয়তে চলাওক"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"ট’গল কৰা হ’লে এপ্‌টো ১৬ কেবি ডিভাইচত পৃষ্ঠাৰ আকাৰৰ সুসমতা ম’ডত চলোৱা হ’ব।"</string>
@@ -5644,12 +5665,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"ষ্ট্ৰীম পজ কৰা হৈছে"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"শুনা বন্ধ কৰক"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"সুসংগত হেডফ’ন সংযোগ কৰক"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"সাময়িকভাৱে TalkBack অফ কৰক"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"অডিঅ’ ষ্ট্ৰীম শুনি থকাৰ সময়ত TalkBack ব্যৱহাৰ কৰিব নোৱাৰি। শুনা আৰম্ভ কৰিবলৈ TalkBack অফ কৰক।"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"অফ কৰক"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"এটা ডিভাইচ সংযোগ কৰক"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"অডিঅ’ ষ্ট্ৰীমৰ সবিশেষ"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"অডিঅ’ ষ্ট্ৰীমৰ কিউআৰ ক’ড"</string>

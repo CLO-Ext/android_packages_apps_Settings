@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Suspendido"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Descoñecido"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Vista previa"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Vista previa anterior"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Vista previa seguinte"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Código QR"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Reducir"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Ampliar"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Acerca da saída de audio"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Transmite sons ao teu dispositivo auditivo ou ao altofalante do teléfono"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Relacionado"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Ton de chamada e alarmas"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Audio durante as chamadas"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Sons do sistema e multimedia"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Usar teclas do rato"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Usa o teclado para controlar o punteiro"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Inverter desprazamento"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"O contido moverase cara arriba cando te despraces cara abaixo"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Desprázate cara arriba para mover a páxina cara abaixo"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Cambiar botón principal do rato"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Usa o botón esquerdo do rato como se fose o dereito"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Aceleración do cursor"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Comentarios"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Para axudarnos a mellorar, completa unha enquisa"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Non hai ningunha enquisa dispoñible"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Enviar comentarios"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Aplicacións descargadas"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Experimental"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Funcións experimentais"</string>
@@ -2387,9 +2394,9 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Texto de alto contraste"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"Cambia a cor do texto a negro ou branco. Maximiza o contraste co fondo."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Mellora o contraste do texto"</string>
-    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"A opción de <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> substituíse pola de <xliff:g id="OUTLINE_TEXT">%1$s</xliff:g>. Podes activar esta opción en <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"A opción de <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> substituíuse pola de <xliff:g id="OUTLINE_TEXT">%1$s</xliff:g>. Podes activar esta opción en <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Ir a <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Contornar o texto"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Texto con contorno"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Engade un fondo branco ou negro ao redor do texto para aumentar o contraste"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Actualizar aumento automaticamente"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Actualizar aumento pantalla en transicións de apps"</string>
@@ -4364,8 +4371,7 @@
     <string name="disconnected" msgid="3469373726996129247">"Sen conexión"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Non conectado"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> aplicacións instaladas"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"Utilizado: <xliff:g id="PERCENTAGE">%1$s</xliff:g> - Libre: <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Tema escuro, tamaño do tipo de letra, brillo"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Uso medio da memoria: <xliff:g id="USED_MEMORY">%1$s</xliff:g> de <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Iniciaches sesión como <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4434,8 +4440,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Uso de datos de Ethernet"</string>
     <string name="wifi" msgid="2932584495223243842">"Wifi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"Ethernet <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"Datos móbiles usados: <xliff:g id="AMOUNT">^1</xliff:g>"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"Datos da wifi: <xliff:g id="AMOUNT">^1</xliff:g>"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"Datos de Ethernet: <xliff:g id="AMOUNT">^1</xliff:g>"</string>
@@ -5010,12 +5015,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"conectividade por satélite"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"mensaxaría por satélite"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"O uso de datos está incluído na túa conta"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Aplicacións compatibles no teu teléfono"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"ver todas as aplicacións"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Aplicacións compatibles no teu teléfono"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Nomes dos puntos de acceso"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Non dispoñible cando o dispositivo está conectado a <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5183,27 +5185,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Información sobre a política do teu traballo"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"A configuración xestiónaa o teu equipo de administración de TI"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Arrancar con páxinas de 16 kB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Arrancar co núcleo compatible con páxinas de 16 kB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Cambiar do modo de 4 kB ao modo de 16 kB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Estás no modo independente de páxina executando un núcleo de 4 kB e vas cambiar ao modo de 16 kB. A integridade do software non se pode garantir neste modo, e os datos almacenados no teléfono mentres está desbloqueado o cargador de arranque poden correr perigo. Esta acción reiniciará o dispositivo. Desactivaranse algunhas funcións nestes modos, polo que pode que non funcionen algunhas aplicacións. Para facer que o dispositivo retorne ao modo de produción, terás que volver ao modo de 4 kB e bloquear o cargador de arranque, o que restablecerá a configuración de fábrica do dispositivo. Despois de que o dispositivo se inicie correctamente en Android, desactiva o desbloqueo do fabricante do equipo orixinal en Opcións de programación."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Cambiar do modo de 16 kB ao modo de 4 kB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Estás no modo independente de páxina executando un núcleo de 16 kB e vas cambiar ao modo de 4 kB. A integridade do software non se pode garantir neste modo, e os datos almacenados no teléfono mentres está desbloqueado o cargador de arranque poden correr perigo. Esta acción reiniciará o dispositivo. Desactivaranse algunhas funcións nestes modos, polo que pode que non funcionen algunhas aplicacións. Para facer que o dispositivo retorne ao modo de produción, terás que bloquear o cargador de arranque, o que restablecerá a configuración de fábrica do dispositivo. Despois de que o dispositivo se inicie correctamente en Android, desactiva o desbloqueo do fabricante do equipo orixinal en Opcións de programación."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Produciuse un erro a actualizar o núcleo compatible con páxinas de 16 kB."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Aplicando cambio"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Cambiar o formato a ext4? (obrigatorio para o modo de 16 kB)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Esta partición de datos do dispositivo debe converterse a ext4 antes de utilizar a opción de programador de 16 kB. A integridade do software non se pode garantir neste modo, e os datos almacenados no teléfono mentres está desbloqueado o cargador de arranque poden correr perigo. Para activar a opción de 16 kB será necesario reiniciar o dispositivo unha vez máis. Unha vez que esteas neste modo, poderás alternar entre o modo de 4 kB e 16 kB só cun reinicio. Desactivaranse algunhas funcións nestes modos, polo que pode que non funcionen algunhas aplicacións. Para facer que o dispositivo retorne ao modo de produción, terás que volver ao modo de 4 kB e bloquear o cargador de arranque, o que restablecerá a configuración de fábrica do dispositivo. Despois de que o dispositivo se inicie correctamente en Android, desactiva o desbloqueo do fabricante do equipo orixinal en Opcións de programación. Tras a confirmación, borraranse os datos do dispositivo e cambiarase o sistema de ficheiros a ext4. Unha vez completada esta operación, volve para activar de novo o modo de 16 kB."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Borrar todos os datos"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Produciuse un erro ao borrar a partición de datos e cambiar o formato a ext4."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Cómpre desbloquear o cargador de arranque"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Cómpre desbloquear o cargador de arranque deste dispositivo antes de utilizar a opción de programador de 16 kB. A integridade do software non se pode garantir neste modo, e os datos almacenados no teléfono mentres está desbloqueado o cargador de arranque poden correr perigo. Borraranse todos os datos e opcións de configuración do usuario cando se active o modo de 16 kB. Despois de desbloquear o cargador de arranque, haberá que reiniciar o dispositivo dúas veces para activar a opción de 16 kB. Unha vez que esteas neste modo, poderás alternar entre o modo de 4 kB e 16 kB só cun reinicio. Desactivaranse algunhas funcións nestes modos, polo que pode que non funcionen algunhas aplicacións. Para facer que o dispositivo retorne ao modo de produción, terás que volver ao modo de 4 kB e bloquear o cargador de arranque ou o fabricante do equipo orixinal, o que restablecerá a configuración de fábrica do dispositivo. Desbloquea o cargador de arranque e téntao de novo. Podes consultar as instrucións deste proceso en &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Estase usando o modo independente de páxina de 4 kB"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Estás usando o modo independente de páxina de 4 kB. A integridade do software non se pode garantir neste modo, e os datos almacenados no teléfono mentres está desbloqueado o cargador de arranque poden correr perigo. Desactivaranse algunhas funcións nestes modos, polo que pode que non funcionen algunhas aplicacións. Para facer que retorne ao modo de produción, terás que bloquear o cargador de arranque do dispositivo. Toca para obter máis información."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Estás usando o modo independente de páxina de 4 kB. A integridade do software non se pode garantir neste modo, e os datos almacenados no teléfono mentres está desbloqueado o cargador de arranque poden correr perigo. Desactivaranse algunhas funcións nestes modos, polo que pode que non funcionen algunhas aplicacións. Para facer que retorne ao modo de produción, terás que bloquear o cargador de arranque do dispositivo. Esta acción restablecerá de novo a configuración de fábrica do dispositivo e restaurará a súa configuración de produción. Despois de que o dispositivo se inicie correctamente en Android, desactiva o desbloqueo do fabricante do equipo orixinal en Opcións de programación. Se o dispositivo non arranca en Android ou é inestable, volve instalar as últimas imaxes de fábrica desde &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; ou usa &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; e selecciona as opcións de borrar datos do dispositivo, bloquear o cargador de arranque e forzar a instalación de todas as particións."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Estase usando o modo independente de páxina de 16 kB"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Estás na opción de 16 kB do modo independente de páxina. A integridade do software non se pode garantir neste modo, e os datos almacenados no teléfono mentres está desbloqueado o cargador de arranque poden correr perigo. Desactivaranse algunhas funcións nestes modos, polo que pode que non funcionen algunhas aplicacións. Para facer que retorne ao modo de produción, terás que volver ao modo de 4 kB e bloquear o cargador de arranque do dispositivo. Toca para obter máis información."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Estás na opción de 16 kB do modo independente de páxina. A integridade do software non se pode garantir neste modo, e os datos almacenados no teléfono mentres está desbloqueado o cargador de arranque poden correr perigo. Desactivaranse algunhas funcións nestes modos, polo que pode que non funcionen algunhas aplicacións. Para facer que retorne ao modo de produción, terás que volver ao modo de 4 kB e bloquear o cargador de arranque do dispositivo. Esta acción restablecerá de novo a configuración de fábrica do dispositivo e restaurará a súa configuración de produción. Despois de que o dispositivo se inicie correctamente en Android, desactiva o desbloqueo do fabricante do equipo orixinal en Opcións de programación. Se o dispositivo non arranca en Android ou é inestable, volve instalar as últimas imaxes de fábrica desde &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; ou usa &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; e selecciona as opcións de borrar datos do dispositivo, bloquear o cargador de arranque e forzar a instalación de todas as particións."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Modo independente de páxina de 16 kB"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Ler máis"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Executar a aplicación no modo de compatibilidade co tamaño de páxina"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"A aplicación executarase no modo de compatibilidade co tamaño de páxina en dispositivos de 16 kB cando se active esta opción."</string>
@@ -5612,8 +5631,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Desactivar o audio compartido"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Para vincular outro dispositivo, desactiva antes o audio compartido."</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Desactivar"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"Compartir o audio con <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Conectar a unha emisión de audio de baixo consumo"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Emisións de audio próximas"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"Emisións de audio"</string>
@@ -5643,12 +5661,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Emisión en pausa"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Deixar de escoitar"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Conectar os auriculares compatibles"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Desactivar Talkback temporalmente"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"Non se pode usar Talkback mentres se escoitan emisións de audio. Desactiva Talkback para comezar a escoitar."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Desactivar"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Conectar un dispositivo"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Detalles da emisión de audio"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Código QR da emisión de audio"</string>

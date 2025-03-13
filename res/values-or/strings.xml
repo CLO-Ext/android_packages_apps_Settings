@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"ସସ୍ପେଣ୍ଡ ହୋଇଛି"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"ଅଜଣା"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"ପ୍ରିଭ୍ୟୁ"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"ପୂର୍ବବର୍ତ୍ତୀ ପ୍ରିଭ୍ୟୁ"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"ପରବର୍ତ୍ତୀ ପ୍ରିଭ୍ୟୁ"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR କୋଡ"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"ଛୋଟ କରନ୍ତୁ"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"ବହୁତ ବଡ଼ କରନ୍ତୁ"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"ଅଡିଓ ଆଉଟପୁଟ ବିଷୟରେ"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"ଆପଣଙ୍କ ଶ୍ରବଣ ଡିଭାଇସ କିମ୍ବା ଫୋନ ସ୍ପିକରରେ ସାଉଣ୍ଡଗୁଡ଼ିକୁ ରୁଟ କରନ୍ତୁ"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"ସମ୍ବନ୍ଧିତ"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"ରିଂଟୋନ ଏବଂ ଆଲାରାମ"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"କଲ ସମୟରେ ଅଡିଓ"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"ମିଡିଆ ଓ ସିଷ୍ଟମ ସାଉଣ୍ଡଗୁଡ଼ିକ"</string>
@@ -254,8 +256,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"ଏକ ଆପ ଆଞ୍ଚଳିକ ପସନ୍ଦଗୁଡ଼ିକୁ ସପୋର୍ଟ ନକଲେ, ଏହି ଆପଟି ଏହାର ଡିଫଲ୍ଟ ଲୋକେଲ ସେଟିଂସକୁ ବ୍ୟବହାର କରିବ।"</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"ଭାଷା ପସନ୍ଦଗୁଡ଼ିକ ବିଷୟରେ ଅଧିକ ଜାଣନ୍ତୁ।"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"ମେଟ୍ରିକ"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"ଇମ୍ପେରିଆଲ (ଯୁକ୍ତରାଷ୍ଟ୍ର ଆମେରିକା)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"ଇମ୍ପେରିଆଲ (ଯୁକ୍ତ ରାଜ୍ୟ)"</string>
+    <string name="us_measurement_system" msgid="8738587232938189052">"ଇମ୍ପେରିଆଲ (ୟୁଏସ)"</string>
+    <string name="uk_measurement_system" msgid="4196897001775627597">"ଇମ୍ପେରିଆଲ (ୟୁକେ)"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"ଅତିରିକ୍ତ ପସନ୍ଦ"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"ଆପଣଙ୍କୁ କିପରି ସମ୍ବୋଧିତ କରାଯିବ ତାହା ବାଛନ୍ତୁ"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"ଆପଣଙ୍କୁ କିପରି ସମ୍ବୋଧିତ କରାଯିବ ତାହା ଆପଣଙ୍କ ଡିଭାଇସ ପର୍ସନାଲାଇଜ କରିପାରିବ"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"ମାଉସ କୀଗୁଡ଼ିକୁ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"ପଏଣ୍ଟରକୁ ନିୟନ୍ତ୍ରଣ କରିବା ପାଇଁ ଆପଣଙ୍କ କୀବୋର୍ଡକୁ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ରିଭର୍ସ ସ୍କ୍ରୋଲିଂ"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"ଆପଣ ତଳକୁ ସ୍କ୍ରୋଲ କରିବା ସମୟରେ ବିଷୟବସ୍ତୁ ଉପରକୁ ମୁଭ ହୁଏ"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"ପୃଷ୍ଠାକୁ ତଳକୁ ମୁଭ କରିବା ପାଇଁ ଉପରକୁ ସ୍କ୍ରୋଲ କରନ୍ତୁ"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"ପ୍ରାଥମିକ ମାଉସ ବଟନକୁ ସ୍ୱାପ କରନ୍ତୁ"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"ମାଉସର ବାମ ବଟନକୁ ଆପଣଙ୍କ ଡାହାଣ ବଟନ ଭାବେ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"କର୍ସର ଆକ୍ସିଲିରେସନ"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"ମତାମତ"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"ଏକ ସର୍ଭେରେ ଅଂଶ ଗ୍ରହଣ କରି ଏହାକୁ ଉନ୍ନତ କରିବାରେ ସାହାଯ୍ୟ କରନ୍ତୁ"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"କୌଣସି ସର୍ଭେ ଉପଲବ୍ଧ ନାହିଁ"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"ମତାମତ ପଠାନ୍ତୁ"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"ଡାଉନଲୋଡ ହୋଇଥିବା ଆପ୍ସ"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"ପରୀକ୍ଷାମୂଳକ"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"ଫିଚର୍ ଫ୍ଲାଗ୍"</string>
@@ -5012,12 +5019,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"ସେଟେଲାଇଟ କନେକ୍ଟିଭିଟି"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"ସେଟେଲାଇଟ ମେସେଜିଂ"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"ଆପଣଙ୍କ ଆକାଉଣ୍ଟରେ ଡାଟାର ବ୍ୟବହାର ଅନ୍ତର୍ଭୁକ୍ତ"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"ଆପଣଙ୍କର ଫୋନରେ ସପୋର୍ଟ କରୁଥିବା ଆପ୍ସ"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"ସମସ୍ତ ଆପ ଦେଖନ୍ତୁ"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"ଆପଣଙ୍କର ଫୋନରେ ସପୋର୍ଟ କରୁଥିବା ଆପ୍ସ"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"ଆକ୍ସେସ ପଏଣ୍ଟ ନାମ"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g>କୁ ସଂଯୁକ୍ତ ହୋଇଥିବା ସମୟରେ ଉପଲବ୍ଧ ନଥାଏ"</string>
@@ -5185,27 +5189,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"ଆପଣଙ୍କ କାର୍ଯ୍ୟ ନୀତି ସୂଚନା"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"ଆପଣଙ୍କ IT ଆଡମିନଙ୍କ ଦ୍ୱାରା ସେଟିଂସ ପରିଚାଳିତ କରାଯାଇଛି।"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"16KB ପୃଷ୍ଠା ସାଇଜ ସହ ବୁଟ କରନ୍ତୁ"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"16KB ପୃଷ୍ଠା ସାଇଜ ସମର୍ଥିତ କର୍ନେଲ ବ୍ୟବହାର କରି ଡିଭାଇସ ବୁଟ କର"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"4KB ମୋଡରୁ 16KB ମୋଡକୁ ସୁଇଚ କରନ୍ତୁ"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"ଆପଣ ଏକ 4KB କର୍ଣ୍ଣେଲରେ ଚାଲୁଥିବା ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡରେ ଅଛନ୍ତି ଏବଂ 16KB ମୋଡକୁ ସୁଇଚ କରୁଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହା ଡିଭାଇସକୁ ରିବୁଟ କରିବ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ 4KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ ଯାହା ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରେ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ।"</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"16KB ମୋଡରୁ 4KB ମୋଡକୁ ସୁଇଚ କରନ୍ତୁ"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"ଆପଣ ଏକ 16KB କର୍ଣ୍ଣେଲରେ ଚାଲୁଥିବା ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡରେ ଅଛନ୍ତି ଏବଂ ଆପଣ 4KB ମୋଡକୁ ସୁଇଚ କରୁଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହା ଡିଭାଇସକୁ ରିବୁଟ କରିବ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରୁଥିବା ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ।"</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"କର୍ନେଲକୁ 16KB ପେଜ କମ୍ପାଟିବଲ କର୍ନେଲରେ ଅପଡେଟ କରିବାରେ ବିଫଳ ହୋଇଛି।"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"ପରିବର୍ତ୍ତନକୁ ଲାଗୁ କରାଯାଉଛି"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"ଡିଭାଇସକୁ ext4ରେ ପୁଣି ଫର୍ମାଟ କରିବେ? (16KB ମୋଡ ପାଇଁ ଆବଶ୍ୟକ)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"16KB ଡେଭଲପର ବିକଳ୍ପ ବ୍ୟବହାର କରିବା ପୂର୍ବରୁ ଏହି ଡିଭାଇସର ଡାଟା ପାର୍ଟିସନ ext4କୁ କନଭର୍ଟ କରାଯିବା ଆବଶ୍ୟକ। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। 16KB ବିକଳ୍ପକୁ ସକ୍ରିୟ କରିବା ପାଇଁ ଏହା ପରେ ଆଉ ଏକ ରିବୁଟ ଆବଶ୍ୟକ ହେବ। ଆପଣ ଏହି ମୋଡରେ ଥିଲେ ଆପଣ ଗୋଟିଏ ସିଙ୍ଗଲ ରିବୁଟ ସହିତ 4KB ଏବଂ 16KB ମୋଡ ମଧ୍ୟରେ ଆଗକୁ ଏବଂ ପଛକୁ ସୁଇଚ କରିପାରିବେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରୁଥିବା 4KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ତା\'ପରେ ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ। ଡିଭାଇସକୁ ୱାଇପ କରାଯିବ ଏବଂ ସୁନିଶ୍ଚିତକରଣ ପରେ ଫାଇଲସିଷ୍ଟମକୁ ext4ରେ ପରିବର୍ତ୍ତନ କରାଯିବ। ଏହା ସମ୍ପୂର୍ଣ୍ଣ ହେବା ପରେ ଦୟାକରି ପୁଣି 16KBକୁ ସକ୍ଷମ କରିବାକୁ ଫେରନ୍ତୁ।"</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"ସମସ୍ତ ଡାଟା ଇରେଜ କରନ୍ତୁ"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"ଡାଟା ପାର୍ଟିସନକୁ ext4ରେ ପୁଣି ଫର୍ମାଟ କରି ୱାଇପ କରିବାରେ ବିଫଳ ହୋଇଛି।"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"ବୁଟଲୋଡର ଅନଲକ ଆବଶ୍ୟକ"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"16KB ଡେଭେଲପର ବିକଳ୍ପ ବ୍ୟବହାର କରିବା ପୂର୍ବରୁ ଏହି ଡିଭାଇସକୁ ବୁଟଲୋଡରକୁ ଅନଲକ କରିବା ଆବଶ୍ୟକ। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। 16KB ମୋଡ ସକ୍ରିୟ କରିବା ସମୟରେ ସମସ୍ତ ୟୁଜର ଡାଟା ଏବଂ ସେଟିଂସ ୱାଇପ ହୋଇଯିବ। ବୁଟଲୋଡର ଅନଲକ ହେବା ପରେ 16KB ବିକଳ୍ପ ସକ୍ରିୟ କରିବା ପାଇଁ ଦୁଇଟି ରିବୁଟ ଆବଶ୍ୟକ ହେବ। ଆପଣ ଏହି ମୋଡରେ ଥିଲେ ଆପଣ ଗୋଟିଏ ସିଙ୍ଗଲ ରିବୁଟ ସହିତ 4KB ଏବଂ 16KB ମୋଡ ମଧ୍ୟରେ ଆଗକୁ ଏବଂ ପଛକୁ ସୁଇଚ କରିପାରିବେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସକୁ ପୁଣି 4KB ମୋଡକୁ ସୁଇଚ କରି ତା\'ପରେ OEM/ବୁଟଲୋଡରକୁ ଲକ (ଯାହା ଫେକ୍ଟୋରୀ ରିସେଟ କରେ) କରିବାକୁ ହେବ। ଦୟାକରି ବୁଟଲୋଡରକୁ ଅନଲକ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ। ଏହା କିପରି କରିବେ ସେଥିପାଇଁ ଆପଣ &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;ରେ ନିର୍ଦ୍ଦେଶାବଳୀ ଦେଖିପାରିବେ"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"4KB ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡ ବ୍ୟବହାର କରାଯାଉଛି"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 4KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଅଧିକ ପଢ଼ନ୍ତୁରେ ଟାପ କରନ୍ତୁ।"</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 4KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଏହା ଡିଭାଇସକୁ ପୁଣି ଫେକ୍ଟୋରୀ ରିସେଟ କରି ପ୍ରଡକ୍ସନ ସେଟିଂସରେ ରିଷ୍ଟୋର କରିବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ। ଯଦି ଡିଭାଇସ Androidରେ ବୁଟ ହେବାରେ ବିଫଳ ହୁଏ କିମ୍ବା ଅସ୍ଥିର ଅଟେ, ତେବେ &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; or use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt;ରୁ ନବୀନତମ ଫେକ୍ଟୋରୀ ଇମେଜଗୁଡ଼ିକ ସହ ଡିଭାଇସକୁ ପୁଣି-ଫ୍ଲାସ କରି \'ଡିଭାଇସକୁ ୱାଇପ କରନ୍ତୁ\', \'ବୁଟଲୋଡରକୁ ଲକ କରନ୍ତୁ\' ଏବଂ \'ସବୁ ପାର୍ଟିସନକୁ ଫୋର୍ସ ଫ୍ଲାସ କରନ୍ତୁ\'କୁ ଚୟନ କରନ୍ତୁ।"</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"16KB ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡ ବ୍ୟବହାର କରାଯାଉଛି"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 16KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ 4KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ତା\'ପରେ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଅଧିକ ପଢ଼ିବା ପାଇଁ ଟାପ କରନ୍ତୁ।"</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 16KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ 4KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ତା\'ପରେ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଏହା ଡିଭାଇସକୁ ପୁଣି ଫେକ୍ଟୋରୀ ରିସେଟ କରି ପ୍ରଡକ୍ସନ ସେଟିଂସରେ ରିଷ୍ଟୋର କରିବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ। ଯଦି ଡିଭାଇସ Androidରେ ବୁଟ ହେବାରେ ବିଫଳ ହୁଏ କିମ୍ବା ଏହା ଅସ୍ଥିର ଅଟେ, ତେବେ &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;ରୁ ନବୀନତମ ଫେକ୍ଟୋରୀ ଇମେଜଗୁଡ଼ିକ ସହ ଡିଭାଇସକୁ ପୁଣି-ଫ୍ଲାସ କରନ୍ତୁ କିମ୍ବା &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; ବ୍ୟବହାର କରନ୍ତୁ ଏବଂ \'ଡିଭାଇସକୁ ୱାଇପ କରନ୍ତୁ\', \'ବୁଟଲୋଡରକୁ ଲକ କରନ୍ତୁ\' ଓ \'ସବୁ ପାର୍ଟିସନକୁ ଫୋର୍ସ ଫ୍ଲାସ କରନ୍ତୁ\'କୁ ଚୟନ କରନ୍ତୁ।"</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"16KB ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡ"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"ଅଧିକ ପଢ଼ନ୍ତୁ"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"ପୃଷ୍ଠା ସାଇଜ କମ୍ପାଟିବଲିଟୀ ମୋଡ ସହ ଆପକୁ ଚଲାନ୍ତୁ"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"16 KB ଡିଭାଇସରେ ଟୋଗଲ କରିବା ସମୟରେ ପୃଷ୍ଠା ସାଇଜ କମ୍ପାଟିବଲିଟୀ ମୋଡରେ ଆପଟି ଚାଲିବ।"</string>
@@ -5645,12 +5666,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"ଷ୍ଟ୍ରିମିଂ ବିରତି କରାଯାଇଛି"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"ଶୁଣିବା ବନ୍ଦ କରନ୍ତୁ"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"କମ୍ପାଟିବଲ ହେଡଫୋନଗୁଡ଼ିକୁ କନେକ୍ଟ କରନ୍ତୁ"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"ଅସ୍ଥାୟୀ ଭାବରେ Talkback ବନ୍ଦ କରନ୍ତୁ"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"ଅଡିଓ ଷ୍ଟ୍ରିମ ଶୁଣିବା ବେଳେ TalkBack ବ୍ୟବହାର କରାଯାଇପାରିବ ନାହିଁ। ଶୁଣିବା ଆରମ୍ଭ କରିବାକୁ talkback ବନ୍ଦ କରନ୍ତୁ।"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"ବନ୍ଦ କରନ୍ତୁ"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"ଗୋଟିଏ ଡିଭାଇସ କନେକ୍ଟ କରନ୍ତୁ"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"ଅଡିଓ ଷ୍ଟ୍ରିମର ବିବରଣୀ"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"ଅଡିଓ ଷ୍ଟ୍ରିମ QR କୋଡ"</string>

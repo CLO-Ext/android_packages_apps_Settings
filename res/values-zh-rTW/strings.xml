@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"待命"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"不明"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"預覽"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"上一個預覽畫面"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"下一個預覽畫面"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR code"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"縮小"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"放大"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"關於音訊輸出"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"將聲音轉送至助聽器或手機喇叭"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"相關工具"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"鈴聲和鬧鐘"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"通話期間的音訊"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"媒體和系統音效"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"啟用滑鼠按鍵"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"使用鍵盤控制游標"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"反向捲動"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"當你向下捲動時，內容會向上移動"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"向上捲動即可將頁面向下移動"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"調換滑鼠主按鈕"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"將滑鼠左鍵做為右鍵使用"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"游標加速"</string>
@@ -4364,8 +4372,7 @@
     <string name="disconnected" msgid="3469373726996129247">"未連線"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"未連接"</string>
     <string name="apps_summary" msgid="4007416751775414252">"已安裝 <xliff:g id="COUNT">%1$d</xliff:g> 個應用程式"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"已使用：<xliff:g id="PERCENTAGE">%1$s</xliff:g> - 可用空間：<xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"深色主題、字型大小、亮度"</string>
     <string name="memory_summary" msgid="8221954450951651735">"平均記憶體用量為 <xliff:g id="USED_MEMORY">%1$s</xliff:g> (共 <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>)"</string>
     <string name="users_summary" msgid="8473589474976307510">"登入身分：<xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4434,8 +4441,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"乙太網路數據用量"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"乙太網路"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"乙太網路 <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> 行動數據"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> Wi-Fi 數據"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> 乙太網路數據"</string>
@@ -5180,27 +5186,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"你的工作政策資訊"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"由 IT 管理員管理的設定"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"以 16KB 頁面大小啟動"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"使用支援 16KB 頁面大小的核心啟動裝置"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"從 4KB 模式切換為 16KB 模式"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"你正處於執行 4KB 核心的可變頁面模式，即將切換為 16KB 模式。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能面臨風險。這樣做會重新啟動裝置。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要讓裝置返回實際工作環境模式，必須切換回 4KB 模式並鎖定系統啟動載入程式，裝置就會恢復原廠設定。裝置成功啟動 Android 系統後，請在開發人員選項中停用 OEM 解鎖設定。"</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"從 16KB 模式切換回 4KB 模式"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"你正處於執行 16KB 核心的可變頁面模式，即將切換為 4KB 模式。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能面臨風險。這樣做會重新啟動裝置。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要返回實際工作環境模式，必須鎖定系統啟動載入程式，裝置就會恢復原廠設定。裝置成功啟動 Android 系統後，請在開發人員選項中停用 OEM 解鎖設定。"</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"無法將核心更新為 16 KB 頁面相容核心。"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"正在套用變更"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"要將裝置重新格式化為 ext4 嗎？(啟用 16KB 模式需執行這項操作)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"必須先將這部裝置的資料分區轉換為 ext4，才能使用 16KB 開發人員選項。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能面臨風險。在此之後還必須再重新啟動一次，才能啟用 16KB 選項。當你處於此模式時，可以在 4KB 和 16KB 模式之間來回切換，每次切換都要重新啟動一次。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要返回實際工作環境模式，必須切換回 4KB 模式並鎖定系統啟動載入程式，裝置就會恢復原廠設定。裝置成功啟動 Android 系統後，請在開發人員選項中停用 OEM 解鎖設定。裝置資料將會抹除，檔案系統會在確認後變更為 ext4。完成此步驟之後，請再次返回啟用 16KB。"</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"清除所有資料"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"無法抹除資料分區並重新格式化為 ext4。"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"必須解鎖系統啟動載入程式"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"必須先將這部裝置的系統啟動載入程式解鎖，才能使用 16KB 開發人員選項。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能面臨風險。啟用 16KB 模式時，所有使用者資料和設定都將抹除。系統啟動載入程式解鎖後，需要經過兩次重新啟動，才能啟用 16KB 選項。當你處於此模式時，可以在 4KB 和 16KB 模式之間來回切換，每次切換都要重新啟動一次。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要返回實際工作環境模式，必須切換回 4KB 模式，OEM/系統啟動載入程式就會鎖定裝置，裝置也將恢復原廠設定。請解鎖系統啟動載入程式，然後再試一次。操作方法如以下網址說明：&lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"目前使用 4KB 可變頁面模式"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"你目前處於可變頁面模式的 4KB 模式。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能面臨風險。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要再次進入實際工作環境模式，你必須鎖定裝置的系統啟動載入程式。輕觸即可閱讀更多內容。"</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"你目前處於可變頁面模式的 4KB 模式。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能面臨風險。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要再次進入實際工作環境模式，你必須鎖定裝置的系統啟動載入程式。這樣做會使裝置再次恢復原廠設定，並將裝置還原為實際工作環境設定。裝置成功啟動 Android 系統後，請在開發人員選項中停用 OEM 解鎖設定。如果裝置無法啟動 Android 或狀態不穩，可透過以下任一方式重新刷新裝置：使用最新原廠映像檔 (&lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;) 或 &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; 工具，依序選取「Wipe Device」、「Lock Bootloader」和「Force Flash all partitions」。"</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"目前使用 16KB 可變頁面模式"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"你目前處於可變頁面模式的 16KB 模式。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能會有風險。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要再次進入實際工作環境模式，必須切換回 4KB 模式，然後鎖定裝置的系統啟動載入程式。輕觸即可閱讀完整內容。"</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"你目前處於可變頁面模式的 16KB 模式。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能會有風險。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要再次進入實際工作環境模式，必須切換回 4KB 模式，然後鎖定裝置的系統啟動載入程式。這樣做會使裝置再次恢復原廠設定，並還原為實際工作環境設定。裝置成功啟動 Android 系統後，請停用「開發人員選項」中的「OEM 解鎖」設定。如果裝置無法啟動 Android 或狀態不穩，可透過以下任一方式重新刷新裝置：使用最新原廠映像檔 (&lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;)，或前往 &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; 使用工具，依序選取「Wipe Device」、「Lock Bootloader」和「Force Flash all partitions」。"</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"16KB 可變頁面模式"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"閱讀完整內容"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"以頁面大小相容模式執行應用程式"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"切換為 16 KB 裝置後，應用程式將以頁面大小相容模式執行。"</string>
@@ -5609,8 +5632,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"關閉音訊分享"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"如要配對新裝置，請先關閉音訊分享功能。"</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"關閉"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"與「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」分享音訊"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"連線至 LE 音訊串流"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"附近的音訊串流"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"音訊串流"</string>

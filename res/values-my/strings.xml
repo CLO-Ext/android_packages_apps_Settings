@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"ဆိုင်းငံ့ထားသည်"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"မသိ"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"အစမ်းကြည့်ပါ"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"ယခင် အစမ်းကြည့်ရှုခြင်း"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"နောက် အစမ်းကြည့်ရှုခြင်း"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR ကုဒ်"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"ပိုသေးအောင် ပြုလုပ်ပါ"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"ပိုကြီးအောင် ပြုလုပ်ပါ"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"အသံထွက်မည့် ကိရိယာအကြောင်း"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"အသံများကို သင့်နားကြားကိရိယာ (သို့) ဖုန်းစပီကာသို့ ပို့သည်"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"ဆက်စပ်သည်များ"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"ဖုန်းမြည်သံနှင့် နှိုးစက်"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"ဖုန်းခေါ်မှုအတွင်း အသံ"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"မီဒီယာ၊ စနစ်အသံများ"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"မောက်စ်ကီးများ သုံးရန်"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"ညွှန်မှတ် ထိန်းချုပ်ရန် သင့်ကီးဘုတ်ကို သုံးပါ"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ပြောင်းပြန်လှိမ့်ခြင်း"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"အောက်သို့လှိမ့်လျှင် အကြောင်းအရာ ပေါ်လာမည်"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"စာမျက်နှာအောက်သို့ ရွှေ့ရန်အတွက် အပေါ်သို့လှိမ့်ပါ"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"ပင်မမောက်စ်ခလုတ် ပြောင်းရန်"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"ဘယ်ဘက်မောက်စ်ခလုတ်ကို ညာဘက်ခလုတ်အဖြစ် သုံးနိုင်သည်"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"ကာဆာအရှိန်မြှင့်ခြင်း"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"အကြံပြုချက်"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"စစ်တမ်းဖြေဆိုခြင်းဖြင့် ပိုမိုကောင်းမွန်အောင် ကူညီနိုင်သည်"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"စစ်တမ်း မရနိုင်ပါ"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"အကြံပြုချက်ပို့ရန်"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"ဒေါင်းလုဒ်လုပ်ထားသော အက်ပ်များ"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"စမ်းသပ်ဆဲ"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"အထူး အလံပြသမှုများ"</string>
@@ -2387,9 +2394,9 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"အရောင်ခြားနားချက်မြင့် စာသား"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"စာသားအရောင်ကို အမည်း (သို့) အဖြူ ပြောင်းရန်။ အရောင်ခြားနားချက်ကို နောက်ခံဖြင့် အမြင့်ဆုံးပြုလုပ်ရန်။"</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"စာသားခြားနားမှု မြှင့်ခြင်း"</string>
-    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> သည် <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> ကို အစားထိုးထားသည်။ <xliff:g id="SETTINGS">%3$s</xliff:g> တွင် ၎င်းကို ဖွင့်နိုင်သည်။"</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> ကို <xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> ဖြင့် အစားထိုးထားသည်။ <xliff:g id="SETTINGS">%3$s</xliff:g> တွင် ၎င်းကို ဖွင့်နိုင်သည်။"</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"<xliff:g id="SETTINGS">%1$s</xliff:g> သို့ သွားရန်"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"စာသားကို အနားသတ်ရန်"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"အနားသတ်ပါ စာသား"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"ခြားနားမှုမြှင့်ရန် စာသားပတ်လည်တွင် အနက် (သို့) အဖြူနောက်ခံထည့်ပါ"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"မျက်နှာပြင်ချဲ့မှု အော်တိုအပ်ဒိတ်"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"အက်ပ် အပြောင်းတွင်မျက်နှာပြင်ချဲ့မှုအပ်ဒိတ်လုပ်ရန်"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"ဂြိုဟ်တုချိတ်ဆက်နိုင်မှု"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"ဂြိုဟ်တုမှတစ်ဆင့် မက်ဆေ့ဂျ်ပို့ခြင်း"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"သင့်အကောင့်တွင် ဒေတာအသုံးပြုမှု ပါဝင်သည်"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"သင့်ဖုန်းရှိ ပံ့ပိုးသောအက်ပ်များ"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"အက်ပ်အားလုံး ကြည့်ခြင်း"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"သင့်ဖုန်းရှိ ပံ့ပိုးသောအက်ပ်များ"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"APN အချိတ်အဆက် အမည်များ"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g> တွင် ချိတ်ဆက်ထားသည့်အခါ မရနိုင်ပါ"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"သင့်အလုပ် မူဝါဒ အချက်အလက်"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"သင့် IT စီမံခန့်ခွဲသူက သတ်မှတ်ထားသည့် ဆက်တင်များ"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"စာမျက်နှာအရွယ်အစား ၁၆ KB နှင့်စတင်ရန်"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"စာမျက်နှာအရွယ်အစား ၁၆ KB ရသော Kernel သုံးသည့်စက် စတင်ရန်"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"၄ KB မုဒ်မှ ၁၆ KB မုဒ်သို့ ပြောင်းခြင်း"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"သင်သည် ၄ KB Kernel ဖြင့် လုပ်ဆောင်နေသည့် စာမျက်နှာအမျိုးမျိုးနှင့် အသုံးပြုနိုင်သောမုဒ်တွင် ရှိပြီး ၁၆ KB မုဒ်သို့ ပြောင်းနေသည်။ ဤမုဒ်တွင် ဆော့ဖ်ဝဲစစ်မှန်မှုကို အာမ မခံနိုင်သည့်အပြင် စနစ်စတင်မှု ဖွင့်ထားချိန်၌ ဖုန်းတွင် သိုလှောင်ထားသည့် မည်သည့်ဒေတာမဆို ဆုံးရှုံးနိုင်ခြေ ရှိပါသည်။ ဤလုပ်ဆောင်ချက်က စက်ကို ပြန်လည်စတင်ပါမည်။ ဤမုဒ်များတွင် အင်္ဂါရပ်အချို့ကို ပိတ်ထားမည်ဖြစ်သဖြင့် အချို့အပလီကေးရှင်းများ အလုပ်မလုပ်နိုင်ပါ။ စက်ကို ထုတ်ကုန်မုဒ်သို့ ပြန်ထားရန် ၄ KB မုဒ်သို့ ပြန်ပြောင်းပြီး စက်ကို စက်ရုံထုတ်အတိုင်း ပြင်ဆင်သတ်မှတ်ပေးသည့် စနစ်စတင်မှုကို လော့ခ်ချရမည်။ စက်ကို Android သို့ စတင်ပြီးနောက် ‘ဆော့ဖ်ဝဲရေးသူအတွက် ရွေးစရာများ’ ရှိ OEM ဖွင့်ခြင်းကို ပိတ်ပါ။"</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"၁၆KB မုဒ်မှ ၄KB မုဒ်သို့ ပြောင်းခြင်း"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"သင်သည် ၁၆KB Kernel ဖြင့် လုပ်ဆောင်နေသည့် စာမျက်နှာအမျိုးမျိုးနှင့် အသုံးပြုနိုင်သောမုဒ်တွင် ရှိပြီး ၄KB မုဒ်သို့ ပြောင်းနေပါသည်။ ဤမုဒ်တွင် ဆော့ဖ်ဝဲစစ်မှန်မှုကို အာမ မခံနိုင်သည့်အပြင် စနစ်စတင်မှု ဖွင့်ထားချိန်၌ ဖုန်းတွင် သိုလှောင်ထားသည့် မည်သည့်ဒေတာမဆို ဆုံးရှုံးနိုင်ခြေ ရှိပါသည်။ ၎င်းကြောင့် စက်ပြန်လည်စတင်ပါမည်။ ဤမုဒ်များတွင် အင်္ဂါရပ်အချို့ကို ပိတ်ထားမည်ဖြစ်သဖြင့် အချို့အပလီကေးရှင်းများ အလုပ်မလုပ်နိုင်ပါ။ စက်ကို ထုတ်ကုန်မုဒ်အဖြစ် ပြန်ထားရန် စက်ကို စက်ရုံထုတ်အတိုင်း ပြင်ဆင်သတ်မှတ်ပေးသည့် စနစ်စတင်မှုကို လော့ခ်ချရမည်။ စက်ကို Android သို့ စတင်ပြီးနောက် ‘ဆော့ဖ်ဝဲရေးသူအတွက် ရွေးစရာများ’ ရှိ OEM ဖွင့်ခြင်းကို ပိတ်ပါ။"</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Kernel ကို စာမျက်နှာ ၁၆KB တွဲသုံးနိုင်သော Kernel အဖြစ် အပ်ဒိတ်လုပ်၍မရပါ။"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"ပြောင်းလဲမှု ထည့်သွင်းခြင်း"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"စက်ကို ext4 သို့ ပြန်လည်ဖော်မက်လုပ်မလား။ (၁၆ KB မုဒ်အတွက် လိုအပ်သည်)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"၁၆ KB ဆော့ဖ်ဝဲရေးသူအတွက် ရွေးစရာများကို အသုံးမပြုမီ ဤစက်၏ ဒေတာအပိုင်းကို ext4 သို့ ပြောင်းရမည်။ ဤမုဒ်တွင် ဆော့ဖ်ဝဲစစ်မှန်မှုကို အာမ မခံနိုင်သည့်အပြင် စနစ်စတင်မှု ဖွင့်ထားချိန်၌ ဖုန်းတွင် သိုလှောင်ထားသည့် မည်သည့်ဒေတာမဆို ဆုံးရှုံးနိုင်ခြေ ရှိပါသည်။ ၁၆ KB ရွေးစရာကို စဖွင့်ရန်အတွက် ဤသို့ပြောင်းပြီးနောက်တွင် နောက်တစ်ကြိမ်ပြန်လည်စတင်ရန် လိုပါမည်။ ဤမုဒ်သို့ ရောက်သည်နှင့် သင်သည် ၄ KB နှင့် ၁၆ KB မုဒ်အကြား တစ်ကြိမ်ပြန်လည်စတင်ရုံဖြင့် အပြန်အလှန်ပြောင်းနိုင်ပါသည်။ ဤမုဒ်များတွင် အင်္ဂါရပ်အချို့ကို ပိတ်ထားမည်ဖြစ်သဖြင့် အချို့အပလီကေးရှင်းများ အလုပ်မလုပ်နိုင်ပါ။ စက်ကို ထုတ်ကုန်မုဒ်သို့ ပြန်ထားရန် ၄ KB မုဒ်သို့ ပြန်ပြောင်းပြီး စက်ကို စက်ရုံထုတ်အတိုင်း ပြင်ဆင်သတ်မှတ်ပေးသည့် စနစ်စတင်မှုကို လော့ခ်ချရမည်။ စက်ကို Android သို့ စတင်ပြီးနောက် ‘ဆော့ဖ်ဝဲရေးသူအတွက် ရွေးစရာများ’ ရှိ OEM ဖွင့်ခြင်းကို ပိတ်ပါ။ အတည်ပြုပြီးနောက် စက်ကို ရှင်းလင်းပြီး ဖိုင်စနစ်ကို ext4 သို့ ပြောင်းပါမည်။ ဤသို့ပြုလုပ်ပြီးနောက် ၁၆ KB ထပ်ဖွင့်ရန် ပြန်လာပါ။"</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"ဒေတာအားလုံး ဖျက်ရန်"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"ဒေတာအပိုင်းကို ext4 သို့ ပြန်လည်ဖော်မက်လုပ်ပြီး ရှင်းလင်း၍ မရပါ။"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"စနစ်စတင်မှု ဖွင့်ရန်လိုအပ်သည်"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"၁၆ KB ဆော့ဖ်ဝဲရေးသူအတွက် ရွေးစရာများကို အသုံးမပြုမီ ဤစက်ကို စနစ်စတင်မှု ဖွင့်ရမည်။ ဤမုဒ်တွင် ဆော့ဖ်ဝဲစစ်မှန်မှုကို အာမ မခံနိုင်သည့်အပြင် စနစ်စတင်မှု ဖွင့်ထားချိန်၌ ဖုန်းတွင် သိုလှောင်ထားသည့် မည်သည့်ဒေတာမဆို ဆုံးရှုံးနိုင်ခြေ ရှိပါသည်။ ၁၆ KB မုဒ်ကို စတင်နေသောအခါ အသုံးပြုသူဒေတာနှင့် ဆက်တင်အားလုံးကို ရှင်းလင်းပါမည်။ စနစ်စတင်မှုကို ဖွင့်ပြီးပါက ၁၆ KB ရွေးစရာကို စတင်ရာတွင် နှစ်ကြိမ်ပြန်လည်စတင်ရန်လိုပါမည်။ ဤမုဒ်သို့ ရောက်သည်နှင့် သင်သည် ၄ KB နှင့် ၁၆ KB မုဒ်အကြား တစ်ကြိမ်ပြန်လည်စတင်ရုံဖြင့် အပြန်အလှန်ပြောင်းနိုင်ပါသည်။ ဤမုဒ်များတွင် အင်္ဂါရပ်အချို့ကို ပိတ်ထားမည်ဖြစ်သဖြင့် အချို့အပလီကေးရှင်းများ အလုပ်မလုပ်နိုင်ပါ။ စက်ကို ထုတ်ကုန်မုဒ်သို့ ပြန်ထားရန် ၄ KB မုဒ်သို့ ပြန်ပြောင်းပြီး စက်ကို (စက်ရုံထုတ်အတိုင်း ပြင်ဆင်သတ်မှတ်ပေးသည့်) OEM/စနစ်စတင်မှုကို လော့ခ်ချရမည်။ စနစ်စတင်မှုကို ဖွင့်ပြီး ထပ်စမ်းကြည့်ပါ။ ယင်းသို့ ပြုလုပ်ပုံ ညွှန်ကြားချက်များကို &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&amp;gt တွင် တွေ့နိုင်ပါသည်၊"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"စာမျက်နှာအမျိုးမျိုးနှင့် အသုံးပြုနိုင်သော ၄ KB မုဒ်ကို အသုံးပြုခြင်း"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"သင်သည် စာမျက်နှာအမျိုးမျိုးနှင့် အသုံးပြုနိုင်သောမုဒ်၏ ၄ KB မုဒ်တွင် ရှိနေပါသည်။ ဤမုဒ်တွင် ဆော့ဖ်ဝဲစစ်မှန်မှုကို အာမ မခံနိုင်သည့်အပြင် စနစ်စတင်မှု ဖွင့်ထားချိန်၌ ဖုန်းတွင် သိုလှောင်ထားသည့် မည်သည့်ဒေတာမဆို ဆုံးရှုံးနိုင်ခြေ ရှိပါသည်။ ဤမုဒ်များတွင် အင်္ဂါရပ်အချို့ကို ပိတ်ထားမည်ဖြစ်သဖြင့် အချို့အပလီကေးရှင်းများ အလုပ်မလုပ်နိုင်ပါ။ ထုတ်ကုန်မုဒ်သို့ ပြန်ဝင်ရန် စက်၏ စနစ်စတင်မှုကို လော့ခ်ချရပါမည်။ နောက်ထပ်ဖတ်ရန် တို့ပါ။"</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"သင်သည် စာမျက်နှာအမျိုးမျိုးနှင့် အသုံးပြုနိုင်သောမုဒ်၏ ၄ KB မုဒ်တွင် ရှိနေပါသည်။ ဤမုဒ်တွင် ဆော့ဖ်ဝဲစစ်မှန်မှုကို အာမ မခံနိုင်သည့်အပြင် စနစ်စတင်မှု ဖွင့်ထားချိန်၌ ဖုန်းတွင် သိုလှောင်ထားသည့် မည်သည့်ဒေတာမဆို ဆုံးရှုံးနိုင်ခြေ ရှိပါသည်။ ဤမုဒ်များတွင် အင်္ဂါရပ်အချို့ကို ပိတ်ထားမည်ဖြစ်သဖြင့် အချို့အပလီကေးရှင်းများ အလုပ်မလုပ်နိုင်ပါ။ ထုတ်ကုန်မုဒ်သို့ ပြန်ဝင်ရန် စက်၏ စနစ်စတင်မှုကို လော့ခ်ချရပါမည်။ ၎င်းသည် စက်ကို စက်ရုံထုတ်အတိုင်း ပြင်ဆင်သတ်မှတ်ပေးပြီး ထုတ်ကုန် ဆက်တင်များအတိုင်း ပြန်ပြောင်းပေးပါမည်။ စက်ကို Android သို့ စတင်ပြီးနောက် ‘ဆော့ဖ်ဝဲရေးသူအတွက် ရွေးစရာများ’ ရှိ OEM ဖွင့်ခြင်းကို ပိတ်ပါ။ စက်ကို Android သို့ စတင်၍မရပါက သို့မဟုတ် မတည်ငြိမ်ပါက href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&amp;gt မှ နောက်ဆုံးပေါ် စက်ရုံထုတ် မူလပုံများဖြင့် စက်ကို ပြန်စပါ သို့မဟုတ် &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&amp;gt ကို အသုံးပြုကာ ‘စက်ရှင်းလင်းရန်’၊ ‘စနစ်စတင်မှု လော့ခ်ချရန်’ နှင့် ‘အပိုင်းအားလုံး မဖြစ်မနေ ပြန်စရန်’ ကို ရွေးပါ။"</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"စာမျက်နှာအမျိုးမျိုးနှင့် အသုံးပြုနိုင်သော ၁၆ KB မုဒ်ကို အသုံးပြုခြင်း"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"သင်သည် စာမျက်နှာအမျိုးမျိုးနှင့် အသုံးပြုနိုင်သောမုဒ်၏ ၁၆ KB မုဒ်တွင် ရှိနေပါသည်။ ဤမုဒ်တွင် ဆော့ဖ်ဝဲစစ်မှန်မှုကို အာမ မခံနိုင်သည့်အပြင် စနစ်စတင်မှု ဖွင့်ထားချိန်၌ ဖုန်းတွင် သိုလှောင်ထားသည့် မည်သည့်ဒေတာမဆို ဆုံးရှုံးနိုင်ခြေ ရှိပါသည်။ ဤမုဒ်များတွင် အင်္ဂါရပ်အချို့ကို ပိတ်ထားမည်ဖြစ်သဖြင့် အချို့အပလီကေးရှင်းများ အလုပ်မလုပ်နိုင်ပါ။ ထုတ်ကုန်မုဒ်သို့ ပြန်ဝင်ရန် ၄ KB mode မုဒ်သို့ ပြန်ပြောင်းပြီး စက်၏ စနစ်စတင်မှုကို လော့ခ်ချရပါမည်။ နောက်ထပ်ဖတ်ရန် တို့ပါ။"</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"သင်သည် စာမျက်နှာအမျိုးမျိုးနှင့် အသုံးပြုနိုင်သောမုဒ်၏ ၁၆ KB မုဒ်တွင် ရှိနေပါသည်။ ဤမုဒ်တွင် ဆော့ဖ်ဝဲစစ်မှန်မှုကို အာမ မခံနိုင်သည့်အပြင် စနစ်စတင်မှု ဖွင့်ထားချိန်၌ ဖုန်းတွင် သိုလှောင်ထားသည့် မည်သည့်ဒေတာမဆို ဆုံးရှုံးနိုင်ခြေ ရှိပါသည်။ ဤမုဒ်များတွင် အင်္ဂါရပ်အချို့ကို ပိတ်ထားမည်ဖြစ်သဖြင့် အချို့အပလီကေးရှင်းများ အလုပ်မလုပ်နိုင်ပါ။ ထုတ်ကုန်မုဒ်သို့ ပြန်ဝင်ရန် ၄ KB mode မုဒ်သို့ ပြန်ပြောင်းပြီး စက်၏ စနစ်စတင်မှုကို လော့ခ်ချရပါမည်။ ၎င်းသည် စက်ကို စက်ရုံထုတ်အတိုင်း ပြင်ဆင်သတ်မှတ်ပေးပြီး ထုတ်ကုန် ဆက်တင်များအတိုင်း ပြန်ပြောင်းပေးပါမည်။ စက်ကို Android သို့ စတင်ပြီးနောက် ‘ဆော့ဖ်ဝဲရေးသူအတွက် ရွေးစရာများ’ ရှိ OEM ဖွင့်ခြင်းကို ပိတ်ပါ။ စက်ကို Android သို့ စတင်၍မရပါက သို့မဟုတ် မတည်ငြိမ်ပါက href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&amp;gt မှ နောက်ဆုံးပေါ် စက်ရုံထုတ် မူလပုံများဖြင့် စက်ကို ပြန်မွမ်းမံပါ သို့မဟုတ် &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&amp;gt ကို အသုံးပြုကာ ‘စက်ရှင်းလင်းရန်’၊ ‘စနစ်စတင်မှု လော့ခ်ချရန်’ နှင့် ‘အပိုင်းအားလုံး မဖြစ်မနေ မွမ်းမံရန်’ ကို ရွေးပါ။"</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"စာမျက်နှာအမျိုးမျိုးနှင့် အသုံးပြုနိုင်သော ၁၆KB မုဒ်"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"နောက်ထပ်ဖတ်ရန်"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"စာမျက်နှာအရွယ်အစားချုံ့မုဒ်ဖြင့် အက်ပ်ကိုလုပ်ဆောင်ရန်"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"ဖွင့်ထားသည့်အခါ ၁၆ KB စက်တွင် စာမျက်နှာအရွယ်အစား တွဲသုံးနိုင်မှုမုဒ်ဖြင့် အက်ပ်ကို လုပ်ဆောင်ပါမည်။"</string>
@@ -5644,12 +5665,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"ထုတ်လွှင့်မှု ခဏရပ်သွားသည်"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"နားထောင်ခြင်း ရပ်ရန်"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"တွဲသုံးနိုင်သော နားကြပ်ကို ချိတ်ဆက်ခြင်း"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Talkback ကို ယာယီပိတ်ခြင်း"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"အသံထုတ်လွှင့်မှုများ နားထောင်ချိန်တွင် Talkback သုံး၍မရပါ။ စတင်နားထောင်ရန် Talkback ကို ပိတ်ပါ။"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"ပိတ်ရန်"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"စက်နှင့် ချိတ်ဆက်ရန်"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"အသံ ထုတ်လွှင့်ခြင်း အသေးစိတ်"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"အသံ ထုတ်လွှင့်ခြင်း QR ကုဒ်"</string>

@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"ระงับไว้"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"ไม่ทราบ"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"ดูตัวอย่าง"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"หน้าตัวอย่างก่อนหน้า"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"หน้าตัวอย่างถัดไป"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"คิวอาร์โค้ด"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"ทำให้เล็กลง"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"ทำให้ใหญ่ขึ้น"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"เกี่ยวกับเอาต์พุตเสียง"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"กำหนดเส้นทางเสียงไปยังเครื่องช่วยฟังหรือลำโพงโทรศัพท์"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"ที่เกี่ยวข้อง"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"เสียงเรียกเข้าและการปลุก"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"เสียงในระหว่างการโทร"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"เสียงของสื่อและระบบ"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"ใช้แป้นเมาส์"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"ใช้แป้นพิมพ์เพื่อควบคุมตัวชี้"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"การเลื่อนย้อนกลับ"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"เนื้อหาจะเลื่อนขึ้นเมื่อคุณเลื่อนลง"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"เลื่อนขึ้นเพื่อเลื่อนหน้าลง"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"สลับปุ่มเมาส์หลัก"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"ใช้ปุ่มเมาส์ด้านซ้ายเป็นปุ่มขวา"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"การเร่งความเร็วของเคอร์เซอร์"</string>
@@ -2386,7 +2394,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"ข้อความคอนทราสต์สูง"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"เปลี่ยนสีข้อความเป็นสีดำหรือสีขาว เพิ่มความ​​คอนทราสต์เมื่อเทียบกับพื้นหลังให้สูงสุด"</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"ปรับปรุงคอนทราสต์ของข้อความ"</string>
-    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> ได้แทนที่ <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> แล้ว ซึ่งสามารถเปิดได้ใน <xliff:g id="SETTINGS">%3$s</xliff:g>"</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g>ได้แทนที่<xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>แล้ว ซึ่งสามารถเปิดได้ใน<xliff:g id="SETTINGS">%3$s</xliff:g>"</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"ไปที่<xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"สีขอบข้อความ"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"เพิ่มพื้นหลังสีดำหรือขาวรอบๆ ข้อความเพื่อเพิ่มความคอนทราสต์"</string>
@@ -5180,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"ข้อมูลนโยบายงาน"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"การตั้งค่าที่ผู้ดูแลระบบไอทีจัดการ"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"บูตโดยใช้หน้าหน่วยความจำขนาด 16KB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"บูตอุปกรณ์โดยใช้เคอร์เนลที่รองรับหน้าหน่วยความจำขนาด 16 KB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"เปลี่ยนจากโหมด 4KB เป็นโหมด 16KB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"คุณอยู่ในโหมดไม่คำนึงถึงขนาดหน้าหน่วยความจำซึ่งใช้เคอร์เนลขนาด 4KB และกำลังจะเปลี่ยนไปใช้โหมด 16KB ไม่รับประกันความสมบูรณ์ของซอฟต์แวร์ในโหมดนี้ และข้อมูลใดๆ ที่จัดเก็บในโทรศัพท์ในขณะที่ Bootloader ไม่ได้ล็อกอยู่อาจมีความเสี่ยง การดำเนินการนี้จะรีบูตอุปกรณ์ ฟีเจอร์บางอย่างจะถูกปิดใช้ในโหมดเหล่านี้ ดังนั้นบางแอปพลิเคชันจึงอาจไม่ทำงาน หากต้องการให้อุปกรณ์กลับสู่โหมดโปรดักชัน คุณต้องเปลี่ยนกลับไปใช้โหมด 4KB และล็อก Bootloader ซึ่งจะรีเซ็ตอุปกรณ์เป็นค่าเริ่มต้น หลังจากที่อุปกรณ์บูตเข้าสู่ Android ได้สำเร็จ ให้ปิดการปลดล็อก OEM ในตัวเลือกสำหรับนักพัฒนาแอป"</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"เปลี่ยนจากโหมด 16KB เป็นโหมด 4KB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"คุณอยู่ในโหมดไม่คำนึงถึงขนาดหน้าหน่วยความจำซึ่งใช้เคอร์เนลขนาด 16KB และกำลังจะเปลี่ยนไปใช้โหมด 4KB ไม่รับประกันความสมบูรณ์ของซอฟต์แวร์ในโหมดนี้ และข้อมูลใดๆ ที่จัดเก็บในโทรศัพท์ในขณะที่ Bootloader ไม่ได้ล็อกอยู่อาจมีความเสี่ยง การดำเนินการนี้จะรีบูตอุปกรณ์ ฟีเจอร์บางอย่างจะถูกปิดใช้ในโหมดเหล่านี้ ดังนั้นบางแอปพลิเคชันจึงอาจไม่ทำงาน หากต้องการให้อุปกรณ์กลับสู่โหมดโปรดักชัน คุณต้องล็อก Bootloader ซึ่งจะรีเซ็ตอุปกรณ์เป็นค่าเริ่มต้น หลังจากที่อุปกรณ์บูตเข้าสู่ Android ได้สำเร็จ ให้ปิดการปลดล็อก OEM ในตัวเลือกสำหรับนักพัฒนาแอป"</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"อัปเดตเป็นเคอร์เนลที่รองรับการใช้งานหน้าขนาด 16 KB ไม่สำเร็จ"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"กำลังใช้การเปลี่ยนแปลง"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"ฟอร์แมตอุปกรณ์ใหม่เป็น ext4 ใช่ไหม (จำเป็นสำหรับโหมด 16KB)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"ต้องแปลงพาร์ติชันข้อมูลของอุปกรณ์นี้เป็น ext4 ก่อนที่จะใช้ตัวเลือกสำหรับนักพัฒนาแอปแบบ 16KB ไม่รับประกันความสมบูรณ์ของซอฟต์แวร์ในโหมดนี้ และข้อมูลใดๆ ที่จัดเก็บในโทรศัพท์ในขณะที่ Bootloader ไม่ได้ล็อกอยู่อาจมีความเสี่ยง การเปิดใช้งานตัวเลือก 16KB จะต้องมีการรีบูตอีกครั้งหลังจากนี้ เมื่ออยู่ในโหมดนี้แล้ว คุณจะเปลี่ยนไปมาระหว่างโหมด 4KB กับ 16KB ได้ด้วยการรีบูตครั้งเดียว ฟีเจอร์บางอย่างจะถูกปิดใช้ในโหมดเหล่านี้ ดังนั้นบางแอปพลิเคชันจึงอาจไม่ทำงาน หากต้องการให้อุปกรณ์กลับสู่โหมดโปรดักชัน คุณต้องเปลี่ยนกลับไปใช้โหมด 4KB จากนั้นล็อก Bootloader ซึ่งจะรีเซ็ตอุปกรณ์เป็นค่าเริ่มต้น หลังจากที่อุปกรณ์บูตเข้าสู่ Android ได้สำเร็จ ให้ปิดการปลดล็อก OEM ในตัวเลือกสำหรับนักพัฒนาแอป อุปกรณ์จะถูกล้างข้อมูลและระบบไฟล์จะเปลี่ยนเป็น ext4 หลังจากการยืนยัน หลังจากการดำเนินการนี้เสร็จสมบูรณ์ โปรดกลับมาเปิดใช้โหมด 16KB อีกครั้ง"</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"ลบข้อมูลทั้งหมด"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"ฟอร์แมตใหม่และล้างพาร์ติชันข้อมูลเป็น ext4 ไม่สำเร็จ"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"ต้องปลดล็อก Bootloader"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"อุปกรณ์นี้ต้องมีการปลดล็อก Bootloader ก่อนที่จะใช้ตัวเลือกสำหรับนักพัฒนาแอปแบบ 16KB ไม่รับประกันความสมบูรณ์ของซอฟต์แวร์ในโหมดนี้ และข้อมูลใดๆ ที่จัดเก็บในโทรศัพท์ในขณะที่ Bootloader ไม่ได้ล็อกอยู่อาจมีความเสี่ยง ข้อมูลผู้ใช้และการตั้งค่าทั้งหมดจะถูกล้างเมื่อเปิดใช้งานโหมด 16KB เมื่อปลดล็อก Bootloader แล้ว การเปิดใช้งานตัวเลือก 16KB จะต้องมีการรีบูต 2 ครั้ง เมื่ออยู่ในโหมดนี้แล้ว คุณจะเปลี่ยนไปมาระหว่างโหมด 4KB กับ 16KB ได้ด้วยการรีบูตครั้งเดียว ฟีเจอร์บางอย่างจะถูกปิดใช้ในโหมดเหล่านี้ ดังนั้นบางแอปพลิเคชันจึงอาจไม่ทำงาน หากต้องการให้อุปกรณ์กลับสู่โหมดโปรดักชัน คุณต้องเปลี่ยนกลับไปใช้โหมด 4KB จากนั้นล็อก OEM/Bootloader (ซึ่งจะรีเซ็ตอุปกรณ์เป็นค่าเริ่มต้น) โปรดปลดล็อก Bootloader แล้วลองอีกครั้ง ดูวิธีการได้ที่ &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"กำลังใช้โหมด 4KB ในโหมดไม่คำนึงถึงขนาดหน้าหน่วยความจำ"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"คุณอยู่ในโหมด 4KB ของโหมดไม่คำนึงถึงขนาดหน้าหน่วยความจำ ไม่รับประกันความสมบูรณ์ของซอฟต์แวร์ในโหมดนี้ และข้อมูลใดๆ ที่จัดเก็บในโทรศัพท์ในขณะที่ Bootloader ไม่ได้ล็อกอยู่อาจมีความเสี่ยง ฟีเจอร์บางอย่างจะถูกปิดใช้ในโหมดเหล่านี้ ดังนั้นบางแอปพลิเคชันจึงอาจไม่ทำงาน หากต้องการกลับสู่โหมดโปรดักชันอีกครั้ง คุณต้องล็อก Bootloader ของอุปกรณ์ แตะเพื่ออ่านเพิ่มเติม"</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"คุณอยู่ในโหมด 4KB ของโหมดไม่คำนึงถึงขนาดหน้าหน่วยความจำ ไม่รับประกันความสมบูรณ์ของซอฟต์แวร์ในโหมดนี้ และข้อมูลใดๆ ที่จัดเก็บในโทรศัพท์ในขณะที่ Bootloader ไม่ได้ล็อกอยู่อาจมีความเสี่ยง ฟีเจอร์บางอย่างจะถูกปิดใช้ในโหมดเหล่านี้ ดังนั้นบางแอปพลิเคชันจึงอาจไม่ทำงาน หากต้องการกลับสู่โหมดโปรดักชันอีกครั้ง คุณต้องล็อก Bootloader ของอุปกรณ์ การดำเนินการนี้จะรีเซ็ตอุปกรณ์เป็นค่าเริ่มต้นอีกครั้งและคืนค่าเป็นโหมดโปรดักชัน หลังจากที่อุปกรณ์บูตเข้าสู่ Android ได้สำเร็จ ให้ปิดการปลดล็อก OEM ในตัวเลือกสำหรับนักพัฒนาแอป หากอุปกรณ์ไม่สามารถบูตเข้าสู่ Android หรือไม่เสถียร ให้แฟลชอุปกรณ์อีกครั้งโดยใช้ค่าเริ่มต้นล่าสุดจาก &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; หรือใช้ &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; และเลือก \"ล้างข้อมูลอุปกรณ์\" \"ล็อก Bootloader\" และ \"บังคับให้แฟลชทุกพาร์ติชัน\""</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"กำลังใช้โหมด 16KB ในโหมดไม่คำนึงถึงขนาดหน้าหน่วยความจำ"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"คุณอยู่ในโหมด 16KB ของโหมดไม่คำนึงถึงขนาดหน้า ไม่รับประกันความสมบูรณ์ของซอฟต์แวร์ในโหมดนี้ และข้อมูลใดๆ ที่จัดเก็บในโทรศัพท์ในขณะที่ Bootloader ไม่ได้ล็อกอยู่อาจมีความเสี่ยง ฟีเจอร์บางอย่างจะถูกปิดใช้ในโหมดเหล่านี้ ดังนั้นบางแอปพลิเคชันจึงอาจไม่ทำงาน หากต้องการกลับสู่โหมดโปรดักชันอีกครั้ง คุณต้องเปลี่ยนกลับไปใช้โหมด 4KB แล้วล็อก Bootloader ของอุปกรณ์ แตะเพื่ออ่านเพิ่มเติม"</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"คุณอยู่ในโหมด 16KB ของโหมดไม่คำนึงถึงขนาดหน้า ไม่รับประกันความสมบูรณ์ของซอฟต์แวร์ในโหมดนี้ และข้อมูลใดๆ ที่จัดเก็บในโทรศัพท์ในขณะที่ Bootloader ไม่ได้ล็อกอยู่อาจมีความเสี่ยง ฟีเจอร์บางอย่างจะถูกปิดใช้ในโหมดเหล่านี้ ดังนั้นบางแอปพลิเคชันจึงอาจไม่ทำงาน หากต้องการกลับสู่โหมดโปรดักชันอีกครั้ง คุณต้องเปลี่ยนกลับไปใช้โหมด 4KB แล้วล็อก Bootloader ของอุปกรณ์ การดำเนินการนี้จะรีเซ็ตอุปกรณ์เป็นค่าเริ่มต้นอีกครั้งและคืนค่าเป็นโหมดโปรดักชัน หลังจากที่อุปกรณ์เปิดเครื่องเพื่อเข้าสู่ Android ได้สำเร็จ ให้ปิดการปลดล็อก OEM ในตัวเลือกสำหรับนักพัฒนาแอป หากอุปกรณ์ไม่สามารถเปิดเครื่องเพื่อเข้าสู่ Android หรือไม่เสถียร ให้แฟลชอุปกรณ์อีกครั้งโดยใช้ค่าเริ่มต้นล่าสุดจาก &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; หรือใช้ &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; และเลือก \"ล้างข้อมูลอุปกรณ์\" \"ล็อก Bootloader\" และ \"บังคับให้แฟลชทุกพาร์ติชัน\""</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"โหมด 16KB ของโหมดไม่คำนึงถึงขนาดหน้าหน่วยความจำ"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"อ่านเพิ่มเติม"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"เรียกใช้แอปด้วยโหมดเข้ากันได้กับขนาดหน้า"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"แอปจะทำงานในโหมดเข้ากันได้กับขนาดหน้าบนอุปกรณ์ 16 KB เมื่อเปิดใช้"</string>

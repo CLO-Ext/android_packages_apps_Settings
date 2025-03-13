@@ -4946,8 +4946,8 @@
     <string name="keywords_touchpad">trackpad, track pad, mouse, cursor, scroll, swipe, right click, click, pointer</string>
     <!-- Search keywords for 'Bottom-right tap', the name of the touchpad setting that allows the user to click the bottom right corner of the touchpad for more options. -->
     <string name="keywords_trackpad_bottom_right_tap">right click, tap</string>
-    <!-- Radio button text for 'middle click' action. This is one of multiple actions the user can select from the three finger tap customization radio group. The action if selected will act as a middle-click when a three-finger tap is performed on a touchpad. [CHAR LIMIT=35] -->
-    <string name="three_finger_tap_middle_click">Middle click</string>
+    <!-- Radio button text for 'mouse middle click button' action. This is one of multiple actions the user can select from the three finger tap customization radio group. The action if selected will act as a middle-click when a three-finger tap is performed on a touchpad. [CHAR LIMIT=35] -->
+    <string name="three_finger_tap_middle_click">Mouse middle click button</string>
     <!-- Radio button text for 'launch assistant' action. This is one of multiple actions the user can select from the three finger tap customization radio group. The action if selected will launch the Assistant when a three-finger tap is performed on a touchpad. [CHAR LIMIT=35] -->
     <string name="three_finger_tap_launch_gemini">Launch Assistant</string>
     <!-- Radio button text for 'Go home' action. This is one of multiple actions the user can select from the three finger tap customization radio group. The action if selected will take the user home when a three-finger tap is performed on a touchpad. [CHAR LIMIT=35] -->
@@ -6860,7 +6860,15 @@
     <string name="adaptive_connectivity_switch_off">Off</string>
     <!-- Title for adaptive connectivity main switch preferences. [CHAR LIMIT=50] -->
     <string name="adaptive_connectivity_main_switch_title">Use adaptive connectivity</string>
-
+    <!-- Title for adaptive connectivity wi-fi switch preferences. [CHAR LIMIT=50] -->
+    <string name="adaptive_connectivity_wifi_switch_title">Auto\u2011switch Wi\u2011Fi to Cellular</string>
+    <!-- Summary for adaptive connectivity wi-fi switch preferences. [CHAR LIMIT=NONE] -->
+    <string name="adaptive_connectivity_wifi_switch_summary">Automatically use cellular data when Wi\u2011Fi connection is poor or unavailable.
+Data usage charges may apply.</string>
+    <!-- Title for adaptive connectivity mobile network switch preferences. [CHAR LIMIT=50] -->
+    <string name="adaptive_connectivity_mobile_network_switch_title">Auto\u2011switch mobile network for battery life</string>
+    <!-- Summary for adaptive connectivity mobile network switch preferences. [CHAR LIMIT=NONE] -->
+    <string name="adaptive_connectivity_mobile_network_switch_summary">Extend battery life by automatically managing network connections</string>
     <!-- Cellular security related strings -->
     <!-- Title of Cellular security tile in Network & Internet settings page. [CHAR LIMIT=60]-->
     <string name="cellular_security_title">Mobile network security</string>
@@ -6923,8 +6931,8 @@
     <string name="credentials_erased">Credential storage is erased.</string>
     <!-- Toast message [CHAR LIMIT=30] when credential storage containing private keys and certificates could not be erased (opposite of string credentials_erased) -->
     <string name="credentials_not_erased">Credential storage couldn\u2019t be erased.</string>
-    <!-- Title of Usage Access preference item [CHAR LIMIT=30] -->
-    <string name="usage_access_title">Apps with usage access</string>
+    <!-- Title of Usage Access preference item [CHAR LIMIT=40] -->
+    <string name="usage_access_title">Apps with access to app usage data</string>
     <!-- Title of CA certificate [CHAR LIMIT=30] -->
     <string name="ca_certificate">CA certificate</string>
     <!-- Title of User certificate [CHAR LIMIT=30] -->
@@ -10487,16 +10495,16 @@
     <string name="apps_storage">Apps storage</string>
 
     <!-- Title of usage access screen [CHAR LIMIT=30] -->
-    <string name="usage_access">Usage access</string>
+    <string name="usage_access">App usage data</string>
 
     <!-- Label for setting which controls whether app has usage access [CHAR LIMIT=45] -->
-    <string name="permit_usage_access">Permit usage access</string>
+    <string name="permit_usage_access">Permit access to app usage data</string>
 
     <!-- Link title to show stats about how much time user spent in an app [CHAR LIMIT=45] -->
     <string name="time_spent_in_app_pref_title">Screen time</string>
 
     <!-- Description of the usage access setting [CHAR LIMIT=NONE] -->
-    <string name="usage_access_description">Usage access allows an app to track what other apps you\u2019re using and how often, as well as your carrier, language settings, and other details.</string>
+    <string name="usage_access_description">App usage data allows an app to track what other apps you\u2019re using and how often, as well as your carrier, language settings, and other details.</string>
 
     <!-- Title for screen showing recent memory usage of device [CHAR LIMIT=30]-->
     <string name="memory_settings_title">Memory</string>
@@ -10789,7 +10797,7 @@
     <string name="app_list_preference_none">None</string>
 
     <!-- Warning message about disabling usage access on profile owner [CHAR LIMIT=NONE] -->
-    <string name="work_profile_usage_access_warning">Turning off usage access for this app doesn\'t
+    <string name="work_profile_usage_access_warning">Turning off app usage data for this app doesn\'t
         prevent your admin from tracking data usage for apps in your work profile</string>
 
     <!-- System Alert Window settings -->
@@ -12745,7 +12753,7 @@
     <!-- Category title "Your mobile plan" [CHAR_LIMIT=NONE] -->
     <string name="category_title_your_satellite_plan">Your <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g> account</string>
     <!-- Title for category "Your mobile plan when satellite is included in plan" [CHAR_LIMIT=NONE] -->
-    <string name="title_have_satellite_plan">Messaging is included with your account</string>
+    <string name="title_have_satellite_plan">Satellite messaging is included with your account</string>
     <!-- Title for category "Your mobile plan when satellite is not included in plan" [CHAR_LIMIT=NONE] -->
     <string name="title_no_satellite_plan">Satellite messaging isn\u2019t included with your account</string>
     <!-- text view "Learn more" [CHAR_LIMIT=NONE] -->
@@ -12769,9 +12777,9 @@
     <!-- Summary for satellite supported service for NTN manual connection type. [CHAR_LIMIT=NONE] -->
     <string name="summary_supported_service_for_manual_type">After your phone is connected, you can text anyone, including emergency services.</string>
     <!-- learn more text - more about satellite messaging [CHAR_LIMIT=NONE] -->
-    <string name="satellite_setting_summary_more_information"><xliff:g id="subject" example="satellite messaging">%1$s</xliff:g> may take longer and is available only in some areas. Weather and certain structures may affect your satellite connection. Calling by satellite isn\u2019t available. Emergency calls may still connect.\n\nIt may take some time for account changes to show in Settings. Contact <xliff:g id="carrier_name" example="T-Mobile">%2$s</xliff:g> for details.</string>
+    <string name="satellite_setting_summary_more_information">A satellite connection may be slower and is available only in some areas. Weather and certain structures may affect the connection. Calling by satellite isn\u2019t available. Emergency calls may still connect.\n\nIt may take some time for account changes to show in Settings. Contact <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g> for details.</string>
     <!-- learn more text - more about satellite messaging without emergency messaging support. [CHAR_LIMIT=NONE] -->
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging"><xliff:g id="subject" example="satellite messaging">%1$s</xliff:g> may take longer and is available only in some areas. Weather and certain structures may affect your satellite connection. Calling by satellite isn\u2019t available. Emergency calls may still connect. Texting with emergency services may not be available in all areas.\n\nIt may take some time for account changes to show in Settings. Contact <xliff:g id="carrier_name" example="T-Mobile">%2$s</xliff:g> for details.</string>
+    <string name="satellite_setting_summary_more_information_no_emergency_messaging">A satellite connection may be slower and is available only in some areas. Weather and certain structures may affect the connection. Calling by satellite isn\u2019t available. Emergency calls may still connect. Texting with emergency services may not be available in all areas.\n\nIt may take some time for account changes to show in Settings. Contact <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g> for details.</string>
     <!-- more about satellite messaging [CHAR_LIMIT=NONE] -->
     <string name="more_about_satellite_messaging">More about <xliff:g id="subject" example="satellite messaging">%1$s</xliff:g></string>
     <!-- Title for satellite warning dialog to avoid user using wifi/bluetooth/airplane mode [CHAR_LIMIT=NONE] -->

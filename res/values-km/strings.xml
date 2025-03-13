@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"បានផ្អាក"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"មិនស្គាល់"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"មើលសាកល្បង"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"ការមើលសាកល្បងមុន"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"ការមើលសាកល្បងបន្ទាប់"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"កូដ QR"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"កំណត់ឲ្យតូចជាងមុន"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"កំណត់ឲ្យធំជាងមុន"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"អំពីឧបករណ៍បញ្ចេញសំឡេង"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"បញ្ជូនសំឡេងទៅកាន់ឧបករណ៍ជំនួយការស្ដាប់ ឬឧបករណ៍បំពងសំឡេងទូរសព្ទរបស់អ្នក"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"ពាក់ព័ន្ធ"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"សំឡេងរោទ៍ និងម៉ោងរោទ៍"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"សំឡេងពេលហៅទូរសព្ទ"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"សំឡេងមេឌៀ និងប្រព័ន្ធ"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"ប្រើគ្រាប់ចុចម៉ៅស៍"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"ប្រើក្តារចុចរបស់អ្នកដើម្បីគ្រប់គ្រងសញ្ញាព្រួញ"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ការរំកិលបញ្រ្ចាស"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"ខ្លឹមសារផ្លាស់ទី​ឡើងលើ នៅពេលអ្នករំកិល​ចុះក្រោម"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"រំកិល​ឡើងលើ ដើម្បីផ្លាស់ទី​ទំព័រចុះក្រោម"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"ប្ដូរប៊ូតុងម៉ៅស៍ចម្បង"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"ប្រើប៊ូតុងម៉ៅស៍ខាងឆ្វេងជាប៊ូតុងម៉ៅស៍ខាងស្ដាំរបស់អ្នក"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"ការបង្កើន​ល្បឿនទស្សន៍ទ្រនិច"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"មតិកែលម្អ"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"ជួយកែលម្អដោយចូលរួមការស្ទង់មតិ"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"មិនមានការស្ទង់មតិទេ"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"ផ្ញើមតិកែលម្អ"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"កម្មវិធី​ដែល​បាន​ទាញយក"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"ពិសោធន៍"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"ទង់​មុខងារ"</string>
@@ -4365,8 +4372,7 @@
     <string name="disconnected" msgid="3469373726996129247">"មិន​បាន​ភ្ជាប់"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"មិន​បាន​ភ្ជាប់"</string>
     <string name="apps_summary" msgid="4007416751775414252">"បានដំឡើងកម្មវិធី <xliff:g id="COUNT">%1$d</xliff:g>"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"បានប្រើអស់ <xliff:g id="PERCENTAGE">%1$s</xliff:g> - ទំនេរ <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"រចនាប័ទ្មងងឹត ទំហំពុម្ពអក្សរ ពន្លឺ"</string>
     <string name="memory_summary" msgid="8221954450951651735">"អង្គចងចាំត្រូវបានប្រើអស់ជាមធ្យម <xliff:g id="USED_MEMORY">%1$s</xliff:g> នៃ <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"ចូលជា <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4435,8 +4441,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"ការប្រើប្រាស់ទិន្នន័យអ៊ីសឺរណិត"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"អ៊ីសឺរណិត"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"អ៊ីសឺរណិត <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"ទិន្នន័យទូរសព្ទ​ចល័ត <xliff:g id="AMOUNT">^1</xliff:g>"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"ទិន្នន័យ Wi-Fi <xliff:g id="AMOUNT">^1</xliff:g>"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"ទិន្នន័យអ៊ីសឺរណិត <xliff:g id="AMOUNT">^1</xliff:g>"</string>
@@ -5011,12 +5016,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"ការតភ្ជាប់ផ្កាយរណប"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"ការ​ផ្ញើ​សារតាមផ្កាយរណប"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"ការប្រើប្រាស់ទិន្នន័យត្រូវបានរួមបញ្ចូលជាមួយគណនីរបស់អ្នក"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"កម្មវិធី​ដែលអាច​ប្រើបាននៅលើទូរសព្ទរបស់អ្នក"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"មើលកម្មវិធីទាំងអស់"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"កម្មវិធី​ដែលអាច​ប្រើបាននៅលើទូរសព្ទរបស់អ្នក"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"ឈ្មោះ​ចំណុច​ចូល​ប្រើប្រាស់"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"មិន​អាច​ប្រើបាន​ទេ នៅពេលភ្ជាប់ <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5184,27 +5186,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"ព័ត៌មាន​អំពីគោលការណ៍ការងារ​របស់អ្នក"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"ការកំណត់​​ដែល​ស្ថិត​ក្រោម​ការ​គ្រប់គ្រង​អ្នកគ្រប់គ្រង​ផ្នែកព័ត៌មានវិទ្យា​របស់អ្នក"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"ចាប់ផ្ដើមដោយប្រើទំហំទំព័រ 16KB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"ចាប់ផ្ដើមឧបករណ៍ដោយប្រើខឺណែលដែលស្គាល់ទំហំទំព័រ 16KB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"ប្ដូរពីមុខងារ 4KB ទៅមុខងារ 16KB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"អ្នកកំពុងប្រើមុខងារ Page-Agnostic ដែលដំណើរការខឺណែល 4KB ហើយអ្នកកំពុងប្ដូរទៅមុខងារ 16KB។ មិនអាចធានាសុក្រឹតភាពកម្មវិធីនៅក្នុងមុខងារនេះទេ ហើយទិន្នន័យទាំងឡាយដែលបានរក្សាទុកនៅលើទូរសព្ទ នៅពេលកម្មវិធីដំណើរការប្រព័ន្ធត្រូវបានដោះសោ អាច​ប្រឈមនឹងហានិភ័យ។ វានឹងចាប់ផ្ដើមឧបករណ៍ឡើងវិញ។ មុខងារមួយចំនួននឹងត្រូវបានបិទនៅក្នុងមុខងារទាំងនេះ ដូច្នេះកម្មវិធីមួយចំនួនប្រហែលជាមិនដំណើរការទេ។ ដើម្បី​ត្រឡប់​ឧបករណ៍​ទៅ​មុខងារ​ផលិតកម្មវិញ អ្នក​នឹង​ត្រូវ​ប្ដូរ​ទៅ​មុខងារ 4KB និង​ចាក់សោ​កម្មវិធីដំណើរការប្រព័ន្ធ ដែល​កំណត់​ឧបករណ៍ដូច​ចេញ​ពី​រោងចក្រ។ បន្ទាប់ពីឧបករណ៍ចាប់ផ្ដើមចូល Android ដោយជោគជ័យ សូមបិទការដោះសោ OEM នៅក្នុងជម្រើសសម្រាប់អ្នកអភិវឌ្ឍន៍។"</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"ប្ដូរពីមុខងារ 16KB ទៅមុខងារ 4KB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"អ្នកកំពុងប្រើមុខងារ Page-Agnostic ដែលដំណើរការខឺណែល 16KB ហើយអ្នកកំពុងប្ដូរទៅមុខងារ 4KB។ មិនអាចធានាសុក្រឹតភាពកម្មវិធីនៅក្នុងមុខងារនេះទេ ហើយទិន្នន័យទាំងឡាយដែលបានរក្សាទុកនៅលើទូរសព្ទ នៅពេលកម្មវិធីដំណើរការប្រព័ន្ធត្រូវបានដោះសោ អាច​ប្រឈមនឹងហានិភ័យ។ វានឹងចាប់ផ្ដើមឧបករណ៍ឡើងវិញ។ មុខងារមួយចំនួននឹងត្រូវបានបិទនៅក្នុងមុខងារទាំងនេះ ដូច្នេះកម្មវិធីមួយចំនួនប្រហែលជាមិនដំណើរការទេ។ ដើម្បីត្រឡប់ឧបករណ៍ទៅមុខងារផលិតកម្មវិញ អ្នកត្រូវចាក់សោកម្មវិធីដំណើរការប្រព័ន្ធ ដែល​កំណត់​ឧបករណ៍ដូច​ចេញ​ពី​រោងចក្រ។ បន្ទាប់ពីឧបករណ៍ចាប់ផ្ដើមចូល Android ដោយជោគជ័យ សូមបិទការដោះសោ OEM នៅក្នុងជម្រើសសម្រាប់អ្នកអភិវឌ្ឍន៍។"</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"មិនអាចធ្វើបច្ចុប្បន្នភាពខឺណែលទៅជាខឺណែលដែលត្រូវគ្នានឹងទំព័រ 16KB បានទេ។"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"កំពុងអនុវត្តការផ្លាស់ប្ដូរ"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"កំណត់​ទម្រង់​ឧបករណ៍​ឡើងវិញ​ទៅជា ext4 ឬ? (តម្រូវឱ្យមានសម្រាប់មុខងារ 16KB)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"ផ្នែកទិន្នន័យរបស់ឧបករណ៍នេះត្រូវបំប្លែងទៅជា ext4 មុនពេលប្រើជម្រើសសម្រាប់អ្នកអភិវឌ្ឍន៍ 16KB។ មិនអាចធានាសុក្រឹតភាពកម្មវិធីនៅក្នុងមុខងារនេះទេ ហើយទិន្នន័យទាំងឡាយដែលបានរក្សាទុកនៅលើទូរសព្ទ នៅពេលកម្មវិធីដំណើរការប្រព័ន្ធត្រូវបានដោះសោ អាច​ប្រឈមនឹងហានិភ័យ។ ការបើកដំណើរការជម្រើស 16KB នឹងតម្រូវឱ្យមានការចាប់ផ្ដើមឡើងវិញម្ដងទៀតបន្ទាប់ពីនេះ។ នៅពេលដែលអ្នកកំពុងប្រើមុខងារនេះ អ្នកអាចប្ដូរទៅមករវាងមុខងារ 4KB និង 16KB តាមរយៈការចាប់​ផ្ដើម​ឡើង​វិញតែម្ដងគត់។ មុខងារមួយចំនួននឹងត្រូវបានបិទនៅក្នុងមុខងារទាំងនេះ ដូច្នេះកម្មវិធីមួយចំនួនប្រហែលជាមិនដំណើរការទេ។ ដើម្បីត្រឡប់ឧបករណ៍ទៅមុខងារផលិតកម្ម អ្នកនឹងត្រូវប្ដូរត្រឡប់ទៅមុខងារ 4KB វិញ បន្ទាប់មកចាក់សោកម្មវិធីដំណើរការប្រព័ន្ធ ដែល​កំណត់​ឧបករណ៍ដូច​ចេញ​ពី​រោងចក្រ។ បន្ទាប់ពីឧបករណ៍ចាប់ផ្ដើមចូល Android ដោយជោគជ័យ សូមបិទការដោះសោ OEM នៅក្នុងជម្រើសសម្រាប់អ្នកអភិវឌ្ឍន៍។ ឧបករណ៍នឹងត្រូវបានឈូស ហើយប្រព័ន្ធឯកសារនឹងត្រូវបានប្ដូរទៅជា ext4 បន្ទាប់ពីបញ្ជាក់រួច។ បន្ទាប់​ពី​ដំណើរការ​នេះ​ចប់ សូម​ត្រឡប់​មក​បើក 16KB ម្ដង​ទៀត។"</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"លុប​ទិន្នន័យ​ទាំង​អស់"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"មិនអាច​ឈូស និងកំណត់​ទម្រង់​ផ្នែក​ទិន្នន័យ​ឡើងវិញ​ទៅជា ext4 បានទេ។"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"តម្រូវឱ្យមានការដោះសោកម្មវិធីដំណើរការប្រព័ន្ធ"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"ឧបករណ៍នេះត្រូវដោះសោកម្មវិធីដំណើរការប្រព័ន្ធ មុនពេលប្រើជម្រើសសម្រាប់អ្នកអភិវឌ្ឍន៍ 16KB។ មិនអាចធានាសុក្រឹតភាពកម្មវិធីនៅក្នុងមុខងារនេះទេ ហើយទិន្នន័យទាំងឡាយដែលបានរក្សាទុកនៅលើទូរសព្ទ នៅពេលកម្មវិធីដំណើរការប្រព័ន្ធត្រូវបានដោះសោ អាច​ប្រឈមនឹងហានិភ័យ។ ទិន្នន័យ និងការកំណត់ទាំងអស់របស់អ្នកប្រើប្រាស់នឹងត្រូវបានឈូស នៅពេលបើកដំណើរការមុខងារ 16KB។ នៅពេលកម្មវិធីដំណើរការប្រព័ន្ធត្រូវបានដោះសោ ការបើកដំណើរការជម្រើស 16KB នឹងតម្រូវឱ្យមានការចាប់ផ្ដើមឡើងវិញពីរដង។ នៅពេលដែលអ្នកកំពុងប្រើមុខងារនេះ អ្នកអាចប្ដូរទៅមករវាងមុខងារ 4KB និង 16KB តាមរយៈការចាប់​ផ្ដើម​ឡើង​វិញតែម្ដងគត់។ មុខងារមួយចំនួននឹងត្រូវបានបិទនៅក្នុងមុខងារទាំងនេះ ដូច្នេះកម្មវិធីមួយចំនួនប្រហែលជាមិនដំណើរការទេ។ ដើម្បី​ត្រឡប់​ឧបករណ៍​ទៅ​មុខងារ​ផលិតកម្ម អ្នក​ត្រូវ​ប្ដូរ​ទៅ​មុខងារ 4KB វិញ បន្ទាប់​មក​ ការចាក់សោ OEM/កម្មវិធីដំណើរការប្រព័ន្ធ (ដែលកំណត់​ឧបករណ៍ដូច​ចេញ​ពី​រោងចក្រ​)។ សូមដោះសោកម្មវិធីដំណើរការប្រព័ន្ធ រួចព្យាយាមម្ដងទៀត។ អ្នកអាចមើលការណែនាំអំពីរបៀបអនុវត្តសកម្មភាពនេះតាម &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"ការប្រើមុខងារ Page-Agnostic 4KB"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"អ្នកកំពុងប្រើមុខងារ 4KB នៃមុខងារ Page-Agnostic។ មិនអាចធានាសុក្រឹតភាពកម្មវិធីនៅក្នុងមុខងារនេះទេ ហើយទិន្នន័យទាំងឡាយដែលបានរក្សាទុកនៅលើទូរសព្ទ នៅពេលកម្មវិធីដំណើរការប្រព័ន្ធត្រូវបានដោះសោ អាច​ប្រឈមនឹងហានិភ័យ។ មុខងារមួយចំនួននឹងត្រូវបានបិទនៅក្នុងមុខងារទាំងនេះ ដូច្នេះកម្មវិធីមួយចំនួនប្រហែលជាមិនដំណើរការទេ។ ដើម្បីបញ្ចូលមុខងារផលិតកម្មឡើងវិញ អ្នកត្រូវតែចាក់សោកម្មវិធីដំណើរការប្រព័ន្ធរបស់ឧបករណ៍។ ចុចដើម្បីអានបន្ថែម។"</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"អ្នកកំពុងប្រើមុខងារ 4KB នៃមុខងារ Page-Agnostic។ មិនអាចធានាសុក្រឹតភាពកម្មវិធីនៅក្នុងមុខងារនេះទេ ហើយទិន្នន័យទាំងឡាយដែលបានរក្សាទុកនៅលើទូរសព្ទ នៅពេលកម្មវិធីដំណើរការប្រព័ន្ធត្រូវបានដោះសោ អាច​ប្រឈមនឹងហានិភ័យ។ មុខងារមួយចំនួននឹងត្រូវបានបិទនៅក្នុងមុខងារទាំងនេះ ដូច្នេះកម្មវិធីមួយចំនួនប្រហែលជាមិនដំណើរការទេ។ ដើម្បីបញ្ចូលមុខងារផលិតកម្មឡើងវិញ អ្នកត្រូវតែចាក់សោកម្មវិធីដំណើរការប្រព័ន្ធរបស់ឧបករណ៍។ ដំណើរការនេះនឹង​កំណត់​ឧបករណ៍​ដូចចេញពីរោងចក្រ រួចត្រឡប់ឧបករណ៍ទៅ​ការកំណត់​ផលិតកម្មវិញ។ បន្ទាប់ពីឧបករណ៍ចាប់ផ្ដើមចូល Android ដោយជោគជ័យ សូមបិទការដោះសោ OEM នៅក្នុងជម្រើសសម្រាប់អ្នកអភិវឌ្ឍន៍។ ប្រសិនបើ​ឧបករណ៍​មិនអាចចាប់ផ្ដើម​ប្រព័ន្ធ​ប្រតិបត្តិការ Android ឬ​មិន​មានស្ថិរភាព សូម​ជំនួសកម្មវិធីឧបករណ៍​ឡើងវិញដោយប្រើរូបភាពពីរោងចក្រចុងក្រោយបំផុតពី &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; ឬប្រើ &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; រួចជ្រើសរើស \'ឈូសឧបករណ៍\' \'ចាក់​សោកម្មវិធីដំណើរការប្រព័ន្ធ\' និង \'បង្ខំឱ្យជំនួសផ្នែកទាំងអស់\'។"</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"ដោយប្រើមុខងារ Page-Agnostic 16KB"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"អ្នកកំពុងប្រើមុខងារ 16KB នៃមុខងារ Page-Agnostic។ មិនអាចធានាសុក្រឹតភាពកម្មវិធីនៅក្នុងមុខងារនេះទេ ហើយទិន្នន័យទាំងឡាយដែលបានរក្សាទុកនៅលើទូរសព្ទ នៅពេលកម្មវិធីដំណើរការប្រព័ន្ធត្រូវបានដោះសោ អាច​ប្រឈមនឹងហានិភ័យ។ មុខងារមួយចំនួននឹងត្រូវបានបិទនៅក្នុងមុខងារទាំងនេះ ដូច្នេះកម្មវិធីមួយចំនួនប្រហែលជាមិនដំណើរការទេ។ ដើម្បីចូលទៅក្នុងមុខងារផលិតកម្មឡើងវិញ អ្នកត្រូវតែប្ដូរត្រឡប់ទៅមុខងារ 4KB បន្ទាប់មកចាក់សោកម្មវិធីដំណើរការប្រព័ន្ធរបស់ឧបករណ៍។ ចុចដើម្បីអានបន្ថែម។"</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"អ្នកកំពុងប្រើមុខងារ 16KB នៃមុខងារ Page-Agnostic។ មិនអាចធានាសុក្រឹតភាពកម្មវិធីនៅក្នុងមុខងារនេះទេ ហើយទិន្នន័យទាំងឡាយដែលបានរក្សាទុកនៅលើទូរសព្ទ នៅពេលកម្មវិធីដំណើរការប្រព័ន្ធត្រូវបានដោះសោ អាច​ប្រឈមនឹងហានិភ័យ។ មុខងារមួយចំនួននឹងត្រូវបានបិទនៅក្នុងមុខងារទាំងនេះ ដូច្នេះកម្មវិធីមួយចំនួនប្រហែលជាមិនដំណើរការទេ។ ដើម្បីចូលទៅក្នុងមុខងារផលិតកម្មឡើងវិញ អ្នកត្រូវតែប្ដូរត្រឡប់ទៅមុខងារ 4KB បន្ទាប់មកចាក់សោកម្មវិធីដំណើរការប្រព័ន្ធរបស់ឧបករណ៍។ ដំណើរការនេះនឹង​កំណត់​ឧបករណ៍​ដូចចេញពីរោងចក្រ រួចត្រឡប់ឧបករណ៍ទៅ​ការកំណត់​ផលិតកម្មវិញ។ បន្ទាប់ពីឧបករណ៍ចាប់ផ្ដើមចូល Android ដោយជោគជ័យ សូមបិទការដោះសោ OEM នៅក្នុងជម្រើសសម្រាប់អ្នកអភិវឌ្ឍន៍។ ប្រសិនបើ​ឧបករណ៍​មិនអាចចាប់ផ្ដើម​ប្រព័ន្ធ​ប្រតិបត្តិការ Android ឬ​មិន​មានស្ថិរភាព សូម​ជំនួសកម្មវិធីឧបករណ៍​ឡើងវិញដោយប្រើរូបភាពពីរោងចក្រចុងក្រោយបំផុតពី &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; ឬប្រើ &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; រួចជ្រើសរើស \'ឈូសឧបករណ៍\' \'ចាក់​សោកម្មវិធីដំណើរការប្រព័ន្ធ\' និង \'បង្ខំឱ្យជំនួសផ្នែកទាំងអស់\'។"</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"មុខងារ Page-Agnostic 16KB"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"អានបន្ថែម"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"ដំណើរការកម្មវិធីដោយប្រើមុខងារត្រូវគ្នានឹងទំហំទំព័រ"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"កម្មវិធីនឹងត្រូវបានដំណើរការក្នុងមុខងារត្រូវគ្នានឹងទំហំទំព័រ ពេលប្ដូរទៅឧបករណ៍ 16 KB។"</string>
@@ -5613,8 +5632,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"បិទការស្ដាប់សំឡេងរួមគ្នា"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"ដើម្បីផ្គូផ្គងឧបករណ៍ថ្មី សូមបិទការស្ដាប់សំឡេងរួមគ្នាជាមុនសិន។"</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"បិទ"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"ស្ដាប់សំឡេងរួមគ្នាជាមួយ <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"ភ្ជាប់ទៅកាន់ការចាក់សំឡេងលើអ៊ីនធឺណិត LE"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"ការចាក់សំឡេងលើអ៊ីនធឺណិតដែលនៅជិត"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"ការចាក់សំឡេងលើអ៊ីនធឺណិត"</string>
@@ -5644,12 +5662,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"បាន​ផ្អាក​ការ​ផ្សាយ"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"ឈប់​ស្ដាប់"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"ភ្ជាប់កាសដែលត្រូវគ្នា"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"បិទ Talkback បណ្ដោះអាសន្ន"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"មិនអាចប្រើ Talkback នៅពេលស្ដាប់ការចាក់សំឡេងលើអ៊ីនធឺណិតបានទេ។ បិទ talkback ដើម្បី​ចាប់ផ្ដើមស្ដាប់។"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"បិទ"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"ភ្ជាប់​ឧបករណ៍"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"ព័ត៌មានលម្អិតអំពីការចាក់សំឡេងលើអ៊ីនធឺណិត"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"កូដ QR ការចាក់សំឡេងលើអ៊ីនធឺណិត"</string>

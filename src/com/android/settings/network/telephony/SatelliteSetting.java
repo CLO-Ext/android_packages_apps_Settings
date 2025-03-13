@@ -248,8 +248,7 @@ public class SatelliteSetting extends RestrictedDashboardFragment {
             int summary = mConfigBundle.getBoolean(KEY_EMERGENCY_MESSAGING_SUPPORTED_BOOL)
                     ? R.string.satellite_setting_summary_more_information
                     : R.string.satellite_setting_summary_more_information_no_emergency_messaging;
-            footerPreference.setSummary(getResources().getString(summary,
-                    getSubjectString(), mSimOperatorName));
+            footerPreference.setSummary(getResources().getString(summary, mSimOperatorName));
 
             final String[] link = new String[1];
             link[0] = readSatelliteMoreInfoString();

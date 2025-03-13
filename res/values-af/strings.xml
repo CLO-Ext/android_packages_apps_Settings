@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Afgelas"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Onbekend"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Voorskou"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Vorige voorskou"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Volgende voorskou"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR-kode"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Maak kleiner"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Maak groter"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Meer oor oudio-uitvoer"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Roeteer klanke na jou gehoortoestel of foon se luidspreker"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Soortgelyk"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Luitoon en wekkers"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Oudio tydens oproepe"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Media- en stelselklanke"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Gebruik muissleutels"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Gebruik jou sleutelbord om die wyser te beheer"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Omgekeerde rollees"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Inhoud beweeg op wanneer jy ondertoe rollees"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Rollees op om die bladsy af te beweeg"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Ruil primêre muisknoppie"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Gebruik die muis se linkerknoppie as jou regterknoppie"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Skermpyltjieversnelling"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Terugvoer"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Help ons om te verbeter deur ’n opname te voltooi"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Geen opnames is beskikbaar nie"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Stuur terugvoer"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Afgelaaide apps"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Eksperimenteel"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Kenmerkvlae"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"satellietkonnektiwiteit"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"satellietboodskappe"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Gebruik van data is by jou rekening ingesluit"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Gesteunde apps op jou foon"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"sien alle apps"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Gesteunde apps op jou foon"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Toegangspuntname"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Onbeskikbaar wanneer gekoppel aan <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Jou werkbeleidinligting"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Instellings wat deur jou IT-admin bestuur word"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Selflaai met 16KB-bladsygrootte"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Selflaai toestel met 16KB-bladsygrootte gesteunde korrel"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Skakel van 4 KB-modus oor na 16 KB-modus"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Jy is in die bladsy-agnostiese modus wat ’n 4 KB-korrel gebruik, en jy skakel oor na die 16 KB-modus. Die sagteware se integriteit kan nie in hierdie modus gewaarborg word nie, en enige data wat op die foon gestoor word terwyl die selflaaiprogram ontsluit is, is dalk in gevaar. Dit sal die toestel herselflaai. Sommige kenmerke sal gedeaktiveer word in hierdie modusse, so sommige apps sal dalk nie werk nie. Jy sal moet terugskakel na die 4 KB-modus en die selflaaiprogram moet sluit wat ’n fabriekterugstelling op die toestel doen om die toestel na produksiemodus terug te neem. Jy moet die OEM-ontsluiting in Ontwikkelaaropsies deaktiveer nadat die toestel suksesvol in Android geselflaai het."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Skakel van 16KB-modus oor na 4KB-modus"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Jy is in die bladsy-agnostiese modus wat ’n 16KB-korrel gebruik, en jy skakel oor na die 4KB-modus. Die sagteware se integriteit kan nie in hierdie modus gewaarborg word nie, en enige data wat op die foon gestoor word terwyl die selflaaiprogram ontsluit is, is dalk in gevaar. Dit sal die toestel herselflaai. Sommige kenmerke sal gedeaktiveer word in hierdie modusse, so sommige apps sal dalk nie werk nie. Jy sal dan die selflaaiprogram moet sluit wat ’n fabriekterugstelling op die toestel doen om die toestel na produksiemodus terug te neem. Jy moet die OEM-ontsluiting in Ontwikkelaaropsies deaktiveer nadat die toestel suksesvol in Android geselflaai het."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Kon nie kern opdateer na 16KB-bladsy versoenbare kern nie."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Pas tans verandering toe"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Herformateer toestel na ext4? (word vereis vir 16KB-modus)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Hierdie toestel se data-afdeling moet na ext4 omgeskakel word voordat die 16KB-ontwikkelaaropsie gebruik word. Die sagteware se integriteit kan nie in hierdie modus gewaarborg word nie, en enige data wat op die foon gestoor word terwyl die selflaaiprogram ontsluit is, is dalk in gevaar. Die aktivering van die 16KB-opsie sal daarna nog een herselflaai vereis. Sodra jy in hierdie modus is, kan jy heen en weer oorskakel tussen 4KB- en 16KB-modus met ’n enkele herselflaai. Sommige kenmerke sal gedeaktiveer word in hierdie modusse, so sommige apps sal dalk nie werk nie. Jy sal moet terugskakel na die 4KB-modus en dan die selflaaiprogram moet sluit wat ’n fabriekterugstelling op die toestel doen om die toestel na produksiemodus terug te neem. Jy moet die OEM-ontsluiting in Ontwikkelaaropsies deaktiveer nadat die toestel suksesvol in Android geselflaai het. Die toestel sal skoongevee word en die lêerstelsel sal ná bevestiging na ext4 verander word. Nadat dit voltooi is, moet jy terugkom om 16KB weer te aktiveer."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Vee alle data uit"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Kon nie herformateer en die data-afdeling na ext4 skoonvee nie."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Ontsluiting van selflaaiprogram is nodig"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Hierdie toestel moet die selflaaiprogram ontsluit hê voordat die 16KB-ontwikkelaaropsie gebruik word. Die sagteware se integriteit kan nie in hierdie modus gewaarborg word nie, en enige data wat op die foon gestoor word terwyl die selflaaiprogram ontsluit is, is dalk in gevaar. Alle gebruikerdata en -instellings sal skoongevee word wanneer 16KB-modus geaktiveer word. Sodra die selflaaiprogram ontsluit is, sal die aktivering van die 16KB-opsie twee herselflaaie vereis. Sodra jy in hierdie modus is, kan jy heen en weer oorskakel tussen 4KB- en 16KB-modus met ’n enkele herselflaai. Sommige kenmerke sal gedeaktiveer word in hierdie modusse, so sommige apps sal dalk nie werk nie. Jy sal moet terugskakel na die 4KB-modus en dan die toestel moet sluit met die OEM/selflaaiprogramslot (wat ’n fabriekterugstelling op die toestel doen) om die toestel na produksiemodus terug te neem. Ontsluit asseblief die selflaaiprogram en probeer weer. Jy kan instruksies sien oor hoe om dit te doen by &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Gebruik 4KB-bladsy-agnostiese modus"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Jy is in die 4KB-modus van die bladsy-agnostiese modus. Die sagteware se integriteit kan nie in hierdie modus gewaarborg word nie, en enige data wat op die foon gestoor word terwyl die selflaaiprogram ontsluit is, is dalk in gevaar. Sommige kenmerke sal gedeaktiveer word in hierdie modusse, so sommige apps sal dalk nie werk nie. Jy moet die selflaaiprogram van die toestel sluit om weer in die produksiemodus te gaan. Tik om meer te lees."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Jy is in die 4KB-modus van die bladsy-agnostiese modus. Die sagteware se integriteit kan nie in hierdie modus gewaarborg word nie, en enige data wat op die foon gestoor word terwyl die selflaaiprogram ontsluit is, is dalk in gevaar. Sommige kenmerke sal gedeaktiveer word in hierdie modusse, so sommige apps sal dalk nie werk nie. Jy moet die selflaaiprogram van die toestel sluit om weer in die produksiemodus te gaan. Dit sal weer ’n fabriekterugstelling op die toestel doen en dit na produksie-instellings terugstel. Jy moet die OEM-ontsluiting in Ontwikkelaaropsies deaktiveer nadat die toestel suksesvol in Android geselflaai het. As die toestel nie in Android kon selflaai nie of onstabiel is, moet jy die toestel herflits met die jongste fabriekstelselkopie vanaf &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; of gebruik &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; en kies “Vee toestel skoon”, “Sluit selflaaiprogram” en “Verpligflits alle afdelings”."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Gebruik 16KB-bladsy-agnostiese modus"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Jy is in die 16 KB-modus van die niebladgebonde modus. Die sagteware se integriteit kan nie in hierdie modus gewaarborg word nie, en enige data wat op die foon gestoor word terwyl die selflaaiprogram ontsluit is, is dalk in gevaar. Sommige kenmerke sal gedeaktiveer word in hierdie modusse, so sommige apps sal dalk nie werk nie. Jy moet terugskakel na 4 KB-modus en dan die selflaaiprogram van die toestel sluit om weer in die produksiemodus te gaan. Tik om meer te lees."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Jy is in die 16 KB-modus van die niebladgebonde modus. Die sagteware se integriteit kan nie in hierdie modus gewaarborg word nie, en enige data wat op die foon gestoor word terwyl die selflaaiprogram ontsluit is, is dalk in gevaar. Sommige kenmerke sal gedeaktiveer word in hierdie modusse, so sommige apps sal dalk nie werk nie. Jy moet terugskakel na 4 KB-modus en dan die selflaaiprogram van die toestel sluit om weer in die produksiemodus te gaan. Dit sal weer ’n fabriekterugstelling op die toestel doen en dit na produksie-instellings terugstel. Jy moet die OEM-ontsluiting in Ontwikkelaaropsies deaktiveer nadat die toestel suksesvol in Android geselflaai het. As die toestel nie in Android kon selflaai nie of onstabiel is, moet jy die toestel herflits met die jongste fabriekstelselkopie vanaf &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; of gebruik &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; en kies “Vee toestel skoon”, “Sluit selflaaiprogram” en “Verpligflits alle afdelings”."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"16KB-bladsy-agnostiese modus"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Lees meer"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Laat loop app met bladsygrootte-versoenbaarheidmodus"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"App sal op bladsygrootte-versoenbaarheidmodus loop op 16 KB-toestel wanneer dit gewissel word."</string>
@@ -5644,12 +5665,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Stroom is onderbreek"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Hou op luister"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Koppel versoenbare oorfone"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Skakel TalkBack tydelik af"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"TalkBack kan nie gebruik word wanneer jy na oudiostrome luister nie. Skakel TalkBack af om te begin luister."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Skakel af"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Koppel ’n toestel"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Besonderhede van oudiostroom"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"QR-kode van oudiostroom"</string>

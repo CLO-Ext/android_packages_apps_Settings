@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Bị tạm ngưng"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Không xác định"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Xem trước"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Bản xem trước trước"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Bản xem trước tiếp theo"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Mã QR"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Thu nhỏ"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Phóng to"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Giới thiệu về đầu ra âm thanh"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Định tuyến âm thanh đến thiết bị trợ thính hoặc loa điện thoại của bạn"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Công cụ liên quan"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Nhạc chuông và chuông báo"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Âm thanh trong cuộc gọi"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Âm thanh nội dung nghe nhìn và hệ thống"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Dùng các phím điều khiển chuột"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Sử dụng bàn phím để điều khiển con trỏ"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Cuộn ngược"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Nội dung di chuyển lên khi bạn cuộn xuống"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Cuộn lên để di chuyển xuống phía dưới của trang"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Hoán đổi nút chuột chính"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Sử dụng nút chuột trái như nút chuột phải"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Tăng tốc con trỏ"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Phản hồi"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Hãy làm một bài khảo sát để giúp chúng tôi cải thiện"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Không có bản khảo sát nào"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Gửi phản hồi"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Ứng dụng đã tải xuống"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Thử nghiệm"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Cờ tính năng"</string>
@@ -2384,12 +2391,12 @@
     <string name="accessibility_button_low_label" msgid="4193015407828927741">"Trong suốt"</string>
     <string name="accessibility_button_high_label" msgid="9138077512008190896">"Không trong suốt"</string>
     <string name="accessibility_button_disabled_button_mode_summary" msgid="1978174613270619492">"Không dùng được khi sử dụng chế độ nút trên thanh điều hướng."</string>
-    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Văn bản có độ tương phản cao"</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Chữ có độ tương phản cao"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"Thay đổi màu chữ thành đen hoặc trắng. Tăng tối đa độ tương phản so với nền."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Cải thiện độ tương phản văn bản"</string>
     <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> đã thay thế <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>. Bạn có thể bật tính năng này trong phần <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Chuyển đến phần <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Đường viền văn bản"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Chữ viền"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Thêm một nền đen hoặc trắng xung quanh văn bản để tăng độ tương phản"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Tự động cập nhật phóng đại màn hình"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Cập nhật phóng đại màn hình khi chuyển ứng dụng"</string>
@@ -2607,7 +2614,7 @@
     <string name="keywords_sound_amplifier" msgid="939404835256246663"></string>
     <string name="keywords_display_size" msgid="5286419615221231518">"kích thước màn hình, màn hình lớn"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"Độ tương phản cao, thị lực kém, phông chữ đậm, in đậm"</string>
-    <string name="keywords_maximize_text_contrast" msgid="4304270989682862814">"văn bản có độ tương phản cao"</string>
+    <string name="keywords_maximize_text_contrast" msgid="4304270989682862814">"chữ có độ tương phản cao"</string>
     <string name="keywords_select_to_speak" msgid="2872704811610888719"></string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"điều chỉnh màu sắc"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"chuyển sang màn hình tối, chuyển sang màn hình sáng"</string>
@@ -4365,8 +4372,7 @@
     <string name="disconnected" msgid="3469373726996129247">"Chưa kết nối"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Chưa kết nối"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Đã cài đặt <xliff:g id="COUNT">%1$d</xliff:g> ứng dụng"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"Đã dùng <xliff:g id="PERCENTAGE">%1$s</xliff:g> – Còn trống <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Giao diện tối, cỡ chữ, độ sáng"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Đã dùng khoảng <xliff:g id="USED_MEMORY">%1$s</xliff:g>/<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Đã đăng nhập với tên <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4435,8 +4441,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Sử dụng dữ liệu ethernet"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"<xliff:g id="INTERFACEID">%1$s</xliff:g> Ethernet"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> dữ liệu di động"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> dữ liệu Wi-Fi"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> dữ liệu ethernet"</string>
@@ -5011,12 +5016,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"kết nối vệ tinh"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"nhắn tin qua vệ tinh"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Tài khoản của bạn có quyền sử dụng dữ liệu"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Các ứng dụng được hỗ trợ trên điện thoại của bạn"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"xem tất cả ứng dụng"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Các ứng dụng được hỗ trợ trên điện thoại của bạn"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Tên điểm truy cập"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Không sử dụng được khi kết nối với <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5184,27 +5186,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Thông tin về chính sách công việc của bạn"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Các tùy chọn cài đặt do quản trị viên CNTT quản lý"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Khởi động với kích thước trang 16KB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Khởi động thiết bị bằng nhân hỗ trợ trang 16 KB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Chuyển từ chế độ 4 KB sang chế độ 16 KB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Bạn đang ở chế độ không xác định kích thước trang chạy nhân hệ điều hành 4 KB và bạn sắp chuyển sang chế độ 16 KB. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Sau khi bạn xác nhận, thiết bị sẽ khởi động lại. Một số tính năng bị tắt ở những chế độ này nên có thể một vài ứng dụng sẽ không hoạt động được. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn cần chuyển lại về chế độ 4 KB và khoá trình tải khởi động (thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu). Sau khi thiết bị khởi động thành công vào Android, hãy tắt chế độ mở khoá OEM trong Tuỳ chọn cho nhà phát triển."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Chuyển từ chế độ 16 KB sang chế độ 4 KB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Bạn đang ở chế độ không xác định kích thước trang chạy nhân hệ điều hành 16 KB và bạn sắp chuyển sang chế độ 4 KB. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Sau khi bạn xác nhận, thiết bị sẽ khởi động lại. Một số tính năng bị tắt ở các chế độ này nên có thể một vài ứng dụng sẽ không hoạt động. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn cần khoá trình tải khởi động (thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu). Sau khi thiết bị khởi động thành công vào Android, hãy tắt chế độ mở khoá OEM trong Tuỳ chọn cho nhà phát triển."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Không cập nhật được nhân hệ điều hành thành nhân hệ điều hành tương thích với trang 16KB"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Đang áp dụng thay đổi"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Định dạng lại thiết bị thành ext4? (bắt buộc đối với chế độ 16 KB)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Bạn phải chuyển đổi phân vùng dữ liệu của thiết bị này sang ext4 thì mới có thể dùng tuỳ chọn 16 KB cho nhà phát triển. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Nếu kích hoạt chế độ 16 KB, bạn sẽ phải khởi động lại một lần nữa sau lần này. Khi đã ở chế độ này, bạn chỉ cần khởi động lại một lần là có thể chuyển qua lại giữa chế độ 4 KB và 16 KB. Một số tính năng bị tắt ở các chế độ này nên có thể một vài ứng dụng sẽ không hoạt động. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn cần quay lại chế độ 4 KB rồi khoá trình tải khởi động (thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu). Sau khi thiết bị khởi động thành công vào Android, hãy tắt chế độ mở khoá OEM trong Tuỳ chọn cho nhà phát triển. Sau khi bạn xác nhận, dữ liệu trên thiết bị sẽ được xoá sạch và hệ thống tệp sẽ được thay đổi thành ext4. Sau khi quá trình này hoàn thành, vui lòng quay lại để bật lại chế độ 16 KB."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Xoá hết dữ liệu"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Không định dạng lại được phân vùng dữ liệu về ext4 và không xoá sạch được phân vùng dữ liệu."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Cần mở khoá trình tải khởi động"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Bạn cần phải mở khoá trình tải khởi động cho thiết bị này thì mới dùng được tuỳ chọn 16 KB cho nhà phát triển. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Tất cả dữ liệu người dùng và các chế độ cài đặt sẽ bị xoá sạch khi bạn kích hoạt chế độ 16 KB. Sau khi trình tải khởi động được mở khoá, bạn cần khởi động lại 2 lần thì mới kích hoạt được chế độ 16 KB. Khi đã ở chế độ này, bạn chỉ cần khởi động lại một lần là có thể chuyển qua lại giữa chế độ 4 KB và 16 KB. Một số tính năng bị tắt ở các chế độ này nên có thể một vài ứng dụng sẽ không hoạt động. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn cần quay lại chế độ 4 KB, sau đó khoá OEM/trình tải khởi động (thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu). Hãy mở khoá trình tải khởi động rồi thử lại. Bạn có thể xem hướng dẫn về cách thực hiện việc này tại &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Dùng chế độ 4 KB của chế độ không xác định kích thước trang"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Bạn đang ở chế độ 4 KB của chế độ không xác định kích thước trang. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Một số tính năng bị tắt ở các chế độ này nên có thể một vài ứng dụng sẽ không hoạt động. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn phải khoá trình tải khởi động của thiết bị. Hãy nhấn để đọc thêm."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Bạn đang ở chế độ 4 KB của chế độ không phụ thuộc kích thước trang. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Một số tính năng bị tắt ở các chế độ này nên có thể một vài ứng dụng sẽ không hoạt động. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn phải khoá trình tải khởi động của thiết bị. Thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu và khôi phục các chế độ cài đặt gốc. Sau khi thiết bị khởi động thành công vào Android, hãy tắt chế độ mở khoá OEM trong Tuỳ chọn cho nhà phát triển. Nếu thiết bị không khởi động vào Android hoặc không ổn định, hãy cài đặt ROM lại cho thiết bị với hình ảnh gốc mới nhất từ &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; hoặc sử dụng &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; rồi chọn \"Wipe Device\" (Xoá thiết bị), \"Lock Bootloader\" (Khoá trình tải khởi động) và \"Force Flash all partitions\" (Buộc cài đặt ROM cho mọi phân vùng)."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Dùng chế độ 16 KB của chế độ không phụ thuộc kích thước trang"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Bạn đang ở chế độ 16KB của chế độ không phụ thuộc vào kích thước trang. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Một số tính năng bị tắt ở những chế độ này nên có thể một vài ứng dụng sẽ không hoạt động được. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn phải chuyển lại về chế độ 4K rồi khoá trình tải khởi động của thiết bị. Hãy nhấn để đọc thêm."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Bạn đang ở chế độ 16KB của chế độ không phụ thuộc vào kích thước trang. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Một số tính năng bị tắt ở những chế độ này nên có thể một vài ứng dụng sẽ không hoạt động được. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn phải chuyển lại về chế độ 4K rồi khoá trình tải khởi động của thiết bị. Thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu và khôi phục các chế độ cài đặt gốc. Sau khi thiết bị khởi động thành công vào Android, hãy tắt chế độ mở khoá OEM trong Tuỳ chọn cho nhà phát triển. Nếu thiết bị không khởi động vào Android hoặc không ổn định, hãy cài đặt ROM lại cho thiết bị với hình ảnh gốc mới nhất từ &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; hoặc sử dụng &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; rồi chọn \"Xoá dữ liệu thiết bị\", \"Khoá trình tải khởi động\" và \"Buộc cài đặt ROM cho mọi phân vùng\"."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Chế độ 16 KB của chế độ không xác định kích thước trang"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Đọc thêm"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Chạy ứng dụng ở chế độ tương thích với kích thước trang"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Ứng dụng sẽ chạy ở chế độ tương thích với kích thước trang trên thiết bị 16 KB khi đã được bật."</string>
@@ -5613,8 +5632,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Tắt tính năng Chia sẻ âm thanh"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Để ghép nối một thiết bị mới, trước tiên, hãy tắt tính năng Chia sẻ âm thanh."</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Tắt"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"Chia sẻ âm thanh với <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Kết nối với luồng Âm thanh năng lượng thấp"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Luồng âm thanh ở gần"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"Luồng âm thanh"</string>
@@ -5644,12 +5662,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Đã tạm dừng luồng"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Dừng nghe"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Hãy kết nối tai nghe tương thích"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Tạm thời tắt TalkBack"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"Không dùng được TalkBack khi nghe luồng âm thanh. Hãy tắt TalkBack để bắt đầu nghe."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Tắt"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Kết nối thiết bị"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Thông tin về luồng âm thanh"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Mã QR của luồng âm thanh"</string>

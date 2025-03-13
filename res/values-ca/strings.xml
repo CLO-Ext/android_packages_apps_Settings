@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Suspesa"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Desconegut"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Previsualització"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Previsualització anterior"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Previsualització següent"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Codi QR"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Redueix"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Amplia"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Sobre la sortida d\'àudio"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Desvia sons al teu audiòfon o a l\'altaveu del telèfon"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Relacionats"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"So de trucada i alarmes"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Àudio durant les trucades"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Sons multimèdia i del sistema"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Utilitza les tecles del ratolí"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Utilitza el teclat per controlar el punter"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Desplaçament invers"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"El contingut es mou cap amunt quan et desplaces cap avall"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Desplaça\'t cap amunt per moure la pàgina cap avall"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Canvia el botó principal del ratolí"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Utilitza el botó esquerre del ratolí com si fos el dret"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Acceleració del cursor"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Suggeriments"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Fes una enquesta i ajuda\'ns a millorar"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"No hi ha cap enquesta disponible"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Envia suggeriments"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Aplicacions baixades"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Experimental"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Marques de funcions"</string>
@@ -4367,8 +4374,7 @@
     <string name="disconnected" msgid="3469373726996129247">"No connectat"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"No connectat"</string>
     <string name="apps_summary" msgid="4007416751775414252">"S\'han instal·lat <xliff:g id="COUNT">%1$d</xliff:g> aplicacions"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> utilitzat - <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> lliures"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Tema fosc, cos de font, brillantor"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Ús mitjà de memòria: <xliff:g id="USED_MEMORY">%1$s</xliff:g> de <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Sessió iniciada com a <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4437,8 +4443,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Ús de dades Ethernet"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"Ethernet <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> de dades mòbils"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> de dades Wi-Fi"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> de dades Ethernet"</string>
@@ -5013,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"connectivitat per satèl·lit"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"missatges per satèl·lit"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"L\'ús de dades s\'inclou amb el teu compte"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Aplicacions admeses al telèfon"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"mostra totes les aplicacions"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Aplicacions admeses al telèfon"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Noms de punts d\'accés"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"No està disponible quan està connectat a <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5186,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Informació de les teves polítiques professionals"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Configuració gestionada per l\'administrador de TI"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Inicia amb pàgines de 16 kB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Inicia amb un nucli compatible amb pàgines de 16 kB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Canvia del mode de 4 kB al mode de 16 kB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Estàs en mode independent de la pàgina executant un nucli de 4 kB i canviaràs al mode de 16 kB. No es pot garantir la integritat del programari en aquest mode, i les dades que estiguin emmagatzemades al dispositiu mentre el bootloader està desbloquejat poden estar en perill. Aquesta acció reiniciarà el dispositiu. Com que es desactivaran algunes funcions en aquests modes, és possible que algunes aplicacions no funcionin. Per fer que el dispositiu torni al mode de producció, hauràs de tornar al mode de 4 kB i, a continuació, bloquejar el bootloader, que restablirà les dades de fàbrica del dispositiu. Quan el dispositiu s\'iniciï a Android correctament, desactiva el desbloqueig OEM a Opcions per a desenvolupadors."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Canvia del mode de 16 kB al mode de 4 kB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Estàs en mode independent de la pàgina executant un nucli de 16 kB i canviaràs al mode de 4 kB. No es pot garantir la integritat del programari en aquest mode, i les dades que estiguin emmagatzemades al dispositiu mentre el bootloader està desbloquejat poden estar en perill. Aquesta acció reiniciarà el dispositiu. Com que es desactivaran algunes funcions en aquests modes, és possible que algunes aplicacions no funcionin. Per fer que el dispositiu torni al mode de producció, hauràs de tornar a bloquejar el bootloader, que restablirà les dades de fàbrica del dispositiu. Quan el dispositiu s\'iniciï a Android correctament, desactiva el desbloqueig OEM a Opcions per a desenvolupadors."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"No s\'ha pogut actualitzar el nucli a un compatible amb pàgines de 16 kB."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"S\'està aplicant el canvi"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Vols reformatar el dispositiu a ext4? (necessari per al mode de 16 kB)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"La partició de dades d\'aquest dispositiu s\'ha de convertir al format ext4 abans d\'utilitzar l\'opció per a desenvolupadors de 16 kB. No es pot garantir la integritat del programari en aquest mode, i les dades que estiguin emmagatzemades al dispositiu mentre el bootloader està desbloquejat poden estar en perill. Per activar l\'opció de 16 kB, caldrà que el dispositiu es reiniciï una vegada més. Quan estiguis en aquest mode, podràs alternar entre el mode de 4 kB i el mode de 16 kB amb un sol reinici. Com que es desactivaran algunes funcions en aquests modes, és possible que algunes aplicacions no funcionin. Per fer que el dispositiu torni al mode de producció, hauràs de tornar al mode de 4 kB i, a continuació, bloquejar el bootloader, que restablirà les dades de fàbrica del dispositiu. Quan el dispositiu s\'iniciï a Android correctament, desactiva el desbloqueig OEM a Opcions per a desenvolupadors. Es netejaran les dades del dispositiu i el sistema de fitxers es canviarà al format ext4 després de la confirmació. Quan es completi aquesta acció, torna i activa el mode de 16 kB de nou."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Esborra totes les dades"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"No s\'ha pogut canviar el format a ext4 ni netejar-ne la partició de dades."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Es requereix el desbloqueig del bootloader"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Aquest dispositiu ha de tenir el bootloader desbloquejat abans d\'utilitzar l\'opció per a desenvolupadors de 16 kB. No es pot garantir la integritat del programari en aquest mode, i les dades que estiguin emmagatzemades al dispositiu mentre el bootloader està desbloquejat poden estar en perill. En activar el mode de 16 kB, es netejaran totes les dades d\'usuari i opcions de configuració. Quan s\'hagi desbloquejat el bootloader, caldrà que el dispositiu es reiniciï dues vegades per activar l\'opció de 16 kB. Quan estiguis en aquest mode, podràs alternar entre el mode de 4 kB i el mode de 16 kB amb un sol reinici. Com que es desactivaran algunes funcions en aquests modes, és possible que algunes aplicacions no funcionin. Per fer que el dispositiu torni al mode de producció, hauràs de tornar al mode de 4 kB i, a continuació, bloquejar l\'OEM o el bootloader, que restablirà les dades de fàbrica del dispositiu. Desbloqueja el bootloader i torna-ho a provar. Pots consultar les instruccions per fer-ho a &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"S\'està utilitzant el mode independent de la pàgina de 4 kB"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Estàs utilitzant l\'opció de 4 kB del mode independent de la pàgina. No es pot garantir la integritat del programari en aquest mode, i les dades que estiguin emmagatzemades al dispositiu mentre el bootloader està desbloquejat poden estar en perill. Com que es desactivaran algunes funcions en aquests modes, és possible que algunes aplicacions no funcionin. Per tornar a entrar al mode de producció, has de bloquejar el bootloader del dispositiu. Toca per obtenir més informació."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Estàs utilitzant l\'opció de 4 kB del mode independent de la pàgina. No es pot garantir la integritat del programari en aquest mode, i les dades que estiguin emmagatzemades al dispositiu mentre el bootloader està desbloquejat poden estar en perill. Com que es desactivaran algunes funcions en aquests modes, és possible que algunes aplicacions no funcionin. Per tornar a entrar al mode de producció, has de bloquejar el bootloader del dispositiu. Aquesta acció tornarà a restablir les dades de fàbrica del dispositiu i en restaurarà la configuració de producció. Quan el dispositiu s\'iniciï a Android correctament, desactiva el desbloqueig OEM a Opcions per a desenvolupadors. Si el dispositiu no es pot iniciar a Android o és inestable, torna a instal·lar-hi les darreres imatges de fàbrica des de &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; o utilitza &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; i selecciona Neteja el dispositiu, Bloqueja el bootloader i Força la instal·lació de totes les particions."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"S\'està utilitzant el mode independent de la pàgina de 16 kB"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Estàs utilitzant l\'opció de 16 kB del mode independent de la pàgina. No es pot garantir la integritat del programari en aquest mode, i les dades que estiguin emmagatzemades al dispositiu mentre el bootloader està desbloquejat poden estar en perill. Com que es desactivaran algunes funcions en aquests modes, és possible que algunes aplicacions no funcionin. Per entrar al mode de producció de nou, has de tornar al mode de 4 kB i, a continuació, bloquejar el bootloader del dispositiu. Toca per obtenir més informació."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Estàs utilitzant l\'opció de 16 kB del mode independent de la pàgina. No es pot garantir la integritat del programari en aquest mode, i les dades que estiguin emmagatzemades al dispositiu mentre el bootloader està desbloquejat poden estar en perill. Com que es desactivaran algunes funcions en aquests modes, és possible que algunes aplicacions no funcionin. Per entrar al mode de producció de nou, has de tornar al mode de 4 kB i, a continuació, bloquejar el bootloader del dispositiu. Aquesta acció tornarà a restablir les dades de fàbrica del dispositiu i en restaurarà la configuració de producció. Quan el dispositiu s\'iniciï a Android correctament, desactiva el desbloqueig OEM a Opcions per a desenvolupadors. Si el dispositiu no es pot iniciar a Android o és inestable, torna a instal·lar-hi les darreres imatges de fàbrica des de &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; o utilitza &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; i selecciona Neteja el dispositiu, Bloqueja el bootloader i Força la instal·lació de totes les particions."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Mode independent de la pàgina de 16 kB"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Més informació"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Executa l\'aplicació amb el mode de compatibilitat amb la mida de la pàgina"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"L\'aplicació s\'executarà en el mode de compatibilitat amb la mida de la pàgina en el dispositiu de 16 kB quan s\'hagi activat."</string>
@@ -5615,8 +5634,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Desactiva la compartició d\'àudio"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Per vincular un dispositiu nou, primer desactiva la compartició d\'àudio."</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Desactiva"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"Compartir l\'àudio amb <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Connecta\'t a un flux d\'LE Audio"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Fluxos d\'àudio a prop"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"Fluxos d\'àudio"</string>
@@ -5646,12 +5664,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Reproducció en pausa"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Atura l\'escolta"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Connecta auriculars compatibles"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Desactiva TalkBack temporalment"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"TalkBack no es pot utilitzar quan s\'escolta un flux d\'àudio. Desactiva TalkBack per començar a escoltar."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Desactiva"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Connecta un dispositiu"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Detalls del flux d\'àudio"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Codi QR del flux d\'àudio"</string>

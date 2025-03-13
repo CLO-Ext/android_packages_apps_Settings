@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"ਮੁਅੱਤਲ ਕੀਤਾ"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"ਅਣਪਛਾਤਾ"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"ਪੂਰਵ-ਝਲਕ"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"ਪਿਛਲੀ ਪੂਰਵ-ਝਲਕ"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"ਅਗਲੀ ਪੂਰਵ-ਝਲਕ"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR ਕੋਡ"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"ਛੋਟਾ ਕਰੋ"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"ਵੱਡਾ ਕਰੋ"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"ਆਡੀਓ ਆਊਟਪੁੱਟ ਬਾਰੇ"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"ਤੁਹਾਡੇ ਸੁਣਨ ਵਾਲੇ ਡੀਵਾਈਸ ਜਾਂ ਫ਼ੋਨ ਦੇ ਸਪੀਕਰ \'ਤੇ ਧੁਨੀ ਭੇਜੋ"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"ਸੰਬੰਧਿਤ"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"ਰਿੰਗਟੋਨ ਅਤੇ ਅਲਾਰਮ"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"ਕਾਲਾਂ ਦੌਰਾਨ ਆਡੀਓ"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"ਮੀਡੀਆ ਅਤੇ ਸਿਸਟਮ ਦੀਆਂ ਧੁਨੀਆਂ"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"ਮਾਊਸ ਕੁੰਜੀਆਂ ਵਰਤੋ"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"ਪੁਆਇੰਟਰ ਨੂੰ ਕੰਟਰੋਲ ਕਰਨ ਲਈ ਆਪਣਾ ਕੀ-ਬੋਰਡ ਵਰਤੋ"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ਉਲਟ ਸਕ੍ਰੋਲਿੰਗ"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"ਤੁਹਾਡੇ ਵੱਲੋਂ ਹੇਠਾਂ ਵੱਲ ਸਕ੍ਰੋਲ ਕਰਨ \'ਤੇ ਸਮੱਗਰੀ ਉੱਪਰ ਵੱਲ ਜਾਵੇਗੀ"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"ਪੰਨੇ ਨੂੰ ਹੇਠਾਂ ਲਿਜਾਉਣ ਲਈ ਉੱਪਰ ਵੱਲ ਸਕ੍ਰੋਲ ਕਰੋ"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"ਮਾਊਸ ਦੇ ਪ੍ਰਾਇਮਰੀ ਬਟਨ ਨੂੰ ਸਵੈਪ ਕਰੋ"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"ਮਾਊਸ ਦੇ ਖੱਬੇ ਬਟਨ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਬਟਨ ਵਜੋਂ ਵਰਤੋ"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"ਕਰਸਰ ਐਕਸੈੱਲਰੇਸ਼ਨ"</string>
@@ -4364,8 +4372,7 @@
     <string name="disconnected" msgid="3469373726996129247">"ਕਨੈਕਟ ਨਹੀਂ ਹੈ"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"ਕਨੈਕਟ ਨਹੀਂ ਹੈ"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> ਐਪਾਂ ਸਥਾਪਤ ਹੋਈਆਂ"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> ਵਰਤੀ ਗਈ - <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> ਬਾਕੀ"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"ਗੂੜ੍ਹਾ ਥੀਮ, ਫ਼ੌਂਟ ਦਾ ਆਕਾਰ, ਚਮਕ"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> ਵਿੱਚੋਂ ਔਸਤ <xliff:g id="USED_MEMORY">%1$s</xliff:g> ਮੇਮੋਰੀ ਵਰਤੀ ਗਈ"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> ਵਜੋਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਗਿਆ"</string>
@@ -4434,8 +4441,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"ਈਥਰਨੈੱਟ ਡਾਟਾ ਵਰਤੋਂ"</string>
     <string name="wifi" msgid="2932584495223243842">"ਵਾਈ-ਫਾਈ"</string>
     <string name="ethernet" msgid="4665162609974492983">"ਈਥਰਨੈੱਟ"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"ਈਥਰਨੈੱਟ <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> ਮੋਬਾਈਲ ਡਾਟਾ"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> ਵਾਈ-ਫਾਈ ਡਾਟਾ"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> ਈਥਰਨੈੱਟ  ਡਾਟਾ"</string>
@@ -5180,27 +5186,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"ਤੁਹਾਡੀ ਕਾਰਜ ਨੀਤੀ ਸੰਬੰਧੀ ਜਾਣਕਾਰੀ"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"ਤੁਹਾਡੇ ਆਈ.ਟੀ. ਪ੍ਰਸ਼ਾਸਕ ਵੱਲੋਂ ਸੈਟਿੰਗਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"16KB ਦੇ ਪੰਨੇ ਦੇ ਆਕਾਰ ਨਾਲ ਬੂਟ ਕਰੋ"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"ਡੀਵਾਈਸ ਨੂੰ 16KB ਦੇ ਪੰਨੇ ਦੇ ਆਕਾਰ ਲਈ ਸਮਰਥਿਤ ਕਰਨਲ ਵਰਤ ਕੇ ਬੂਟ ਕਰੋ"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"4KB ਮੋਡ ਤੋਂ 16KB ਮੋਡ \'ਤੇ ਸਵਿੱਚ ਕਰੋ"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"ਤੁਸੀਂ 4KB ਕਰਨਲ \'ਤੇ ਚੱਲ ਰਹੇ ਪੇਜ-ਐਗਨੌਸਟਿਕ ਮੋਡ ਵਿੱਚ ਹੋ ਅਤੇ ਤੁਹਾਨੂੰ 16KB ਮੋਡ \'ਤੇ ਸਵਿੱਚ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ। ਇਸ ਮੋਡ ਵਿੱਚ ਸਾਫ਼ਟਵੇਅਰ ਅਖੰਡਤਾ ਦੀ ਗਰੰਟੀ ਨਹੀਂ ਦਿੱਤੀ ਜਾ ਸਕਦੀ ਅਤੇ ਬੂਟਲੋਡਰ ਦੇ ਅਣਲਾਕ ਰਹਿਣ ਦੌਰਾਨ ਫ਼ੋਨ ਵਿੱਚ ਸਟੋਰ ਕੀਤਾ ਡਾਟਾ ਖਤਰੇ ਵਿੱਚ ਰਹਿ ਸਕਦਾ ਹੈ। ਇਸ ਨਾਲ ਡੀਵਾਈਸ ਰੀਬੂਟ ਹੋ ਜਾਵੇਗਾ। ਇਨ੍ਹਾਂ ਮੋਡਾਂ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਹੋ ਜਾਣਗੀਆਂ, ਇਸ ਲਈ ਸ਼ਾਇਦ ਕੁਝ ਐਪਲੀਕੇਸ਼ਨਾਂ ਕੰਮ ਨਾ ਕਰਨ। ਡੀਵਾਈਸ ਨੂੰ ਪ੍ਰੋਡਕਸ਼ਨ ਮੋਡ \'ਤੇ ਵਾਪਸ ਲਿਜਾਉਣ ਲਈ, ਤੁਹਾਨੂੰ 4KB ਮੋਡ \'ਤੇ ਵਾਪਸ ਸਵਿੱਚ ਕਰ ਕੇ ਬੂਟਲੋਡਰ ਨੂੰ ਲਾਕ ਕਰਨਾ ਪਵੇਗਾ, ਜਿਸ ਨਾਲ ਡੀਵਾਈਸ ਫੈਕਟਰੀ ਰੀਸੈੱਟ ਹੋ ਜਾਵੇਗਾ। ਡੀਵਾਈਸ ਦੇ Android ਵਿੱਚ ਸਫਲਤਾਪੂਰਵਕ ਬੂਟ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਵਿਕਾਸਕਾਰ ਵਿਕਲਪ ਵਿੱਚ OEM ਅਣਲਾਕ ਨੂੰ ਬੰਦ ਕਰੋ।"</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"16KB ਮੋਡ ਤੋਂ 4KB ਮੋਡ \'ਤੇ ਸਵਿੱਚ ਕਰੋ"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"ਤੁਸੀਂ 16KB ਕਰਨਲ \'ਤੇ ਚੱਲ ਰਹੇ ਪੇਜ-ਐਗਨੌਸਟਿਕ ਮੋਡ ਵਿੱਚ ਹੋ ਅਤੇ ਤੁਹਾਨੂੰ 4KB ਮੋਡ \'ਤੇ ਸਵਿੱਚ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ। ਇਸ ਮੋਡ ਵਿੱਚ ਸਾਫ਼ਟਵੇਅਰ ਅਖੰਡਤਾ ਦੀ ਗਰੰਟੀ ਨਹੀਂ ਦਿੱਤੀ ਜਾ ਸਕਦੀ ਅਤੇ ਬੂਟਲੋਡਰ ਦੇ ਅਣਲਾਕ ਹੋਣ ਵੇਲੇ ਫ਼ੋਨ ਵਿੱਚ ਸਟੋਰ ਕੀਤਾ ਡਾਟਾ ਜੋਖਮ ਵਿੱਚ ਹੋ ਸਕਦਾ ਹੈ। ਇਸ ਨਾਲ ਡੀਵਾਈਸ ਰੀਬੂਟ ਹੋ ਜਾਵੇਗਾ। ਇਨ੍ਹਾਂ ਮੋਡਾਂ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਹੋ ਜਾਣਗੀਆਂ, ਇਸ ਲਈ ਸ਼ਾਇਦ ਕੁਝ ਐਪਲੀਕੇਸ਼ਨਾਂ ਕੰਮ ਨਾ ਕਰਨ। ਡੀਵਾਈਸ ਨੂੰ ਪ੍ਰੋਡਕਸ਼ਨ ਮੋਡ \'ਤੇ ਵਾਪਸ ਲਿਜਾਉਣ ਲਈ, ਤੁਹਾਨੂੰ ਬੂਟਲੋਡਰ ਨੂੰ ਲਾਕ ਕਰਨ ਦੀ ਲੋੜ ਪਵੇਗੀ, ਜਿਸ ਨਾਲ ਡੀਵਾਈਸ ਫੈਕਟਰੀ ਰੀਸੈੱਟ ਹੋ ਜਾਵੇਗਾ। ਡੀਵਾਈਸ ਦੇ Android ਵਿੱਚ ਸਫਲਤਾਪੂਰਵਕ ਬੂਟ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਵਿਕਾਸਕਾਰ ਚੋਣਾਂ ਵਿੱਚ OEM ਅਣਲਾਕ ਸੈਟਿੰਗ ਨੂੰ ਬੰਦ ਕਰੋ।"</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"ਕਰਨਲ ਨੂੰ 16KB ਪੰਨਿਆਂ ਦੇ ਅਨੁਰੂਪ ਕਰਨਲ ਨਾਲ ਅੱਪਡੇਟ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ।"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"ਤਬਦੀਲੀ ਨੂੰ ਲਾਗੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"ਕੀ ਡੀਵਾਈਸ ਦੇ ਡਾਟੇ ਨੂੰ ext4 \'ਤੇ ਮੁੜ-ਫਾਰਮੈਟ ਕਰਨਾ ਹੈ? (16KB ਮੋਡ ਲਈ ਲੋੜੀਂਦਾ ਹੈ)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"16KB ਵਿਕਾਸਕਾਰ ਵਿਕਲਪ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ, ਇਸ ਡੀਵਾਈਸ ਦੇ ਡਾਟੇ ਦੇ ਹਿੱਸੇ ਨੂੰ ext4 ਫਾਰਮੈਟ ਵਿੱਚ ਬਦਲਣ ਦੀ ਲੋੜ ਹੈ। ਇਸ ਮੋਡ ਵਿੱਚ ਸਾਫ਼ਟਵੇਅਰ ਅਖੰਡਤਾ ਦੀ ਗਰੰਟੀ ਨਹੀਂ ਦਿੱਤੀ ਜਾ ਸਕਦੀ ਅਤੇ ਬੂਟਲੋਡਰ ਦੇ ਅਣਲਾਕ ਰਹਿਣ ਦੌਰਾਨ ਫ਼ੋਨ ਵਿੱਚ ਸਟੋਰ ਕੀਤਾ ਡਾਟਾ ਖਤਰੇ ਵਿੱਚ ਰਹਿ ਸਕਦਾ ਹੈ। ਇਸ ਤੋਂ ਬਾਅਦ, 16KB ਵਿਕਲਪ ਦੀ ਕਿਰਿਆਸ਼ੀਲਤਾ ਲਈ ਇੱਕ ਵਾਰ ਹੋਰ ਰੀਬੂਟ ਕਰਨ ਦੀ ਲੋੜ ਪਵੇਗੀ। ਇਸ ਮੋਡ ਵਿੱਚ ਆਉਣ ਤੋਂ ਬਾਅਦ, ਤੁਸੀਂ ਡੀਵਾਈਸ ਨੂੰ ਇੱਕ ਵਾਰ ਰੀਬੂਟ ਕਰ ਕੇ 4KB ਅਤੇ 16KB ਮੋਡ ਵਿਚਕਾਰ ਸਵਿੱਚ ਕਰ ਸਕਦੇ ਹੋ। ਇਨ੍ਹਾਂ ਮੋਡਾਂ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਹੋ ਜਾਣਗੀਆਂ, ਇਸ ਲਈ ਸ਼ਾਇਦ ਕੁਝ ਐਪਲੀਕੇਸ਼ਨਾਂ ਕੰਮ ਨਾ ਕਰਨ। ਡੀਵਾਈਸ ਨੂੰ ਪ੍ਰੋਡਕਸ਼ਨ ਮੋਡ \'ਤੇ ਵਾਪਸ ਲਿਜਾਉਣ ਲਈ, ਤੁਹਾਨੂੰ 4KB ਮੋਡ \'ਤੇ ਵਾਪਸ ਸਵਿੱਚ ਕਰ ਕੇ ਬੂਟਲੋਡਰ ਨੂੰ ਲਾਕ ਕਰਨ ਦੀ ਲੋੜ ਪਵੇਗੀ, ਜਿਸ ਨਾਲ ਡੀਵਾਈਸ ਫੈਕਟਰੀ ਰੀਸੈੱਟ ਹੋ ਜਾਵੇਗਾ। ਡੀਵਾਈਸ ਦੇ Android ਵਿੱਚ ਸਫਲਤਾਪੂਰਵਕ ਬੂਟ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਵਿਕਾਸਕਾਰ ਵਿਕਲਪ ਵਿੱਚ OEM ਅਣਲਾਕ ਨੂੰ ਬੰਦ ਕਰੋ। ਡੀਵਾਈਸ ਸਾਫ਼ ਹੋ ਜਾਵੇਗਾ ਅਤੇ ਤਸਦੀਕ ਤੋਂ ਬਾਅਦ ਫ਼ਾਈਲਸਿਸਟਮ ext4 ਦੇ ਫਾਰਮੈਟ ਵਿੱਚ ਬਦਲ ਜਾਵੇਗਾ। ਇਸਦੇ ਪੂਰਾ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਕਿਰਪਾ ਕਰਕੇ 16KB ਮੋਡ ਨੂੰ ਦੁਬਾਰਾ ਚਾਲੂ ਕਰਨ ਲਈ ਵਾਪਸ ਆਓ।"</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"ਸਾਰਾ ਡਾਟਾ ਮਿਟਾਓ"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"ਡਾਟੇ ਦੇ ਹਿੱਸੇ ਨੂੰ ext4 ਵਿੱਚ ਮੁੜ-ਫਾਰਮੈਟ ਕਰਨਾ ਅਤੇ ਸਾਫ਼ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ।"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"ਬੂਟਲੋਡਰ ਅਣਲਾਕ ਲੋੜੀਂਦਾ ਹੈ"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"16KB ਵਿਕਾਸਕਾਰ ਵਿਕਲਪ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ, ਇਸ ਡੀਵਾਈਸ ਲਈ ਬੂਟਲੋਡਰ ਅਣਲਾਕ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਇਸ ਮੋਡ ਵਿੱਚ ਸਾਫ਼ਟਵੇਅਰ ਅਖੰਡਤਾ ਦੀ ਗਰੰਟੀ ਨਹੀਂ ਦਿੱਤੀ ਜਾ ਸਕਦੀ ਅਤੇ ਬੂਟਲੋਡਰ ਦੇ ਅਣਲਾਕ ਰਹਿਣ ਦੌਰਾਨ ਫ਼ੋਨ ਵਿੱਚ ਸਟੋਰ ਕੀਤਾ ਡਾਟਾ ਖਤਰੇ ਵਿੱਚ ਰਹਿ ਸਕਦਾ ਹੈ। 16KB ਮੋਡ ਦੇ ਕਿਰਿਆਸ਼ੀਲ ਹੋਣ \'ਤੇ, ਸਾਰਾ ਵਰਤੋਂਕਾਰ ਡਾਟਾ ਅਤੇ ਸੈਟਿੰਗਾਂ ਸਾਫ਼ ਹੋ ਜਾਣਗੀਆਂ। ਬੂਟਲੋਡਰ ਅਣਲਾਕ ਹੋਣ ਤੋਂ ਬਾਅਦ, 16KB ਵਿਕਲਪ ਦੀ ਕਿਰਿਆਸ਼ੀਲਤਾ ਲਈ ਡੀਵਾਈਸ ਨੂੰ ਦੋ ਵਾਰ ਰੀਬੂਟ ਕਰਨ ਦੀ ਲੋੜ ਪਵੇਗੀ। ਇਸ ਮੋਡ ਵਿੱਚ ਆਉਣ ਤੋਂ ਬਾਅਦ, ਤੁਸੀਂ ਡੀਵਾਈਸ ਨੂੰ ਇੱਕ ਵਾਰ ਰੀਬੂਟ ਕਰ ਕੇ 4KB ਅਤੇ 16KB ਮੋਡ ਵਿਚਕਾਰ ਸਵਿੱਚ ਕਰ ਸਕਦੇ ਹੋ। ਇਨ੍ਹਾਂ ਮੋਡਾਂ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਹੋ ਜਾਣਗੀਆਂ, ਇਸ ਲਈ ਸ਼ਾਇਦ ਕੁਝ ਐਪਲੀਕੇਸ਼ਨਾਂ ਕੰਮ ਨਾ ਕਰਨ। ਡੀਵਾਈਸ ਨੂੰ ਪ੍ਰੋਡਕਸ਼ਨ ਮੋਡ \'ਤੇ ਵਾਪਸ ਲਿਜਾਉਣ ਲਈ, ਤੁਹਾਨੂੰ 4KB ਮੋਡ \'ਤੇ ਵਾਪਸ ਸਵਿੱਚ ਕਰਨ ਦੀ ਲੋੜ ਪਵੇਗੀ ਅਤੇ ਫਿਰ OEM/ਬੂਟਲੋਡਰ ਡੀਵਾਈਸ ਨੂੰ ਲਾਕ ਕਰੇਗਾ (ਜਿਸ ਨਾਲ ਫੈਕਟਰੀ ਰੀਸੈੱਟ ਹੋ ਜਾਵੇਗਾ)। ਕਿਰਪਾ ਕਰਕੇ ਬੂਟਲੋਡਰ ਨੂੰ ਅਣਲਾਕ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਤੁਸੀਂ &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt; \'ਤੇ ਜਾ ਕੇ ਇਸਨੂੰ ਕਰਨ ਦੇ ਤਰੀਕੇ ਸੰਬੰਧੀ ਹਿਦਾਇਤਾਂ ਦੇਖ ਸਕਦੇ ਹੋ"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"4KB ਪੇਜ-ਐਗਨੌਸਟਿਕ ਮੋਡ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"ਤੁਸੀਂ ਪੇਜ-ਐਗਨੌਸਟਿਕ ਮੋਡ ਦੇ 4KB ਮੋਡ ਵਿੱਚ ਹੋ। ਇਸ ਮੋਡ ਵਿੱਚ ਸਾਫ਼ਟਵੇਅਰ ਅਖੰਡਤਾ ਦੀ ਗਰੰਟੀ ਨਹੀਂ ਦਿੱਤੀ ਜਾ ਸਕਦੀ ਅਤੇ ਬੂਟਲੋਡਰ ਦੇ ਅਣਲਾਕ ਰਹਿਣ ਦੌਰਾਨ ਫ਼ੋਨ ਵਿੱਚ ਸਟੋਰ ਕੀਤਾ ਡਾਟਾ ਖਤਰੇ ਵਿੱਚ ਰਹਿ ਸਕਦਾ ਹੈ। ਇਨ੍ਹਾਂ ਮੋਡਾਂ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਹੋ ਜਾਣਗੀਆਂ, ਇਸ ਲਈ ਸ਼ਾਇਦ ਕੁਝ ਐਪਲੀਕੇਸ਼ਨਾਂ ਕੰਮ ਨਾ ਕਰਨ। ਪ੍ਰੋਡਕਸ਼ਨ ਮੋਡ ਵਿੱਚ ਮੁੜ-ਦਾਖਲ ਹੋਣ ਲਈ, ਡੀਵਾਈਸ ਦੇ ਬੂਟਲੋਡਰ ਨੂੰ ਲਾਕ ਕਰਨਾ ਜ਼ਰੂਰੀ ਹੈ। ਹੋਰ ਪੜ੍ਹਨ ਲਈ ਟੈਪ ਕਰੋ।"</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"ਤੁਸੀਂ ਪੇਜ-ਐਗਨੌਸਟਿਕ ਮੋਡ ਦੇ 4KB ਮੋਡ ਵਿੱਚ ਹੋ। ਇਸ ਮੋਡ ਵਿੱਚ ਸਾਫ਼ਟਵੇਅਰ ਅਖੰਡਤਾ ਦੀ ਗਰੰਟੀ ਨਹੀਂ ਦਿੱਤੀ ਜਾ ਸਕਦੀ ਅਤੇ ਬੂਟਲੋਡਰ ਦੇ ਅਣਲਾਕ ਰਹਿਣ ਦੌਰਾਨ ਫ਼ੋਨ ਵਿੱਚ ਸਟੋਰ ਕੀਤਾ ਡਾਟਾ ਖਤਰੇ ਵਿੱਚ ਰਹਿ ਸਕਦਾ ਹੈ। ਇਨ੍ਹਾਂ ਮੋਡਾਂ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਹੋ ਜਾਣਗੀਆਂ, ਇਸ ਲਈ ਸ਼ਾਇਦ ਕੁਝ ਐਪਲੀਕੇਸ਼ਨਾਂ ਕੰਮ ਨਾ ਕਰਨ। ਪ੍ਰੋਡਕਸ਼ਨ ਮੋਡ ਵਿੱਚ ਮੁੜ-ਦਾਖਲ ਹੋਣ ਲਈ, ਡੀਵਾਈਸ ਦੇ ਬੂਟਲੋਡਰ ਨੂੰ ਲਾਕ ਕਰਨਾ ਜ਼ਰੂਰੀ ਹੈ। ਇਸ ਨਾਲ ਡੀਵਾਈਸ ਦੁਬਾਰਾ ਫੈਕਟਰੀ ਰੀਸੈੱਟ ਹੋ ਕੇ ਪ੍ਰੋਡਕਸ਼ਨ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਮੁੜ-ਬਹਾਲ ਹੋ ਜਾਵੇਗਾ। ਡੀਵਾਈਸ ਦੇ Android ਵਿੱਚ ਸਫਲਤਾਪੂਰਵਕ ਬੂਟ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਵਿਕਾਸਕਾਰ ਵਿਕਲਪ ਵਿੱਚ OEM ਅਣਲਾਕ ਨੂੰ ਬੰਦ ਕਰੋ। ਜੇ ਡੀਵਾਈਸ Android ਵਿੱਚ ਬੂਟ ਹੋਣ ਵਿੱਚ ਅਸਫਲ ਰਹਿੰਦਾ ਹੈ ਜਾਂ ਅਸਥਿਰ ਹੈ, ਤਾਂ &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; ਤੋਂ ਨਵੀਆਂ ਫੈਕਟਰੀ ਇਮੇਜਾਂ ਨਾਲ ਡੀਵਾਈਸ ਨੂੰ ਮੁੜ-ਫਲੈਸ਼ ਕਰੋ ਜਾਂ &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; ਵਰਤੋ ਅਤੇ \'ਡੀਵਾਈਸ ਸਾਫ਼ ਕਰੋ\', \'ਬੂਟਲੋਡਰ ਲਾਕ ਕਰੋ\' ਅਤੇ \'ਸਾਰੇ ਹਿੱਸਿਆਂ ਨੂੰ ਜ਼ਬਰਦਸਤੀ ਫਲੈਸ਼ ਕਰੋ\' ਨੂੰ ਚੁਣੋ।"</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"16KB ਪੇਜ-ਐਗਨੌਸਟਿਕ ਮੋਡ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"ਤੁਸੀਂ ਪੇਜ-ਐਗਨੌਸਟਿਕ ਮੋਡ ਦੇ 16KB ਮੋਡ ਵਿੱਚ ਹੋ। ਇਸ ਮੋਡ ਵਿੱਚ ਸਾਫ਼ਟਵੇਅਰ ਅਖੰਡਤਾ ਦੀ ਗਰੰਟੀ ਨਹੀਂ ਦਿੱਤੀ ਜਾ ਸਕਦੀ ਅਤੇ ਬੂਟਲੋਡਰ ਦੇ ਅਣਲਾਕ ਹੋਣ ਵੇਲੇ ਫ਼ੋਨ ਵਿੱਚ ਸਟੋਰ ਕੀਤਾ ਡਾਟਾ ਜੋਖਮ ਵਿੱਚ ਹੋ ਸਕਦਾ ਹੈ। ਇਨ੍ਹਾਂ ਮੋਡਾਂ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਹੋ ਜਾਣਗੀਆਂ, ਇਸ ਲਈ ਸ਼ਾਇਦ ਕੁਝ ਐਪਲੀਕੇਸ਼ਨਾਂ ਕੰਮ ਨਾ ਕਰਨ। ਪ੍ਰੋਡਕਸ਼ਨ ਮੋਡ ਵਿੱਚ ਮੁੜ-ਦਾਖਲ ਹੋਣ ਲਈ, ਤੁਹਾਡਾ 4KB ਮੋਡ \'ਤੇ ਵਾਪਸ ਸਵਿੱਚ ਕਰ ਕੇ ਡੀਵਾਈਸ ਦੇ ਬੂਟਲੋਡਰ ਨੂੰ ਲਾਕ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ। ਹੋਰ ਪੜ੍ਹਨ ਲਈ ਟੈਪ ਕਰੋ।"</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"ਤੁਸੀਂ ਪੇਜ-ਐਗਨੌਸਟਿਕ ਮੋਡ ਦੇ 16KB ਮੋਡ ਵਿੱਚ ਹੋ। ਇਸ ਮੋਡ ਵਿੱਚ ਸਾਫ਼ਟਵੇਅਰ ਅਖੰਡਤਾ ਦੀ ਗਰੰਟੀ ਨਹੀਂ ਦਿੱਤੀ ਜਾ ਸਕਦੀ ਅਤੇ ਬੂਟਲੋਡਰ ਦੇ ਅਣਲਾਕ ਹੋਣ ਵੇਲੇ ਫ਼ੋਨ ਵਿੱਚ ਸਟੋਰ ਕੀਤਾ ਡਾਟਾ ਜੋਖਮ ਵਿੱਚ ਹੋ ਸਕਦਾ ਹੈ। ਇਨ੍ਹਾਂ ਮੋਡਾਂ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਹੋ ਜਾਣਗੀਆਂ, ਇਸ ਲਈ ਸ਼ਾਇਦ ਕੁਝ ਐਪਲੀਕੇਸ਼ਨਾਂ ਕੰਮ ਨਾ ਕਰਨ। ਪ੍ਰੋਡਕਸ਼ਨ ਮੋਡ ਵਿੱਚ ਮੁੜ-ਦਾਖਲ ਹੋਣ ਲਈ, ਤੁਹਾਡਾ 4KB ਮੋਡ \'ਤੇ ਵਾਪਸ ਸਵਿੱਚ ਕਰ ਕੇ ਡੀਵਾਈਸ ਦੇ ਬੂਟਲੋਡਰ ਨੂੰ ਲਾਕ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ। ਇਸ ਨਾਲ ਡੀਵਾਈਸ ਦੁਬਾਰਾ ਫੈਕਟਰੀ ਰੀਸੈੱਟ ਹੋ ਕੇ ਪ੍ਰੋਡਕਸ਼ਨ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਮੁੜ-ਬਹਾਲ ਹੋ ਜਾਵੇਗਾ। ਡੀਵਾਈਸ ਦੇ Android ਵਿੱਚ ਸਫਲਤਾਪੂਰਵਕ ਬੂਟ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਵਿਕਾਸਕਾਰ ਵਿਕਲਪਾਂ ਵਿੱਚ OEM ਅਣਲਾਕ ਸੈਟਿੰਗ ਨੂੰ ਬੰਦ ਕਰੋ। ਜੇ ਡੀਵਾਈਸ Android ਵਿੱਚ ਬੂਟ ਹੋਣ ਵਿੱਚ ਅਸਫਲ ਰਹਿੰਦਾ ਹੈ ਜਾਂ ਅਸਥਿਰ ਹੈ, ਤਾਂ &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; ਤੋਂ ਨਵੇਂ ਫੈਕਟਰੀ ਪ੍ਰਤਿਬਿੰਬਾਂ ਨਾਲ ਡੀਵਾਈਸ ਨੂੰ ਮੁੜ-ਫਲੈਸ਼ ਕਰੋ ਜਾਂ &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; ਵਰਤੋ ਅਤੇ \'ਡੀਵਾਈਸ ਸਾਫ਼ ਕਰੋ\', \'ਬੂਟਲੋਡਰ ਨੂੰ ਲਾਕ ਕਰੋ\' ਅਤੇ \'ਸਾਰਿਆਂ ਹਿੱਸਿਆਂ ਨੂੰ ਜ਼ਬਰਦਸਤੀ ਫਲੈਸ਼ ਕਰੋ\'।"</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"16KB ਪੇਜ-ਐਗਨੌਸਟਿਕ ਮੋਡ"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"ਹੋਰ ਪੜ੍ਹੋ"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"ਐਪ ਨੂੰ ਪੰਨਾ ਆਕਾਰ ਅਨੁਰੂਪਤਾ ਮੋਡ ਵਿੱਚ ਚਲਾਓ"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"ਟੌਗਲ ਹੋਣ \'ਤੇ, ਐਪ 16 KB ਵਾਲੇ ਡੀਵਾਈਸ \'ਤੇ ਪੰਨਾ ਆਕਾਰ ਅਨੁਰੂਪਤਾ ਮੋਡ ਵਿੱਚ ਚਲਾਈ ਜਾਵੇਗੀ।"</string>
@@ -5609,8 +5632,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"ਆਡੀਓ ਸਾਂਝਾਕਰਨ ਬੰਦ ਕਰੋ"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"ਕਿਸੇ ਨਵੇਂ ਡੀਵਾਈਸ ਨੂੰ ਜੋੜਾਬੱਧ ਕਰਨ ਲਈ, ਪਹਿਲਾਂ ਆਡੀਓ ਸਾਂਝਾਕਰਨ ਬੰਦ ਕਰੋ।"</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"ਬੰਦ ਕਰੋ"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"ਆਡੀਓ ਨੂੰ <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"LE ਆਡੀਓ ਸਟ੍ਰੀਮ ਨਾਲ ਕਨੈਕਟ ਕਰੋ"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"ਨਜ਼ਦੀਕੀ ਆਡੀਓ ਸਟ੍ਰੀਮ"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"ਆਡੀਓ ਸਟ੍ਰੀਮ"</string>

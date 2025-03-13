@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Прыпынена"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Невядома"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Перадпрагляд"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Папярэдні перадпрагляд"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Наступны перадпрагляд"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR-код"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Паменшыць"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Павялічыць"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Пра аўдыявыхад"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Выводзіць гук на слыхавы апарат або дынамік тэлефона"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Звязанае"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Рынгтон і будзільнікі"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Гук падчас выклікаў"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Гукі мультымедыя і сістэмы"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Выкарыстоўваць клавішы мышы"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Выкарыстоўвайце клавіятуру, каб кіраваць паказальнікам"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Гартанне ў адваротны бок"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Пры гартанні ўніз змесціва рухаецца ўверх"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Калі прагортваць уверх, старонка будзе перамяшчацца ўніз"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Змяніць асноўную кнопку мышы"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Прызначце для левай кнопкі мышы функцыі правай"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Паскарэнне курсора"</string>
@@ -2386,7 +2394,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Высокая кантраснасць тэксту"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"Змяняйце колер тэксту на чорны ці белы, каб павысіць яго кантраст з фонам."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Палепшыць кантраснасць тэксту"</string>
-    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> замяніў <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>. Каб уключыць, перайдзіце ў <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"Замест параметра \"<xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>\" зараз даступны \"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g>\". Каб уключыць, перайдзіце ў <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Перайсці ў <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Дадаць контур тэксту"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Дадаць да тэксту чорны ці белы фон, каб павялічыць кантрастнасць"</string>
@@ -4364,8 +4372,7 @@
     <string name="disconnected" msgid="3469373726996129247">"Падключэння няма"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Падключэння няма"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Усталявана праграм: <xliff:g id="COUNT">%1$d</xliff:g>"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"Выкарыстана: <xliff:g id="PERCENTAGE">%1$s</xliff:g>. Вольна: <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>."</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Цёмная тэма, памер шрыфту, яркасць"</string>
     <string name="memory_summary" msgid="8221954450951651735">"У сярэднім <xliff:g id="USED_MEMORY">%1$s</xliff:g> з <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> памяці выкарыстана"</string>
     <string name="users_summary" msgid="8473589474976307510">"Вы ўвайшлі як <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4434,8 +4441,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Выкарыстанне даных Ethernet"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"Ethernet <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> мабільнага трафіку"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> трафіку Wi-Fi"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> трафіку Ethernet"</string>
@@ -5180,27 +5186,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Інфармацыя пра вашу працоўную палітыку"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Наладамі кіруе ваш ІТ-адміністратар"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"Графічны працэсар"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Загрузіць са старонкамі ў 16 КБ"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Загрузіць прыладу з ядром для старонак у 16 КБ"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Пераключэнне з рэжыму 4 КБ на рэжым 16 КБ"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"У вас уключаны рэжым, які не залежыць ад памеру старонкі памяці і працуе з ядром для старонак памяці памерам 4 КБ, і вы пераключаецеся на рэжым з ядром для старонак памяці памерам 16 КБ. У гэтым рэжыме цэласнасць праграмнага забеспячэння не гарантуецца і ёсць рызыка страціць даныя, якія захоўваюцца на тэлефоне пры разблакіраваным загрузчыку. Прылада будзе перазагружана. Асобныя функцыі будуць адключаны ў гэтых рэжымах, з-за чаго некаторыя праграмы могуць не працаваць. Каб вярнуць прыладу ў эксплуатацыйны рэжым, неабходна будзе пераключыцца ў рэжым 4 КБ і заблакіраваць загрузчык, што прывядзе да скіду прылады да заводскіх налад. Пасля загрузкі Android выключыце разблакіроўку OEM у Параметрах распрацоўшчыка."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Пераключэнне з рэжыму 16 КБ на рэжым 4 КБ"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"У вас уключаны рэжым, які не залежыць ад памеру старонкі памяці і працуе з ядром для старонак памяці памерам 16 КБ, і вы пераключаецеся на рэжым з ядром для старонак памяці памерам 4 КБ. У гэтым рэжыме цэласнасць праграмнага забеспячэння не гарантуецца. Існуе рызыка страціць даныя, якія былі захаваны на тэлефоне, калі загрузчык быў разблакіраваны. Прылада будзе перазагружана. Асобныя функцыі будуць адключаны ў гэтых рэжымах, з-за чаго некаторыя праграмы могуць не працаваць. Каб вярнуць прыладу ў эксплуатацыйны рэжым, вам трэба заблакіраваць загрузчык, што прывядзе да скіду прылады да заводскіх налад. Пасля загрузкі Android на прыладзе выключыце разблакіроўку OEM у Параметрах распрацоўшчыка."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Не ўдалося змяніць ядро на сумяшчальнае са старонкамі памерам 16 КБ."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Прымяняецца змяненне"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Перафармаціраваць прыладу ў ext4? (Патрабуецца для рэжыму 16 КБ)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Каб выкарыстоўваць рэжым 16 КБ у параметрах распрацоўшчыка, раздзел даных на гэтай прыладзе трэба пераўтварыць у ext4. У гэтым рэжыме цэласнасць праграмнага забеспячэння не гарантуецца. Існуе рызыка страціць даныя, якія былі захаваны на тэлефоне, калі загрузчык быў разблакіраваны. Для ўключэння параметра 16 КБ патрабуецца паўторная перазагрузка. Пасля таго як вы ўключыце гэты рэжым, пераключэнне паміж рэжымамі 4 КБ і 16 КБ будзе суправаджацца толькі адной перазагрузкай. Асобныя функцыі будуць адключаны ў гэтых рэжымах, з-за чаго некаторыя праграмы могуць не працаваць. Каб вярнуць прыладу ў эксплуатацыйны рэжым, вам трэба пераключыцца ў рэжым 4 КБ і заблакіраваць загрузчык, што прывядзе да скіду прылады да заводскіх налад. Пасля загрузкі Android на прыладзе выключыце разблакіроўку OEM у Параметрах распрацоўшчыка. Усе даныя будуць выдалены з прылады, а файлавая сістэма пасля пацвярджэння будзе зменена на ext4. Пасля завяршэння вярніцеся, каб зноў уключыць рэжым 16 КБ."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Сцерці ўсе даныя"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Не ўдалося ачысціць раздзел даных і перафармаціраваць яго ў ext4."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Патрабуецца разблакіроўка загрузчыка"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Каб выкарыстоўваць рэжым 16 КБ у параметрах распрацоўшчыка, трэба разблакіраваць загрузчык на прыладзе. У гэтым рэжыме цэласнасць праграмнага забеспячэння не гарантуецца. Існуе рызыка страціць даныя, якія былі захаваны на тэлефоне, калі загрузчык быў разблакіраваны. Калі рэжым 16 КБ уключыцца, усе даныя і налады карыстальніка будуць выдалены. Калі загрузчык будзе разблакіраваны, для ўключэння параметра 16 КБ спатрэбяцца дзве перазагрузкі. Пасля таго як вы ўключыце гэты рэжым, пераключэнне паміж рэжымамі 4 КБ і 16 КБ будзе суправаджацца толькі адной перазагрузкай. Асобныя функцыі будуць адключаны ў гэтых рэжымах, з-за чаго некаторыя праграмы могуць не працаваць. Каб вярнуць прыладу ў эксплуатацыйны рэжым, вам трэба пераключыцца ў рэжым 4 КБ і заблакіраваць OEM ці загрузчык (што прывядзе да скіду прылады да заводскіх налад). Разблакіруйце загрузчык і паўтарыце спробу. Інструкцыі, як гэта зрабіць, глядзіце на старонцы &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;."</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Дзейнічае рэжым 4 КБ, які не залежыць ад памеру старонкі памяці"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"У вас уключаны рэжым, які не залежыць ад памеру старонкі памяці і працуе з ядром для старонак памяці памерам 4 КБ. У гэтым рэжыме цэласнасць праграмнага забеспячэння не гарантуецца. Існуе рызыка страціць даныя, якія былі захаваны на тэлефоне, калі загрузчык быў разблакіраваны. Асобныя функцыі будуць адключаны ў гэтых рэжымах, з-за чаго некаторыя праграмы могуць не працаваць. Каб паўторна ўвайсці ў эксплуатацыйны рэжым, заблакіруйце загрузчык на прыладзе. Націсніце, каб чытаць далей."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"У вас уключаны рэжым, які не залежыць ад памеру старонкі памяці і працуе з ядром для старонак памяці памерам 4 КБ. У гэтым рэжыме цэласнасць праграмнага забеспячэння не гарантуецца. Існуе рызыка страціць даныя, якія былі захаваны на тэлефоне, калі загрузчык быў разблакіраваны. Асобныя функцыі будуць адключаны ў гэтых рэжымах, з-за чаго некаторыя праграмы могуць не працаваць. Каб паўторна ўвайсці ў эксплуатацыйны рэжым, заблакіруйце загрузчык на прыладзе. Пасля гэтага адбудзецца яе паўторны скід да заводскіх налад. Пасля загрузкі Android на прыладзе выключыце разблакіроўку OEM у Параметрах распрацоўшчыка. Калі на прыладзе не ўдаецца запусціць АС Android ці яе праца нестабільная, перапрашыйце прыладу, выкарыстоўваючы апошнія версіі заводскіх вобразаў, якія можна спампаваць тут: &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;. Або перайдзіце па спасылцы &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; і выберыце \"Ачысціць прыладу\", \"Заблакіраваць загрузчык\" і \"Перапрашыць усе раздзелы\"."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Дзейнічае рэжым 16 КБ, які не залежыць ад памеру старонкі памяці"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"У вас уключаны рэжым, які не залежыць ад памеру старонкі памяці і працуе з ядром для старонак памяці памерам 16 КБ. У гэтым рэжыме цэласнасць праграмнага забеспячэння не гарантуецца і ёсць рызыка страціць даныя, якія захоўваюцца на тэлефоне пры разблакіраваным загрузчыку. Асобныя функцыі будуць адключаны ў гэтых рэжымах, з-за чаго некаторыя праграмы могуць не працаваць. Каб паўторна ўвайсці ў эксплуатацыйны рэжым, пераключыцеся на рэжым 4 КБ і заблакіруйце загрузчык на прыладзе. Націсніце, каб чытаць далей."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"У вас уключаны рэжым, які не залежыць ад памеру старонкі памяці і працуе з ядром для старонак памяці памерам 16 КБ. У гэтым рэжыме цэласнасць праграмнага забеспячэння не гарантуецца і ёсць рызыка страціць даныя, якія захоўваюцца на тэлефоне пры разблакіраваным загрузчыку. Асобныя функцыі будуць адключаны ў гэтых рэжымах, з-за чаго некаторыя праграмы могуць не працаваць. Каб паўторна ўвайсці ў эксплуатацыйны рэжым, пераключыцеся на рэжым 4 КБ і заблакіруйце загрузчык на прыладзе. Пасля гэтага адбудзецца яе паўторны скід да заводскіх налад. Пасля загрузкі Android выключыце разблакіроўку OEM у Параметрах распрацоўшчыка. Калі на прыладзе не ўдаецца запусціць АС Android ці яе праца нестабільная, перапрашыйце прыладу, выкарыстоўваючы апошнія версіі заводскіх вобразаў, якія можна спампаваць тут: &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;. Або перайдзіце па спасылцы &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; і выберыце \"Ачысціць прыладу\", \"Заблакіраваць загрузчык\" і \"Перапрашыць усе раздзелы\"."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Рэжым, які не залежыць ад памеру старонкі памяці і працуе з ядром для старонак памяці памерам 16 КБ"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Чытаць далей"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Запусціць праграму ў рэжыме сумяшчальнасці з памерам старонкі"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Праграма будзе запушчана ў рэжыме сумяшчальнасці з памерам старонкі на прыладзе, калі на ёй уключана падтрымка 16 КБ."</string>
@@ -5611,8 +5634,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Выключыць абагульванне аўдыя"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Каб спалучыць новую прыладу, спачатку выключыце абагульванне аўдыя."</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Выключыць"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"Абагуліць аўдыя з прыладай \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\""</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Падключыцца да аўдыяплыні LE"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Аўдыяплыні паблізу"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"Аўдыяплыні"</string>

@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"معطل شدہ"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"نامعلوم"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"پیش منظر"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"پچھلا پیش منظر"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"اگلا پیش منظر"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"‏‫QR کوڈ"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"چھوٹا کریں"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"بڑا کریں"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"آڈیو آؤٹ پٹ کے بارے میں"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"آواز کو اپنے سماعتی آلے یا فون اسپیکر پر روٹ کریں"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"متعلقہ"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"رنگ ٹون اور الارمز"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"کالز کے دوران آڈیو"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"میڈیا اور سسٹم کی آوازیں"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"ماؤس کیز کا استعمال کریں"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"پوائنٹر کو کنٹرول کرنے کے لیے اپنا کی بورڈ استعمال کریں"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ریورس اسکرولنگ"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"نیچے کی طرف اسکرول کرنے پر مواد اوپر منتقل ہو جاتا ہے"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"صفحہ کو نیچے منتقل کرنے کے لیے اوپر اسکرول کریں"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"بنیادی ماؤس بٹن سویپ کریں"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"بائیں ماؤس کے بٹن کو اپنے دائیں کے طور پر استعمال کریں"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"کرسر ایکسلریشن"</string>
@@ -4364,8 +4372,7 @@
     <string name="disconnected" msgid="3469373726996129247">"منسلک نہیں ہے"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"منسلک نہیں ہے"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> ایپس انسٹال ہیں"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> استعمال شدہ - <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> خالی"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"گہری تھیم، فونٹ سائز، چمکیلاپن"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> میں سے اوسط <xliff:g id="USED_MEMORY">%1$s</xliff:g> میموری استعمال ہوئی"</string>
     <string name="users_summary" msgid="8473589474976307510">"بطور <xliff:g id="USER_NAME">%1$s</xliff:g> سائن ان ہے"</string>
@@ -4434,8 +4441,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"ایتھرنیٹ ڈیٹا کا استعمال"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"ایتھرنیٹ"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"ایتھرنیٹ <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> موبائل ڈیٹا"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"‏<xliff:g id="AMOUNT">^1</xliff:g> Wi-Fi ڈیٹا"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> ایتھرنیٹ ڈیٹا"</string>
@@ -5180,27 +5186,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"آپ کے کام کی پالیسی کی معلومات"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"‏آپ کے IT منتظم کے ذریعے نظم کردہ ترتیبات"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"‏‫16KB صفحہ سائز کے ساتھ بوٹ کریں"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"‏‫16KB صفحہ سائز کے تعاون یافتہ کرنل سے بوٹ کریں"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"‏‫4KB موڈ سے 16KB موڈ پر سوئچ کریں"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"‏آپ صفحہ ایگنوسٹک موڈ میں ہیں جو 4KB کرنل چلا رہا ہے، اور آپ 16KB موڈ پر سوئچ کر رہے ہیں۔ اس موڈ میں سافٹ ویئر کی درستگی کی ضمانت نہیں دی جا سکتی، اور بوٹ لوڈر کے غیر مقفل ہونے کے دوران فون پر اسٹور کردہ کسی بھی ڈیٹا کو خطرہ لاحق ہو سکتا ہے۔ اس سے آلہ ریبوٹ ہو جائے گا۔ ان موڈز میں کچھ خصوصیات غیر فعال ہو جائیں گی، اسلئے ہو سکتا ہے کہ کچھ ایپلیکیشنز کام نہ کریں۔ آلے کو پروڈکشن موڈ میں واپس لے جانے کیلئے، آپ کو پھر 4KB موڈ پر واپس سوئچ کرنا اور بوٹ لوڈر کو مقفل کرنا ہوگا، جو کہ آلے کو فیکٹری ری سیٹ کرتا ہے۔ آلے کے Android میں کامیابی کے ساتھ بوٹ ہونے کے بعد، ڈویلپر کے اختیارات میں OEM انلاکنگ کو غیر فعال کریں۔"</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"‏‫16KB موڈ سے 4KB موڈ میں سوئچ کریں"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"‏آپ صفحہ ایگنوسٹک موڈ میں ہیں جو 16KB کرنل چلا رہا ہے، اور آپ کو 4KB موڈ پر سوئچ کیا جا رہا ہے۔ اس موڈ میں سافٹ ویئر کی درستگی کی ضمانت نہیں دی جا سکتی ہے، اور بوٹ لوڈر کے غیر مقفل ہونے کے دوران فون پر اسٹور کردہ کوئی بھی ڈیٹا خطرے میں ہو سکتا ہے۔ اس سے آلہ ریبوٹ ہو جائے گا۔ ان موڈز میں کچھ خصوصیات غیر فعال ہو جائیں گی، اس لیے ہو سکتا ہے کچھ ایپلیکیشنز کام نہ کریں۔ آلہ کو پروڈکشن موڈ میں واپس کرنے کے لیے، آپ کو پھر بوٹ لوڈر کو مقفل کرنا ہوگا، جو فیکٹری آلہ کو ری سیٹ کرتا ہے۔ آلہ کے Android میں کامیابی کے ساتھ بوٹ ہونے کے بعد، ڈیولپر کے اختیارات میں OEM انلاکنگ کو غیر فعال کریں۔"</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"‏کرنل کو 16KB صفحات کے موافق کرنل میں اپ ڈیٹ کرنے میں ناکام۔"</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"تبدیلی کا اطلاق کرنا"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"‏آلہ کو ext4 میں دوبارہ فارمیٹ کریں؟ (16KB موڈ کے لیے درکار ہے)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"‏‫16KB ڈویلپر اختیار استعمال کرنے سے پہلے اس آلہ کے ڈیٹا پارٹیشن کو ext4 میں تبدیل کرنے کی ضرورت ہے۔ اس موڈ میں سافٹ ویئر کی درستگی کی ضمانت نہیں دی جا سکتی ہے، اور بوٹ لوڈر کے غیر مقفل ہونے کے دوران فون پر اسٹور کردہ کوئی بھی ڈیٹا خطرے میں ہو سکتا ہے۔ ‫16KB اختیار کو فعال کرنے کے لیے اس کے بعد ایک اور ریبوٹ کی ضرورت ہوگی۔ اس موڈ میں آنے کے بعد آپ ایک ہی ریبوٹ میں 4KB اور 16KB موڈ کے درمیان سوئچ کر سکتے ہیں۔ ان موڈز میں کچھ خصوصیات غیر فعال ہو جائیں گی، اس لیے ہو سکتا ہے کچھ ایپلیکیشنز کام نہ کریں۔ آلہ کو پروڈکشن موڈ میں واپس کرنے کے لیے، آپ کو 4KB موڈ پر واپس جانا ہوگا اور پھر بوٹ لوڈر کو لاک کرنا ہوگا، جو فیکٹری آلہ کو ری سیٹ کرتا ہے۔ آلہ کے Android میں کامیابی کے ساتھ بوٹ ہونے کے بعد، ڈیولپر کے اختیارات میں OEM انلاکنگ کو غیر فعال کریں۔ آلہ کو صاف کر دیا جائے گا اور تصدیق کے بعد فائل سسٹم کو ext4 میں تبدیل کر دیا جائے گا۔ اس کے مکمل ہونے کے بعد، براہ کرم 16KB کو دوبارہ فعال کرنے کے لیے واپس آئیں۔"</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"سبھی ڈیٹا مٹائیں"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"‏ڈیٹا پارٹیشن کو ext4 پر دوبارہ فارمیٹ کرنے اور صاف کرنے میں ناکام۔"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"بوٹ لوڈر ان لاک درکار ہے"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"‏اس آلہ کو 16KB ڈویلپر اختیار استعمال کرنے سے پہلے بوٹ لوڈر کو غیر مقفل کرنے کی ضرورت ہے۔ اس موڈ میں سافٹ ویئر کی درستگی کی ضمانت نہیں دی جا سکتی ہے، اور بوٹ لوڈر کے غیر مقفل ہونے کے دوران فون پر اسٹور کردہ کوئی بھی ڈیٹا خطرے میں ہو سکتا ہے۔ ‫16KB موڈ کو فعال کرنے پر صارف کا تمام ڈیٹا اور ترتیبات صاف کر دی جائیں گی۔ بوٹ لوڈر غیر مقفل ہونے کے بعد 16KB اختیار کو چالو کرنے کے لیے دو بار ریبوٹس کی ضرورت ہوگی۔ اس موڈ میں آنے کے بعد آپ ایک ہی ریبوٹ میں 4KB اور 16KB موڈ کے درمیان سوئچ کر سکتے ہیں۔ ان موڈز میں کچھ خصوصیات غیر فعال ہو جائیں گی، اس لیے ہو سکتا ہے کچھ ایپلیکیشنز کام نہ کریں۔ آلہ کو پروڈکشن موڈ میں واپس کرنے کے لیے، آپ کو 4KB موڈ پر واپس جانا ہوگا اور پھر OEM/بوٹ لوڈر کو لاک کرنا ہوگا (جو آلہ کو فیکٹری ری سیٹ کرتا ہے)۔ براہ کرم بوٹ لوڈر کو غیر مقفل کریں اور دوبارہ کوشش کریں۔ آپ اسے کرنے کے طریقے سے متعلق ہدایات یہاں دیکھ سکتے ہیں: &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"‏‫4KB صفحہ ایگنوسٹک موڈ کا استعمال"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"‏آپ صفحہ ایگنوسٹک موڈ کے 4KB موڈ میں ہیں۔ اس موڈ میں سافٹ ویئر کی درستگی کی ضمانت نہیں دی جا سکتی ہے، اور بوٹ لوڈر کے غیر مقفل ہونے کے دوران فون پر اسٹور کردہ کوئی بھی ڈیٹا خطرے میں ہو سکتا ہے۔ ان موڈز میں کچھ خصوصیات غیر فعال ہو جائیں گی، اس لیے ہو سکتا ہے کچھ ایپلیکیشنز کام نہ کریں۔ پروڈکشن موڈ میں دوبارہ داخل ہونے کے لیے، آپ کو آلے کے بوٹ لوڈر کو مقفل کرنا ہوگا۔ مزید پڑھنے کیلئے تھپتھپائیں۔"</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"‏آپ صفحہ ایگنوسٹک موڈ کے 4KB موڈ میں ہیں۔ اس موڈ میں سافٹ ویئر کی درستگی کی ضمانت نہیں دی جا سکتی ہے، اور بوٹ لوڈر کے غیر مقفل ہونے کے دوران فون پر اسٹور کردہ کوئی بھی ڈیٹا خطرے میں ہو سکتا ہے۔ ان موڈز میں کچھ خصوصیات غیر فعال ہو جائیں گی، اس لیے ہو سکتا ہے کچھ ایپلیکیشنز کام نہ کریں۔ پروڈکشن موڈ میں دوبارہ داخل ہونے کے لیے، آپ کو آلے کے بوٹ لوڈر کو مقفل کرنا ہوگا۔ یہ آلہ کو دوبارہ فیکٹری ری سیٹ کر دے گا اور اسے پروڈکشن ترتیبات پر بحال کر دے گا۔ آلہ کے Android میں کامیابی کے ساتھ بوٹ ہونے کے بعد، ڈیولپر کے اختیارات میں OEM انلاکنگ کو غیر فعال کریں۔ اگر آلہ Android میں بوٹ ہونے میں ناکام ہو جاتا ہے یا غیر مستحکم ہو جاتا ہے، تو &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; سے تازہ ترین فیکٹری امیجز کے ساتھ آلہ کو دوبارہ فلیش کریں یا &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; استعمال کریں اور \'آلہ کو صاف کریں\'، \'بوٹ لوڈر کو مقفل کریں\' اور \'سبھی پارٹیشنز کو فورس فلیش کریں\' کو منتخب کریں۔"</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"‏‫16KB صفحہ ایگنوسٹک موڈ کا استعمال"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"‏آپ صفحہ ایگنوسٹک موڈ کے 16KB موڈ میں ہیں۔ اس موڈ میں سافٹ ویئر کی درستگی کی ضمانت نہیں دی جا سکتی، اور بوٹ لوڈر کے غیر مقفل ہونے کے دوران فون پر اسٹور کردہ کسی بھی ڈیٹا کو خطرہ لاحق ہو سکتا ہے۔ ان موڈز میں کچھ خصوصیات غیر فعال ہو جائیں گی، اسلئے ہو سکتا ہے کہ کچھ ایپلیکیشنز کام نہ کریں۔ پروڈکشن موڈ میں دوبارہ داخل ہونے کے لیے، آپ کو 4KB موڈ پر واپس جانا ہوگا اور پھر آلہ کے بوٹ لوڈر کو مقفل کرنا ہوگا۔ مزید پڑھنے کیلئے تھپتھپائیں۔"</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"‏آپ صفحہ ایگنوسٹک موڈ کے 16KB موڈ میں ہیں۔ اس موڈ میں سافٹ ویئر کی درستگی کی ضمانت نہیں دی جا سکتی، اور بوٹ لوڈر کے غیر مقفل ہونے کے دوران فون پر اسٹور کردہ کسی بھی ڈیٹا کو خطرہ لاحق ہو سکتا ہے۔ ان موڈز میں کچھ خصوصیات غیر فعال ہو جائیں گی، اسلئے ہو سکتا ہے کہ کچھ ایپلیکیشنز کام نہ کریں۔ پروڈکشن موڈ میں دوبارہ داخل ہونے کے لیے، آپ کو 4KB موڈ پر واپس جانا ہوگا اور پھر آلہ کے بوٹ لوڈر کو مقفل کرنا ہوگا۔ یہ آلہ کو دوبارہ فیکٹری ری سیٹ کر دے گا اور اسے پروڈکشن ترتیبات پر بحال کر دے گا۔ آلے کے Android میں کامیابی کے ساتھ بوٹ ہونے کے بعد، ڈویلپر کے اختیارات میں OEM انلاکنگ کو غیر فعال کریں۔ اگر آلہ Android میں بوٹ ہونے میں ناکام ہو جاتا ہے یا غیر مستحکم ہو جاتا ہے، تو &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; سے تازہ ترین فیکٹری امیجز کے ساتھ آلہ کو دوبارہ فلیش کریں یا &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; استعمال کریں اور \'آلہ کو صاف کریں\'، \'بوٹ لوڈر کو مقفل کریں\' اور \'سبھی پارٹیشنز کو فورس فلیش کریں\' کو منتخب کریں۔"</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"‏‫16KB صفحہ ایگنوسٹک موڈ"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"مزید پڑھیں"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"ایپ کو صفحہ کے سائز کے ساتھ موافقت رکھنے والے موڈ میں چلائیں"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"‏ٹوگل ہونے پر ایپ کو ‎16 KB والے آلے پر صفحہ کے سائز کے ساتھ موافقت رکھنے والے موڈ میں چلایا جائے گا۔"</string>
@@ -5609,8 +5632,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"آڈیو کا اشتراک آف کریں"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"نئے آلے کا جوڑا بنانے کے لیے، پہلے آڈیو کا اشتراک آف کریں۔"</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"آف کریں"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"‫<xliff:g id="DEVICE_NAME">%1$s</xliff:g> کے ساتھ آڈیو کا اشتراک کریں"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"‏LE آڈیو سلسلہ سے منسلک کریں"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"قریبی آڈیو سلسلے"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"آڈیو سلسلے"</string>

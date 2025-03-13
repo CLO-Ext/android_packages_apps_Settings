@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Zawieszony"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Nieznane"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Podgląd"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Poprzedni podgląd"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Następny podgląd"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Kod QR"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Pomniejsz"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Powiększ"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"O wyjściu audio"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Kieruj dźwięki do urządzenia słuchowego lub głośnika telefonu"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Podobne"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Dzwonek i alarmy"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Dźwięk podczas połączeń"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Dźwięki multimediów i systemu"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Używaj klawiszy sterowania myszą"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Używaj klawiatury do sterowania wskaźnikiem"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Odwrotne przewijanie"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Treści przesuwają się w górę, kiedy przewijasz w dół"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Przewiń w górę, aby przesunąć stronę w dół"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Zamień główny przycisk myszy"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Używaj lewego przycisku myszy jako prawego"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Przyspieszenie kursora"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Opinia"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Wypełnij ankietę, aby pomóc nam ulepszyć tę usługę"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Brak dostępnych ankiet"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Prześlij opinię"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Pobrane aplikacje"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Eksperymentalne"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Flagi funkcji"</string>
@@ -2387,7 +2394,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Tekst o dużym kontraście"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"Zmień kolor tekstu na czarny lub biały. Spowoduje to ustawienie maksymalnego kontrastu względem tła."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Popraw kontrast tekstu"</string>
-    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> zastępuje <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>. Możesz włączyć tę funkcję w sekcji <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"Funkcja <xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> zastępuje <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>. Możesz włączyć tę funkcję w sekcji <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Otwórz <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Dodaj kontur tekstu"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Dodawaj czarne lub białe tło wokół tekstu, aby zwiększyć kontrast"</string>
@@ -2510,10 +2517,10 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"O urządzeniach słuchowych"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"Aby znaleźć inne urządzenia słuchowe, które nie obsługują technologii ASHA lub LE Audio, wybierz &lt;b&gt;Sparuj nowe urządzenie&lt;/b&gt; > &lt;b&gt;Zobacz więcej urządzeń&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"Aby znaleźć inne urządzenia słuchowe, które nie obsługują technologii ASHA lub LE Audio, wybierz "<b>"Sparuj nowe urządzenie"</b>", a następnie "<b>"Zobacz więcej urządzeń"</b></string>
-    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"Aby znaleźć inne urządzenia słuchowe, których nie obsługuje protokół ASHA, kliknij &lt;b&gt;Sparuj nowe urządzenie&lt;/b&gt; &gt; &lt;b&gt;Zobacz więcej ustawień&lt;/b&gt;"</string>
-    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"Aby znaleźć inne urządzenia słuchowe, których nie obsługuje protokół ASHA, kliknij "<b>"Sparuj nowe urządzenie"</b>", a następnie "<b>"Zobacz więcej urządzeń"</b></string>
-    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"Aby znaleźć inne urządzenia słuchowe, których nie obsługuje protokół LE Audio, kliknij &lt;b&gt;Sparuj nowe urządzenie&lt;/b&gt; &gt; &lt;b&gt;Zobacz więcej urządzeń&lt;/b&gt;"</string>
-    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"Aby znaleźć inne urządzenia słuchowe, których nie obsługuje protokół LE Audio, KLIKNIJ "<b>"Sparuj nowe urządzenie"</b>", a następnie "<b>"Zobacz więcej urządzeń"</b></string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"Aby znaleźć inne urządzenia słuchowe, które nie obsługują protokołu ASHA, kliknij &lt;b&gt;Sparuj nowe urządzenie&lt;/b&gt; &gt; &lt;b&gt;Zobacz więcej ustawień&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"Aby znaleźć inne urządzenia słuchowe, które nie obsługują protokołu ASHA, kliknij "<b>"Sparuj nowe urządzenie"</b>", a następnie "<b>"Zobacz więcej urządzeń"</b></string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"Aby znaleźć inne urządzenia słuchowe, które nie obsługują protokołu LE Audio, kliknij &lt;b&gt;Sparuj nowe urządzenie&lt;/b&gt; &gt; &lt;b&gt;Zobacz więcej urządzeń&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"Aby znaleźć inne urządzenia słuchowe, które nie obsługują protokołu LE Audio, KLIKNIJ "<b>"Sparuj nowe urządzenie"</b>", a następnie "<b>"Zobacz więcej urządzeń"</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"Sparuj urządzenie słuchowe"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"Na tej stronie możesz sparować urządzenia słuchowe ASHA i LE Audio. Sprawdź, czy urządzenie słuchowe jest włączone i gotowe do sparowania."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"Dostępne urządzenia słuchowe"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"łączność satelitarna"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"przesyłanie wiadomości przez satelitę"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Twoje konto obejmuje wykorzystanie danych"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Obsługiwane aplikacje na telefonie"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"zobacz wszystkie aplikacje"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Obsługiwane aplikacje na telefonie"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Nazwy punktów dostępu"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Niedostępne po połączeniu z siecią <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Informacje o zasadach służbowych"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Ustawienia, którymi zarządza administrator"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Uruchom ze stroną 16 KB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Uruchom z jądrem systemu obsługującym stronę 16 KB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Zmiana z trybu 4 kB na 16 kB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Korzystasz z ogólnego trybu strony z jądrem 4 kB i zamierzasz przełączyć się na tryb 16 kB. W tym trybie nie można zagwarantować integralności oprogramowania. Kiedy program rozruchowy będzie odblokowany, dane zapisane na telefonie mogą być zagrożone. Zmiana spowoduje ponowne uruchomienie urządzenia. W tych trybach niektóre funkcje będą wyłączone, a część aplikacji może nie działać. Aby przywrócić na urządzeniu tryb produkcyjny, musisz przełączyć je z powrotem na tryb 4 kB i zablokować program rozruchowy, co spowoduje zresetowanie urządzenia. Gdy na urządzeniu uruchomi się Android, wyłącz zdjęcie blokady OEM w Opcjach programisty."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Zmiana z trybu 16 KB na 4 KB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Korzystasz z ogólnego trybu strony z jądrem 16 kB i zamierzasz przełączyć się na tryb 4 kB. W tym trybie nie można zagwarantować integralności oprogramowania. Kiedy program rozruchowy będzie odblokowany, dane zapisane na telefonie mogą być zagrożone. Zmiana spowoduje ponowne uruchomienie urządzenia. W tych trybach niektóre funkcje będą wyłączone, a część aplikacji może nie działać. Aby przywrócić na urządzeniu tryb produkcyjny, musisz zablokować program rozruchowy, co spowoduje zresetowanie urządzenia. Gdy na urządzeniu uruchomi się Android, wyłącz zdjęcie blokady OEM w Opcjach programisty."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Nie udało się zaktualizować jądra systemu, aby obsługiwał strony o rozmiarze 16 KB."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Wprowadzam zmianę"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Sformatować ponownie urządzenie jako ext4? (Jest to wymagane w przypadku trybu 16 kB)."</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Aby można było użyć trybu 16 kB w Opcjach programisty, musisz przekonwertować partycję danych na system ext4. W tym trybie nie można zagwarantować integralności oprogramowania. Kiedy program rozruchowy będzie odblokowany, dane zapisane na telefonie mogą być zagrożone. Po aktywowaniu trybu 16 kB będzie trzeba uruchomić urządzenie ponownie. Po włączeniu tego trybu przełączanie się między trybami 4 kB i 16 kB będzie wymagało tylko jednokrotnego restartu. W tych trybach niektóre funkcje będą wyłączone, a część aplikacji może nie działać. Aby przywrócić na urządzeniu tryb produkcyjny, musisz przełączyć je z powrotem na tryb 4 kB i zablokować program rozruchowy, co spowoduje zresetowanie urządzenia. Gdy na urządzeniu uruchomi się Android, wyłącz zdjęcie blokady OEM w Opcjach programisty. Z urządzenia zostaną usunięte wszystkie dane, a po potwierdzeniu system plików zmieni się na ext4. Po wykonaniu tych czynności wróć tutaj, aby ponownie włączyć tryb 16 kB."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Usuń wszystkie dane"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Nie udało się wyczyścić partycji danych i sformatować jej jako ext4."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Wymagane odblokowanie programu rozruchowego"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Aby można było użyć trybu 16 KB w Opcjach programisty, musisz odblokować program rozruchowy. W tym trybie nie można zagwarantować integralności oprogramowania. Kiedy program rozruchowy będzie odblokowany, dane zapisane na telefonie mogą być zagrożone. Po włączeniu trybu 16 KB zostaną usunięte wszystkie dane i ustawienia użytkownika. Gdy program rozruchowy zostanie odblokowany, będzie trzeba dwukrotnie uruchomić ponownie urządzenia, aby włączyć tryb 16 KB. Po włączeniu tego trybu przełączanie się między trybami 4 KB i 16 KB będzie wymagało tylko jednokrotnego restartu. W tych trybach niektóre funkcje będą wyłączone, a część aplikacji może nie działać. Aby przywrócić na urządzeniu tryb produkcyjny, musisz przełączyć je z powrotem na tryb 4 KB i włączyć blokadę OEM lub zablokować program rozruchowy, co spowoduje zresetowanie urządzenia. Odblokuj program rozruchowy i spróbuj jeszcze raz. Instrukcje znajdziesz na stronie &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;."</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Włączony jest ogólny tryb strony 4 kB"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Korzystasz z ogólnego trybu strony 4 kB. W tym trybie nie można zagwarantować integralności oprogramowania. Kiedy program rozruchowy będzie odblokowany, dane zapisane na telefonie mogą być zagrożone. W tych trybach niektóre funkcje będą wyłączone, a część aplikacji może nie działać. Aby wrócić do trybu produkcyjnego, musisz zablokować program rozruchowy urządzenia. Kliknij, aby dowiedzieć się więcej."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Korzystasz z ogólnego trybu strony 4 kB. W tym trybie nie można zagwarantować integralności oprogramowania. Kiedy program rozruchowy będzie odblokowany, dane zapisane na telefonie mogą być zagrożone. W tych trybach niektóre funkcje będą wyłączone, a część aplikacji może nie działać. Aby wrócić do trybu produkcyjnego, musisz zablokować program rozruchowy urządzenia. Spowoduje to ponowne zresetowanie urządzenia i przywrócenie na nim ustawień produkcyjnych. Gdy na urządzeniu uruchomi się Android, wyłącz zdjęcie blokady OEM w Opcjach programisty. Jeśli nie uda się uruchomić Androida lub będzie on działać niestabilnie, sflashuj na urządzeniu najnowszy obraz fabryczny pobrany ze strony &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; lub użyj narzędzia &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; i wybierz kolejno opcje „Wyczyść pamięć urządzenia”, „Zablokuj program rozruchowy” i „Wymuś flashowanie wszystkich partycji”."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Włączony jest ogólny tryb strony 16 kB"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Korzystasz z ogólnego trybu strony 16 KB. W tym trybie nie można zagwarantować integralności oprogramowania. Kiedy program rozruchowy będzie odblokowany, dane zapisane na telefonie mogą być zagrożone. W tych trybach niektóre funkcje będą wyłączone, a część aplikacji może nie działać. Aby wrócić do trybu produkcyjnego, musisz przełączyć się z powrotem na tryb 4 KB i zablokować program rozruchowy urządzenia. Kliknij, aby dowiedzieć się więcej."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Korzystasz z ogólnego trybu strony 16 KB. W tym trybie nie można zagwarantować integralności oprogramowania. Kiedy program rozruchowy będzie odblokowany, dane zapisane na telefonie mogą być zagrożone. W tych trybach niektóre funkcje będą wyłączone, a część aplikacji może nie działać. Aby wrócić do trybu produkcyjnego, musisz przełączyć się z powrotem na tryb 4 KB i zablokować program rozruchowy urządzenia. Spowoduje to ponowne zresetowanie urządzenia i przywrócenie na nim ustawień produkcyjnych. Gdy na urządzeniu uruchomi się Android, wyłącz zdjęcie blokady OEM w Opcjach programisty. Jeśli nie uda się uruchomić Androida lub będzie on działać niestabilnie, sflashuj na urządzeniu najnowszy obraz fabryczny pobrany ze strony &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; lub użyj narzędzia &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; i wybierz kolejno opcje „Wyczyść pamięć urządzenia”, „Zablokuj program rozruchowy” i „Wymuś flashowanie wszystkich partycji”."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Ogólny tryb strony 16 kB"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Więcej informacji"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Uruchamiaj aplikację w trybie zgodności z rozmiarem strony"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Gdy to ustawienie jest włączone, na urządzeniu ze stronicowaniem 16 KB aplikacja będzie uruchamiana w trybie zgodności z rozmiarem strony."</string>
@@ -5646,12 +5667,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Strumień został wstrzymany"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Przestań słuchać"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Połącz zgodne słuchawki"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Tymczasowo wyłącz TalkBack"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"Z funkcji TalkBack nie można korzystać podczas słuchania strumieni audio. Aby zacząć słuchać, wyłącz TalkBack."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Wyłącz"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Połącz urządzenie"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Szczegóły strumienia audio"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Kod QR strumienia audio"</string>

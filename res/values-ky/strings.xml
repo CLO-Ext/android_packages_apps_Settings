@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Убактылуу токтотулду"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Белгисиз"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Алдын ала көрүү"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Мурунку алдын ала көрүү"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Кийинки алдын ала көрүү"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR коду"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Кичирээк кылуу"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Чоңураак кылуу"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Аудио түзмөк жөнүндө"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Үндөрдү угуу аппаратында же телефондун динамигинде угуу"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Окшош"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Рингтон жана ойготкучтар"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Чалуулардагы аудио"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Медиа жана тутум эскертүүлөрү"</string>
@@ -253,9 +255,9 @@
     <string name="saturday_first_day_of_week" msgid="3702282590450322727">"Ишемби"</string>
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"Эгер колдонмодо аймактык параметрлер коюлбаса, демейки тил колдонулат."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Тил параметрлери жөнүндө кененирээк маалымат алыңыз."</string>
-    <string name="metric_measurement_system" msgid="7489725697268321541">"Көрсөткүч"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"Стандарттык (АКШ)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"Стандарттык (УБ)"</string>
+    <string name="metric_measurement_system" msgid="7489725697268321541">"Метрикалык"</string>
+    <string name="us_measurement_system" msgid="8738587232938189052">"Империялык (АКШ)"</string>
+    <string name="uk_measurement_system" msgid="4196897001775627597">"Империялык (Улуу Британия)"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"Кошумча параметрлер"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"Сизге кантип кайрылуу керектигин тандаңыз"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"Түзмөгүңүз сизге кантип кайрылуу керектигин тууралай алат"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Чычкандын баскычтарын колдонуу"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Курсорду баскычтоп менен башкарасыз"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Тескери сыдыруу"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Ылдый сыдырганыңызда контент жогору жылат"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Баракты ылдый жылдыруу үчүн экранды өйдө сыдырыңыз"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Негизги чычкан баскычын алмаштыруу"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Чычкандын сол баскычын оң баскыч катары колдонуңуз"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Курсорду ылдамдатуу"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Пикир билдирүү"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Cурамжылоого катышып, кызматты жакшыртууга жардам бериңиз"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Сурамжылоолор жеткиликсиз"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Пикир билдирүү"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Жүктөлүп алынган колдонмолор"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Сынамык"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Функцияларды белгилөө"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"спутник байланышы"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"спутник аркылуу байланышуу"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Аккаунтуңузда маалыматтарды колдонуу мүмкүнчүлүгү камтылган"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Телефонуңузда колдоого алынган колдонмолор"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"бардык колдонмолорду көрүү"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Телефонуңузда колдоого алынган колдонмолор"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Байланыш түйүнүнүн аталыштары"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g> операторуна туташып турганда жеткиликсиз"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Уюмдун эрежелери тууралуу маалымат"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"IT администраторуңуз тууралаган параметрлер"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"16 кБ өлчөмүндөгү бет менен күйгүзүү"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"16Кб өлчөмүндөгү бетти колдоого алган ядролуу иштетүү түзмөгү"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"4 кБ өлчөмүндөгү бетти 16 кБ көбөйтүү"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"4Кб өлчөмүндөгү ядрону иштеткен беттен көз карандысыз режиминдесиз жана 16Кб режимине өтүп жатасыз. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Операциялык тутумду жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. Бул түзмөктү өчүрүп күйгүзөт. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Түзмөктү өндүрүш режимине кайтаруу үчүн кайра 4Кб режимине которулуп, түзмөктү баштапкы абалга келтирген операциялык тутумду жүктөгүчтү кулпулашыңыз керек болот. Түзмөк Android\'ге ийгиликтүү жүктөлгөндөн кийин, иштеп чыгуучунун параметрлеринен OEM ачууну өчүрүңүз."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"16Кб режиминен 4Кб режимине которулуу"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"16Кб өлчөмүндөгү ядрону иштеткен беттен көз карандысыз режиминдесиз жана 4Кб режимине өтүп жатасыз. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Операциялык тутумду жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. Бул түзмөктү өчүрүп күйгүзөт. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Түзмөктү өндүрүш режимине кайтаруу үчүн түзмөктү баштапкы абалга келтирген операциялык тутумду жүктөгүчтү кулпулашыңыз керек болот. Түзмөк Android\'ге ийгиликтүү жүктөлгөндөн кийин, иштеп чыгуучунун параметрлеринен OEM ачууну өчүрүңүз."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Ядро 16КБ баракка шайкеш келген ядрого жаңыртылган жок."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Өзгөртүү киргизилүүдө"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Түзмөк ext4 катары кайра форматталсынбы? (16Кб режими үчүн талап кылынат)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Бул түзмөктүн маалымат камтылган катуу диск бөлүгү 16Kб өлчөмүндөгү иштеп чыгуучунун параметрин колдонуудан мурун ext4 форматына өзгөртүлүшү керек. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Операциялык тутумду жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. 16Kб параметрин иштетүү үчүн дагы бир жолу өчүрүп-күйгүзүү талап кылынат. Бул режимге өткөндөн кийин, бир жолу өчүрүп-күйгүзүү менен 4Kб жана 16Kб режимдеринин арасында которула аласыз. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Түзмөктү өндүрүш режимине кайтаруу үчүн кайра 4Кб режимине которулуп, түзмөктү баштапкы абалга келтирген операциялык тутумду жүктөгүчтү кулпулашыңыз керек болот. Түзмөк Android\'ге ийгиликтүү жүктөлгөндөн кийин, иштеп чыгуучунун параметрлеринен OEM ачууну өчүрүңүз. Ырастоодон кийин түзмөк тазаланат жана файл системасы ext4 форматына өзгөртүлөт. Бул процесс аяктагандан кийин, 16Кб режимин кайра иштетүү үчүн кайтыңыз."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Бардык нерселерди өчүрүү"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Кайра форматталбай жана катуу диск бөлүгүндөгү маалымат ext4 үчүн тазаланбай калды."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Операциялык тутумду жүктөгүчтүн кулпусун ачуу талап кылынат"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Беттин өлчөмүн 16 кБка өзгөртүп, иштеп чыгуучуларга арналган параметрди колдонуудан мурун, түзмөктөгү операциялык системаны жүктөгүчтүн кулпусун ачыңыз. Бул режимде программанын бүтүндүгүнө кепилдик бере албайбыз. Операциялык системаны жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык нерселер коркунучта болушу мүмкүн. Беттин өлчөмүн 16 кБ көбөйткөндө, колдонуучунун бардык нерселери жана параметрлери өчүп калат. Операциялык системаны жүктөгүчтүн кулпусу ачылгандан кийин түзмөктү эки жолу өчүрүп күйгүзүшүңүз керек. Бул режимде беттин өлчөмүн 4 кБтан 16 кБка которуу үчүн түзмөктү бир жолу өчүрүп күйгүзүшүңүз керек. Кээ бир функциялар өчүп калгандыктан, айрым колдонмолор иштебей калышы мүмкүн. Түзмөктү баштапкы абалга кайтаруу үчүн беттин өлчөмүн кайра 4 кБ режимине которуп, операциялык системаны жүктөгүчтү кулпулашыңыз керек. Операциялык системаны жүктөгүчтүн кулпусун ачып, кайталап көрүңүз. Бул жөнүндө кененирээк маалымат алгыңыз келсе, бул жерге өтүңүз: &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Беттен көз карандысыз 4Кб өлчөмүндөгү режимди колдонуу"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Беттен көз карандысыз режиминин 4Кб өлчөмүндөгү режиминдесиз. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Операциялык тутумду жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Өндүрүш режимине кайра кирүү үчүн, түзмөктүн операциялык тутумунун жүктөгүчүн кулпулашыңыз керек. Көбүрөөк окуу үчүн таптаңыз."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Беттен көз карандысыз режиминин 4Кб өлчөмүндөгү режиминдесиз. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Операциялык тутумду жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Өндүрүш режимине кайра кирүү үчүн, түзмөктүн операциялык тутумунун жүктөгүчүн кулпулашыңыз керек. Бул түзмөктү кайра баштапкы абалга келтирип, өндүрүш параметрлерине кайтарат. Түзмөк Android\'ге ийгиликтүү жүктөлгөндөн кийин, иштеп чыгуучунун параметрлеринен OEM ачууну өчүрүңүз. Түзмөк Android\'ге жүктөлбөй калса же туруксуз болсо, &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; or use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; дарегиндеги баштапкы сүрөттөр менен акыркы версияга кайтарып, \"Түзмөктү тазалоо\", \"Операциялык тутумду жүктөгүчтү кулпулоо\" жана \'Бардык бөлүктөрүн мажбурлап программалоо\" параметрлерин тандаңыз."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"16 кБ өлчөмүндөгү бетке байланышпаган режимди колдонуу"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Беттин көлөмүнө көз каранды эмес режимдин 16 Кб режиминдесиз. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Операциялык тутумду жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Өндүрүш режимине кайра кирүү үчүн 4 Кб режимине кайтып, андан кийин түзмөктүн операциялык тутумунун жүктөгүчүн кулпулашыңыз керек. Көбүрөөк окуу үчүн таптаңыз."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Беттин көлөмүнө көз каранды эмес режимдин 16 Кб режиминдесиз. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Операциялык тутумду жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Өндүрүш режимине кайра кирүү үчүн 4 Кб режимине кайтып, андан кийин түзмөктүн операциялык тутумунун жүктөгүчүн кулпулашыңыз керек. Бул түзмөктү кайра баштапкы абалга келтирип, өндүрүш параметрлерине кайтарат. Түзмөк Android\'ге ийгиликтүү жүктөлгөндөн кийин, иштеп чыгуучунун параметрлеринен OEM ачууну өчүрүңүз. Түзмөк Android\'ге жүктөлбөй калса же туруксуз болсо, &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; or use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; дарегиндеги баштапкы сүрөттөр менен акыркы версияга кайтарып, \"Түзмөктү тазалоо\", \"Операциялык тутумду жүктөгүчтү кулпулоо\" жана \'Бардык бөлүктөрүн мажбурлап программалоо\" параметрлерин тандаңыз."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Беттен көз карандысыз 16Кб өлчөмүндөгү режим"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Дагы окуу"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Колдонмону барактын өлчөмүнө шайкештирүү режиминде иштетүү"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"16 Кб түзмөккө которулганда колдонмо барактын өлчөмүнө шайкештирүү режиминде иштейт."</string>
@@ -5644,12 +5665,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Агым тындырылды"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Угууну токтотуу"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Шайкеш гарнитураны туташтырыңыз"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Talkback функцияны убактылуу өчүрүү"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"Аудио агымдарды угуп жатканда Talkback\'ти колдонууга болбойт. Угуп баштоо үчүн Talkback функциясын өчүрүңүз."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Өчүрүү"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Түзмөктү туташтыруу"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Аудио агымдын чоо-жайы"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Аудио агымдын QR коду"</string>

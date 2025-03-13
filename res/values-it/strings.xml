@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Sospeso"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Sconosciuto"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Anteprima"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Anteprima precedente"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Anteprima successiva"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Codice QR"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Rimpicciolisci"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Ingrandisci"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Informazioni su uscita audio"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Indirizza il suono verso la protesi uditiva o l\'altoparlante dello smartphone"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Correlati"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Suoneria e sveglie"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Audio durante le chiamate"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Suoni cont. multim. e sistema"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Usa i tasti del mouse"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Usa la tastiera per controllare il puntatore"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Scorrimento invertito"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"I contenuti si spostano in alto quando scorri verso il basso"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Scorri verso l\'alto per spostare la pagina in basso"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Inverti tasto principale del mouse"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Usa il tasto sinistro del mouse come il destro"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Accelerazione del cursore"</string>
@@ -2590,7 +2598,7 @@
     <string name="accessibility_dialog_button_allow" msgid="8274918676473216697">"Consenti"</string>
     <string name="accessibility_dialog_button_deny" msgid="2037249860078259284">"Rifiuta"</string>
     <string name="accessibility_dialog_button_stop" msgid="7584815613743292151">"Disattiva"</string>
-    <string name="accessibility_dialog_button_cancel" msgid="8625997437316659966">"Tieni on"</string>
+    <string name="accessibility_dialog_button_cancel" msgid="8625997437316659966">"Attiva"</string>
     <string name="disable_service_title" msgid="8178020230162342801">"Vuoi disattivare <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="accessibility_no_services_installed" msgid="3725569493860028593">"Nessun servizio installato"</string>
     <string name="accessibility_no_service_selected" msgid="1310596127128379897">"Nessun servizio selezionato"</string>
@@ -4364,8 +4372,7 @@
     <string name="disconnected" msgid="3469373726996129247">"Nessuna connessione"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Non collegata"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> app installate"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"Utilizzato: <xliff:g id="PERCENTAGE">%1$s</xliff:g> - Libero: <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Tema scuro, dimensioni caratteri, luminosità"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Utilizzo medio di <xliff:g id="USED_MEMORY">%1$s</xliff:g> di memoria su <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Accesso eseguito come <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4434,8 +4441,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Utilizzo dei dati Ethernet"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"Ethernet <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"Dati mobili utilizzati: <xliff:g id="AMOUNT">^1</xliff:g>"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"Dati Wi-Fi: <xliff:g id="AMOUNT">^1</xliff:g>"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"Dati Ethernet: <xliff:g id="AMOUNT">^1</xliff:g>"</string>
@@ -5180,27 +5186,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Informazioni sulle norme di lavoro"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Impostazioni gestite dall\'amministratore IT"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Avvia con dimensione pagina 16 kB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Avvia con un kernel per dimensione pagina di 16 kB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Passa dalla modalità a 4 kB alla modalità a 16 kB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Sei nella modalità indipendente dalla pagina che esegue un kernel a 4 kB e stai passando alla modalità a 16 kB. Non è possibile garantire l\'integrità del software in questa modalità e i dati archiviati sullo smartphone potrebbero essere a rischio finché il bootloader è sbloccato. L\'operazione riavvierà il dispositivo. Alcune funzionalità verranno disattivate in queste modalità, pertanto alcune applicazioni potrebbero non funzionare. Per far tornare il dispositivo in modalità di produzione, dovrai tornare alla modalità a 4 kB e bloccare il bootloader, il che ripristina i dati di fabbrica del dispositivo. Dopo che Android viene avviato correttamente sul dispositivo, disattiva lo sblocco OEM nelle Opzioni sviluppatore."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Passa dalla modalità a 16 kB alla modalità a 4 kB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Sei nella modalità indipendente dalla pagina che esegue un kernel a 16 kB e stai passando alla modalità a 4 kB. Non è possibile garantire l\'integrità del software in questa modalità e i dati archiviati sullo smartphone potrebbero essere a rischio finché il bootloader è sbloccato. L\'operazione riavvierà il dispositivo. Alcune funzionalità verranno disattivate in queste modalità, pertanto alcune applicazioni potrebbero non funzionare. Per far tornare il dispositivo in modalità di produzione, dovrai bloccare il bootloader, il che ripristina i dati di fabbrica del dispositivo. Dopo che Android viene avviato correttamente sul dispositivo, disattiva lo sblocco OEM nelle Opzioni sviluppatore."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Impossibile aggiornare il kernel alla versione compatibile con pagine da 16 KB."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Applicazione della modifica in corso…"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Riformattare il dispositivo in ext4? (Operazione necessaria per la modalità a 16 kB)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"La partizione dei dati del dispositivo deve essere convertita in ext4 prima di usare l\'opzione sviluppatore a 16 kB. Non è possibile garantire l\'integrità del software in questa modalità e i dati archiviati sullo smartphone potrebbero essere a rischio finché il bootloader è sbloccato. Se attivi l\'opzione a 16 kB, sarà necessario un ulteriore riavvio. Una volta che sarà attiva questa modalità, potrai passare dalla modalità a 4 kB a quella a 16 kB con un solo riavvio. Alcune funzionalità verranno disattivate in queste modalità, pertanto alcune applicazioni potrebbero non funzionare. Per far tornare il dispositivo in modalità di produzione, dovrai tornare alla modalità a 4 kB e bloccare il bootloader, il che ripristina i dati di fabbrica del dispositivo. Dopo che Android viene avviato correttamente sul dispositivo, disattiva lo sblocco OEM nelle Opzioni sviluppatore. Tutti i dati verranno cancellati dal dispositivo e il file system verrà convertito in ext4 dopo la conferma. Quando termina l\'operazione, riabilita nuovamente la modalità a 16 kB."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Cancella tutti i dati"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Impossibile riformattare e cancellare la partizione di dati in ext4."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Sblocco bootloader richiesto"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"È necessario sbloccare il bootloader del dispositivo prima di usare l\'opzione sviluppatore a 16 kB. Non è possibile garantire l\'integrità del software in questa modalità e i dati archiviati sullo smartphone potrebbero essere a rischio finché il bootloader è sbloccato. Tutti i dati utente e le impostazioni verranno cancellati quando attivi la modalità a 16 kB. Dopo aver sbloccato il bootloader, l\'attivazione dell\'opzione a 16 kB richiederà due riavvii. Una volta che sarà attiva questa modalità, potrai passare dalla modalità a 4 kB a quella a 16 kB con un solo riavvio. Alcune funzionalità verranno disattivate in queste modalità, pertanto alcune applicazioni potrebbero non funzionare. Per far tornare il dispositivo in modalità di produzione, dovrai tornare alla modalità a 4 kB e bloccare il bootloader del dispositivo, il che ripristina i dati di fabbrica del dispositivo. Sblocca il bootloader e riprova. Puoi consultare le istruzioni su come fare all\'indirizzo &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Modalità indipendente dalla pagina a 4 kB in uso"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Hai attivato l\'opzione a 4 kB della modalità indipendente dalla pagina. Non è possibile garantire l\'integrità del software in questa modalità e i dati archiviati sullo smartphone potrebbero essere a rischio finché il bootloader è sbloccato. Alcune funzionalità verranno disattivate in queste modalità, pertanto alcune applicazioni potrebbero non funzionare. Per tornare alla modalità di produzione, devi bloccare il bootloader del dispositivo. Tocca per leggere altro."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Hai attivato l\'opzione a 4 kB della modalità page-agnostic. Non è possibile garantire l\'integrità del software in questa modalità e i dati archiviati sullo smartphone potrebbero essere a rischio finché il bootloader è sbloccato. Alcune funzionalità verranno disattivate in queste modalità, pertanto alcune applicazioni potrebbero non funzionare. Per tornare alla modalità di produzione, devi bloccare il bootloader del dispositivo. Questo eseguirà nuovamente il ripristino dei dati di fabbrica del dispositivo e ripristinerà le impostazioni di produzione. Dopo che Android viene avviato correttamente sul dispositivo, disattiva lo sblocco OEM nelle Opzioni sviluppatore. Se l\'avvio di Android sul dispositivo non riesce o è instabile, esegui nuovamente il flashing del dispositivo con le immagini del produttore più recenti da &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; o usa &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; e seleziona \"Cancella dati dispositivo\", \"Blocca bootloader\" e \"Esegui il flash forzato di tutte le partizioni\"."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Modalità indipendente dalla pagina a 16 kB in uso"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Hai attivato l\'opzione a 16 kB della modalità page-agnostic. Non è possibile garantire l\'integrità del software in questa modalità e i dati archiviati sullo smartphone potrebbero essere a rischio finché il bootloader è sbloccato. Alcune funzionalità verranno disattivate in queste modalità, pertanto alcune applicazioni potrebbero non funzionare. Per tornare alla modalità di produzione, devi tornare alla modalità a 4 kB e bloccare il bootloader del dispositivo. Tocca per leggere altro."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Hai attivato l\'opzione a 16 kB della modalità page-agnostic. Non è possibile garantire l\'integrità del software in questa modalità e i dati archiviati sullo smartphone potrebbero essere a rischio finché il bootloader è sbloccato. Alcune funzionalità verranno disattivate in queste modalità, pertanto alcune applicazioni potrebbero non funzionare. Per tornare alla modalità di produzione, devi tornare alla modalità a 4 kB e bloccare il bootloader del dispositivo. Questo eseguirà nuovamente il ripristino dei dati di fabbrica del dispositivo e ripristinerà le impostazioni di produzione. Dopo che Android viene avviato correttamente sul dispositivo, disattiva lo sblocco OEM nelle Opzioni sviluppatore. Se l\'avvio di Android sul dispositivo non riesce o è instabile, esegui nuovamente il flashing del dispositivo con le immagini del produttore più recenti da &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; o usa &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; e seleziona \"Cancella dati dispositivo\", \"Blocca bootloader\" e \"Esegui il flash forzato di tutte le partizioni\"."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Modalità indipendente dalla pagina a 16 kB"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Leggi tutto"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Esegui l\'app in modalità di compatibilità con le dimensioni pagina"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Quando l\'opzione è attiva, l\'app verrà eseguita in modalità di compatibilità con le dimensioni pagina su un dispositivo a 16 kB."</string>
@@ -5609,8 +5632,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Disattiva la condivisione audio"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Per accoppiare un nuovo dispositivo, disattiva prima la condivisione audio."</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Disattiva"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"Condividi l\'audio con <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Collegati a uno stream LE audio"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Stream audio nelle vicinanze"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"Stream audio"</string>

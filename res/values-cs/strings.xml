@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Pozastaveno"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Neznámé"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Náhled"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Předchozí náhled"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Další náhled"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR kód"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Zmenšit"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Zvětšit"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Informace o zvukovém výstupu"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Směrování zvuků do naslouchátek nebo reproduktoru telefonu"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Související"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Vyzvánění a budíky"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Zvuk během hovorů"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Zvuky médií a systémové zvuky"</string>
@@ -1391,7 +1393,7 @@
     <string name="screen_timeout_summary" msgid="5558778019594643427">"<xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> nečinnosti"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"Nenastaveno"</string>
     <string name="wallpaper_settings_title" msgid="5635129851136006383">"Tapeta"</string>
-    <string name="style_and_wallpaper_settings_title" msgid="2232042809407308946">"Tapeta a styl"</string>
+    <string name="style_and_wallpaper_settings_title" msgid="2232042809407308946">"Tapety a styl"</string>
     <string name="wallpaper_dashboard_summary" msgid="2324472863981057118">"Plocha, obrazovka uzamčení"</string>
     <string name="wallpaper_suggestion_title" msgid="3812842717939877330">"Změňte si tapetu"</string>
     <string name="wallpaper_suggestion_summary" msgid="9077061486716754784">"Přizpůsobte si obrazovku"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Používat klávesy myši"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Ukazatel můžete ovládat pomocí klávesnice"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Opačné posouvání"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Při posouvání dolů se obsah posune nahoru"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Při posunutí nahoru posunout stránku dolů"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Zaměnit primární tlačítko myši"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Používat levé tlačítko myši jako pravé"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Zrychlení kurzoru"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Zpětná vazba"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Pomozte se zlepšením tím, že se zúčastníte průzkumu"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Žádné průzkumy nejsou k dispozici"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Odeslat zpětnou vazbu"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Stažené aplikace"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Experimentální"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Příznaky experimentálních funkcí"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"připojení přes satelit"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"satelitní zprávy"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Využití dat je součástí vašeho účtu"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Podporované aplikace v telefonu"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"zobrazit všechny aplikace"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Podporované aplikace v telefonu"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Názvy přístupových bodů"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Při připojení k operátorovi <xliff:g id="CARRIER">%1$s</xliff:g> nedostupné"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Informace o pracovních zásadách"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Nastavení spravuje IT administrátor"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Spustit s velikostí stránek 16 KB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Spustit zařízení s jádrem s podporou 16KB stránek"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Přepnutí ze 4KB do 16KB režimu"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Aktuálně používáte stránkově agnostický režim se 4KB jádrem a chystáte se přepnout na 16KB režim. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Touto akcí zařízení restartujete. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud budete chtít zařízení vrátit do produkčního režimu, budete ho muset přepnout zpět do 4KB režimu a uzamknout bootloader, čímž zařízení resetujete do továrního nastavení. Až se systém Android v zařízení úspěšně spustí, vypněte v sekci Pro vývojáře možnost Odemknutí OEM."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Přepnutí ze 16KB do 4KB režimu"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Aktuálně používáte stránkově agnostický režim se 16KB jádrem a chystáte se přepnout na 4KB režim. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Touto akcí zařízení restartujete. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud budete chtít zařízení vrátit do produkčního režimu, budete muset uzamknout bootloader, čímž zařízení resetujete do továrního nastavení. Až se systém Android v zařízení úspěšně spustí, vypněte v sekci Pro vývojáře možnost Odemknutí OEM."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Jádro se nepodařilo aktualizovat na kompatibilní se 16KB stránkami."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Změna se uplatňuje"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Přeformátovat zařízení na ext4? (Pro 16KB režim vyžadováno)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Před použitím 16KB možnosti pro vývojáře je potřeba převést datový oddíl tohoto zařízení na systém souborů ext4. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. K aktivaci 16KB režimu pak bude potřeba zařízení restartovat ještě jednou. Po jeho aktivaci pak bude k přepnutí mezi 4KB a 16KB režimem stačit pouze jeden restart. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud budete chtít zařízení vrátit do produkčního režimu, budete systém muset přepnout zpět do 4KB režimu a uzamknout bootloader, čímž zařízení resetujete do továrního nastavení. Až se systém Android v zařízení úspěšně spustí, vypněte v sekci Pro vývojáře možnost Odemknutí OEM. Po potvrzení se zařízení vymaže a systém souborů se změní na ext4. Po dokončení se vraťte a aktivujte 16KB režim znovu."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Vymazat všechna data"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Přeformátování na ext4 a nevratné vymazání datového oddílu se nezdařilo."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Je vyžadováno odemknutí bootloaderu"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"K použití možnosti 16KB režimu pro vývojáře musí mít zařízení odemknutý bootloader. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Při aktivaci 16KB režimu se vymažou všechna uživatelská data a nastavení. Po odemknutí bootloaderu bude aktivace 16KB režimu vyžadovat dva restarty. Po jeho aktivaci pak bude k přepnutí mezi 4KB a 16KB režimem stačit pouze jeden restart. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud budete chtít zařízení vrátit do produkčního režimu, budete systém muset přepnout zpět do 4KB režimu a pak v něm deaktivovat odemknutí OEM / uzamknout bootloader (čímž zařízení resetujete do továrního nastavení). Odemkněte bootloader a zkuste to znovu. Pokyny, jak to provést, najdete na stránce &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Používáte 4KB stránkově agnostický režim"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Používáte 4KB verzi stránkově agnostického režimu. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud chcete znovu aktivovat produkční režim, musíte uzamknout bootloader zařízení. Další informace zobrazíte klepnutím."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Používáte 4KB verzi stránkově agnostického režimu. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud chcete znovu aktivovat produkční režim, musíte uzamknout bootloader zařízení. Tím zařízení znovu resetujete do továrního nastavení a obnovíte v něm produkční nastavení. Až se systém Android v zařízení úspěšně spustí, vypněte v sekci Pro vývojáře možnost Odemknutí OEM. Pokud se systém Android v zařízení nespustí nebo nebude stabilní, flashujte zařízení na nejnovější tovární obrazy ze stránky &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers .google.com/android/images&lt;/a&gt; nebo použijte nástroj &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; a vyberte Wipe Device (Vymazat zařízení), Lock Bootloader (Zamknout bootloader) a Force Flash all partitions (Flashovat všechny oddíly)."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Používáte 16KB stránkově agnostický režim"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Aktuálně používáte 16KB verzi stránkově agnostického režimu. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud chcete znovu aktivovat produkční režim, musíte přepnout zpět na 4KB režim a poté uzamknout bootloader zařízení. Další informace zobrazíte klepnutím."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Aktuálně používáte 16KB verzi stránkově agnostického režimu. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud chcete znovu aktivovat produkční režim, musíte přepnout zpět na 4KB režim a poté uzamknout bootloader zařízení. Tím zařízení znovu resetujete do továrního nastavení zařízení a obnovíte v něm produkční nastavení. Až se systém Android v zařízení úspěšně spustí, vypněte v sekci Pro vývojáře možnost Odemknutí OEM. Pokud se systém Android v zařízení nespustí nebo nebude stabilní, flashujte zařízení na nejnovější tovární obrazy ze stránky &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers .google.com/android/images&lt;/a&gt; nebo použijte nástroj &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; a vyberte Wipe Device (Vymazat zařízení), Lock Bootloader (Zamknout bootloader) a Force Flash all partitions (Flashovat všechny oddíly)."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"16KB stránkově agnostický režim"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Další informace"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Spustit aplikaci v režimu kompatibility s velikostí stránky"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Aplikace se na zařízení s 16KB stránkováním spustí v režimu kompatibility s velikostí stránky."</string>
@@ -5646,12 +5667,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Přenos pozastaven"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Ukončit poslech"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Připojit kompatibilní sluchátka"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Dočasně vypnout TalkBack"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"TalkBack nelze používat při poslechu zvukových streamů. Vypněte TalkBack, abyste mohli začít poslouchat."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Vypnout"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Připojit zařízení"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Podrobnosti o zvukovém streamu"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"QR kód zvukového streamu"</string>

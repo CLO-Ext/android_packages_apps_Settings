@@ -41,10 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"בהשעיה"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"לא ידוע"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"תצוגה מקדימה"</string>
-    <!-- no translation found for preview_pager_previous_button (607771113300838313) -->
-    <skip />
-    <!-- no translation found for preview_pager_next_button (8700907912508927271) -->
-    <skip />
     <string name="qr_code_content_description" msgid="1852208464419291347">"‏קוד QR"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"הקטנה"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"הגדלה"</string>
@@ -101,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"מידע על פלט האודיו"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"ניתוב הצלילים למכשיר השמיעה או לרמקול של הטלפון"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"קשורים"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"רינגטון ושעונים מעוררים"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"אודיו במהלך שיחות"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"צלילי מדיה ומערכת"</string>
@@ -231,12 +231,9 @@
     <string name="search_region_hint" msgid="1748708432568237552">"חיפוש אזורים"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"הטלפון יציג את השעה, התאריכים, הטמפרטורה ופרטים נוספים לפי האזור שייבחר."</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"עוד הגדרות שפה"</string>
-    <!-- no translation found for title_change_system_locale_region (1977530992614685128) -->
-    <skip />
-    <!-- no translation found for body_change_system_locale_region (9064318449821043189) -->
-    <skip />
-    <!-- no translation found for top_intro_numbering_system_title (8234587334207926397) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="1977530992614685128">"לשנות את האזור ל<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
+    <string name="body_change_system_locale_region" msgid="9064318449821043189">"שפת המערכת במכשיר תמשיך להיות <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>"</string>
+    <string name="top_intro_numbering_system_title" msgid="8234587334207926397">"רוב האפליקציות ישתמשו בהעדפות הפורמט והמידות שנקבעו"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"העדפות פורמט ומידות"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"הגדרת העדפות של יחידות ומספרים"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"הרשאת גישה לאפליקציות להעדפות פורמט ומידות כדי שיתאימו אישית את חוויית המשתמש."</string>
@@ -408,7 +405,7 @@
     <string name="security_settings_face_footer_learn_more_description" msgid="1418112576619086897"></string>
     <string name="security_settings_face_settings_face_category" msgid="60058016983772899">"זיהוי הפנים"</string>
     <string name="security_settings_face_settings_use_face_to_category" msgid="3349153603335284583">"משתמשים בזיהוי הפנים כדי"</string>
-    <string name="security_settings_face_settings_preferences_category" msgid="7628929873407280453">"כשמשתמשים בתכונה \'פתיחה ע\"י זיהוי הפנים\'"</string>
+    <string name="security_settings_face_settings_preferences_category" msgid="7628929873407280453">"כשמשתמשים בתכונה \"פתיחה בזיהוי פנים\""</string>
     <string name="security_settings_face_settings_require_attention" msgid="4395309855914391104">"העיניים חייבות להיות פקוחות"</string>
     <string name="security_settings_face_settings_require_attention_details" msgid="2546230511769544074">"העיניים שלך חייבות להיות פקוחות כדי לבטל את נעילת הטלפון"</string>
     <string name="security_settings_face_settings_gaze" msgid="7539766717836085281"></string>
@@ -1285,12 +1282,9 @@
     <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="8102786488994263815">"כתובת למקרה חירום"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"‏משמש כמיקומך בעת ביצוע שיחת חירום באמצעות רשת Wi-Fi"</string>
-    <!-- no translation found for private_dns_title (1180823690693258572) -->
-    <skip />
-    <!-- no translation found for private_dns_field_require (2318400923953435586) -->
-    <skip />
-    <!-- no translation found for private_dns_hostname_invalid (5085498734835552780) -->
-    <skip />
+    <string name="private_dns_title" msgid="1180823690693258572">"שם המארח"</string>
+    <string name="private_dns_field_require" msgid="2318400923953435586">"חובה למלא את השדה הזה"</string>
+    <string name="private_dns_hostname_invalid" msgid="5085498734835552780">"שם המארח שהקלדת לא תקין"</string>
     <string name="private_dns_help_message" msgid="851221502063782306">"‏"<annotation id="url">"מידע נוסף"</annotation>" על תכונות של DNS פרטי"</string>
     <string name="private_dns_mode_on" msgid="8878679071975375696">"מופעל"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"‏הפעלה של שיחות Wi-Fi"</string>
@@ -2058,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"שימוש בתכונה \"שליטה בעכבר מהמקלדת\""</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"שליטה בסמן באמצעות המקלדת"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"גלילה הפוכה"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"התוכן זז למעלה כשגוללים למטה"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"גלילה למעלה להזזת הדף למטה"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"החלפת הכפתור הראשי של העכבר"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"שימוש בכפתור השמאלי של העכבר ככפתור הימני"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"הגברת מהירות הסמן"</string>
@@ -5192,27 +5192,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"פרטי המדיניות של פרופיל העבודה"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"‏הגדרות שעליהן אחראי מנהל ה-IT"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"‏הפעלה בגודל דף של 16KB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"‏הפעלת המכשיר באמצעות ליבה נתמכת בגודל דף של 16KB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"‏מעבר ממצב 4KB למצב 16KB"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"‏הפעילות שלך מתרחשת במצב לא מותאם לדף שמריץ ליבה (kernel) של 4KB. מתבצע מעבר למצב של 16KB. לא ניתן להבטיח את תקינות התוכנה במצב הזה. כל הנתונים שמאוחסנים בטלפון בזמן שתוכנת האתחול לא נעולה עלולים להיות בסיכון. הפעולה הזו תפעיל מחדש את המכשיר. חלק מהתכונות יושבתו במצבים האלה, כך שחלק מהאפליקציות לא יפעלו. כדי להחזיר את המכשיר למצב ייצור, צריך לחזור למצב 4KB ולנעול את תוכנת האתחול. המכשיר יאופס להגדרות המקוריות. אחרי שהמכשיר מאותחל ל-Android, צריך להשבית את מצב OEM באפשרויות למפתחים."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"‏מעבר ממצב 16KB למצב 4KB"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"‏הפעילות שלך מתרחשת במצב לא מותאם לדף שמריץ ליבה (kernel) של 16KB. מתבצע מעבר למצב של 4KB. לא ניתן להבטיח את תקינות התוכנה במצב הזה. כל הנתונים שמאוחסנים בטלפון בזמן שתוכנת האתחול לא נעולה עלולים להיות בסיכון. הפעולה הזו תפעיל מחדש את המכשיר. חלק מהתכונות יושבתו במצבים האלה, כך שחלק מהאפליקציות לא יפעלו. כדי להחזיר את המכשיר למצב ייצור, צריך לנעול את תוכנת האתחול. המכשיר יאופס להגדרות המקוריות. אחרי שהמכשיר מאותחל ל-Android, צריך להשבית את מצב OEM באפשרויות למפתחים."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"‏עדכון הליבה (kernel) התואמת לדפים של 16KB נכשל."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"השינויים מתעדכנים"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"‏לפרמט מחדש את המכשיר ל-ext4? (נדרש למצב 16KB)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"‏צריך להמיר את מחיצת הנתונים של המכשיר הזה ל-ext4 לפני השימוש באפשרות למפתחים של 16KB. לא ניתן להבטיח את תקינות התוכנה במצב הזה. כל הנתונים שמאוחסנים בטלפון בזמן שתוכנת האתחול לא נעולה עלולים להיות בסיכון. לאחר הפעלת האפשרות של 16KB תידרש הפעלה נוספת מחדש. מהמצב הזה, אפשר לעבור בין מצב 4KB למצב 16KB בהפעלה אחת מחדש. חלק מהתכונות יושבתו במצבים האלה, כך שחלק מהאפליקציות לא יפעלו. כדי להחזיר את המכשיר למצב ייצור, עליך לחזור למצב 4KB ולנעול את תוכנת האתחול. המכשיר יאופס להגדרות המקוריות. אחרי שהמכשיר מאותחל ל-Android, צריך להשבית את מצב OEM באפשרויות למפתחים. לאחר האישור, הנתונים במכשיר יאופסו ומערכת הקבצים תשתנה ל-ext4. לאחר השלמת הפעולה הזו, צריך לחזור כדי להפעיל את מצב 16KB שוב."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"מחיקת כל הנתונים"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"‏הניסיון לפרמט מחדש את המכשיר ולאפס את מחיצת הנתונים ל-ext4 נכשל."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"צריך לבטל את הנעילה של תוכנת האתחול"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"‏לפני השימוש באפשרות למפתחים של 16KB, צריך לבטל את הנעילה של תוכנת האתחול במכשיר הזה. לא ניתן להבטיח את תקינות התוכנה במצב הזה. כל הנתונים שמאוחסנים בטלפון בזמן שתוכנת האתחול לא נעולה עלולים להיות בסיכון. כל נתוני המשתמש וההגדרות יאופסו בהפעלת מצב 16KB. לאחר ביטול הנעילה של תוכנת האתחול יידרשו שתי הפעלות מחדש כדי שמצב 16KB ייכנס לתוקף. מהמצב הזה, אפשר לעבור בין מצב 4KB למצב 16KB בהפעלה אחת מחדש. חלק מהתכונות יושבתו במצבים האלה, כך שחלק מהאפליקציות לא יפעלו. כדי להחזיר את המכשיר למצב ייצור, צריך לחזור למצב 4KB ואז לנעול את תוכנת האתחול או את מצב ה-OEM של המכשיר (המכשיר יאופס להגדרות המקוריות). צריך לבטל את הנעילה של תוכנת האתחול ולנסות שוב. הוראות לביצוע הפעולה זמינות בכתובת &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"‏מצב שמסתגל לגודל הדף: 4KB"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"‏המכשיר נמצא במצב שמסתגל לגודל הדף, והגודל הנוכחי הוא 4KB. במצב הזה, תקינות התוכנה לא מובטחת. כל הנתונים שמאוחסנים בטלפון נמצאים בסיכון בזמן שתוכנת האתחול לא נעולה. חלק מהתכונות מושבתות במצב כזה, ולכן יש אפליקציות שלא יעבדו. כדי לחזור למצב ייצור, צריך לנעול את תוכנת האתחול של המכשיר. אפשר ללחוץ כדי לקרוא עוד."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"‏המכשיר נמצא במצב שמסתגל לגודל הדף, והגודל הנוכחי הוא 4KB. במצב הזה, תקינות התוכנה לא מובטחת. כל הנתונים שמאוחסנים בטלפון נמצאים בסיכון בזמן שתוכנת האתחול לא נעולה. חלק מהתכונות מושבתות במצב כזה, ולכן יש אפליקציות שלא יעבדו. כדי לחזור למצב ייצור, צריך לנעול את תוכנת האתחול של המכשיר. הפעולה הזו תחזיר את המכשיר למצב מאופס, עם ההגדרות הייצור המקוריות. אחרי שהמכשיר יאותחל ומערכת Android תיטען כראוי, עליך להשבית את האפשרות \'ביטול נעילה של OEM\' בדף \'אפשרויות למפתחים\'. אם אתחול המכשיר נכשל ומערכת Android לא נטענת כראוי, או שהמכשיר לא מתפקד ביציבות, צריך לבצע התקנת ROM של קובצי האימג\' העדכניים של הקושחה המקורית. כדי לעשות את זה, עוברים לכתובת &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers .google.com/android/images&lt;/a&gt; או משתמשים ב-&lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; ובוחרים באפשרות \'איפוס נתונים במכשיר\' > \'נעילת תוכנת האתחול\' > \'כפיית עדכון על כל המחיצות\'."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"‏מצב שמסתגל לגודל הדף: 16KB"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"‏הפעילות שלך מתרחשת במצב שמסתגל לגודל דף של 16KB. לא בטוח שהתוכנה תעבוד כראוי במצב הזה, וכל הנתונים שמאוחסנים בטלפון עלולים להיות בסיכון בזמן שתוכנת האתחול לא נעולה. חלק מהתכונות יושבתו במצבים האלה, כך שחלק מהאפליקציות לא יפעלו. כדי להיכנס שוב למצב ייצור, עליך לחזור למצב 4KB ואז לנעול את תוכנת האתחול של המכשיר. אפשר ללחוץ כדי לקרוא עוד."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"‏המכשיר נמצא במצב שמסתגל לגודל הדף, והגודל הנוכחי הוא 16KB. במצב הזה, תקינות התוכנה לא מובטחת. כל הנתונים שמאוחסנים בטלפון נמצאים בסיכון בזמן שתוכנת האתחול לא נעולה. חלק מהתכונות מושבתות במצב כזה, ולכן יש אפליקציות שלא יעבדו. כדי לחזור למצב ייצור, צריך לחזור למצב 4KB לנעול את תוכנת האתחול של המכשיר. הפעולה הזו תחזיר את המכשיר למצב מאופס, עם ההגדרות הייצור המקוריות. אחרי שהמכשיר יאותחל ומערכת Android תיטען כראוי, עליך להשבית את האפשרות \'ביטול נעילה של OEM\' בדף \'אפשרויות למפתחים\'. אם אתחול המכשיר נכשל ומערכת Android לא נטענת כראוי, או שהמכשיר לא מתפקד ביציבות, צריך לבצע התקנת ROM של קובצי האימג\' העדכניים של הקושחה המקורית. כדי לעשות את זה, עוברים לכתובת &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers .google.com/android/images&lt;/a&gt; או משתמשים ב-&lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; ובוחרים באפשרות \'איפוס נתונים במכשיר\' > \'נעילת תוכנת האתחול\' > \'כפיית עדכון על כל המחיצות\'."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"‏מצב לא מותאם לדף של 16KB"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"עוד פרטים"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"הפעלת האפליקציה במצב של תאימות לגודל הדף"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"‏במכשיר עם גודל דף של 16KB, האפליקציה תפעל במצב תאימות."</string>
@@ -5590,8 +5607,7 @@
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"סגירה"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"אפשר לחבר עוד זוג אוזניות תואמות, או לשתף את השם והסיסמה של השידור שלך עם האדם השני"</string>
     <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"ניתן להציע לאחרים לסרוק את הקוד הזה כדי להאזין לאודיו\n\nשם השידור: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nסיסמה: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
-    <!-- no translation found for audio_sharing_dialog_qr_code_content_no_password (7824076083031650113) -->
-    <skip />
+    <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"ניתן להציע לאחרים לסרוק את הקוד הזה כדי להאזין לאודיו\n\nשם השידור: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"אפשר גם להתאים זוג נוסף של אוזניות תואמות"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"‏אפשר להתאים זוג נוסף של אוזניות תואמות, או לשתף את קוד ה-QR של שידור האודיו שלך עם האדם השני"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"מתבצע שיתוף של האודיו"</string>

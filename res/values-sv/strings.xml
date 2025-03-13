@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Pausad"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Ingen uppgift"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Förhandsgranskning"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Föregående förhandsgranskning"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Nästa förhandsgranskning"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR-kod"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Förminska"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Förstora"</string>
@@ -77,7 +75,7 @@
     <string name="bluetooth_pair_other_ear_dialog_right_ear_message" msgid="631521133525979967">"Höger hörhjälpmedel har anslutits.\n\nOm du vill parkoppla det vänstra kontrollerar du att det är på och i parkopplingsläge."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button" msgid="533612082529204078">"Parkoppla höger"</string>
     <string name="bluetooth_pair_other_ear_dialog_left_ear_positive_button" msgid="6500192653171220257">"Parkoppla vänster"</string>
-    <string name="bluetooth_hearing_device_settings_title" msgid="6060072560486755057">"Inställningar för hörapparat"</string>
+    <string name="bluetooth_hearing_device_settings_title" msgid="6060072560486755057">"Inställningar för hörhjälpmedel"</string>
     <string name="bluetooth_hearing_device_settings_summary" msgid="3822646075744075158">"Genväg, kompatibilitet med hörapparat"</string>
     <string name="bluetooth_hearing_aids_presets" msgid="4615094985857156388">"Förinställning"</string>
     <string name="bluetooth_hearing_aids_presets_empty_list_message" msgid="4240241268432643259">"Inga förinställningar har gjorts av din audionom"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Om ljudutgång"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Dirigera ljud till hörapparaten eller telefonens högtalare"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Relaterat"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Ringsignal och alarm"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Ljud under samtal"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Medie- och systemljud"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Använd mustangenter"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Använd tangentbordet för att styra pekaren"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Omvänd scrollning"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Innehållet flyttas uppåt när du scrollar nedåt"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Scrolla uppåt för att flytta sidan nedåt"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Byt primär musknapp"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Använd vänster musknapp som höger"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Marköracceleration"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Feedback"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Hjälp oss att bli bättre genom att svara på en enkät"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Inga enkäter är tillgängliga"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Skicka feedback"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Nedladdade appar"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Experimentella"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Funktionsflaggor"</string>
@@ -4365,8 +4372,7 @@
     <string name="disconnected" msgid="3469373726996129247">"Ingen anslutning"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Inte anslutet"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> appar har installerats"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> används – <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> ledigt"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Mörkt tema, teckenstorlek, ljusstyrka"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Genomsnittlig minnesanvändning: <xliff:g id="USED_MEMORY">%1$s</xliff:g> av <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Inloggad som <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4435,8 +4441,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Användning av ethernetdata"</string>
     <string name="wifi" msgid="2932584495223243842">"Wifi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"Ethernet <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> mobildata"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> wifi-data"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> ethernetdata"</string>
@@ -5011,12 +5016,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"satellitanslutning"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"satellitmeddelanden"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Dataanvändning ingår i ditt konto"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Appar som stöds på telefonen"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"se alla appar"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Appar som stöds på telefonen"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Namn på åtkomstpunkter"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Inte tillgänglig vid anslutning till <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5184,27 +5186,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Information om jobbpolicy"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Inställningar som hanteras av IT-administratören"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"Grafikprocessor"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Starta med sidstorlek på 16 kB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Starta med kärna kompatibel med sidor på 16 kB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Byta från 4 kB-läge till 16 kB-läge"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Du använder ett sidagnostiskt läge med en kärna på 4 kB och byter till läget med 16 kB. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. Åtgärden startar om enheten. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återställa produktionsläget på enheten måste du byta tillbaka till 4 kB-läget och låsa starthanteraren. Enheten återställs då till standardinställningarna. När enheten startas med Android ska du inaktivera OEM-upplåsning i utvecklaralternativen."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Byt från 16 kB-läge till 4 kB-läge"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Du använder ett sidagnostiskt läge med en kärna på 16 kB och byter till läget med 4 KB. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. Åtgärden startar om enheten. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återställa produktionsläget på enheten måste du låsa starthanteraren. Enheten återställs då till standardinställningarna. När enheten startas med Android ska du inaktivera OEM-upplåsning i utvecklaralternativen."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Det gick inte att uppdatera kärnan till en kärna som är kompatibel med sidor på 16 kB."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Tillämpar ändring"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Vill du formatera om enheten till ext4? (krävs för 16 kB-läge)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Du måste konvertera enhetens datapartition till ext4 innan du använder utvecklaralternativet för 16 kB. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. Om du aktiverar 16 kB-alternativet måste du starta om en gång till efteråt. När läget är aktiverat kan du byta fram och tillbaka mellan 4 kB och 16 kB genom att starta om. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återställa produktionsläget på enheten måste du byta tillbaka till 4 kB-läget och låsa starthanteraren. Enheten återställs då till standardinställningarna. När enheten startas med Android ska du inaktivera OEM-upplåsning i utvecklaralternativen. Enheten rensas och filsystemet ändras till ext4 när du har bekräftat. När det är klart kommer du tillbaka för att aktivera 16 kB igen."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Radera all data"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Det gick inte att formatera om och rensa datapartionen till ext4."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Starthanteraren måste låsas upp"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Starthanteraren måste vara upplåst på den här enheten innan du kan använda utvecklaralternativet för 16 kB. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. Alla användaruppgifter och inställningar rensas när 16 kB-läget aktiveras. När starthanteraren har låsts upp krävs två omstarter för att aktivera 16 kB-alternativet. När läget är aktiverat kan du byta fram och tillbaka mellan 4 kB och 16 kB genom att starta om. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återställa produktionsläget på enheten måste du byta tillbaka till 4 kB-läget och låsa OEM/starthanteraren. Enheten återställs då till standardinställningarna. Lås upp starthanteraren och försök igen. Du hittar anvisningar om hur du gör detta på &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"4 kB-versionen av det sidagnostiska läget används"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Du använder 4 kB-versionen av det sidagnostiska läget. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återgå till produktionsläget måste du låsa starthanteraren på enheten. Tryck för att läsa mer."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Du använder 4 kB-versionen av det sidagnostiska läget. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återgå till produktionsläget måste du låsa starthanteraren på enheten. Detta återställer enheten till produktionsinställningarna igen. När enheten startas med Android ska du inaktivera OEM-upplåsning i utvecklaralternativen. Om det inte går att starta enheten med Android eller om den inte är stabil flashar du om enheten med de senaste systemavbildningarna från &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; or use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; och väljer Rensa enhet, Lås starthanteraren och Tvångsflasha alla partitioner."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"16 kB-versionen av det sidagnostiska läget används"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Du använder 16 kB-versionen av det sidagnostiska läget. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återgå till produktionsläget måste du byta tillbaka till 4 kB-läget och sedan låsa starthanteraren på enheten. Tryck för att läsa mer."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Du använder 16 kB-versionen av det sidagnostiska läget. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återgå till produktionsläget måste du byta tillbaka till 4 kB-läget och sedan låsa starthanteraren på enheten. Detta återställer enheten till produktionsinställningarna igen. När enheten startas med Android ska du inaktivera OEM-upplåsning i utvecklaralternativen. Om det inte går att starta enheten med Android eller om den inte är stabil flashar du om enheten med de senaste systemavbildningarna från &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; or use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; och väljer Rensa enhet, Lås starthanteraren och Tvångsflasha alla partitioner."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"16 kB-versionen av det sidagnostiska läget"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Läs mer"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Kör appen i kompatibilitetsläge för sidstorlek"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Appen körs i kompatibilitetsläge för sidstorlek på enheter med stöd för 16 kB."</string>
@@ -5613,8 +5632,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Inaktivera ljuddelning"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Om du vill parkoppla en ny enhet måste du först stänga av ljuddelning."</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Stäng av"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"Dela ljud med <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Ansut till en LE Audio-stream"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Ljudstreamar i närheten"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"Ljudstreamar"</string>
@@ -5644,12 +5662,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Streamen har pausats"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Sluta lyssna"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Anslut kompatibla hörlurar"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Inaktivera TalkBack tillfälligt"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"TalkBack kan inte användas när du lyssnar på ljudstreamar. Inaktivera TalkBack för att börja lyssna."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Inaktivera"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Anslut en enhet"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Information om ljudstream"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"QR-kod för ljudstream"</string>

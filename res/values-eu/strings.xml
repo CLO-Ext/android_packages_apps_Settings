@@ -41,8 +41,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Aldi baterako etenda"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Ezezaguna"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Aurrebista"</string>
-    <string name="preview_pager_previous_button" msgid="607771113300838313">"Aurreko aurrebista"</string>
-    <string name="preview_pager_next_button" msgid="8700907912508927271">"Hurrengo aurrebista"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR kodea"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Txikitu"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Handitu"</string>
@@ -99,6 +97,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Audio-irteerari buruz"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Bideratu soinuak entzumen-gailura edo telefonoaren bozgorailura"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Antzekoak"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Tonua eta alarmak"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Deietako audioa"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Multimedia-eduki eta sistemaren soinuak"</string>
@@ -2050,7 +2052,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Erabili saguaren teklak"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Erabili teklatua erakuslea kontrolatzeko"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Gora edo behera alderantziz egitea"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Edukia gora eramaten da behera egitean"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Egin gora orria beherantz mugitzeko"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Aldatu saguaren botoi nagusia"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Erabili saguaren ezkerreko botoia eskuinekoa balitz bezala"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Kurtsorearen azelerazioa"</string>
@@ -2231,8 +2239,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Iritzia"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Lagun iezaguzu hobetzen inkesta bati erantzunda"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Ez dago inkestarik erabilgarri"</string>
-    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
-    <skip />
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Bidali oharrak"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Deskargatutako aplikazioak"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Esperimentalak"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Eginbideen markak"</string>
@@ -2387,7 +2394,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Kontraste handiko testua"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"Aldatu testuaren kolorea beltzera edo zurira. Atzeko planoarekiko kontrastea handitzen du."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Hobetu testuaren kontrastea"</string>
-    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> erabili da <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> ordezteko. Hura aktibatzeko, joan <xliff:g id="SETTINGS">%3$s</xliff:g> atalera."</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"\"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g>\" erabili da <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g> ordezteko. Hura aktibatzeko, joan <xliff:g id="SETTINGS">%3$s</xliff:g> atalera."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Joan hona: <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Gehitu ingerada testuan"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Gehitu atzeko plano beltz edo zuri bat testuaren inguruan, kontrastea handitzeko"</string>
@@ -5011,12 +5018,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"satelite bidezko konexioa"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"satelite bidezko mezularitza"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Datuen erabilera kontuarekin dator"</string>
-    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
-    <skip />
-    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
-    <skip />
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Telefonoko aplikazio bateragarriak"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"ikusi aplikazio guztiak"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Telefonoko aplikazio bateragarriak"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Sarbide-puntuen izenak"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APNa"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Ez dago erabilgarri <xliff:g id="CARRIER">%1$s</xliff:g> operadorera konektatuta egoteagatik"</string>
@@ -5184,27 +5188,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Laneko gidalerroen informazioa"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"IKT saileko administratzaileak kudeatzen ditu ezarpenak"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPUa"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Abiarazi 16 kB-ko orri-tamainarekin"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Abiarazi gailua 16 kB-ko orrien kernel bateragarriarekin"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Aldatu 4 kB-ko modutik 16 kB-ko modura"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Orri-tamaina guztiekin bateragarria den moduan zaude, 4 kB-ko kernel bat exekutatzen, eta 16 kB-ko modura aldatzera zoaz. Modu horretan ezin da bermatu softwarearen osotasuna, eta baliteke telefonoan gordetako datuak arriskuan egotea sistema eragilearen abiarazlea desblokeatuta dagoen bitartean. Gailua berrabiaraziko da. Modu horietan, eginbide batzuk desgaituko dira; beraz, baliteke aplikazio batzuek ez funtzionatzea. Gailua jatorrizko modura itzultzeko, aldatu berriro 4 kB-ko modura eta blokeatu sistema eragilearen abiarazlea. Gailuaren jatorrizko datuak berrezarriko dira. Gailuak Android behar bezala abiarazten duenean, desgaitu OEMa desblokeatzeko aukera Garatzaileentzako aukerak atalean."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Aldatu 16 kB-ko modutik 4 kB-ko modura"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Orri-tamaina guztiekin bateragarria den moduan zaude, 16 kB-ko kernel bat exekutatzen, eta 4 kB-ko modura aldatzera zoaz. Modu horretan ezin da bermatu softwarearen osotasuna, eta baliteke telefonoan gordetako datuak arriskuan egotea sistema eragilearen abiarazlea desblokeatuta dagoen bitartean. Gailua berrabiaraziko da. Modu horietan, eginbide batzuk desgaituko dira; beraz, baliteke aplikazio batzuek ez funtzionatzea. Gailua jatorrizko modura itzultzeko, blokeatu sistema eragilearen abiarazlea. Gailuaren jatorrizko datuak berrezarriko dira. Gailuak Android behar bezala abiarazten duenean, desgaitu OEMa desblokeatzeko aukera Garatzaileentzako aukerak atalean."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Ezin izan da bertsio-berritu kernel-a 16 kB-ko orriekin bateragarria izan dadin."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Aldaketa aplikatzen"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Gailua ext4-ra formateatu nahi duzu? Hori beharrezkoa da 16 kB-ko modurako."</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Gailu honen datuen partizioa ext4-ra bihurtu behar da 16 kB-ko garatzaileentzako aukera erabili baino lehen. Modu horretan ezin da bermatu softwarearen osotasuna, eta baliteke telefonoan gordetako datuak arriskuan egotea sistema eragilearen abiarazlea desblokeatuta dagoen bitartean. 16 kB-ko aukera aktibatzeko, berriro berrabiarazi beharko da berrabiarazte honen ondoren. Modu horretan zaudenean, 4 kB-ko eta 16 kB-ko moduen artean aldatu ahal izango duzu behin soilik berrabiarazita. Modu horietan, eginbide batzuk desgaituko dira; beraz, baliteke aplikazio batzuek ez funtzionatzea. Gailua jatorrizko modura itzultzeko, aldatu berriro 4 kB-ko modura eta blokeatu sistema eragilearen abiarazlea. Gailuaren jatorrizko datuak berrezarriko dira. Gailuak Android behar bezala abiarazten duenean, desgaitu OEMa desblokeatzeko aukera Garatzaileentzako aukerak atalean. Berretsi ondoren, gailua xahutuko da eta fitxategi-sistema ext4-ra aldatuko da. Prozesu hori osatu ondoren, itzuli hona 16 kB-ko modua berriro gaitzeko."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Ezabatu datu guztiak"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Ezin izan da formateatu eta xahutu datu-partizioa ext4-ra."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Sistema eragilearen abiarazlea desblokeatu behar da"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"16 kB-ko garatzaileentzako aukera erabili baino lehen, gailuaren sistema eragilearen abiarazlea desblokeatu behar da. Modu horretan ezin da bermatu softwarearen osotasuna, eta baliteke telefonoan gordetako datuak arriskuan egotea sistema eragilearen abiarazlea desblokeatuta dagoen bitartean. 16 kB-ko modua aktibatzean, erabiltzaile-datu eta -ezarpen guztiak xahutuko dira. Sistema eragilearen abiarazlea desblokeatu ondoren, gailua 2 aldiz berrabiarazi beharko da 16 kB-ko moduaren aukera aktibatzeko. Modu horretan zaudenean, 4 kB-ko eta 16 kB-ko moduen artean aldatu ahal izango duzu behin soilik berrabiarazita. Modu horietan, eginbide batzuk desgaituko dira; beraz, baliteke aplikazio batzuek ez funtzionatzea. Gailua jatorrizko modura itzultzeko, aldatu berriro 4 kB-ko modura eta blokeatu gailuaren sistema eragilearen abiarazlea edo OEMa. Gailuaren jatorrizko datuak berrezarriko dira. Desblokeatu sistema eragilearen abiarazlea eta saiatu berriro. Hori egiteko argibideak jasotzeko, joan &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt; helbidera."</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"Orri-tamaina guztiekin bateragarria den 4 kB-ko modua erabiltzen"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Orri-tamaina guztiekin bateragarria den moduko 4 kB-ko moduan zaude. Modu horretan ezin da bermatu softwarearen osotasuna, eta baliteke telefonoan gordetako datuak arriskuan egotea sistema eragilearen abiarazlea desblokeatuta dagoen bitartean. Modu horietan, eginbide batzuk desgaituko dira; beraz, baliteke aplikazio batzuek ez funtzionatzea. Jatorrizko modura itzultzeko, blokeatu gailuaren sistema eragilearen abiarazlea. Informazio gehiago irakurtzeko, sakatu hau."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Orri-tamaina guztiekin bateragarria den moduko 4 kB-ko moduan zaude. Modu horretan ezin da bermatu softwarearen osotasuna, eta baliteke telefonoan gordetako datuak arriskuan egotea sistema eragilearen abiarazlea desblokeatuta dagoen bitartean. Modu horietan, eginbide batzuk desgaituko dira; beraz, baliteke aplikazio batzuek ez funtzionatzea. Jatorrizko modura itzultzeko, blokeatu gailuaren sistema eragilearen abiarazlea. Gailuaren jatorrizko datuak berrezarriko dira, eta jatorrizko ezarpenetara leheneratuko. Gailuak Android behar bezala abiarazten duenean, desgaitu OEMa desblokeatzeko aukera Garatzaileentzako aukerak atalean. Gailuak Android abiarazi ezin badu edo ezegonkorra bada, instala itzazu fabrikako firmwarearen azken irudiak (&lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; helbidetik) gailuan. Bestela, erabili &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; eta hautatu \"Wipe Device\" (xahutu gailua), \"Lock Bootloader\" (blokeatu sistema eragilearen abiarazlea) eta \"Force Flash all partitions\" (behartu partizio guztiak berriro instalatzera)."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"Orri-tamaina guztiekin bateragarria den 16 kB-ko modua erabiltzen"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Orri guztiekin bateragarria den moduko 16 kB-ko moduan zaude. Modu horretan ezin da bermatu softwarearen osotasuna, eta baliteke telefonoan gordetako datuak arriskuan egotea sistema eragilearen abiarazlea desblokeatuta dagoen bitartean. Modu horietan, eginbide batzuk desgaituko dira; beraz, baliteke aplikazio batzuek ez funtzionatzea. Jatorrizko modura itzultzeko, aldatu berriro 4 kB-ko modura eta blokeatu gailuaren sistema eragilearen abiarazlea. Informazio gehiago irakurtzeko, sakatu hau."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Orri guztiekin bateragarria den moduko 16 kB-ko moduan zaude. Modu horretan ezin da bermatu softwarearen osotasuna, eta baliteke telefonoan gordetako datuak arriskuan egotea sistema eragilearen abiarazlea desblokeatuta dagoen bitartean. Modu horietan, eginbide batzuk desgaituko dira; beraz, baliteke aplikazio batzuek ez funtzionatzea. Jatorrizko modura itzultzeko, aldatu berriro 4 kB-ko modura eta blokeatu gailuaren sistema eragilearen abiarazlea. Gailuaren jatorrizko datuak berrezarriko dira, eta jatorrizko ezarpenetara leheneratuko. Gailuak Android behar bezala abiarazten duenean, desgaitu OEMa desblokeatzeko aukera Garatzaileentzako aukerak atalean. Gailuak Android abiarazi ezin badu edo ezegonkorra bada, instala itzazu fabrikako firmwarearen azken irudiak (&lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; helbidetik) gailuan. Bestela, erabili &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; eta hautatu \"Wipe Device\" (xahutu gailua), \"Lock Bootloader\" (blokeatu sistema eragilearen abiarazlea) eta \"Force Flash all partitions\" (behartu partizio guztiak berriro instalatzera)."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"Orri-tamaina guztiekin bateragarria den 16 kB-ko modua"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Irakurri informazio gehiago"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Exekutatu aplikazioa orriaren tamainarekin bateragarria den modua erabilita"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"16 KB-ko gailuetan, orriaren tamainarekin bateragarria den modua erabilita exekutatuko da aplikazioa, aukera hori gaituta dagoenean."</string>
@@ -5644,12 +5665,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Zuzeneko igorpena pausatu da"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Utzi entzuteari"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Konektatu entzungailu bateragarriak"</string>
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
-    <skip />
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Desaktibatu TalkBack aldi baterako"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"TalkBack ezin da erabili zuzeneko audio-erreprodukzioak entzutean. Entzuten hasteko, desaktibatu TalkBack."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Desaktibatu"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Konektatu gailu bat"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Zuzeneko audio-igorpenaren xehetasunak"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Zuzeneko audio-igorpenaren QR kodea"</string>
