@@ -178,6 +178,12 @@
     <string name="bluetooth_ambient_volume_control_left">Left</string>
     <!-- Connected devices settings. The text to show the control is for right side device. [CHAR LIMIT=30] -->
     <string name="bluetooth_ambient_volume_control_right">Right</string>
+    <!-- Connected devices settings. Content description for unified ambient control slider. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_ambient_volume_control_description">Surroundings</string>
+    <!-- Connected devices settings. Content description for left ambient control slider. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_ambient_volume_control_left_description">Left surroundings</string>
+    <!-- Connected devices settings. Content description for right ambient control slider.. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_ambient_volume_control_right_description">Right surroundings</string>
     <!-- Connected devices settings. Content description for a button, that mute ambient volume [CHAR_LIMIT=NONE] -->
     <string name="bluetooth_ambient_volume_mute">Mute surroundings</string>
     <!-- Connected devices settings. Content description for a button, that unmute ambient volume [CHAR LIMIT=NONE] -->
@@ -536,6 +542,8 @@
     <string name="language_selection_title">Add a language</string>
     <!-- Title for the region picker [CHAR LIMIT=25] -->
     <string name="region_selection_title">Choose a region</string>
+    <!-- Title for the numbering system selection screen [CHAR LIMIT=25] -->
+    <string name="numbering_system_selection_title">Number System</string>
     <!-- Title for the region selection screen [CHAR LIMIT=25] -->
     <string name="country_selection_title">Region preference</string>
     <!-- Hint text in a search edit box (used to filter long language / country lists) [CHAR LIMIT=25] -->
@@ -551,7 +559,7 @@
     <!-- Message for asking to change system locale region or not. [CHAR LIMIT=50]-->
     <string name="body_change_system_locale_region">Your device will keep <xliff:g id="system_language" example="English">%1$s</xliff:g> as a system language</string>
     <!-- Description for the numbering system language. [CHAR LIMIT=NONE]-->
-    <string name="top_intro_numbering_system_title">Most apps will use your regional preferences</string>
+    <string name="top_intro_numbering_system_title">Choose how your device, websites, and apps display numbers</string>
 
     <!-- Regional Preferences begin -->
     <!-- The title of the menu entry of regional preferences. [CHAR LIMIT=50] -->
@@ -7070,7 +7078,8 @@ Data usage charges may apply.</string>
 
     <!-- Message displayed to let the user know that some of the options are disabled by admin. [CHAR LIMIT=NONE] -->
     <string name="admin_disabled_other_options">Other options are disabled by your admin</string>
-    <string name="admin_more_details">Learn more</string>
+    <!-- Text on the link that lets user learn more about restricted screen timeout options. [CHAR LIMIT=NONE] -->
+    <string name="admin_more_details">Learn more about disabled screen timeout options</string>
     <string name="notification_log_title">Notification log</string>
 
     <string name="notification_history_title">Notification history</string>
@@ -9419,7 +9428,7 @@ Data usage charges may apply.</string>
     <string name="nls_feature_settings_summary">It can turn Do Not Disturb on or off and change related settings.</string>
     <string name="nls_feature_modes_settings_summary">It can manage and activate Modes, and change related settings.</string>
     <string name="notification_listener_disable_warning_summary">
-        If you turn off notification access for <xliff:g id="notification_listener_name">%1$s</xliff:g>, Do Not Disturb access may also be turned off.
+        If you turn off notification access for <xliff:g id="notification_listener_name">%1$s</xliff:g>, Do Not Disturb control may also be turned off.
     </string>
     <string name="notification_listener_disable_modes_warning_summary">
         If you turn off notification access for <xliff:g id="notification_listener_name">%1$s</xliff:g>, Modes access may also be turned off.
@@ -9602,14 +9611,14 @@ Data usage charges may apply.</string>
     The placeholder would be the app name (e.g. Calendar). [CHAR LIMIT=NONE]-->
     <string name="interact_across_profiles_install_app_summary">Tap to get the app</string>
 
-    <!-- Sound & notification > Advanced section: Title for managing Do Not Disturb access option. [CHAR LIMIT=40] -->
-    <string name="manage_zen_access_title">Do Not Disturb access</string>
+    <!-- Sound & notification > Advanced section: Title for managing Do Not Disturb control option. [CHAR LIMIT=40] -->
+    <string name="manage_zen_access_title">Do Not Disturb control</string>
 
     <!-- Button title that grants 'Do Not Disturb' permission to an app [CHAR_LIMIT=60]-->
     <string name="zen_access_detail_switch">Allow Do Not Disturb</string>
 
-    <!-- Sound & notification > Do Not Disturb access > Text to display when the list is empty. [CHAR LIMIT=NONE] -->
-    <string name="zen_access_empty_text">No installed apps have requested Do Not Disturb access</string>
+    <!-- Sound & notification > Do Not Disturb control > Text to display when the list is empty. [CHAR LIMIT=NONE] -->
+    <string name="zen_access_empty_text">No installed apps have requested Do Not Disturb control</string>
 
     <!-- Special App Access: Title for managing Modes access option. [CHAR LIMIT=40] -->
     <string name="manage_zen_modes_access_title">Modes access</string>
@@ -9617,7 +9626,7 @@ Data usage charges may apply.</string>
     <!-- Button title that grants 'Modes' permission to an app [CHAR_LIMIT=60]-->
     <string name="zen_modes_access_detail_switch">Allow Modes access</string>
 
-    <!-- Special App Access > Do Not Disturb access > Text to display when the list is empty. [CHAR LIMIT=NONE] -->
+    <!-- Special App Access > Do Not Disturb control > Text to display when the list is empty. [CHAR LIMIT=NONE] -->
     <string name="zen_modes_access_empty_text">No installed apps have requested Modes access</string>
 
     <!-- [CHAR LIMIT=NONE] Text appearing when app notifications are off -->
