@@ -22,23 +22,25 @@
     <com.android.settingslib.widget.TopIntroPreference
         android:key="accessibility_autoclick_intro"
         android:title="@string/accessibility_autoclick_intro_text"
-        settings:searchable="false"
-        android:order="10"/>
+        settings:searchable="false"/>
 
     <com.android.settingslib.widget.IllustrationPreference
         android:key="accessibility_autoclick_banner"
         android:selectable="false"
         settings:searchable="false"
-        settings:lottie_rawRes="@drawable/accessibility_dwell"
-        android:order="20"/>
+        settings:lottie_rawRes="@drawable/accessibility_dwell"/>
+
+    <com.android.settings.accessibility.ShortcutPreference
+        android:key="autoclick_shortcut_preference"
+        android:title="@string/accessibility_autoclick_shortcut_title"
+        android:persistent="false"/>
 
     <!-- Items in a list should not be searchable. -->
     <com.android.settingslib.widget.SelectorWithWidgetPreference
         android:key="accessibility_control_autoclick_default"
         android:title="@string/accessibility_autoclick_default_title"
         settings:searchable="false"
-        settings:controller="com.android.settings.accessibility.ToggleAutoclickPreferenceController"
-        android:order="30"/>
+        settings:controller="com.android.settings.accessibility.ToggleAutoclickPreferenceController"/>
 
     <!-- Items in a list should not be searchable. -->
     <com.android.settingslib.widget.SelectorWithWidgetPreference
@@ -46,8 +48,7 @@
         android:title="@string/accessibility_autoclick_short_title"
         android:summary="@string/accessibility_autoclick_short_summary"
         settings:searchable="false"
-        settings:controller="com.android.settings.accessibility.ToggleAutoclickPreferenceController"
-        android:order="31"/>
+        settings:controller="com.android.settings.accessibility.ToggleAutoclickPreferenceController"/>
 
     <!-- Items in a list should not be searchable. -->
     <com.android.settingslib.widget.SelectorWithWidgetPreference
@@ -55,8 +56,7 @@
         android:title="@string/accessibility_autoclick_medium_title"
         android:summary="@string/accessibility_autoclick_medium_summary"
         settings:searchable="false"
-        settings:controller="com.android.settings.accessibility.ToggleAutoclickPreferenceController"
-        android:order="32"/>
+        settings:controller="com.android.settings.accessibility.ToggleAutoclickPreferenceController"/>
 
     <!-- Items in a list should not be searchable. -->
     <com.android.settingslib.widget.SelectorWithWidgetPreference
@@ -64,16 +64,14 @@
         android:title="@string/accessibility_autoclick_long_title"
         android:summary="@string/accessibility_autoclick_long_summary"
         settings:searchable="false"
-        settings:controller="com.android.settings.accessibility.ToggleAutoclickPreferenceController"
-        android:order="33"/>
+        settings:controller="com.android.settings.accessibility.ToggleAutoclickPreferenceController"/>
 
     <!-- Items in a list should not be searchable. -->
     <com.android.settingslib.widget.SelectorWithWidgetPreference
         android:key="accessibility_control_autoclick_custom"
         android:title="@string/accessibility_autoclick_custom_title"
         settings:searchable="false"
-        settings:controller="com.android.settings.accessibility.ToggleAutoclickPreferenceController"
-        android:order="34"/>
+        settings:controller="com.android.settings.accessibility.ToggleAutoclickPreferenceController"/>
 
     <com.android.settingslib.widget.LayoutPreference
         android:key="autoclick_custom_seekbar"
@@ -81,28 +79,24 @@
         android:selectable="false"
         android:visibility="gone"
         settings:searchable="false"
-        settings:controller="com.android.settings.accessibility.ToggleAutoclickCustomSeekbarController"
-        android:order="40"/>
+        settings:controller="com.android.settings.accessibility.ToggleAutoclickCustomSeekbarController"/>
 
     <Preference
         android:key="accessibility_control_autoclick_cursor_area_size"
         android:persistent="false"
         settings:searchable="false"
         android:title="@string/autoclick_cursor_area_size_title"
-        settings:controller="com.android.settings.accessibility.ToggleAutoclickCursorAreaSizeController"
-        android:order="50"/>
+        settings:controller="com.android.settings.accessibility.ToggleAutoclickCursorAreaSizeController"/>
 
     <SwitchPreferenceCompat
         android:key="accessibility_control_autoclick_ignore_minor_cursor_movement"
         android:title="@string/autoclick_ignore_minor_cursor_movement_title"
-        settings:controller="com.android.settings.accessibility.ToggleAutoclickIgnoreMinorCursorMovementController"
-        android:order="60"/>
+        settings:controller="com.android.settings.accessibility.ToggleAutoclickIgnoreMinorCursorMovementController"/>
 
     <com.android.settings.accessibility.AccessibilityFooterPreference
         android:key="accessibility_autoclick_footer"
         android:title="@string/accessibility_autoclick_description"
         android:selectable="false"
         settings:searchable="false"
-        settings:controller="com.android.settings.accessibility.ToggleAutoclickFooterPreferenceController"
-        android:order="70"/>
+        settings:controller="com.android.settings.accessibility.ToggleAutoclickFooterPreferenceController"/>
 </PreferenceScreen>
