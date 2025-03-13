@@ -893,7 +893,8 @@
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"נעילת המסך כבר שונתה. צריך לנסות שוב עם נעילת המסך החדשה."</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"ביטול"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"הבא"</string>
-    <string name="manage_device_admin" msgid="1044620606203916275">"אפליקציות לניהול המכשיר"</string>
+    <!-- no translation found for manage_device_admin (7272894919651600481) -->
+    <skip />
     <string name="number_of_device_admins_none" msgid="152926922020437312">"אין אפליקציות פעילות"</string>
     <string name="number_of_device_admins" msgid="3402909995362162876">"{count,plural, =1{אפליקציה פעילה אחת (#)}one{# אפליקציות פעילות}two{# אפליקציות פעילות}other{# אפליקציות פעילות}}"</string>
     <string name="manage_trust_agents" msgid="6410149930029992356">"סביבות אמינות"</string>
@@ -2238,6 +2239,8 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"משוב"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"מילוי סקר כדי לעזור לנו להשתפר"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"אין סקרים זמינים"</string>
+    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
+    <skip />
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"אפליקציות שהורדת"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"ניסיוני"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"סימוני תכונות"</string>
@@ -2494,10 +2497,8 @@
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"המשך"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"מכשירי שמיעה"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"‏הגדרה וניהול של מכשירי שמיעה של ASHA ו-LE Audio, שתלי שבלול ומכשירי הגברה אחרים"</string>
-    <!-- no translation found for accessibility_hearingaid_asha_only_intro (7402419984664822832) -->
-    <skip />
-    <!-- no translation found for accessibility_hearingaid_hap_only_intro (3332144138443825311) -->
-    <skip />
+    <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"‏הגדרה וניהול של מכשירי שמיעה של ASHA, שתלי שבלול ומכשירי הגברה אחרים"</string>
+    <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"‏הגדרה וניהול של מכשירי שמיעה של LE Audio, שתלי שבלול ומכשירי הגברה אחרים"</string>
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"אין מכשירי שמיעה מחוברים"</string>
     <string name="accessibility_hearingaid_adding_summary" msgid="999051610528600783">"הוספת מכשירי שמיעה"</string>
     <string name="accessibility_hearingaid_pair_instructions_title" msgid="2357706801112207624">"התאמת מכשירי השמיעה"</string>
@@ -2517,14 +2518,10 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"מידע על מכשירי שמיעה"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"‏כדי למצוא מכשירי שמיעה אחרים שלא נתמכים על ידי ASHA או LE Audio, צריך ללחוץ על &lt;b&gt;התאמה של מכשיר חדש&lt;/b&gt; &gt; &lt;b&gt;הצגת מכשירים נוספים&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"‏כדי למצוא מכשירי שמיעה אחרים שלא נתמכים על ידי ASHA או LE Audio, צריך ללחוץ על "<b>"התאמה של מכשיר חדש"</b>" ואז על "<b>"הצגת מכשירים נוספים"</b></string>
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary (3377169209330540616) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary_tts (8192971114504608531) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary (3531758698830915205) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary_tts (4440097982533045507) -->
-    <skip />
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"‏כדי למצוא מכשירי שמיעה אחרים שלא נתמכים על ידי ASHA, צריך ללחוץ על &lt;b&gt;התאמה של מכשיר חדש&lt;/b&gt; &gt; &lt;b&gt;הצגת מכשירים נוספים&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"‏כדי למצוא מכשירי שמיעה אחרים שלא נתמכים על ידי ASHA, צריך ללחוץ על "<b>"התאמה של מכשיר חדש"</b>" ואז על "<b>"הצגת מכשירים נוספים"</b></string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"‏כדי למצוא מכשירי שמיעה אחרים שלא נתמכים על ידי LE Audio, צריך ללחוץ על &lt;b&gt;התאמה של מכשיר חדש&lt;/b&gt; &gt; &lt;b&gt;הצגת מכשירים נוספים&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"‏כדי למצוא מכשירי שמיעה אחרים שלא נתמכים על ידי LE Audio, צריך ללחוץ על "<b>"התאמה של מכשיר חדש"</b>" ואז על "<b>"הצגת מכשירים נוספים"</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"התאמה של מכשיר השמיעה"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"‏כאן אפשר להתאים בין הטלפון למכשירי שמיעה של ASHA ו-LE Audio. לפני שמתחילים צריך לוודא שמכשיר השמיעה מופעל ומוכן להתאמה."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"מכשירי שמיעה זמינים"</string>
@@ -2975,7 +2972,8 @@
     <string name="remove_device_admin" msgid="3143059558744287259">"השבתה של האפליקציה לניהול המכשיר"</string>
     <string name="uninstall_device_admin" msgid="4481095209503956916">"הסרת ההתקנה של האפליקציה"</string>
     <string name="remove_and_uninstall_device_admin" msgid="707912012681691559">"ביטול ההפעלה והסרת ההתקנה"</string>
-    <string name="select_device_admin_msg" msgid="5501360309040114486">"אפליקציות לניהול המכשיר"</string>
+    <!-- no translation found for select_device_admin_msg (2506262585633022884) -->
+    <skip />
     <string name="no_device_admins" msgid="8888779888103079854">"אין אפליקציה זמינה של מנהל מכשיר"</string>
     <string name="no_trust_agents" msgid="8659098725864191600">"אין סביבות מהימנות זמינות"</string>
     <string name="add_device_admin_msg" msgid="7730006568970042119">"להפעיל את האפליקציה לניהול המכשיר?"</string>
@@ -3866,7 +3864,8 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"הגדרות נוספות זמינות בתוך האפליקציה הזו"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"הפוגת התראות"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"שימוש בהפוגת התראות"</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"אם קיבלת הרבה התראות תוך זמן קצר, המכשיר ינמיך את עוצמת הקול ויצמצם את ההפרעות למשך עד 2 דקות. ההפוגה לא חלה על שיחות, שעונים מעוררים ושיחות בעדיפות גבוהה. \n\nכדי למצוא את ההתראות שהתקבלו במהלך ההפוגה, מושכים למטה מראש המסך."</string>
+    <!-- no translation found for notification_polite_description (6137533404978878957) -->
+    <skip />
     <string name="notification_polite_work" msgid="8823596456640216391">"הפעלה בפרופילי העבודה"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"הפעלה באפליקציות של פרופיל העבודה"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"התראות מקובצות"</string>
@@ -4374,7 +4373,8 @@
     <string name="disconnected" msgid="3469373726996129247">"אין חיבור"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"לא מחוברת"</string>
     <string name="apps_summary" msgid="4007416751775414252">"הותקנו <xliff:g id="COUNT">%1$d</xliff:g> אפליקציות"</string>
-    <string name="storage_summary" msgid="5903562203143572768">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> בשימוש, <xliff:g id="FREE_SPACE">%2$s</xliff:g> פנויים"</string>
+    <!-- no translation found for storage_summary (7631468664968572688) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"עיצוב כהה, גודל הגופן, בהירות"</string>
     <string name="memory_summary" msgid="8221954450951651735">"ממוצע של <xliff:g id="USED_MEMORY">%1$s</xliff:g> מתוך <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> זיכרון בשימוש"</string>
     <string name="users_summary" msgid="8473589474976307510">"התחברת בתור <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4443,6 +4443,8 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"‏שימוש בנתוני Ethernet"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
+    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
+    <skip />
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> של נתונים סלולריים"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"‏<xliff:g id="AMOUNT">^1</xliff:g> של נתוני Wi-Fi"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"‏<xliff:g id="AMOUNT">^1</xliff:g> של נתוני Ethernet"</string>
@@ -4994,8 +4996,7 @@
     <string name="satellite_setting_title" msgid="2543034229989047673">"העברת הודעות באמצעות לוויין"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"שליחה וקבלה של הודעות טקסט באמצעות לוויין. השירות נכלל בחשבון שלך."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"שליחה וקבלה של הודעות טקסט באמצעות לוויין. השירות לא נכלל בחשבון שלך."</string>
-    <!-- no translation found for satellite_setting_summary_without_entitlement (5284998840770992554) -->
-    <skip />
+    <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"שליחה וקבלה של הודעות טקסט באמצעות לוויין. למידע נוסף, ניתן לפנות לספק הסלולרי."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"העברת הודעות באמצעות לוויין, קישוריות ללוויין"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"מידע על <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="title_about_satellite_setting" msgid="3563087940535642558">"אפשר לשלוח ולקבל הודעות טקסט באמצעות לוויין עם חשבון <xliff:g id="CARRIER_NAME">%1$s</xliff:g> שעומד בדרישות"</string>
@@ -5004,13 +5005,12 @@
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"העברת הודעות באמצעות לוויין לא כלולה בחשבון"</string>
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"מידע נוסף"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"איך זה עובד"</string>
-    <string name="title_satellite_connection_guide" msgid="3294802307913609072">"למה אין לך רשת סלולרית"</string>
+    <string name="title_satellite_connection_guide" msgid="3294802307913609072">"כשאין רשת סלולרית"</string>
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"הטלפון יתחבר אוטומטית ללוויין. כדי להתחבר בצורה הטובה ביותר צריך להיות בחוץ, מתחת לכיפת השמיים."</string>
     <string name="title_supported_service" msgid="4275535165812691571">"אחרי שהטלפון מתחבר ללוויין"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"אפשר לשלוח הודעות טקסט לכל אחד, כולל לשירותי החירום. הטלפון יתחבר מחדש לרשת סלולרית כשהיא תהיה זמינה."</string>
     <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"‫<xliff:g id="SUBJECT">%1$s</xliff:g> אורכת זמן רב יותר וזמינה רק בחלק מהאזורים. מזג אוויר ומבנים מסוימים עשויים להשפיע על חיבור הלוויין. אי אפשר להתקשר באמצעות לוויין. ייתכן שתהיה אפשרות לבצע שיחות חירום.\n\nיכול להיות שיעבור קצת זמן עד שהשינויים בחשבון יופיעו בהגדרות. כדי לקבל פרטים, אפשר לפנות אל <xliff:g id="CARRIER_NAME">%2$s</xliff:g>."</string>
-    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (8042240156141790447) -->
-    <skip />
+    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="8042240156141790447">"‫<xliff:g id="SUBJECT">%1$s</xliff:g> נמשכת יותר זמן, וזמינה רק בחלק מהאזורים. מזג אוויר ומבנים מסוימים עשויים להשפיע על חיבור הלוויין. אי אפשר להתקשר באמצעות לוויין. יכול להיות ששיחות חירום יפעלו. ייתכן שבאזורים מסוימים לא ניתן לשלוח הודעות טקסט לשירותי חירום.\n\nיכול לעבור זמן מסוים עד שהשינויים בחשבון יופיעו בהגדרות. כדי לקבל פרטים, אפשר לפנות אל <xliff:g id="CARRIER_NAME">%2$s</xliff:g>."</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"מידע נוסף על <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"אי אפשר להפעיל <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"כדי להפעיל <xliff:g id="FUNCTION">%1$s</xliff:g>, צריך להשבית קודם את חיבור הלוויין"</string>
@@ -5019,6 +5019,12 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"קישוריות ללוויין"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"העברת הודעות באמצעות לוויין"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"שימוש בנתונים כלול בחשבון שלך"</string>
+    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
+    <skip />
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"‏שמות של נקודות גישה (APN)"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"לא זמין כשהמכשיר מחובר ל-<xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5614,11 +5620,10 @@
     <string name="audio_sharing_retry_dialog_content" msgid="6014534433894608834">"משהו השתבש. אפשר לנסות שוב."</string>
     <string name="audio_sharing_incompatible_dialog_title" msgid="4586805264392802115">"לא ניתן לשתף אודיו עם <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_incompatible_dialog_content" msgid="3943223683620405311">"‏שיתוף אודיו פועל רק עם אוזניות שתומכות ב-LE Audio"</string>
-    <!-- no translation found for audio_sharing_block_pairing_dialog_title (1756723860075818856) -->
-    <skip />
-    <!-- no translation found for audio_sharing_block_pairing_dialog_content (6352030314206654722) -->
-    <skip />
-    <!-- no translation found for audio_sharing_turn_off_button_label (1934956352475393641) -->
+    <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"צריך להשבית את שיתוף האודיו"</string>
+    <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"כדי להתאים מכשיר חדש, קודם צריך להשבית את שיתוף האודיו."</string>
+    <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"השבתה"</string>
+    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
     <skip />
     <string name="audio_streams_category_title" msgid="4878022761829895463">"‏חיבור לשידור אודיו LE"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"שידורי אודיו בקרבת מקום"</string>
@@ -5649,6 +5654,12 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"השידור הושהה"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"עצירת ההאזנה"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"חיבור אוזניות תואמות"</string>
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
+    <skip />
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"חיבור מכשיר"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"פרטי שידור האודיו"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"‏קוד QR של שידור אודיו"</string>

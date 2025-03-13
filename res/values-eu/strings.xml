@@ -41,10 +41,8 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Aldi baterako etenda"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Ezezaguna"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Aurrebista"</string>
-    <!-- no translation found for preview_pager_previous_button (607771113300838313) -->
-    <skip />
-    <!-- no translation found for preview_pager_next_button (8700907912508927271) -->
-    <skip />
+    <string name="preview_pager_previous_button" msgid="607771113300838313">"Aurreko aurrebista"</string>
+    <string name="preview_pager_next_button" msgid="8700907912508927271">"Hurrengo aurrebista"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR kodea"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Txikitu"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Handitu"</string>
@@ -231,12 +229,9 @@
     <string name="search_region_hint" msgid="1748708432568237552">"Bilatu lurraldeak"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"Aukeratzen duzun lurraldearen arabera bistaratuko ditu telefonoak ordua, datak, tenperatura eta abar"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"Hizkuntza-ezarpen gehiago"</string>
-    <!-- no translation found for title_change_system_locale_region (1977530992614685128) -->
-    <skip />
-    <!-- no translation found for body_change_system_locale_region (9064318449821043189) -->
-    <skip />
-    <!-- no translation found for top_intro_numbering_system_title (8234587334207926397) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="1977530992614685128">"Lurraldea aldatu, eta <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g> ezarri nahi duzu?"</string>
+    <string name="body_change_system_locale_region" msgid="9064318449821043189">"Gailuan <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> mantenduko da sistemaren hizkuntza gisa"</string>
+    <string name="top_intro_numbering_system_title" msgid="8234587334207926397">"Aplikazio gehienek lurraldeko hobespenak erabiliko dituzte"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Lurraldeko hobespenak"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Ezarri unitate- eta zenbaki-hobespenak"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Eman lurraldeko hobespenen berri aplikazioei zerbitzuak pertsonaliza ditzaten."</string>
@@ -893,7 +888,8 @@
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"Dagoeneko aldatu da pantailaren blokeoa. Saiatu berriro pantailaren blokeo berriarekin."</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"Utzi"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"Hurrengoa"</string>
-    <string name="manage_device_admin" msgid="1044620606203916275">"Gailua administratzeko aplikazioak"</string>
+    <!-- no translation found for manage_device_admin (7272894919651600481) -->
+    <skip />
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Ez dago aplikaziorik aktibo"</string>
     <string name="number_of_device_admins" msgid="3402909995362162876">"{count,plural, =1{# aplikazio aktibo}other{# aplikazio aktibo}}"</string>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Fidagarritasun-agenteak"</string>
@@ -1284,12 +1280,9 @@
     <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="8102786488994263815">"Larrialdietarako helbidea"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Kokapen gisa erabiliko da larrialdi-zerbitzuetara Wi-Fi bidez deituz gero"</string>
-    <!-- no translation found for private_dns_title (1180823690693258572) -->
-    <skip />
-    <!-- no translation found for private_dns_field_require (2318400923953435586) -->
-    <skip />
-    <!-- no translation found for private_dns_hostname_invalid (5085498734835552780) -->
-    <skip />
+    <string name="private_dns_title" msgid="1180823690693258572">"Ostalari-izena"</string>
+    <string name="private_dns_field_require" msgid="2318400923953435586">"Eremua bete egin behar da"</string>
+    <string name="private_dns_hostname_invalid" msgid="5085498734835552780">"Idatzi duzun ostalari-izenak ez du balio"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Lortu informazio gehiago"</annotation>" DNS pribatuaren eginbideei buruz"</string>
     <string name="private_dns_mode_on" msgid="8878679071975375696">"Aktibatuta"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"Aktibatu Wifi bidezko deiak"</string>
@@ -2238,6 +2231,8 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Iritzia"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Lagun iezaguzu hobetzen inkesta bati erantzunda"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Ez dago inkestarik erabilgarri"</string>
+    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
+    <skip />
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Deskargatutako aplikazioak"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Esperimentalak"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Eginbideen markak"</string>
@@ -2494,10 +2489,8 @@
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"Egin aurrera"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"Entzumen-gailuak"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"Konfiguratu eta kudeatu ASHA eta kontsumo txikiko audioa darabiltzaten audifonoak, kokleako inplanteak eta beste anplifikazio-gailu batzuk"</string>
-    <!-- no translation found for accessibility_hearingaid_asha_only_intro (7402419984664822832) -->
-    <skip />
-    <!-- no translation found for accessibility_hearingaid_hap_only_intro (3332144138443825311) -->
-    <skip />
+    <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"Konfiguratu eta kudeatu ASHA darabiltzaten audifonoak, kokleako inplanteak eta beste anplifikazio-gailu batzuk"</string>
+    <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"Konfiguratu eta kudeatu kontsumo txikiko audioa darabiltzaten audifonoak, kokleako inplanteak eta beste anplifikazio-gailu batzuk"</string>
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"Ez dago entzumen-gailurik konektatuta"</string>
     <string name="accessibility_hearingaid_adding_summary" msgid="999051610528600783">"Gehitu audifonoak"</string>
     <string name="accessibility_hearingaid_pair_instructions_title" msgid="2357706801112207624">"Parekatu audifonoak"</string>
@@ -2517,14 +2510,10 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"Entzumen-gailuei buruz"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"ASHArekin edo kontsumo txikiko audioarekin bateragarriak ez diren beste entzumen-gailu batzuk aurkitzeko, sakatu &lt;b&gt;Parekatu beste gailu bat&lt;/b&gt; &gt; &lt;b&gt;Ikusi gailu gehiago&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"ASHArekin edo kontsumo txikiko audioarekin bateragarriak ez diren beste entzumen-gailu batzuk aurkitzeko, sakatu "<b>"Parekatu beste gailu bat"</b>" eta, jarraian, "<b>"Ikusi gailu gehiago"</b></string>
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary (3377169209330540616) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary_tts (8192971114504608531) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary (3531758698830915205) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary_tts (4440097982533045507) -->
-    <skip />
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"ASHArekin bateragarriak ez diren beste entzumen-gailu batzuk aurkitzeko, sakatu &lt;b&gt;Parekatu beste gailu bat&lt;/b&gt; &gt; &lt;b&gt;Ikusi gailu gehiago&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"ASHArekin bateragarriak ez diren beste entzumen-gailu batzuk aurkitzeko, sakatu "<b>"Parekatu beste gailu bat"</b>" eta, jarraian, "<b>"Ikusi gailu gehiago"</b></string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"Kontsumo txikiko audioarekin bateragarriak ez diren beste entzumen-gailu batzuk aurkitzeko, sakatu &lt;b&gt;Parekatu beste gailu bat&lt;/b&gt; &gt; &lt;b&gt;Ikusi gailu gehiago&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"Kontsumo txikiko audioarekin bateragarriak ez diren beste entzumen-gailu batzuk aurkitzeko, sakatu "<b>"Parekatu beste gailu bat"</b>" eta, jarraian, "<b>"Ikusi gailu gehiago"</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"Parekatu entzumen-gailu bat"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"Orri honetan, ASHA eta kontsumo txikiko audioa darabilten entzumen-gailuak pareka ditzakezu. Ziurtatu entzumen-gailua aktibatuta eta parekatzeko prest dagoela."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"Entzumen-gailu erabilgarriak"</string>
@@ -2975,7 +2964,8 @@
     <string name="remove_device_admin" msgid="3143059558744287259">"Desaktibatu gailua administratzeko aplikazioa"</string>
     <string name="uninstall_device_admin" msgid="4481095209503956916">"Desinstalatu aplikazioa"</string>
     <string name="remove_and_uninstall_device_admin" msgid="707912012681691559">"Desaktibatu eta desinstalatu"</string>
-    <string name="select_device_admin_msg" msgid="5501360309040114486">"Gailua administratzeko aplikazioak"</string>
+    <!-- no translation found for select_device_admin_msg (2506262585633022884) -->
+    <skip />
     <string name="no_device_admins" msgid="8888779888103079854">"Ez dago gailua administratzeko aplikaziorik"</string>
     <string name="no_trust_agents" msgid="8659098725864191600">"Ez dago agente fidagarririk erabilgarri"</string>
     <string name="add_device_admin_msg" msgid="7730006568970042119">"Gailua administratzeko aplikazioa aktibatu?"</string>
@@ -3866,7 +3856,8 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Aplikazioaren barruan dituzu ezarpen gehiago"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Jakinarazpenak arintzeko ezarpena"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Erabili jakinarazpenak arintzeko ezarpena"</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"Epe labur batean jakinarazpen ugari jasotzen badituzu, gailuak bolumena jaitsiko du eta alertak murriztuko ditu 2 minutuz (gehienez). Ezarpen horrek ez die eragiten deiei, alarmei eta lehentasunezko elkarrizketei. \n\nArintze-aldi horretan jasotako jakinarazpenak ikusteko, pasatu hatza pantailaren goialdetik behera."</string>
+    <!-- no translation found for notification_polite_description (6137533404978878957) -->
+    <skip />
     <string name="notification_polite_work" msgid="8823596456640216391">"Aplikatu laneko profiletan"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Aplikatu laneko profileko aplikazioetan"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"Jakinarazpen multzokatuak"</string>
@@ -4374,7 +4365,8 @@
     <string name="disconnected" msgid="3469373726996129247">"Konektatu gabe"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Konektatu gabe"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> aplikazio instalatu dira"</string>
-    <string name="storage_summary" msgid="5903562203143572768">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> erabilita - <xliff:g id="FREE_SPACE">%2$s</xliff:g> libre"</string>
+    <!-- no translation found for storage_summary (7631468664968572688) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Gai iluna, letra-tamaina, argitasuna, distira"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="USED_MEMORY">%1$s</xliff:g> / <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> erabili dira batez beste"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> gisa hasi duzu saioa"</string>
@@ -4443,6 +4435,8 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Ethernet-datuen erabilera"</string>
     <string name="wifi" msgid="2932584495223243842">"Wifia"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
+    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
+    <skip />
     <string name="cell_data_template" msgid="6077963976103260821">"Datu-konexioaren <xliff:g id="AMOUNT">^1</xliff:g>"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> Wi-Fi konexioaren bidez"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> Ethernet-konexioaren bidez"</string>
@@ -4994,8 +4988,7 @@
     <string name="satellite_setting_title" msgid="2543034229989047673">"Satelite bidezko mezularitza"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Bidali eta jaso testu-mezuak satelite bidez. Kontuarekin dator."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Bidali eta jaso testu-mezuak satelite bidez. Ez dator kontuarekin."</string>
-    <!-- no translation found for satellite_setting_summary_without_entitlement (5284998840770992554) -->
-    <skip />
+    <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Bidali eta jaso testu-mezuak satelite bidez. Horri buruzko xehetasunak lortzeko, jarri operadorearekin harremanetan."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"satelite bidezko mezularitza, satelite bidezko konexioa"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"Honi buruz: <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="title_about_satellite_setting" msgid="3563087940535642558">"Baldintzak betetzen dituen <xliff:g id="CARRIER_NAME">%1$s</xliff:g> operadoreko kontu batekin, satelite bidez bidali eta jaso ditzakezu testu-mezuak"</string>
@@ -5009,8 +5002,7 @@
     <string name="title_supported_service" msgid="4275535165812691571">"Telefonoa satelite batera konektatu ondoren"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Edonori bidal diezazkiokezu testu-mezuak, baita larrialdi-zerbitzuei ere. Telefonoa sare mugikor batera konektatuko da berriro, halakorik erabilgarri dagoenean."</string>
     <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"Baliteke denbora gehiago behar izatea <xliff:g id="SUBJECT">%1$s</xliff:g> erabiltzeko, eta eremu batzuetan soilik dago erabilgarri. Litekeena da satelite bidezko konexioak eguraldiaren eta egitura jakin batzuen eragina jasatea. Satelite bidez deitzeko aukera ez dago erabilgarri. Baliteke larrialdi-deiak konektatzea, halere.\n\nBaliteke denbora pixka bat behar izatea kontuan egindako aldaketak ezarpenetan agertzeko. Xehetasunak lortzeko, jarri <xliff:g id="CARRIER_NAME">%2$s</xliff:g> operadorearekin harremanetan."</string>
-    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (8042240156141790447) -->
-    <skip />
+    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="8042240156141790447">"Baliteke denbora gehiago behar izatea <xliff:g id="SUBJECT">%1$s</xliff:g> erabiltzeko, eta eremu batzuetan soilik dago erabilgarri. Litekeena da satelite bidezko konexioak eguraldiaren eta egitura jakin batzuen eragina jasatea. Satelite bidez deitzeko aukera ez dago erabilgarri. Baliteke larrialdi-deiak konektatzea oraindik ere. Baliteke lurralde batzuetan larrialdi-zerbitzuei testu-mezuak bidali ezin izatea.\n\nTarte bat beharko da kontuaren aldaketak Ezarpenak atalean agertzeko. Xehetasunak lortzeko, jarri <xliff:g id="CARRIER_NAME">%2$s</xliff:g> operadorearekin harremanetan."</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Honi buruzko informazio gehiago: <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Ezin da aktibatu <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> aktibatzeko, amaitu satelite bidezko konexioa"</string>
@@ -5019,6 +5011,12 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"satelite bidezko konexioa"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"satelite bidezko mezularitza"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Datuen erabilera kontuarekin dator"</string>
+    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
+    <skip />
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Sarbide-puntuen izenak"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APNa"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Ez dago erabilgarri <xliff:g id="CARRIER">%1$s</xliff:g> operadorera konektatuta egoteagatik"</string>
@@ -5583,8 +5581,7 @@
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"Itxi"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"Konektatu beste entzungailu bateragarri batzuk edo partekatu igorpenaren izena eta pasahitza beste pertsonarekin"</string>
     <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"Utzi besteei kode hau eskaneatzen eta zure audioa entzuten\n\nZuzeneko igorpenaren izena: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nPasahitza: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
-    <!-- no translation found for audio_sharing_dialog_qr_code_content_no_password (7824076083031650113) -->
-    <skip />
+    <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"Utzi besteei kode hau eskaneatzen eta zure audioa entzuten\n\nZuzeneko igorpenaren izena: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"edo parekatu beste entzungailu bateragarri batzuk"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"Parekatu beste entzungailu bateragarri batzuk edo partekatu zuzeneko audio-igorpenaren QR kodea beste pertsonarekin"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"Audioa partekatzen"</string>
@@ -5613,11 +5610,10 @@
     <string name="audio_sharing_retry_dialog_content" msgid="6014534433894608834">"Arazoren bat izan da. Saiatu berriro."</string>
     <string name="audio_sharing_incompatible_dialog_title" msgid="4586805264392802115">"Ezin da partekatu audioa <xliff:g id="DEVICE_NAME">%1$s</xliff:g> gailuarekin"</string>
     <string name="audio_sharing_incompatible_dialog_content" msgid="3943223683620405311">"Audioa partekatzeko eginbidea kontsumo txikiko audioarekin bateragarriak diren entzungailuekin soilik funtzionatzen du"</string>
-    <!-- no translation found for audio_sharing_block_pairing_dialog_title (1756723860075818856) -->
-    <skip />
-    <!-- no translation found for audio_sharing_block_pairing_dialog_content (6352030314206654722) -->
-    <skip />
-    <!-- no translation found for audio_sharing_turn_off_button_label (1934956352475393641) -->
+    <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Desaktibatu Audioa partekatzea"</string>
+    <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Beste gailu bat parekatzeko, desaktibatu Audioa partekatzea."</string>
+    <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Desaktibatu"</string>
+    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
     <skip />
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Konektatu kontsumo txikiko zuzeneko audio-igorpen batera"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Inguruko zuzeneko audio-igorpenak"</string>
@@ -5648,6 +5644,12 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Zuzeneko igorpena pausatu da"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Utzi entzuteari"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Konektatu entzungailu bateragarriak"</string>
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
+    <skip />
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Konektatu gailu bat"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Zuzeneko audio-igorpenaren xehetasunak"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Zuzeneko audio-igorpenaren QR kodea"</string>

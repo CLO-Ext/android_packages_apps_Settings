@@ -41,10 +41,8 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Sospeso"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Sconosciuto"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Anteprima"</string>
-    <!-- no translation found for preview_pager_previous_button (607771113300838313) -->
-    <skip />
-    <!-- no translation found for preview_pager_next_button (8700907912508927271) -->
-    <skip />
+    <string name="preview_pager_previous_button" msgid="607771113300838313">"Anteprima precedente"</string>
+    <string name="preview_pager_next_button" msgid="8700907912508927271">"Anteprima successiva"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Codice QR"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Rimpicciolisci"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Ingrandisci"</string>
@@ -231,12 +229,9 @@
     <string name="search_region_hint" msgid="1748708432568237552">"Cerca regioni"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"La regione che scegli influisce sul modo in cui lo smartphone mostra l\'ora, le date, la temperatura e altro ancora."</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"Altre impostazioni della lingua"</string>
-    <!-- no translation found for title_change_system_locale_region (1977530992614685128) -->
-    <skip />
-    <!-- no translation found for body_change_system_locale_region (9064318449821043189) -->
-    <skip />
-    <!-- no translation found for top_intro_numbering_system_title (8234587334207926397) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="1977530992614685128">"Cambiare la regione con <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
+    <string name="body_change_system_locale_region" msgid="9064318449821043189">"Il dispositivo manterrà la seguente lingua di sistema: <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>"</string>
+    <string name="top_intro_numbering_system_title" msgid="8234587334207926397">"La maggior parte delle app userà le tue preferenze locali"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Preferenze locali"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Imposta le preferenze per unità e numeri"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Consenti alle app di conoscere le tue preferenze locali affinché possano personalizzare la tua esperienza."</string>
@@ -893,7 +888,8 @@
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"Il blocco schermo è già stato modificato. Riprova con il nuovo blocco schermo."</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"Annulla"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"Avanti"</string>
-    <string name="manage_device_admin" msgid="1044620606203916275">"App di amministrazione del dispositivo"</string>
+    <!-- no translation found for manage_device_admin (7272894919651600481) -->
+    <skip />
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Nessuna app attiva"</string>
     <string name="number_of_device_admins" msgid="3402909995362162876">"{count,plural, =1{# app attiva}other{# app attive}}"</string>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Agenti di attendibilità"</string>
@@ -1284,12 +1280,9 @@
     <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="8102786488994263815">"Indirizzo per le emergenze"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Viene considerato come la tua posizione quando fai una chiamata di emergenza tramite Wi‑Fi"</string>
-    <!-- no translation found for private_dns_title (1180823690693258572) -->
-    <skip />
-    <!-- no translation found for private_dns_field_require (2318400923953435586) -->
-    <skip />
-    <!-- no translation found for private_dns_hostname_invalid (5085498734835552780) -->
-    <skip />
+    <string name="private_dns_title" msgid="1180823690693258572">"Nome host"</string>
+    <string name="private_dns_field_require" msgid="2318400923953435586">"Il campo è obbligatorio"</string>
+    <string name="private_dns_hostname_invalid" msgid="5085498734835552780">"Il nome host digitato non è valido"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Scopri di più"</annotation>" sulle funzioni di DNS privato"</string>
     <string name="private_dns_mode_on" msgid="8878679071975375696">"On"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"Attiva le chiamate Wi-Fi"</string>
@@ -1578,7 +1571,7 @@
     <string name="battery_level_title" msgid="1371765298786083448">"Livello batteria"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"Comuni"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"Impostazioni comuni"</string>
-    <string name="satellite_setting" msgid="4171265534842459910">"Messaggistica satellitare"</string>
+    <string name="satellite_setting" msgid="4171265534842459910">"Messaggi via satellite"</string>
     <string name="apn_settings" msgid="4295467389400441299">"APN"</string>
     <string name="apn_edit" msgid="2003683641840248741">"Modifica punto di accesso"</string>
     <string name="apn_add" msgid="9069613192201630934">"Aggiungi punto di accesso"</string>
@@ -2238,6 +2231,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Feedback"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Aiutaci a migliorare partecipando a un sondaggio"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Nessun sondaggio disponibile"</string>
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Invia feedback"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"App scaricate"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Sperimentali"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Flag funzionalità"</string>
@@ -2494,10 +2488,8 @@
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"Continua"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"Protesi uditive"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"Configura e gestisci apparecchi acustici, impianti cocleari e altri dispositivi di amplificazione ASHA ed LE Audio"</string>
-    <!-- no translation found for accessibility_hearingaid_asha_only_intro (7402419984664822832) -->
-    <skip />
-    <!-- no translation found for accessibility_hearingaid_hap_only_intro (3332144138443825311) -->
-    <skip />
+    <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"Configura e gestisci apparecchi acustici, impianti cocleari e altri dispositivi di amplificazione ASHA"</string>
+    <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"Configura e gestisci apparecchi acustici, impianti cocleari e altri dispositivi di amplificazione LE audio"</string>
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"Nessuna protesi uditiva connessa"</string>
     <string name="accessibility_hearingaid_adding_summary" msgid="999051610528600783">"Aggiungi apparecchi acustici"</string>
     <string name="accessibility_hearingaid_pair_instructions_title" msgid="2357706801112207624">"Accoppia apparecchi acustici"</string>
@@ -2517,14 +2509,10 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"Informazioni sulle protesi uditive"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"Per trovare altre protesi uditive non supportate da ASHA o LE Audio, tocca &lt;b&gt;Accoppia nuovo dispositivo&lt;/b&gt; &gt; &lt;b&gt;Visualizza altri dispositivi&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"Per trovare altre protesi uditive non supportate da ASHA o LE Audio, tocca "<b>"Accoppia nuovo dispositivo"</b>" e poi "<b>"Visualizza altri dispositivi"</b></string>
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary (3377169209330540616) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary_tts (8192971114504608531) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary (3531758698830915205) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary_tts (4440097982533045507) -->
-    <skip />
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"Per trovare altre protesi uditive non supportate da ASHA, tocca &lt;b&gt;Accoppia nuovo dispositivo&lt;/b&gt; &gt; &lt;b&gt;Visualizza altri dispositivi&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"Per trovare altre protesi uditive non supportate da ASHA, tocca "<b>"Accoppia nuovo dispositivo"</b>" e poi "<b>"Visualizza altri dispositivi"</b></string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"Per trovare altre protesi uditive non supportate da LE audio, tocca &lt;b&gt;Accoppia nuovo dispositivo&lt;/b&gt; &gt; &lt;b&gt;Visualizza altri dispositivi&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"Per trovare altre protesi uditive non supportate da LE audio, tocca "<b>"Accoppia nuovo dispositivo"</b>" e poi "<b>"Visualizza altri dispositivi"</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"Accoppia protesi uditiva"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"In questa pagina, puoi accoppiare le protesi uditive ASHA e LE audio. Assicurati che la tua protesi uditiva sia accesa e pronta per l\'accoppiamento."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"Protesi uditive disponibili"</string>
@@ -2975,7 +2963,8 @@
     <string name="remove_device_admin" msgid="3143059558744287259">"Disattiva questa app di amministrazione del dispositivo"</string>
     <string name="uninstall_device_admin" msgid="4481095209503956916">"Disinstalla app"</string>
     <string name="remove_and_uninstall_device_admin" msgid="707912012681691559">"Disattiva e disinstalla"</string>
-    <string name="select_device_admin_msg" msgid="5501360309040114486">"App di ammin. del dispositivo"</string>
+    <!-- no translation found for select_device_admin_msg (2506262585633022884) -->
+    <skip />
     <string name="no_device_admins" msgid="8888779888103079854">"Nessuna app di amministrazione del dispositivo disponibile"</string>
     <string name="no_trust_agents" msgid="8659098725864191600">"Non sono disponibili agenti di attendibilità"</string>
     <string name="add_device_admin_msg" msgid="7730006568970042119">"Attivare l\'app di amministrazione?"</string>
@@ -3866,7 +3855,8 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Altre impostazioni sono disponibili all\'interno di quest\'app"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Attenuazione delle notifiche"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Usa attenuazione delle notifiche"</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"Quando ricevi molte notifiche in un breve periodo di tempo, il dispositivo abbasserà il volume e ridurrà al minimo gli avvisi per un massimo di 2 minuti. Non ci sono ripercussioni su chiamate, sveglie e conversazioni prioritarie. \n\nPer trovare le notifiche ricevute durante l\'attenuazione basta trascinare verso il basso la parte superiore dello schermo."</string>
+    <!-- no translation found for notification_polite_description (6137533404978878957) -->
+    <skip />
     <string name="notification_polite_work" msgid="8823596456640216391">"Applica ai profili di lavoro"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Applica alle app del profilo di lavoro"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"Notifiche raggruppate"</string>
@@ -4374,7 +4364,8 @@
     <string name="disconnected" msgid="3469373726996129247">"Nessuna connessione"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Non collegata"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> app installate"</string>
-    <string name="storage_summary" msgid="5903562203143572768">"Utilizzato: <xliff:g id="PERCENTAGE">%1$s</xliff:g> - Libero: <xliff:g id="FREE_SPACE">%2$s</xliff:g>"</string>
+    <!-- no translation found for storage_summary (7631468664968572688) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Tema scuro, dimensioni caratteri, luminosità"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Utilizzo medio di <xliff:g id="USED_MEMORY">%1$s</xliff:g> di memoria su <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Accesso eseguito come <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4443,6 +4434,8 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Utilizzo dei dati Ethernet"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
+    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
+    <skip />
     <string name="cell_data_template" msgid="6077963976103260821">"Dati mobili utilizzati: <xliff:g id="AMOUNT">^1</xliff:g>"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"Dati Wi-Fi: <xliff:g id="AMOUNT">^1</xliff:g>"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"Dati Ethernet: <xliff:g id="AMOUNT">^1</xliff:g>"</string>
@@ -4991,17 +4984,16 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"Consentire il roaming dei dati?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"Verifica i costi con il tuo fornitore di rete."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"Modalità di rete <xliff:g id="NETWORKMODEID">%1$d</xliff:g> non valida. Ignora."</string>
-    <string name="satellite_setting_title" msgid="2543034229989047673">"Messaggistica satellitare"</string>
+    <string name="satellite_setting_title" msgid="2543034229989047673">"Messaggi via satellite"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Invia e ricevi messaggi via satellite. Disponibile con il tuo account."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Invia e ricevi messaggi via satellite. Funzione non disponibile con il tuo account."</string>
-    <!-- no translation found for satellite_setting_summary_without_entitlement (5284998840770992554) -->
-    <skip />
+    <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Invia e ricevi messaggi via satellite. Contatta il tuo operatore per avere informazioni dettagliate."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"Messaggi via satellite, connettività satellitare"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"Informazioni su <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="title_about_satellite_setting" msgid="3563087940535642558">"Puoi scambiare messaggi via satellite con un account <xliff:g id="CARRIER_NAME">%1$s</xliff:g> idoneo"</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"Il tuo account <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
     <string name="title_have_satellite_plan" msgid="857337944804101443">"I messaggi sono inclusi nel tuo account"</string>
-    <string name="title_no_satellite_plan" msgid="2876056203035197505">"La messaggistica satellitare non è inclusa nel tuo account"</string>
+    <string name="title_no_satellite_plan" msgid="2876056203035197505">"I messaggi via satellite non sono inclusi nel tuo account"</string>
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"Scopri di più"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"Come funziona"</string>
     <string name="title_satellite_connection_guide" msgid="3294802307913609072">"Se non disponi di una rete mobile"</string>
@@ -5009,8 +5001,7 @@
     <string name="title_supported_service" msgid="4275535165812691571">"Dopo che lo smartphone si è connesso a un satellite"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Puoi inviare un messaggio a chiunque, anche ai servizi di emergenza. Quando sarà disponibile, lo smartphone si riconnetterà a una rete mobile."</string>
     <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"La <xliff:g id="SUBJECT">%1$s</xliff:g> potrebbe essere più lenta ed essere disponibile solo in alcune zone. Il meteo e determinate strutture potrebbero influire sulla connessione satellitare. Le chiamate via satellite non sono disponibili. Le chiamate di emergenza potrebbero invece ancora riuscire.\n\nPotrebbe passare del tempo prima che le modifiche al tuo account siano visibili nelle Impostazioni. Contatta <xliff:g id="CARRIER_NAME">%2$s</xliff:g> per maggiori dettagli."</string>
-    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (8042240156141790447) -->
-    <skip />
+    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="8042240156141790447">"La <xliff:g id="SUBJECT">%1$s</xliff:g> potrebbe essere più lenta ed essere disponibile solo in alcune zone. Il meteo e determinate strutture potrebbero influire sulla connessione satellitare. Le chiamate via satellite non sono disponibili. Le chiamate di emergenza potrebbero invece ancora riuscire. L\'invio di messaggi ai servizi di emergenza potrebbe non essere disponibile in tutte le aree.\n\nPotrebbe passare del tempo prima che le modifiche al tuo account siano visibili nelle Impostazioni. Contatta <xliff:g id="CARRIER_NAME">%2$s</xliff:g> per maggiori dettagli."</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Ulteriori informazioni su <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Impossibile attivare la modalità <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Per attivare la funzionalità <xliff:g id="FUNCTION">%1$s</xliff:g>, devi prima terminare la connessione satellitare"</string>
@@ -5019,6 +5010,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"connettività satellitare"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"messaggi via satellite"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"L\'utilizzo dei dati è incluso con il tuo account"</string>
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"App supportate sullo smartphone"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"mostra tutte le app"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"App supportate sullo smartphone"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Nomi punti di accesso"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Non disponibile se è attiva la connessione a <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5583,8 +5577,7 @@
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"Chiudi"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"Connetti un\'altra coppia di cuffie compatibili o condividi nome e password dello stream con l\'altra persona"</string>
     <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"Consenti ad altre persone di scansionare questo codice e ascoltare i tuoi contenuti audio\n\nNome dello stream: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nPassword: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
-    <!-- no translation found for audio_sharing_dialog_qr_code_content_no_password (7824076083031650113) -->
-    <skip />
+    <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"Consenti ad altre persone di scansionare questo codice e ascoltare i tuoi contenuti audio\n\nNome dello stream: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"o accoppia un altro set di cuffie compatibili"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"Accoppia un altro set di cuffie compatibili o condividi il codice QR dello stream audio con l\'altra persona"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"Condivisione audio in corso…"</string>
@@ -5613,11 +5606,10 @@
     <string name="audio_sharing_retry_dialog_content" msgid="6014534433894608834">"Si è verificato un problema. Riprova."</string>
     <string name="audio_sharing_incompatible_dialog_title" msgid="4586805264392802115">"Impossibile condividere l\'audio con <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_incompatible_dialog_content" msgid="3943223683620405311">"La condivisione audio funziona solo con cuffie che supportano LE audio"</string>
-    <!-- no translation found for audio_sharing_block_pairing_dialog_title (1756723860075818856) -->
-    <skip />
-    <!-- no translation found for audio_sharing_block_pairing_dialog_content (6352030314206654722) -->
-    <skip />
-    <!-- no translation found for audio_sharing_turn_off_button_label (1934956352475393641) -->
+    <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Disattiva la condivisione audio"</string>
+    <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Per accoppiare un nuovo dispositivo, disattiva prima la condivisione audio."</string>
+    <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Disattiva"</string>
+    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
     <skip />
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Collegati a uno stream LE audio"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Stream audio nelle vicinanze"</string>
@@ -5648,6 +5640,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Stream in pausa"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Interrompi ascolto"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Connetti cuffie compatibili"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Disattiva temporaneamente TalkBack"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"TalkBack non può essere utilizzato durante l\'ascolto di stream audio. Disattiva TalkBack per iniziare ad ascoltare."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Disattiva"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Connetti un dispositivo"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Dettagli stream audio"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Codice QR stream audio"</string>

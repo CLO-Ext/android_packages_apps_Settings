@@ -893,7 +893,8 @@
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"تم تغيير قفل الشاشة. يمكنك إعادة المحاولة بقفل الشاشة الجديد."</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"إلغاء"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"التالي"</string>
-    <string name="manage_device_admin" msgid="1044620606203916275">"تطبيقات مشرف الجهاز"</string>
+    <!-- no translation found for manage_device_admin (7272894919651600481) -->
+    <skip />
     <string name="number_of_device_admins_none" msgid="152926922020437312">"ما مِن تطبيقات نشطة"</string>
     <string name="number_of_device_admins" msgid="3402909995362162876">"{count,plural, =1{تطبيق واحد نشط}zero{# تطبيق نشط}two{تطبيقان نشطان}few{# تطبيقات نشطة}many{# تطبيقًا نشطًا}other{# تطبيق نشط}}"</string>
     <string name="manage_trust_agents" msgid="6410149930029992356">"الوكلاء المعتمدون"</string>
@@ -2238,6 +2239,8 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"الملاحظات"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"يمكنك المساعدة في تحسين الخدمة من خلال إكمال استطلاع"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"ما مِن استطلاعات متاحة"</string>
+    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
+    <skip />
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"التطبيقات التي نزّلتها"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"إعدادات تجريبية"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"عناصر التحكّم في الميزات"</string>
@@ -2494,10 +2497,8 @@
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"متابعة"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"سماعات الأذن الطبية"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"‏يمكنك إعداد وإدارة سماعات الأذن الطبية المزوّدة بتكنولوجيا ASHA وتطبيق LE Audio والقواقع المزروعة وغيرها من أجهزة تضخيم الصوت"</string>
-    <!-- no translation found for accessibility_hearingaid_asha_only_intro (7402419984664822832) -->
-    <skip />
-    <!-- no translation found for accessibility_hearingaid_hap_only_intro (3332144138443825311) -->
-    <skip />
+    <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"‏يمكنك إعداد وإدارة سماعات الأذن الطبية المتوافقة مع بروتوكول ASHA والقواقع المزروعة وغيرها من أجهزة تضخيم الصوت"</string>
+    <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"‏يمكنك إعداد وإدارة سماعات الأذن الطبية المتوافقة مع تكنولوجيا LE Audio والقواقع المزروعة وغيرها من أجهزة تضخيم الصوت"</string>
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"لم يتم توصيل سماعات أذن طبية"</string>
     <string name="accessibility_hearingaid_adding_summary" msgid="999051610528600783">"إضافة سمّاعات الأذن الطبية"</string>
     <string name="accessibility_hearingaid_pair_instructions_title" msgid="2357706801112207624">"إقران سماعتَي الأذن الطبيتين"</string>
@@ -2517,14 +2518,10 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"لمحة عن سماعات الأذن الطبية"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"‏للعثور على سماعات أذن طبية أخرى غير متوافقة مع بروتوكول ASHA أو تكنولوجيا LE Audio، يُرجى النقر على &lt;b&gt;إقران جهاز جديد&lt;/b&gt; &gt; &lt;b&gt;عرض المزيد من الأجهزة&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"‏للعثور على سماعات أذن طبية أخرى غير متوافقة مع بروتوكول ASHA أو تكنولوجيا LE Audio، يُرجى النقر على "<b>"إقران جهاز جديد"</b>" ثم "<b>"عرض المزيد من الأجهزة"</b></string>
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary (3377169209330540616) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary_tts (8192971114504608531) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary (3531758698830915205) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary_tts (4440097982533045507) -->
-    <skip />
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"‏للعثور على سماعات أذن طبية أخرى غير متوافقة مع بروتوكول ASHA، يُرجى النقر على &lt;b&gt;إقران جهاز جديد&lt;/b&gt; &gt; &lt;b&gt;عرض المزيد من الأجهزة&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"‏للعثور على سماعات أذن طبية أخرى غير متوافقة مع بروتوكول ASHA، يُرجى النقر على "<b>"إقران جهاز جديد"</b>" ثم "<b>"عرض المزيد من الأجهزة"</b></string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"‏للعثور على سماعات أذن طبية أخرى غير متوافقة مع تكنولوجيا LE Audio، يُرجى النقر على &lt;b&gt;إقران جهاز جديد&lt;/b&gt; &gt; &lt;b&gt;عرض المزيد من الأجهزة&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"‏للعثور على سماعات أذن طبية أخرى غير متوافقة مع تكنولوجيا LE Audio، يُرجى النقر على "<b>"إقران جهاز جديد"</b>" ثم "<b>"عرض المزيد من الأجهزة"</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"إقران سماعة الأذن الطبية"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"‏يمكنك إقران سماعات الأذن الطبية المزودة بتكنولوجيا ASHA وتطبيق LE Audio على هذه الصفحة. تأكَّد من تشغيل سماعة الأذن الطبية وجاهزيتها للإقران."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"سماعات الأذن الطبية المتاحة"</string>
@@ -2975,7 +2972,8 @@
     <string name="remove_device_admin" msgid="3143059558744287259">"إيقاف تطبيق مشرف الجهاز"</string>
     <string name="uninstall_device_admin" msgid="4481095209503956916">"إلغاء تثبيت التطبيق"</string>
     <string name="remove_and_uninstall_device_admin" msgid="707912012681691559">"إيقاف وإلغاء التثبيت"</string>
-    <string name="select_device_admin_msg" msgid="5501360309040114486">"تطبيقات مشرف الجهاز"</string>
+    <!-- no translation found for select_device_admin_msg (2506262585633022884) -->
+    <skip />
     <string name="no_device_admins" msgid="8888779888103079854">"لا تتوفر تطبيقات لمشرف الجهاز"</string>
     <string name="no_trust_agents" msgid="8659098725864191600">"ليس هناك وكلاء معتمدون متاحون"</string>
     <string name="add_device_admin_msg" msgid="7730006568970042119">"هل تريد تفعيل تطبيق مشرف الجهاز؟"</string>
@@ -3866,7 +3864,8 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"تتوفّر إعدادات إضافية داخل التطبيق."</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"تخفيض الإشعارات الصوتية والاهتزاز"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"استخدام الإعداد \"تخفيض الإشعارات الصوتية والاهتزاز\""</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"حينما تتلقّى الكثير من الإشعارات خلال وقت قصير، سيتم خفض مستوى صوت الجهاز وتقليل ظهور التنبيهات لمدة تصل إلى دقيقتين. ولن تتأثر المكالمات والمنبّهات والمحادثات ذات الأولوية بتلك الإجراءات. \n\nيمكنك العثور على الإشعارات المُرسلة إليك أثناء فترة تخفيض الإشعارات الصوتية والاهتزاز من خلال سحب الشاشة من أعلى لأسفل."</string>
+    <!-- no translation found for notification_polite_description (6137533404978878957) -->
+    <skip />
     <string name="notification_polite_work" msgid="8823596456640216391">"التطبيق على ملفات العمل"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"يسري على تطبيقات ملف العمل"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"إشعارات مُجمّعة"</string>
@@ -4374,7 +4373,8 @@
     <string name="disconnected" msgid="3469373726996129247">"غير متصل"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"لوحة المفاتيح غير متّصِلة."</string>
     <string name="apps_summary" msgid="4007416751775414252">"تم تثبيت <xliff:g id="COUNT">%1$d</xliff:g> تطبيق"</string>
-    <string name="storage_summary" msgid="5903562203143572768">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> مستخدمة - <xliff:g id="FREE_SPACE">%2$s</xliff:g> متاحة"</string>
+    <!-- no translation found for storage_summary (7631468664968572688) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"المظهر الداكن وحجم الخط والسطوع"</string>
     <string name="memory_summary" msgid="8221954450951651735">"تم استخدام متوسط ذاكرة بحجم <xliff:g id="USED_MEMORY">%1$s</xliff:g> من إجمالي <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"تم تسجيل الدخول باسم <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4443,6 +4443,8 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"استخدام بيانات إيثرنت"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"إيثرنت"</string>
+    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
+    <skip />
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> من بيانات الجوّال"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"‏<xliff:g id="AMOUNT">^1</xliff:g> من بيانات Wi-Fi"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> من بيانات إيثرنت"</string>
@@ -5017,6 +5019,12 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"إمكانية الاتصال بالقمر الصناعي"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"المراسلة عبر القمر الاصطناعي"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"يتيح لك حسابك استخدام البيانات عبر القمر الصناعي"</string>
+    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
+    <skip />
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"أسماء نقاط الوصول"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"عدم التوفُّر عند الربط بمشغّل شبكة الجوّال <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5618,6 +5626,8 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"إيقاف ميزة \"مشاركة الصوت\""</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"لإقران جهاز جديد، عليك أولاً إيقاف ميزة \"مشاركة الصوت\"."</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"إيقاف"</string>
+    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
+    <skip />
     <string name="audio_streams_category_title" msgid="4878022761829895463">"‏الاتصال بجهاز بث صوتي منخفض الطاقة (متوافق مع ميزة Bluetooth LE Audio)"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"أجهزة بث صوتي قريبة"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"أجهزة البث الصوتي"</string>
@@ -5647,6 +5657,12 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"تم إيقاف البث مؤقتًا"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"إيقاف الاستماع"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"ربط سماعات الرأس المتوافقة"</string>
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
+    <skip />
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"ربط جهاز"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"تفاصيل البث الصوتي"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"رمز الاستجابة السريعة للبث الصوتي"</string>

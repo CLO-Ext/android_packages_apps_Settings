@@ -26,7 +26,6 @@ import static com.android.settings.connecteddevice.display.ExternalDisplayPrefer
 import static com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.resolutionRotationPreferenceKey;
 import static com.android.settings.flags.Flags.FLAG_DISPLAY_SIZE_CONNECTED_DISPLAY_SETTING;
 import static com.android.settings.flags.Flags.FLAG_DISPLAY_TOPOLOGY_PANE_IN_DISPLAY_LIST;
-import static com.android.settingslib.widget.FooterPreference.KEY_FOOTER;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -47,6 +46,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
@@ -55,7 +55,6 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.DisplayPreference;
 import com.android.settings.connecteddevice.display.ExternalDisplayPreferenceFragment.PrefBasics;
-import com.android.settingslib.widget.FooterPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
 
 import org.junit.Test;
@@ -237,11 +236,12 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         assertThat(pref).isNotNull();
         pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat(pref).isNotNull();
-        var footerPref = (FooterPreference) mPreferenceScreen.findPreference(KEY_FOOTER);
+        var footerPref = mPreferenceScreen.findPreference(PrefBasics.FOOTER.key);
         assertThat(footerPref).isNotNull();
         var sizePref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         assertThat(sizePref).isNull();
-        verify(footerPref).setTitle(EXTERNAL_DISPLAY_CHANGE_RESOLUTION_FOOTER_RESOURCE);
+        assertThat("" + footerPref.getTitle())
+                .isEqualTo(getText(EXTERNAL_DISPLAY_CHANGE_RESOLUTION_FOOTER_RESOURCE));
     }
 
     @Test
@@ -259,11 +259,12 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         assertThat(pref).isNotNull();
         pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat(pref).isNotNull();
-        var footerPref = (FooterPreference) mPreferenceScreen.findPreference(KEY_FOOTER);
+        var footerPref = mPreferenceScreen.findPreference(PrefBasics.FOOTER.key);
         assertThat(footerPref).isNotNull();
         var sizePref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         assertThat(sizePref).isNotNull();
-        verify(footerPref).setTitle(EXTERNAL_DISPLAY_CHANGE_RESOLUTION_FOOTER_RESOURCE);
+        assertThat("" + footerPref.getTitle())
+                .isEqualTo(getText(EXTERNAL_DISPLAY_CHANGE_RESOLUTION_FOOTER_RESOURCE));
     }
 
     @Test
@@ -279,11 +280,12 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         assertThat(pref).isNotNull();
         pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat(pref).isNotNull();
-        var footerPref = (FooterPreference) mPreferenceScreen.findPreference(KEY_FOOTER);
+        var footerPref = mPreferenceScreen.findPreference(PrefBasics.FOOTER.key);
         assertThat(footerPref).isNotNull();
         var sizePref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         assertThat(sizePref).isNotNull();
-        verify(footerPref).setTitle(EXTERNAL_DISPLAY_CHANGE_RESOLUTION_FOOTER_RESOURCE);
+        assertThat("" + footerPref.getTitle())
+                .isEqualTo(getText(EXTERNAL_DISPLAY_CHANGE_RESOLUTION_FOOTER_RESOURCE));
     }
 
     @Test
@@ -306,7 +308,7 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         assertThat(pref).isNull();
         pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat(pref).isNull();
-        var footerPref = (FooterPreference) mPreferenceScreen.findPreference(KEY_FOOTER);
+        var footerPref = mPreferenceScreen.findPreference(PrefBasics.FOOTER.key);
         assertThat(footerPref).isNull();
         var sizePref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         assertThat(sizePref).isNull();
@@ -326,9 +328,10 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         assertThat(mainPref.isChecked()).isFalse();
         assertThat(mainPref.isEnabled()).isFalse();
         assertThat(mainPref.getOnPreferenceChangeListener()).isNull();
-        var footerPref = (FooterPreference) mPreferenceScreen.findPreference(KEY_FOOTER);
+        var footerPref = mPreferenceScreen.findPreference(PrefBasics.FOOTER.key);
         assertThat(footerPref).isNotNull();
-        verify(footerPref).setTitle(EXTERNAL_DISPLAY_NOT_FOUND_FOOTER_RESOURCE);
+        assertThat("" + footerPref.getTitle())
+                .isEqualTo(getText(EXTERNAL_DISPLAY_NOT_FOUND_FOOTER_RESOURCE));
     }
 
     @Test
@@ -338,7 +341,8 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         doReturn(true).when(mMockedInjector).isDisplayEnabled(any());
         var fragment = initFragment();
         mHandler.flush();
-        var pref = fragment.getRotationPreference(mContext);
+        ListPreference pref =
+                mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat(pref.getKey()).isEqualTo(PrefBasics.EXTERNAL_DISPLAY_ROTATION.key);
         assertThat("" + pref.getTitle()).isEqualTo(
                 getText(PrefBasics.EXTERNAL_DISPLAY_ROTATION.titleResource));
@@ -370,7 +374,7 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         doReturn(true).when(mMockedInjector).isDisplayEnabled(any());
         var fragment = initFragment();
         mHandler.flush();
-        var pref = fragment.getResolutionPreference(mContext);
+        var pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_RESOLUTION.key);
         assertThat(pref.getKey()).isEqualTo(PrefBasics.EXTERNAL_DISPLAY_RESOLUTION.key);
         assertThat("" + pref.getTitle()).isEqualTo(
                 getText(PrefBasics.EXTERNAL_DISPLAY_RESOLUTION.titleResource));
@@ -389,7 +393,7 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         doReturn(true).when(mMockedInjector).isDisplayEnabled(any());
         var fragment = initFragment();
         mHandler.flush();
-        var pref = fragment.getSizePreference(mContext);
+        var pref = mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         assertThat(pref.getKey()).isEqualTo(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         assertThat("" + pref.getTitle())
                 .isEqualTo(getText(PrefBasics.EXTERNAL_DISPLAY_SIZE.titleResource));
@@ -410,7 +414,8 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         doReturn(true).when(mMockedInjector).disableConnectedDisplay(mDisplayIdArg);
         var fragment = initFragment();
         mHandler.flush();
-        var pref = fragment.getUseDisplayPreference(mContext);
+        MainSwitchPreference pref =
+                mPreferenceScreen.findPreference(PrefBasics.EXTERNAL_DISPLAY_USE.key);
         assertThat(pref.getKey()).isEqualTo(PrefBasics.EXTERNAL_DISPLAY_USE.key);
         assertThat("" + pref.getTitle())
                 .isEqualTo(getText(PrefBasics.EXTERNAL_DISPLAY_USE.titleResource));
@@ -455,15 +460,12 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         private final View mMockedRootView;
         private final TextView mEmptyView;
         private final Activity mMockedActivity;
-        private final FooterPreference mMockedFooterPreference;
         private final MetricsLogger mLogger;
 
         TestableExternalDisplayPreferenceFragment() {
             super(mMockedInjector);
             mMockedActivity = mock(Activity.class);
             mMockedRootView = mock(View.class);
-            mMockedFooterPreference = mock(FooterPreference.class);
-            doReturn(KEY_FOOTER).when(mMockedFooterPreference).getKey();
             mEmptyView = new TextView(mContext);
             doReturn(mEmptyView).when(mMockedRootView).findViewById(android.R.id.empty);
             mLogger = mMockedMetricsLogger;
@@ -500,12 +502,6 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         }
 
         @Override
-        @NonNull
-        FooterPreference getFooterPreference(@NonNull Context context) {
-            return mMockedFooterPreference;
-        }
-
-        @Override
         protected int getDisplayIdArg() {
             return mDisplayIdArg;
         }
@@ -518,6 +514,11 @@ public class ExternalDisplayPreferenceFragmentTest extends ExternalDisplayTestBa
         @Override
         protected void launchExternalDisplaySettings(final int displayId) {
             mDisplayIdArg = displayId;
+        }
+
+        @Override
+        Preference newFooterPreference(Context context) {
+            return new Preference(context);
         }
 
         @Override

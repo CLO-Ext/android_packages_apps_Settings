@@ -41,10 +41,8 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Suspendido"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Hindi Alam"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Preview"</string>
-    <!-- no translation found for preview_pager_previous_button (607771113300838313) -->
-    <skip />
-    <!-- no translation found for preview_pager_next_button (8700907912508927271) -->
-    <skip />
+    <string name="preview_pager_previous_button" msgid="607771113300838313">"Nakaraang preview"</string>
+    <string name="preview_pager_next_button" msgid="8700907912508927271">"Susunod na preview"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR code"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Paliitin"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Palakihin"</string>
@@ -231,12 +229,9 @@
     <string name="search_region_hint" msgid="1748708432568237552">"Maghanap ng mga rehiyon"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"Naaapektuhan ng rehiyong pipiliin mo kung paano ipinapakita ng iyong telepono ang oras, mga petsa, temperatura, at higit pa."</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"Higit pang setting ng wika"</string>
-    <!-- no translation found for title_change_system_locale_region (1977530992614685128) -->
-    <skip />
-    <!-- no translation found for body_change_system_locale_region (9064318449821043189) -->
-    <skip />
-    <!-- no translation found for top_intro_numbering_system_title (8234587334207926397) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="1977530992614685128">"Baguhin ang rehiyon sa <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g> ?"</string>
+    <string name="body_change_system_locale_region" msgid="9064318449821043189">"Papanatilihin ng device ang <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> na wika ng system"</string>
+    <string name="top_intro_numbering_system_title" msgid="8234587334207926397">"Gagamitin ng karamihan ng app ang iyong mga rehiyonal na preference"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Mga panrehiyong preference"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Magtakda ng mga kagustuhan sa mga yunit at numero"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Ipaalam sa mga app kung ano ang mga panrehiyong preference mo para ma-personalize ng mga ito ang iyong experience."</string>
@@ -893,7 +888,8 @@
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"Napalitan na ang lock ng screen. Subukang muli sa bagong lock ng screen."</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"Kanselahin"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"Susunod"</string>
-    <string name="manage_device_admin" msgid="1044620606203916275">"Mga app ng admin ng device"</string>
+    <!-- no translation found for manage_device_admin (7272894919651600481) -->
+    <skip />
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Walang aktibong app"</string>
     <string name="number_of_device_admins" msgid="3402909995362162876">"{count,plural, =1{# aktibong app}one{# aktibong app}other{# na aktibong app}}"</string>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Mga trust agent"</string>
@@ -1284,12 +1280,9 @@
     <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="8102786488994263815">"Pang-emergency na address"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Ginagamit bilang iyong lokasyon kapag nagsagawa ka ng pang-emergency na tawag sa pamamagitan ng Wi‑Fi"</string>
-    <!-- no translation found for private_dns_title (1180823690693258572) -->
-    <skip />
-    <!-- no translation found for private_dns_field_require (2318400923953435586) -->
-    <skip />
-    <!-- no translation found for private_dns_hostname_invalid (5085498734835552780) -->
-    <skip />
+    <string name="private_dns_title" msgid="1180823690693258572">"Hostname"</string>
+    <string name="private_dns_field_require" msgid="2318400923953435586">"Nire-require ang field"</string>
+    <string name="private_dns_hostname_invalid" msgid="5085498734835552780">"Hindi valid ang nai-type mong hostname."</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Matuto pa"</annotation>" tungkol sa mga feature ng Pribadong DNS"</string>
     <string name="private_dns_mode_on" msgid="8878679071975375696">"Naka-on"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"I-activate ang Pagtawag gamit ang Wi-Fi"</string>
@@ -2202,7 +2195,7 @@
     <string name="accessibility_settings" msgid="4713215774904704682">"Accessibility"</string>
     <string name="accessibility_settings_title" msgid="6739115703615065716">"Mga setting ng pagiging maa-access"</string>
     <string name="accessibility_settings_summary" msgid="2366627644570558503">"Display, pakikipag-ugnayan, audio"</string>
-    <string name="vision_settings_title" msgid="8919983801864103069">"Mga Setting ng Paningin"</string>
+    <string name="vision_settings_title" msgid="8919983801864103069">"Mga Vision Setting"</string>
     <string name="vision_settings_description" msgid="7614894785054441991">"Maaari mong i-customize ang device na ito upang maging angkop sa iyong mga pangangailangan. Maaaring baguhin ang mga feature sa accessibility na ito sa ibang pagkakataon sa Mga Setting."</string>
     <string name="vision_settings_suggestion_title" msgid="4689275412658803919">"Baguhin ang laki ng font"</string>
     <string name="screen_reader_category_title" msgid="5825700839731107803">"Screen reader"</string>
@@ -2238,6 +2231,8 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Feedback"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Tumulong sa pagpapahusay sa pamamagitan ng pagsagot ng survey"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Walang available na survey"</string>
+    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
+    <skip />
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Mga na-download na app"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Pang-eksperimento"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Mga flag ng feature"</string>
@@ -2494,10 +2489,8 @@
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"Magpatuloy"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"Mga hearing device"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"Mag-set up at mamahala ng mga ASHA at LE Audio na hearing aid, cochlear implant, at iba pang amplification device"</string>
-    <!-- no translation found for accessibility_hearingaid_asha_only_intro (7402419984664822832) -->
-    <skip />
-    <!-- no translation found for accessibility_hearingaid_hap_only_intro (3332144138443825311) -->
-    <skip />
+    <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"Mag-set up at mamahala ng mga ASHA na hearing aid, cochlear implant, at iba pang amplification device"</string>
+    <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"Mag-set up at mamahala ng mga LE Audio na hearing aid, cochlear implant, at iba pang amplification device"</string>
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"Walang nakakonektang hearing device"</string>
     <string name="accessibility_hearingaid_adding_summary" msgid="999051610528600783">"Magdagdag ng mga hearing aid"</string>
     <string name="accessibility_hearingaid_pair_instructions_title" msgid="2357706801112207624">"Ipares ang hearing aid"</string>
@@ -2517,14 +2510,10 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"Tungkol sa mga hearing device"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"Para makahanap ng iba pang hearing device na hindi sinusuportahan ng ASHA o LE Audio, i-tap ang &lt;b&gt;Magpares ng bagong device&lt;/b&gt; &gt; &lt;b&gt;Tumingin ng higit pang device&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"Para makahanap ng iba pang hearing device na hindi sinusuportahan ng ASHA o LE Audio, i-tap ang "<b>"Magpares ng bagong device"</b>" at pagkatapos ay "<b>"Tumingin ng higit pang device"</b></string>
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary (3377169209330540616) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary_tts (8192971114504608531) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary (3531758698830915205) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary_tts (4440097982533045507) -->
-    <skip />
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"Para makahanap ng iba pang hearing device na hindi sinusuportahan ng ASHA, i-tap ang &lt;b&gt;Magpares ng bagong device&lt;/b&gt; &gt; &lt;b&gt;Tumingin ng higit pang device&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"Para makahanap ng iba pang hearing device na hindi sinusuportahan ng ASHA, i-tap ang "<b>"Magpares ng bagong device"</b>" at pagkatapos ay "<b>"Tumingin ng higit pang device"</b></string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"Para makahanap ng iba pang hearing device na hindi sinusuportahan ng LE Audio, i-tap ang &lt;b&gt;Magpares ng bagong device&lt;/b&gt; &gt; &lt;b&gt;Tumingin ng higit pang device&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"Para makahanap ng iba pang hearing device na hindi sinusuportahan ng LE Audio, i-tap ang "<b>"Magpares ng bagong device"</b>" at pagkatapos ay "<b>"Tumingin ng higit pang device"</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"Magpares ng hearing device"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"Puwede mong ipares ang mga ASHA at LE Audio hearing device sa page na ito. Tiyaking naka-on at handang ipares ang iyong hearing device."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"Available na hearing device"</string>
@@ -2975,7 +2964,8 @@
     <string name="remove_device_admin" msgid="3143059558744287259">"I-deactivate ang device na ito sa app ng admin"</string>
     <string name="uninstall_device_admin" msgid="4481095209503956916">"I-uninstall ang app"</string>
     <string name="remove_and_uninstall_device_admin" msgid="707912012681691559">"I-deactivate at i-uninstall"</string>
-    <string name="select_device_admin_msg" msgid="5501360309040114486">"Mga app ng admin ng device"</string>
+    <!-- no translation found for select_device_admin_msg (2506262585633022884) -->
+    <skip />
     <string name="no_device_admins" msgid="8888779888103079854">"Walang available na app ng admin ng device"</string>
     <string name="no_trust_agents" msgid="8659098725864191600">"Walang available na mga trust agent"</string>
     <string name="add_device_admin_msg" msgid="7730006568970042119">"I-activate ang app ng admin ng device?"</string>
@@ -3866,7 +3856,8 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"May higit pang setting na available sa loob ng app na ito"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Cooldown sa notification"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Gumamit ng cooldown sa notification"</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"Kapag nakatanggap ka ng maraming notification sa loob ng maikling panahon, hihinaan ng iyong device ang volume nito at imi-minimize nito ang mga alerto sa loob ng hanggang 2 minuto. Hindi maaapektuhan ang mga tawag, alarm, at priyoridad na pag-uusap. \n\nMakikita ang mga notification na matatanggap habang cooldown sa pamamagitan ng paghila pababa mula sa itaas ng screen."</string>
+    <!-- no translation found for notification_polite_description (6137533404978878957) -->
+    <skip />
     <string name="notification_polite_work" msgid="8823596456640216391">"Ilapat sa mga profile sa trabaho"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Ilapat sa mga app ng profile sa trabaho"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"Mga naka-bundle na notification"</string>
@@ -4374,7 +4365,8 @@
     <string name="disconnected" msgid="3469373726996129247">"Hindi nakakonekta"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Hindi nakakonekta"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> (na) app ang naka-install"</string>
-    <string name="storage_summary" msgid="5903562203143572768">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> ang nagamit - <xliff:g id="FREE_SPACE">%2$s</xliff:g> ang bakante"</string>
+    <!-- no translation found for storage_summary (7631468664968572688) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Madilim na tema, laki ng font, liwanag"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Avg <xliff:g id="USED_MEMORY">%1$s</xliff:g> ng <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> ng ginamit na memory"</string>
     <string name="users_summary" msgid="8473589474976307510">"Naka-sign in bilang <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4443,6 +4435,8 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Paggamit ng ethernet data"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
+    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
+    <skip />
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> na mobile data"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> na Wi-Fi data"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> na ethernet data"</string>
@@ -4994,8 +4988,7 @@
     <string name="satellite_setting_title" msgid="2543034229989047673">"Satellite na pagmemensahe"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Magpadala at makatanggap ng mga text message sa pamamagitan ng satellite. Kasama sa iyong account."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Magpadala at makatanggap ng mga text message sa pamamagitan ng satellite. Hindi kasama sa iyong account."</string>
-    <!-- no translation found for satellite_setting_summary_without_entitlement (5284998840770992554) -->
-    <skip />
+    <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Magpadala at makatanggap ng mga text message sa pamamagitan ng satellite. Makipag-ugnayan sa iyong carrier para sa mga detalye."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"Satellite messaging, koneksyon sa satellite"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"Tungkol sa <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="title_about_satellite_setting" msgid="3563087940535642558">"Puwede kang magpadala at makatanggap ng mga text message sa pamamagitan ng satellite gamit ang kwalipikadong <xliff:g id="CARRIER_NAME">%1$s</xliff:g> account"</string>
@@ -5006,11 +4999,10 @@
     <string name="category_name_how_it_works" msgid="585303230539269496">"Paano ito gumagana"</string>
     <string name="title_satellite_connection_guide" msgid="3294802307913609072">"Kapag wala kang mobile network"</string>
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"Awomatikong kokonekta ang iyong telepono sa satellite. Para sa pinakamahusay na koneksyon, manatili sa kung saan may malinaw na view ng kalangitan."</string>
-    <string name="title_supported_service" msgid="4275535165812691571">"Kapag nakakoenekta na ang iyong telepono sa satellite"</string>
+    <string name="title_supported_service" msgid="4275535165812691571">"Kapag nakakonekta na ang iyong telepono sa satellite"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Puwede kang mag-text sa kahit sino, kasama ang mga serbisyong pang-emergency. Kokonekta ulit ang iyong telepono sa mobile network kapag available."</string>
     <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"Posibleng mas matagal at available lang sa ilang lugar ang <xliff:g id="SUBJECT">%1$s</xliff:g>. Puwedeng makaapekto sa iyong koneksyon sa satellite ang lagay ng panahon at ilang partikular na istruktura. Hindi available ang pagtawag gamit ang satellite. Posibleng kumonekta pa rin ang mga emergency na tawag.\n\nPosibleng abutin nang ilang sandali bago lumabas ang mga pagbabago sa account sa Mga Setting. Makipag-ugnayan sa <xliff:g id="CARRIER_NAME">%2$s</xliff:g> para sa mga detalye."</string>
-    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (8042240156141790447) -->
-    <skip />
+    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="8042240156141790447">"Posibleng mas matagal at available lang sa ilang lugar ang <xliff:g id="SUBJECT">%1$s</xliff:g>. Puwedeng makaapekto sa iyong koneksyon sa satellite ang lagay ng panahon at ilang partikular na istruktura. Hindi available ang pagtawag gamit ang satellite. Posibleng kumonekta pa rin ang mga emergency na tawag. Posibleng hindi available sa lahat ng lugar ang pag-text gamit ang mga serbisyong pang-emergency.\n\nPosibleng abutin nang ilang sandali bago lumabas ang mga pagbabago sa account sa Mga Setting. Makipag-ugnayan sa <xliff:g id="CARRIER_NAME">%2$s</xliff:g> para sa mga detalye."</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Higit pa tungkol sa <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Hindi ma-on ang <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Para i-on ang <xliff:g id="FUNCTION">%1$s</xliff:g>, wakasan muna ang koneksyon sa satellite"</string>
@@ -5019,6 +5011,12 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"koneksyon sa satellite"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"satellite messaging"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Kasama sa iyong account ang paggamit ng data"</string>
+    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
+    <skip />
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Mga Access Point Name"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Hindi available kapag nakakonekta sa <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5583,8 +5581,7 @@
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"Isara"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"Magkonekta ng isa pang pares ng compatible na headphones, o ibahagi ang pangalan at password ng iyong stream sa ibang tao"</string>
     <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"Bigyang-daan ang iba na ma-scan ang code na ito at pakinggan ang iyong audio\n\nPangalan ng stream: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nPassword: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
-    <!-- no translation found for audio_sharing_dialog_qr_code_content_no_password (7824076083031650113) -->
-    <skip />
+    <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"Bigyang-daan ang iba na ma-scan ang code na ito at pakinggan ang iyong audio\n\nPangalan ng stream: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"o magpares ng ibang set ng mga compatible na headphones"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"Magpares ng isa pang hanay ng compatible na headphones, o ibahagi ang QR code ng iyong audio stream sa ibang tao"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"Ibinabahagi ang audio"</string>
@@ -5613,11 +5610,10 @@
     <string name="audio_sharing_retry_dialog_content" msgid="6014534433894608834">"Nagkaproblema. Pakisubukan ulit."</string>
     <string name="audio_sharing_incompatible_dialog_title" msgid="4586805264392802115">"Hindi puwedeng mag-share ng audio sa <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_incompatible_dialog_content" msgid="3943223683620405311">"Gumagana lang ang pag-share ng audio sa headphones na may suporta sa LE Audio"</string>
-    <!-- no translation found for audio_sharing_block_pairing_dialog_title (1756723860075818856) -->
-    <skip />
-    <!-- no translation found for audio_sharing_block_pairing_dialog_content (6352030314206654722) -->
-    <skip />
-    <!-- no translation found for audio_sharing_turn_off_button_label (1934956352475393641) -->
+    <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"I-off ang Pag-share ng Audio"</string>
+    <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Para magpares ng bagong device, i-off muna ang Pag-share ng Audio."</string>
+    <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"I-off"</string>
+    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
     <skip />
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Kumonekta sa isang LE audio stream"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Mga audio stream sa malapit"</string>
@@ -5648,6 +5644,12 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Naka-pause ang stream"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Ihinto ang pakikinig"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Magkonekta ng compatible na headphones"</string>
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
+    <skip />
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Magkonekta ng device"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Mga detalye ng audio stream"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"QR code ng audio stream"</string>

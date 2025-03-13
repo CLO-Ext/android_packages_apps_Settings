@@ -41,10 +41,8 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"இடைநீக்கப்பட்டது"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"தெரியவில்லை"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"மாதிரிக்காட்சி"</string>
-    <!-- no translation found for preview_pager_previous_button (607771113300838313) -->
-    <skip />
-    <!-- no translation found for preview_pager_next_button (8700907912508927271) -->
-    <skip />
+    <string name="preview_pager_previous_button" msgid="607771113300838313">"முந்தைய மாதிரிக்காட்சியைக் காட்டு"</string>
+    <string name="preview_pager_next_button" msgid="8700907912508927271">"அடுத்த மாதிரிக்காட்சியைக் காட்டு"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR குறியீடு"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"சிறிதாக்கு"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"பெரிதாக்கு"</string>
@@ -231,12 +229,9 @@
     <string name="search_region_hint" msgid="1748708432568237552">"பிராந்தியங்களைத் தேடுக"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"நேரம், தேதிகள், வெப்பநிலை மற்றும் பலவற்றை உங்கள் மொபைல் காட்டும் விதத்தில் நீங்கள் தேர்வுசெய்யும் பிராந்தியம் மாற்றத்தை ஏற்படுத்தும்"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"கூடுதல் மொழி அமைப்புகள்"</string>
-    <!-- no translation found for title_change_system_locale_region (1977530992614685128) -->
-    <skip />
-    <!-- no translation found for body_change_system_locale_region (9064318449821043189) -->
-    <skip />
-    <!-- no translation found for top_intro_numbering_system_title (8234587334207926397) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="1977530992614685128">"<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g> எனப் பிராந்தியத்தை மாற்றவா?"</string>
+    <string name="body_change_system_locale_region" msgid="9064318449821043189">"சாதனம் <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> மொழியை சிஸ்டம் மொழியாக வைத்திருக்கும்"</string>
+    <string name="top_intro_numbering_system_title" msgid="8234587334207926397">"உங்கள் பிராந்தியத்திற்கேற்ற விருப்பங்களைப் பெரும்பாலான ஆப்ஸ் பயன்படுத்தும்"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"பிராந்தியத்திற்கேற்ற விருப்பங்கள்"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"யூனிட்கள் மற்றும் எண் விருப்பத்தேர்வுகளை அமைக்கலாம்"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"உங்கள் பிராந்தியத்திற்கேற்ற விருப்பங்களை ஆப்ஸுக்குத் தெரிவியுங்கள். இதனால் உங்கள் அனுபவத்தை ஆப்ஸால் பிரத்தியேகமாக்க முடியும்."</string>
@@ -893,7 +888,8 @@
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"திரைப் பூட்டு ஏற்கனவே மாற்றப்பட்டது. புதிய திரைப் பூட்டைப் பயன்படுத்தி மீண்டும் முயல்க."</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"ரத்துசெய்"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"அடுத்து"</string>
-    <string name="manage_device_admin" msgid="1044620606203916275">"சாதனநிர்வாகி ஆப்ஸ்"</string>
+    <!-- no translation found for manage_device_admin (7272894919651600481) -->
+    <skip />
     <string name="number_of_device_admins_none" msgid="152926922020437312">"ஆப்ஸ் எதுவும் செயலில் இல்லை"</string>
     <string name="number_of_device_admins" msgid="3402909995362162876">"{count,plural, =1{# ஆப்ஸ் செயலில் உள்ளது}other{# ஆப்ஸ் செயலில் உள்ளன}}"</string>
     <string name="manage_trust_agents" msgid="6410149930029992356">"நம்பகமான ஏஜென்ட்"</string>
@@ -1284,12 +1280,9 @@
     <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="8102786488994263815">"அவசரகால முகவரி"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"வைஃபை மூலம் அவசர அழைப்பை மேற்கொள்ளும்போது, உங்களின் அப்போதைய இருப்பிடமே உங்கள் முகவரியாகக் கருதப்படும்"</string>
-    <!-- no translation found for private_dns_title (1180823690693258572) -->
-    <skip />
-    <!-- no translation found for private_dns_field_require (2318400923953435586) -->
-    <skip />
-    <!-- no translation found for private_dns_hostname_invalid (5085498734835552780) -->
-    <skip />
+    <string name="private_dns_title" msgid="1180823690693258572">"ஹோஸ்ட்பெயர்"</string>
+    <string name="private_dns_field_require" msgid="2318400923953435586">"இந்தப் புலத்தை நிரப்ப வேண்டும்"</string>
+    <string name="private_dns_hostname_invalid" msgid="5085498734835552780">"நீங்கள் டைப் செய்த ஹோஸ்ட்பெயர் தவறானது"</string>
     <string name="private_dns_help_message" msgid="851221502063782306">"தனிப்பட்ட DNS அம்சங்கள் பற்றி "<annotation id="url">"மேலும் அறிக"</annotation></string>
     <string name="private_dns_mode_on" msgid="8878679071975375696">"ஆன்"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"வைஃபை அழைப்பைச் செயல்படுத்தவும்"</string>
@@ -2238,6 +2231,8 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"கருத்து"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"கருத்துக்கணிப்பில் பங்கேற்று எங்களை மேம்படுத்திக்கொள்ள உதவுங்கள்"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"கருத்துக்கணிப்புகள் எதுவும் இல்லை"</string>
+    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
+    <skip />
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"பதிவிறக்கிய ஆப்ஸ்"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"பரிசோதனை முயற்சி"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"அம்சங்களை மாற்றுதல்"</string>
@@ -2494,10 +2489,8 @@
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"தொடர்க"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"செவித்துணைக் கருவிகள்"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"ASHA மற்றும் LE ஆடியோ செவித்துணைக் கருவிகள், கோக்லியார் இம்பிளான்ட் சாதனங்கள், பிற ஒலிபெருக்கிச் சாதனங்கள் ஆகியவற்றை அமைத்து நிர்வகியுங்கள்"</string>
-    <!-- no translation found for accessibility_hearingaid_asha_only_intro (7402419984664822832) -->
-    <skip />
-    <!-- no translation found for accessibility_hearingaid_hap_only_intro (3332144138443825311) -->
-    <skip />
+    <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"ASHA செவித்துணைக் கருவிகள், கோக்லியார் இம்பிளான்ட் சாதனங்கள், பிற ஒலிபெருக்கிச் சாதனங்கள் ஆகியவற்றை அமைத்து நிர்வகியுங்கள்"</string>
+    <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"LE ஆடியோ செவித்துணைக் கருவிகள், கோக்லியார் இம்பிளான்ட் சாதனங்கள், பிற ஒலிபெருக்கிச் சாதனங்கள் ஆகியவற்றை அமைத்து நிர்வகியுங்கள்"</string>
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"செவித்துணைக் கருவிகள் எதுவும் இணைக்கப்படவில்லை"</string>
     <string name="accessibility_hearingaid_adding_summary" msgid="999051610528600783">"செவித்துணை கருவிகளைச் சேர்க்கவும்"</string>
     <string name="accessibility_hearingaid_pair_instructions_title" msgid="2357706801112207624">"துணைக் கருவிகளை இணைத்தல்"</string>
@@ -2517,14 +2510,10 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"செவித்துணை கருவிகள் குறித்த அறிமுகம்"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"ASHA அல்லது LE ஆடியோவை ஆதரிக்காத பிற செவித்துணைக் கருவிகளைக் கண்டறிய, &lt;b&gt;புதிய சாதனத்தை இணை&lt;/b&gt; &gt; &lt;b&gt;மேலும் சாதனங்களைக் காட்டு&lt;/b&gt; என்பதைத் தட்டவும்"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"ASHA அல்லது LE ஆடியோவை ஆதரிக்காத பிற செவித்துணைக் கருவிகளைக் கண்டறிய, "<b>"புதிய சாதனத்தை இணை"</b>" பிறகு "<b>"மேலும் சாதனங்களைக் காட்டு"</b>" என்பதைத் தட்டவும்"</string>
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary (3377169209330540616) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary_tts (8192971114504608531) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary (3531758698830915205) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary_tts (4440097982533045507) -->
-    <skip />
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"ASHAவை ஆதரிக்காத பிற செவித்துணைக் கருவிகளைக் கண்டறிய, &lt;b&gt;புதிய சாதனத்தை இணை&lt;/b&gt; &gt; &lt;b&gt;மேலும் சாதனங்களைக் காட்டு&lt;/b&gt; என்பதைத் தட்டவும்"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"ASHAவை ஆதரிக்காத பிற செவித்துணைக் கருவிகளைக் கண்டறிய, "<b>"புதிய சாதனத்தை இணை"</b>" என்பதைத் தட்டவும், அதன்பிறகு "<b>"மேலும் சாதனங்களைக் காட்டு"</b>" என்பதைத் தட்டவும்"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"LE ஆடியோவை ஆதரிக்காத பிற செவித்துணைக் கருவிகளைக் கண்டறிய, &lt;b&gt;புதிய சாதனத்தை இணை&lt;/b&gt; &gt; &lt;b&gt;மேலும் சாதனங்களைக் காட்டு&lt;/b&gt; என்பதைத் தட்டவும்"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"LE ஆடியோவை ஆதரிக்காத பிற செவித்துணைக் கருவிகளைக் கண்டறிய, "<b>"புதிய சாதனத்தை இணை"</b>" என்பதைத் தட்டவும், அதன்பிறகு "<b>"மேலும் சாதனங்களைக் காட்டு"</b>" என்பதைத் தட்டவும்"</string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"செவித்துணைக் கருவியை இணை"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"இந்தப் பக்கத்தில் ASHA மற்றும் LE ஆடியோ செவித்துணைக் கருவிகளை நீங்கள் இணைக்கலாம். உங்கள் செவித்துணைக் கருவி இயக்கப்பட்டு இணைப்பதற்குத் தயாராக உள்ளதை உறுதிசெய்துகொள்ளுங்கள்."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"கிடைக்கும் செவித்துணை கருவிகள்"</string>
@@ -2975,7 +2964,8 @@
     <string name="remove_device_admin" msgid="3143059558744287259">"இந்தச் சாதன நிர்வாகி ஆப்ஸை முடக்கு"</string>
     <string name="uninstall_device_admin" msgid="4481095209503956916">"ஆப்ஸை நிறுவல் நீக்கு"</string>
     <string name="remove_and_uninstall_device_admin" msgid="707912012681691559">"செயலற்றதாக்கி, நிறுவல் நீக்கு"</string>
-    <string name="select_device_admin_msg" msgid="5501360309040114486">"சாதன நிர்வாகி ஆப்ஸ்"</string>
+    <!-- no translation found for select_device_admin_msg (2506262585633022884) -->
+    <skip />
     <string name="no_device_admins" msgid="8888779888103079854">"சாதன நிர்வாகிப் ஆப்ஸ் எதுவுமில்லை"</string>
     <string name="no_trust_agents" msgid="8659098725864191600">"நம்பகமான ஏஜென்ட்கள் இல்லை"</string>
     <string name="add_device_admin_msg" msgid="7730006568970042119">"இந்த ஆப்ஸை செயல்படுத்தவா?"</string>
@@ -3866,7 +3856,8 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"இந்த ஆப்ஸில் கூடுதல் அமைப்புகள் உள்ளன"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"அறிவிப்புக்கான கூல்டவுன்"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"அறிவிப்புக்கான கூல்டவுனைப் பயன்படுத்துதல்"</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"குறுகிய காலத்தில் பல அறிவிப்புகளைப் பெறும்போது, உங்கள் சாதனம் அதன் ஒலியளவைக் குறைத்து 2 நிமிடங்கள் வரை விழிப்பூட்டல்கள் பெறுவதைக் குறைக்கும். அழைப்புகள், அலாரங்கள் மற்றும் முக்கியமான உரையாடல்கள் பாதிக்கப்படாது. \n\nதிரையின் மேலிருந்து கீழே இழுப்பதன் கூல்டவுன் நேரத்தில் பெற்ற அறிவிப்புகளைப் பார்க்கலாம்."</string>
+    <!-- no translation found for notification_polite_description (6137533404978878957) -->
+    <skip />
     <string name="notification_polite_work" msgid="8823596456640216391">"பணிக் கணக்குகளுக்குப் பயன்படுத்துதல்"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"பணிக் கணக்கு ஆப்ஸுக்குப் பயன்படுத்தும்"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"தொகுக்கப்பட்ட அறிவிப்புகள்"</string>
@@ -4374,7 +4365,8 @@
     <string name="disconnected" msgid="3469373726996129247">"இணைக்கப்படவில்லை"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"இணைக்கப்படவில்லை"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> ஆப்ஸ் நிறுவப்பட்டுள்ளன"</string>
-    <string name="storage_summary" msgid="5903562203143572768">"பயன்படுத்தியது: <xliff:g id="PERCENTAGE">%1$s</xliff:g>, காலியிடம்: <xliff:g id="FREE_SPACE">%2$s</xliff:g>"</string>
+    <!-- no translation found for storage_summary (7631468664968572688) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"டார்க் தீம், எழுத்து அளவு, ஒளிர்வு"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> இல் சராசரியாக <xliff:g id="USED_MEMORY">%1$s</xliff:g> நினைவகம் பயன்படுத்தப்பட்டுள்ளது"</string>
     <string name="users_summary" msgid="8473589474976307510">"உள்நுழைந்துள்ள முகவரி: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4443,6 +4435,8 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"ஈதர்நெட் டேட்டா உபயோகம்"</string>
     <string name="wifi" msgid="2932584495223243842">"வைஃபை"</string>
     <string name="ethernet" msgid="4665162609974492983">"ஈதர்நெட்"</string>
+    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
+    <skip />
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> மொபைல் டேட்டா"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> வைஃபை தரவு"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> ஈதர்நெட் தரவு"</string>
@@ -4994,8 +4988,7 @@
     <string name="satellite_setting_title" msgid="2543034229989047673">"சாட்டிலைட் மெசேஜிங்"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"சாட்டிலைட் மூலம் மெசேஜ்களை அனுப்பவும் பெறவும் முடியும். உங்கள் கணக்கில் சேர்க்கப்பட்டுள்ளது."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"சாட்டிலைட் மூலம் மெசேஜ்களை அனுப்பலாம் பெறலாம். இந்தச் சேவை உங்கள் கணக்கிற்கு இல்லை."</string>
-    <!-- no translation found for satellite_setting_summary_without_entitlement (5284998840770992554) -->
-    <skip />
+    <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"சாட்டிலைட் மூலம் மெசேஜ்களை அனுப்பலாம் பெறலாம். விவரங்களுக்கு உங்கள் மொபைல் நிறுவனத்தைத் தொடர்புகொள்ளுங்கள்."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"சாட்டிலைட் மெசேஜிங், சாட்டிலைட் இணைப்புநிலை"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"<xliff:g id="SUBJECT">%1$s</xliff:g> பற்றிய அறிமுகம்"</string>
     <string name="title_about_satellite_setting" msgid="3563087940535642558">"தகுதிபெறும் <xliff:g id="CARRIER_NAME">%1$s</xliff:g> கணக்கைப் பயன்படுத்தி சாட்டிலைட் மூலம் நீங்கள் மெசேஜ் அனுப்பலாம் பெறலாம்"</string>
@@ -5009,8 +5002,7 @@
     <string name="title_supported_service" msgid="4275535165812691571">"சாட்டிலைட்டுடன் மொபைல் இணைக்கப்பட்ட பிறகு"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"அவசரகாலச் சேவைகள் உட்பட எவருக்கும் நீங்கள் மெச்செஜ் அனுப்பலாம். மொபைல் நெட்வொர்க் கிடைக்கும்போது அதனுடன் உங்கள் மொபைல் மீண்டும் இணையும்."</string>
     <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"<xliff:g id="SUBJECT">%1$s</xliff:g> மூலம் மெசேஜ் அனுப்புவதற்கு அதிக நேரம் ஆகலாம். மேலும் சில பகுதிகளில் மட்டுமே இந்தச் சேவை கிடைக்கும். வானிலை மற்றும் சில கட்டமைப்புகள் உங்கள் சாட்டிலைட் இணைப்பைப் பாதிக்கக்கூடும். சாட்டிலைட் மூலம் அழைக்க முடியவில்லை. அவசர அழைப்புகளை இப்போதும் தொடர்புகொள்ளலாம்.\n\nஅமைப்புகளில் கணக்கு மாற்றங்கள் காட்டப்படுவதற்குச் சிறிது நேரம் ஆகலாம். விவரங்களுக்கு <xliff:g id="CARRIER_NAME">%2$s</xliff:g> ஐத் தொடர்புகொள்ளுங்கள்."</string>
-    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (8042240156141790447) -->
-    <skip />
+    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="8042240156141790447">"<xliff:g id="SUBJECT">%1$s</xliff:g> மூலம் மெசேஜ் அனுப்புவதற்கு அதிக நேரம் ஆகலாம், சில பகுதிகளில் மட்டுமே இந்தச் சேவை கிடைக்கும். வானிலை மற்றும் சில கட்டமைப்புகள் உங்கள் சாட்டிலைட் இணைப்பைப் பாதிக்கக்கூடும். சாட்டிலைட் மூலம் அழைக்க முடியவில்லை. அவசர அழைப்புகள் இப்போதும் இணைக்கப்படலாம். அவசரகாலச் சேவைகளுடன் மெசேஜ் அனுப்புவது/பெறுவது சில பகுதிகளில் கிடைக்காமல் போகலாம்.\n\nகணக்கில் ஏற்படும் மாற்றங்கள் அமைப்புகளில் காட்டப்பட சிறிது நேரம் ஆகலாம். விவரங்களுக்கு <xliff:g id="CARRIER_NAME">%2$s</xliff:g> நிறுவனத்தைத் தொடர்புகொள்ளுங்கள்."</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"<xliff:g id="SUBJECT">%1$s</xliff:g> குறித்த கூடுதல் தகவல்கள்"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> ஐ இயக்க முடியவில்லை"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> ஐ இயக்க, முதலில் சாட்டிலைட் இணைப்பை முடக்கவும்"</string>
@@ -5019,6 +5011,12 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"சாட்டிலைட் இணைப்புநிலை"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"சாட்டிலைட் மெசேஜிங்"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"உங்கள் கணக்கில் டேட்டா பயன்பாடு அடங்கும்"</string>
+    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
+    <skip />
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"ஆக்சஸ் பாயிண்ட் நேம்கள்"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g> உடன் இணைந்திருக்கும்போது கிடைக்காது"</string>
@@ -5583,8 +5581,7 @@
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"மூடு"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"இணக்கமான ஹெட்ஃபோன்களின் மற்றொரு ஜோடியை இணைக்கலாம் அல்லது உங்கள் ஸ்ட்ரீமின் பெயரையும் கடவுச்சொல்லையும் மற்றவருடன் பகிரலாம்"</string>
     <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"இந்தக் குறியீட்டை ஸ்கேன் செய்து உங்கள் ஆடியோவைக் கேட்க மற்றவர்களை அனுமதியுங்கள்\n\nஸ்ட்ரீம் பெயர்: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nகடவுச்சொல்: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
-    <!-- no translation found for audio_sharing_dialog_qr_code_content_no_password (7824076083031650113) -->
-    <skip />
+    <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"இந்தக் குறியீட்டை ஸ்கேன் செய்து உங்கள் ஆடியோவைக் கேட்க மற்றவர்களை அனுமதியுங்கள்\n\nஸ்ட்ரீம் பெயர்: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"அல்லது இணக்கமான ஹெட்ஃபோன்களின் மற்றொரு தொகுப்பை இணையுங்கள்"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"இணக்கமான ஹெட்ஃபோன்களின் மற்றொரு ஜோடியை இணைக்கலாம் அல்லது உங்கள் ஆடியோ ஸ்ட்ரீமின் QR குறியீட்டை மற்றவருடன் பகிரலாம்"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"ஆடியோ பகிரப்படுகிறது"</string>
@@ -5613,11 +5610,10 @@
     <string name="audio_sharing_retry_dialog_content" msgid="6014534433894608834">"ஏதோ தவறாகிவிட்டது. மீண்டும் முயலவும்."</string>
     <string name="audio_sharing_incompatible_dialog_title" msgid="4586805264392802115">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> உடன் ஆடியோவைப் பகிர முடியாது"</string>
     <string name="audio_sharing_incompatible_dialog_content" msgid="3943223683620405311">"LE ஆடியோவை ஆதரிக்கும் ஹெட்ஃபோன்களில் மட்டுமே ஆடியோ பகிர்வு செயல்படும்"</string>
-    <!-- no translation found for audio_sharing_block_pairing_dialog_title (1756723860075818856) -->
-    <skip />
-    <!-- no translation found for audio_sharing_block_pairing_dialog_content (6352030314206654722) -->
-    <skip />
-    <!-- no translation found for audio_sharing_turn_off_button_label (1934956352475393641) -->
+    <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"ஆடியோ பகிர்வை முடக்குதல்"</string>
+    <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"புதிய சாதனத்தை இணைக்க, முதலில் ஆடியோ பகிர்வை முடக்கவும்."</string>
+    <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"முடக்கு"</string>
+    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
     <skip />
     <string name="audio_streams_category_title" msgid="4878022761829895463">"LE ஆடியோ ஸ்ட்ரீமுடன் இணைத்தல்"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"அருகிலுள்ள ஆடியோ ஸ்ட்ரீம்கள்"</string>
@@ -5648,6 +5644,12 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"ஸ்ட்ரீம் இடைநிறுத்தப்பட்டது"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"கேட்பதை நிறுத்து"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"இணக்கமான ஹெட்ஃபோன்களை இணையுங்கள்"</string>
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
+    <skip />
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"சாதனத்தை இணை"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"ஆடியோ ஸ்ட்ரீமின் விவரங்கள்"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"ஆடியோ ஸ்ட்ரீமின் QR குறியீடு"</string>

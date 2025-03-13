@@ -41,10 +41,8 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Σε αναστολή"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Άγνωστη"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Προεπισκόπηση"</string>
-    <!-- no translation found for preview_pager_previous_button (607771113300838313) -->
-    <skip />
-    <!-- no translation found for preview_pager_next_button (8700907912508927271) -->
-    <skip />
+    <string name="preview_pager_previous_button" msgid="607771113300838313">"Προηγούμενη προεπισκόπηση"</string>
+    <string name="preview_pager_next_button" msgid="8700907912508927271">"Επόμενη προεπισκόπηση"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Κωδικός QR"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Να γίνουν μικρότερα"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Να γίνουν μεγαλύτερα"</string>
@@ -231,12 +229,9 @@
     <string name="search_region_hint" msgid="1748708432568237552">"Αναζήτηση περιοχών"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"Η περιοχή που επιλέγετε επηρεάζει τον τρόπο με τον οποίο το τηλέφωνό σας εμφανίζει την ώρα, τις ημερομηνίες, τη θερμοκρασία και άλλα"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"Περισσότερες ρυθμίσεις γλώσσας"</string>
-    <!-- no translation found for title_change_system_locale_region (1977530992614685128) -->
-    <skip />
-    <!-- no translation found for body_change_system_locale_region (9064318449821043189) -->
-    <skip />
-    <!-- no translation found for top_intro_numbering_system_title (8234587334207926397) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="1977530992614685128">"Αλλαγή περιοχής σε <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>;"</string>
+    <string name="body_change_system_locale_region" msgid="9064318449821043189">"Η συσκευή θα διατηρήσει τα <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> ως γλώσσα συστήματος"</string>
+    <string name="top_intro_numbering_system_title" msgid="8234587334207926397">"Οι περισσότερες εφαρμογές θα χρησιμοποιούν τις προτιμήσεις περιοχής"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Προτιμήσεις περιοχής"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Ορισμός προτιμήσεων μονάδων και αριθμών"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Επιτρέψτε στις εφαρμογές να γνωρίζουν τις προτιμήσεις περιοχής, ώστε να εξατομικεύουν την εμπειρία σας"</string>
@@ -893,7 +888,8 @@
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"Το κλείδωμα οθόνης άλλαξε ήδη. Δοκιμάστε ξανά με το νέο ξεκλείδωμα οθόνης."</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"Ακύρωση"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"Επόμενο"</string>
-    <string name="manage_device_admin" msgid="1044620606203916275">"Εφαρμογές διαχείρισης συσκευής"</string>
+    <!-- no translation found for manage_device_admin (7272894919651600481) -->
+    <skip />
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Δεν υπάρχουν ενεργές εφαρμογές"</string>
     <string name="number_of_device_admins" msgid="3402909995362162876">"{count,plural, =1{# ενεργή εφαρμογή}other{# ενεργές εφαρμογές}}"</string>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Παράγοντες εμπιστοσύνης"</string>
@@ -1284,12 +1280,9 @@
     <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="8102786488994263815">"Διεύθυνση έκτακτης ανάγκης"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Χρήση ως τοποθεσίας σας όταν πραγματοποιείτε κλήση έκτακτης ανάγκης μέσω Wi‑Fi"</string>
-    <!-- no translation found for private_dns_title (1180823690693258572) -->
-    <skip />
-    <!-- no translation found for private_dns_field_require (2318400923953435586) -->
-    <skip />
-    <!-- no translation found for private_dns_hostname_invalid (5085498734835552780) -->
-    <skip />
+    <string name="private_dns_title" msgid="1180823690693258572">"Όνομα κεντρικού υπολογιστή"</string>
+    <string name="private_dns_field_require" msgid="2318400923953435586">"Αυτό το πεδίο είναι υποχρεωτικό"</string>
+    <string name="private_dns_hostname_invalid" msgid="5085498734835552780">"Το όνομα κεντρικού υπολογιστή που πληκτρολογήσατε δεν είναι έγκυρο"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Περισσότερα"</annotation>" σχετικά με τις λειτουργίες Ιδιωτικού DNS"</string>
     <string name="private_dns_mode_on" msgid="8878679071975375696">"Ενεργό"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"Ενεργοποίηση Κλήσης Wi-Fi"</string>
@@ -2238,6 +2231,8 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Σχόλια"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Συμβάλετε στη βελτίωση λαμβάνοντας συμμετοχή σε μια έρευνα"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Δεν υπάρχουν διαθέσιμες έρευνες"</string>
+    <!-- no translation found for accessibility_send_feedback_title (6455703838689943046) -->
+    <skip />
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Ληφθείσες εφαρμογές"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Σε πειραματικό στάδιο"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Επισημάνσεις λειτουργιών"</string>
@@ -2494,10 +2489,8 @@
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"Συνέχεια"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"Συσκευές ακοής"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"Ρύθμιση και διαχείριση βοηθημάτων ακοής ASHA και LE Audio, κοχλιακών εμφυτευμάτων και άλλων συσκευών ενίσχυσης ήχου"</string>
-    <!-- no translation found for accessibility_hearingaid_asha_only_intro (7402419984664822832) -->
-    <skip />
-    <!-- no translation found for accessibility_hearingaid_hap_only_intro (3332144138443825311) -->
-    <skip />
+    <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"Ρύθμιση και διαχείριση βοηθημάτων ακοής ASHA, κοχλιακών εμφυτευμάτων και άλλων συσκευών ενίσχυσης ήχου"</string>
+    <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"Ρύθμιση και διαχείριση βοηθημάτων ακοής LE Audio, κοχλιακών εμφυτευμάτων και άλλων συσκευών ενίσχυσης ήχου"</string>
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"Δεν έχουν συνδεθεί συσκευές ακοής"</string>
     <string name="accessibility_hearingaid_adding_summary" msgid="999051610528600783">"Προσθήκη βοηθημάτων ακοής"</string>
     <string name="accessibility_hearingaid_pair_instructions_title" msgid="2357706801112207624">"Σύζευξη βοηθημάτων ακοής"</string>
@@ -2517,14 +2510,10 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"Σχετικά με τις συσκευές ακοής"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"Για να βρείτε άλλες συσκευές ακοής που δεν υποστηρίζονται από το ASHA ή το LE Audio, πατήστε &lt;b&gt;Σύζευξη νέας συσκευής&lt;/b&gt; &gt; &lt;b&gt;Εμφάνιση περισσότερων συσκευών&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"Για να βρείτε άλλες συσκευές ακοής που δεν υποστηρίζονται από το ASHA ή το LE Audio, πατήστε "<b>"Σύζευξη νέας συσκευής"</b>" και έπειτα "<b>"Εμφάνιση περισσότερων συσκευών"</b></string>
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary (3377169209330540616) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_asha_only_summary_tts (8192971114504608531) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary (3531758698830915205) -->
-    <skip />
-    <!-- no translation found for accessibility_hearing_device_footer_hap_only_summary_tts (4440097982533045507) -->
-    <skip />
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"Για να βρείτε άλλες συσκευές ακοής που δεν υποστηρίζονται από το ASHA, πατήστε &lt;b&gt;Σύζευξη νέας συσκευής&lt;/b&gt; &gt; &lt;b&gt;Εμφάνιση περισσότερων συσκευών&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"Για να βρείτε άλλες συσκευές ακοής που δεν υποστηρίζονται από το ASHA, πατήστε "<b>"Σύζευξη νέας συσκευής"</b>" και έπειτα "<b>"Εμφάνιση περισσότερων συσκευών"</b></string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"Για να βρείτε άλλες συσκευές ακοής που δεν υποστηρίζονται από το LE Audio, πατήστε &lt;b&gt;Σύζευξη νέας συσκευής&lt;/b&gt; &gt; &lt;b&gt;Εμφάνιση περισσότερων συσκευών&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"Για να βρείτε άλλες συσκευές ακοής που δεν υποστηρίζονται από το LE Audio, πατήστε "<b>"Σύζευξη νέας συσκευής"</b>" και έπειτα "<b>"Εμφάνιση περισσότερων συσκευών"</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"Σύζευξη συσκευής ακοής"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"Σε αυτή τη σελίδα, μπορείτε να κάνετε σύζευξη των συσκευών ακοής ASHA και LE Audio. Βεβαιωθείτε ότι η συσκευή ακοής είναι ενεργοποιημένη και έτοιμη για σύζευξη."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"Διαθέσιμες συσκευές ακοής"</string>
@@ -2975,7 +2964,8 @@
     <string name="remove_device_admin" msgid="3143059558744287259">"Απενεργοποίηση αυτής της εφαρμογής διαχειριστή συσκευής"</string>
     <string name="uninstall_device_admin" msgid="4481095209503956916">"Απεγκατάσταση εφαρμογής"</string>
     <string name="remove_and_uninstall_device_admin" msgid="707912012681691559">"Απενεργοποίηση και απεγκατάσταση"</string>
-    <string name="select_device_admin_msg" msgid="5501360309040114486">"Εφαρμογές διαχειριστή συσκευής"</string>
+    <!-- no translation found for select_device_admin_msg (2506262585633022884) -->
+    <skip />
     <string name="no_device_admins" msgid="8888779888103079854">"Δεν υπάρχουν διαθέσιμες εφαρμογές διαχειριστή συσκευής"</string>
     <string name="no_trust_agents" msgid="8659098725864191600">"Δεν υπάρχουν διαθέσιμοι παράγοντες εμπιστοσύνης"</string>
     <string name="add_device_admin_msg" msgid="7730006568970042119">"Ενεργοπ. εφαρμογής διαχειριστή συσκευής;"</string>
@@ -3866,7 +3856,8 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Περισσότερες ρυθμίσεις είναι διαθέσιμες μέσα σε αυτή την εφαρμογή"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Cooldown ειδοποιήσεων"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Χρήση cooldown ειδοποιήσεων"</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"Όταν λαμβάνετε πολλές ειδοποιήσεις μέσα σε σύντομο χρονικό διάστημα, η συσκευή σας μειώνει την ένταση του ήχου και ελαχιστοποιεί τις ειδοποιήσεις για έως και 2 λεπτά. Οι κλήσεις, τα ξυπνητήρια και οι συζητήσεις προτεραιότητας δεν επηρεάζονται. \n\nΓια να βρείτε τις ειδοποιήσεις που λαμβάνετε κατά τη διάρκεια της περιόδου cooldown, σύρετε προς τα κάτω από το πάνω μέρος της οθόνης."</string>
+    <!-- no translation found for notification_polite_description (6137533404978878957) -->
+    <skip />
     <string name="notification_polite_work" msgid="8823596456640216391">"Εφαρμογή σε προφίλ εργασίας"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Εφαρμογή σε εφαρμογές με προφίλ εργασίας"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"Ομαδοποιημένες ειδοποιήσεις"</string>
@@ -4374,7 +4365,8 @@
     <string name="disconnected" msgid="3469373726996129247">"Μη συνδεδεμένο"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Μη συνδεδεμένο"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Εγκαταστάθηκαν <xliff:g id="COUNT">%1$d</xliff:g> εφαρμογές"</string>
-    <string name="storage_summary" msgid="5903562203143572768">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> χρησιμοποιείται - <xliff:g id="FREE_SPACE">%2$s</xliff:g> ελεύθερος"</string>
+    <!-- no translation found for storage_summary (7631468664968572688) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Σκούρο θέμα, μέγεθος γραμματοσειράς, φωτεινότητα"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Χρησιμοποιείται κατά μέσο όρο <xliff:g id="USED_MEMORY">%1$s</xliff:g> από <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> μνήμης"</string>
     <string name="users_summary" msgid="8473589474976307510">"Συνδέθηκε ως <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4443,6 +4435,8 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Χρήση δεδομένων Ethernet"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
+    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
+    <skip />
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> δεδ/να κιν. τηλ."</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> δεδομένων Wi-Fi"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> δεδομένων ethernet"</string>
@@ -4994,8 +4988,7 @@
     <string name="satellite_setting_title" msgid="2543034229989047673">"Ανταλλαγή μηνυμάτων μέσω δορυφόρου"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Στείλτε και λάβετε μηνύματα κειμένου μέσω δορυφόρου. Περιλαμβάνεται στον λογαριασμό σας."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Στείλτε και λάβετε μηνύματα κειμένου μέσω δορυφόρου. Δεν περιλαμβάνεται στον λογαριασμό σας."</string>
-    <!-- no translation found for satellite_setting_summary_without_entitlement (5284998840770992554) -->
-    <skip />
+    <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Στείλτε και λάβετε μηνύματα κειμένου μέσω δορυφόρου. Επικοινωνήστε με την εταιρεία κινητής τηλεφωνίας που χρησιμοποιείτε για λεπτομέρειες."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"Ανταλλαγή μηνυμάτων μέσω δορυφόρου, δορυφορική συνδεσιμότητα"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"Σχετικά με τη λειτουργία <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="title_about_satellite_setting" msgid="3563087940535642558">"Μπορείτε να στέλνετε και να λαμβάνετε μηνύματα κειμένου μέσω δορυφόρου με έναν κατάλληλο λογαριασμό <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
@@ -5009,8 +5002,7 @@
     <string name="title_supported_service" msgid="4275535165812691571">"Μετά τη σύνδεση του τηλεφώνου σας με έναν δορυφόρο"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Μπορείτε να στέλνετε μηνύματα σε οποιονδήποτε, ακόμα και στις υπηρεσίες έκτακτης ανάγκης. Το τηλέφωνό σας θα συνδεθεί ξανά σε ένα δίκτυο κινητής τηλεφωνίας όταν είναι διαθέσιμο."</string>
     <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"Η λειτουργία <xliff:g id="SUBJECT">%1$s</xliff:g> μπορεί να διαρκέσει περισσότερο και είναι διαθέσιμη μόνο σε ορισμένες περιοχές. Ο καιρός και ορισμένες κατασκευές ενδέχεται να επηρεάσουν τη δορυφορική σύνδεση. Η κλήση μέσω δορυφόρου δεν είναι διαθέσιμη. Μπορεί να υπάρχει ακόμη δυνατότητα για κλήσεις έκτακτης ανάγκης.\n\nΊσως χρειαστεί λίγος χρόνος, για να εμφανιστούν οι αλλαγές λογαριασμού στις Ρυθμίσεις. Για λεπτομέρειες, επικοινωνήστε με την εταιρεία κινητής τηλεφωνίας <xliff:g id="CARRIER_NAME">%2$s</xliff:g>."</string>
-    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (8042240156141790447) -->
-    <skip />
+    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="8042240156141790447">"Η λειτουργία <xliff:g id="SUBJECT">%1$s</xliff:g> μπορεί να διαρκέσει περισσότερο και είναι διαθέσιμη μόνο σε ορισμένες περιοχές. Ο καιρός και ορισμένες κατασκευές ενδέχεται να επηρεάσουν τη δορυφορική σύνδεση. Η κλήση μέσω δορυφόρου δεν είναι διαθέσιμη. Ενδέχεται να υπάρχει ακόμη δυνατότητα για κλήσεις έκτακτης ανάγκης. Η επικοινωνία μέσω μηνυμάτων με υπηρεσίες έκτακτης ανάγκης ενδέχεται να μην είναι διαθέσιμη σε όλες τις περιοχές.\n\nΊσως χρειαστεί λίγος χρόνος για να εμφανιστούν οι αλλαγές λογαριασμού στις Ρυθμίσεις. Για λεπτομέρειες, επικοινωνήστε με την εταιρεία κινητής τηλεφωνίας <xliff:g id="CARRIER_NAME">%2$s</xliff:g>."</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Περισσότερα για τη λειτουργία <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Δεν είναι δυνατή η ενεργοποίηση της επιλογής <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Για να ενεργοποιήσετε την επιλογή <xliff:g id="FUNCTION">%1$s</xliff:g>, αρχικά τερματίστε τη σύνδεση μέσω δορυφόρου"</string>
@@ -5019,6 +5011,12 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"δορυφορική συνδεσιμότητα"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"ανταλλαγή μηνυμάτων μέσω δορυφόρου"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Η χρήση δεδομένων συμπεριλαμβάνεται στον λογαριασμό σας"</string>
+    <!-- no translation found for category_title_satellite_supported_apps (8445659428502119518) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_entry (3227843312488003028) -->
+    <skip />
+    <!-- no translation found for title_satellite_supported_app_list_page (318806852682483512) -->
+    <skip />
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Ονόματα σημείων πρόσβασης"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Δεν διατίθεται κατά τη σύνδεση σε <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5583,8 +5581,7 @@
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"Κλείσιμο"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"Συνδέστε ένα άλλο ζευγάρι συμβατών ακουστικών ή μοιραστείτε το όνομα και τον κωδικό πρόσβασης της ροής σας με το άλλο άτομο"</string>
     <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"Επιτρέψτε σε άλλους χρήστες να σαρώσουν αυτόν τον κωδικό και να ακούσουν τον ήχο σας\n\nΌνομα ροής: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nΚωδικός πρόσβασης: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
-    <!-- no translation found for audio_sharing_dialog_qr_code_content_no_password (7824076083031650113) -->
-    <skip />
+    <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"Επιτρέψτε σε άλλους χρήστες να σαρώσουν αυτόν τον κωδικό και να ακούσουν τον ήχο σας\n\nΌνομα ροής: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"ή πραγματοποιήστε σύζευξη ενός άλλου ζευγαριού συμβατών ακουστικών"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"Κάντε σύζευξη ενός άλλου ζευγαριού συμβατών ακουστικών ή μοιραστείτε τον κωδικό QR της ροής ήχου σας με το άλλο άτομο"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"Κοινή χρήση ήχου"</string>
@@ -5613,11 +5610,10 @@
     <string name="audio_sharing_retry_dialog_content" msgid="6014534433894608834">"Προέκυψε πρόβλημα. Δοκιμάστε ξανά."</string>
     <string name="audio_sharing_incompatible_dialog_title" msgid="4586805264392802115">"Δεν είναι δυνατή η κοινή χρήση ήχου με τη συσκευή <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_incompatible_dialog_content" msgid="3943223683620405311">"Η κοινή χρήση ήχου λειτουργεί μόνο με ακουστικά που υποστηρίζουν LE Audio"</string>
-    <!-- no translation found for audio_sharing_block_pairing_dialog_title (1756723860075818856) -->
-    <skip />
-    <!-- no translation found for audio_sharing_block_pairing_dialog_content (6352030314206654722) -->
-    <skip />
-    <!-- no translation found for audio_sharing_turn_off_button_label (1934956352475393641) -->
+    <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Απενεργοποίηση Κοινής χρήσης ήχου"</string>
+    <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Για να πραγματοποιήσετε σύζευξη νέας συσκευής, απενεργοποιήστε πρώτα την Κοινή χρήση ήχου."</string>
+    <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Απενεργοποίηση"</string>
+    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
     <skip />
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Σύνδεση σε ροή LE Audio"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Ροές ήχου σε κοντινή απόσταση"</string>
@@ -5648,6 +5644,12 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Η ροή διακόπηκε"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Διακοπή ακρόασης"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Σύνδεση συμβατών ακουστικών"</string>
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_title (6824585115302786690) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_subtitle (2394295776096273919) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_turn_off_talkback_button (8049097689955037626) -->
+    <skip />
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Σύνδεση συσκευής"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Λεπτομέρειες ροής ήχου"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"Κωδικός QR ροής ήχου"</string>
