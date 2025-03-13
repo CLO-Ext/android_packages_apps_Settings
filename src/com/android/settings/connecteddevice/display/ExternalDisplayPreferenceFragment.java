@@ -32,8 +32,11 @@ import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.SystemClock;
+import android.view.Choreographer;
 import android.view.Display;
 import android.view.View;
+import android.widget.SeekBar;
 import android.widget.TextView;
 import android.window.DesktopExperienceFlags;
 
@@ -48,10 +51,12 @@ import com.android.internal.annotations.VisibleForTesting;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragmentBase;
 import com.android.settings.accessibility.AccessibilitySeekBarPreference;
+import com.android.settings.accessibility.DisplaySizeData;
 import com.android.settings.accessibility.TextReadingPreferenceFragment;
 import com.android.settings.connecteddevice.display.ExternalDisplaySettingsConfiguration.DisplayListener;
 import com.android.settings.connecteddevice.display.ExternalDisplaySettingsConfiguration.Injector;
 import com.android.settings.core.SubSettingLauncher;
+import com.android.settingslib.display.DisplayDensityUtils;
 import com.android.settingslib.widget.FooterPreference;
 import com.android.settingslib.widget.IllustrationPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
@@ -368,7 +373,7 @@ public class ExternalDisplayPreferenceFragment extends SettingsPreferenceFragmen
 
     @NonNull
     private AccessibilitySeekBarPreference reuseSizePreference(Context context,
-            PrefRefresh refresh) {
+            PrefRefresh refresh,  int displayId) {
         AccessibilitySeekBarPreference pref =
                 refresh.findUnusedPreference(PrefBasics.EXTERNAL_DISPLAY_SIZE.key);
         if (pref == null) {
@@ -378,9 +383,25 @@ public class ExternalDisplayPreferenceFragment extends SettingsPreferenceFragmen
             pref.setIconEnd(R.drawable.ic_add_24dp);
             pref.setIconEndContentDescription(R.string.screen_zoom_make_larger_desc);
             PrefBasics.EXTERNAL_DISPLAY_SIZE.apply(pref);
+
+            setStateForDisplaySizePreference(context, displayId, pref);
         }
         refresh.addPreference(pref);
         return pref;
+    }
+
+    private void setStateForDisplaySizePreference(Context context, int displayId,
+            AccessibilitySeekBarPreference preference) {
+        var displaySizeData = new DisplaySizeData(context,
+                new DisplayDensityUtils(context, (info) -> info.displayId == displayId));
+        ExternalDisplaySizePreferenceStateHandler seekBarChangeHandler =
+                new ExternalDisplaySizePreferenceStateHandler(
+                        displaySizeData, preference);
+
+        preference.setMax(displaySizeData.getValues().size() - 1);
+        preference.setProgress(displaySizeData.getInitialIndex());
+        preference.setContinuousUpdates(false);
+        preference.setOnSeekBarChangeListener(seekBarChangeHandler);
     }
 
     private void restoreState(@Nullable Bundle savedInstanceState) {
@@ -409,7 +430,7 @@ public class ExternalDisplayPreferenceFragment extends SettingsPreferenceFragmen
             showTextWhenNoDisplaysToShow(screen, context);
         } else if (displaysToShow.size() == 1
                 && ((displayId == INVALID_DISPLAY && !mPreviouslyShownListOfDisplays)
-                        || displaysToShow.get(0).getDisplayId() == displayId)) {
+                || displaysToShow.get(0).getDisplayId() == displayId)) {
             showDisplaySettings(displaysToShow.get(0), screen, context);
             if (displayId == INVALID_DISPLAY && isTopologyPaneEnabled(mInjector)) {
                 // Only show the topology pane if the user did not arrive via the displays list.
@@ -514,7 +535,7 @@ public class ExternalDisplayPreferenceFragment extends SettingsPreferenceFragmen
             }
         }
         if (isDisplaySizeSettingEnabled(mInjector)) {
-            addSizePreference(context, refresh);
+            addSizePreference(context, refresh, display.getDisplayId());
         }
     }
 
@@ -532,7 +553,7 @@ public class ExternalDisplayPreferenceFragment extends SettingsPreferenceFragmen
     }
 
     private void showDisplaysList(@NonNull List<Display> displaysToShow,
-                                  @NonNull PrefRefresh screen, @NonNull Context context) {
+            @NonNull PrefRefresh screen, @NonNull Context context) {
         maybeAddV2Components(context, screen);
         int order = PrefBasics.BUILTIN_DISPLAY_LIST.order;
         for (var display : displaysToShow) {
@@ -685,8 +706,8 @@ public class ExternalDisplayPreferenceFragment extends SettingsPreferenceFragmen
         pref.setEnabled(isResolutionSettingEnabled(mInjector));
     }
 
-    private void addSizePreference(final Context context, PrefRefresh refresh) {
-        var pref = reuseSizePreference(context, refresh);
+    private void addSizePreference(final Context context, PrefRefresh refresh, int displayId) {
+        var pref = reuseSizePreference(context, refresh, displayId);
         pref.setSummary(EXTERNAL_DISPLAY_SIZE_SUMMARY_RESOURCE);
         pref.setOnPreferenceClickListener(
                 (Preference p) -> {
@@ -733,6 +754,54 @@ public class ExternalDisplayPreferenceFragment extends SettingsPreferenceFragmen
             launchBuiltinDisplaySettings();
             return true;
         }
+    }
+
+    private static class ExternalDisplaySizePreferenceStateHandler
+            implements SeekBar.OnSeekBarChangeListener {
+        private static final long MIN_COMMIT_INTERVAL_MS = 800;
+        private static final long CHANGE_BY_BUTTON_DELAY_MS = 300;
+        private final DisplaySizeData mDisplaySizeData;
+        private int mLastDisplayProgress;
+        private long mLastCommitTime;
+        private final AccessibilitySeekBarPreference mPreference;
+        ExternalDisplaySizePreferenceStateHandler(DisplaySizeData displaySizeData,
+                AccessibilitySeekBarPreference preference) {
+            mDisplaySizeData = displaySizeData;
+            mPreference = preference;
+        }
+
+        final Choreographer.FrameCallback mCommit = this::tryCommitDisplaySizeConfig;
+
+        private void tryCommitDisplaySizeConfig(long unusedFrameTimeNanos) {
+            final int displayProgress = mPreference.getProgress();
+            if (displayProgress != mLastDisplayProgress) {
+                mDisplaySizeData.commit(displayProgress);
+                mLastDisplayProgress = displayProgress;
+            }
+            mLastCommitTime = SystemClock.elapsedRealtime();
+        }
+
+        private void postCommitDelayed() {
+            var commitDelayMs = CHANGE_BY_BUTTON_DELAY_MS;
+            if (SystemClock.elapsedRealtime() - mLastCommitTime < MIN_COMMIT_INTERVAL_MS) {
+                commitDelayMs += MIN_COMMIT_INTERVAL_MS;
+            }
+
+            final Choreographer choreographer = Choreographer.getInstance();
+            choreographer.removeFrameCallback(mCommit);
+            choreographer.postFrameCallbackDelayed(mCommit, commitDelayMs);
+        }
+
+        @Override
+        public void onProgressChanged(@NonNull SeekBar seekBar, int i, boolean b) {
+            postCommitDelayed();
+        }
+
+        @Override
+        public void onStartTrackingTouch(@NonNull SeekBar seekBar) {}
+
+        @Override
+        public void onStopTrackingTouch(@NonNull SeekBar seekBar) {}
     }
 
     @VisibleForTesting

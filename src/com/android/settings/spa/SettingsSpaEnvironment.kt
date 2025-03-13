@@ -45,7 +45,6 @@ import com.android.settings.spa.app.specialaccess.WifiControlAppListProvider
 import com.android.settings.spa.app.specialaccess.WriteSystemPreferencesAppListProvider
 import com.android.settings.spa.app.storage.StorageAppListPageProvider
 import com.android.settings.spa.core.instrumentation.SpaLogMetricsProvider
-import com.android.settings.spa.core.instrumentation.SpaLogProvider
 import com.android.settings.spa.development.UsageStatsPageProvider
 import com.android.settings.spa.development.compat.PlatformCompatAppListPageProvider
 import com.android.settings.spa.home.HomePageProvider
@@ -107,7 +106,9 @@ open class SettingsSpaEnvironment(context: Context) : SpaEnvironment(context) {
         AppInfoSettingsProvider,
         SpecialAppAccessPageProvider,
         NotificationMainPageProvider,
-        AppListNotificationsPageProvider,
+        AppListNotificationsPageProvider.AllApps,
+        AppListNotificationsPageProvider.ExcludeClassification,
+        AppListNotificationsPageProvider.ExcludeSummarization,
         SystemMainPageProvider,
         LanguageAndInputPageProvider,
         AppLanguagesPageProvider,
