@@ -27,8 +27,10 @@ import android.os.UserManager;
 import android.safetycenter.SafetyEvent;
 
 import com.android.settings.Utils;
+import com.android.settings.biometrics.BiometricEnrollActivity;
 import com.android.settings.biometrics.BiometricNavigationUtils;
 import com.android.settings.biometrics.fingerprint.FingerprintStatusUtils;
+import com.android.settings.flags.Flags;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.RestrictedLockUtils;
 
@@ -44,6 +46,10 @@ public final class FingerprintSafetySource {
         if (!SafetyCenterManagerWrapper.get().isEnabled(context)) {
             return;
         }
+        if (!Flags.biometricsOnboardingEducation()) { // this source is effectively turned off
+            sendNullData(context, safetyEvent);
+            return;
+        }
 
         // Handle private profile case
         UserManager userManager = UserManager.get(context);
@@ -52,9 +58,7 @@ public final class FingerprintSafetySource {
                 && userManager.isPrivateProfile()) {
             // SC always expects a response from the source if the broadcast has been sent for this
             // source, therefore, we need to send a null SafetySourceData.
-            SafetyCenterManagerWrapper.get()
-                    .setSafetySourceData(
-                            context, SAFETY_SOURCE_ID, /* safetySourceData= */ null, safetyEvent);
+            sendNullData(context, safetyEvent);
             return;
         }
 
@@ -71,6 +75,11 @@ public final class FingerprintSafetySource {
         Context profileParentContext = context.createContextAsUser(profileParentUserHandle, 0);
 
         if (Utils.hasFingerprintHardware(context)) {
+            boolean isMultipleBiometricsEnrollmentNeeded =
+                    BiometricSourcesUtils.isMultipleBiometricsEnrollmentNeeded(context, userId);
+            String settingClassName = isMultipleBiometricsEnrollmentNeeded
+                            ? BiometricEnrollActivity.InternalActivity.class.getName()
+                            : fingerprintStatusUtils.getSettingsClassName();
             RestrictedLockUtils.EnforcedAdmin disablingAdmin =
                     fingerprintStatusUtils.getDisablingAdmin();
             BiometricSourcesUtils.setBiometricSafetySourceData(
@@ -83,7 +92,7 @@ public final class FingerprintSafetySource {
                             biometricNavigationUtils
                                     .getBiometricSettingsIntent(
                                             context,
-                                            fingerprintStatusUtils.getSettingsClassName(),
+                                            settingClassName,
                                             disablingAdmin,
                                             Bundle.EMPTY)
                                     .setIdentifier(Integer.toString(userId)),
@@ -96,6 +105,10 @@ public final class FingerprintSafetySource {
             return;
         }
 
+        sendNullData(context, safetyEvent);
+    }
+
+    private static void sendNullData(Context context, SafetyEvent safetyEvent) {
         SafetyCenterManagerWrapper.get()
                 .setSafetySourceData(
                         context, SAFETY_SOURCE_ID, /* safetySourceData= */ null, safetyEvent);

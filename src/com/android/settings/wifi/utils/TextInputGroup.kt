@@ -18,22 +18,27 @@ package com.android.settings.wifi.utils
 
 import android.text.Editable
 import android.text.TextWatcher
+import android.util.Log
 import android.view.View
 import android.widget.EditText
 import com.google.android.material.textfield.TextInputLayout
 
 /** A widget that wraps the relationship work between a TextInputLayout and an EditText. */
 open class TextInputGroup(
-    private val view: View,
+    val view: View,
     private val layoutId: Int,
     private val editTextId: Int,
+    private val errorMessageId: Int,
 ) {
 
-    private val View.layout: TextInputLayout?
-        get() = findViewById(layoutId)
+    val layout: TextInputLayout
+        get() = view.requireViewById(layoutId)
 
-    private val View.editText: EditText?
-        get() = findViewById(editTextId)
+    val editText: EditText
+        get() = view.requireViewById(editTextId)
+
+    val errorMessage: String
+        get() = view.context.getString(errorMessageId)
 
     private val textWatcher =
         object : TextWatcher {
@@ -42,7 +47,7 @@ open class TextInputGroup(
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
 
             override fun afterTextChanged(s: Editable?) {
-                view.layout?.isErrorEnabled = false
+                layout.isErrorEnabled = false
             }
         }
 
@@ -51,18 +56,47 @@ open class TextInputGroup(
     }
 
     fun addTextChangedListener(watcher: TextWatcher) {
-        view.editText?.addTextChangedListener(watcher)
+        editText.addTextChangedListener(watcher)
     }
 
-    fun getText(): String {
-        return view.editText?.text?.toString() ?: ""
+    var label: String
+        get() = layout.hint?.toString() ?: ""
+        set(value) {
+            layout.setHint(value)
+        }
+
+    var text: String
+        get() = editText.text?.toString() ?: ""
+        set(value) {
+            editText.setText(value)
+        }
+
+    var helperText: String
+        get() = layout.helperText?.toString() ?: ""
+        set(value) {
+            layout.setHelperText(value)
+            if (value.isEmpty()) layout.isHelperTextEnabled = false
+        }
+
+    var error: String
+        get() = layout.error?.toString() ?: ""
+        set(value) {
+            layout.setError(value)
+            if (value.isEmpty()) layout.isErrorEnabled = false
+        }
+
+    open fun validate(): Boolean {
+        if (!editText.isShown) return true
+
+        val isValid = text.isNotEmpty()
+        if (!isValid) {
+            Log.w(TAG, "validate failed in ${layout.hint ?: "unknown"}")
+            error = errorMessage
+        }
+        return isValid
     }
 
-    fun setText(text: String) {
-        view.editText?.setText(text)
-    }
-
-    fun setError(errorMessage: String?) {
-        view.layout?.apply { error = errorMessage }
+    companion object {
+        const val TAG = "TextInputGroup"
     }
 }

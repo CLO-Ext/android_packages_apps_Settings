@@ -28,6 +28,7 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.util.Log;
@@ -45,15 +46,21 @@ import com.android.settingslib.bluetooth.BluetoothUtils;
 import com.android.settingslib.bluetooth.BluetoothUtils.ErrorListener;
 import com.android.settingslib.bluetooth.CachedBluetoothDevice;
 import com.android.settingslib.bluetooth.CachedBluetoothDeviceManager;
+import com.android.settingslib.bluetooth.HearingAidProfile;
+import com.android.settingslib.bluetooth.LeAudioProfile;
 import com.android.settingslib.bluetooth.LocalBluetoothLeBroadcast;
 import com.android.settingslib.bluetooth.LocalBluetoothLeBroadcastAssistant;
 import com.android.settingslib.bluetooth.LocalBluetoothManager;
 import com.android.settingslib.bluetooth.LocalBluetoothManager.BluetoothManagerCallback;
+import com.android.settingslib.bluetooth.LocalBluetoothProfile;
+import com.android.settingslib.bluetooth.LocalBluetoothProfileManager;
 import com.android.settingslib.utils.ThreadUtils;
 
 import com.google.common.base.Supplier;
 import com.google.common.collect.ImmutableList;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -69,6 +76,7 @@ import java.util.stream.Collectors;
 public final class Utils {
 
     private static final String TAG = "BluetoothUtils";
+    private static final String ENABLE_DUAL_MODE_AUDIO = "persist.bluetooth.enable_dual_mode_audio";
 
     static final boolean V = BluetoothUtils.V; // verbose logging
     static final boolean D = BluetoothUtils.D;  // regular logging
@@ -315,11 +323,15 @@ public final class Utils {
         CachedBluetoothDeviceManager deviceManager = localBtManager.getCachedDeviceManager();
         List<BluetoothDevice> connectedDevices =
                 assistant == null ? ImmutableList.of() : assistant.getAllConnectedDevices();
+        Collection<CachedBluetoothDevice> bondedDevices =
+                deviceManager == null ? ImmutableList.of() : deviceManager.getCachedDevicesCopy();
         // Block the pairing if there is ongoing audio sharing session and
-        // a) there is already one temp bond sink connected
+        // a) there is already one temp bond sink bonded
         // or b) there are already two sinks joining the audio sharing
         return assistant != null && deviceManager != null
-                && (connectedDevices.stream().anyMatch(BluetoothUtils::isTemporaryBondDevice)
+                && (bondedDevices.stream().anyMatch(
+                        d -> BluetoothUtils.isTemporaryBondDevice(d.getDevice())
+                                && d.getBondState() == BluetoothDevice.BOND_BONDED)
                 || connectedDevices.stream().filter(
                         d -> BluetoothUtils.hasActiveLocalBroadcastSourceForBtDevice(d,
                                 localBtManager))
@@ -354,5 +366,120 @@ public final class Utils {
         }
         dialog.show();
         return dialog;
+    }
+
+    /** Enables/disables LE Audio profile for the device. */
+    public static void setLeAudioEnabled(
+            @NonNull LocalBluetoothManager manager,
+            @NonNull CachedBluetoothDevice cachedDevice,
+            boolean enable) {
+        List<CachedBluetoothDevice> devices =
+                List.copyOf(findAllCachedBluetoothDevicesByGroupId(manager, cachedDevice));
+        setLeAudioEnabled(manager, devices, enable);
+    }
+
+    /** Enables/disables LE Audio profile for the devices in the same csip group. */
+    public static void setLeAudioEnabled(
+            @NonNull LocalBluetoothManager manager,
+            @NonNull List<CachedBluetoothDevice> devicesWithSameGroupId,
+            boolean enable) {
+        LocalBluetoothProfileManager profileManager = manager.getProfileManager();
+        LeAudioProfile leAudioProfile = profileManager.getLeAudioProfile();
+        List<CachedBluetoothDevice> leAudioDevices =
+                getDevicesWithProfile(devicesWithSameGroupId, leAudioProfile);
+        if (leAudioDevices.isEmpty()) {
+            Log.i(TAG, "Fail to setLeAudioEnabled, no LE Audio profile found.");
+        }
+        boolean dualModeEnabled = SystemProperties.getBoolean(ENABLE_DUAL_MODE_AUDIO, false);
+
+        if (enable && !dualModeEnabled) {
+            Log.i(TAG, "Disabling classic audio profiles because dual mode is disabled");
+            setProfileEnabledWhenChangingLeAudio(
+                    devicesWithSameGroupId, profileManager.getA2dpProfile(), false);
+            setProfileEnabledWhenChangingLeAudio(
+                    devicesWithSameGroupId, profileManager.getHeadsetProfile(), false);
+        }
+
+        HearingAidProfile asha = profileManager.getHearingAidProfile();
+        LocalBluetoothLeBroadcastAssistant broadcastAssistant =
+                profileManager.getLeAudioBroadcastAssistantProfile();
+
+        for (CachedBluetoothDevice leAudioDevice : leAudioDevices) {
+            Log.d(
+                    TAG,
+                    "device:"
+                            + leAudioDevice.getDevice().getAnonymizedAddress()
+                            + " set LE profile enabled: "
+                            + enable);
+            leAudioProfile.setEnabled(leAudioDevice.getDevice(), enable);
+            if (asha != null) {
+                asha.setEnabled(leAudioDevice.getDevice(), !enable);
+            }
+            if (broadcastAssistant != null) {
+                Log.d(
+                        TAG,
+                        "device:"
+                                + leAudioDevice.getDevice().getAnonymizedAddress()
+                                + " enable LE broadcast assistant profile: "
+                                + enable);
+                broadcastAssistant.setEnabled(leAudioDevice.getDevice(), enable);
+            }
+        }
+
+        if (!enable && !dualModeEnabled) {
+            Log.i(TAG, "Enabling classic audio profiles because dual mode is disabled");
+            setProfileEnabledWhenChangingLeAudio(
+                    devicesWithSameGroupId, profileManager.getA2dpProfile(), true);
+            setProfileEnabledWhenChangingLeAudio(
+                    devicesWithSameGroupId, profileManager.getHeadsetProfile(), true);
+        }
+    }
+
+    private static List<CachedBluetoothDevice> getDevicesWithProfile(
+            List<CachedBluetoothDevice> devices, LocalBluetoothProfile profile) {
+        List<CachedBluetoothDevice> devicesWithProfile = new ArrayList<>();
+        for (CachedBluetoothDevice device : devices) {
+            for (LocalBluetoothProfile currentProfile : device.getProfiles()) {
+                if (currentProfile.toString().equals(profile.toString())) {
+                    devicesWithProfile.add(device);
+                }
+            }
+        }
+        return devicesWithProfile;
+    }
+
+    private static void setProfileEnabledWhenChangingLeAudio(
+            List<CachedBluetoothDevice> devices,
+            @Nullable LocalBluetoothProfile profile,
+            boolean enable) {
+        if (profile == null) {
+            Log.i(TAG, "profile is null");
+            return;
+        }
+        List<CachedBluetoothDevice> deviceWithProfile = getDevicesWithProfile(devices, profile);
+        Log.d(TAG, "Set " + profile + " enabled:" + enable + " when switching LE Audio");
+        for (CachedBluetoothDevice profileDevice : deviceWithProfile) {
+            if (profile.isEnabled(profileDevice.getDevice()) != enable) {
+                Log.d(
+                        TAG,
+                        "The "
+                                + profileDevice.getDevice().getAnonymizedAddress()
+                                + ":"
+                                + profile
+                                + " set to "
+                                + enable);
+                profile.setEnabled(profileDevice.getDevice(), enable);
+            } else {
+                Log.d(
+                        TAG,
+                        "The "
+                                + profileDevice.getDevice().getAnonymizedAddress()
+                                + ":"
+                                + profile
+                                + " profile is already "
+                                + enable
+                                + ". Do nothing.");
+            }
+        }
     }
 }

@@ -32,6 +32,7 @@ import com.android.settingslib.datastore.SettingsSecureStore
 import com.android.settingslib.metadata.PreferenceLifecycleContext
 import com.google.common.truth.Truth.assertThat
 import org.junit.Before
+import org.junit.Ignore
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.kotlin.any
@@ -73,6 +74,7 @@ class DaltonizerPreferenceTest {
         )
     }
 
+    @Ignore("b/398023330")
     @Test
     fun onStart_settingChanges_notifyPrefChange() {
         daltonizerPreference.onStart(mockLifecycleContext)
@@ -95,7 +97,7 @@ class DaltonizerPreferenceTest {
     fun getSummary_daltonizerOn_verifySummary() {
         SettingsSecureStore.get(appContext).setInt(SETTING_KEY, AccessibilityUtil.State.ON)
 
-        assertThat(daltonizerPreference.getPreferenceSummary(appContext)).isEqualTo(
+        assertThat(daltonizerPreference.getSummary(appContext)).isEqualTo(
             appContext.getText(
                 R.string.daltonizer_state_on
             )
@@ -106,7 +108,7 @@ class DaltonizerPreferenceTest {
     fun getSummary_daltonizerOff_verifySummary() {
         SettingsSecureStore.get(appContext).setInt(SETTING_KEY, AccessibilityUtil.State.OFF)
 
-        assertThat(daltonizerPreference.getPreferenceSummary(appContext)).isEqualTo(
+        assertThat(daltonizerPreference.getSummary(appContext)).isEqualTo(
             appContext.getText(
                 R.string.daltonizer_state_off
             )

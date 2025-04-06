@@ -396,6 +396,8 @@ public class Settings extends SettingsActivity {
     public static class AppBubbleNotificationSettingsActivity extends SettingsActivity { /* empty */ }
     public static class NotificationAssistantSettingsActivity extends SettingsActivity{ /* empty */ }
     public static class NotificationAppListActivity extends SettingsActivity { /* empty */ }
+    public static class NotificationExcludeSummarizationActivity extends SettingsActivity { /* empty */ }
+    public static class NotificationExcludeClassificationActivity extends SettingsActivity { /* empty */ }
     /** Activity to manage Cloned Apps page */
     public static class ClonedAppsListActivity extends SettingsActivity { /* empty */ }
     /** Activity to manage Aspect Ratio app list page */
@@ -574,4 +576,6 @@ public class Settings extends SettingsActivity {
     public static class HearingDevicesPairingActivity extends SettingsActivity { /* empty */ }
     public static class ContactsStorageSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ContentProtectionSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class MagnificationActivity extends SettingsActivity { /* empty */ }
+    public static class FlashNotificationsActivity extends SettingsActivity { /* empty */ }
 }

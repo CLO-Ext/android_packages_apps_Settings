@@ -23,17 +23,18 @@ import android.graphics.Point;
 import android.graphics.drawable.Drawable;
 import android.hardware.display.DisplayManager;
 import android.provider.Settings;
+import android.text.SpannableString;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Display;
-import android.view.accessibility.AccessibilityEvent;
-import android.view.accessibility.AccessibilityManager;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
+import com.android.settings.Utils;
 import com.android.settings.core.instrumentation.SettingsStatsLog;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.RadioButtonPickerFragment;
@@ -52,19 +53,22 @@ import java.util.concurrent.atomic.AtomicInteger;
 /** Preference fragment used for switch screen resolution */
 @SearchIndexable
 public class ScreenResolutionFragment extends RadioButtonPickerFragment {
+    public static final String NON_BREAKING_SPACE = "\u00A0";
+
     private static final String TAG = "ScreenResolution";
 
     private Resources mResources;
     private static final String SCREEN_RESOLUTION = "user_selected_resolution";
     private static final String SCREEN_RESOLUTION_KEY = "screen_resolution";
+    private static final int RESOLUTION_SPACE_THRESHOLD = 1_000;
+    private static final int RESOLUTION_SPACE_THRESHOLD_DIGIT_AMOUNT = 3;
     private Display mDefaultDisplay;
     private String[] mScreenResolutionOptions;
     private Set<Point> mResolutions;
-    private String[] mScreenResolutionSummaries;
+    private SpannableString[] mScreenResolutionSummaries;
 
     private IllustrationPreference mImagePreference;
     private DisplayObserver mDisplayObserver;
-    private AccessibilityManager mAccessibilityManager;
 
     private int mHighWidth;
     private int mFullWidth;
@@ -75,7 +79,6 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
 
         mDefaultDisplay =
                 context.getSystemService(DisplayManager.class).getDisplay(Display.DEFAULT_DISPLAY);
-        mAccessibilityManager = context.getSystemService(AccessibilityManager.class);
         mResources = context.getResources();
         mScreenResolutionOptions =
                 mResources.getStringArray(R.array.config_screen_resolution_options_strings);
@@ -88,10 +91,51 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
         mFullWidth = controller.getFullWidth();
         Log.i(TAG, "mHighWidth:" + mHighWidth + "mFullWidth:" + mFullWidth);
         mScreenResolutionSummaries =
-                new String[] {
-                    mHighWidth + " x " + controller.getHighHeight(),
-                    mFullWidth + " x " + controller.getFullHeight()
+                new SpannableString[] {
+                    getResolutionSpannable(mHighWidth, controller.getHighHeight()),
+                    getResolutionSpannable(mFullWidth, controller.getFullHeight())
                 };
+    }
+
+
+    private SpannableString getResolutionSpannable(int width, int height) {
+        String resolutionString = getResolutionString(width, height);
+        String accessibleText = mResources.getString(
+                R.string.screen_resolution_delimiter_a11y, width, height);
+        return Utils.createAccessibleSequence(resolutionString, accessibleText);
+    }
+
+    /**
+     * Formats the given width and height into a resolution string, inserting non-breaking
+     * spaces as thousand separators if the values exceed a specified threshold.
+     *
+     * @param width  The width value.
+     * @param height The height value.
+     * @return A formatted string representing the resolution (e.g., "1 080 x 1 280").
+     * Non-breaking spaces are used to ensure the numbers and 'x' stay together.
+     * If the width or height is less than RESOLUTION_SPACE_THRESHOLD, no spaces are added.
+     */
+    @NonNull
+    @VisibleForTesting
+    static String getResolutionString(int width, int height) {
+        StringBuilder resolutionStrBldr = new StringBuilder(String.valueOf(width));
+        if (width >= RESOLUTION_SPACE_THRESHOLD) {
+            int insertWidthPosition =
+                    resolutionStrBldr.length() - RESOLUTION_SPACE_THRESHOLD_DIGIT_AMOUNT;
+            resolutionStrBldr.insert(insertWidthPosition, NON_BREAKING_SPACE);
+        }
+        resolutionStrBldr.append(NON_BREAKING_SPACE);
+        resolutionStrBldr.append("x");
+        resolutionStrBldr.append(NON_BREAKING_SPACE);
+
+        resolutionStrBldr.append(String.valueOf(height));
+        if (height >= RESOLUTION_SPACE_THRESHOLD) {
+            int insertHeightPosition =
+                    resolutionStrBldr.length() - RESOLUTION_SPACE_THRESHOLD_DIGIT_AMOUNT;
+            resolutionStrBldr.insert(insertHeightPosition, NON_BREAKING_SPACE);
+        }
+
+        return resolutionStrBldr.toString();
     }
 
     @Override
@@ -234,13 +278,6 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
         int selectedWidth = getWidthForResoluitonKey(selectedKey);
         if (!mDisplayObserver.setPendingResolutionChange(selectedWidth)) {
             return;
-        }
-
-        if (mAccessibilityManager.isEnabled()) {
-            AccessibilityEvent event = AccessibilityEvent.obtain();
-            event.setEventType(AccessibilityEvent.TYPE_ANNOUNCEMENT);
-            event.getText().add(mResources.getString(R.string.screen_resolution_selected_a11y));
-            mAccessibilityManager.sendAccessibilityEvent(event);
         }
 
         super.onRadioButtonClicked(selected);

@@ -25,6 +25,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SeekBar;
@@ -78,36 +79,41 @@ public abstract class KeyboardAccessibilityKeysDialogFragment extends DialogFrag
                         R.layout.dialog_keyboard_a11y_input_setting_keys, null);
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(activity);
         dialogBuilder.setView(dialoglayout);
-        dialogBuilder.setPositiveButton(android.R.string.ok,
-                        (dialog, which) -> {
-                            RadioGroup radioGroup =
-                                    dialoglayout.findViewById(
-                                            R.id.input_setting_keys_value_group);
-                            SeekBar seekbar = dialoglayout.findViewById(
-                                    R.id.input_setting_keys_value_custom_slider);
-                            RadioButton customRadioButton = dialoglayout.findViewById(
-                                    R.id.input_setting_keys_value_custom);
-                            int threshold;
-                            if (customRadioButton.isChecked()) {
-                                threshold = seekbar.getProgress() * CUSTOM_PROGRESS_INTERVAL;
-                            } else {
-                                int checkedRadioButtonId = radioGroup.getCheckedRadioButtonId();
-                                if (checkedRadioButtonId == R.id.input_setting_keys_value_600) {
-                                    threshold = 600;
-                                } else if (checkedRadioButtonId
-                                        == R.id.input_setting_keys_value_400) {
-                                    threshold = 400;
-                                } else if (checkedRadioButtonId
-                                        == R.id.input_setting_keys_value_200) {
-                                    threshold = 200;
-                                } else {
-                                    threshold = 0;
-                                }
-                            }
-                            updateInputSettingKeysValue(threshold);
-                            onCustomValueUpdated(threshold);
-                        })
-                .setNegativeButton(android.R.string.cancel, (dialog, which) -> dialog.dismiss());
+        Button doneButton = dialoglayout.findViewById(R.id.done_button);
+        doneButton.setOnClickListener(v -> {
+            RadioGroup radioGroup =
+                    dialoglayout.findViewById(
+                            R.id.input_setting_keys_value_group);
+            SeekBar seekbar = dialoglayout.findViewById(
+                    R.id.input_setting_keys_value_custom_slider);
+            RadioButton customRadioButton = dialoglayout.findViewById(
+                    R.id.input_setting_keys_value_custom);
+            int threshold;
+            if (customRadioButton.isChecked()) {
+                threshold = seekbar.getProgress() * CUSTOM_PROGRESS_INTERVAL;
+            } else {
+                int checkedRadioButtonId = radioGroup.getCheckedRadioButtonId();
+                if (checkedRadioButtonId == R.id.input_setting_keys_value_600) {
+                    threshold = 600;
+                } else if (checkedRadioButtonId
+                        == R.id.input_setting_keys_value_400) {
+                    threshold = 400;
+                } else if (checkedRadioButtonId
+                        == R.id.input_setting_keys_value_200) {
+                    threshold = 200;
+                } else {
+                    threshold = 0;
+                }
+            }
+            updateInputSettingKeysValue(threshold);
+            onCustomValueUpdated(threshold);
+            dismiss();
+        });
+
+        Button cancelButton = dialoglayout.findViewById(R.id.cancel_button);
+        cancelButton.setOnClickListener(v -> {
+            dismiss();
+        });
         AlertDialog accessibilityKeyDialog = dialogBuilder.create();
         accessibilityKeyDialog.setOnShowListener(dialog -> {
             RadioGroup cannedValueRadioGroup = accessibilityKeyDialog.findViewById(
@@ -116,6 +122,8 @@ public abstract class KeyboardAccessibilityKeysDialogFragment extends DialogFrag
                     R.id.input_setting_keys_value_custom);
             TextView customValueTextView = accessibilityKeyDialog.findViewById(
                     R.id.input_setting_keys_value_custom_value);
+            View seekbarView = accessibilityKeyDialog.findViewById(
+                    R.id.input_setting_keys_custom_seekbar_layout);
             SeekBar customProgressBar = accessibilityKeyDialog.findViewById(
                     R.id.input_setting_keys_value_custom_slider);
             TextView titleTextView = accessibilityKeyDialog.findViewById(
@@ -141,7 +149,7 @@ public abstract class KeyboardAccessibilityKeysDialogFragment extends DialogFrag
                 customValueTextView.setVisibility(isChecked ? View.VISIBLE : View.GONE);
                 customValueTextView.setText(
                         progressToThresholdInSecond(customProgressBar.getProgress()));
-                customProgressBar.setVisibility(isChecked ? View.VISIBLE : View.GONE);
+                seekbarView.setVisibility(isChecked ? View.VISIBLE : View.GONE);
                 buttonView.setChecked(isChecked);
             });
             cannedValueRadioGroup.setOnCheckedChangeListener(
@@ -162,8 +170,21 @@ public abstract class KeyboardAccessibilityKeysDialogFragment extends DialogFrag
                 public void onStopTrackingTouch(SeekBar seekBar) {
                 }
             });
-            initStateBasedOnThreshold(cannedValueRadioGroup, customRadioButton, customValueTextView,
-                    customProgressBar);
+            if (cannedValueRadioGroup.getCheckedRadioButtonId() == -1
+                    && !customRadioButton.isChecked()) {
+                //if canned radio group and custom are not select, initial check state from input
+                // setting
+                initStateBasedOnThreshold(cannedValueRadioGroup, customRadioButton,
+                        customValueTextView,
+                        customProgressBar, seekbarView);
+            } else if (customRadioButton.isChecked()) {
+                cannedValueRadioGroup.clearCheck();
+                customRadioButton.setChecked(true);
+                customValueTextView.setVisibility(View.VISIBLE);
+                customValueTextView.setText(
+                        progressToThresholdInSecond(customProgressBar.getProgress()));
+                seekbarView.setVisibility(View.VISIBLE);
+            }
         });
 
         final Window window = accessibilityKeyDialog.getWindow();
@@ -180,7 +201,7 @@ public abstract class KeyboardAccessibilityKeysDialogFragment extends DialogFrag
 
     private void initStateBasedOnThreshold(RadioGroup cannedValueRadioGroup,
             RadioButton customRadioButton, TextView customValueTextView,
-            SeekBar customProgressBar) {
+            SeekBar customProgressBar, View seekbarView) {
         int inputSettingKeysThreshold = getInputSettingKeysValue();
         switch (inputSettingKeysThreshold) {
             case 600 -> cannedValueRadioGroup.check(R.id.input_setting_keys_value_600);
@@ -194,5 +215,6 @@ public abstract class KeyboardAccessibilityKeysDialogFragment extends DialogFrag
                 customRadioButton.setChecked(true);
             }
         }
+        seekbarView.setVisibility(customRadioButton.isChecked() ? View.VISIBLE : View.GONE);
     }
 }

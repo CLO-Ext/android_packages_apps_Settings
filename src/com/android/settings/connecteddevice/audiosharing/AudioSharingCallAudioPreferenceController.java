@@ -207,7 +207,7 @@ public class AudioSharingCallAudioPreferenceController extends AudioSharingBaseP
                                     (AudioSharingDeviceItem item) -> {
                                         int currentCallAudioGroupId =
                                                 BluetoothUtils.getPrimaryGroupIdForBroadcast(
-                                                        mContext.getContentResolver());
+                                                        mContext.getContentResolver(), mBtManager);
                                         int clickedGroupId = item.getGroupId();
                                         if (clickedGroupId == currentCallAudioGroupId) {
                                             Log.d(TAG, "Skip set call audio device: unchanged");
@@ -339,7 +339,9 @@ public class AudioSharingCallAudioPreferenceController extends AudioSharingBaseP
         if (lead != null) {
             String addr = lead.getDevice().getAnonymizedAddress();
             Log.d(TAG, "Set call audio device: " + addr);
-            if (Flags.adoptPrimaryGroupManagementApi() && !mIsAudioModeOngoingCall.get()) {
+            if ((Flags.adoptPrimaryGroupManagementApi() || (Flags.audioSharingDeveloperOption()
+                    && BluetoothUtils.getAudioSharingPreviewValue(mContentResolver)))
+                    && !mIsAudioModeOngoingCall.get()) {
                 LeAudioProfile leaProfile = mBtManager == null ? null
                         : mBtManager.getProfileManager().getLeAudioProfile();
                 if (leaProfile != null) {
@@ -412,7 +414,8 @@ public class AudioSharingCallAudioPreferenceController extends AudioSharingBaseP
     private Pair<Integer, AudioSharingDeviceItem> getActiveItemWithIndex() {
         List<AudioSharingDeviceItem> deviceItems = new ArrayList<>(mDeviceItemsInSharingSession);
         int fallbackActiveGroupId =
-                BluetoothUtils.getPrimaryGroupIdForBroadcast(mContext.getContentResolver());
+                BluetoothUtils.getPrimaryGroupIdForBroadcast(mContext.getContentResolver(),
+                        mBtManager);
         if (fallbackActiveGroupId != BluetoothCsipSetCoordinator.GROUP_ID_INVALID) {
             for (AudioSharingDeviceItem item : deviceItems) {
                 if (item.getGroupId() == fallbackActiveGroupId) {

@@ -48,26 +48,31 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ImageView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.internal.accessibility.common.ShortcutConstants;
 import com.android.internal.accessibility.util.ShortcutUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsActivity;
+import com.android.settings.accessibility.actionbar.FeedbackMenuController;
 import com.android.settings.accessibility.shortcuts.EditShortcutsPreferenceFragment;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.flags.Flags;
 import com.android.settings.widget.SettingsMainSwitchBar;
 import com.android.settings.widget.SettingsMainSwitchPreference;
+import com.android.settingslib.utils.ThreadUtils;
 import com.android.settingslib.widget.IllustrationPreference;
 import com.android.settingslib.widget.TopIntroPreference;
 
 import com.google.android.setupcompat.util.WizardManagerHelper;
+import com.google.android.setupdesign.util.ThemeHelper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -135,6 +140,8 @@ public abstract class ToggleFeaturePreferenceFragment extends DashboardFragment
 
         mSettingsContentObserver = new AccessibilitySettingsContentObserver(new Handler());
         registerKeysToObserverCallback(mSettingsContentObserver);
+
+        FeedbackMenuController.init(this, getFeedbackCategory());
     }
 
     protected void registerKeysToObserverCallback(
@@ -255,6 +262,18 @@ public abstract class ToggleFeaturePreferenceFragment extends DashboardFragment
         return SettingsEnums.ACCESSIBILITY_SERVICE;
     }
 
+    /**
+     * Returns the category of the feedback page.
+     *
+     * <p>By default, this method returns {@link SettingsEnums#PAGE_UNKNOWN}. This indicates that
+     * the feedback category is unknown, and the absence of a feedback menu.
+     *
+     * @return The feedback category, which is {@link SettingsEnums#PAGE_UNKNOWN} by default.
+     */
+    protected int getFeedbackCategory() {
+        return SettingsEnums.PAGE_UNKNOWN;
+    }
+
     @Override
     public int getHelpResource() {
         return 0;
@@ -285,6 +304,11 @@ public abstract class ToggleFeaturePreferenceFragment extends DashboardFragment
 
     protected CharSequence getShortcutTitle() {
         return getString(R.string.accessibility_shortcut_title, mFeatureName);
+    }
+
+    @VisibleForTesting
+    CharSequence getContentDescriptionForAnimatedIllustration() {
+        return getString(R.string.accessibility_illustration_content_description, mFeatureName);
     }
 
     protected void onPreferenceToggled(String preferenceKey, boolean enabled) {
@@ -403,22 +427,50 @@ public abstract class ToggleFeaturePreferenceFragment extends DashboardFragment
 
         return drawable;
     }
-
     private void initAnimatedImagePreference() {
-        if (mImageUri == null) {
+        initAnimatedImagePreference(mImageUri, new IllustrationPreference(getPrefContext()) {
+            @Override
+            public void onBindViewHolder(PreferenceViewHolder holder) {
+                super.onBindViewHolder(holder);
+                if (ThemeHelper.shouldApplyGlifExpressiveStyle(getContext())
+                        && isAnySetupWizard()) {
+                    View illustrationFrame = holder.findViewById(R.id.illustration_frame);
+                    final ViewGroup.LayoutParams lp = illustrationFrame.getLayoutParams();
+                    lp.width = ViewGroup.LayoutParams.MATCH_PARENT;
+                    illustrationFrame.setLayoutParams(lp);
+                }
+            }
+        });
+    }
+
+    @VisibleForTesting
+    void initAnimatedImagePreference(
+            @Nullable Uri imageUri,
+            @NonNull IllustrationPreference preference) {
+        if (imageUri == null) {
             return;
         }
 
         final int displayHalfHeight =
                 AccessibilityUtil.getDisplayBounds(getPrefContext()).height() / 2;
-        final IllustrationPreference illustrationPreference =
-                new IllustrationPreference(getPrefContext());
-        illustrationPreference.setImageUri(mImageUri);
-        illustrationPreference.setSelectable(false);
-        illustrationPreference.setMaxHeight(displayHalfHeight);
-        illustrationPreference.setKey(KEY_ANIMATED_IMAGE);
-
-        getPreferenceScreen().addPreference(illustrationPreference);
+        preference.setImageUri(imageUri);
+        preference.setSelectable(false);
+        preference.setMaxHeight(displayHalfHeight);
+        preference.setKey(KEY_ANIMATED_IMAGE);
+        preference.setOnBindListener(view -> {
+            // isAnimatable is decided in
+            // {@link IllustrationPreference#onBindViewHolder(PreferenceViewHolder)}. Therefore, we
+            // wait until the view is bond to set the content description for it.
+            // The content description is added for an animation illustration only. Since the static
+            // images are decorative.
+            ThreadUtils.getUiThreadHandler().post(() -> {
+                if (preference.isAnimatable()) {
+                    preference.setContentDescription(
+                            getContentDescriptionForAnimatedIllustration());
+                }
+            });
+        });
+        getPreferenceScreen().addPreference(preference);
     }
 
     @VisibleForTesting
