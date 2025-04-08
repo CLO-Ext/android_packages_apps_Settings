@@ -610,6 +610,8 @@
     <string name="lock_screen_pattern_skip_face_title" msgid="145100333454316334">"Pular configuração de padrão e rosto?"</string>
     <string name="lock_screen_pattern_skip_fingerprint_title" msgid="2513110208722100495">"Pular config. de padrão e impressão digital?"</string>
     <string name="lock_screen_pattern_skip_biometrics_title" msgid="2434258106825380187">"Pular configuração de padrão, rosto e digital?"</string>
+    <string name="resume_animation" msgid="5259729861893297887">"Retomar animação"</string>
+    <string name="pause_animation" msgid="2209064682137909056">"Pausar animação"</string>
     <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="3538784524778508018">"Configurar bloqueio de tela"</string>
     <string name="security_settings_fingerprint_enroll_done" msgid="9198775984215057337">"Concluído"</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="5742429501012827526">"Opa, este não é o sensor"</string>
@@ -943,8 +945,7 @@
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"Cancelar"</string>
     <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"Configurações do dispositivo"</string>
     <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"Fechar"</string>
-    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
-    <skip />
+    <string name="bluetooth_key_missing_toast" msgid="8692796546000643569">"A conexão com o dispositivo <xliff:g id="DEVICE_NAME">%1$s</xliff:g> falhou"</string>
     <string name="device_details_title" msgid="1155622417516195481">"Detalhes do dispositivo"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Configurações de teclado"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"Mais configurações"</string>
@@ -1382,8 +1383,7 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"O Modo noturno está desativado"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"A localização do dispositivo é necessária para determinar os horários do nascer e do pôr do sol."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"Configurações de localização"</string>
-    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
-    <skip />
+    <string name="twilight_mode_pending_location" msgid="6829434234071614405">"Os Serviços de Localização estão ativos. A programação será ativada assim que o local for determinado."</string>
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"Ativar agora"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"Desativar agora"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"Ativar até o amanhecer"</string>
@@ -2121,8 +2121,7 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Clicar no canto inferior direito"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Clique no canto inferior direito do touchpad para mais opções"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"Velocidade do cursor"</string>
-    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
-    <skip />
+    <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"Usar o toque com três dedos"</string>
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"Aceleração do touchpad"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Movimentos mais rápidos no touchpad levam o cursor para mais longe"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Cor do ponteiro"</string>
@@ -2139,8 +2138,7 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Aprender gestos do touchpad"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"trackpad, track pad, mouse, cursor, rolar, deslizar, clicar com o botão direito do mouse, clicar, ponteiro"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"clicar com o botão direito do mouse, tocar"</string>
-    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
-    <skip />
+    <string name="three_finger_tap_middle_click" msgid="7898931632908866867">"Botão do meio do mouse"</string>
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Iniciar Assistente"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"Ir para a página inicial"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"Voltar"</string>
@@ -2562,6 +2560,8 @@
     <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"Para encontrar outros aparelhos auditivos que não são compatíveis com LE Audio, toque em "<b>"Parear novo dispositivo"</b>" &gt; "<b>"Mais dispositivos"</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"Parear aparelho auditivo"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"Você pode parear aparelhos auditivos ASHA e LE Audio nesta página. Confira se o seu aparelho auditivo está ligado e pronto para parear."</string>
+    <string name="accessibility_hearing_device_pairing_asha_only_intro" msgid="5679230908462987522">"Você pode parear aparelhos auditivos ASHA nesta página. Confira se o aparelho auditivo está ligado e pronto para parear."</string>
+    <string name="accessibility_hearing_device_pairing_hap_only_intro" msgid="2233661046254311681">"Você pode parear aparelhos auditivos LE Audio nesta página. Confira se o aparelho auditivo está ligado e pronto para parear."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"Aparelhos auditivos disponíveis"</string>
     <string name="accessibility_found_all_devices" msgid="7817834722148556520">"Não está encontrando seu aparelho auditivo?"</string>
     <string name="accessibility_list_all_devices_title" msgid="161495343959211216">"Mais dispositivos"</string>
@@ -5058,24 +5058,15 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Siga as etapas para se conectar ao satélite"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"É possível enviar mensagens de texto para qualquer pessoa, inclusive para serviços de emergência. O smartphone vai se reconectar a uma rede móvel quando estiver disponível."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Depois que o smartphone estiver conectado, você poderá enviar mensagens de texto para qualquer pessoa, inclusive para serviços de emergência."</string>
-    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
-    <skip />
-    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
-    <skip />
+    <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"Observação importante"</string>
+    <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"A conectividade via satélite pode demorar mais e está disponível apenas em algumas áreas."</string>
+    <string name="satellite_footer_content_section_2" msgid="7699185178461362541">"O clima e determinadas estruturas podem afetar a conexão por satélite."</string>
+    <string name="satellite_footer_content_section_3" msgid="4652426135622555607">"A ligação via satélite não está disponível."</string>
+    <string name="satellite_footer_content_section_4" msgid="2294227482962815751">"Talvez chamadas de emergência ainda possam ser feitas."</string>
+    <string name="satellite_footer_content_section_5" msgid="3053256489735265540">"É necessário ter uma rede móvel ou Wi-Fi para acessar links externos."</string>
+    <string name="satellite_footer_content_section_6" msgid="1448633393918612418">"O envio de mensagens de texto para serviços de emergência pode não estar disponível em todas as áreas."</string>
+    <string name="satellite_footer_content_section_7" msgid="5524773673918954918">"Pode levar algum tempo para que as mudanças na conta apareçam nas Configurações. Entre em contato com a <xliff:g id="CARRIER_NAME">%1$s</xliff:g> para mais detalhes."</string>
+    <string name="more_about_satellite_connectivity" msgid="9110502891919936054">"Mais informações sobre a conectividade via satélite"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Não é possível ativar o <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Para ativar o <xliff:g id="FUNCTION">%1$s</xliff:g>, primeiro encerre a conexão via satélite"</string>
     <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"Satélite"</string>
@@ -5086,6 +5077,8 @@
     <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Apps compatíveis no seu smartphone"</string>
     <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"mostrar todos os apps"</string>
     <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Apps compatíveis no seu smartphone"</string>
+    <string name="title_satellite_dialog_for_sim_restriction" msgid="454718192423216397">"Não é possível adicionar um chip"</string>
+    <string name="description_satellite_dialog_for_sim_restriction" msgid="5465487347427595435">"Encerre a conexão via satélite antes de adicionar um chip"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Nomes dos pontos de acesso"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"apn"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Indisponível quando conectado à <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5169,8 +5162,7 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"Para usar dados móveis, recursos de chamada e SMS mais tarde, acesse as configurações de rede"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"Chip"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"Você quer mesmo apagar este eSIM?"</string>
-    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
-    <skip />
+    <string name="erase_sim_dialog_text" msgid="3982216582200709197">"A limpeza do eSIM remove o serviço da <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> deste dispositivo. O serviço da <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> não será cancelado. Para pedir um novo eSIM, entre em contato com sua operadora."</string>
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"Limpar"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"Apagando o eSIM…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"Não foi possível apagar o eSIM"</string>
@@ -5733,7 +5725,7 @@
     <string name="audio_streams_main_page_password_dialog_format_alert" msgid="4129498127640454717">"A senha precisa ter de 4 a 16 caracteres e usar apenas letras, números e símbolos"</string>
     <string name="audio_streams_qr_code_scanner_label" msgid="8799703301071378034">"Leitor de QR code"</string>
     <string name="audio_streams_qr_code_help_with_link" msgid="5542328067190486479"><annotation id="link">"Precisa de ajuda?"</annotation></string>
-    <string name="homepage_search" msgid="6759334912284663559">"Pesquisar nas configurações"</string>
+    <string name="homepage_search" msgid="6759334912284663559">"Pesq. nas configurações"</string>
     <string name="keywords_contacts_storage" msgid="9061213057165337893">"contatos, armazenamento, conta"</string>
     <string name="contacts_storage_settings_title" msgid="1574030546525203810">"Armazenamento de contatos"</string>
     <string name="contacts_storage_device_only_preference_label" msgid="970250816918108264">"Somente no dispositivo"</string>
@@ -5762,16 +5754,11 @@
     <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"Tentar bloquear sites explícitos"</string>
     <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"Nenhum filtro é perfeito, mas esta opção ajuda a ocultar sites sexualmente explícitos"</string>
     <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Permitir todos os sites"</string>
-    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
-    <skip />
+    <string name="supervision_web_content_filters_search_title" msgid="726335318009305564">"Pesquisa Google"</string>
+    <string name="supervision_web_content_filters_search_filter_on_title" msgid="4855846261141136285">"Filtragem do SafeSearch ATIVADA"</string>
+    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="1162258144140293269">"Filtra imagens, textos e links explícitos dos resultados da pesquisa neste dispositivo"</string>
+    <string name="supervision_web_content_filters_search_filter_off_title" msgid="6049461395304222346">"Filtragem do SafeSearch DESATIVADA"</string>
+    <string name="supervision_web_content_filters_search_filter_off_summary" msgid="3834238970190924433">"As configurações da conta ainda podem filtrar ou desfocar resultados com conteúdo explícito"</string>
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Digite o PIN de supervisão"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"Animação do recurso <xliff:g id="FEATURE">%1$s</xliff:g>"</string>
 </resources>

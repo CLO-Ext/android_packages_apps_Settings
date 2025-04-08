@@ -610,6 +610,8 @@
     <string name="lock_screen_pattern_skip_face_title" msgid="145100333454316334">"ข้ามการตั้งรูปแบบและการปลดล็อกด้วยใบหน้าใช่ไหม"</string>
     <string name="lock_screen_pattern_skip_fingerprint_title" msgid="2513110208722100495">"ข้ามการตั้งรูปแบบและการปลดล็อกด้วยลายนิ้วมือใช่ไหม"</string>
     <string name="lock_screen_pattern_skip_biometrics_title" msgid="2434258106825380187">"ข้ามการตั้งรูปแบบ รวมถึงการปลดล็อกด้วยใบหน้าและลายนิ้วมือใช่ไหม"</string>
+    <string name="resume_animation" msgid="5259729861893297887">"เล่นภาพเคลื่อนไหวต่อ"</string>
+    <string name="pause_animation" msgid="2209064682137909056">"หยุดภาพเคลื่อนไหวชั่วคราว"</string>
     <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="3538784524778508018">"ตั้งค่าการล็อกหน้าจอ"</string>
     <string name="security_settings_fingerprint_enroll_done" msgid="9198775984215057337">"เสร็จสิ้น"</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="5742429501012827526">"อ๊ะ นั่นไม่ใช่เซ็นเซอร์"</string>
@@ -943,8 +945,7 @@
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"ยกเลิก"</string>
     <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"การตั้งค่าอุปกรณ์"</string>
     <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"ปิด"</string>
-    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
-    <skip />
+    <string name="bluetooth_key_missing_toast" msgid="8692796546000643569">"เชื่อมต่อ <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ไม่สำเร็จ"</string>
     <string name="device_details_title" msgid="1155622417516195481">"รายละเอียดอุปกรณ์"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"การตั้งค่าแป้นพิมพ์"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"การตั้งค่าเพิ่มเติม"</string>
@@ -1382,8 +1383,7 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"ไม่ได้เปิดแสงตอนกลางคืน"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"ต้องใช้ตำแหน่งอุปกรณ์เพื่อระบุเวลาพระอาทิตย์ตกและพระอาทิตย์ขึ้น"</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"การตั้งค่าตำแหน่ง"</string>
-    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
-    <skip />
+    <string name="twilight_mode_pending_location" msgid="6829434234071614405">"บริการตำแหน่งทำงานอยู่ กำหนดเวลาจะเปิดใช้งานเมื่อระบุตำแหน่งแล้ว"</string>
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"เปิดเลย"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"ปิดเลย"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"เปิดจนถึงพระอาทิตย์ขึ้น"</string>
@@ -2121,8 +2121,7 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"คลิกด้านขวาล่าง"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"คลิกที่มุมขวาล่างของทัชแพดเพื่อดูตัวเลือกเพิ่มเติม"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"ความเร็วของเคอร์เซอร์"</string>
-    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
-    <skip />
+    <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"ใช้ 3 นิ้วแตะ"</string>
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"การเร่งความเร็วของทัชแพด"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"การเคลื่อนไหวที่เร็วขึ้นบนทัชแพดจะเลื่อนเคอร์เซอร์ไปไกลกว่าเดิม"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"สีของตัวชี้"</string>
@@ -2139,8 +2138,7 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"เรียนรู้ท่าทางสัมผัสของทัชแพด"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"แทร็กแพด, แทร็ก แพด, เมาส์, เคอร์เซอร์, เลื่อน, ปัด, คลิกขวา, คลิก, Pointer"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"คลิกขวา แตะ"</string>
-    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
-    <skip />
+    <string name="three_finger_tap_middle_click" msgid="7898931632908866867">"ปุ่มกลางของเมาส์"</string>
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"เปิดใช้งาน Assistant"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"ไปที่หน้าแรก"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"ย้อนกลับ"</string>
@@ -2562,6 +2560,8 @@
     <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"หากต้องการค้นหาเครื่องช่วยฟังอื่นๆ ที่ LE Audio ไม่รองรับ ให้แตะ"<b>"จับคู่อุปกรณ์ใหม่"</b>" แล้วแตะ"<b>"ดูอุปกรณ์เพิ่มเติม"</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"จับคู่เครื่องช่วยฟัง"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"คุณสามารถจับคู่เครื่องช่วยฟัง ASHA และ LE Audio ในหน้านี้ ตรวจสอบว่าเครื่องช่วยฟังเปิดอยู่และพร้อมจับคู่แล้ว"</string>
+    <string name="accessibility_hearing_device_pairing_asha_only_intro" msgid="5679230908462987522">"คุณสามารถจับคู่เครื่องช่วยฟัง ASHA ในหน้านี้ ตรวจสอบว่าเครื่องช่วยฟังเปิดอยู่และพร้อมจับคู่แล้ว"</string>
+    <string name="accessibility_hearing_device_pairing_hap_only_intro" msgid="2233661046254311681">"คุณสามารถจับคู่เครื่องช่วยฟัง LE Audio ในหน้านี้ ตรวจสอบว่าเครื่องช่วยฟังเปิดอยู่และพร้อมจับคู่แล้ว"</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"เครื่องช่วยฟังที่พร้อมใช้งาน"</string>
     <string name="accessibility_found_all_devices" msgid="7817834722148556520">"หากไม่เห็นเครื่องช่วยฟังของคุณ"</string>
     <string name="accessibility_list_all_devices_title" msgid="161495343959211216">"ดูอุปกรณ์เพิ่มเติม"</string>
@@ -5061,24 +5061,15 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"ทำตามขั้นตอนเพื่อเชื่อมต่อกับดาวเทียม"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"คุณส่งข้อความถึงใครก็ได้ รวมถึงบริการช่วยเหลือฉุกเฉิน โดยโทรศัพท์จะเชื่อมต่อกับเครือข่ายมือถืออีกครั้งเมื่อมีให้ใช้งาน"</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"หลังจากเชื่อมต่อโทรศัพท์แล้ว คุณจะส่งข้อความถึงใครก็ได้ รวมถึงบริการช่วยเหลือฉุกเฉิน"</string>
-    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
-    <skip />
-    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
-    <skip />
+    <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"โปรดทราบ"</string>
+    <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"การเชื่อมต่อผ่านดาวเทียมอาจใช้เวลานานกว่าปกติและพร้อมให้ใช้งานเฉพาะในบางพื้นที่"</string>
+    <string name="satellite_footer_content_section_2" msgid="7699185178461362541">"สภาพอากาศและโครงสร้างบางอย่างอาจส่งผลต่อการเชื่อมต่อผ่านดาวเทียม"</string>
+    <string name="satellite_footer_content_section_3" msgid="4652426135622555607">"การโทรผ่านดาวเทียมไม่พร้อมใช้งาน"</string>
+    <string name="satellite_footer_content_section_4" msgid="2294227482962815751">"การโทรฉุกเฉินอาจยังเชื่อมต่ออยู่"</string>
+    <string name="satellite_footer_content_section_5" msgid="3053256489735265540">"ต้องมีเครือข่ายมือถือหรือ Wi-Fi เพื่อดูลิงก์ภายนอก"</string>
+    <string name="satellite_footer_content_section_6" msgid="1448633393918612418">"การรับส่งข้อความกับบริการช่วยเหลือฉุกเฉินอาจทำไม่ได้ในบางพื้นที่"</string>
+    <string name="satellite_footer_content_section_7" msgid="5524773673918954918">"ระบบอาจใช้เวลาสักครู่กว่าที่การเปลี่ยนแปลงในบัญชีจะแสดงในการตั้งค่า โปรดติดต่อ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> เพื่อสอบถามรายละเอียด"</string>
+    <string name="more_about_satellite_connectivity" msgid="9110502891919936054">"ข้อมูลเพิ่มเติมเกี่ยวกับการเชื่อมต่อผ่านดาวเทียม"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"เปิด <xliff:g id="FUNCTION">%1$s</xliff:g> ไม่ได้"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"หากต้องการเปิด <xliff:g id="FUNCTION">%1$s</xliff:g> ให้หยุดการเชื่อมต่อดาวเทียมก่อน"</string>
     <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"ดาวเทียม"</string>
@@ -5089,6 +5080,8 @@
     <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"แอปที่รองรับในโทรศัพท์"</string>
     <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"ดูแอปทั้งหมด"</string>
     <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"แอปที่รองรับในโทรศัพท์"</string>
+    <string name="title_satellite_dialog_for_sim_restriction" msgid="454718192423216397">"เพิ่มซิมไม่ได้"</string>
+    <string name="description_satellite_dialog_for_sim_restriction" msgid="5465487347427595435">"หยุดการเชื่อมต่อผ่านดาวเทียมก่อนเพิ่มซิม"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"จุดเข้าใช้งาน"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"ใช้ไม่ได้เมื่อเชื่อมต่อกับ <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5172,8 +5165,7 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"หากต้องการใช้อินเทอร์เน็ตมือถือ ฟีเจอร์การโทร และ SMS ในภายหลัง ให้ไปที่การตั้งค่าเครือข่าย"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"ซิม"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"ลบ eSIM นี้ใช่ไหม"</string>
-    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
-    <skip />
+    <string name="erase_sim_dialog_text" msgid="3982216582200709197">"การลบ eSIM นี้จะนำบริการ <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> ออกจากอุปกรณ์นี้ แต่จะไม่ยกเลิกบริการของ <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> คุณจะต้องติดต่อผู้ให้บริการหากต้องการขอ eSIM ใหม่"</string>
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"ลบ"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"กำลังลบ eSIM…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"ลบ eSIM ไม่ได้"</string>
