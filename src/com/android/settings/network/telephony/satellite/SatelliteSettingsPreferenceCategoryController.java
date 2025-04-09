@@ -47,8 +47,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /** Preference controller for Satellite functions in mobile network settings. */
-public class SatelliteSettingsPreferenceCategoryController
-        extends TelephonyBasePreferenceController implements DefaultLifecycleObserver {
+public class SatelliteSettingsPreferenceCategoryController extends
+        TelephonyBasePreferenceController implements DefaultLifecycleObserver {
     private static final String TAG = "SatelliteSettingsPrefCategoryCon";
 
     @VisibleForTesting
@@ -99,16 +99,22 @@ public class SatelliteSettingsPreferenceCategoryController
         if (!com.android.internal.telephony.flags.Flags.carrierEnabledSatelliteFlag()) {
             return UNSUPPORTED_ON_DEVICE;
         }
+        final PersistableBundle carrierConfig = mCarrierConfigCache.getConfigForSubId(subId);
 
-        if (!mIsSatelliteSupported.get()) {
+        boolean isSatelliteConnectedTypeIsAuto =
+                CARRIER_ROAMING_NTN_CONNECT_AUTOMATIC == carrierConfig.getInt(
+                        KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT,
+                        CARRIER_ROAMING_NTN_CONNECT_AUTOMATIC);
+
+        // SatelliteManager#requestIsSupported is only supported for manual connection type, so
+        // if type is auto, this check shall be skipped.
+        if (!isSatelliteConnectedTypeIsAuto && !mIsSatelliteSupported.get()) {
             return UNSUPPORTED_ON_DEVICE;
         }
 
-        final PersistableBundle carrierConfig = mCarrierConfigCache.getConfigForSubId(subId);
         boolean isSatelliteSosSupported = false;
         if (Flags.satelliteOemSettingsUxMigration()) {
-            isSatelliteSosSupported = carrierConfig.getBoolean(
-                    KEY_SATELLITE_ESOS_SUPPORTED_BOOL);
+            isSatelliteSosSupported = carrierConfig.getBoolean(KEY_SATELLITE_ESOS_SUPPORTED_BOOL);
         }
 
         if (!carrierConfig.getBoolean(KEY_SATELLITE_ATTACH_SUPPORTED_BOOL)) {
@@ -119,9 +125,7 @@ public class SatelliteSettingsPreferenceCategoryController
             return AVAILABLE_UNSEARCHABLE;
         }
 
-        if (CARRIER_ROAMING_NTN_CONNECT_AUTOMATIC == carrierConfig.getInt(
-                KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT,
-                CARRIER_ROAMING_NTN_CONNECT_AUTOMATIC)) {
+        if (isSatelliteConnectedTypeIsAuto) {
             return AVAILABLE_UNSEARCHABLE;
         } else {
             return mCarrierRoamingNtnModeCallback.isSatelliteSmsAvailable()
@@ -171,8 +175,7 @@ public class SatelliteSettingsPreferenceCategoryController
         SatelliteSettingsPreferenceCategoryController mController;
         private boolean mIsSatelliteSmsAvailable = false;
 
-        CarrierRoamingNtnModeCallback(
-                SatelliteSettingsPreferenceCategoryController controller) {
+        CarrierRoamingNtnModeCallback(SatelliteSettingsPreferenceCategoryController controller) {
             mController = controller;
         }
 

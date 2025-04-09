@@ -610,6 +610,8 @@
     <string name="lock_screen_pattern_skip_face_title" msgid="145100333454316334">"فیس اور پیٹرن کے سیٹ اپ کو چھوڑیں؟"</string>
     <string name="lock_screen_pattern_skip_fingerprint_title" msgid="2513110208722100495">"پیٹرن اور فنگر پرنٹ کے سیٹ اپ کو چھوڑیں؟"</string>
     <string name="lock_screen_pattern_skip_biometrics_title" msgid="2434258106825380187">"پیٹرن، فیس اور فنگر پرنٹ کے سیٹ اپ کو چھوڑیں؟"</string>
+    <string name="resume_animation" msgid="5259729861893297887">"اینیمیشن دوبارہ شروع کریں"</string>
+    <string name="pause_animation" msgid="2209064682137909056">"اینیمیشن کو موقوف کریں"</string>
     <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="3538784524778508018">"اسکرین لاک کو ترتیب دیں"</string>
     <string name="security_settings_fingerprint_enroll_done" msgid="9198775984215057337">"ہوگیا"</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="5742429501012827526">"افوہ، یہ سینسر نہیں ہے"</string>
@@ -943,8 +945,7 @@
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"منسوخ کریں"</string>
     <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"آلے کی ترتیبات"</string>
     <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"بند کریں"</string>
-    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
-    <skip />
+    <string name="bluetooth_key_missing_toast" msgid="8692796546000643569">"‫<xliff:g id="DEVICE_NAME">%1$s</xliff:g> منسلک ہونے میں ناکام"</string>
     <string name="device_details_title" msgid="1155622417516195481">"آلہ کی تفصیلات"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"کی بورڈ کی ترتیبات"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"مزید ترتیبات"</string>
@@ -1382,8 +1383,7 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"فی الوقت نائٹ لائٹ آن نہیں ہے"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"آپ کے غروب آفتاب اور طلوع آفتاب کے اوقات کا تعین کرنے کے ليے آلہ کا مقام درکار ہے۔"</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"مقام کی ترتیبات"</string>
-    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
-    <skip />
+    <string name="twilight_mode_pending_location" msgid="6829434234071614405">"مقام کی سروسز فعال ہیں۔ مقام کا تعین ہونے پر شیڈول فعال ہو جائے گا۔"</string>
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"ابھی آن کریں"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"ابھی آف کریں"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"طلوع آفتاب تک آن کریں"</string>
@@ -2121,8 +2121,7 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"نیچے دایاں کلک کرنا"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"مزید اختیارات کے لیے ٹچ پیڈ کے نیچے بائیں کونے پر کلک کریں"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"کرسر کی رفتار"</string>
-    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
-    <skip />
+    <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"تین انگلیوں سے تھپتھپائیں"</string>
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"ٹچ پیڈ کا ایکسیلریشن"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"آپ کے ٹچ پیڈ پر تیز رفتار حرکتیں کرسر کو دور لے جائیں گی"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"پوائنٹر کا رنگ"</string>
@@ -2139,8 +2138,7 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"ٹچ پیڈ کے اشاروں کو جانیں"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ٹریک پیڈ، ٹریک پیڈ، ماؤس، کرسر، اسکرول، سوائپ، دائیں کلک، کلک، پوائنٹر"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"دائیں کلک کریں، تھپتھپائیں"</string>
-    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
-    <skip />
+    <string name="three_finger_tap_middle_click" msgid="7898931632908866867">"ماؤس کا درمیانی بٹن"</string>
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"اسسٹنٹ لانچ کریں"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"ہوم پر جائیں"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"واپس جائیں"</string>
@@ -2562,6 +2560,8 @@
     <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"‏ایسے دیگر آلات سماعت تلاش کرنے کیلئے جو LE آڈیو سے تعاون یافتہ نہیں ہیں، "<b>"نئے آلے کا جوڑا بنائیں"</b>" پھر "<b>"مزید آلات دیکھیں"</b>" پر تھپتھپائیں"</string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"سماعتی آلہ کا جوڑا بنائیں"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"‏آپ اس صفحہ پر ASHA اور LE آڈیو سماعت کے آلات کا جوڑا بنا سکتے ہیں۔ یقینی بنائیں کہ آپ کا سماعتی آلہ آن ہے اور جوڑا بنانے کے لیے تیار ہے۔"</string>
+    <string name="accessibility_hearing_device_pairing_asha_only_intro" msgid="5679230908462987522">"‏آپ اس صفحہ پر ASHA سماعتی آلات کا جوڑا بنا سکتے ہیں۔ یقینی بنائیں کہ آپ کا سماعتی آلہ آن ہے اور جوڑا بنانے کے لیے تیار ہے۔"</string>
+    <string name="accessibility_hearing_device_pairing_hap_only_intro" msgid="2233661046254311681">"‏آپ اس صفحہ پر LE آڈیو سماعی آلات کا جوڑا بنا سکتے ہیں۔ یقینی بنائیں کہ آپ کا سماعتی آلہ آن ہے اور جوڑا بنانے کے لیے تیار ہے۔"</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"دستیاب سماعتی آلات"</string>
     <string name="accessibility_found_all_devices" msgid="7817834722148556520">"اپنا سماعتی آلہ دکھائی نہیں دے رہا؟"</string>
     <string name="accessibility_list_all_devices_title" msgid="161495343959211216">"مزید آلات دیکھیں"</string>
@@ -5061,24 +5061,15 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"سیٹلائٹ سے منسلک کرنے کے لیے اقدامات پر عمل کریں"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"آپ ایمرجنسی سروسز سمیت کسی کو بھی ٹیکسٹ پیغام بھیج سکتے ہیں۔ دستیاب ہونے پر آپ کا فون موبائل نیٹ ورک سے دوبارہ منسلک ہو جائے گا۔"</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"آپ کا فون منسلک ہونے کے بعد، آپ ایمرجنسی سروسز سمیت کسی کو بھی ٹیکسٹ پیغام بھیج سکتے ہیں۔"</string>
-    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
-    <skip />
-    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
-    <skip />
+    <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"ذہن میں رکھیں"</string>
+    <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"سیٹلائٹ کنیکٹوٹی میں زیادہ وقت لگ سکتا ہے اور یہ صرف کچھ علاقوں میں دستیاب ہے۔"</string>
+    <string name="satellite_footer_content_section_2" msgid="7699185178461362541">"موسم اور کچھ ساختیں آپ کے سیٹلائٹ کنکشن کو متاثر کر سکتی ہیں۔"</string>
+    <string name="satellite_footer_content_section_3" msgid="4652426135622555607">"سیٹلائٹ کالنگ دستیاب نہیں ہے۔"</string>
+    <string name="satellite_footer_content_section_4" msgid="2294227482962815751">"ایمرجنسی کالز اب بھی منسلک ہو سکتی ہیں۔"</string>
+    <string name="satellite_footer_content_section_5" msgid="3053256489735265540">"‏بیرونی لنکس دیکھنے کے لیے موبائل یا Wi‑Fi نیٹ ورک درکار ہے۔"</string>
+    <string name="satellite_footer_content_section_6" msgid="1448633393918612418">"ہو سکتا ہے کہ تمام علاقوں میں ایمرجنسی سروسز کے ساتھ ٹیکسٹ پیغام بھیجنا دستیاب نہ ہو۔"</string>
+    <string name="satellite_footer_content_section_7" msgid="5524773673918954918">"اکاؤنٹ کی تبدیلیوں کو ترتیبات میں ظاہر ہونے میں کچھ وقت لگ سکتا ہے۔ تفصیلات کے لیے <xliff:g id="CARRIER_NAME">%1$s</xliff:g> سے رابطہ کریں۔"</string>
+    <string name="more_about_satellite_connectivity" msgid="9110502891919936054">"سیٹلائٹ کنیکٹوٹی کے بارے میں مزید"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> آن نہیں ہو سکتا"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> آن کرنے کے لیے، پہلے سیٹلائٹ کنکشن ختم کریں"</string>
     <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"سیٹلائٹ"</string>
@@ -5089,6 +5080,8 @@
     <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"آپ کے فون پر تعاون یافتہ ایپس"</string>
     <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"سبھی ایپس دیکھیں"</string>
     <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"آپ کے فون پر تعاون یافتہ ایپس"</string>
+    <string name="title_satellite_dialog_for_sim_restriction" msgid="454718192423216397">"‏کوئی SIM سامل نہیں کر سکتے"</string>
+    <string name="description_satellite_dialog_for_sim_restriction" msgid="5465487347427595435">"‏‫SIM شامل کرنے سے پہلے سیٹلائٹ کنکشن ختم کر دیں"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"رسائی کی جگہ کے نام"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g> سے منسلک ہونے پر دستیاب نہیں ہے"</string>
@@ -5172,8 +5165,7 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"‏موبائل ڈیٹا، کال کی خصوصیات اور SMS کو بعد میں استعمال کرنے کے لیے اپنے نیٹ ورک کی ترتیبات پر جائیں"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"‏اس eSIM کو مٹائیں؟"</string>
-    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
-    <skip />
+    <string name="erase_sim_dialog_text" msgid="3982216582200709197">"‏اس eSIM کو مٹانے سے اس آلے سے <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> سروس ہٹ جاتی ہے۔ <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> کیلئے سروس منسوخ نہیں ہوگی۔ ایک نئے eSIM کی درخواست کرنے کیلئے، آپ کو اپنے کیریئر سے رابطہ کرنا ہوگا۔"</string>
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"مٹائیں"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"‏eSIM مٹایا جا رہا ہے…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"‏eSIM مٹایا نہیں جا سکا"</string>
