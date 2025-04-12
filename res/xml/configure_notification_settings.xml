@@ -183,6 +183,12 @@
             android:title="@string/heads_up_notifications_title"
             android:fragment="com.android.settings.notification.HeadsUpSettings"/>
 
+        <Preference
+            android:key="ticker_settings"
+            android:title="@string/ticker_screen_title"
+            android:summary="@string/ticker_screen_summary"
+            android:fragment="com.android.settings.notification.Ticker"/> 
+
         <SwitchPreferenceCompat
              android:key="silent_icons"
              android:order="22"
