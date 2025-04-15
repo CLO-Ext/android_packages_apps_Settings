@@ -335,7 +335,7 @@
     <string name="lock_after_timeout_summary" msgid="4869265514658147304">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> ከእረፍት ጊዜ በኋላ"</string>
     <string name="lock_immediately_summary_with_exception" msgid="40819611828339044">"በ <xliff:g id="TRUST_AGENT_NAME">%1$s</xliff:g> እንደተከፈተ እንዲቆይ ካልተደረገ በቀር ከእረፍት ጊዜ በኋላ ወዲያውኑ"</string>
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"ከእረፍት ጊዜ በኋላ <xliff:g id="TIMEOUT_STRING">%1$s</xliff:g>፣ በ<xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g> ካልተከፈተ በስተቀር"</string>
-    <string name="owner_info_settings_title" msgid="3555626140700093017">"በማያ ገፅ መቆለፊያ ላይ ጽሁፍ ያክሉ"</string>
+    <string name="owner_info_settings_title" msgid="3555626140700093017">"በማያ ገጽ መቆለፊያ ላይ ጽሑፍ ያክሉ"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"ምንም"</string>
     <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ለምሳሌ፦ የአበበ Android።"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"አካባቢ"</string>
@@ -1443,7 +1443,7 @@
     <string name="doze_summary" msgid="8252867381522942804">"ማያ ገፅ ጨለማ ሲሆን ለአዲስ ማሳወቂያዎች ይበራል"</string>
     <string name="doze_always_on_title" msgid="7326245192352868477">"ሁልጊዜ ሰዓትን እና መረጃን አሳይ"</string>
     <string name="doze_always_on_summary" msgid="509097829739647852">"የባትሪ አጠቃቀምን ይጨምራል"</string>
-    <string name="force_bold_text" msgid="4620929631102086716">"ደማቅ ጽሁፍ"</string>
+    <string name="force_bold_text" msgid="4620929631102086716">"ደማቅ ጽሑፍ"</string>
     <string name="title_font_size" msgid="570613010306330622">"የቁምፊ መጠን"</string>
     <string name="short_summary_font_size" msgid="8444689613442419978">"ጽሁፍ ያተልቁ ወይም ያሳንሱ"</string>
     <string name="sim_lock_settings" msgid="7331982427303002613">"የሲም መቆለፊያ ቅንብሮች"</string>
@@ -1798,7 +1798,7 @@
     <string name="lockpassword_confirm_your_password_header" msgid="6132312814563023990">"የእርስዎን ይለፍ ቃል ደግመው ያስገቡ"</string>
     <string name="lockpassword_reenter_your_profile_password_header" msgid="3812040127714827685">"የሥራ ይለፍ ቃልዎን እንደገና ያስገቡ"</string>
     <string name="lockpassword_confirm_your_work_password_header" msgid="4647071231702288305">"የስራ ይለፍ ቃልዎን ያስገቡ"</string>
-    <string name="lockpassword_confirm_your_pattern_header" msgid="4037701363240138651">"ስርዓተ ጥለትዎን ያረጋግጡ"</string>
+    <string name="lockpassword_confirm_your_pattern_header" msgid="4037701363240138651">"ሥርዓተ ጥለትዎን ያረጋግጡ"</string>
     <string name="lockpassword_confirm_your_work_pattern_header" msgid="2668883108969165844">"የስራ ስርዓተ-ጥለትዎን ያስገቡ"</string>
     <string name="lockpassword_confirm_your_pin_header" msgid="2241722970567131308">"የእርስዎን ፒን ደግመው ያስገቡ"</string>
     <string name="lockpassword_reenter_your_profile_pin_header" msgid="2890233614560435538">"የሥራ ፒንዎን እንደገና ያስገቡ"</string>
@@ -1849,7 +1849,7 @@
     <string name="lockpassword_confirm_repair_mode_password_details" msgid="4860219600771003873">"ለመቀጠል የመሣሪያዎን የይለፍ ቃል ያስገቡ"</string>
     <string name="lockpassword_invalid_pin" msgid="7530854476819820600">"የተሳሳተ ፒን"</string>
     <string name="lockpassword_invalid_password" msgid="1588184930542221687">"የተሳሳተ ይለፍ ቃል"</string>
-    <string name="lockpattern_need_to_unlock_wrong" msgid="8109305107409924083">"የተሳሳተ ስርዓተ ጥለት"</string>
+    <string name="lockpattern_need_to_unlock_wrong" msgid="8109305107409924083">"የተሳሳተ ሥርዓተ ጥለት"</string>
     <string name="work_challenge_emergency_button_text" msgid="5529942788380505927">"ድንገተኛ አደጋ"</string>
     <string name="lock_settings_title" msgid="665707559508132349">"የመሣሪያ ደህንነት"</string>
     <string name="lockpattern_change_lock_pattern_label" msgid="5853706275279878879">"መክፈቻ ስርዓት ጥለት ለውጥ"</string>
@@ -2014,7 +2014,7 @@
     <string name="running_processes_item_description_p_p" msgid="3292999232897469679">"<xliff:g id="NUMPROCESS">%1$d</xliff:g>ሂደቶች እና <xliff:g id="NUMSERVICES">%2$d</xliff:g> አገልግሎቶች"</string>
     <string name="running_processes_header_title" msgid="558961782589967366">"የመሳሪያ ማህደረ ትውስታ"</string>
     <string name="running_processes_header_footer" msgid="2726092156680487584">"የመተግበሪያ ራም አጠቃቀም"</string>
-    <string name="running_processes_header_system_prefix" msgid="8819527769608555124">"ስርዓት"</string>
+    <string name="running_processes_header_system_prefix" msgid="8819527769608555124">"ሥርዓት"</string>
     <string name="running_processes_header_apps_prefix" msgid="4151874328324238133">"መተግበሪያዎች"</string>
     <string name="running_processes_header_free_prefix" msgid="4271100378295864738">"ነፃ"</string>
     <string name="running_processes_header_used_prefix" msgid="5205762402234243007">"ጥቅም ላይ ውሏል"</string>
@@ -2332,14 +2332,14 @@
     <string name="accessibility_screen_magnification_navbar_title" msgid="480853328665484528">"በአቋራጭ ያጉሉ"</string>
     <string name="accessibility_screen_magnification_state_navbar_gesture" msgid="8067042663897802231">"በአቋራጭ እና ሦስቴ መታ በማድረግ ያጉሉ"</string>
     <string name="accessibility_introduction_title" msgid="8834950581512452348">"ስለ<xliff:g id="SERVICE">%1$s</xliff:g>"</string>
-    <string name="accessibility_text_reading_options_title" msgid="3224648909213325563">"የማሳያ መጠን እና ጽሁፍ"</string>
+    <string name="accessibility_text_reading_options_title" msgid="3224648909213325563">"የማሳያ መጠን እና ጽሑፍ"</string>
     <string name="accessibility_text_reading_options_suggestion_title" msgid="2492155642665312733">"ጽሁፍ እንዴት እንደሚታይ ይቀይሩ"</string>
     <string name="accessibility_text_reading_preview_mail_subject" msgid="4597374768612733616">"ርዕሰ ጉዳይ፦ የሙቅ አየር ፊኛ ንድፎች"</string>
     <string name="accessibility_text_reading_preview_mail_from" msgid="1797499780365288020">"ከ፦ ቢል"</string>
     <string name="accessibility_text_reading_preview_mail_content" msgid="8078152365771951802">"እንደምን አደሩ?\n\nንድፎቹ እንዴት እየሄዱ እንደሆኑ ለማየት ፈልጌ ብቻ ነው። አዲሶቹን ፊኛዎች መስራት ከመጀመራችን በፊት ዝግጁ ይሆናሉ?"</string>
     <string name="accessibility_text_reading_reset_button_title" msgid="5960753279788187669">"ቅንብሮችን ዳግም አስጀምር"</string>
     <string name="accessibility_text_reading_reset_message" msgid="824644303661026712">"የማሳያ መጠን እና የጽሑፍ ቅንብሮች ዳግም ተጀምረዋል"</string>
-    <string name="accessibility_text_reading_confirm_dialog_title" msgid="2865331351355690389">"የማሳያ መጠን እና ጽሁፍ ዳግም ይጀመር?"</string>
+    <string name="accessibility_text_reading_confirm_dialog_title" msgid="2865331351355690389">"የማሳያ መጠን እና ጽሑፍ ዳግም ይጀመር?"</string>
     <string name="accessibility_text_reading_confirm_dialog_reset_button" msgid="8215800137850243736">"ዳግም አስጀምር"</string>
     <string name="accessibility_text_reading_conversation_message_1" msgid="7883952203831957831">"ለሳምንቱ መጨረሻ ቀናት ዕቅዶች አለዎት?"</string>
     <string name="accessibility_text_reading_conversation_message_2" msgid="8112160435318635856">"ወደ ባህር ዳርቻ እየሄድን ነው። መቀላቀል ይፈልጋሉ?"</string>
@@ -3532,7 +3532,7 @@
     <string name="call_volume_option_title" msgid="1461105986437268924">"የስልክ ጥሪ ድምፅ መጠን"</string>
     <string name="alarm_volume_option_title" msgid="6398641749273697140">"የማንቂያ ድምፅ መጠን"</string>
     <string name="ring_volume_option_title" msgid="1520802026403038560">"የጥሪ ድምፅ እና ማሳወቂያ ድምፅ መጠን"</string>
-    <string name="separate_ring_volume_option_title" msgid="2212910223857375951">"የጥሪ የድምጽ መጠን"</string>
+    <string name="separate_ring_volume_option_title" msgid="2212910223857375951">"የጥሪ የድምፅ መጠን"</string>
     <string name="notification_volume_option_title" msgid="4838818791683615978">"የማሳወቂያ ድምፅ መጠን"</string>
     <string name="ringer_content_description_silent_mode" msgid="1442257660889685934">"የደዋይ ፀጥታ"</string>
     <string name="ringer_content_description_vibrate_mode" msgid="5946432791951870480">"የደዋይ ንዝረት"</string>

@@ -251,7 +251,7 @@
     <string name="first_day_of_week_preferences_title" msgid="1971850087589599553">"Primeiro día da semana"</string>
     <string name="numbers_preferences_title" msgid="8197418984391195446">"Preferencias de números"</string>
     <string name="measurement_system_preferences_title" msgid="5539250190895110890">"Sistema de medida"</string>
-    <string name="default_string_of_regional_preference" msgid="3428899072914884203">"Usa a opción predeterminada"</string>
+    <string name="default_string_of_regional_preference" msgid="3428899072914884203">"Usar a opción predeterminada"</string>
     <string name="celsius_temperature_unit" msgid="8896459071273084507">"Celsius (°C)"</string>
     <string name="fahrenheit_temperature_unit" msgid="1118677820614569801">"Fahrenheit (°F)"</string>
     <string name="sunday_first_day_of_week" msgid="7644548348295686051">"Domingo"</string>
@@ -1412,7 +1412,7 @@
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{Os modos tamén poden activar o tema escuro}=1{O modo {mode_1} tamén activa o tema escuro}=2{Os modos {mode_1} e {mode_2} tamén activan o tema escuro}=3{Os modos {mode_1}, {mode_2} e {mode_3} tamén activan o tema escuro}other{Os modos {mode_1}, {mode_2} e # máis tamén activan o tema escuro}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"Configuración de modos"</string>
     <string name="screen_timeout" msgid="7709947617767439410">"Tempo de espera da pantalla"</string>
-    <string name="screen_timeout_summary" msgid="5558778019594643427">"<xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> de inactividade"</string>
+    <string name="screen_timeout_summary" msgid="5558778019594643427">"Despois de <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> de inactividade"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"Sen configurar"</string>
     <string name="wallpaper_settings_title" msgid="5635129851136006383">"Fondo de pantalla"</string>
     <string name="style_and_wallpaper_settings_title" msgid="2232042809407308946">"Estilo e fondo de pantalla"</string>
@@ -2433,7 +2433,7 @@
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Mellora o contraste do texto"</string>
     <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"O texto con contorno substituíu o texto de alto contraste. Podes activar esta opción en <xliff:g id="SETTINGS">%1$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Ir a <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"texto con contorno"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Texto con contorno"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Engade un fondo branco ou negro ao redor do texto para aumentar o contraste"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Actualizar aumento automaticamente"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Actualizar aumento pantalla en transicións de apps"</string>
@@ -3694,7 +3694,7 @@
     <string name="zen_mode_sound_summary_on_with_info" msgid="4803606180235742003">"Activado / <xliff:g id="ID_1">%1$s</xliff:g>"</string>
     <string name="zen_mode_sound_summary_on" msgid="9077659040104989899">"Activado"</string>
     <string name="zen_mode_duration_summary_always_prompt" msgid="7658172853423383037">"Pregunta sempre"</string>
-    <string name="zen_mode_duration_summary_forever" msgid="5551992961329998606">"Ata que o desactives"</string>
+    <string name="zen_mode_duration_summary_forever" msgid="5551992961329998606">"Ata a desactivación"</string>
     <string name="zen_mode_duration_summary_time_hours" msgid="2602655749780428308">"{count,plural, =1{1 hora}other{# horas}}"</string>
     <string name="zen_mode_duration_summary_time_minutes" msgid="5755536844016835693">"{count,plural, =1{1 minuto}other{# minutos}}"</string>
     <string name="zen_mode_sound_summary_off" msgid="7350437977839985836">"{count,plural, =0{Desactivado}=1{Desactivado / 1 planificación pode activarse automaticamente}other{Desactivado / # planificacións poden activarse automaticamente}}"</string>
@@ -3802,13 +3802,13 @@
     <string name="lock_screen_notifs_title" msgid="3412042692317304449">"Notificacións na pantalla de bloqueo"</string>
     <string name="lock_screen_notifs_show_all_summary" msgid="4226586018375762117">"Mostra conversas predeterminadas e silenciadas"</string>
     <string name="lock_screen_notifs_show_all" msgid="1300418674456749664">"Mostrar conversas predeterminadas e silenciadas"</string>
-    <string name="lock_screen_notifs_show_alerting" msgid="6584682657382684566">"Oculta conversas e notificacións silenciadas"</string>
+    <string name="lock_screen_notifs_show_alerting" msgid="6584682657382684566">"Ocultar conversas e notificacións silenciadas"</string>
     <string name="lock_screen_notifs_show_none" msgid="1941044980403067101">"Non mostrar ningunha notificación"</string>
     <string name="lock_screen_notifs_redact" msgid="9024158855454642296">"Notificacións sobre contido confidencial"</string>
     <string name="lock_screen_notifs_redact_summary" msgid="1395483766035470612">"Mostra contido confidencial na pantalla de bloqueo"</string>
     <string name="lock_screen_notifs_redact_work" msgid="3833920196569208430">"Notificacións de contido confidencial do perfil de traballo"</string>
     <string name="lock_screen_notifs_redact_work_summary" msgid="3238238380405430156">"Mostra contido confidencial do perfil de traballo na pantalla de bloqueo"</string>
-    <string name="lock_screen_notifications_summary_show" msgid="6540443483088311328">"Mostrar todo o contido das notificacións"</string>
+    <string name="lock_screen_notifications_summary_show" msgid="6540443483088311328">"Mostra todo o contido das notificacións"</string>
     <string name="lock_screen_notifications_summary_hide" msgid="7837303171531166789">"Mostrar contido confidencial só tras o desbloqueo"</string>
     <string name="lock_screen_notifications_summary_disable" msgid="3388290397947365744">"Non mostrar ningunha notificación"</string>
     <string name="lock_screen_notifications_interstitial_message" msgid="6326229471276829730">"Que queres que mostre a túa pantalla de bloqueo?"</string>
@@ -5062,7 +5062,7 @@
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Cando o teléfono estea conectado, poderás intercambiar mensaxes de texto con calquera persoa, mesmo cos servizos de emerxencia."</string>
     <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"Importante"</string>
     <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"A conectividade por satélite pode tardar máis e só está dispoñible en certas zonas."</string>
-    <string name="satellite_footer_content_section_2" msgid="7699185178461362541">"As condiciones meteorolóxicas e algunhas estruturas poden afectar á túa conexión por satélite."</string>
+    <string name="satellite_footer_content_section_2" msgid="7699185178461362541">"As condicións meteorolóxicas e algunhas estruturas poden afectar á túa conexión por satélite."</string>
     <string name="satellite_footer_content_section_3" msgid="4652426135622555607">"A función de chamada por satélite non está dispoñible."</string>
     <string name="satellite_footer_content_section_4" msgid="2294227482962815751">"Quizais poidas facer chamadas de emerxencia."</string>
     <string name="satellite_footer_content_section_5" msgid="3053256489735265540">"Para ver as ligazóns externas, cómpre dispor dunha rede wifi ou de telefonía móbil."</string>

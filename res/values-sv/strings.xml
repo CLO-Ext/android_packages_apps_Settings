@@ -467,7 +467,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Tryck på fingeravtryckssensorn"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Fingeravtrycket känns inte igen"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Upplåsning med klockan"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Titta"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Klocka"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"När du konfigurerar ansiktslås och fingeravtryckslås frågar telefonen om fingeravtryck när du använder munskydd eller om det är mörkt.\n\nMed upplåsning med klockan kan du smidigt låsa upp telefonen, till exempel när dina fingrar är fuktiga eller ditt ansikte inte känns igen."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Med upplåsning med klockan kan du smidigt låsa upp telefonen, till exempel när ditt fingeravtryck inte känns igen."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Med upplåsning med klockan kan du smidigt låsa upp telefonen, till exempel när ditt ansikte inte känns igen."</string>
@@ -538,7 +538,7 @@
     <string name="biometric_settings_intro" msgid="4263069383955676756">"Om du konfigurerar ansiktslås och fingeravtryckslås frågar telefonen om fingeravtryck när du använder munskydd eller om det är mörkt"</string>
     <string name="biometric_settings_category_ways_to_unlock" msgid="3384767901580915266">"Olika sätt att låsa upp"</string>
     <string name="biometric_settings_category_use_face_fingerprint" msgid="4377659744376863913">"Använd ansikte eller fingeravtryck för att"</string>
-    <string name="biometric_settings_use_biometric_unlock_phone" msgid="8180914579885804358">"Lås upp telefonen"</string>
+    <string name="biometric_settings_use_biometric_unlock_phone" msgid="8180914579885804358">"Låsa upp telefonen"</string>
     <string name="biometric_settings_use_biometric_for_apps" msgid="6201168728906364189">"Verifiera din identitet i appar"</string>
     <string name="biometric_settings_use_face_preference_summary" msgid="1821648836899408477">"Med ansikte"</string>
     <string name="biometric_settings_use_fingerprint_preference_summary" msgid="6077762097826050165">"Med fingeravtryck"</string>
@@ -1873,7 +1873,7 @@
     <string name="lockpattern_settings_enhanced_pin_privacy_summary" msgid="8639588868341114740">"Inaktivera animationer när du anger pinkoden"</string>
     <string name="lockpattern_settings_enable_visible_pattern_title_profile" msgid="5138189101808127489">"Gör mönstret för profilen synligt"</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title" msgid="2273374883831956787">"Vibrera vid tryck"</string>
-    <string name="lockpattern_settings_enable_power_button_instantly_locks" msgid="1638619728773344099">"Av/på-knappen låses direkt"</string>
+    <string name="lockpattern_settings_enable_power_button_instantly_locks" msgid="1638619728773344099">"Av/på-knappen låser direkt"</string>
     <string name="lockpattern_settings_power_button_instantly_locks_summary" msgid="2202430156268094229">"Utom när den hålls olåst av <xliff:g id="TRUST_AGENT_NAME">%1$s</xliff:g>"</string>
     <string name="lockpattern_settings_choose_lock_pattern" msgid="2193588309557281466">"Ställ in ett mönster"</string>
     <string name="lockpattern_settings_change_lock_pattern" msgid="7614155083815661347">"Byt mönster"</string>
@@ -2548,7 +2548,7 @@
     <string name="accessibility_hearing_device_connected_title" msgid="3785140037249487287">"Hörhjälpmedel"</string>
     <string name="accessibility_hearing_device_saved_title" msgid="7573926212664909296">"Sparade enheter"</string>
     <string name="accessibility_hearing_device_control" msgid="2661965917013100611">"Kontroller för hörapparat"</string>
-    <string name="accessibility_hearing_device_shortcut_title" msgid="7645100199603031360">"Genväg för hörapparat"</string>
+    <string name="accessibility_hearing_device_shortcut_title" msgid="7645100199603031360">"Genväg för hörhjälpmedel"</string>
     <string name="accessibility_hac_mode_title" msgid="2037950424429555652">"Kompatibilitet med hörapparat"</string>
     <string name="accessibility_hac_mode_summary" msgid="5198760061256669067">"Förbättrar kompatibiliteten med telespolar och minskar oönskade ljud"</string>
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"Om hörapparater"</string>
@@ -2563,7 +2563,7 @@
     <string name="accessibility_hearing_device_pairing_asha_only_intro" msgid="5679230908462987522">"Du kan parkoppla hörhjälpmedel från ASHA på den här sidan. Kontrollera att hörhjälpmedlet är på och redo för parkoppling."</string>
     <string name="accessibility_hearing_device_pairing_hap_only_intro" msgid="2233661046254311681">"Du kan parkoppla hörhjälpmedel från LE Audio på den här sidan. Kontrollera att hörhjälpmedlet är på och redo för parkoppling."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"Tillgängliga hörapparater"</string>
-    <string name="accessibility_found_all_devices" msgid="7817834722148556520">"Ser du inte din hörapparat?"</string>
+    <string name="accessibility_found_all_devices" msgid="7817834722148556520">"Ser du inte ditt hörhjälpmedel?"</string>
     <string name="accessibility_list_all_devices_title" msgid="161495343959211216">"Visa fler enheter"</string>
     <string name="accessibility_audio_adjustment_title" msgid="1332113739136802997">"Ljudjustering"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="8916473886256061220">"Ljudbeskrivning"</string>

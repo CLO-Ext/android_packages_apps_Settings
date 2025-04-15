@@ -3635,7 +3635,7 @@
     <string name="mode_aod_title_secondary_list" msgid="8268180392811027557">"темний екран"</string>
     <string name="mode_aod_summary" msgid="7516159044827627065">"Вимкнути інформацію на заблокованому екрані"</string>
     <string name="mode_wallpaper_title" msgid="5549693923133928374">"Зменшувати яскравість фонового малюнка"</string>
-    <string name="mode_wallpaper_title_secondary_list" msgid="5034602021811580157">"зменшувати яскравість фонового малюнка"</string>
+    <string name="mode_wallpaper_title_secondary_list" msgid="5034602021811580157">"зменшення яскравості фонового малюнка"</string>
     <string name="mode_wallpaper_summary" msgid="665480011615603784">"Коригувати яскравість фонового малюнка"</string>
     <string name="mode_dark_theme_title" msgid="8099007897943513209">"Увімкнути темну тему"</string>
     <string name="mode_dark_theme_title_secondary_list" msgid="4761262694149772845">"увімкнути темну тему"</string>
@@ -4132,7 +4132,7 @@
     <string name="zen_mode_edit_name_empty_error" msgid="5788063278827188275">"Укажіть назву режиму"</string>
     <string name="zen_mode_edit_choose_icon_title" msgid="6452801577128788362">"Виберіть значок"</string>
     <string name="zen_mode_trigger_title_schedule_calendar" msgid="9206609438617550331">"Події в календарі"</string>
-    <string name="zen_mode_trigger_title_bedtime" msgid="3287241454965736913">"Коли вмикається Час сну"</string>
+    <string name="zen_mode_trigger_title_bedtime" msgid="3287241454965736913">"Коли вмикається час сну"</string>
     <string name="zen_mode_trigger_title_driving" msgid="7890990983453164403">"За кермом"</string>
     <string name="zen_mode_trigger_title_generic" msgid="1347753445938095789">"Налаштування додатка"</string>
     <string name="zen_mode_trigger_summary_settings_in_app" msgid="4860667191183702601">"Інформація і налаштування в додатку <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
@@ -4826,7 +4826,7 @@
     <string name="autofill_app" msgid="7595308061826307921">"Автозаповнення"</string>
     <string name="default_autofill_app" msgid="372234803718251606">"Сервіс автозаповнення за умовчанням"</string>
     <string name="autofill_passwords" msgid="6708057251459761083">"Паролі"</string>
-    <string name="credman_chosen_app_title" msgid="7735183808067729319">"Рекомендований сервіс"</string>
+    <string name="credman_chosen_app_title" msgid="7735183808067729319">"Пріоритетний сервіс"</string>
     <string name="credman_credentials" msgid="2620352336624160642">"Додаткові сервіси"</string>
     <string name="autofill_passwords_count" msgid="6359289285822955973">"{count,plural, =1{# пароль}one{# пароль}few{# паролі}many{# паролів}other{# пароля}}"</string>
     <string name="autofill_keywords" msgid="8598763328489346438">"автоматичний, заповнення, автозаповнення, пароль"</string>

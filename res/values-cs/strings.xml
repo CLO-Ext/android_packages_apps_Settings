@@ -189,7 +189,7 @@
     <string name="ping_test_label" msgid="265427033290391845">"Spustit test Ping"</string>
     <string name="skip_label" msgid="6380034601349015895">"Přeskočit"</string>
     <string name="next_label" msgid="1248293387735652187">"Další"</string>
-    <string name="region_picker_preference_title" msgid="9195149951917299277">"Oblast"</string>
+    <string name="region_picker_preference_title" msgid="9195149951917299277">"Region"</string>
     <string name="region_picker_title" msgid="6743800249134439329">"Vybrat oblast"</string>
     <string name="region_picker_sub_title" msgid="7092062110753164836">"Vybraná oblast určuje, jak se v zařízení bude zobrazovat čas, datum, teplota a další údaje."</string>
     <string name="suggested_region_title" msgid="2554129334404390153">"Navrhováno"</string>
@@ -245,7 +245,7 @@
     <string name="regional_preferences_title" msgid="4304567374498629528">"Regionální preference"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Nastavení předvoleb jednotek a čísel"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Sdělte aplikacím své regionální preference, aby vám mohly přizpůsobit prostředí."</string>
-    <string name="regional_preferences_option_page_sub_title" msgid="8303661099255197036">"Aplikace vaše regionální preference použijí všude, kde je to možné."</string>
+    <string name="regional_preferences_option_page_sub_title" msgid="8303661099255197036">"Aplikace použijí vaše regionální preference kdykoliv to bude možné."</string>
     <string name="regional_preferences_category_title" msgid="6754667410178749022">"Regionální preference"</string>
     <string name="temperature_preferences_title" msgid="5009881556503629058">"Teplota"</string>
     <string name="first_day_of_week_preferences_title" msgid="1971850087589599553">"První den týdne"</string>
@@ -847,9 +847,9 @@
     <string name="unlock_disable_frp_warning_content_unknown_face_fingerprint" msgid="3779582301453677644">"Bez zámku obrazovky nebudou fungovat funkce ochrany zařízení.<xliff:g id="EMPTY_LINE">
 
 </xliff:g>Touto akcí smažete model otisku prstu uložený v zařízení. Bude také trvale a bezpečně smazán model obličeje. Obličej ani otisk prstu nebudete moci používat ani k ověřování v aplikacích."</string>
-    <string name="unlock_disable_frp_warning_content_authbound_keys" msgid="6397327696248819663">"Zámek obrazovky bude odstraněn.<xliff:g id="EMPTY_LINE_0">
+    <string name="unlock_disable_frp_warning_content_authbound_keys" msgid="6397327696248819663">"Bude odstraněn zámek obrazovky.<xliff:g id="EMPTY_LINE_0">
 
-</xliff:g>Bezkontaktní platby nebudou k dispozici.<xliff:g id="EMPTY_LINE_1">
+</xliff:g>K dispozici nebudou ani bezkontaktní platby.<xliff:g id="EMPTY_LINE_1">
 
 </xliff:g>Peněženka, platby a další aplikace vyžadující ověření nemusí fungovat správně."</string>
     <string name="unlock_disable_frp_warning_content_fingerprint_authbound_keys" msgid="7158076544627335461">"Zámek obrazovky a odemknutí otiskem prstu budou odstraněny.<xliff:g id="EMPTY_LINE_0">
@@ -935,9 +935,9 @@
     <string name="bluetooth_device_context_disconnect" msgid="4464167389972513232">"Odpojit"</string>
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"Spárovat a připojit"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="7326727272747345476">"Když je připojení Bluetooth zapnuto, vaše zařízení může komunikovat s ostatními zařízeními Bluetooth v okolí."</string>
-    <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"Když je zapnuté připojení Bluetooth, zařízení může komunikovat s ostatními zařízeními Bluetooth v okolí. Bluetooth využívají funkce jako Quick Share a Najdi moje zařízení."</string>
+    <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"Když je připojení Bluetooth zapnuté, zařízení může komunikovat s ostatními zařízeními Bluetooth v okolí. Bluetooth využívají funkce jako Quick Share a Najdi moje zařízení."</string>
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Když je připojení Bluetooth zapnuté, zařízení může komunikovat s ostatními zařízeními Bluetooth v okolí.\n\nZa účelem vylepšení funkcí však můžou aplikace a služby vyhledávat zařízení v okolí kdykoliv, dokonce i tehdy, když je Bluetooth vypnuté. Je tak například možné vylepšit funkce a služby založené na poloze. Toto chování můžete změnit v nastavení vyhledávání Bluetooth."</string>
-    <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"Když je zapnuté připojení Bluetooth, zařízení může komunikovat s ostatními zařízeními Bluetooth v okolí. Bluetooth využívají například funkce jako Quick Share a Najdi moje zařízení.\n\nAplikace a služby mohou vyhledávat zařízení v okolí, i když je rozhraní Bluetooth vypnuté. Lze to využít například ke zlepšení funkcí a služeb založených na poloze. Toto chování můžete změnit v nastavení vyhledávání Bluetooth."</string>
+    <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"Když je připojení Bluetooth zapnuté, zařízení může komunikovat s ostatními zařízeními Bluetooth v okolí. Bluetooth využívají například funkce jako Quick Share a Najdi moje zařízení.\n\nAplikace a služby mohou vyhledávat zařízení v okolí, i když je rozhraní Bluetooth vypnuté. Lze to využít například ke zlepšení funkcí a služeb založených na poloze. Toto chování můžete změnit v nastavení vyhledávání Bluetooth."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"Změnit"</string>
     <string name="bluetooth_key_missing_title" msgid="8462010102528132965">"Zařízení <xliff:g id="DEVICE_NAME">%1$s</xliff:g> nelze připojit"</string>
     <string name="bluetooth_key_missing_message" msgid="3188093580372443815">"Další podrobnosti najdete v nastavení zařízení"</string>
@@ -1028,7 +1028,7 @@
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Není k dispozici, protože funkce NFC je vypnutá"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Když je funkce zapnutá, můžete přenášet obsah aplikace do jiného zařízení s funkcí NFC tak, že obě zařízení podržíte blízko sebe. Přenášet můžete například webové stránky, videa na YouTube, kontakty a další.\n\nPřiložte zařízení k sobě (zpravidla zadní stranou) a klepněte na obrazovku. Aplikace určí, jaký obsah se bude přenášet."</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wi-Fi"</string>
-    <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Použít Wi-Fi"</string>
+    <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Používat Wi-Fi"</string>
     <string name="wifi_settings_category" msgid="3523464780563778321">"Nastavení Wi-Fi"</string>
     <string name="wifi_select_network" msgid="6692897876718813259">"Vyberte síť Wi-Fi"</string>
     <string name="wifi_starting" msgid="6147022683967506341">"Zapínání Wi‑Fi…"</string>
@@ -1144,7 +1144,7 @@
     <string name="wifi_dpp_lockscreen_title" msgid="5246641326066972419">"Potvrďte, že jste to vy"</string>
     <string name="wifi_dpp_wifi_password" msgid="4992986319806934381">"Heslo k Wi-Fi: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
     <string name="wifi_dpp_hotspot_password" msgid="688464342650820420">"Heslo k hotspotu: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
-    <string name="wifi_auto_connect_title" msgid="1890342051674657892">"Automatické připojení"</string>
+    <string name="wifi_auto_connect_title" msgid="1890342051674657892">"Automaticky připojovat"</string>
     <string name="wifi_auto_connect_summary" msgid="1707702705345670370">"Povolit připojení k této síti, když bude v dosahu"</string>
     <string name="wifi_dpp_add_device" msgid="8695656122114721335">"Přidat zařízení"</string>
     <string name="wifi_dpp_connect_network_using_qr_code" msgid="6975258007798254937">"Přidejte zařízení do této sítě pomocí QR kódu"</string>
@@ -1859,7 +1859,7 @@
     <string name="lockpattern_recording_inprogress" msgid="7268008332694009191">"Nakonec zvedněte prst z obrazovky"</string>
     <string name="lockpattern_recording_incorrect_too_short" msgid="3351522018450593723">"Spojte alespoň <xliff:g id="NUMBER">%d</xliff:g> tečky. Zkuste to znovu."</string>
     <string name="lockpattern_pattern_entered_header" msgid="7709618312713127249">"Gesto bylo zaznamenáno"</string>
-    <string name="lockpattern_need_to_confirm" msgid="6489499109451714360">"Potvrďte své gesto"</string>
+    <string name="lockpattern_need_to_confirm" msgid="6489499109451714360">"Gesto znovu zadejte a tím ho potvrďte"</string>
     <string name="lockpattern_pattern_confirmed_header" msgid="2969990617475456153">"Nové bezpečnostní gesto"</string>
     <string name="lockpattern_confirm_button_text" msgid="6122815520373044089">"Potvrdit"</string>
     <string name="lockpattern_restart_button_text" msgid="255339375151895998">"Nakreslit znovu"</string>
@@ -2256,11 +2256,11 @@
     <string name="accessibility_color_contrast_intro" msgid="7795090401101214930">"Text, tlačítka a ikony při vyšším kontrastu více vyniknou. Vyberte kontrast, který vám nejvíc vyhovuje."</string>
     <string name="color_contrast_note" msgid="7592686603372566198">"Některé aplikace nemusí podporovat všechna nastavení kontrastu barev a textu."</string>
     <string name="color_contrast_preview" msgid="6791430227535363883">"Náhled"</string>
-    <string name="color_contrast_preview_sender_name" msgid="8641943417589238147">"Helen, Adam"</string>
+    <string name="color_contrast_preview_sender_name" msgid="8641943417589238147">"Helena, Adam"</string>
     <string name="color_contrast_preview_email_send_date" msgid="2108702726171600080">"před 2 dny"</string>
     <string name="color_contrast_preview_email_badge" msgid="4845484039428505392">"Reagovat?"</string>
     <string name="color_contrast_preview_email_title" msgid="198712116139754823">"Hlášení o služební cestě"</string>
-    <string name="color_contrast_preview_email_body" msgid="2714343154965937945">"Pokud potřebujete pomoct, obraťte se na mě nebo na Helen. Toto hlášení bude"</string>
+    <string name="color_contrast_preview_email_body" msgid="2714343154965937945">"Pokud potřebujete pomoct, obraťte se na mě nebo na Helenu. Toto hlášení bude"</string>
     <string name="color_contrast_preview_email_attachment_name" msgid="852407311884814746">"Klientské výdaje"</string>
     <string name="color_contrast_about_title" msgid="5939566801408667867">"O barevném kontrastu"</string>
     <string name="accessibility_turn_screen_darker_title" msgid="5986223133285858349">"Ztmavit obrazovku"</string>
@@ -2332,7 +2332,7 @@
     <string name="accessibility_screen_magnification_navbar_title" msgid="480853328665484528">"Zvětšení zkratkou"</string>
     <string name="accessibility_screen_magnification_state_navbar_gesture" msgid="8067042663897802231">"Zvětšení zkratkou a trojitým klepnutím"</string>
     <string name="accessibility_introduction_title" msgid="8834950581512452348">"<xliff:g id="SERVICE">%1$s</xliff:g>"</string>
-    <string name="accessibility_text_reading_options_title" msgid="3224648909213325563">"Zobrazovaná velikost a text"</string>
+    <string name="accessibility_text_reading_options_title" msgid="3224648909213325563">"Velikost zobrazovaných prvků a textu"</string>
     <string name="accessibility_text_reading_options_suggestion_title" msgid="2492155642665312733">"Změňte způsob zobrazení textu"</string>
     <string name="accessibility_text_reading_preview_mail_subject" msgid="4597374768612733616">"Předmět: Návrhy horkovzdušného balónu"</string>
     <string name="accessibility_text_reading_preview_mail_from" msgid="1797499780365288020">"Od: Bill"</string>
@@ -2431,9 +2431,9 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Text s vysokým kontrastem"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"Změnit barvu textu na černou nebo bílou, čímž se maximalizuje kontrast vůči pozadí."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Vylepšený kontrast textu"</string>
-    <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"Text s vysokým kontrastem byl nahrazen obrysovým textem. Můžete ho zapnout v <xliff:g id="SETTINGS">%1$s</xliff:g>."</string>
+    <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"Text s vysokým kontrastem byl nahrazen textem s konturami. Můžete ho zapnout v <xliff:g id="SETTINGS">%1$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Přejít na <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Obrys textu"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Text s konturami"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Zvýšit kontrast přidáním černého nebo bílého pozadí kolem textu"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Automaticky aktualizovat přiblížení"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Aktual. přiblížení obrazovky při přepnutí aplikací"</string>
@@ -2531,7 +2531,7 @@
     <string name="accessibility_shortcut_edit_screen_prompt" msgid="5966054283114856682">"Vyberte zkratku pro %1$s"</string>
     <string name="accessibility_shortcut_unassigned_setting_unavailable_summary" msgid="993486098872935043">"Pokud toto chcete použít, zapněte na stránce funkce pro usnadnění přístupu zkratku %1$s"</string>
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"Pokračovat"</string>
-    <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"Naslouchátka"</string>
+    <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"Sluchové pomůcky"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"Můžete nastavit a spravovat naslouchátka, kochleární implantáty a další zesilovací zařízení s podporou protokolu ASHA a LE Audio"</string>
     <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"Můžete nastavit a spravovat naslouchátka, kochleární implantáty a další zesilovací zařízení s podporou protokolu ASHA"</string>
     <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"Můžete nastavit a spravovat naslouchátka, kochleární implantáty a další zesilovací zařízení s podporou protokolu LE Audio"</string>
@@ -2545,25 +2545,25 @@
     <string name="accessibility_hearingaid_left_and_right_side_device_summary" msgid="3314103411842694197">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> / levé i pravé"</string>
     <string name="accessibility_hearingaid_more_device_summary" msgid="8092641784056942546">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> +1 další"</string>
     <string name="accessibility_hearing_device_pairing_title" msgid="2701812183769537320">"Spárovat nové zařízení"</string>
-    <string name="accessibility_hearing_device_connected_title" msgid="3785140037249487287">"Naslouchátka"</string>
+    <string name="accessibility_hearing_device_connected_title" msgid="3785140037249487287">"Sluchové pomůcky"</string>
     <string name="accessibility_hearing_device_saved_title" msgid="7573926212664909296">"Uložená zařízení"</string>
     <string name="accessibility_hearing_device_control" msgid="2661965917013100611">"Ovládání naslouchátek"</string>
-    <string name="accessibility_hearing_device_shortcut_title" msgid="7645100199603031360">"Zkratka pro naslouchátko"</string>
-    <string name="accessibility_hac_mode_title" msgid="2037950424429555652">"Kompatibilita s naslouchátky"</string>
+    <string name="accessibility_hearing_device_shortcut_title" msgid="7645100199603031360">"Zkratka pro sluchovou pomůcku"</string>
+    <string name="accessibility_hac_mode_title" msgid="2037950424429555652">"Kompatibilita se sluchadly"</string>
     <string name="accessibility_hac_mode_summary" msgid="5198760061256669067">"Zlepšuje kompatibilitu s indukčními cívkami a snižuje nežádoucí šum"</string>
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"Informace o naslouchátkách"</string>
-    <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"Pokud chcete najít další naslouchátka, která nejsou podporována protokolem ASHA nebo LE Audio, klepněte na &lt;b&gt;Spárovat nové zařízení&lt;/b&gt; &gt; &lt;b&gt;Zobrazit další zařízení&lt;/b&gt;"</string>
-    <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"Pokud chcete najít další naslouchátka, která nejsou podporována protokolem ASHA nebo LE Audio, klepněte na "<b>"Spárovat nové zařízení"</b>" a pak na "<b>"Zobrazit další zařízení."</b></string>
-    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"Pokud chcete najít další naslouchátka, která nepodporují protokol ASHA, klepněte na &lt;b&gt;Spárovat nové zařízení&lt;/b&gt; &gt; &lt;b&gt;Zobrazit další zařízení&lt;/b&gt;"</string>
-    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"Pokud chcete najít další naslouchátka, která nepodporují protokol ASHA, klepněte na "<b>"Spárovat nové zařízení"</b>" a pak na "<b>"Zobrazit další zařízení."</b></string>
-    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"Pokud chcete najít další naslouchátka, která nepodporují protokol LE Audio, klepněte na &lt;b&gt;Spárovat nové zařízení&lt;/b&gt; &gt; &lt;b&gt;Zobrazit další zařízení&lt;/b&gt;"</string>
-    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"Pokud chcete najít další naslouchátka, která nepodporují protokol LE Audio, klepněte na "<b>"Spárovat nové zařízení"</b>" a pak na "<b>"Zobrazit další zařízení."</b></string>
+    <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"Pokud chcete najít další sluchové pomůcky, které nejsou podporovány protokolem ASHA nebo LE Audio, klepněte na &lt;b&gt;Spárovat nové zařízení&lt;/b&gt; &gt; &lt;b&gt;Zobrazit další zařízení&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"Pokud chcete najít další sluchové pomůcky, které nejsou podporovány protokolem ASHA nebo LE Audio, klepněte na "<b>"Spárovat nové zařízení"</b>" a pak na "<b>"Zobrazit další zařízení."</b></string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"Pokud chcete najít další sluchové pomůcky, které nejsou podporovány protokolem ASHA, klepněte na &lt;b&gt;Spárovat nové zařízení&lt;/b&gt; &gt; &lt;b&gt;Zobrazit další zařízení&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"Pokud chcete najít další sluchové pomůcky, které nejsou podporovány protokolem ASHA, klepněte na "<b>"Spárovat nové zařízení"</b>" a pak na "<b>"Zobrazit další zařízení."</b></string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"Pokud chcete najít další sluchové pomůcky, které nejsou podporovány protokolem LE Audio, klepněte na &lt;b&gt;Spárovat nové zařízení&lt;/b&gt; &gt; &lt;b&gt;Zobrazit další zařízení&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"Pokud chcete najít další sluchové pomůcky, které nejsou podporovány protokolem LE Audio, klepněte na "<b>"Spárovat nové zařízení"</b>" a pak na "<b>"Zobrazit další zařízení."</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"Spárování naslouchátek"</string>
-    <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"Na této stránce můžete spárovat naslouchátka ASHA a LE Audio. Ujistěte se, že je naslouchátko zapnuté a připravené ke spárování."</string>
+    <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"Na této stránce můžete spárovat sluchové pomůcky ASHA a LE Audio. Ujistěte se, že sluchová pomůcka je zapnutá a připravena ke spárování."</string>
     <string name="accessibility_hearing_device_pairing_asha_only_intro" msgid="5679230908462987522">"Na této stránce můžete spárovat naslouchátka ASHA. Ujistěte se, že je naslouchátko zapnuté a připravené ke spárování."</string>
     <string name="accessibility_hearing_device_pairing_hap_only_intro" msgid="2233661046254311681">"Na této stránce můžete spárovat naslouchátka LE Audio. Ujistěte se, že je naslouchátko zapnuté a připravené ke spárování."</string>
-    <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"Dostupná naslouchátka"</string>
-    <string name="accessibility_found_all_devices" msgid="7817834722148556520">"Nevidíte své naslouchátko?"</string>
+    <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"Dostupné sluchové pomůcky"</string>
+    <string name="accessibility_found_all_devices" msgid="7817834722148556520">"Nevidíte svou sluchovou pomůcku?"</string>
     <string name="accessibility_list_all_devices_title" msgid="161495343959211216">"Zobrazit další zařízení"</string>
     <string name="accessibility_audio_adjustment_title" msgid="1332113739136802997">"Úprava zvuku"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="8916473886256061220">"Hlasový popis"</string>
@@ -2582,7 +2582,7 @@
     <string name="daltonizer_mode_tritanomaly_title" msgid="2278786218762602022">"Modrá a žlutá"</string>
     <string name="daltonizer_mode_grayscale_title" msgid="152005391387952588">"Zešednutí obrazovky"</string>
     <string name="daltonizer_saturation_title" msgid="2999486412114963068">"Intenzita"</string>
-    <string name="daltonizer_saturation_unavailable_summary" msgid="8319753055567798775">"V režimu stupňů šedi a při vypnuté korekci barev tato funkce není k dispozici"</string>
+    <string name="daltonizer_saturation_unavailable_summary" msgid="8319753055567798775">"V režimu zešednutí obrazovky a při vypnuté korekci barev tato funkce není k dispozici"</string>
     <string name="daltonizer_mode_deuteranomaly_summary" msgid="391621040826073327">"Deuteranomálie"</string>
     <string name="daltonizer_mode_protanomaly_summary" msgid="877971556622350648">"Protanomálie"</string>
     <string name="daltonizer_mode_tritanomaly_summary" msgid="2428218320118180070">"Tritanomálie"</string>
@@ -2681,7 +2681,7 @@
     <string name="print_menu_item_add_printer" msgid="8711630848324870892">"Přidat tiskárnu"</string>
     <string name="print_menu_item_search" msgid="5989979785203603169">"Vyhledávání"</string>
     <string name="print_searching_for_printers" msgid="5401413178028348800">"Vyhledávání tiskáren"</string>
-    <string name="print_service_disabled" msgid="9185935228930987786">"Služba je vypnuta"</string>
+    <string name="print_service_disabled" msgid="9185935228930987786">"Služba je vypnutá"</string>
     <string name="print_print_jobs" msgid="2605944855933091183">"Tiskové úlohy"</string>
     <string name="print_print_job" msgid="8477859161886726608">"Tisková úloha"</string>
     <string name="print_restart" msgid="4424096106141083945">"Restartovat"</string>
@@ -2728,7 +2728,7 @@
     <string name="advanced_battery_preference_title" msgid="3790901207877260883">"Využití baterie"</string>
     <string name="advanced_battery_preference_summary_with_hours" msgid="954091349133320955">"Využití za posledních 24 hodin"</string>
     <string name="advanced_battery_preference_summary" msgid="2372763700477268393">"Zobrazit využití od posledního úplného nabití"</string>
-    <string name="battery_details_title" msgid="3289680399291090588">"Spotřeba baterie aplikací"</string>
+    <string name="battery_details_title" msgid="3289680399291090588">"Využití baterie aplikací"</string>
     <string name="details_subtitle" msgid="2550872569652785527">"Podrobnosti využívání"</string>
     <string name="controls_subtitle" msgid="3759606830916441564">"Upravit spotřebu energie"</string>
     <string name="packages_subtitle" msgid="8687690644931499428">"Zahrnuté balíčky"</string>
@@ -3597,7 +3597,7 @@
     <string name="zen_mode_setup_page_summary" msgid="7568908001205193154">"Blokujte vyrušení"</string>
     <string name="zen_mode_setup_button_label" msgid="1959984133767361374">"Nastavit režim <xliff:g id="MODE">%1$s</xliff:g>"</string>
     <string name="zen_mode_settings_turn_on_dialog_title" msgid="7500702838426404527">"Zapněte funkci Nerušit"</string>
-    <string name="zen_mode_behavior_alarms_only" msgid="2956938533859578315">"Vyrušovat můžou budíky a zvuky médií"</string>
+    <string name="zen_mode_behavior_alarms_only" msgid="2956938533859578315">"Vyrušit smí budíky a zvuky médií"</string>
     <string name="zen_mode_automation_settings_title" msgid="3709324184191870926">"Plány"</string>
     <string name="zen_mode_delete_automatic_rules" msgid="5020468289267191765">"Smazat plány"</string>
     <string name="zen_mode_schedule_delete" msgid="5383420576833765114">"Smazat"</string>
@@ -3607,7 +3607,7 @@
     <string name="zen_mode_rule_name_edit" msgid="1053237022416700481">"Upravit"</string>
     <string name="zen_mode_automation_settings_page_title" msgid="6217433860514433311">"Plány"</string>
     <string name="zen_mode_automatic_rule_settings_page_title" msgid="5264835276518295033">"Plán"</string>
-    <string name="zen_mode_automatic_trigger_title" msgid="6223547583969661361">"Kdy zapnout automaticky"</string>
+    <string name="zen_mode_automatic_trigger_title" msgid="6223547583969661361">"Kdy zapínat automaticky"</string>
     <string name="zen_mode_set_calendar_title" msgid="609741570346510347">"Plán události"</string>
     <string name="zen_mode_set_calendar_which_calendar" msgid="7520289688350942687">"Zapnout během událostí pro"</string>
     <string name="zen_mode_set_calendar_which_reply" msgid="3136872740890390233">"Když je odpověď na pozvánku"</string>
@@ -3628,8 +3628,8 @@
     <string name="modes_sound_summary_off" msgid="6972648204528227879">"{count,plural, =0{Vypnuto}=1{Vypnuto / 1 režim se může automaticky zapnout}few{Vypnuto / # režimy se můžou automaticky zapnout}many{Vypnuto / # režimu se může automaticky zapnout}other{Vypnuto / # režimů se může automaticky zapnout}}"</string>
     <string name="mode_display_settings_title" msgid="8132825978346535472">"Nastavení displeje"</string>
     <string name="mode_display_options_section" msgid="5151597748243866532">"Možnosti zobrazení"</string>
-    <string name="mode_grayscale_title" msgid="6027553257331235461">"Stupně šedi"</string>
-    <string name="mode_grayscale_title_secondary_list" msgid="2662593380253642581">"stupně šedi"</string>
+    <string name="mode_grayscale_title" msgid="6027553257331235461">"Zešednutí obrazovky"</string>
+    <string name="mode_grayscale_title_secondary_list" msgid="2662593380253642581">"zešednutí obrazovky"</string>
     <string name="mode_grayscale_summary" msgid="6682099523626777038">"Změnit displej na černobílý"</string>
     <string name="mode_aod_title" msgid="5903435070341237325">"Zachovat tmavou obrazovku"</string>
     <string name="mode_aod_title_secondary_list" msgid="8268180392811027557">"zachovat tmavou obrazovku"</string>
@@ -3639,10 +3639,10 @@
     <string name="mode_wallpaper_summary" msgid="665480011615603784">"Filtrovat jas tapety"</string>
     <string name="mode_dark_theme_title" msgid="8099007897943513209">"Zapnout tmavý motiv"</string>
     <string name="mode_dark_theme_title_secondary_list" msgid="4761262694149772845">"zapnout tmavý motiv"</string>
-    <string name="mode_dark_theme_summary" msgid="2808149708986602464">"Přepněte motiv zařízení na tmavé pozadí, které je šetrnější k očím"</string>
+    <string name="mode_dark_theme_summary" msgid="2808149708986602464">"Přepnout motiv zařízení na tmavé pozadí, které je šetrnější k očím"</string>
     <string name="mode_display_settings_summary" msgid="5929234706883482380">"{count,plural,offset:2 =0{Žádné změny zobrazení}=1{{effect_1}}=2{{effect_1} a {effect_2}}=3{{effect_1}, {effect_2} a {effect_3}}few{{effect_1}, {effect_2} a ještě #}many{{effect_1}, {effect_2} a ještě #}other{{effect_1}, {effect_2} a ještě #}}"</string>
     <string name="zen_mode_allow_all_notifications" msgid="7300894425550960390">"Povolit všechna oznámení"</string>
-    <string name="zen_mode_all_notifications_allowed" msgid="7612213309293552413">"Vyrušovat můžou lidé, aplikace a zvuky"</string>
+    <string name="zen_mode_all_notifications_allowed" msgid="7612213309293552413">"Vyrušit smí lidé, aplikace a zvuky"</string>
     <string name="zen_mode_restrict_notifications_title" msgid="4926944083757096458">"Možnosti zobrazení filtrovaných oznámení"</string>
     <string name="zen_mode_restrict_notifications_category" msgid="5870944770935394566">"Když je zapnutý režim Nerušit"</string>
     <string name="zen_mode_restrict_notifications_mute" msgid="6692072837485018287">"Oznámení bez zvukového upozornění"</string>
@@ -3869,7 +3869,7 @@
     <string name="notifications_sent_daily" msgid="10274479224185437">"{count,plural, =1{Přibližně # oznámení za den}few{Přibližně # oznámení za den}many{Přibližně # oznámení za den}other{Přibližně # oznámení za den}}"</string>
     <string name="notifications_sent_weekly" msgid="7895656213187555346">"{count,plural, =1{Přibližně # oznámení za týden}few{Přibližně # oznámení za týden}many{Přibližně # oznámení za týden}other{Přibližně # oznámení za týden}}"</string>
     <string name="notifications_sent_never" msgid="9081278709126812062">"Nikdy"</string>
-    <string name="manage_notification_access_title" msgid="4154723216570646451">"Ovládání a čtení oznámení a odpovídání na ně"</string>
+    <string name="manage_notification_access_title" msgid="4154723216570646451">"Ovládání a čtení oznámení a reakce na ně"</string>
     <string name="manage_notification_access_summary" msgid="2907135226478903997">"Ovládat, které aplikace a zařízení mohou číst oznámení"</string>
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"Přístup k oznámením pracovního profilu je zablokován"</string>
     <string name="notification_assistant_title" msgid="5889201903272393099">"Vylepšená oznámení"</string>
@@ -3910,7 +3910,7 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Další nastavení jsou k dispozici uvnitř aplikace"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Zeslabení oznámení"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Používat zeslabení oznámení"</string>
-    <string name="notification_polite_description" msgid="6137533404978878957">"Když během krátké doby obdržíte mnoho oznámení, zařízení až na minutu sníží hlasitost a minimalizuje upozornění. Hovory, budíky a prioritní konverzace nebudou dotčeny. \n\nOznámení přijatá během zeslabení lze zobrazit přejetím prstem dolů z horního okraje obrazovky."</string>
+    <string name="notification_polite_description" msgid="6137533404978878957">"Když během krátké doby obdržíte mnoho oznámení, zařízení až na minutu sníží hlasitost a minimalizuje upozornění. Netýká se to hovorů, budíků a prioritních konverzací. \n\nOznámení přijatá během zeslabení zobrazíte přejetím prstem dolů z horního okraje obrazovky."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Aplikovat u pracovních profilů"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Používat u aplikací v pracovním profilu"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"Seskupená oznámení"</string>
@@ -4032,12 +4032,12 @@
     <string name="zen_mode_from_no_conversations" msgid="3924593219855567165">"Žádné"</string>
     <string name="zen_mode_conversations_count" msgid="3199310723073707153">"{count,plural, =0{Žádná}=1{1 konverzace}few{# konverzace}many{# konverzace}other{# konverzací}}"</string>
     <string name="zen_mode_from_conversations_settings" msgid="2411930666794576607">"Nastavení konverzací"</string>
-    <string name="zen_mode_people_calls_messages_section_title" msgid="6815202112413762206">"Kdo smí vyrušovat"</string>
-    <string name="zen_mode_people_footer" msgid="7710707353004137431">"U lidí, které zde vyberte, vás příslušné aplikace pořád můžou upozornit na příchozí hovor nebo zprávu."</string>
+    <string name="zen_mode_people_calls_messages_section_title" msgid="6815202112413762206">"Kdo smí vyrušit"</string>
+    <string name="zen_mode_people_footer" msgid="7710707353004137431">"U lidí, které zde vyberte, vás příslušné aplikace pořád smí upozornit na příchozí hovor nebo zprávu."</string>
     <string name="zen_mode_calls_title" msgid="2078578043677037740">"Volání"</string>
     <string name="zen_mode_calls" msgid="7653245854493631095">"Volání"</string>
     <string name="zen_mode_calls_list" msgid="5044730950895749093">"hovory"</string>
-    <string name="zen_mode_calls_header" msgid="8379225445095856726">"Hovory, které smí vyrušovat"</string>
+    <string name="zen_mode_calls_header" msgid="8379225445095856726">"Hovory, které smí vyrušit"</string>
     <string name="zen_mode_calls_footer" msgid="2008079711083701243">"Pokud chcete, aby povolená volání vydávala zvuk, zkontrolujte, zda je zařízení nastaveno na vyzvánění."</string>
     <string name="zen_mode_custom_calls_footer" msgid="6521283204577441053">"V plánu <xliff:g id="SCHEDULE_NAME">%1$s</xliff:g> jsou blokovány příchozí hovory. Nastavení můžete upravit, aby se vám dovolali kamarádi, členové rodiny nebo jiné vybrané kontakty."</string>
     <string name="zen_mode_starred_contacts_title" msgid="630299631659575589">"Kontakty označené hvězdičkou"</string>
@@ -4046,7 +4046,7 @@
     <string name="zen_mode_messages" msgid="7315084748885170585">"Zprávy"</string>
     <string name="zen_mode_messages_list" msgid="5431014101342361882">"zprávy"</string>
     <string name="zen_mode_messages_title" msgid="1777598523485334405">"Zprávy"</string>
-    <string name="zen_mode_messages_header" msgid="253721635061451577">"Zprávy, které smí vyrušovat"</string>
+    <string name="zen_mode_messages_header" msgid="253721635061451577">"Zprávy, které smí vyrušit"</string>
     <string name="zen_mode_messages_footer" msgid="6002468050854126331">"Pokud chcete, aby povolené zprávy vydávaly zvuk, zkontrolujte, zda je zařízení nastaveno na vyzvánění."</string>
     <string name="zen_mode_custom_messages_footer" msgid="7545180036949550830">"V plánu <xliff:g id="SCHEDULE_NAME">%1$s</xliff:g> jsou blokovány příchozí zprávy. Nastavení můžete upravit, aby se s vámi mohli spojit kamarádi, členové rodiny nebo jiné vybrané kontakty."</string>
     <string name="zen_mode_all_messages_summary" msgid="3756267858343104554">"Zprávu vám může poslat kdokoli"</string>
@@ -4080,33 +4080,33 @@
     <string name="zen_mode_events_list" msgid="7191316245742097229">"události"</string>
     <string name="zen_mode_events_list_first" msgid="7425369082835214361">"události"</string>
     <string name="zen_mode_apps_title" msgid="1691010857014041183">"Aplikace"</string>
-    <string name="zen_mode_apps_category" msgid="4082380323683889391">"Aplikace, které smí vyrušovat"</string>
+    <string name="zen_mode_apps_category" msgid="4082380323683889391">"Aplikace, které smí vyrušit"</string>
     <string name="zen_mode_apps_priority_apps" msgid="7386196048313716076">"Vybrané aplikace"</string>
     <string name="zen_mode_apps_none_apps" msgid="2493642312793604327">"Žádné"</string>
-    <string name="zen_mode_apps_subtext" msgid="1764211974662012877">"{count,plural,offset:2 =0{Vyrušovat nemůžou žádné aplikace}=1{Vyrušovat může aplikace {app_1}}=2{Vyrušovat můžou aplikace {app_1} a {app_2}}=3{Vyrušovat můžou aplikace {app_1}, {app_2} a {app_3}}few{Vyrušovat můžou aplikace {app_1}, {app_2} a # další}many{Vyrušovat můžou aplikace {app_1}, {app_2} a # další}other{Vyrušovat můžou aplikace {app_1}, {app_2} a # dalších}}"</string>
+    <string name="zen_mode_apps_subtext" msgid="1764211974662012877">"{count,plural,offset:2 =0{Vyrušit nesmí žádné aplikace}=1{Vyrušit smí aplikace {app_1}}=2{Vyrušit smí aplikace {app_1} a {app_2}}=3{Vyrušit smí aplikace {app_1}, {app_2} a {app_3}}few{Vyrušit smí aplikace {app_1}, {app_2} a # další}many{Vyrušit smí aplikace {app_1}, {app_2} a # další}other{Vyrušit smí aplikace {app_1}, {app_2} a # dalších}}"</string>
     <string name="zen_mode_apps_work_app" msgid="8528767938316361588">"<xliff:g id="APP_LABEL">%s</xliff:g> (pracovní)"</string>
     <string name="zen_mode_apps_calculating" msgid="5420121396943539286">"Výpočet…"</string>
     <string name="zen_mode_apps_priority_apps_settings" msgid="5544513568250354374">"Nastavení aplikací"</string>
     <string name="zen_mode_plus_n_items" msgid="6136713354369243421">"+<xliff:g id="NUMBER">%d</xliff:g>"</string>
     <string name="zen_mode_bypassing_apps" msgid="625309443389126481">"Povolit přepisování aplikací"</string>
-    <string name="zen_mode_bypassing_apps_header" msgid="60083006963906906">"Aplikace, které smí vyrušovat"</string>
+    <string name="zen_mode_bypassing_apps_header" msgid="60083006963906906">"Aplikace, které smí vyrušit"</string>
     <string name="zen_mode_bypassing_apps_add_header" msgid="3201829605075172536">"Vybrat další aplikace"</string>
     <string name="zen_mode_bypassing_apps_none" msgid="7944221631721778096">"Nebyly vybrány žádné aplikace"</string>
-    <string name="zen_mode_bypassing_apps_subtext_none" msgid="5128770411598722200">"Žádné aplikace nemohou vyrušovat"</string>
+    <string name="zen_mode_bypassing_apps_subtext_none" msgid="5128770411598722200">"Žádné aplikace nesmí vyrušit"</string>
     <string name="zen_mode_bypassing_apps_add" msgid="5031919618521327102">"Přidat aplikace"</string>
     <string name="zen_mode_bypassing_apps_summary_all" msgid="4684544706511555744">"Všechna oznámení"</string>
     <string name="zen_mode_bypassing_apps_summary_some" msgid="5315750826830358230">"Některá oznámení"</string>
-    <string name="zen_mode_bypassing_apps_footer" msgid="1454862989340760124">"I když aplikacím vyrušování zakážete, vybraní lidé vás stále mohou kontaktovat."</string>
-    <string name="zen_mode_bypassing_apps_subtext" msgid="5258652366929842710">"{count,plural,offset:2 =0{Žádné aplikace nemohou vyrušovat}=1{Vyrušovat může aplikace {app_1}}=2{Vyrušovat mohou aplikace {app_1} a {app_2}}=3{Vyrušovat mohou aplikace {app_1}, {app_2} a {app_3}}few{Vyrušovat mohou aplikace {app_1}, {app_2} a # další}many{Vyrušovat mohou aplikace {app_1}, {app_2} a # další}other{Vyrušovat mohou aplikace {app_1}, {app_2} a # dalších}}"</string>
+    <string name="zen_mode_bypassing_apps_footer" msgid="1454862989340760124">"I když aplikacím vyrušení zakážete, vybraní lidé vás stále smí kontaktovat."</string>
+    <string name="zen_mode_bypassing_apps_subtext" msgid="5258652366929842710">"{count,plural,offset:2 =0{Žádné aplikace nesmí vyrušit}=1{Vyrušit může aplikace {app_1}}=2{Vyrušit smí aplikace {app_1} a {app_2}}=3{Vyrušit smí aplikace {app_1}, {app_2} a {app_3}}few{Vyrušit smí aplikace {app_1}, {app_2} a # další}many{Vyrušit smí aplikace {app_1}, {app_2} a # další}other{Vyrušit smí aplikace {app_1}, {app_2} a # dalších}}"</string>
     <string name="zen_mode_bypassing_apps_title" msgid="371050263563164059">"Aplikace"</string>
-    <string name="zen_mode_bypassing_app_channels_header" msgid="4011017798712587373">"Oznámení, která smí vyrušovat"</string>
+    <string name="zen_mode_bypassing_app_channels_header" msgid="4011017798712587373">"Oznámení, která smí vyrušit"</string>
     <string name="zen_mode_bypassing_app_channels_toggle_all" msgid="1449462656358219116">"Povolit všechna oznámení"</string>
-    <string name="zen_mode_other_sounds_summary" msgid="8784400697494837032">"{count,plural,offset:2 =0{Nic nemůže vyrušovat}=1{Vyrušovat může {sound_category_1}}=2{Vyrušovat mohou {sound_category_1} a {sound_category_2}}=3{Vyrušovat mohou {sound_category_1}, {sound_category_2} a {sound_category_3}}few{Vyrušovat mohou {sound_category_1}, {sound_category_2} a # další zvuky}many{Vyrušovat mohou {sound_category_1}, {sound_category_2} a # dalšího zvuku}other{Vyrušovat mohou {sound_category_1}, {sound_category_2} a # dalších zvuků}}"</string>
-    <string name="zen_mode_sounds_none" msgid="6557474361948269420">"Nic nemůže vyrušovat"</string>
-    <string name="zen_mode_people_none" msgid="4613147461974255046">"Nikdo nemůže vyrušovat"</string>
-    <string name="zen_mode_people_some" msgid="9101872681298810281">"Někteří lidí vás stále můžou vyrušit"</string>
-    <string name="zen_mode_people_repeat_callers" msgid="4499084111069828761">"Vyrušovat mohou lidé, kteří volají opakovaně"</string>
-    <string name="zen_mode_people_all" msgid="311036110283015205">"Všichni lidé mohou vyrušovat"</string>
+    <string name="zen_mode_other_sounds_summary" msgid="8784400697494837032">"{count,plural,offset:2 =0{Nic nesmí vyrušit}=1{Vyrušit smí {sound_category_1}}=2{Vyrušit smí {sound_category_1} a {sound_category_2}}=3{Vyrušit smí {sound_category_1}, {sound_category_2} a {sound_category_3}}few{Vyrušit smí {sound_category_1}, {sound_category_2} a # další zvuky}many{Vyrušit smí {sound_category_1}, {sound_category_2} a # dalšího zvuku}other{Vyrušit smí {sound_category_1}, {sound_category_2} a # dalších zvuků}}"</string>
+    <string name="zen_mode_sounds_none" msgid="6557474361948269420">"Nic nesmí vyrušit"</string>
+    <string name="zen_mode_people_none" msgid="4613147461974255046">"Nikdo nesmí vyrušit"</string>
+    <string name="zen_mode_people_some" msgid="9101872681298810281">"Vyrušit smí někteří lidé"</string>
+    <string name="zen_mode_people_repeat_callers" msgid="4499084111069828761">"Vyrušit smí lidé, kteří volají opakovaně"</string>
+    <string name="zen_mode_people_all" msgid="311036110283015205">"Všichni lidé smí vyrušit"</string>
     <string name="zen_mode_repeat_callers" msgid="2270356100287792138">"Volající, kteří volají opakovaně"</string>
     <string name="zen_mode_repeat_callers_title" msgid="8016699240338264781">"Povolit opakovaná volání"</string>
     <string name="zen_mode_all_callers" msgid="8104755389401941875">"kdokoli"</string>
@@ -4409,7 +4409,7 @@
     <string name="external_source_switch_title" msgid="101571983954849473">"Povolit z tohoto zdroje"</string>
     <string name="camera_gesture_title" msgid="5559439253128696180">"Otevření Fotoaparátu otočením zápěstí"</string>
     <string name="camera_gesture_desc" msgid="7557645057320805328">"Umožňuje otevřít aplikaci Fotoaparát dvojitým otočením zápěstí."</string>
-    <string name="screen_zoom_title" msgid="6928045302654960559">"Zobrazovaná velikost"</string>
+    <string name="screen_zoom_title" msgid="6928045302654960559">"Velikost prvků"</string>
     <string name="screen_zoom_short_summary" msgid="756254364808639194">"Všechno zvětšit nebo zmenšit"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"displej, hustota, přiblížení obrazovky, měřítko, zvětšení"</string>
     <string name="screen_zoom_preview_title" msgid="5288355628444562735">"Náhled"</string>
@@ -4641,13 +4641,13 @@
     <string name="double_tap_power_for_camera_title" msgid="7982364144330923683">"Rychle otevřít fotoaparát"</string>
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Pokud chcete rychle spustit fotoaparát, stiskněte dvakrát vypínač. Funguje to na všech obrazovkách."</string>
     <string name="double_tap_power_title" msgid="8129216801770589261">"Dvojí stisknutí vypínače"</string>
-    <string name="double_tap_power_enabled" msgid="7609935047996304482">"Použít dvojité stisknutí"</string>
+    <string name="double_tap_power_enabled" msgid="7609935047996304482">"Používat dvojité stisknutí"</string>
     <string name="double_tap_power_target_action_category" msgid="2568741597095863728">"Dvojitým stisknutím vypínače se otevře"</string>
     <string name="double_tap_power_camera_action_title" msgid="6641206739933181509">"Fotoaparát"</string>
     <string name="double_tap_power_camera_action_summary" msgid="4942585540579590444">"Otevřít Fotoaparát"</string>
     <string name="double_tap_power_wallet_action_title" msgid="2460162990983117189">"Peněženka"</string>
     <string name="double_tap_power_wallet_action_summary" msgid="3463748484407928770">"Otevřít Peněženku"</string>
-    <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"Otočením přepnout na selfie"</string>
+    <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"Přepnout na selfie gestem zápěstí"</string>
     <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="system_navigation_title" msgid="4890381153527184636">"Navigační režim"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"Navigace dvěma tlačítky"</string>
@@ -5331,7 +5331,7 @@
     <string name="disable_screen_share_protections_for_apps_and_notifications_summary" msgid="5379583403909210858">"Vypnout systémovou ochranu citlivého obsahu aplikací u nadcházejících relací sdílení obrazovky"</string>
     <string name="media_controls_title" msgid="403271085636252597">"Média"</string>
     <string name="media_controls_resume_title" msgid="855076860336652370">"Připnout přehrávač médií"</string>
-    <string name="media_controls_resume_description" msgid="3163482266454802097">"Přehrávač médií zůstane otevřený v Rychlém nastavení, aby bylo možné rychle obnovit přehrávání"</string>
+    <string name="media_controls_resume_description" msgid="3163482266454802097">"Přehrávač médií zůstane otevřený v Rychlém nastavení, aby se mohlo rychle obnovit přehrávání"</string>
     <string name="media_controls_lockscreen_title" msgid="2188311721857512510">"Zobrazovat média na obrazovce uzamčení"</string>
     <string name="media_controls_lockscreen_description" msgid="3320333660404439510">"Přehrávač médií zůstane otevřený na obrazovce uzamčení, aby bylo možné rychle obnovit přehrávání"</string>
     <string name="media_controls_hide_player" msgid="2751439192580884015">"Skrýt přehrávač"</string>

@@ -58,7 +58,7 @@
     <string name="sleep_on_fold_title" msgid="7626123024330501411">"Không bao giờ"</string>
     <string name="sleep_on_fold_summary" msgid="4191753338303043456">"Màn hình ngoài sẽ tắt và khoá khi bạn gập thiết bị"</string>
     <string name="auto_rotate_settings_primary_switch_title" msgid="3440951924928594520">"Sử dụng chế độ tự động xoay"</string>
-    <string name="smart_rotate_text_headline" msgid="5878008933992951904">"Công nghệ Phát hiện khuôn mặt sử dụng máy ảnh trước để cải thiện độ chính xác của chế độ tự động xoay. Hình ảnh không bao giờ được lưu trữ hoặc gửi cho Google."</string>
+    <string name="smart_rotate_text_headline" msgid="5878008933992951904">"Công nghệ Phát hiện khuôn mặt sử dụng camera trước để cải thiện độ chính xác của chế độ tự động xoay. Hình ảnh không bao giờ được lưu trữ hoặc gửi cho Google."</string>
     <string name="bluetooth" msgid="8898478620943459654">"Bluetooth"</string>
     <string name="bluetooth_is_discoverable" msgid="4798961627677790935">"Hiển thị với tất cả th.bị Bluetooth gần đó (<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g>)"</string>
     <string name="bluetooth_is_discoverable_always" msgid="8122823110652921674">"Hiển thị với tất cả các thiết bị Bluetooth gần đó"</string>
@@ -3671,7 +3671,7 @@
     <string name="zen_mode_block_effect_summary_none" msgid="6688519142395714659">"Không bao giờ"</string>
     <string name="zen_mode_block_effect_summary_screen_off" msgid="6989818116297061488">"Khi màn hình đang tắt"</string>
     <string name="zen_mode_block_effect_summary_screen_on" msgid="4876016548834916087">"Khi màn hình đang bật"</string>
-    <string name="zen_mode_block_effect_summary_sound" msgid="1559968890497946901">"Âm thanh và rung"</string>
+    <string name="zen_mode_block_effect_summary_sound" msgid="1559968890497946901">"Âm thanh và kiểu rung"</string>
     <string name="zen_mode_block_effect_summary_some" msgid="2730383453754229650">"Âm thanh, rung và một số tín hiệu hình ảnh của thông báo"</string>
     <string name="zen_mode_block_effect_summary_all" msgid="3131918059492425222">"Âm thanh, rung và tín hiệu hình ảnh của thông báo"</string>
     <string name="zen_mode_blocked_effects_footer" msgid="6403365663466620328">"Các thông báo cần thiết cho trạng thái và hoạt động cơ bản trên thiết bị sẽ không bao giờ bị ẩn."</string>
@@ -4690,7 +4690,7 @@
     <string name="one_handed_action_show_notification_summary" msgid="8281689861222000436">"Thông báo và chế độ cài đặt sẽ xuất hiện."</string>
     <string name="ambient_display_summary" msgid="2650326740502690434">"Để xem giờ, thông báo và thông tin khác, hãy nhấn đúp vào màn hình."</string>
     <string name="ambient_display_wake_screen_title" msgid="7637678749035378085">"Đánh thức màn hình"</string>
-    <string name="ambient_display_tap_screen_summary" msgid="4480489179996521405">"Để xem giờ, thông báo và thông tin khác, hãy nhấn vào màn hình."</string>
+    <string name="ambient_display_tap_screen_summary" msgid="4480489179996521405">"Để xem giờ, thông báo và thông tin khác, hãy chạm vào màn hình."</string>
     <string name="emergency_gesture_screen_title" msgid="3280543310204360902">"SOS khẩn cấp"</string>
     <string name="emergency_gesture_switchbar_title" msgid="7421353963329899514">"Sử dụng tính năng SOS khẩn cấp"</string>
     <string name="emergency_gesture_screen_summary" msgid="6640521030845132507">"Nhấn nhanh nút Nguồn 5 lần trở lên để kích hoạt các thao tác ở bên dưới"</string>
@@ -4837,7 +4837,7 @@
     <string name="credman_app_list_preference_none" msgid="2509646651254971448">"Chưa chọn mục nào"</string>
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Hãy đảm bảo bạn tin tưởng ứng dụng này&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; sử dụng thông tin trên màn hình để xác định nội dung nào có thể được tự động điền."</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"&lt;b&gt;Sử dụng &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt;?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; Mật khẩu mới, khoá truy cập mới, cũng như các thông tin khác sẽ được lưu ở đây kể từ bây giờ. &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; có thể dùng thông tin trên màn hình của bạn để xác định thông tin nào có thể tự động điền."</string>
-    <string name="credman_picker_title" msgid="8442086614222006564">"Dịch vụ ưu tiên cho mật khẩu, khoá truy cập và tính năng tự động điền"</string>
+    <string name="credman_picker_title" msgid="8442086614222006564">"Dịch vụ ưu tiên cho mật khẩu, khoá truy cập và tự động điền"</string>
     <string name="credman_confirmation_message_title" msgid="8847900085593880729">"Tắt %1$s?"</string>
     <string name="credman_confirmation_message" msgid="2357324543658635239">"&lt;b&gt;Tắt dịch vụ này?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; Thông tin đã lưu (ví dụ: mật khẩu, khoá truy cập, phương thức thanh toán) và thông tin khác sẽ không được điền khi bạn đăng nhập. Để sử dụng thông tin mà bạn đã lưu, hãy chọn một mật khẩu, khoá truy cập hoặc dịch vụ dữ liệu."</string>
     <string name="account_dashboard_title_with_passkeys" msgid="648242372086733541">"Mật khẩu, khoá truy cập và tài khoản"</string>

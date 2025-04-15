@@ -413,7 +413,7 @@
     <string name="security_settings_face_footer_description_class3" msgid="2639208414351635622"></string>
     <string name="security_settings_face_footer_learn_more_description" msgid="1418112576619086897"></string>
     <string name="security_settings_face_settings_face_category" msgid="60058016983772899">"Rosto"</string>
-    <string name="security_settings_face_settings_use_face_to_category" msgid="3349153603335284583">"Use o rosto para"</string>
+    <string name="security_settings_face_settings_use_face_to_category" msgid="3349153603335284583">"Use o rosto para:"</string>
     <string name="security_settings_face_settings_preferences_category" msgid="7628929873407280453">"Ao usar o Desbloqueio facial"</string>
     <string name="security_settings_face_settings_require_attention" msgid="4395309855914391104">"Exigir olhos abertos"</string>
     <string name="security_settings_face_settings_require_attention_details" msgid="2546230511769544074">"Para desbloquear o telemóvel, os olhos têm de estar abertos"</string>

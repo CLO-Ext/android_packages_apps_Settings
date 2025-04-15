@@ -264,8 +264,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"Ef forrit styður ekki kjörstillingar svæðis notar forritið sjálfgefnar stillingar tungumálskóða."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Nánar um tungumálaval."</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"Metrakerfið"</string>
-    <string name="us_measurement_system" msgid="8406695347890345490">"Bandaríkin"</string>
-    <string name="uk_measurement_system" msgid="1814065008707689505">"Bretland"</string>
+    <string name="us_measurement_system" msgid="8406695347890345490">"Bandarískt"</string>
+    <string name="uk_measurement_system" msgid="1814065008707689505">"Breskt"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"Viðbótarstillingar"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"Veldu ávarp"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"Tækið þitt getur sérsniðið hvernig það ávarpar þig"</string>
@@ -708,7 +708,7 @@
     <string name="private_space_setup_title" msgid="2272968244329821450">"Leynirými"</string>
     <string name="private_space_hide_apps_summary" msgid="4418722947376042418">"Feldu eða læstu einkaforritum í sérrými. Notaðu þar til gerðan Google-reikning til að auka öryggi."</string>
     <string name="private_space_setup_sub_header" msgid="550476876393954356">"Svona virkar þetta"</string>
-    <string name="private_space_separate_account_text" msgid="790319706810190320"><b>"Búðu til Google-reikning fyrir rýmið þitt"</b>\n"Ef þú notar sérstakan reikning hjálpar það til við að koma í veg fyrir að samstilltar skrár, myndir og tölvupóstur birtist fyrir utan rýmið þitt."</string>
+    <string name="private_space_separate_account_text" msgid="790319706810190320"><b>"Stofnaðu Google-reikning fyrir rýmið þitt"</b>\n"Ef þú notar sérstakan reikning hjálpar það til við að fyrirbyggja að samstilltar skrár, myndir og tölvupóstur birtist fyrir utan rýmið þitt."</string>
     <string name="private_space_protected_lock_text" msgid="9123250938334372735"><b>"Stilltu lás"</b>\n"Læstu rýminu til að koma í veg fyrir að aðrir geti opnað það"</string>
     <string name="private_space_install_apps_text" msgid="8072027796190028830"><b>"Settu upp forrit"</b>\n"Settu upp forrit sem þú vilt halda leyndum í rýminu þínu"</string>
     <string name="private_space_keep_in_mind_text" msgid="7721081172657563800">"Hafðu í huga"</string>
@@ -2433,7 +2433,7 @@
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Aukin birtuskil texta"</string>
     <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"Yfirstrikuðum texta var skipt út fyrir textaútlínur. Þú getur breytt þessu í <xliff:g id="SETTINGS">%1$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Opna <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"textaútlínur"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Textaútlínur"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Bættu svörtum eða hvítum bakgrunni við umhverfis texta til að auka birtuskil"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Uppfæra skjástækkun sjálfkrafa"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Uppfæra skjástækkun þegar skipt er milli forrita"</string>
@@ -3808,7 +3808,7 @@
     <string name="lock_screen_notifs_redact_work_summary" msgid="3238238380405430156">"Sýna viðkvæmt innihald vinnusniðs á lásskjá"</string>
     <string name="lock_screen_notifications_summary_show" msgid="6540443483088311328">"Sýna allt innihald tilkynninga"</string>
     <string name="lock_screen_notifications_summary_hide" msgid="7837303171531166789">"Sýna viðkvæmt efni aðeins þegar tækið er opið"</string>
-    <string name="lock_screen_notifications_summary_disable" msgid="3388290397947365744">"Sýna engar tilkynningar"</string>
+    <string name="lock_screen_notifications_summary_disable" msgid="3388290397947365744">"Ekki sýna neinar tilkynningar"</string>
     <string name="lock_screen_notifications_interstitial_message" msgid="6326229471276829730">"Hvað viltu að lásskjárinn sýni?"</string>
     <string name="lock_screen_notifications_interstitial_title" msgid="1360388192096354315">"Lásskjár"</string>
     <string name="lock_screen_notifications_summary_show_profile" msgid="8373401288962523946">"Sýna innihald allra vinnutilkynninga"</string>
@@ -3910,7 +3910,7 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Fleiri stillingar eru í boði í forritinu"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Tilkynningadempun"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Nota tilkynningadempun"</string>
-    <string name="notification_polite_description" msgid="6137533404978878957">"Þegar þú færð margar tilkynningar á skömmum tíma mun tækið þitt lækka hljóðstyrk og fækka viðvörunum í allt að eina mínútu. Þetta hefur ekki áhrif á símtöl, vekjara og forgangssamtöl. \n\nÞú getur séð tilkynningar sem berast á meðan á kælingu stendur með því að strjúka niður frá efsta hluta skjásins."</string>
+    <string name="notification_polite_description" msgid="6137533404978878957">"Þegar þú færð margar tilkynningar á skömmum tíma mun tækið þitt lækka hljóðstyrk og fækka viðvörunum í allt að eina mínútu. Þetta hefur ekki áhrif á símtöl, vekjara og forgangssamtöl. \n\nÞú getur séð tilkynningar sem berast meðan á kælingu stendur með því að strjúka niður frá efsta hluta skjásins."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Nota fyrir vinnusnið"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Nota fyrir forrit á vinnusniði"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"Flokkaðar tilkynningar"</string>
@@ -5597,7 +5597,7 @@
     <string name="about_phone_device_name_warning" msgid="3243226572404472381">"Heiti tækisins er sýnilegt uppsettum forritum. Heiti þess er hugsanlega einnig sýnilegt öðru fólki þegar þú tengist Bluetooth-tækjum, WiFi-neti eða setur upp heitan WiFi-reit."</string>
     <string name="grammatical_gender_title" msgid="8584242850477270828">"Kyn"</string>
     <string name="grammatical_gender_dialog_title" msgid="8754048592099871587">"Veldu kyn"</string>
-    <string name="content_protection_preference_title" msgid="5069260032659193074">"Leitar að sviksamlegum forritum"</string>
+    <string name="content_protection_preference_title" msgid="5069260032659193074">"Leita að sviksamlegum forritum"</string>
     <string name="content_protection_preference_summary" msgid="2252393849408445391">"Leita að vefveiðum í forritavirkni"</string>
     <string name="content_protection_preference_user_consent_switch_title" msgid="1797782616799594426">"Nota leit að blekkjandi forritum"</string>
     <string name="content_protection_preference_user_consent_work_profile_switch_title" msgid="3004347470520916069">"Nota leit að blekkjandi forritum fyrir vinnu"</string>

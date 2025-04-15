@@ -71,7 +71,7 @@
     <string name="bluetooth_disconnect_title" msgid="4581951246357823044">"デバイスの接続を解除しますか？"</string>
     <string name="bluetooth_pairing_pref_title" msgid="3497193027590444598">"新しいデバイスとペア設定"</string>
     <string name="keywords_add_bt_device" msgid="4533191164203174011">"Bluetooth"</string>
-    <string name="bluetooth_screen_auto_on_title" msgid="2203993262483477532">"日付が変わったら自動的に ON にする"</string>
+    <string name="bluetooth_screen_auto_on_title" msgid="2203993262483477532">"翌日に自動で ON にする"</string>
     <string name="bluetooth_screen_auto_on_summary" msgid="1490150818921417875">"Bluetooth を OFF にしても、翌日に再び ON になります"</string>
     <string name="bluetooth_pair_right_ear_button" msgid="3979894494803078852">"右耳をペア設定"</string>
     <string name="bluetooth_pair_left_ear_button" msgid="1019938875726073791">"左耳をペア設定"</string>
@@ -216,7 +216,7 @@
     <string name="desc_no_available_supported_locale" msgid="7883271726226947273">"このアプリの言語は [設定] から選択できません。"</string>
     <string name="desc_app_locale_disclaimer" msgid="5295933110644789052">"アプリで利用できない言語の可能性があります。一部のアプリはこの設定に対応していない可能性があります。"</string>
     <string name="desc_app_locale_selection_supported" msgid="6744909281573556379">"アプリごとに言語を設定できます。"</string>
-    <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"デバイス、アプリ、ウェブサイトでは、優先言語の一覧の中からサポートされている最初の言語が使用されます。\n\nその他の多くのアプリでも優先言語の地域を使用して、日付、数値、単位の形式を設定します。地域を変更するには、言語を追加してから、優先する地域を選択してください。"</string>
+    <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"デバイス、アプリ、ウェブサイトでは、優先言語の一覧の中からサポートされている最初の言語が使用されます。\n\nその他の多くのアプリでも、優先言語の地域に基づいて、日付、数値、単位の形式が設定されます。地域を変更するには、言語を追加してから、優先する地域を選択してください。"</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"アプリごとに言語を選択するには、アプリの言語設定に移動してください。"</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"アプリの言語の詳細"</string>
     <string name="title_change_system_region" msgid="9196602029960380112">"地域を%sに変更しますか？"</string>
@@ -459,7 +459,7 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"このアイコンが表示される場合は、アプリへのログイン時や購入の承認時などの認証に指紋を使用してください"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_1" msgid="4360262371633254407">"注意事項"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_2" msgid="2580899232734177771">"仕組み"</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2" msgid="5909924864816776516">"指紋認証は、さまざまな角度から指紋を撮影して一意のモデルを作成し、本人確認に使用します。"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2" msgid="5909924864816776516">"さまざまな角度から指紋を撮影して一意のモデルを作成し、本人確認に使用します。"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2" msgid="3493356605815124807">"指紋認証は、お子様の指紋の固有モデルを作成し、本人確認に使用します。モデルの作成では、さまざまな角度から指紋の画像を撮影します。"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6" msgid="5314031490467481499">"最適な結果を得るには、Made For Google 認定の画面保護シートを使用してください。これ以外の画面保護シートを使うと、指紋が認識されないおそれがあります。"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_6" msgid="3563942520716110478">"最適な結果を得るには、Made For Google 認定の画面保護シートを使用してください。認定されていないシートを使うと、お子様の指紋が認識されない可能性があります。"</string>
@@ -467,7 +467,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"指紋認証センサーをタッチしてください"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"指紋を認識できません"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"ウォッチ認証"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"視聴"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"スマートウォッチ"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"顔認証と指紋認証を設定した場合、マスク着用時や暗い場所にいるときは指紋認証が求められます。\n\nウォッチ認証を使用すると、指が濡れているときや顔が認識されないときなどでも、このスマートフォンをロック解除できます。"</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"ウォッチ認証を使用すると、指紋が認識されないときなどでも、スマートフォンをロック解除できます。"</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"ウォッチ認証を使用すると、顔が認識されないときなどでも、スマートフォンをロック解除できます。"</string>
@@ -762,7 +762,7 @@
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"ロック解除に使う指紋を追加"</string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"画面ロックを選択"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"画面ロックの選択"</string>
-    <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"新しい画面ロックの選択"</string>
+    <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"新しい画面ロックを選択"</string>
     <string name="lock_settings_picker_new_profile_lock_title" msgid="2270462215256413800">"仕事用アプリのロックの選択"</string>
     <string name="lock_settings_picker_update_profile_lock_title" msgid="5929068163516308927">"新しい仕事用ロックの選択"</string>
     <string name="lock_settings_picker_biometrics_added_security_message" msgid="1105247657304421299">"セキュリティ強化のため、予備の画面ロックを設定してください"</string>
@@ -805,7 +805,7 @@
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"パターン"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"PIN"</string>
     <string name="unlock_set_unlock_mode_password" msgid="8810609692771987513">"パスワード"</string>
-    <string name="unlock_disable_frp_warning_title" msgid="2545569051372893686">"デバイスのすべての種類のロック解除を削除しますか？"</string>
+    <string name="unlock_disable_frp_warning_title" msgid="2545569051372893686">"デバイスのロック解除をすべて削除しますか？"</string>
     <string name="unlock_disable_frp_warning_title_profile" msgid="1005284289723910461">"プロファイル保護を削除しますか？"</string>
     <string name="unlock_disable_frp_warning_content_pattern" msgid="6246242612158828147">"パターンは、紛失したり盗難に遭ったりした場合にスマートフォンを保護するものです"</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="2259825377085781801">"パターンは、紛失したり盗難に遭ったりした場合にスマートフォンを保護するものです。<xliff:g id="EMPTY_LINE">
@@ -1028,7 +1028,7 @@
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC が OFF のため使用できません"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"この機能を ON にすると、別の NFC 対応のデバイスを近づけて持ち、アプリのコンテンツをビームすることができます。たとえば、ウェブページ、YouTube の動画、連絡先などをビームできます。\n\n2 つのデバイスを近づけて（通常は背面を向かい合わせにして）、画面をタップします。何をビームするかはアプリが判断します。"</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wi-Fi"</string>
-    <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Wi-Fi の使用"</string>
+    <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Wi-Fi を使用"</string>
     <string name="wifi_settings_category" msgid="3523464780563778321">"Wi-Fiの設定"</string>
     <string name="wifi_select_network" msgid="6692897876718813259">"Wi-Fiを選択"</string>
     <string name="wifi_starting" msgid="6147022683967506341">"Wi-FiをONにしています…"</string>
@@ -1140,7 +1140,7 @@
     <string name="wifi_dpp_device_found" msgid="633646744759830603">"デバイスが見つかりました"</string>
     <string name="wifi_dpp_sharing_wifi_with_this_device" msgid="7250369936882080107">"Wi‑Fi をこのデバイスと共有しています…"</string>
     <string name="wifi_dpp_connecting" msgid="2312769193202897589">"接続しています…"</string>
-    <string name="wifi_dpp_share_hotspot" msgid="6186452780604755316">"アクセス ポイントの共有"</string>
+    <string name="wifi_dpp_share_hotspot" msgid="6186452780604755316">"アクセス ポイントを共有"</string>
     <string name="wifi_dpp_lockscreen_title" msgid="5246641326066972419">"本人確認"</string>
     <string name="wifi_dpp_wifi_password" msgid="4992986319806934381">"Wi‑Fi パスワード: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
     <string name="wifi_dpp_hotspot_password" msgid="688464342650820420">"アクセス ポイントのパスワード: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
@@ -1716,8 +1716,8 @@
     <string name="rx_ethernet_speed" msgid="6642000569214969711">"受信リンク速度"</string>
     <string name="ethernet_network_usage" msgid="3795965384177426780">"ネットワーク使用状況"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"イーサネット テザリング"</string>
-    <string name="tethering_footer_info" msgid="6824352505979800594">"このデバイスをアクセス ポイントとして機能させてテザリングすることで、データ通信のインターネット接続を他のデバイスと共有できます。アプリでアクセス ポイントを作成し、近くのデバイスに接続することも可能です。"</string>
-    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"このデバイスをアクセス ポイントとして機能させてテザリングすることで、Wi-Fi またはモバイルデータ通信のインターネット接続を他のデバイスと共有できます。アプリでアクセス ポイントを作成し、近くのデバイスに接続することも可能です。"</string>
+    <string name="tethering_footer_info" msgid="6824352505979800594">"このデバイスをアクセス ポイントとして機能させてテザリングすることで、データ通信のインターネット接続を他のデバイスと共有できます。アプリがアクセス ポイントを作成して、近くのデバイスに接続する場合もあります。"</string>
+    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"このデバイスをアクセス ポイントとして機能させてテザリングすることで、Wi-Fi またはモバイルデータ通信のインターネット接続を他のデバイスと共有できます。アプリがアクセス ポイントを作成して、近くのデバイスに接続する場合もあります。"</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"ヘルプ"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"モバイル ネットワーク"</string>
     <string name="sms_application_title" msgid="4791107002724108809">"SMS アプリ"</string>
@@ -1795,12 +1795,12 @@
     <string name="lockpassword_choose_your_pattern_header_for_fingerprint" msgid="4707788269512303400">"指紋認証にはパターンが必要です"</string>
     <string name="lockpassword_choose_your_pin_message" msgid="7230665212172041837">"セキュリティ強化のため、PIN を設定してください"</string>
     <string name="lockpassword_choose_your_pin_header_for_fingerprint" msgid="2783879743691792556">"指紋認証には PIN が必要です"</string>
-    <string name="lockpassword_confirm_your_password_header" msgid="6132312814563023990">"パスワードの再入力"</string>
+    <string name="lockpassword_confirm_your_password_header" msgid="6132312814563023990">"パスワードを再入力"</string>
     <string name="lockpassword_reenter_your_profile_password_header" msgid="3812040127714827685">"仕事パスワードをもう一度入力してください"</string>
     <string name="lockpassword_confirm_your_work_password_header" msgid="4647071231702288305">"仕事用のパスワードを入力"</string>
     <string name="lockpassword_confirm_your_pattern_header" msgid="4037701363240138651">"パターンの確認"</string>
     <string name="lockpassword_confirm_your_work_pattern_header" msgid="2668883108969165844">"仕事用のパターンを入力"</string>
-    <string name="lockpassword_confirm_your_pin_header" msgid="2241722970567131308">"PIN の再入力"</string>
+    <string name="lockpassword_confirm_your_pin_header" msgid="2241722970567131308">"PIN を再入力"</string>
     <string name="lockpassword_reenter_your_profile_pin_header" msgid="2890233614560435538">"仕事用 PIN をもう一度入力してください"</string>
     <string name="lockpassword_confirm_your_work_pin_header" msgid="4229765521391960255">"仕事用の PIN を入力"</string>
     <string name="lockpassword_confirm_passwords_dont_match" msgid="2100071354970605232">"パスワードが一致しません"</string>
@@ -1813,9 +1813,9 @@
     <string name="lockpassword_choose_your_password_header_for_face" msgid="622276003801157839">"顔認証のバックアップの設定"</string>
     <string name="lockpassword_choose_your_pattern_header_for_face" msgid="7333603579958317102">"顔認証の予備の画面ロック"</string>
     <string name="lockpassword_choose_your_pin_header_for_face" msgid="704061826984851309">"顔認証のバックアップの設定"</string>
-    <string name="lockpassword_choose_your_password_header_for_biometrics" msgid="2053366309272487015">"顔または指紋を使う場合のパスワードの設定"</string>
+    <string name="lockpassword_choose_your_password_header_for_biometrics" msgid="2053366309272487015">"顔や指紋を使う場合のパスワードを設定"</string>
     <string name="lockpassword_choose_your_pattern_header_for_biometrics" msgid="4038476475293734905">"顔または指紋を使う場合のパターンの設定"</string>
-    <string name="lockpassword_choose_your_pin_header_for_biometrics" msgid="9086039918921009380">"顔または指紋を使う場合の PIN を設定"</string>
+    <string name="lockpassword_choose_your_pin_header_for_biometrics" msgid="9086039918921009380">"顔や指紋を使う場合の PIN を設定"</string>
     <string name="lockpassword_forgot_password" msgid="5730587692489737223">"パスワードを忘れた場合"</string>
     <string name="lockpassword_forgot_pattern" msgid="1196116549051927516">"パターンを忘れた場合"</string>
     <string name="lockpassword_forgot_pin" msgid="7164232234705747672">"PIN を忘れた場合"</string>
@@ -1874,7 +1874,7 @@
     <string name="lockpattern_settings_enable_visible_pattern_title_profile" msgid="5138189101808127489">"プロファイルのパターンを表示する"</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title" msgid="2273374883831956787">"タップ操作時のバイブ"</string>
     <string name="lockpattern_settings_enable_power_button_instantly_locks" msgid="1638619728773344099">"電源ボタンですぐにロックする"</string>
-    <string name="lockpattern_settings_power_button_instantly_locks_summary" msgid="2202430156268094229">"<xliff:g id="TRUST_AGENT_NAME">%1$s</xliff:g> がロック解除を管理している場合を除きます"</string>
+    <string name="lockpattern_settings_power_button_instantly_locks_summary" msgid="2202430156268094229">"<xliff:g id="TRUST_AGENT_NAME">%1$s</xliff:g>がロック解除を管理している場合を除く"</string>
     <string name="lockpattern_settings_choose_lock_pattern" msgid="2193588309557281466">"ロック解除パターン設定"</string>
     <string name="lockpattern_settings_change_lock_pattern" msgid="7614155083815661347">"パターンの変更"</string>
     <string name="lockpattern_settings_help_how_to_record" msgid="2093801939046625774">"ロック解除パターンの描き方"</string>
@@ -2562,7 +2562,7 @@
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"このページで ASHA と LE Audio 補聴器をペア設定できます。補聴器の電源が入っていて、ペア設定できる状態であることをご確認ください。"</string>
     <string name="accessibility_hearing_device_pairing_asha_only_intro" msgid="5679230908462987522">"このページで ASHA 補聴器をペア設定できます。補聴器の電源が入っていて、ペア設定できる状態であることをご確認ください。"</string>
     <string name="accessibility_hearing_device_pairing_hap_only_intro" msgid="2233661046254311681">"このページで LE Audio 補聴器をペア設定できます。補聴器の電源が入っていて、ペア設定できる状態であることをご確認ください。"</string>
-    <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"使用可能な補聴器"</string>
+    <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"接続可能な補聴器"</string>
     <string name="accessibility_found_all_devices" msgid="7817834722148556520">"補聴器が表示されない場合"</string>
     <string name="accessibility_list_all_devices_title" msgid="161495343959211216">"他のデバイスを見る"</string>
     <string name="accessibility_audio_adjustment_title" msgid="1332113739136802997">"音声の調整"</string>
@@ -3344,7 +3344,7 @@
     <string name="preferred_network_type_title" msgid="812509938714590857">"優先ネットワークタイプ"</string>
     <string name="preferred_network_type_summary" msgid="8786291927331323061">"LTE（推奨）"</string>
     <string name="mms_message_title" msgid="6624505196063391964">"MMS メッセージ"</string>
-    <string name="mms_message_summary" msgid="2855847140141698341">"モバイルデータが OFF のときに送受信します"</string>
+    <string name="mms_message_summary" msgid="2855847140141698341">"モバイルデータが OFF でも送受信します"</string>
     <string name="auto_data_switch_title" msgid="5862200603753603464">"モバイルデータを自動的に切替"</string>
     <string name="auto_data_switch_summary" msgid="1934340931995429057">"接続状況に応じて、このネットワークを一時的に使用します"</string>
     <string name="work_sim_title" msgid="8999872928646924429">"仕事用SIM"</string>
@@ -3560,7 +3560,7 @@
     <string name="emergency_tone_vibrate" msgid="6282296789406984698">"バイブレーション"</string>
     <string name="boot_sounds_title" msgid="5033062848948884111">"電源オンの音"</string>
     <string name="live_caption_title" msgid="8617086825712756983">"自動字幕起こし"</string>
-    <string name="live_caption_summary" msgid="2898451867595161809">"メディアの自動字幕起こし"</string>
+    <string name="live_caption_summary" msgid="2898451867595161809">"メディアの字幕を自動で作成します"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"有線ヘッドフォン"</string>
     <string name="spatial_audio_text" msgid="8201387855375146000">"対応するメディアの臨場感を高めます"</string>
     <string name="spatial_summary_off" msgid="8272678804629774378">"OFF"</string>
@@ -3877,7 +3877,7 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"なし"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"通知へのアクセスをリクエストしたインストール済みアプリはありません。"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"通知へのアクセスを許可"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12 では Android 通知の自動調整が拡張通知に切り替えられました。この機能が操作や返信の候補を提示し、通知の整理を行います。\n\n拡張通知は通知コンテンツにアクセスできます。これには、連絡先の名前などの個人情報やメッセージも含まれます。また、この機能は、通知を非表示にしたり通知に応答したりすることもできます。たとえば、電話に出ることやサイレント モードを管理することができます。"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12 では Android 通知の自動調整が拡張通知に切り替えられました。この機能が操作や返信の候補を提示し、通知を整理します。\n\n拡張通知は通知内容にアクセスできます。これには、連絡先の名前などの個人情報やメッセージも含まれます。また、通知を非表示にしたり通知に応答したりすることもできます。たとえば、電話に出ることやサイレント モードを管理することができます。"</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g> による通知へのアクセスを許可しますか？"</string>
     <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> アプリはすべての通知を読み取ることができるようになります。通知には、連絡先名、写真などの個人情報や受信したメッセージの本文も含まれます。また、通知をスヌーズ、非表示にしたり、電話に出るなどの通知内のボタン操作を実行したりすることもできるようになります。\n\nこれにより、アプリがサイレント モード設定を切り替えたり、関連する設定を変更したりすることも可能になります。"</string>
     <string name="nls_warning_prompt" msgid="1486887096703743841">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> アプリは次のことができるようになります。"</string>
@@ -4132,7 +4132,7 @@
     <string name="zen_mode_edit_name_empty_error" msgid="5788063278827188275">"モード名を指定してください"</string>
     <string name="zen_mode_edit_choose_icon_title" msgid="6452801577128788362">"アイコンを選択してください"</string>
     <string name="zen_mode_trigger_title_schedule_calendar" msgid="9206609438617550331">"カレンダーの予定"</string>
-    <string name="zen_mode_trigger_title_bedtime" msgid="3287241454965736913">"おやすみ時間のルーティン"</string>
+    <string name="zen_mode_trigger_title_bedtime" msgid="3287241454965736913">"おやすみ時間のスケジュール"</string>
     <string name="zen_mode_trigger_title_driving" msgid="7890990983453164403">"車の運転中"</string>
     <string name="zen_mode_trigger_title_generic" msgid="1347753445938095789">"アプリの設定"</string>
     <string name="zen_mode_trigger_summary_settings_in_app" msgid="4860667191183702601">"<xliff:g id="APP_NAME">%1$s</xliff:g>の情報と設定"</string>
@@ -4295,7 +4295,7 @@
     <string name="share_remote_bugreport_action" msgid="7173093464692893276">"共有する"</string>
     <string name="decline_remote_bugreport_action" msgid="1276509879613158895">"共有しない"</string>
     <string name="usb_use_charging_only" msgid="1743303747327057947">"充電のみ"</string>
-    <string name="usb_use_power_only" msgid="3408055485802114621">"接続デバイスの充電"</string>
+    <string name="usb_use_power_only" msgid="3408055485802114621">"接続デバイスを充電"</string>
     <string name="usb_use_file_transfers" msgid="483915710802018503">"ファイル転送"</string>
     <string name="usb_use_photo_transfers" msgid="4641181628966036093">"PTP"</string>
     <string name="usb_use_uvc_webcam" msgid="6595429508472038732">"ウェブカメラ"</string>
@@ -5132,7 +5132,7 @@
     <string name="primary_sim_calls_title" msgid="4961189133582615685">"通話"</string>
     <string name="primary_sim_texts_title" msgid="1287584042733097749">"テキスト メッセージ"</string>
     <string name="primary_sim_automatic_data_title" msgid="1265528923229642480">"自動データ切り替え"</string>
-    <string name="primary_sim_automatic_data_msg" msgid="1612203837010785203">"サービスの対象エリアや提供状況に応じて、いずれかの SIM のデータを使用します"</string>
+    <string name="primary_sim_automatic_data_msg" msgid="1612203837010785203">"データ通信の対象エリアや品質に応じて、SIM を使い分けます"</string>
     <string name="sim_action_restart_dialog_title" msgid="3507413479633430120">"SIM を 2 つ使用するには再起動してください"</string>
     <string name="sim_action_restart_dialog_msg" msgid="4737611046767629774">"2 つの SIM を同時に使用するには、デバイスを再起動してから両方の SIM を有効にしてください"</string>
     <string name="sim_action_restart_dialog_cancel" msgid="665560106686565624">"<xliff:g id="CARRIER_NAME">%1$s</xliff:g> のみ使用"</string>
@@ -5329,7 +5329,7 @@
     <string name="disable_screen_share_protections_for_apps_and_notifications_summary" msgid="5379583403909210858">"開始予定の画面共有セッションでアプリのデリケートなコンテンツに対するシステム保護を OFF にします"</string>
     <string name="media_controls_title" msgid="403271085636252597">"メディア"</string>
     <string name="media_controls_resume_title" msgid="855076860336652370">"メディア プレーヤーを固定する"</string>
-    <string name="media_controls_resume_description" msgid="3163482266454802097">"再生をすばやく再開できるよう、[クイック設定] にメディア プレーヤーを開いたままにします"</string>
+    <string name="media_controls_resume_description" msgid="3163482266454802097">"再生をすばやく再開できるよう、[クイック設定] にメディア プレーヤーを開いたままにする"</string>
     <string name="media_controls_lockscreen_title" msgid="2188311721857512510">"ロック画面にメディアを表示する"</string>
     <string name="media_controls_lockscreen_description" msgid="3320333660404439510">"再生をすばやく再開できるよう、ロック画面にメディア プレーヤーを開いたままにする"</string>
     <string name="media_controls_hide_player" msgid="2751439192580884015">"プレーヤーを非表示"</string>
@@ -5426,7 +5426,7 @@
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"電話番号が指定されていません。"</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"OK"</string>
     <string name="enable_2g_title" msgid="5657132300321750181">"2G ネットワークの保護"</string>
-    <string name="enable_2g_summary" msgid="6317192326100541563">"安全性の低い 2G ネットワークは使用されません。一部の地域では接続が制限される場合があります。緊急通報は常に利用可能です。"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"安全性の低い 2G ネットワークを使用しません。ON にすると、一部の地域では接続が制限される場合があります。緊急通報は常に利用可能です。"</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> を利用するには、2G が必要です"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"暗号化されたネットワークのみを許可する"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"セキュリティは強化されますが、場所によってモバイル ネットワーク接続が制限される可能性があります。緊急通報は常に許可されます。"</string>

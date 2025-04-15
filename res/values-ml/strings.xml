@@ -5758,7 +5758,7 @@
     <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"ഒരു ഫിൽട്ടറും കുറ്റമറ്റതല്ല, എന്നാൽ ലൈംഗികത പ്രകടമാക്കുന്ന സൈറ്റുകൾ മറയ്ക്കാൻ ഇത് സഹായിക്കും"</string>
     <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"എല്ലാ സൈറ്റുകളെയും അനുവദിക്കുക"</string>
     <string name="supervision_web_content_filters_search_title" msgid="726335318009305564">"Google Search"</string>
-    <string name="supervision_web_content_filters_search_filter_on_title" msgid="4855846261141136285">"SafeSearch ഫിൽട്ടർ ചെയ്യൽ ഓണാക്കുക"</string>
+    <string name="supervision_web_content_filters_search_filter_on_title" msgid="4855846261141136285">"SafeSearch ഫിൽട്ടറിംഗ് ഓണാക്കുക"</string>
     <string name="supervision_web_content_filters_search_filter_on_summary" msgid="1162258144140293269">"ഈ ഉപകരണത്തിലെ തിരയൽ ഫലങ്ങളിൽ നിന്ന് പ്രായപൂർത്തിയായവർക്കുള്ള ചിത്രങ്ങളും ടെക്സ്റ്റും ലിങ്കുകളും ഫിൽട്ടർ ചെയ്ത് ഒഴിവാക്കാൻ സഹായിക്കുന്നു"</string>
     <string name="supervision_web_content_filters_search_filter_off_title" msgid="6049461395304222346">"SafeSearch ഫിൽട്ടറിംഗ് ഓഫാക്കുക"</string>
     <string name="supervision_web_content_filters_search_filter_off_summary" msgid="3834238970190924433">"അക്കൗണ്ട് ക്രമീകരണം, പ്രായപൂർത്തിയായവർക്കുള്ള ഫലങ്ങൾ തുടർന്നും ഫിൽട്ടർ ചെയ്യുകയോ മങ്ങിക്കുകയോ ചെയ്തേക്കാം"</string>

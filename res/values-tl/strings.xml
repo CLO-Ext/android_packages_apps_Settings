@@ -1050,7 +1050,7 @@
     <string name="wifi_cellular_data_fallback_title" msgid="2844653839490977040">"Awtomatikong lumipat sa mobile data"</string>
     <string name="wifi_cellular_data_fallback_summary" msgid="7039944853033554386">"Gumamit ng mobile data kapag walang access sa internet ang Wi‑Fi. Maaaring may mailapat na singilin sa paggamit ng data."</string>
     <string name="wifi_add_network" msgid="4178564862173751181">"Magdagdag ng network"</string>
-    <string name="wifi_configure_settings_preference_title" msgid="2536725796700696566">"Mga kagustuhan sa Wi‑Fi"</string>
+    <string name="wifi_configure_settings_preference_title" msgid="2536725796700696566">"Mga preference sa Wi‑Fi"</string>
     <string name="wifi_configure_settings_preference_summary_wakeup_on" msgid="7822368955551467382">"Awtomatikong nag-o-on muli ang Wi‑Fi"</string>
     <string name="wifi_configure_settings_preference_summary_wakeup_off" msgid="5710203586018223864">"Hindi awtomatikong nag-o-on ulit ang Wi‑Fi"</string>
     <string name="wifi_menu_p2p" msgid="5234165837732940385">"Wi-Fi Direct"</string>

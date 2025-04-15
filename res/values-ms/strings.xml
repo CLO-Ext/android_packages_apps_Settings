@@ -467,7 +467,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Sentuh penderia cap jari"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Cap jari tidak dikenali"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Buka Kunci Jam Tangan"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Tonton"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Jam tangan"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Semasa anda menyediakan Buka Kunci Wajah dan Buka Kunci Cap Jari, telefon akan meminta cap jari apabila anda memakai pelitup muka atau berada di kawasan gelap.\n\nBuka Kunci Jam Tangan merupakan cara mudah yang lain untuk membuka kunci telefon, sebagai contoh, apabila jari anda basah atau wajah tidak dapat dicam."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Buka Kunci Jam Tangan merupakan cara mudah yang lain untuk membuka kunci telefon anda, sebagai contoh, apabila cap jari anda tidak dapat dicam."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Buka Kunci Jam Tangan merupakan cara mudah yang lain untuk membuka kunci telefon anda, sebagai contoh, apabila wajah anda tidak dapat dicam."</string>
@@ -862,7 +862,7 @@
 </xliff:g>Bayar tanpa sentuhan tidak akan tersedia.<xliff:g id="EMPTY_LINE_1">
 
 </xliff:g>Wallet, pembayaran dan apl lain yang memerlukan pengesahan mungkin tidak akan berfungsi dengan betul."</string>
-    <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys" msgid="1574263040292024543">"Kunci skrin dan Wajah &amp; Buka Kunci Cap Jari anda akan dialih keluar.<xliff:g id="EMPTY_LINE_0">
+    <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys" msgid="1574263040292024543">"Kunci skrin dan Buka Kunci Cap Jari &amp; Wajah akan dialih keluar.<xliff:g id="EMPTY_LINE_0">
 
 </xliff:g>Bayar tanpa sentuhan tidak akan tersedia.<xliff:g id="EMPTY_LINE_1">
 
@@ -1540,7 +1540,7 @@
     <string name="storage_menu_free" msgid="616100170298501673">"Kosongkan ruang"</string>
     <string name="storage_menu_manage" msgid="7465522758801346408">"Urus storan"</string>
     <string name="storage_free_up_space_title" msgid="281047807372131975">"Kosongkan ruang"</string>
-    <string name="storage_free_up_space_summary" msgid="6650027929735481350">"Pergi ke apl Files untuk mengurus dan mengosongkan ruang"</string>
+    <string name="storage_free_up_space_summary" msgid="6650027929735481350">"Buka apl Files untuk mengurus dan mengosongkan ruang"</string>
     <string name="storage_other_users" msgid="7017206190449510992">"Pengguna lain"</string>
     <string name="storage_size_large" msgid="1155308277890194878">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small>""</string>
     <string name="storage_mount_success" msgid="393972242641313135">"<xliff:g id="NAME">%1$s</xliff:g> dilekapkan"</string>
@@ -2590,7 +2590,7 @@
     <string name="reduce_bright_colors_switch_title" msgid="1751678397884065312">"Jadikan skrin amat malap"</string>
     <string name="reduce_bright_colors_shortcut_title" msgid="495648157059202745">"Pintasan amat malap"</string>
     <string name="reduce_bright_colors_about_title" msgid="503655452544934393">"Perihal amat malap"</string>
-    <string name="reduce_bright_colors_preference_intro_text" msgid="3502290826747650566">"Menjadikan skrin anda lebih malap supaya lebih selesa untuk dibaca"</string>
+    <string name="reduce_bright_colors_preference_intro_text" msgid="3502290826747650566">"Jadikan skrin lebih malap agar anda dapat membaca dengan lebih selesa"</string>
     <string name="reduce_bright_colors_intensity_preference_title" msgid="7455443033955118267">"Keamatan"</string>
     <string name="reduce_bright_colors_intensity_start_label" msgid="930387498396426039">"Lebih malap"</string>
     <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"Lebih cerah"</string>
@@ -2629,7 +2629,7 @@
     <string name="color_red" msgid="5210756997426500693">"Merah"</string>
     <string name="color_green" msgid="4400462091250882271">"Hijau"</string>
     <string name="color_blue" msgid="4997784644979140261">"Biru"</string>
-    <string name="color_cyan" msgid="4341758639597035927">"Biru kehijauan"</string>
+    <string name="color_cyan" msgid="4341758639597035927">"Sian"</string>
     <string name="color_yellow" msgid="5957551912912679058">"Kuning"</string>
     <string name="color_magenta" msgid="8943538189219528423">"Magenta"</string>
     <string name="capabilities_list_title" msgid="1225853611983394386">"<xliff:g id="SERVICE">%1$s</xliff:g> perlu:"</string>
@@ -3788,7 +3788,7 @@
     <string name="notification_pulse_title" msgid="8013178454646671529">"Lampu berkelip"</string>
     <string name="lock_screen_notifications_title" msgid="2876323153692406203">"Privasi"</string>
     <string name="lockscreen_bypass_title" msgid="6519964196744088573">"Langkau skrin kunci"</string>
-    <string name="lockscreen_bypass_summary" msgid="4578154430436224161">"Selepas buka kunci, terus ke skrin terakhir digunakan. Skrin kunci tidak paparkan pemberitahuan. Leret dari atas ke bawah untuk lihat pemberitahuan."</string>
+    <string name="lockscreen_bypass_summary" msgid="4578154430436224161">"Selepas buka kunci, skrin terakhir digunakan akan dipaparkan. Skrin kunci tidak paparkan pemberitahuan. Leret dari atas ke bawah untuk melihat pemberitahuan."</string>
     <string name="keywords_lockscreen_bypass" msgid="41035425468915498">"Skrin kunci, Langkau, Pintas"</string>
     <string name="locked_work_profile_notification_title" msgid="279367321791301499">"Apabila profil kerja dikunci"</string>
     <string name="lock_screen_notif_minimalism" msgid="5556871004042668149">"Minimalisme pemberitahuan skrin kunci"</string>
@@ -3846,7 +3846,7 @@
     <string name="clear" msgid="5092178335409471100">"Kosongkan"</string>
     <string name="clear_conversation" msgid="5564321180363279096">"Alih keluar <xliff:g id="CONVERSATION_NAME">%1$s</xliff:g>"</string>
     <string name="conversation_onboarding_title" msgid="5194559958353468484">"Perbualan keutamaan dan perbualan yang diubah suai akan dipaparkan di sini"</string>
-    <string name="conversation_onboarding_summary" msgid="2484845363368486941">"Setelah anda menandai perbualan sebagai keutamaan atau membuat perubahan lain pada perbualan, perubahan itu akan dipaparkan di sini. \n\nUntuk mengubah tetapan perbualan: \nLeret ke bawah dari bahagian atas skrin untuk membuka bidai tarik turun, kemudian sentuh &amp; tahan perbualan."</string>
+    <string name="conversation_onboarding_summary" msgid="2484845363368486941">"Setelah anda menandai perbualan sebagai keutamaan atau membuat perubahan lain pada perbualan, perbualan itu akan dipaparkan di sini. \n\nUntuk mengubah tetapan perbualan: \nLeret skrin dari atas ke bawah untuk membuka bidai tarik turun, kemudian sentuh &amp; tahan perbualan."</string>
     <string name="notification_importance_min_title" msgid="7676541266705442501">"Minimumkan"</string>
     <string name="notification_importance_high_title" msgid="394129291760607808">"Paparkan pada skrin"</string>
     <string name="notification_silence_title" msgid="4085829874452944989">"Senyap"</string>
@@ -3910,7 +3910,7 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Lagi tetapan tersedia dalam apl ini"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Tempoh bertenang pemberitahuan"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Gunakan tempoh bertenang pemberitahuan"</string>
-    <string name="notification_polite_description" msgid="6137533404978878957">"Apabila anda menerima banyak pemberitahuan dalam tempoh masa yang singkat, peranti anda akan mengurangkan kelantangan dan meminimumkan makluman hingga 1 minit. Panggilan, penggera dan perbualan keutamaan tidak terjejas. \n\nPemberitahuan yang diterima semasa tempoh bertenang boleh ditemukan dengan menarik ke bawah daripada bahagian atas skrin."</string>
+    <string name="notification_polite_description" msgid="6137533404978878957">"Apabila anda menerima banyak pemberitahuan dalam tempoh masa yang singkat, peranti akan mengurangkan kelantangan dan meminimumkan makluman hingga 1 minit. Panggilan, penggera dan perbualan keutamaan tidak terjejas. \n\nPemberitahuan yang diterima semasa tempoh bertenang boleh ditemukan dengan menarik skrin dari atas ke bawah."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Gunakan pada profil kerja"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Gunakan pada apl profil kerja"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"Pemberitahuan terhimpun"</string>
@@ -4683,7 +4683,7 @@
     <string name="one_handed_mode_swipe_down_category" msgid="110178629274462484">"Leret ke bawah untuk"</string>
     <string name="one_handed_mode_use_shortcut_category" msgid="1414714099339147711">"Gunakan pintasan untuk"</string>
     <string name="one_handed_mode_intro_text" msgid="7921988617828924342">"Tarik separuh skrin bahagian atas ke bawah supaya mudah dicapai dengan sebelah tangan"</string>
-    <string name="one_handed_mode_footer_text" msgid="6336209800330679840">" "<b>"Cara menggunakan mod sebelah tangan"</b>\n" • Pastikan navigasi gerak isyarat dipilih dalam tetapan navigasi sistem\n • Leret ke bawah berdekatan bahagian tepi sebelah bawah skrin"</string>
+    <string name="one_handed_mode_footer_text" msgid="6336209800330679840">" "<b>"Cara menggunakan mod sebelah tangan"</b>\n" • Pastikan navigasi gerak isyarat dipilih dalam tetapan navigasi sistem\n • Leret ke bawah berdekatan sisi bawah skrin"</string>
     <string name="one_handed_action_pull_down_screen_title" msgid="9187194533815438150">"Tarik skrin agar berada dalam jangkauan"</string>
     <string name="one_handed_action_pull_down_screen_summary" msgid="7582432473450036628">"Bahagian atas skrin akan dapat dijangkau ibu jari anda."</string>
     <string name="one_handed_action_show_notification_title" msgid="8789305491485437130">"Tunjukkan pemberitahuan"</string>
@@ -5426,7 +5426,7 @@
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"Tiada nombor telefon."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"OK"</string>
     <string name="enable_2g_title" msgid="5657132300321750181">"Perlindungan rangkaian 2G"</string>
-    <string name="enable_2g_summary" msgid="6317192326100541563">"Elakkan rangkaian 2G yang kurang selamat. Tindakan ini mungkin mengehadkan kesambungan di sesetengah tempat. Panggilan kecemasan sentiasa dibenarkan."</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"Elakkan rangkaian 2G kerana kurang selamat. Tindakan ini mungkin mengehadkan kesambungan di sesetengah tempat. Panggilan kecemasan sentiasa dibenarkan."</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> memerlukan 2G tersedia"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"Hanya benarkan rangkaian yang disulitkan"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"Penyulitan ini lebih selamat tetapi mungkin mengehadkan sambungan rangkaian mudah alih anda di sesetengah lokasi. Panggilan kecemasan sentiasa dibenarkan."</string>

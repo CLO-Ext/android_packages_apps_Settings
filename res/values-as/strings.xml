@@ -3544,7 +3544,7 @@
     <string name="notification_unknown_sound_title" msgid="1319708450698738980">"এপে যোগান ধৰা ধ্বনি"</string>
     <string name="notification_sound_default" msgid="8630353701915294299">"জাননীৰ ডিফ\'ল্ট ধ্বনি"</string>
     <string name="alarm_ringtone_title" msgid="6680761007731764726">"এলাৰ্মৰ ডিফ\'ল্ট ধ্বনি"</string>
-    <string name="vibrate_when_ringing_option_ramping_ringer" msgid="2798848945803840348">"প্ৰথমে কম্পন হৈ তাৰপাছত ক্ৰমে ৰিং হ’ব লাগে"</string>
+    <string name="vibrate_when_ringing_option_ramping_ringer" msgid="2798848945803840348">"প্ৰথমে কম্পন হৈ তাৰপাছত ক্ৰমে ৰিং হ’ব"</string>
     <string name="spatial_audio_title" msgid="1775370104206884711">"স্থানিক অডিঅ’"</string>
     <string name="dial_pad_tones_title" msgid="3536945335367914892">"ডায়েল পেডৰ ট\'নসমূহ"</string>
     <string name="screen_locking_sounds_title" msgid="5695030983872787321">"স্ক্ৰীন লক কৰাৰ ধ্বনি"</string>
@@ -4116,7 +4116,7 @@
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
     <skip />
     <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> আৰু <xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
-    <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"যদি একেজন ব্যক্তিয়ে <xliff:g id="MINUTES">%d</xliff:g>মিনিটৰ ভিতৰত দ্বিতীয়বাৰ কল কৰে"</string>
+    <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"যদি একেগৰাকী ব্যক্তিয়ে <xliff:g id="MINUTES">%d</xliff:g> মিনিটৰ ভিতৰত দ্বিতীয়বাৰ কল কৰে"</string>
     <string name="zen_mode_start_time" msgid="1252665038977523332">"আৰম্ভণিৰ সময়"</string>
     <string name="zen_mode_end_time" msgid="223502560367331706">"সমাপ্ত হোৱাৰ সময়"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> পৰৱৰ্তী দিন"</string>

@@ -761,8 +761,8 @@
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Утсаа хамгаалах"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Түгжээг тайлахын тулд хурууны хээ нэмэх"</string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Дэлгэцийн түгжээ сонгох"</string>
-    <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Дэлгэцийн түгжээ сонгоно уу"</string>
-    <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Шинэ дэлгэцийн түгжээ сонго"</string>
+    <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Дэлгэцийн түгжээ сонгох"</string>
+    <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Шинэ дэлгэцийн түгжээ сонгох"</string>
     <string name="lock_settings_picker_new_profile_lock_title" msgid="2270462215256413800">"Ажлын аппуудад түгжээ сонгох"</string>
     <string name="lock_settings_picker_update_profile_lock_title" msgid="5929068163516308927">"Шинэ ажлын түгжээ сонго"</string>
     <string name="lock_settings_picker_biometrics_added_security_message" msgid="1105247657304421299">"Аюулгүй байдлыг сайжруулахын тулд дэлгэцийн нөөц түгжээг тохируулна уу"</string>
@@ -902,7 +902,7 @@
     <string name="lockpassword_pin_no_sequential_digits" msgid="5843639256988031272">"Тооны өсөх, буурах эсвэл давтагдах дарааллыг зөвшөөрдөггүй"</string>
     <string name="lockpassword_password_no_sequential_characters" msgid="2191567105898075606">"Тэмдэгтийн өсөх, буурах, давтагдах дарааллыг зөвшөөрдөггүй"</string>
     <string name="lockpassword_confirm_label" msgid="560897521093566777">"Баталгаажуулах"</string>
-    <string name="lockpassword_clear_label" msgid="311359833434539894">"Устгах"</string>
+    <string name="lockpassword_clear_label" msgid="311359833434539894">"Арилгах"</string>
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"Дэлгэцийн түгжээг аль хэдийн өөрчилсөн байна. Шинэ дэлгэцийн түгжээгээр оролдож үзнэ үү."</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"Цуцлах"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"Дараах"</string>
@@ -1070,7 +1070,7 @@
     <string name="wifi_settings_ssid_block_button_close" msgid="3013886895576949908">"Хаах"</string>
     <string name="wifi_settings_wep_networks_disconnect_title" msgid="2428960671702242156">"WEP сүлжээнүүдийг зөвшөөрөхөө болих уу?"</string>
     <string name="wifi_settings_wep_networks_disconnect_summary" msgid="6894496037087903635">"Та WEP сүлжээнд холбогдсон. Хэрэв та эдгээр сүлжээг зөвшөөрөхөө боливол таныг салгана."</string>
-    <string name="wifi_show_advanced" msgid="2969378109942071741">"Дэлгэрэнгүй сонголтууд"</string>
+    <string name="wifi_show_advanced" msgid="2969378109942071741">"Нарийвчилсан сонголтууд"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"Дэлгэрэнгүй сонголтын эвхмэл жагсаалт"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"дэлгэх"</string>
     <string name="wifi_ssid" msgid="5139273830867723030">"Сүлжээний нэр*"</string>
@@ -1078,7 +1078,7 @@
     <string name="wifi_security" msgid="9095934643631406913">"Аюулгүй байдал"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"Нуугдсан сүлжээ"</string>
     <string name="wifi_hidden_network_warning" msgid="3937433813754746158">"Хэрэв таны рүүтэр сүлжээний ID-г дамжуулахгүй байгаа хэдий ч цаашид үүнд холбогдох хүсэлтэй байвал сүлжээг нуусан гэж тохируулах боломжтой.\n\nТаны утас сүлжээ олохын тулд дохиогоо тогтмол дамжуулах тул энэ нь аюулгүй байдлын эрсдэл үүсгэж болзошгүй.\n\nСүлжээг нуусан гэж тохируулах нь таны рүүтэрийн тохиргоог өөрчлөхгүй."</string>
-    <string name="wifi_signal" msgid="4442182285304271424">"Сигналын хүч"</string>
+    <string name="wifi_signal" msgid="4442182285304271424">"Дохионы хүч"</string>
     <string name="wifi_status" msgid="5349199188871002778">"Статус"</string>
     <string name="tx_wifi_speed" msgid="2368986629172050673">"Дамжуулах холбоосны хурд"</string>
     <string name="rx_wifi_speed" msgid="5167966079215111232">"Хүлээн авах холбоосны хурд"</string>
@@ -1717,7 +1717,7 @@
     <string name="ethernet_network_usage" msgid="3795965384177426780">"Сүлжээний ашиглалт"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"Ethernet модем болгох"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"Дата холболтоороо дамжуулан бусад төхөөрөмжөө интернэтээр хангахад сүлжээний цэг, модем болгохыг ашиглана уу. Апп мөн ойролцоох төхөөрөмжтэй контент хуваалцахын тулд сүлжээний цэг үүсгэх боломжтой."</string>
-    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Wi-Fi эсвэл мобайл дата холболтоороо бусад төхөөрөмжид интернэт цацахын тулд сүлжээний цэг болон модем болгохыг ашиглана уу. Түүнчлэн, аппууд ойролцоох төхөөрөмжүүдтэй контент хуваалцахын тулд сүлжээний цэг үүсгэх боломжтой."</string>
+    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Wi-Fi эсвэл хөдөлгөөнт төхөөрөмжийн дата холболтоороо бусад төхөөрөмжид интернэт цацахын тулд сүлжээний цэг болон модем болгохыг ашиглана уу. Түүнчлэн, аппууд ойролцоох төхөөрөмжүүдтэй контент хуваалцахын тулд сүлжээний цэг үүсгэх боломжтой."</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"Тусламж"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"Хөдөлгөөнт холбооны сүлжээ"</string>
     <string name="sms_application_title" msgid="4791107002724108809">"SMS апп"</string>
@@ -3103,7 +3103,7 @@
     <string name="data_usage_tab_3g" msgid="6111070409752123049">"2G-3G"</string>
     <string name="data_usage_list_mobile" msgid="3738130489722964291">"Мобайл"</string>
     <string name="data_usage_list_none" msgid="2091924522549134855">"Байхгүй"</string>
-    <string name="data_usage_enable_mobile" msgid="1996943748103310201">"Мобайл дата"</string>
+    <string name="data_usage_enable_mobile" msgid="1996943748103310201">"Хөдөлгөөнт төхөөрөмжийн дата"</string>
     <string name="data_usage_enable_3g" msgid="2818189799905446932">"2G-3G дата"</string>
     <string name="data_usage_enable_4g" msgid="1526584080251993023">"4G дата"</string>
     <string name="data_roaming_enable_mobile" msgid="5745287603577995977">"Роуминг"</string>
@@ -3247,7 +3247,7 @@
     <string name="user_profile_confirm_remove_title" msgid="3131574314149375354">"Энэ профайлыг устгах уу?"</string>
     <string name="work_profile_confirm_remove_title" msgid="6229618888167176036">"Ажлын профайлыг хасах уу?"</string>
     <string name="user_confirm_remove_message" msgid="362545924965977597">"Бүх апп болон дата устах болно."</string>
-    <string name="work_profile_confirm_remove_message" msgid="1037294114103024478">"Хэрэв та үргэлжлүүлбэл энэ профайлын бүх апп болон дата устгагдах болно."</string>
+    <string name="work_profile_confirm_remove_message" msgid="1037294114103024478">"Хэрэв та үргэлжлүүлбэл энэ профайлын бүх апп, өгөгдөл устах болно."</string>
     <string name="user_profile_confirm_remove_message" msgid="3641289528179850718">"Бүх апп болон өгөгдөл устах болно."</string>
     <string name="user_adding_new_user" msgid="7439602720177181412">"Шинэ хэрэглэгч нэмж байна…"</string>
     <string name="user_delete_user_description" msgid="7764153465503821011">"Хэрэглэгчийг устгах"</string>
@@ -3344,7 +3344,7 @@
     <string name="preferred_network_type_title" msgid="812509938714590857">"Сүлжээний үндсэн төрөл"</string>
     <string name="preferred_network_type_summary" msgid="8786291927331323061">"LTE (зөвлөмж болгосон)"</string>
     <string name="mms_message_title" msgid="6624505196063391964">"Мультимедиа мессеж"</string>
-    <string name="mms_message_summary" msgid="2855847140141698341">"Мобайл дата унтраалттай үед илгээх болон хүлээн авах"</string>
+    <string name="mms_message_summary" msgid="2855847140141698341">"Хөдөлгөөнт төхөөрөмжийн дата унтраалттай үед илгээх болон хүлээн авах"</string>
     <string name="auto_data_switch_title" msgid="5862200603753603464">"Мобайл дата автоматаар сэлгэх"</string>
     <string name="auto_data_switch_summary" msgid="1934340931995429057">"Энэ сүлжээг илүү сайн сүлжээтэй үед ашиглах"</string>
     <string name="work_sim_title" msgid="8999872928646924429">"Ажлын SIM"</string>
@@ -4803,7 +4803,7 @@
     <string name="storage_images" msgid="2055893015567979387">"Зураг"</string>
     <string name="storage_videos" msgid="6117698226447251033">"Видео"</string>
     <string name="storage_audio" msgid="5994664984472140386">"Аудио"</string>
-    <string name="storage_documents" msgid="7873134307844320096">"Документууд"</string>
+    <string name="storage_documents" msgid="7873134307844320096">"Баримт бичиг"</string>
     <string name="storage_other" msgid="7922190148479988838">"Бусад"</string>
     <string name="storage_apps" msgid="3564291603258795216">"Аппууд"</string>
     <string name="storage_system" msgid="8472410119822911844">"Систем"</string>
@@ -4996,7 +4996,7 @@
     <string name="select_automatically" msgid="2419752566747259155">"Сүлжээг автоматаар сонгох"</string>
     <string name="carrier_settings_title" msgid="6959295328730560529">"Оператор компанийн тохиргоо"</string>
     <string name="cdma_lte_data_service" msgid="6937443423651347345">"Дата үйлчилгээг тохируулах"</string>
-    <string name="mobile_data_settings_title" msgid="3927524078598009792">"Мобайл дата"</string>
+    <string name="mobile_data_settings_title" msgid="3927524078598009792">"Хөдөлгөөнт төхөөрөмжийн дата"</string>
     <string name="mobile_data_settings_summary" msgid="7323978798199919063">"Хөдөлгөөнт холбооны сүлжээг ашиглан датад холбогдох"</string>
     <string name="mobile_data_settings_summary_auto_switch" msgid="7851549787645698945">"Утас энэ оператор компанийг хүрээнд байх үед автоматаар сэлгэнэ"</string>
     <string name="mobile_data_settings_summary_unavailable" msgid="9176513507571883986">"Боломжтой SIM алга"</string>
@@ -5129,8 +5129,8 @@
     <string name="sim_onboarding_primary_sim_title" msgid="2793090401371135675">"Үндсэн SIM-үүдээ тохируулах"</string>
     <string name="sim_onboarding_primary_sim_msg" msgid="5484656671490558032">"Дуудлага, мессеж болон датад аль SIM-үүдийг өгөгдмөлөөр ашиглахыг сонгоно уу"</string>
     <string name="primary_sim_title" msgid="2508161011657571566">"Таны үндсэн SIM-үүд"</string>
-    <string name="primary_sim_calls_title" msgid="4961189133582615685">"Дуудлагууд"</string>
-    <string name="primary_sim_texts_title" msgid="1287584042733097749">"Мессежүүд"</string>
+    <string name="primary_sim_calls_title" msgid="4961189133582615685">"Дуудлага"</string>
+    <string name="primary_sim_texts_title" msgid="1287584042733097749">"Мессеж"</string>
     <string name="primary_sim_automatic_data_title" msgid="1265528923229642480">"Автоматаар дата сэлгэх"</string>
     <string name="primary_sim_automatic_data_msg" msgid="1612203837010785203">"Хамрах хүрээ болон боломжтой байдлаас хамааран аль нэг SIM-н датаг ашиглана уу"</string>
     <string name="sim_action_restart_dialog_title" msgid="3507413479633430120">"2 SIM-г ашиглахын тулд дахин эхлүүлнэ үү"</string>
@@ -5376,7 +5376,7 @@
     <string name="mobile_data_temp_connection_active" msgid="3430470299756236413">"Түр зуур холбогдсон"</string>
     <string name="mobile_data_temp_using" msgid="5211002380149434155">"<xliff:g id="SUBNAME">%1$s</xliff:g>-г түр зуур ашиглаж байна"</string>
     <string name="mobile_data_no_connection" msgid="905897142426974030">"Холболт алга"</string>
-    <string name="mobile_data_off_summary" msgid="1884248776904165539">"Мобайл дата автоматаар холбогдохгүй"</string>
+    <string name="mobile_data_off_summary" msgid="1884248776904165539">"Хөдөлгөөнт төхөөрөмжийн дата автоматаар холбогдохгүй"</string>
     <string name="mobile_data_disable_title" msgid="8438714772256088913">"Хөдөлгөөнт төхөөрөмжийн датаг унтраах уу?"</string>
     <string name="mobile_data_disable_message" msgid="7829414836454769970">"Та <xliff:g id="CARRIER">%s</xliff:g>-р дата эсвэл интернэтэд хандах боломжгүй болно. Интернэт нь зөвхөн Wi-Fi-р боломжтой байх болно."</string>
     <string name="mobile_data_disable_message_default_carrier" msgid="4449469407705838612">"таны оператор компани"</string>
@@ -5452,7 +5452,7 @@
     <string name="thread_network_settings_learn_more" msgid="8278498005848565050">"Дэд процессын талаар нэмэлт мэдээлэл авах"</string>
     <string name="camera_toggle_title" msgid="8952668677727244992">"Камерын хандалт"</string>
     <string name="mic_toggle_title" msgid="265145278323852547">"Микрофоны хандалт"</string>
-    <string name="perm_toggle_description" msgid="5754629581767319022">"Апп болон үйлчилгээнд"</string>
+    <string name="perm_toggle_description" msgid="5754629581767319022">"Апп, үйлчилгээнд"</string>
     <string name="mic_toggle_description" msgid="484139688645092237">"Апп болон үйлчилгээнд. Энэ тохиргоо унтраалттай тохиолдолд та яаралтай тусламжийн утасны дугаар луу залгах үедээ микрофоны өгөгдлийг хуваалцсан хэвээр байж болзошгүй."</string>
     <string name="previous_page_content_description" msgid="6438292457923282991">"Өмнөх"</string>
     <string name="next_page_content_description" msgid="1641835099813416294">"Дараах"</string>

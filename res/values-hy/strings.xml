@@ -69,7 +69,7 @@
     <string name="bluetooth_rename_device" msgid="4219655243836021443">"Վերանվանել այս սարքը"</string>
     <string name="bluetooth_rename_button" msgid="9162500408570289545">"Վերանվանել"</string>
     <string name="bluetooth_disconnect_title" msgid="4581951246357823044">"Անջատե՞լ սարքը:"</string>
-    <string name="bluetooth_pairing_pref_title" msgid="3497193027590444598">"Նոր սարքի զուգակցում"</string>
+    <string name="bluetooth_pairing_pref_title" msgid="3497193027590444598">"Զուգակցել նոր սարք"</string>
     <string name="keywords_add_bt_device" msgid="4533191164203174011">"bluetooth"</string>
     <string name="bluetooth_screen_auto_on_title" msgid="2203993262483477532">"Ավտոմատ միացնել վաղը"</string>
     <string name="bluetooth_screen_auto_on_summary" msgid="1490150818921417875">"Եթե անջատեք Bluetooth-ը, հաջորդ օրը այն նորից կմիանա"</string>
@@ -216,7 +216,7 @@
     <string name="desc_no_available_supported_locale" msgid="7883271726226947273">"Լեզվի ընտրությունն այս հավելվածի համար հասանելի չէ Կարգավորումներում։"</string>
     <string name="desc_app_locale_disclaimer" msgid="5295933110644789052">"Լեզուն կարող է հավելվածում հասանելի լեզուների ցանկում չլինել։ Որոշ հավելվածներ կարող են չաջակցել այս կարգավորումը։"</string>
     <string name="desc_app_locale_selection_supported" msgid="6744909281573556379">"Լեզու ընտրեք յուրաքանչյուր հավելվածի համար։"</string>
-    <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"Ձեր սարքը, հավելվածները և կայքերն օգտագործում են ձեր ընտրած լեզուների ցանկից առաջին աջակցվող լեզուն։\n\nՇատ հավելվածներ նաև կօգտագործեն ձեր ընտրած լեզվի տարածաշրջանը՝ ամսաթվերի և թվերի համապատասխան ձևաչափն ու չափման միավորներն ընտրելու համար։ Ձեր տարածաշրջանը փոխելու համար ավելացրեք լեզու, ապա ընտրեք ձեր նախընտրած տարածաշրջանը։"</string>
+    <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"Ձեր սարքը, հավելվածները և կայքերն օգտագործում են ընտրված լեզուների ցանկից առաջին աջակցվող լեզուն։\n\nՇատ հավելվածներ նաև կօգտագործեն ձեր ընտրած լեզվի տարածաշրջանը՝ ամսաթվերի և թվերի համապատասխան ձևաչափն ու չափման միավորներն ընտրելու համար։ Ձեր տարածաշրջանը փոխելու համար ավելացրեք լեզու, ապա ընտրեք տարածաշրջանը։"</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"Անցեք հավելվածի լեզուների կարգավորումներ՝ ընտրելու լեզու յուրաքանչյուր հավելվածի համար։"</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"Իմանալ ավելին հավելվածների լեզուների մասին"</string>
     <string name="title_change_system_region" msgid="9196602029960380112">"Դարձնե՞լ տարածաշրջանը %s"</string>
@@ -706,7 +706,7 @@
     <string name="private_space_cancel_label" msgid="379259667396956886">"Չեղարկել"</string>
     <string name="private_space_setup_button_label" msgid="2094882154623560585">"Կարգավորել"</string>
     <string name="private_space_setup_title" msgid="2272968244329821450">"Մասնավոր տարածք"</string>
-    <string name="private_space_hide_apps_summary" msgid="4418722947376042418">"Թաքցրեք կամ կողպեք անձնական հավելվածները առանձին տարածքում։ Անվտանգության նկատառումներից ելնելով՝ օգտագործեք առանձին Google հաշիվ։"</string>
+    <string name="private_space_hide_apps_summary" msgid="4418722947376042418">"Թաքցրեք կամ կողպեք մասնավոր հավելվածները առանձին տարածքում։ Անվտանգության նկատառումներից ելնելով՝ օգտագործեք առանձին Google հաշիվ։"</string>
     <string name="private_space_setup_sub_header" msgid="550476876393954356">"Ինչպես է դա աշխատում"</string>
     <string name="private_space_separate_account_text" msgid="790319706810190320"><b>"Ստեղծեք Google հաշիվ ձեր տարածքի համար"</b>\n"Եթե առանձին հաշիվ եք օգտագործում, դա կօգնի կանխել համաժամացված ֆայլերի, լուսանկարների և էլ. նամակների հայտնվելը ձեր տարածքից դուրս"</string>
     <string name="private_space_protected_lock_text" msgid="9123250938334372735"><b>"Կարգավորեք կողպում"</b>\n"Կողպեք ձեր տարածքը, որպեսզի մյուսները չկարողանան բացել այն"</string>
@@ -3639,7 +3639,7 @@
     <string name="mode_wallpaper_summary" msgid="665480011615603784">"Ֆիլտրել պաստառի պայծառությունը"</string>
     <string name="mode_dark_theme_title" msgid="8099007897943513209">"Միացնել մուգ թեման"</string>
     <string name="mode_dark_theme_title_secondary_list" msgid="4761262694149772845">"միացնել մուգ թեման"</string>
-    <string name="mode_dark_theme_summary" msgid="2808149708986602464">"Փոխանջատել սարքի թեման՝ օգտագործելու մուգ ֆոն, որն ավելի հաճելի է աչքերի համար"</string>
+    <string name="mode_dark_theme_summary" msgid="2808149708986602464">"Փոխել սարքի թեման՝ օգտագործելու մուգ ֆոն, որն ավելի հաճելի է աչքերի համար"</string>
     <string name="mode_display_settings_summary" msgid="5929234706883482380">"{count,plural,offset:2 =0{Առանց փոփոխությունների}=1{{effect_1}}=2{{effect_1} և {effect_2}}=3{{effect_1}, {effect_2} և {effect_3}}one{{effect_1}, {effect_2} ու ևս #-ը}other{{effect_1}, {effect_2} ու ևս #-ը}}"</string>
     <string name="zen_mode_allow_all_notifications" msgid="7300894425550960390">"Թույլատրել բոլոր ծանուցումները"</string>
     <string name="zen_mode_all_notifications_allowed" msgid="7612213309293552413">"Մարդիկ, հավելվածներն ու ձայները կարող են ընդհատել"</string>
@@ -4682,7 +4682,7 @@
     <string name="keywords_one_handed" msgid="969440592493034101">"մատչելիություն"</string>
     <string name="one_handed_mode_swipe_down_category" msgid="110178629274462484">"Սահեցնել ներքև"</string>
     <string name="one_handed_mode_use_shortcut_category" msgid="1414714099339147711">"Դյուրանցումն օգտագործել հետևյալ գործողությունների համար"</string>
-    <string name="one_handed_mode_intro_text" msgid="7921988617828924342">"Ցած քաշեք էկրանի վերևի կեսը, որպեսզի այն ավելի հեշտ լինի մեկ ձեռքով կառավարել։"</string>
+    <string name="one_handed_mode_intro_text" msgid="7921988617828924342">"Ներքև քաշեք էկրանի վերևի կեսը, որպեսզի այն ավելի հեշտ լինի մեկ ձեռքով կառավարել։"</string>
     <string name="one_handed_mode_footer_text" msgid="6336209800330679840">" "<b>"Ինչպես օգտվել մեկ ձեռքի ռեժիմից"</b>\n" • Համոզվեք, որ համակարգի նավիգացիայի կարգավորումներում ընտրված է ժեստերով նավիգացիան։\n • Էկրանի ներքևի եզրից մատը սահեցրեք ներքև։"</string>
     <string name="one_handed_action_pull_down_screen_title" msgid="9187194533815438150">"Էկրանը բերել հասանելիության գոտի"</string>
     <string name="one_handed_action_pull_down_screen_summary" msgid="7582432473450036628">"Էկրանի վերևի հատվածը կտեղափոխվի ձեր բութ մատի հասանելիության գոտի։"</string>
