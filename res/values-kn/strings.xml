@@ -610,6 +610,8 @@
     <string name="lock_screen_pattern_skip_face_title" msgid="145100333454316334">"ಪ್ಯಾಟರ್ನ್ ಮತ್ತು ಫೇಸ್‌ಗಾಗಿ ಸೆಟಪ್ ಸ್ಕಿಪ್ ಮಾಡಬೇಕೆ?"</string>
     <string name="lock_screen_pattern_skip_fingerprint_title" msgid="2513110208722100495">"ಪ್ಯಾಟರ್ನ್, ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಸೆಟಪ್ ಸ್ಕಿಪ್ ಮಾಡಬೇಕೆ?"</string>
     <string name="lock_screen_pattern_skip_biometrics_title" msgid="2434258106825380187">"ಪ್ಯಾಟರ್ನ್, ಫೇಸ್ ಮತ್ತು ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್‌ಗಾಗಿ ಸೆಟಪ್ ಅನ್ನು ಸ್ಕಿಪ್ ಮಾಡಬೇಕೆ?"</string>
+    <string name="resume_animation" msgid="5259729861893297887">"ಆ್ಯನಿಮೇಶನ್ ಅನ್ನು ಪುನರಾರಂಭಿಸಿ"</string>
+    <string name="pause_animation" msgid="2209064682137909056">"ಆ್ಯನಿಮೇಶನ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಿ"</string>
     <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="3538784524778508018">"ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಸೆಟಪ್ ಮಾಡಿ"</string>
     <string name="security_settings_fingerprint_enroll_done" msgid="9198775984215057337">"ಮುಗಿದಿದೆ"</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="5742429501012827526">"ಓಹ್, ಅದು ಸೆನ್ಸರ್ ಅಲ್ಲ"</string>
@@ -943,8 +945,7 @@
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"ರದ್ದುಮಾಡಿ"</string>
     <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"ಸಾಧನದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"ಮುಚ್ಚಿರಿ"</string>
-    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
-    <skip />
+    <string name="bluetooth_key_missing_toast" msgid="8692796546000643569">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ಕನೆಕ್ಟ್ ಆಗಲು ವಿಫಲವಾಗಿದೆ"</string>
     <string name="device_details_title" msgid="1155622417516195481">"ಸಾಧನದ ವಿವರಗಳು"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"ಕೀಬೋರ್ಡ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"ಇನ್ನಷ್ಟು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
@@ -1382,8 +1383,7 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"ನೈಟ್ ಲೈಟ್ ಸದ್ಯ ಆನ್ ಆಗಿಲ್ಲ"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"ನಿಮ್ಮ ಸೂರ್ಯಾಸ್ತ ಮತ್ತು ಸೂರ್ಯೋದಯದ ಸಮಯಗಳನ್ನು ಪತ್ತೆಹಚ್ಚುವುದಕ್ಕಾಗಿ ಸಾಧನ ಸ್ಥಳದ ಅಗತ್ಯವಿದೆ."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"ಸ್ಥಳ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
-    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
-    <skip />
+    <string name="twilight_mode_pending_location" msgid="6829434234071614405">"ಸ್ಥಳ ಸೇವೆಗಳು ಸಕ್ರಿಯವಾಗಿವೆ. ಸ್ಥಳವನ್ನು ನಿರ್ಧರಿಸಿದ ನಂತರ ವೇಳಾಪಟ್ಟಿ ಸಕ್ರಿಯಗೊಳ್ಳುತ್ತದೆ."</string>
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"ಈಗ ಆನ್ ಮಾಡಿ"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"ಈಗ ಆಫ್ ಮಾಡಿ"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"ಸೂರ್ಯೋದಯದ ತನಕ ಆನ್ ಮಾಡಿ"</string>
@@ -2121,8 +2121,7 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"ಕೆಳಗಿನ-ಬಲಭಾಗದ ಕ್ಲಿಕ್"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗೆ ಟಚ್‌ಪ್ಯಾಡ್‌ನ ಕೆಳ ಬಲ ಮೂಲೆಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"ಕರ್ಸರ್ ವೇಗ"</string>
-    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
-    <skip />
+    <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"ಮೂರು-ಬೆರಳಿನ ಟ್ಯಾಪ್‌ ಅನ್ನು ಬಳಸಿ"</string>
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"ಟಚ್‌ಪ್ಯಾಡ್ ವೇಗವರ್ಧನೆ"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"ನಿಮ್ಮ ಟಚ್‌ಪ್ಯಾಡ್‌ನಲ್ಲಿ ವೇಗವಾದ ಮೂವ್‌ಗಳು ಕರ್ಸರ್ ಅನ್ನು ದೂರಕ್ಕೆ ಮೂವ್ ಮಾಡುತ್ತವೆ"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"ಪಾಯಿಂಟರ್‌ನ ಬಣ್ಣ"</string>
@@ -2139,8 +2138,7 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"ಟಚ್‌ಪ್ಯಾಡ್ ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಕಲಿಯಿರಿ"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ಟ್ರ್ಯಾಕ್‌ಪ್ಯಾಡ್, ಟ್ರ್ಯಾಕ್ ಪ್ಯಾಡ್, ಮೌಸ್, ಕರ್ಸರ್, ಸ್ಕ್ರಾಲ್, ಸ್ವೈಪ್, ಬಲ-ಕ್ಲಿಕ್, ಕ್ಲಿಕ್, ಪಾಯಿಂಟರ್"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"ಬಲ ಕ್ಲಿಕ್, ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
-    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
-    <skip />
+    <string name="three_finger_tap_middle_click" msgid="7898931632908866867">"ಮಧ್ಯದ ಮೌಸ್ ಬಟನ್"</string>
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Assistant ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"ಮುಖಪುಟಕ್ಕೆ ಹೋಗಿ"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"ಹಿಂದಿರುಗಿ"</string>
@@ -2562,6 +2560,8 @@
     <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"LE ಆಡಿಯೋ ಬೆಂಬಲಿಸದ ಇತರ ಶ್ರವಣ ಸಾಧನಗಳನ್ನು ಹುಡುಕಲು, "<b>"ಹೊಸ ಸಾಧನವನ್ನು ಪೇರ್ ಮಾಡಿ"</b>", "<b>"ಇನ್ನಷ್ಟು ಸಾಧನಗಳನ್ನು ನೋಡಿ"</b>" ಎಂಬುದನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"ಶ್ರವಣ ಸಾಧನವನ್ನು ಪೇರ್ ಮಾಡಿ"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"ನೀವು ಈ ಪುಟದಲ್ಲಿ ASHA ಮತ್ತು LE ಆಡಿಯೋ ಶ್ರವಣ ಸಾಧನಗಳನ್ನು ಪೇರ್ ಮಾಡಬಹುದು. ನಿಮ್ಮ ಶ್ರವಣ ಸಾಧನವನ್ನು ಆನ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಅದು ಪೇರ್ ಮಾಡಲು ಸಿದ್ಧವಾಗಿದೆ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."</string>
+    <string name="accessibility_hearing_device_pairing_asha_only_intro" msgid="5679230908462987522">"ನೀವು ಈ ಪುಟದಲ್ಲಿ ASHA ಶ್ರವಣ ಸಾಧನಗಳನ್ನು ಪೇರ್ ಮಾಡಬಹುದು. ನಿಮ್ಮ ಹಿಯರಿಂಗ್ ಸಾಧನವನ್ನು ಆನ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಪೇರ್ ಮಾಡಲು ಸಿದ್ಧವಾಗಿದೆ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."</string>
+    <string name="accessibility_hearing_device_pairing_hap_only_intro" msgid="2233661046254311681">"ನೀವು ಈ ಪುಟದಲ್ಲಿ LE ಆಡಿಯೋ ಹಿಯರಿಂಗ್ ಸಾಧನಗಳನ್ನು ಪೇರ್ ಮಾಡಬಹುದು. ನಿಮ್ಮ ಹಿಯರಿಂಗ್ ಸಾಧನವನ್ನು ಆನ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಅದು ಪೇರ್ ಮಾಡಲು ಸಿದ್ಧವಾಗಿದೆ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"ಲಭ್ಯವಿರುವ ಶ್ರವಣ ಸಾಧನಗಳು"</string>
     <string name="accessibility_found_all_devices" msgid="7817834722148556520">"ನಿಮ್ಮ ಶ್ರವಣ ಸಾಧನ ಕಾಣಿಸುತ್ತಿಲ್ಲವೇ?"</string>
     <string name="accessibility_list_all_devices_title" msgid="161495343959211216">"ಹೆಚ್ಚಿನ ಸಾಧನಗಳನ್ನು ನೋಡಿ"</string>
@@ -5061,24 +5061,15 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"ಸ್ಯಾಟಲೈಟ್‌ಗೆ ಕನೆಕ್ಟ್ ಮಾಡಲು ಹಂತಗಳನ್ನು ಅನುಸರಿಸಿ"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"ತುರ್ತು ಸೇವೆಗಳಿಗೂ ಸಹಿತ, ನೀವು ಯಾರಿಗಾದರೂ ಸಂದೇಶ ಕಳುಹಿಸಬಹುದು. ಲಭ್ಯವಿರುವಾಗ ನಿಮ್ಮ ಫೋನ್ ಮೊಬೈಲ್ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ರೀಕನೆಕ್ಟ್ ಆಗುತ್ತದೆ."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"ನಿಮ್ಮ ಫೋನ್ ಕನೆಕ್ಟ್ ಆದ ನಂತರ, ತುರ್ತು ಸೇವೆಗಳು ಸೇರಿದಂತೆ ಯಾರಿಗಾದರೂ ನೀವು ಸಂದೇಶ ಕಳುಹಿಸಬಹುದು."</string>
-    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
-    <skip />
-    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
-    <skip />
+    <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"ನೆನಪಿನಲ್ಲಿಡಿ"</string>
+    <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"ಸ್ಯಾಟಲೈಟ್ ಕನೆಕ್ಟಿವಿಟಿಯು ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು ಮತ್ತು ಇದು ಕೆಲವು ಪ್ರದೇಶಗಳಲ್ಲಿ ಮಾತ್ರ ಲಭ್ಯವಿರುತ್ತದೆ."</string>
+    <string name="satellite_footer_content_section_2" msgid="7699185178461362541">"ಹವಾಮಾನ ಮತ್ತು ಕೆಲವೊಂದು ರಚನೆಗಳು ನಿಮ್ಮ ಸ್ಯಾಟಲೈಟ್ ಕನೆಕ್ಷನ್ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು."</string>
+    <string name="satellite_footer_content_section_3" msgid="4652426135622555607">"ಸ್ಯಾಟಲೈಟ್ ಮೂಲಕ ಕರೆ ಮಾಡುವ ಸೌಲಭ್ಯ ಲಭ್ಯವಿಲ್ಲ."</string>
+    <string name="satellite_footer_content_section_4" msgid="2294227482962815751">"ತುರ್ತು ಕರೆಗಳು ಈಗಲೂ ಕನೆಕ್ಟ್ ಆಗಬಹುದು."</string>
+    <string name="satellite_footer_content_section_5" msgid="3053256489735265540">"ಬಾಹ್ಯ ಲಿಂಕ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಮೊಬೈಲ್ ಅಥವಾ ವೈ-ಫೈ ನೆಟ್‌ವರ್ಕ್ ಅಗತ್ಯವಿದೆ."</string>
+    <string name="satellite_footer_content_section_6" msgid="1448633393918612418">"ತುರ್ತು ಸೇವೆಗಳ ಮೂಲಕ ಪಠ್ಯ ಸಂದೇಶ ಕಳುಹಿಸುವಿಕೆಯು ಎಲ್ಲಾ ಪ್ರದೇಶಗಳಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲದಿರಬಹುದು."</string>
+    <string name="satellite_footer_content_section_7" msgid="5524773673918954918">"ಖಾತೆ ಬದಲಾವಣೆಗಳು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಲು ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ವಿವರಗಳಿಗಾಗಿ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ಸಂಪರ್ಕಿಸಿ."</string>
+    <string name="more_about_satellite_connectivity" msgid="9110502891919936054">"ಸ್ಯಾಟಲೈಟ್ ಕನೆಕ್ಟಿವಿಟಿ ಕುರಿತು ಇನ್ನಷ್ಟು"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> ಅನ್ನು ಆನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> ಅನ್ನು ಆನ್ ಮಾಡಲು, ಮೊದಲು ಸ್ಯಾಟಲೈಟ್ ಕನೆಕ್ಷನ್ ಅನ್ನು ಕೊನೆಗೊಳಿಸಿ"</string>
     <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"ಸ್ಯಾಟಲೈಟ್"</string>
@@ -5089,6 +5080,8 @@
     <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಬೆಂಬಲಿಸುವ ಆ್ಯಪ್‌ಗಳು"</string>
     <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"ಎಲ್ಲಾ ಆ್ಯಪ್‌ಗಳನ್ನು ನೋಡಿ"</string>
     <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಬೆಂಬಲಿಸುವ ಆ್ಯಪ್‌ಗಳು"</string>
+    <string name="title_satellite_dialog_for_sim_restriction" msgid="454718192423216397">"SIM ಅನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"</string>
+    <string name="description_satellite_dialog_for_sim_restriction" msgid="5465487347427595435">"ನೀವು SIM ಸೇರಿಸುವ ಮೊದಲು ಸೆಟಲೈಟ್ ಕನೆಕ್ಷನ್ ಅನ್ನು ಕೊನೆಗೊಳಿಸಿ"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"ಆ್ಯಕ್ಸೆಸ್ ಪಾಯಿಂಟ್ ಹೆಸರುಗಳು"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g> ಗೆ ಸಂಪರ್ಕಿಸಿದಾಗ ಲಭ್ಯವಿರುವುದಿಲ್ಲ"</string>
@@ -5172,8 +5165,7 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"ಮೊಬೈಲ್ ಡೇಟಾ, ಕರೆಯ ವೈಶಿಷ್ಟ್ಯಗಳು ಮತ್ತು SMS ಅನ್ನು ಆನಂತರ ಬಳಸಲು, ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"ಈ eSIM ಅನ್ನು ಅಳಿಸಬೇಕೆ?"</string>
-    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
-    <skip />
+    <string name="erase_sim_dialog_text" msgid="3982216582200709197">"ಈ eSIM ಅನ್ನು ಅಳಿಸುವುದರಿಂದ, ಅದು ಈ ಸಾಧನದಿಂದ <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> ಸೇವೆಯನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ. <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> ಸೇವೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ. ಹೊಸ eSIM ಅನ್ನು ವಿನಂತಿಸಲು, ನೀವು ನಿಮ್ಮ ವಾಹಕವನ್ನು ಸಂಪರ್ಕಿಸಬೇಕಾಗುತ್ತದೆ."</string>
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"ಅಳಿಸಿ"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"eSIM ಅನ್ನು ಅಳಿಸಲಾಗುತ್ತಿದೆ…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"eSIM ಅನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ"</string>
@@ -5765,16 +5757,11 @@
     <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"ಅಶ್ಲೀಲ ಸೈಟ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲು ಪ್ರಯತ್ನಿಸಿ"</string>
     <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"ಯಾವುದೇ ಫಿಲ್ಟರ್ ಪರಿಪೂರ್ಣವಲ್ಲ, ಆದರೆ ಇದು ಲೈಂಗಿಕ ಅಶ್ಲೀಲತೆಯ ಕಂಟೆಂಟ್ ಇರುವ ಸೈಟ್‌ಗಳನ್ನು ಮರೆಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ"</string>
     <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"ಎಲ್ಲಾ ಸೈಟ್‌ಗಳನ್ನು ಅನುಮತಿಸಿ"</string>
-    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
-    <skip />
+    <string name="supervision_web_content_filters_search_title" msgid="726335318009305564">"Google Search"</string>
+    <string name="supervision_web_content_filters_search_filter_on_title" msgid="4855846261141136285">"ಸುರಕ್ಷಿತ ಹುಡುಕಾಟದ ಫಿಲ್ಟರಿಂಗ್ ಆನ್ ಆಗಿದೆ"</string>
+    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="1162258144140293269">"ಈ ಸಾಧನದಲ್ಲಿನ ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳಿಂದ ಅಶ್ಲೀಲ ಚಿತ್ರಗಳು, ಪಠ್ಯ ಮತ್ತು ಲಿಂಕ್‌ಗಳನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ"</string>
+    <string name="supervision_web_content_filters_search_filter_off_title" msgid="6049461395304222346">"ಸುರಕ್ಷಿತ ಹುಡುಕಾಟದ ಫಿಲ್ಟರಿಂಗ್ ಆಫ್ ಆಗಿದೆ"</string>
+    <string name="supervision_web_content_filters_search_filter_off_summary" msgid="3834238970190924433">"ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಈಗಲೂ ಅಶ್ಲೀಲ ಫಲಿತಾಂಶಗಳನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಬಹುದು ಅಥವಾ ಬ್ಲರ್ ಮಾಡಬಹುದು"</string>
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"ಮೇಲ್ವಿಚಾರಣೆಯ ಪಿನ್ ನಮೂದಿಸಿ"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g> ಆ್ಯನಿಮೇಶನ್"</string>
 </resources>

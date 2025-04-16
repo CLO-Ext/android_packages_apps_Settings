@@ -610,6 +610,8 @@
     <string name="lock_screen_pattern_skip_face_title" msgid="145100333454316334">"पॅटर्न आणि फेस सेट करणे वगळायचे आहे का?"</string>
     <string name="lock_screen_pattern_skip_fingerprint_title" msgid="2513110208722100495">"पॅटर्न आणि फिंगरप्रिंट सेट करणे वगळायचे आहे का?"</string>
     <string name="lock_screen_pattern_skip_biometrics_title" msgid="2434258106825380187">"पॅटर्न, फेस व फिंगरप्रिंट सेट करणे वगळायचे?"</string>
+    <string name="resume_animation" msgid="5259729861893297887">"अ‍ॅनिमेशन पुन्‍हा सुरू करा"</string>
+    <string name="pause_animation" msgid="2209064682137909056">"अ‍ॅनिमेशन थांबवा"</string>
     <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="3538784524778508018">"स्क्रीन लॉक सेट करा"</string>
     <string name="security_settings_fingerprint_enroll_done" msgid="9198775984215057337">"पूर्ण झाले"</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="5742429501012827526">"अरेरे, तो सेन्सर नाही"</string>
@@ -943,8 +945,7 @@
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"रद्द करा"</string>
     <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"डिव्हाइस सेटिंग्ज"</string>
     <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"बंद करा"</string>
-    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
-    <skip />
+    <string name="bluetooth_key_missing_toast" msgid="8692796546000643569">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> कनेक्‍ट करता आले नाही"</string>
     <string name="device_details_title" msgid="1155622417516195481">"डिव्हाइस तपशील"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"कीबोर्ड सेटिंग्ज"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"आणखी सेटिंग्ज"</string>
@@ -1382,8 +1383,7 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"रात्रीचा प्रकाश सध्या बंद आहे"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"तुमच्या सूर्यास्त आणि सूर्योदयाच्या वेळा निर्धारित करण्यासाठी डिव्हाइसचे स्थान आवश्यक आहे."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"स्थान सेटिंग्ज"</string>
-    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
-    <skip />
+    <string name="twilight_mode_pending_location" msgid="6829434234071614405">"स्थान सेवा अ‍ॅक्टिव्ह आहेत. स्थान निर्धारित झाल्यानंतर शेड्युल अ‍ॅक्टिव्हेट होईल."</string>
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"आता सुरू करा"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"आता बंद करा"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"सूर्योदयापर्यंत सुरू करा"</string>
@@ -2121,8 +2121,7 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"तळाशी उजवीकडे क्लिक करा"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"अधिक पर्यायांसाठी टचपॅडच्या तळाशी उजव्या कोपऱ्यावर क्लिक करा"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"कर्सरचा वेग"</string>
-    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
-    <skip />
+    <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"तीन बोट वापरून टॅप करा"</string>
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"टचपॅड अ‍ॅक्सिलरेशन"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"तुमच्या टचपॅडवरील अधिक जलद हालचालींमुळे कर्सर आणखी दूर जाईल"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"पॉइंटरचा रंग"</string>
@@ -2139,8 +2138,7 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"टचपॅड जेश्चर जाणून घ्या"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ट्रॅकपॅड, ट्रॅक पॅड, माउस, कर्सर, स्क्रोल करा, स्‍वाइप करा, राइट-क्लिक करा, क्लिक करा, पॉइंटर"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"राइट-क्लिक करा, टॅप करा"</string>
-    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
-    <skip />
+    <string name="three_finger_tap_middle_click" msgid="7898931632908866867">"मधले माउस बटण"</string>
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Assistant लाँच करा"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"होमवर जा"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"मागे जा"</string>
@@ -2442,7 +2440,7 @@
     <string name="accessibility_power_button_ends_call_prerefence_title" msgid="8187306131979612144">"पॉवर बटण कॉल समाप्त करते"</string>
     <string name="accessibility_force_invert_title" msgid="5248504501753732051">"आणखी अ‍ॅप्सना गडद थीम लागू करा"</string>
     <string name="accessibility_force_invert_summary" msgid="257503086198180749">"आणखी अ‍ॅप्सवर गडद थीमचा विस्तार करते. कदाचित सर्व अ‍ॅप्ससह काम करणार नाही."</string>
-    <string name="accessibility_disable_animations" msgid="2993529829457179058">"अ‍ॅनिमेशन काढा"</string>
+    <string name="accessibility_disable_animations" msgid="2993529829457179058">"अ‍ॅनिमेशन काढून टाका"</string>
     <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"स्क्रीनवरील हालचाल कमी करा"</string>
     <string name="accessibility_toggle_primary_mono_title" msgid="7587152099472946571">"मोनो ऑडिओ"</string>
     <string name="accessibility_toggle_primary_mono_summary" msgid="1935283927319407303">"ऑडिओ प्ले करताना चॅनल एकत्र करा"</string>
@@ -2562,6 +2560,8 @@
     <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"LE ऑडिओ द्वारे सपोर्ट नसलेली श्रवणयंत्रे शोधण्यासाठी, "<b>"नवीन डिव्हाइस पेअर करा"</b>" नंतर "<b>"आणखी डिव्हाइस पहा"</b>" वर टॅप करा"</string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"श्रवणयंत्र डिव्हाइस पेअर करा"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"तुम्ही या पेजवर ASHA आणि LE ऑडिओ श्रवणयंत्रे पेअर करू शकता. तुमचे श्रवणयंत्र सुरू केले असून, ते पेअर करण्यासाठी तयार असल्याची खात्री करा."</string>
+    <string name="accessibility_hearing_device_pairing_asha_only_intro" msgid="5679230908462987522">"तुम्ही या पेजवर ASHA ऑडिओ श्रवणयंत्रे पेअर करू शकता. तुमचे श्रवणयंत्र सुरू केले असून ते पेअर करण्यासाठी तयार असल्याची खात्री करा."</string>
+    <string name="accessibility_hearing_device_pairing_hap_only_intro" msgid="2233661046254311681">"तुम्ही या पेजवर LE ऑडिओ श्रवणयंत्रे पेअर करू शकता. तुमचे श्रवणयंत्र सुरू केले असून ते पेअर करण्यासाठी तयार असल्याची खात्री करा."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"उपलब्ध श्रवणयंत्रे"</string>
     <string name="accessibility_found_all_devices" msgid="7817834722148556520">"तुमचे श्रवणयंत्र डिव्हाइस दिसत नाही का?"</string>
     <string name="accessibility_list_all_devices_title" msgid="161495343959211216">"आणखी डिव्हाइस पहा"</string>
@@ -5061,24 +5061,15 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"सॅटेलाइटशी कनेक्ट करण्यासाठी पायऱ्या फॉलो करा"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"आणीबाणी सेवांसह तुम्ही कोणालाही एसएमएस पाठवू शकता. उपलब्ध असेल, तेव्हा तुमचा फोन मोबाइल नेटवर्कशी पुन्हा कनेक्ट होईल."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"तुमचा फोन कनेक्ट केल्यानंतर, तुम्ही आणीबाणी सेवांसोबतच इतर कोणालाही एसएमएस पाठवू शकता."</string>
-    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
-    <skip />
-    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
-    <skip />
-    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
-    <skip />
+    <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"लक्षात ठेवा"</string>
+    <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"सॅटेलाइट कनेक्टिव्हिटीला जास्त वेळ लागू शकतो आणि ते फक्त काही भागांमध्ये उपलब्ध आहे."</string>
+    <string name="satellite_footer_content_section_2" msgid="7699185178461362541">"हवामान आणि विशिष्ट संरचना तुमच्या सॅटेलाइट कनेक्शनवर परिणाम करू शकतात."</string>
+    <string name="satellite_footer_content_section_3" msgid="4652426135622555607">"सॅटेलाइटद्वारे कॉल करणे उपलब्ध नाही."</string>
+    <string name="satellite_footer_content_section_4" msgid="2294227482962815751">"आणीबाणी कॉल अजूनही कनेक्ट होऊ शकतात."</string>
+    <string name="satellite_footer_content_section_5" msgid="3053256489735265540">"बाह्य लिंक पाहण्यासाठी मोबाइल किंवा वाय-फाय नेटवर्क आवश्यक आहे."</string>
+    <string name="satellite_footer_content_section_6" msgid="1448633393918612418">"आणीबाणी सेवा वापरून एसएमएस पाठवणे कदाचित सर्व भागांमध्ये उपलब्ध नसू शकते."</string>
+    <string name="satellite_footer_content_section_7" msgid="5524773673918954918">"खात्यामधील बदल सेटिंग्ज मध्ये दिसण्यासाठी काही वेळ लागू शकतो. तपशिलांसाठी <xliff:g id="CARRIER_NAME">%1$s</xliff:g> शी संपर्क साधा."</string>
+    <string name="more_about_satellite_connectivity" msgid="9110502891919936054">"सॅटेलाइट कनेक्टिव्हिटीबद्दल आणखी"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> सुरू करू शकत नाही"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> सुरू करण्यासाठी, सर्वप्रथम सॅटेलाइट कनेक्शन बंद करा"</string>
     <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"सॅटेलाइट"</string>
@@ -5089,6 +5080,8 @@
     <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"तुमच्या फोनवर सपोर्ट असलेल्या अ‍ॅप्स"</string>
     <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"सर्व अ‍ॅप्स पहा"</string>
     <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"तुमच्या फोनवर सपोर्ट असलेल्या अ‍ॅप्स"</string>
+    <string name="title_satellite_dialog_for_sim_restriction" msgid="454718192423216397">"सिम जोडता आले नाही"</string>
+    <string name="description_satellite_dialog_for_sim_restriction" msgid="5465487347427595435">"सिम जोडण्यापूर्वी सॅटेलाइट कनेक्शन बंद करा"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"अ‍ॅक्सेस पॉइंट"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g>शी कनेक्ट केले असल्यास उपलब्ध नाही"</string>
@@ -5172,8 +5165,7 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"पुढील वेळेस मोबाइल डेटा, कॉल वैशिष्ट्ये आणि एसएमएस वापरण्यासाठी तुमच्या नेटवर्क सेटिंग्ज वर जा"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"सिम"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"हे eSIM मिटवायचे का?"</string>
-    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
-    <skip />
+    <string name="erase_sim_dialog_text" msgid="3982216582200709197">"हे eSIM मिटवल्याने या डिव्हाइसवरून <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> सेवा काढून टाकली जाते.  <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> ची सेवा रद्द केली जाणार नाही. नवीन eSIM ची विनंती करण्यासाठी, तुम्हाला तुमच्या वाहकाशी संपर्क साधावा लागले."</string>
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"मिटवा"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"eSIM मिटवत आहे…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"eSIM मिटवू शकत नाही"</string>
@@ -5765,16 +5757,11 @@
     <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"भडक आशय असलेल्या साइट ब्लॉक करण्याचा प्रयत्न करा"</string>
     <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"कोणताही फिल्टर परिपूर्ण नसतो, पण यामुळे लैंगिकदृष्ट्या भडक साइट लपवण्यात मदत होऊ शकते"</string>
     <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"सर्व साइटना अनुमती द्या"</string>
-    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
-    <skip />
+    <string name="supervision_web_content_filters_search_title" msgid="726335318009305564">"Google Search"</string>
+    <string name="supervision_web_content_filters_search_filter_on_title" msgid="4855846261141136285">"सुरक्षितशोध फिल्टरिंग सुरू आहे"</string>
+    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="1162258144140293269">"या डिव्हाइसवरील शोध परिणामांमधून भडक इमेज, मजकूर आणि लिंक फिल्टर करण्यात मदत करते"</string>
+    <string name="supervision_web_content_filters_search_filter_off_title" msgid="6049461395304222346">"सुरक्षितशोध फिल्टरिंग बंद आहे"</string>
+    <string name="supervision_web_content_filters_search_filter_off_summary" msgid="3834238970190924433">"खाते सेटिंग्ज तरीही भडक परिणाम फिल्टर किंवा ब्लर करू शकते"</string>
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"पर्यवेक्षण पिन एंटर करा"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g> अ‍ॅनिमेशन"</string>
 </resources>
