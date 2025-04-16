@@ -467,7 +467,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Докоснете сензора за отпечатъци"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Отпечатъкът не е разпознат"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Отключване чрез часовника"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Гледане"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Часовник"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Когато носите маска или се намирате на тъмно място и сте настроили функциите „Отключване с лице“ и „Отключване с отпечатък“, телефонът ви ще поиска да използвате отпечатъка си.\n\nФункцията за отключване чрез часовника е друг удобен начин да отключвате телефона си, например когато пръстите ви са мокри или лицето ви не бъде разпознато."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Функцията за отключване чрез часовника е друг удобен начин да отключвате телефона си, например когато отпечатъкът ви не бъде разпознат."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Функцията за отключване чрез часовника е друг удобен начин да отключвате телефона си, например когато лицето ви не бъде разпознато."</string>
@@ -4626,7 +4626,7 @@
     <string name="adb_authorization_timeout_title" msgid="6996844506783749754">"Деакт. на времето за изчакване за упълном. на adb"</string>
     <string name="adb_authorization_timeout_summary" msgid="409931540424019778">"Деактивиране на автоматичната отмяна на упълномощаванията на adb за системи, които не са установили повторна връзка в рамките на стандартния период (7 дни) или този, конфигуриран от потребителя (най-малко 1 ден)."</string>
     <string name="sensors_off_quick_settings_title" msgid="8472151847125917167">"Сензорите са изключени"</string>
-    <string name="managed_profile_settings_title" msgid="3400923723423564217">"Настройки за служебния потребителски профил"</string>
+    <string name="managed_profile_settings_title" msgid="3400923723423564217">"Настройки за служебния потр. профил"</string>
     <string name="managed_profile_contact_search_title" msgid="6562061740814513737">"Търсене на контакти от служебния указател в личните приложения"</string>
     <string name="managed_profile_contact_search_summary" msgid="4974727886709219105">"Търсенията и входящите ви обаждания може да са видими за системния ви администратор"</string>
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"Календар за няколко потребителски профила"</string>

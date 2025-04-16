@@ -3117,7 +3117,7 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"ຄຸນສົມບັດນີ້ອາດເຮັດໃຫ້ແອັບຯ ທີ່ຕ້ອງໃຊ້ຂໍ້ມູນພື້ນຫລັງຢຸດການເຮັດວຽກລົງ ໃນກໍລະນີທີ່ມີສະເພາະການເຊື່ອມຕໍ່ຂໍ້ມູນຜ່ານມືຖືຢູ່.\n\nທ່ານສາມາດຄວບຄຸມການນຳໃຊ້ຂໍ້ມູນໃຫ້ເໝາະສົມໄດ້ ໂດຍການໄປທີ່ເມນູການຕັ້ງຄ່າຢູ່ພາຍໃນແອັບຯນັ້ນໆ."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"ການຈຳກັດຂໍ້ມູນພື້ນຫຼັງຈະສາມາດເຮັດໄດ້ສະເພາະເມື່ອທ່ານໄດ້ຈຳກັດຂອບເຂດປະລິມານການໃຊ້ອິນເຕີເນັດມືຖືເທົ່ານັ້ນ."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"ເປີດການຊິ້ງຂໍ້ມູນອັດຕະໂນມັດ?"</string>
-    <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"ປິດການຊິ້ງຂໍ້ມູນອັດຕະໂນມັດ?"</string>
+    <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"ປິດການຊິ້ງຂໍ້ມູນອັດຕະໂນມັດບໍ?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"ນີ້ຈະເປັນການຖະໜອມການນຳໃຊ້ຂໍ້ມູນ ແລະ ແບັດເຕີຣີ ແຕ່ທ່ານຈະຕ້ອງໄດ້ຊິ້ງຂໍ້ມູນແຕ່ລະບັນຊີດ້ວຍຕົນເອງເພື່ອໃຫ້ເກັບກຳຂໍ້ມູນຫຼ້າສຸດ. ແລະ ທ່ານຈະບໍ່ໄດ້ຮັບການແຈ້ງເຕືອນ ເມື່ອມີການອັບເດດເກີດຂຶ້ນ."</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"ວັນທີຣີເຊັດຮອບ"</string>
     <string name="data_usage_cycle_editor_subtitle" msgid="1026234456777365545">"ວັນທີຂອງແຕ່ລະເດືອນ:"</string>
@@ -4153,7 +4153,7 @@
     <string name="zen_mode_blurb_generic" msgid="3041601339807075625">"ຫຼຸດການລົບກວນໂດຍການອະນຸຍາດສະເພາະບຸກຄົນ ແລະ ແອັບທີ່ສຳຄັນເທົ່ານັ້ນໃນການຕິດຕໍ່ຫາທ່ານ"</string>
     <string name="zen_mode_inspiration_schedule_time" msgid="5596540503159096153">"ຕັ້ງຄ່າໂໝດທີ່ເປັນໄປຕາມກຳນົດເວລາປົກກະຕິ"</string>
     <string name="zen_mode_inspiration_schedule_calendar" msgid="3678727180860212700">"ຊິ້ງອຸປະກອນຂອງທ່ານກັບນັດໝາຍປະຈຳວັນຂອງທ່ານ"</string>
-    <string name="zen_mode_inspiration_bedtime" msgid="6294822414181670666">"ຕື່ນຂຶ້ນມາດ້ວຍຄວາມຮູ້ສຶກດີຄືເຕັມ 100%"</string>
+    <string name="zen_mode_inspiration_bedtime" msgid="6294822414181670666">"ຕື່ນຂຶ້ນມາດ້ວຍຄວາມຮູ້ສຶກດີເຕັມ 100%"</string>
     <string name="zen_mode_inspiration_driving" msgid="8237825783857483135">"ຄວາມປອດໄພຕ້ອງມາກ່ອນສະເໝີເມື່ອຢູ່ເທິງຖະໜົນ"</string>
     <string name="zen_mode_inspiration_immersive" msgid="4062437428955782933">"ເພີ່ມສະມາທິເພື່ອຕັ້ງໃຈກັບສິ່ງທີ່ຕ້ອງເຮັດ"</string>
     <string name="zen_mode_inspiration_theater" msgid="9194190183262761230">"ສຳລັບເວລາທີ່ມາລະຍາດເປັນເລື່ອງສຳຄັນ"</string>
@@ -4721,7 +4721,7 @@
     <string name="auto_sync_account_title" msgid="1070908045600374254">"ຊິ້ງຂໍ້ມູນແອັບອັດຕະໂນມັດ"</string>
     <string name="auto_sync_account_summary" msgid="7580352130028957346">"ໃຫ້ແອັບໂຫຼດຂໍ້ມູນຄືນໃໝ່ໂດຍອັດຕະໂນມັດ"</string>
     <string name="account_sync_title" msgid="7036067017433297574">"ການຊິ້ງຂໍ້ມູນບັນຊີ"</string>
-    <string name="account_sync_summary_some_on" msgid="911460286297968724">"ເປີດຊິ້ງຂໍ້ມູນສຳລັບ <xliff:g id="ID_1">%1$d</xliff:g> ຈາກທັງໝົດ <xliff:g id="ID_2">%2$d</xliff:g> ລາຍການ"</string>
+    <string name="account_sync_summary_some_on" msgid="911460286297968724">"ເປີດຊິ້ງຂໍ້ມູນສຳລັບ <xliff:g id="ID_1">%1$d</xliff:g> ລາຍການຈາກທັງໝົດ <xliff:g id="ID_2">%2$d</xliff:g> ລາຍການ"</string>
     <string name="account_sync_summary_all_on" msgid="2953682111836599841">"ເປີດການຊິ້ງຂໍ້ມູນຕະຫຼອດເວລາ"</string>
     <string name="account_sync_summary_all_off" msgid="6378301874540507884">"ປິດການຊິ້ງຂໍ້ມູນຕະຫຼອດເວລາ"</string>
     <string name="enterprise_privacy_settings" msgid="786350385374794180">"ຂໍ້ມູນອຸປະກອນທີ່ມີການຈັດການ"</string>

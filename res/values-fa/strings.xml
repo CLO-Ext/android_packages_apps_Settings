@@ -917,7 +917,7 @@
     <string name="bluetooth_settings_title" msgid="2642029095769509647">"بلوتوث"</string>
     <string name="bluetooth_pairing_request" msgid="7762990650683525640">"با <xliff:g id="DEVICE_NAME">%1$s</xliff:g> جفت شود؟"</string>
     <string name="bluetooth_pairing_group_late_bonding" msgid="3047893658902159692">"برای افزودن دستگاه صوتی دوم، تأیید کنید"</string>
-    <string name="bluetooth_pairing_key_msg" msgid="1329835708475701761">"کد مرتبط‌سازی بلوتوث"</string>
+    <string name="bluetooth_pairing_key_msg" msgid="1329835708475701761">"کد جفت‌سازی بلوتوث"</string>
     <string name="bluetooth_enter_passkey_msg" msgid="5806420933599368592">"کد مرتبط‌سازی را وارد کنید سپس بازگشت یا ورود را فشار دهید"</string>
     <string name="bluetooth_enable_alphanumeric_pin" msgid="7256286571636950635">"پین شامل حروف یا نماد است"</string>
     <string name="bluetooth_pin_values_hint" msgid="2753202519050044670">"معمولا 0000 یا 1234"</string>
@@ -1490,7 +1490,7 @@
     <string name="battery_info" msgid="7873528123969546728">"اطلاعات باتری"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"موجود نیست"</string>
     <string name="storage_settings" msgid="7472188817781592677">"فضای ذخیره‌سازی"</string>
-    <string name="storage_settings_for_app" msgid="229425418984637483">"فضای ذخیره‌سازی و حافظه پنهان"</string>
+    <string name="storage_settings_for_app" msgid="229425418984637483">"فضای ذخیره‌سازی و حافظه نهان"</string>
     <string name="storage_settings_title" msgid="486118156723194815">"تنظیمات ذخیره‌سازی"</string>
     <string name="status_eid" msgid="3588471107671992684">"‏سند شناسایی جاسازی‌شده (EID)"</string>
     <string name="eid_multi_sim" msgid="6659492335576379274">"‏‫EID (شیار سیم‌کارت <xliff:g id="EID_SLOT_ID">%1$d</xliff:g>)"</string>
@@ -1861,7 +1861,7 @@
     <string name="lockpattern_pattern_entered_header" msgid="7709618312713127249">"الگو ضبط شد"</string>
     <string name="lockpattern_need_to_confirm" msgid="6489499109451714360">"برای تأیید، دوباره الگو را بکشید"</string>
     <string name="lockpattern_pattern_confirmed_header" msgid="2969990617475456153">"الگوی جدید بازگشایی قفل"</string>
-    <string name="lockpattern_confirm_button_text" msgid="6122815520373044089">"تأیید"</string>
+    <string name="lockpattern_confirm_button_text" msgid="6122815520373044089">"تأیید کردن"</string>
     <string name="lockpattern_restart_button_text" msgid="255339375151895998">"کشیدن مجدد"</string>
     <string name="lockpattern_retry_button_text" msgid="4229668933251849760">"پاک کردن"</string>
     <string name="lockpattern_continue_button_text" msgid="5253269556259503537">"ادامه"</string>
@@ -2531,7 +2531,7 @@
     <string name="accessibility_shortcut_edit_screen_prompt" msgid="5966054283114856682">"‏میان‌بر %1$s را انتخاب کنید"</string>
     <string name="accessibility_shortcut_unassigned_setting_unavailable_summary" msgid="993486098872935043">"‏برای استفاده از این، میان‌بر %1$s را در صفحه یکی از ویژگی‌های دسترس‌پذیری روشن کنید"</string>
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"ادامه"</string>
-    <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"دستگاه‌های کمک‌شنوایی"</string>
+    <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"سمعک‌ها"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"راه‌اندازی و مدیریت کردن سمعک‌های سازگار با «جاری‌سازی صوتی ویژه سمعک‌ها» و «صدای کم‌مصرف»، کاشت حلزون، و دیگر دستگاه‌های تقویت صدا"</string>
     <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"راه‌اندازی و مدیریت کردن سمعک‌های سازگار با «جاری‌سازی صوتی ویژه سمعک‌ها»، کاشت حلزونی، و دیگر دستگاه‌های تقویت صدا"</string>
     <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"راه‌اندازی و مدیریت کردن سمعک‌های سازگار با «صدای کم‌مصرف»، کاشت حلزونی، و دیگر دستگاه‌های تقویت صدا"</string>
@@ -2934,11 +2934,11 @@
     <string name="vpn_settings_insecure_single" msgid="9012504179995045195">"امن نیست"</string>
     <string name="vpn_settings_single_insecure_multiple_total" msgid="6107225844641301139">"<xliff:g id="VPN_COUNT">%d</xliff:g> امن نیست"</string>
     <string name="vpn_settings_multiple_insecure_multiple_total" msgid="1706236062478680488">"<xliff:g id="VPN_COUNT">%d</xliff:g> امن نیست"</string>
-    <string name="adaptive_connectivity_title" msgid="7464959640138428192">"اتصال تطبیقی"</string>
+    <string name="adaptive_connectivity_title" msgid="7464959640138428192">"اتصال‌پذیری تطبیقی"</string>
     <string name="adaptive_connectivity_summary" msgid="3648731530666326885">"مدیریت خودکار اتصال‌های شبکه، عمر باتری را افزایش می‌دهد و عملکرد دستگاه را بهبود می‌بخشد"</string>
     <string name="adaptive_connectivity_switch_on" msgid="3653067561620745493">"روشن"</string>
     <string name="adaptive_connectivity_switch_off" msgid="5076172560836115265">"خاموش"</string>
-    <string name="adaptive_connectivity_main_switch_title" msgid="261045483524512420">"استفاده از «اتصال‌پذیری سازگار»"</string>
+    <string name="adaptive_connectivity_main_switch_title" msgid="261045483524512420">"استفاده از «اتصال‌پذیری تطبیقی»"</string>
     <string name="adaptive_connectivity_wifi_switch_title" msgid="5899985025046319472">"‏جابه‌جایی خودکار Wi-Fi به شبکه همراه"</string>
     <string name="adaptive_connectivity_wifi_switch_summary" msgid="4650230240134029595">"‏وقتی اتصال Wi-Fi ضعیف باشد یا دردسترس نباشد، به‌طور خودکار از داده شبکه تلفن همراه استفاده می‌شود. ممکن است هزینه‌های مصرف داده اعمال شود."</string>
     <string name="adaptive_connectivity_mobile_network_switch_title" msgid="2473274404695643218">"جابه‌جایی خودکار شبکه تلفن همراه برای عمر باتری"</string>
@@ -3318,7 +3318,7 @@
     <string name="extreme_threats_summary" msgid="3560742429496902008">"دریافت هشدار برای تهدیدهای بسیار جدی جانی و مالی"</string>
     <string name="severe_threats_title" msgid="8962959394373974324">"تهدیدهای جدی"</string>
     <string name="severe_threats_summary" msgid="4982256198071601484">"دریافت هشدار برای تهدیدهای جدی جانی و مالی"</string>
-    <string name="amber_alerts_title" msgid="5238275758191804575">"‏هشدارهای AMBER"</string>
+    <string name="amber_alerts_title" msgid="5238275758191804575">"هشدارهای امبر"</string>
     <string name="amber_alerts_summary" msgid="5755221775246075883">"دریافت بولتن‌های مربوط به کودک‌ربایی"</string>
     <string name="repeat_title" msgid="8676570486899483606">"تکرار"</string>
     <string name="cell_broadcast_settings" msgid="2416980110093867199">"هشدارهای اضطراری بی‌سیم"</string>
@@ -4298,7 +4298,7 @@
     <string name="usb_use_power_only" msgid="3408055485802114621">"شارژ کردن دستگاه متصل"</string>
     <string name="usb_use_file_transfers" msgid="483915710802018503">"انتقال فایل"</string>
     <string name="usb_use_photo_transfers" msgid="4641181628966036093">"PTP"</string>
-    <string name="usb_use_uvc_webcam" msgid="6595429508472038732">"وب‌بین"</string>
+    <string name="usb_use_uvc_webcam" msgid="6595429508472038732">"وب‌کم"</string>
     <string name="usb_transcode_files" msgid="2441954752105119109">"‏تبدیل ویدیو به AVC"</string>
     <string name="usb_transcode_files_summary" msgid="307102635711961513">"ویدیوها در پخش‌کننده‌های رسانه بیشتری پخش خواهند شد، اما ممکن است کیفیت کاهش پیدا کند"</string>
     <string name="usb_use_tethering" msgid="2897063414491670531">"‏اشتراک‌گذاری اینترنت با USB"</string>
@@ -4321,12 +4321,12 @@
     <string name="usb_summary_tether" msgid="2554569836525075702">"‏اشتراک‌گذاری اینترنت با USB"</string>
     <string name="usb_summary_photo_transfers" msgid="7331503733435780492">"PTP"</string>
     <string name="usb_summary_MIDI" msgid="2372443732675899571">"MIDI"</string>
-    <string name="usb_summary_UVC" msgid="8733131110899174299">"وب‌بین"</string>
+    <string name="usb_summary_UVC" msgid="8733131110899174299">"وب‌کم"</string>
     <string name="usb_summary_file_transfers_power" msgid="2788374660532868630">"انتقال فایل و شارژ دستگاه"</string>
     <string name="usb_summary_tether_power" msgid="4853034392919904792">"‏اشتراک‌گذاری اینترنت با USB و شارژ دستگاه"</string>
     <string name="usb_summary_photo_transfers_power" msgid="9077173567697482239">"‏PTP و شارژ دستگاه"</string>
     <string name="usb_summary_MIDI_power" msgid="1184681982025435815">"‏حالت MIDI و شارژ دستگاه"</string>
-    <string name="usb_summary_UVC_power" msgid="226810354412154061">"وب‌بین و تأمین برق"</string>
+    <string name="usb_summary_UVC_power" msgid="226810354412154061">"وب‌کم و تأمین برق"</string>
     <string name="background_check_pref" msgid="5304564658578987535">"بررسی پس‌زمینه"</string>
     <string name="assist_access_context_title" msgid="5201495523514096201">"استفاده از نوشتار صفحه"</string>
     <string name="assist_access_context_summary" msgid="6951814413185646275">"اجازه به برنامه همیار برای دسترسی به محتوای صفحه به‌عنوان نوشتار"</string>

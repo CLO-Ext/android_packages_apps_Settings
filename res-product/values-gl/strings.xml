@@ -310,7 +310,7 @@
     <string name="wifi_add_app_networks_summary" product="default" msgid="7014504084783236696">"<xliff:g id="APPNAME">%1$s</xliff:g> quere gardar estas redes no teu teléfono"</string>
     <string name="wifi_add_app_networks_summary" product="tablet" msgid="6433255556506891439">"<xliff:g id="APPNAME">%1$s</xliff:g> quere gardar estas redes na túa tableta"</string>
     <string name="wifi_add_app_networks_summary" product="desktop" msgid="4238956725252527159">"<xliff:g id="APPNAME">%1$s</xliff:g> quere gardar estas redes no teu dispositivo"</string>
-    <string name="auto_rotate_screen_summary" product="default" msgid="5562937346878935483">"Axustar automaticamente a orientación da pantalla cando cambies o teléfono entre o modo vertical e o horizontal"</string>
+    <string name="auto_rotate_screen_summary" product="default" msgid="5562937346878935483">"Axusta automaticamente a orientación da pantalla cando cambies o teléfono entre o modo vertical e o horizontal"</string>
     <string name="auto_rotate_screen_summary" product="tablet" msgid="3163709742477804994">"Axusta automaticamente a orientación da pantalla cando cambies a tableta entre o modo vertical e o horizontal"</string>
     <string name="auto_rotate_screen_summary" product="desktop" msgid="3805199344834364732">"Axusta automaticamente a orientación da pantalla cando cambies o teléfono entre o modo vertical e o horizontal"</string>
     <string name="sim_lock_on" product="tablet" msgid="227481196121403470">"Solicita o PIN para usar a tableta"</string>

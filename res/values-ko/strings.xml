@@ -1869,7 +1869,7 @@
     <string name="lockpattern_settings_enable_title" msgid="7401197111303283723">"패턴 설정"</string>
     <string name="lockpattern_settings_enable_summary" msgid="1116467204475387886">"화면 잠금을 해제하려면 패턴을 그려야 합니다."</string>
     <string name="lockpattern_settings_enable_visible_pattern_title" msgid="3340969054395584754">"패턴 표시"</string>
-    <string name="lockpattern_settings_enhanced_pin_privacy_title" msgid="7172693275721931683">"향상된 PIN 개인 정보 보호"</string>
+    <string name="lockpattern_settings_enhanced_pin_privacy_title" msgid="7172693275721931683">"PIN 개인 정보 보호 강화"</string>
     <string name="lockpattern_settings_enhanced_pin_privacy_summary" msgid="8639588868341114740">"PIN 입력 시 애니메이션 사용 중지"</string>
     <string name="lockpattern_settings_enable_visible_pattern_title_profile" msgid="5138189101808127489">"프로필 패턴 표시"</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title" msgid="2273374883831956787">"탭하면 진동"</string>
@@ -5755,9 +5755,7 @@
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"웹 콘텐츠 필터"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Chrome 및 웹"</string>
     <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"선정적인 사이트 차단 시도"</string>
-    <!-- String.format failed for translation -->
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
-    <skip />
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"필터가 완벽할 수는 없지만 이 기능을 사용하면 선정적인 사이트를 숨기는 데 도움이 됩니다."</string>
     <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"모든 사이트 허용"</string>
     <string name="supervision_web_content_filters_search_title" msgid="726335318009305564">"Google 검색"</string>
     <string name="supervision_web_content_filters_search_filter_on_title" msgid="4855846261141136285">"세이프서치 필터링 사용 설정됨"</string>

@@ -413,7 +413,7 @@
     <string name="security_settings_face_footer_description_class3" msgid="2639208414351635622"></string>
     <string name="security_settings_face_footer_learn_more_description" msgid="1418112576619086897"></string>
     <string name="security_settings_face_settings_face_category" msgid="60058016983772899">"Volto"</string>
-    <string name="security_settings_face_settings_use_face_to_category" msgid="3349153603335284583">"Usa il volto per"</string>
+    <string name="security_settings_face_settings_use_face_to_category" msgid="3349153603335284583">"Con il volto:"</string>
     <string name="security_settings_face_settings_preferences_category" msgid="7628929873407280453">"Quando usi lo Sblocco con il Volto"</string>
     <string name="security_settings_face_settings_require_attention" msgid="4395309855914391104">"Gli occhi devono essere aperti"</string>
     <string name="security_settings_face_settings_require_attention_details" msgid="2546230511769544074">"Per sbloccare il telefono gli occhi devono essere aperti"</string>
@@ -467,7 +467,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Tocca il sensore di impronte digitali"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Impronta non riconosciuta"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Sblocco dall\'orologio"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Guarda"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Smartwatch"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Se configuri lo Sblocco con il Volto e l\'Impronta, lo smartphone ti chiederà l\'impronta se indossi una mascherina o ti trovi in un luogo buio.\n\nSblocco dall\'orologio è un altro modo pratico per sbloccare lo smartphone, ad esempio quando hai le dita bagnate o il volto non viene riconosciuto."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Sblocco dall\'orologio è un altro modo pratico per sbloccare lo smartphone, ad esempio quando le dita non vengono riconosciute."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Sblocco dall\'orologio è un altro modo pratico per sbloccare il tuo smartphone, ad esempio quando il volto non viene riconosciuto."</string>
@@ -1235,7 +1235,7 @@
     <string name="wifi_p2p_cancel_connect_message" msgid="2409074184473879809">"Vuoi annullare l\'invito a connettersi con <xliff:g id="PEER_NAME">%1$s</xliff:g>?"</string>
     <string name="wifi_p2p_delete_group_message" msgid="4880242270742385699">"Eliminare questo gruppo?"</string>
     <string name="wifi_hotspot_checkbox_text" msgid="1549663436920597006">"Hotspot Wi‑Fi"</string>
-    <string name="wifi_hotspot_off_subtext" msgid="2751383134504362078">"Non stai condividendo la connessione a Internet o i contenuti con altri dispositivi"</string>
+    <string name="wifi_hotspot_off_subtext" msgid="2751383134504362078">"Non stai condividendo la connessione a internet o i contenuti con altri dispositivi"</string>
     <string name="wifi_hotspot_no_password_subtext" msgid="3685689196772398783">"Nessuna password impostata"</string>
     <string name="wifi_hotspot_name_title" msgid="6633480190014369846">"Nome hotspot"</string>
     <string name="wifi_hotspot_password_title" msgid="9096340919454296786">"Password hotspot"</string>
@@ -1717,7 +1717,7 @@
     <string name="ethernet_network_usage" msgid="3795965384177426780">"Utilizzo della rete"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"Tethering Ethernet"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"Utilizza hotspot e tethering per consentire ad altri dispositivi di accedere a internet tramite la tua connessione dati. Le app possono, inoltre, creare un hotspot per condividere contenuti con i dispositivi vicini."</string>
-    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Utilizza hotspot e tethering per consentire ad altri dispositivi di accedere a Internet usando la tua connessione Wi-Fi o dati mobili. Le app possono inoltre creare un hotspot per condividere contenuti con i dispositivi nelle vicinanze."</string>
+    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Utilizza hotspot e tethering per consentire ad altri dispositivi di accedere a internet usando la tua connessione Wi-Fi o dati mobili. Le app possono inoltre creare un hotspot per condividere contenuti con i dispositivi nelle vicinanze."</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"Guida"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"Rete mobile"</string>
     <string name="sms_application_title" msgid="4791107002724108809">"SMS"</string>
@@ -1804,7 +1804,7 @@
     <string name="lockpassword_reenter_your_profile_pin_header" msgid="2890233614560435538">"Reinserisci PIN per profilo lavoro"</string>
     <string name="lockpassword_confirm_your_work_pin_header" msgid="4229765521391960255">"Inserisci PIN del profilo di lavoro"</string>
     <string name="lockpassword_confirm_passwords_dont_match" msgid="2100071354970605232">"Le password non corrispondono"</string>
-    <string name="lockpassword_confirm_pins_dont_match" msgid="1103699575489401030">"I PIN non corrispondono"</string>
+    <string name="lockpassword_confirm_pins_dont_match" msgid="1103699575489401030">"I PIN non&lt;br&gt;corrispondono"</string>
     <string name="lockpassword_draw_your_pattern_again_header" msgid="1045638030120803622">"Inserisci di nuovo la sequenza"</string>
     <string name="lockpassword_choose_lock_generic_header" msgid="5669348379247148696">"Seleziona metodo di sblocco"</string>
     <string name="lockpassword_password_set_toast" msgid="6615759749393973795">"Password impostata"</string>
@@ -1813,7 +1813,7 @@
     <string name="lockpassword_choose_your_password_header_for_face" msgid="622276003801157839">"Scegli password per Sblocco con il Volto"</string>
     <string name="lockpassword_choose_your_pattern_header_for_face" msgid="7333603579958317102">"Scegli sequenza per Sblocco con il Volto"</string>
     <string name="lockpassword_choose_your_pin_header_for_face" msgid="704061826984851309">"Scegli PIN per Sblocco con il Volto"</string>
-    <string name="lockpassword_choose_your_password_header_for_biometrics" msgid="2053366309272487015">"Imposta password per Sblocco con il Volto o con l\'impronta"</string>
+    <string name="lockpassword_choose_your_password_header_for_biometrics" msgid="2053366309272487015">"Imposta password per Sblocco con il Volto o con l\'Impronta"</string>
     <string name="lockpassword_choose_your_pattern_header_for_biometrics" msgid="4038476475293734905">"Imposta sequenza per Sblocco con il Volto o con l\'impronta"</string>
     <string name="lockpassword_choose_your_pin_header_for_biometrics" msgid="9086039918921009380">"Imposta un PIN per usare il volto o l\'impronta"</string>
     <string name="lockpassword_forgot_password" msgid="5730587692489737223">"Hai dimenticato la password?"</string>
@@ -2433,7 +2433,7 @@
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Migliora il contrasto del testo"</string>
     <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"Il testo con contorni ha sostituito il testo ad alto contrasto. Puoi attivarlo nelle <xliff:g id="SETTINGS">%1$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Vai a <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"testo con contorni"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Testo con contorni"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Aggiungi uno sfondo bianco o nero attorno al testo per aumentare il contrasto"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Aggiorn. autom. ingrandim. schermo"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Aggiorna ingrandimento schermo per transizioni app"</string>
@@ -2532,7 +2532,7 @@
     <string name="accessibility_shortcut_unassigned_setting_unavailable_summary" msgid="993486098872935043">"Per utilizzare questa funzionalità, attiva la scorciatoia di %1$s nella pagina di una funzione di accessibilità"</string>
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"Continua"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"Protesi uditive"</string>
-    <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"Configura e gestisci apparecchi acustici, impianti cocleari e altri dispositivi di amplificazione ASHA ed LE Audio"</string>
+    <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"Configura e gestisci apparecchi acustici, impianti cocleari e altri dispositivi di amplificazione ASHA e LE Audio"</string>
     <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"Configura e gestisci apparecchi acustici, impianti cocleari e altri dispositivi di amplificazione ASHA"</string>
     <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"Configura e gestisci apparecchi acustici, impianti cocleari e altri dispositivi di amplificazione LE Audio"</string>
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"Nessuna protesi uditiva connessa"</string>
@@ -3910,7 +3910,7 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Altre impostazioni sono disponibili all\'interno di quest\'app"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Attenuazione delle notifiche"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Usa attenuazione delle notifiche"</string>
-    <string name="notification_polite_description" msgid="6137533404978878957">"Quando ricevi molte notifiche in un breve periodo di tempo, il dispositivo abbasserà il volume e ridurrà al minimo gli avvisi per un massimo di 1 minuto. Non ci sono ripercussioni su chiamate, sveglie e conversazioni prioritarie. \n\nLe notifiche ricevute durante l\'attenuazione possono essere trovare facendo scorrere lo schermo dall\'alto verso il basso."</string>
+    <string name="notification_polite_description" msgid="6137533404978878957">"Quando ricevi molte notifiche in un breve periodo di tempo, il dispositivo abbasserà il volume e ridurrà al minimo gli avvisi per un massimo di 1 minuto. Non ci sono ripercussioni su chiamate, sveglie e conversazioni prioritarie. \n\nLe notifiche ricevute durante l\'attenuazione possono essere trovate facendo scorrere lo schermo dall\'alto verso il basso."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Applica ai profili di lavoro"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Applica alle app del profilo di lavoro"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"Notifiche raggruppate"</string>
@@ -5354,7 +5354,7 @@
     <string name="network_and_internet_preferences_title" msgid="8635896466814033405">"Preferenze di rete"</string>
     <string name="keywords_internet" msgid="7674082764898690310">"connessione rete, internet, wireless, dati, wifi, wi-fi, wi fi, cellulare, dispositivo mobile, operatore cellulare, 4g, 3g, 2g, lte"</string>
     <string name="reset_your_internet_title" msgid="4856899004343241310">"Vuoi reimpostare la connessione a Internet?"</string>
-    <string name="resetting_internet_text" msgid="6696779371800051806">"Reimpostazione della connessione a Internet…"</string>
+    <string name="resetting_internet_text" msgid="6696779371800051806">"Reimpostazione della connessione a internet…"</string>
     <string name="fix_connectivity" msgid="2781433603228089501">"Risolvi problema di connettività"</string>
     <string name="networks_available" msgid="3299512933684383474">"Reti disponibili"</string>
     <string name="to_switch_networks_disconnect_ethernet" msgid="6615374552827587197">"Per cambiare rete, scollega il cavo Ethernet"</string>
@@ -5408,7 +5408,7 @@
     <string name="multiple_users_title_keywords" msgid="2395593167746225172">"più, utenti, profili, persone, account, sensore, molti"</string>
     <string name="wireless_debugging_main_switch_title" msgid="8463499572781441719">"Usa debug wireless"</string>
     <string name="graphics_driver_main_switch_title" msgid="6125172901855813790">"Usa Preferenze del driver di grafica"</string>
-    <string name="night_light_main_switch_title" msgid="3428298022467805219">"Usa luminosità notturna"</string>
+    <string name="night_light_main_switch_title" msgid="3428298022467805219">"Usa Luminosità notturna"</string>
     <string name="nfc_main_switch_title" msgid="6295839988954817432">"Usa NFC"</string>
     <string name="adaptive_brightness_main_switch_title" msgid="2681666805191642737">"Usa la luminosità adattiva"</string>
     <string name="wifi_calling_main_switch_title" msgid="4070224008346815634">"Usa Chiamate Wi-Fi"</string>

@@ -1328,7 +1328,7 @@
     <string name="auto_rotate_switch_face_based" msgid="9116123744601564320">"Zbulimi i fytyrës"</string>
     <string name="auto_rotate_link_a11y" msgid="5146188567212233286">"Mëso më shumë për rrotullimin automatik"</string>
     <string name="screen_resolution_title" msgid="2690518693139811486">"Rezolucioni i ekranit"</string>
-    <string name="screen_resolution_option_high" msgid="2617496842852992853">"Rezolucion i lartë"</string>
+    <string name="screen_resolution_option_high" msgid="2617496842852992853">"Rezolucioni i lartë"</string>
     <string name="screen_resolution_option_full" msgid="4456839315039000517">"Rezolucioni maksimal"</string>
     <string name="screen_resolution_footer" msgid="1230761249204935717">"Rezolucioni maksimal përdor më shumë bateri. Ndryshimi i rezolucionit mund të shkaktojë rinisjen e disa aplikacioneve."</string>
     <string name="screen_resolution_delimiter_a11y" msgid="5826162120538795842">"<xliff:g id="WIDTH">%1$s</xliff:g> me <xliff:g id="HEIGHT">%2$s</xliff:g>"</string>
@@ -1682,14 +1682,14 @@
     <string name="main_clear_progress_text" msgid="4636695115176327972">"Qëndro në pritje…"</string>
     <string name="call_settings_title" msgid="2531072044177194164">"Cilësimet e telefonatave"</string>
     <string name="call_settings_summary" msgid="8244293779053318053">"Konfiguro postën zanore, transferimin e telefonatave, telefonatat në pritje dhe ID-në e telefonuesit"</string>
-    <string name="tether_settings_title_usb" msgid="5926474044238409099">"Ndarje përmes USB-së"</string>
+    <string name="tether_settings_title_usb" msgid="5926474044238409099">"Ndarja e internetit përmes USB-së"</string>
     <string name="tether_settings_title_wifi" msgid="4327056146425282159">"Zona e qasjes e lëvizshme"</string>
     <string name="tether_settings_title_bluetooth" msgid="8878813702520141084">"Ndarje interneti përmes Bluetooth-it"</string>
     <string name="tether_settings_title_usb_bluetooth" msgid="4437274151658505496">"Ndarja e internetit"</string>
     <string name="tether_settings_title_all" msgid="6807525590937697228">"Zona e qasjes dhe ndarja e internetit"</string>
     <string name="tether_settings_summary_hotspot_on_tether_on" msgid="6110241048260139633">"Zona e qasjes së internetit aktive, interneti po ndahet"</string>
     <string name="tether_settings_summary_hotspot_on_tether_off" msgid="5057598961245943644">"Zona e qasjes së internetit aktive"</string>
-    <string name="tether_settings_summary_hotspot_off_tether_on" msgid="7181518138494995888">"Ndarja e internetit"</string>
+    <string name="tether_settings_summary_hotspot_off_tether_on" msgid="7181518138494995888">"Interneti po ndahet"</string>
     <string name="tether_settings_disabled_on_data_saver" msgid="9054069463426952689">"Nuk mund të ndajë internetin ose të përdorë zonat e qasjes në internet kur \"Kursyesi i të dhënave\" është aktiv"</string>
     <string name="tether_settings_summary_hotspot_only" msgid="8529008147731140279">"Vetëm zona e qasjes për internet"</string>
     <string name="tether_settings_summary_usb_tethering_only" msgid="6351624505239356221">"Vetëm USB"</string>
@@ -1708,7 +1708,7 @@
     <string name="tether_settings_summary_all" msgid="7565193614882005775">"Zona e qasjes së internetit, USB, Bluetooth, eternet"</string>
     <string name="tether_settings_summary_off" msgid="2526164899130351968">"Interneti nuk ndahet me pajisje të tjera"</string>
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"Joaktive"</string>
-    <string name="usb_tethering_button_text" msgid="7364633823180913777">"Ndarje interneti përmes USB-së"</string>
+    <string name="usb_tethering_button_text" msgid="7364633823180913777">"Ndarja e internetit përmes USB-së"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"Ndarje interneti përmes Bluetooth-it"</string>
     <string name="ethernet_ip_address" msgid="4218340787862242573">"Adresa IP"</string>
     <string name="ethernet_mac_address_title" msgid="3235879195237611007">"Adresa MAC"</string>
@@ -2240,7 +2240,7 @@
     <string name="screen_reader_category_title" msgid="5825700839731107803">"Lexuesi i ekranit"</string>
     <string name="keyboard_category_title" msgid="6841712758039893220">"Opsionet e tastierës fizike"</string>
     <string name="captions_category_title" msgid="574490148949400274">"Titrat"</string>
-    <string name="audio_category_title" msgid="5283853679967605826">"Audio"</string>
+    <string name="audio_category_title" msgid="5283853679967605826">"Audioja"</string>
     <string name="general_category_title" msgid="6298579528716834157">"Të përgjithshme"</string>
     <string name="display_category_title" msgid="6638191682294461408">"Ekrani"</string>
     <string name="accessibility_color_and_motion_title" msgid="2323301706545305874">"Ngjyra dhe lëvizja"</string>
@@ -4802,7 +4802,7 @@
     <string name="storage_files" msgid="7968460921272772299">"Skedarët"</string>
     <string name="storage_images" msgid="2055893015567979387">"Imazhet"</string>
     <string name="storage_videos" msgid="6117698226447251033">"Videot"</string>
-    <string name="storage_audio" msgid="5994664984472140386">"Audio"</string>
+    <string name="storage_audio" msgid="5994664984472140386">"Audioja"</string>
     <string name="storage_documents" msgid="7873134307844320096">"Dokumentet"</string>
     <string name="storage_other" msgid="7922190148479988838">"Tjetër"</string>
     <string name="storage_apps" msgid="3564291603258795216">"Aplikacionet"</string>

@@ -851,22 +851,22 @@
 
 </xliff:g>Kontaktløs betaling vil ikke være tilgængelig.<xliff:g id="EMPTY_LINE_1">
 
-</xliff:g>Wallet, Google Pay og andre apps, der kræver godkendelse, vil muligvis ikke fungere efter hensigten."</string>
+</xliff:g>Wallet, betalingsapps og andre apps, der kræver godkendelse, vil muligvis ikke fungere efter hensigten."</string>
     <string name="unlock_disable_frp_warning_content_fingerprint_authbound_keys" msgid="7158076544627335461">"Din skærmlås og fingeroplåsning fjernes.<xliff:g id="EMPTY_LINE_0">
 
 </xliff:g>Kontaktløs betaling vil ikke være tilgængelig.<xliff:g id="EMPTY_LINE_1">
 
-</xliff:g>Wallet, Payments og andre apps, der kræver godkendelse, vil muligvis ikke fungere efter hensigten."</string>
+</xliff:g>Wallet, betalingsapps og andre apps, der kræver godkendelse, vil muligvis ikke fungere efter hensigten."</string>
     <string name="unlock_disable_frp_warning_content_face_authbound_keys" msgid="8120786951217029818">"Din skærmlås og ansigtsoplåsning fjernes.<xliff:g id="EMPTY_LINE_0">
 
 </xliff:g>Kontaktløs betaling vil ikke være tilgængelig.<xliff:g id="EMPTY_LINE_1">
 
-</xliff:g>Wallet, Payments og andre apps, der kræver godkendelse, vil muligvis ikke fungere efter hensigten."</string>
+</xliff:g>Wallet, betalingsapps og andre apps, der kræver godkendelse, vil muligvis ikke fungere efter hensigten."</string>
     <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys" msgid="1574263040292024543">"Din skærmlås, ansigtsoplåsning og fingeroplåsning fjernes.<xliff:g id="EMPTY_LINE_0">
 
 </xliff:g>Kontaktløs betaling vil ikke være tilgængelig.<xliff:g id="EMPTY_LINE_1">
 
-</xliff:g>Wallet, Payments og andre apps, der kræver godkendelse, vil muligvis ikke fungere efter hensigten."</string>
+</xliff:g>Wallet, betalingsapps og andre apps, der kræver godkendelse, vil muligvis ikke fungere efter hensigten."</string>
     <string name="unlock_disable_frp_warning_ok" msgid="6173427638951230842">"Slet"</string>
     <string name="unlock_footer_high_complexity_requested" msgid="4471274783909915352">"<xliff:g id="APP_NAME">%1$s</xliff:g> anbefaler en stærk pinkode eller adgangskode og fungerer muligvis ikke som forventet uden en af disse"</string>
     <string name="unlock_footer_medium_complexity_requested" msgid="5515870066751600640">"<xliff:g id="APP_NAME">%1$s</xliff:g> anbefaler en ny pinkode eller adgangskode og fungerer muligvis ikke som forventet uden en af disse"</string>
@@ -2483,7 +2483,7 @@
     <string name="accessibility_autoclick_seekbar_desc" msgid="8363959277814621118">"Varighed af automatisk klik"</string>
     <string name="accessibility_vibration_settings_title" msgid="936301142478631993">"Vibration og haptik"</string>
     <string name="accessibility_vibration_settings_summary" msgid="3690308537483465527">"Tilpas vibrationsstyrken til forskellige brugsformer"</string>
-    <string name="accessibility_vibration_settings_state_on" msgid="5566026932372832502">"Aktiveret"</string>
+    <string name="accessibility_vibration_settings_state_on" msgid="5566026932372832502">"Til"</string>
     <string name="accessibility_vibration_settings_state_off" msgid="7946588741954981703">"Deaktiveret"</string>
     <string name="accessibility_vibration_setting_disabled_for_silent_mode_summary" msgid="3982701772953323190">"Indstillingen er deaktiveret, fordi enheden er sat på lydløs"</string>
     <string name="accessibility_call_vibration_category_title" msgid="2545607568768192318">"Opkald"</string>
@@ -2552,7 +2552,7 @@
     <string name="accessibility_hac_mode_title" msgid="2037950424429555652">"Høreapparatskompatibilitet"</string>
     <string name="accessibility_hac_mode_summary" msgid="5198760061256669067">"Forbedrer kompatibiliteten med teleslynge og reducerer uønsket støj"</string>
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"Om høreapparater"</string>
-    <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"Hvis du vil finde andre høreapparater, der ikke understøttes af ASHA eller LE-lyd, skal du trykke på &lt;b&gt;Par ny enhed&lt;/b&gt; &gt; &lt;b&gt;Se flere enheder &lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"Hvis du vil finde andre høreapparater, der ikke understøttes af ASHA eller LE-lyd, skal du trykke på &lt;b&gt;Par en ny enhed&lt;/b&gt; &gt; &lt;b&gt;Se flere enheder &lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"Hvis du vil finde andre høreapparater, der ikke understøttes af ASHA eller LE-lyd, skal du trykke på "<b>"Par ny enhed"</b>" og derefter "<b>"Se flere enheder"</b></string>
     <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"Hvis du vil finde andre høreapparater, der ikke understøttes af ASHA, skal du trykke på &lt;b&gt;Par ny enhed&lt;/b&gt; &gt; &lt;b&gt;Se flere enheder&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"Hvis du vil finde andre høreapparater, der ikke understøttes af ASHA, skal du trykke på "<b>"Par ny enhed"</b>" og derefter "<b>"Se flere enheder"</b></string>
@@ -4299,7 +4299,7 @@
     <string name="usb_use_file_transfers" msgid="483915710802018503">"Filoverførsel"</string>
     <string name="usb_use_photo_transfers" msgid="4641181628966036093">"PTP"</string>
     <string name="usb_use_uvc_webcam" msgid="6595429508472038732">"Webcam"</string>
-    <string name="usb_transcode_files" msgid="2441954752105119109">"Konverter videoer til AVC"</string>
+    <string name="usb_transcode_files" msgid="2441954752105119109">"Konvertér videoer til AVC"</string>
     <string name="usb_transcode_files_summary" msgid="307102635711961513">"Videoer afspilles på flere medieafspillere, men dette kan gå ud over kvaliteten."</string>
     <string name="usb_use_tethering" msgid="2897063414491670531">"Netdeling via USB"</string>
     <string name="usb_use_MIDI" msgid="8621338227628859789">"MIDI"</string>

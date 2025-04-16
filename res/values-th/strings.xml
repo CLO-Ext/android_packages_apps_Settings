@@ -708,12 +708,12 @@
     <string name="private_space_setup_title" msgid="2272968244329821450">"พื้นที่ส่วนตัว"</string>
     <string name="private_space_hide_apps_summary" msgid="4418722947376042418">"ซ่อนหรือล็อกแอปส่วนตัวในพื้นที่แยกต่างหาก ใช้บัญชี Google ที่เฉพาะเจาะจงเพื่อเพิ่มความปลอดภัย"</string>
     <string name="private_space_setup_sub_header" msgid="550476876393954356">"วิธีการทำงาน"</string>
-    <string name="private_space_separate_account_text" msgid="790319706810190320"><b>"สร้างบัญชี Google สำหรับพื้นที่ทำงานของคุณ"</b>\n"หากคุณใช้บัญชีเพื่อการดำเนินการนี้โดยเฉพาะ ก็จะช่วยป้องกันไม่ให้ไฟล์ รูปภาพ และอีเมลที่ซิงค์ไว้ปรากฏนอกพื้นที่ทำงานได้"</string>
+    <string name="private_space_separate_account_text" msgid="790319706810190320"><b>"สร้างบัญชี Google สำหรับพื้นที่ของคุณ"</b>\n"หากคุณใช้บัญชีเพื่อการดำเนินการนี้โดยเฉพาะ ก็จะช่วยป้องกันไม่ให้ไฟล์ รูปภาพ และอีเมลที่ซิงค์ไว้ปรากฏนอกพื้นที่ได้"</string>
     <string name="private_space_protected_lock_text" msgid="9123250938334372735"><b>"ตั้งค่าการล็อก"</b>\n"ล็อกพื้นที่ของคุณไม่ให้คนอื่นเปิดได้"</string>
-    <string name="private_space_install_apps_text" msgid="8072027796190028830"><b>"ติดตั้งแอป"</b>\n"ติดตั้งแอปที่คุณต้องการเก็บไว้เป็นส่วนตัวในพื้นที่ทำงาน"</string>
+    <string name="private_space_install_apps_text" msgid="8072027796190028830"><b>"ติดตั้งแอป"</b>\n"ติดตั้งแอปที่คุณต้องการเก็บไว้เป็นส่วนตัวในพื้นที่"</string>
     <string name="private_space_keep_in_mind_text" msgid="7721081172657563800">"ข้อควรจำ"</string>
-    <string name="private_space_apps_stopped_text" msgid="4034574118911250169"><b>"แอปหยุดทำงานเมื่อคุณล็อกพื้นที่ทำงาน"</b>\n"เมื่อคุณล็อกพื้นที่ทำงาน จะทำให้แอปในพื้นที่ทำงานดังกล่าวหยุดทำงานโดยไม่มีการแจ้งเตือนคุณ"</string>
-    <string name="private_space_apps_permission_text" msgid="4416201648436201393">"พื้นที่ส่วนตัวไม่เหมาะสำหรับแอปที่ต้องทำงานเบื้องหลังหรือส่งการแจ้งเตือนที่สำคัญมาก เช่น แอปการแพทย์ เนื่องจากการแจ้งเตือนและกิจกรรมเบื้องหลังจะหยุดเมื่อมีการล็อกพื้นที่\n\nแอปในพื้นที่ส่วนตัวจะไม่ปรากฏในเครื่องมือจัดการสิทธิ์ แดชบอร์ดความเป็นส่วนตัว และการตั้งค่าอื่นๆ เมื่อล็อกพื้นที่ส่วนตัวไว้\n\nคุณย้ายพื้นที่ส่วนตัวไปยังอุปกรณ์ใหม่ไม่ได้ และจะต้องตั้งค่าพื้นที่ส่วนตัวอีกแห่งหากต้องการใช้ในอุปกรณ์เครื่องอื่น\n\nใครก็ตามที่เชื่อมต่ออุปกรณ์ของคุณเข้ากับคอมพิวเตอร์หรือติดตั้งแอปที่เป็นอันตรายในอุปกรณ์ดังกล่าวอาจเข้าถึงพื้นที่ส่วนตัวของคุณได้"</string>
+    <string name="private_space_apps_stopped_text" msgid="4034574118911250169"><b>"แอปหยุดทำงานเมื่อคุณล็อกพื้นที่"</b>\n"เมื่อคุณล็อกพื้นที่ จะทำให้แอปในพื้นที่ดังกล่าวหยุดทำงาน และคุณจะไม่ได้รับการแจ้งเตือนจากแอปนั้นๆ"</string>
+    <string name="private_space_apps_permission_text" msgid="4416201648436201393">"พื้นที่ส่วนตัวไม่เหมาะสำหรับแอปที่ต้องทำงานเบื้องหลังหรือส่งการแจ้งเตือนที่สำคัญมาก เช่น แอปการแพทย์ เนื่องจากการแจ้งเตือนและกิจกรรมเบื้องหลังจะหยุดเมื่อมีการล็อกพื้นที่\n\nแอปในพื้นที่ส่วนตัวจะไม่ปรากฏในเครื่องมือจัดการสิทธิ์ ​แดชบอร์ดความเป็นส่วนตัว และการตั้งค่าอื่นๆ เมื่อล็อกพื้นที่ส่วนตัวไว้\n\nคุณย้ายพื้นที่ส่วนตัวไปยังอุปกรณ์ใหม่ไม่ได้ และจะต้องตั้งค่าพื้นที่ส่วนตัวอีกแห่งหากต้องการใช้ในอุปกรณ์เครื่องอื่น\n\nใครก็ตามที่เชื่อมต่ออุปกรณ์ของคุณเข้ากับคอมพิวเตอร์หรือติดตั้งแอปที่เป็นอันตรายในอุปกรณ์ดังกล่าวอาจเข้าถึงพื้นที่ส่วนตัวของคุณได้"</string>
     <string name="private_space_settings_footer_text" msgid="3742468470394835356">"พื้นที่ส่วนตัวไม่เหมาะสำหรับแอปที่ต้องทำงานเบื้องหลังหรือส่งการแจ้งเตือนที่สำคัญมาก เช่น แอปการแพทย์ เนื่องจากการแจ้งเตือนและกิจกรรมเบื้องหลังจะหยุดเมื่อมีการล็อกพื้นที่\n\nแอปในพื้นที่ส่วนตัวจะไม่ปรากฏในเครื่องมือจัดการสิทธิ์ แดชบอร์ดความเป็นส่วนตัว และการตั้งค่าอื่นๆ เมื่อล็อกพื้นที่ส่วนตัวไว้\n\nคุณคืนค่าพื้นที่ส่วนตัวไปยังอุปกรณ์ใหม่ไม่ได้ และจะต้องตั้งค่าพื้นที่อีกแห่งหากต้องการใช้ในอุปกรณ์เครื่องอื่น\n\nใครก็ตามที่เชื่อมต่ออุปกรณ์ของคุณเข้ากับคอมพิวเตอร์หรือติดตั้งแอปที่เป็นอันตรายในอุปกรณ์ดังกล่าวอาจเข้าถึงพื้นที่ส่วนตัวของคุณได้"</string>
     <string name="private_space_learn_more_text" msgid="5314198983263277586">"ดูข้อมูลเพิ่มเติมเกี่ยวกับพื้นที่ส่วนตัว"</string>
     <string name="private_space_few_moments_text" msgid="7166883272914424011">"การดำเนินการนี้จะใช้เวลาสักครู่"</string>
@@ -1717,7 +1717,7 @@
     <string name="ethernet_network_usage" msgid="3795965384177426780">"การใช้งานเครือข่าย"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"เชื่อมต่ออินเทอร์เน็ตผ่านอีเทอร์เน็ต"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"ใช้ฮอตสปอตและการเชื่อมต่ออินเทอร์เน็ตผ่านมือถือเพื่อให้อุปกรณ์อื่นๆ ใช้อินเทอร์เน็ตจากการเชื่อมต่ออินเทอร์เน็ตของคุณได้ แอปยังสร้างฮอตสปอตเพื่อแชร์เนื้อหากับอุปกรณ์ที่อยู่ใกล้เคียงได้ด้วย"</string>
-    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"ใช้ฮอตสปอตและการเชื่อมต่ออินเทอร์เน็ตผ่านมือถือเพื่อ⁠ให้⁠อุ⁠ป⁠ก⁠ร⁠ณ์อื่นๆ ใช้อินเทอร์เน็ตจาก Wi-Fi หรือการเชื่อมต่ออินเทอร์เน็ตมือถือของคุณได้ แอปยังสร้างฮอตสปอตเพื่อแชร์เนื้อหากับอุปกรณ์ที่อยู่ใกล้เคียงได้อีกด้วย"</string>
+    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"ใช้ฮอตสปอตและการเชื่อมต่ออินเทอร์เน็ตผ่านมือถือเพื่อ⁠ให้⁠อุ⁠ป⁠ก⁠ร⁠ณ์อื่นๆ ใช้อินเทอร์เน็ตจาก Wi-Fi หรือการเชื่อมต่ออินเทอร์เน็ตมือถือของคุณได้ แอปยังสร้าง​ฮอตสปอตเพื่อแชร์เนื้อหากับอุปกรณ์ที่อยู่ใกล้เคียงได้อีกด้วย"</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"ความช่วยเหลือ"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"เครือข่ายมือถือ"</string>
     <string name="sms_application_title" msgid="4791107002724108809">"แอป SMS"</string>
@@ -2415,7 +2415,7 @@
     <string name="accessibility_button_about_title" msgid="3581116105084067926">"เกี่ยวกับปุ่มการช่วยเหลือพิเศษ"</string>
     <string name="accessibility_button_gesture_about_title" msgid="8468987303602865536">"เกี่ยวกับปุ่มการช่วยเหลือพิเศษและท่าทางสัมผัส"</string>
     <string name="accessibility_button_gesture_footer_learn_more_content_description" msgid="4144803517680297869">"ดูข้อมูลเพิ่มเติมเกี่ยวกับปุ่มการช่วยเหลือพิเศษและท่าทางสัมผัส"</string>
-    <string name="accessibility_button_intro" msgid="2601976470525277903">"กำลังใช้ปุ่มการช่วยเหลือพิเศษ ท่าทางสัมผัสดังกล่าวใช้กับการนำทางแบบ 3 ปุ่มไม่ได้"</string>
+    <string name="accessibility_button_intro" msgid="2601976470525277903">"กำลังใช้ปุ่มการช่วยเหลือพิเศษ ท่าทางสัมผัสดังกล่าวใช้กับการไปยังส่วนต่างๆ แบบ 3 ปุ่มไม่ได้"</string>
     <string name="accessibility_button_summary" msgid="8510939012631455831">"เข้าถึงฟีเจอร์การช่วยเหลือพิเศษได้อย่างรวดเร็ว"</string>
     <string name="accessibility_button_gesture_description" msgid="1141723096904904336">"&lt;b&gt;วิธีเริ่มต้น&lt;/b&gt;&lt;br/&gt; {0,number,integer} ไปที่การตั้งค่าการช่วยเหลือพิเศษ&lt;br/&gt; {1,number,integer} เลือกฟีเจอร์และแตะทางลัด&lt;br/&gt; {2,number,integer} เลือกว่าต้องการใช้ปุ่มหรือท่าทางสัมผัสเพื่อเข้าถึงฟีเจอร์&lt;br/&gt;"</string>
     <string name="accessibility_button_description" msgid="7669538706120092399">"&lt;b&gt;วิธีเริ่มต้น&lt;/b&gt;&lt;br/&gt; {0,number,integer} ไปที่การตั้งค่าการช่วยเหลือพิเศษ&lt;br/&gt; {1,number,integer} เลือกฟีเจอร์และแตะทางลัด&lt;br/&gt; {2,number,integer} เลือกปุ่มสำหรับการเข้าถึงฟีเจอร์&lt;br/&gt;"</string>
@@ -2577,8 +2577,8 @@
     <string name="accessibility_description_state_stopped" msgid="5364752492861199133">"บริการนี้ทำงานผิดปกติ"</string>
     <string name="accessibility_shortcuts_settings_title" msgid="974740249671825145">"ทางลัดสำหรับการช่วยเหลือพิเศษ"</string>
     <string name="enable_quick_setting" msgid="6648073323202243604">"แสดงในการตั้งค่าด่วน"</string>
-    <string name="daltonizer_mode_deuteranomaly_title" msgid="3229433065035047931">"สีแดง-เขียว เห็นสีเขียวได้น้อย"</string>
-    <string name="daltonizer_mode_protanomaly_title" msgid="2572040492905945405">"สีแดง-เขียว เห็นสีแดงได้น้อย"</string>
+    <string name="daltonizer_mode_deuteranomaly_title" msgid="3229433065035047931">"สีแดง/เขียว เห็นสีเขียวได้น้อย"</string>
+    <string name="daltonizer_mode_protanomaly_title" msgid="2572040492905945405">"สีแดง/เขียว เห็นสีแดงได้น้อย"</string>
     <string name="daltonizer_mode_tritanomaly_title" msgid="2278786218762602022">"สีน้ำเงิน/เหลือง"</string>
     <string name="daltonizer_mode_grayscale_title" msgid="152005391387952588">"โทนสีเทา"</string>
     <string name="daltonizer_saturation_title" msgid="2999486412114963068">"ความเข้ม"</string>
@@ -2935,7 +2935,7 @@
     <string name="vpn_settings_single_insecure_multiple_total" msgid="6107225844641301139">"ไม่ปลอดภัย <xliff:g id="VPN_COUNT">%d</xliff:g> รายการ"</string>
     <string name="vpn_settings_multiple_insecure_multiple_total" msgid="1706236062478680488">"ไม่ปลอดภัย <xliff:g id="VPN_COUNT">%d</xliff:g> รายการ"</string>
     <string name="adaptive_connectivity_title" msgid="7464959640138428192">"การเชื่อมต่อแบบปรับอัตโนมัติ"</string>
-    <string name="adaptive_connectivity_summary" msgid="3648731530666326885">"เพิ่มอายุการใช้งานแบตเตอรี่และปรับปรุงประสิทธิภาพของอุปกรณ์ด้วยการจัดการการเชื่อมต่อเครือข่ายโดยอัตโนมัติ"</string>
+    <string name="adaptive_connectivity_summary" msgid="3648731530666326885">"เพิ่มระยะเวลาการใช้งานแบตเตอรี่และปรับปรุงประสิทธิภาพของอุปกรณ์ด้วยการจัดการการเชื่อมต่อเครือข่ายโดยอัตโนมัติ"</string>
     <string name="adaptive_connectivity_switch_on" msgid="3653067561620745493">"เปิด"</string>
     <string name="adaptive_connectivity_switch_off" msgid="5076172560836115265">"ปิด"</string>
     <string name="adaptive_connectivity_main_switch_title" msgid="261045483524512420">"ใช้การเชื่อมต่อแบบปรับอัตโนมัติ"</string>
@@ -4655,11 +4655,11 @@
     <string name="emergency_settings_preference_title" msgid="6183455153241187148">"ความปลอดภัยและเหตุฉุกเฉิน"</string>
     <string name="emergency_dashboard_summary" msgid="401033951074039302">"SOS ฉุกเฉิน, ข้อมูลทางการแพทย์, การแจ้งเตือน"</string>
     <string name="edge_to_edge_navigation_title" msgid="714427081306043819">"การไปยังส่วนต่างๆ ด้วยท่าทางสัมผัส"</string>
-    <string name="edge_to_edge_navigation_summary" msgid="818109176611921504">"ไปที่หน้าแรกโดยปัดขึ้นจากด้านล่างของหน้าจอ สลับแอปโดยปัดขึ้นจากด้านล่างค้างไว้แล้วปล่อย กลับโดยปัดจากขอบด้านซ้ายหรือขวา"</string>
-    <string name="legacy_navigation_title" msgid="7877402855994423727">"การนำทางแบบ 3 ปุ่ม"</string>
-    <string name="legacy_navigation_summary" msgid="5905301067778326433">"ย้อนกลับ ไปที่หน้าจอหลัก และสลับแอปโดยใช้ปุ่มที่ด้านล่างของหน้าจอ"</string>
+    <string name="edge_to_edge_navigation_summary" msgid="818109176611921504">"ไปที่หน้าจอหลักโดยปัดขึ้นจากด้านล่างของหน้าจอ เปลี่ยนแอปโดยปัดขึ้นจากด้านล่างค้างไว้แล้วปล่อย ย้อนกลับโดยปัดจากขอบด้านซ้ายหรือขวา"</string>
+    <string name="legacy_navigation_title" msgid="7877402855994423727">"การไปยังส่วนต่างๆ แบบ 3 ปุ่ม"</string>
+    <string name="legacy_navigation_summary" msgid="5905301067778326433">"ย้อนกลับ ไปที่หน้าจอหลัก และเปลี่ยนแอปโดยใช้ปุ่มที่ด้านล่างของหน้าจอ"</string>
     <string name="nav_tutorial_button_description" msgid="7195363082216233970">"เริ่มบทแนะนำการไปยังส่วนต่างๆ ด้วยท่าทางสัมผัส"</string>
-    <string name="keywords_system_navigation" msgid="3131782378486554934">"การนำทางของระบบ, การนำทางแบบ 2 ปุ่ม, การนำทางแบบ 3 ปุ่ม, การนำทางด้วยท่าทางสัมผัส, เลื่อน"</string>
+    <string name="keywords_system_navigation" msgid="3131782378486554934">"การไปยังส่วนต่างๆ ของระบบ, การไปยังส่วนต่างๆ แบบ 2 ปุ่ม, การไปยังส่วนต่างๆ แบบ 3 ปุ่ม, การไปยังส่วนต่างๆ ด้วยท่าทางสัมผัส, ปัด"</string>
     <string name="assistant_gesture_category_title" msgid="2478251256585807920">"ผู้ช่วยดิจิทัล"</string>
     <string name="assistant_corner_gesture_title" msgid="1895061522687002106">"ปัดเพื่อเรียกใช้ผู้ช่วย"</string>
     <string name="assistant_corner_gesture_summary" msgid="5012534700233017955">"ปัดขึ้นจากมุมด้านล่างเพื่อเรียกใช้แอปผู้ช่วยดิจิทัล"</string>
@@ -4671,10 +4671,10 @@
     <string name="right_edge" msgid="1505309103265829121">"ขอบขวา"</string>
     <string name="back_sensitivity_dialog_message" msgid="6638367716784103306">"ความไวที่สูงขึ้นอาจขัดแย้งกับท่าทางสัมผัสของแอปที่บริเวณขอบหน้าจอ"</string>
     <string name="back_sensitivity_dialog_title" msgid="6153608904168908264">"ความไวต่อการเลื่อนกลับ"</string>
-    <string name="gesture_settings_activity_title" msgid="1882463161833981820">"การนำทางด้วยท่าทางสัมผัส"</string>
+    <string name="gesture_settings_activity_title" msgid="1882463161833981820">"การไปยังส่วนต่างๆ ด้วยท่าทางสัมผัส"</string>
     <string name="gesture_navigation_tutorial_title" msgid="1605955266131665429">"ลองใช้การสาธิต"</string>
     <string name="button_navigation_settings_activity_title" msgid="7335636045504461813">"การไปยังส่วนต่างๆ ด้วยปุ่ม"</string>
-    <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"การนำทางด้วยท่าทางสัมผัส ความไวต่อการเลื่อนกลับ ท่าทางสัมผัสการย้อนกลับ"</string>
+    <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"การไปยังส่วนต่างๆ ด้วยท่าทางสัมผัส ความไวต่อการเลื่อนกลับ ท่าทางสัมผัสสำหรับย้อนกลับ"</string>
     <string name="keywords_button_navigation_settings" msgid="7888812253110553920">"การไปยังส่วนต่างๆ, ปุ่มหน้าแรก"</string>
     <string name="one_handed_title" msgid="2584414010282746195">"โหมดมือเดียว"</string>
     <string name="one_handed_mode_enabled" msgid="3396864848786359651">"ใช้โหมดมือเดียว"</string>
