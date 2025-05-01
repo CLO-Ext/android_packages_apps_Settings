@@ -5080,7 +5080,7 @@
     <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"آپ کے فون پر تعاون یافتہ ایپس"</string>
     <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"سبھی ایپس دیکھیں"</string>
     <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"آپ کے فون پر تعاون یافتہ ایپس"</string>
-    <string name="title_satellite_dialog_for_sim_restriction" msgid="454718192423216397">"‏کوئی SIM سامل نہیں کر سکتے"</string>
+    <string name="title_satellite_dialog_for_sim_restriction" msgid="454718192423216397">"‏کوئی SIM شامل نہیں کر سکتے"</string>
     <string name="description_satellite_dialog_for_sim_restriction" msgid="5465487347427595435">"‏‫SIM شامل کرنے سے پہلے سیٹلائٹ کنکشن ختم کر دیں"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"رسائی کی جگہ کے نام"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>

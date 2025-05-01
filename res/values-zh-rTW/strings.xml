@@ -468,7 +468,7 @@
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"指紋辨識失敗"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"智慧手錶解鎖"</string>
     <string name="security_settings_activeunlock" msgid="8922823742770802651">"觀看"</string>
-    <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"設定「人臉解鎖」和「指紋解鎖」功能後，如果你戴口罩或人在光線昏暗的環境，手機會要求你使用指紋解鎖。\n\n如要解鎖這支手機，「智慧手錶解鎖」功能也很方便。舉例來說，手指有水或臉部辨識失敗時，使用智慧手錶即可輕鬆解鎖。"</string>
+    <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"設定「人臉解鎖」和「指紋解鎖」功能後，如果你戴口罩或人在光線昏暗的環境，手機會要求你使用指紋解鎖。\n\n需要解鎖手機時，「智慧手錶解鎖」功能也很方便。舉例來說，如果手指有水或臉部辨識失敗，使用智慧手錶即可輕鬆解鎖。"</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"如要解鎖這支手機，「智慧手錶解鎖」功能也很方便。舉例來說，指紋辨識失敗時，使用智慧手錶即可輕鬆解鎖。"</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"如要解鎖這支手機，「智慧手錶解鎖」功能也很方便。舉例來說，臉部辨識失敗時，使用智慧手錶即可輕鬆解鎖。"</string>
     <string name="biometric_settings_use_fingerprint_or_watch_for" msgid="1160830065613858095">"使用指紋或智慧手錶"</string>
@@ -708,7 +708,7 @@
     <string name="private_space_setup_title" msgid="2272968244329821450">"私人空間"</string>
     <string name="private_space_hide_apps_summary" msgid="4418722947376042418">"將私人應用程式隱藏或鎖定於獨立的空間，並搭配專用的 Google 帳戶，安全更有保障。"</string>
     <string name="private_space_setup_sub_header" msgid="550476876393954356">"運作方式"</string>
-    <string name="private_space_separate_account_text" msgid="790319706810190320"><b>"建立私人空間專屬 Google 帳戶"</b>\n"使用專屬帳戶，可避免已同步處理的檔案、相片和電子郵件出現在空間外面"</string>
+    <string name="private_space_separate_account_text" msgid="790319706810190320"><b>"建立私人空間專屬 Google 帳戶"</b>\n"使用專屬帳戶，可避免已同步的檔案、相片和電子郵件出現在此空間以外的地方"</string>
     <string name="private_space_protected_lock_text" msgid="9123250938334372735"><b>"設定鎖定功能"</b>\n"鎖定私人空間，禁止其他使用者開啟"</string>
     <string name="private_space_install_apps_text" msgid="8072027796190028830"><b>"安裝應用程式"</b>\n"在空間中安裝想保密的應用程式"</string>
     <string name="private_space_keep_in_mind_text" msgid="7721081172657563800">"注意事項"</string>
@@ -1856,7 +1856,7 @@
     <string name="lockpattern_change_lock_pin_label" msgid="7327409886587802756">"變更解鎖 PIN"</string>
     <string name="lockpattern_recording_intro_header" msgid="8325736706877916560">"畫出解鎖圖案"</string>
     <string name="lockpattern_recording_intro_footer" msgid="2656868858594487197">"請按 [Menu] 以取得說明。"</string>
-    <string name="lockpattern_recording_inprogress" msgid="7268008332694009191">"完成時請移開手指"</string>
+    <string name="lockpattern_recording_inprogress" msgid="7268008332694009191">"完成後請移開手指"</string>
     <string name="lockpattern_recording_incorrect_too_short" msgid="3351522018450593723">"圖案至少需連接 <xliff:g id="NUMBER">%d</xliff:g> 點，請再試一次。"</string>
     <string name="lockpattern_pattern_entered_header" msgid="7709618312713127249">"圖案已記錄"</string>
     <string name="lockpattern_need_to_confirm" msgid="6489499109451714360">"請再畫一次剛剛的圖案，以完成確認程序"</string>
@@ -3118,7 +3118,7 @@
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"你必須先設定行動數據用量上限，才能限制背景資料。"</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"開啟資料自動同步功能？"</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"關閉資料自動同步功能？"</string>
-    <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"這樣可以節省數據用量和電池用量，但你必須手動同步處理每個帳戶才能收集最新資訊。此外，你也不會收到最新動態的通知。"</string>
+    <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"可節省數據和電池用量，但你必須手動同步每個帳戶才能收集最新資訊，而且也不會收到最新動態的通知。"</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"用量週期重設日期"</string>
     <string name="data_usage_cycle_editor_subtitle" msgid="1026234456777365545">"每月固定日期："</string>
     <string name="data_usage_cycle_editor_positive" msgid="6110165528024717527">"儲存設定"</string>
@@ -3639,7 +3639,7 @@
     <string name="mode_wallpaper_summary" msgid="665480011615603784">"變更桌布亮度"</string>
     <string name="mode_dark_theme_title" msgid="8099007897943513209">"啟用深色主題"</string>
     <string name="mode_dark_theme_title_secondary_list" msgid="4761262694149772845">"啟用深色主題"</string>
-    <string name="mode_dark_theme_summary" msgid="2808149708986602464">"將裝置主題切換成深色背景，讓眼睛輕鬆不吃力"</string>
+    <string name="mode_dark_theme_summary" msgid="2808149708986602464">"將裝置主題切換成深色背景，減輕雙眼負擔"</string>
     <string name="mode_display_settings_summary" msgid="5929234706883482380">"{count,plural,offset:2 =0{沒有顯示變更}=1{{effect_1}}=2{{effect_1}和{effect_2}}=3{{effect_1}、{effect_2}和{effect_3}}other{{effect_1}、{effect_2}和另外 # 個設定}}"</string>
     <string name="zen_mode_allow_all_notifications" msgid="7300894425550960390">"允許所有通知"</string>
     <string name="zen_mode_all_notifications_allowed" msgid="7612213309293552413">"可接受來自使用者、應用程式和音效的干擾"</string>
@@ -3742,7 +3742,7 @@
     <string name="notification_history" msgid="8663811361243456201">"通知記錄"</string>
     <string name="notification_history_toggle" msgid="9093762294928569030">"使用通知記錄"</string>
     <string name="notification_history_off_title_extended" msgid="853807652537281601">"通知記錄已關閉"</string>
-    <string name="notification_history_off_summary" msgid="671359587084797617">"開啟通知記錄即可查看近期通知和已延後的通知"</string>
+    <string name="notification_history_off_summary" msgid="671359587084797617">"開啟通知記錄，即可查看近期通知和已延後的通知"</string>
     <string name="history_toggled_on_title" msgid="4518001110492652830">"沒有近期通知"</string>
     <string name="history_toggled_on_summary" msgid="9034278971358282728">"近期通知和已延後的通知會顯示在這裡"</string>
     <string name="notification_history_view_settings" msgid="5269317798670449002">"查看通知設定"</string>
@@ -3877,7 +3877,7 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"無"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"最近沒有已安裝的應用程式要求「通知」存取權。"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"授予通知存取權"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"在 Android 12 中，加強型通知功能已取代 Android 自動調整通知。這項功能可以顯示建議的操作和回覆內容，也可以幫你整理通知訊息。\n\n加強型通知功能可存取通知內容，包括聯絡人名稱和訊息內文等個人資訊。此外，這項功能還能關閉或回覆通知，例如接聽來電及控管「零打擾」功能。"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"在 Android 12 中，加強型通知功能已取代 Android 自動調整通知，會顯示建議的操作和回覆內容，也可以幫你整理通知訊息。\n\n加強型通知功能可存取通知內容，包括聯絡人名稱和訊息內文等個人資訊；此外，還能關閉或回覆通知，例如接聽來電及控管「零打擾」功能。"</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"要授予「<xliff:g id="SERVICE">%1$s</xliff:g>」通知存取權嗎？"</string>
     <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"「<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>」應用程式將可讀取所有通知 (包括聯絡人姓名、相片和你收到的訊息文字等個人資訊)，也可延後或關閉通知，更可在通知中操作按鈕 (包括接聽電話)。\n\n此外，這個應用程式還可開啟或關閉「零打擾」功能及變更相關設定。"</string>
     <string name="nls_warning_prompt" msgid="1486887096703743841">"「<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>」應用程式將可執行以下操作："</string>
@@ -4145,12 +4145,12 @@
     <string name="zen_mode_action_enable" msgid="1161480633223176531">"啟用"</string>
     <string name="zen_mode_blurb_schedule_time" msgid="8223898702097484009">"設定按照固定時段啟用的模式"</string>
     <string name="zen_mode_blurb_schedule_calendar" msgid="382177907856065945">"設定可同步處理日曆活動和邀請回覆的模式"</string>
-    <string name="zen_mode_blurb_bedtime" msgid="6155075956151013457">"設計能平靜身心的日常休眠安排，包括設定鬧鐘、調暗螢幕及封鎖通知。"</string>
+    <string name="zen_mode_blurb_bedtime" msgid="6155075956151013457">"設定鬧鐘、調暗螢幕並封鎖通知，透過日常睡眠安排來平靜身心。"</string>
     <string name="zen_mode_blurb_driving" msgid="1316054379000667305">"優先考量行車安全，在駕駛時保持專注且不受干擾"</string>
     <string name="zen_mode_blurb_immersive" msgid="5884004861848687869">"封鎖來自裝置的干擾，保持專注"</string>
     <string name="zen_mode_blurb_theater" msgid="2999237960059524225">"消除所有干擾，打造安靜的環境"</string>
     <string name="zen_mode_blurb_managed" msgid="5473921634985032149">"為不同使用者打造個人化裝置體驗及調整設定"</string>
-    <string name="zen_mode_blurb_generic" msgid="3041601339807075625">"僅允許重要的人和應用程式與你聯絡，盡量減少干擾"</string>
+    <string name="zen_mode_blurb_generic" msgid="3041601339807075625">"僅允許來自重要聯絡人和應用程式的通知，盡量減少干擾"</string>
     <string name="zen_mode_inspiration_schedule_time" msgid="5596540503159096153">"設定按照固定時段啟用的模式"</string>
     <string name="zen_mode_inspiration_schedule_calendar" msgid="3678727180860212700">"讓裝置與當天活動保持同步"</string>
     <string name="zen_mode_inspiration_bedtime" msgid="6294822414181670666">"精神飽滿地醒來"</string>
@@ -4631,7 +4631,7 @@
     <string name="managed_profile_contact_search_summary" msgid="4974727886709219105">"IT 管理員或許可以看到你搜尋的內容和來電資訊"</string>
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"跨個人資料日曆"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"在你的個人日曆中顯示工作相關活動"</string>
-    <string name="managed_profile_settings_footer" msgid="996500759305118103">"工作應用程式關閉時將暫停運作，且無法存取或向你傳送通知"</string>
+    <string name="managed_profile_settings_footer" msgid="996500759305118103">"工作應用程式關閉時，將暫停運作且不能開啟，也無法向你傳送通知"</string>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"管理儲存空間"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"儲存空間管理工具會將已備份的相片和影片從裝置中移除，藉此釋出儲存空間。"</string>
     <string name="automatic_storage_manager_days_title" msgid="5077286114860539367">"移除相片和影片"</string>
@@ -4670,7 +4670,7 @@
     <string name="left_edge" msgid="1513576842959071849">"左側邊緣"</string>
     <string name="right_edge" msgid="1505309103265829121">"右側邊緣"</string>
     <string name="back_sensitivity_dialog_message" msgid="6638367716784103306">"如果你調高敏感度，可能會影響螢幕邊緣的應用程式手勢操作。"</string>
-    <string name="back_sensitivity_dialog_title" msgid="6153608904168908264">"系統偵測「返回」手勢的敏感度"</string>
+    <string name="back_sensitivity_dialog_title" msgid="6153608904168908264">"偵測「返回」手勢的敏感度"</string>
     <string name="gesture_settings_activity_title" msgid="1882463161833981820">"手勢操作"</string>
     <string name="gesture_navigation_tutorial_title" msgid="1605955266131665429">"立即試用"</string>
     <string name="button_navigation_settings_activity_title" msgid="7335636045504461813">"按鈕操作"</string>
@@ -5336,7 +5336,7 @@
     <string name="media_controls_show_player" msgid="8504571042365814021">"顯示播放器"</string>
     <string name="keywords_media_controls" msgid="8345490568291778638">"媒體"</string>
     <string name="camera_extensions_fallback_title" msgid="3604579046777004989">"允許相機軟體擴充功能"</string>
-    <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"允許導入預設軟體的進階相機功能，例如 HDR、夜視或其他相機擴充功能。"</string>
+    <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"允許導入預設軟體的進階相機功能，例如 HDR、夜視或其他相機擴充功能"</string>
     <string name="connected_device_see_all_summary" msgid="2056010318537268108">"系統將開啟藍牙"</string>
     <string name="provider_internet_settings" msgid="3831259474776313323">"網際網路"</string>
     <string name="provider_network_settings_title" msgid="2624756136016346774">"SIM 卡"</string>
@@ -5753,7 +5753,7 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"變更 PIN 碼"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"忘記 PIN 碼"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"網路內容篩選器"</string>
-    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Google Chrome 和網路"</string>
+    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Google Chrome 和網站"</string>
     <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"嘗試封鎖內容情色露骨的網站"</string>
     <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"雖然篩選器無法滴水不漏，但仍有助於隱藏內容情色露骨的網站"</string>
     <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"允許瀏覽所有網站"</string>

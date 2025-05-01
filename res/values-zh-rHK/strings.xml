@@ -264,8 +264,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"如果應用程式不支援地區偏好設定，應用程式便會使用其預設語言代碼設定。"</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"進一步瞭解語言偏好設定。"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"十進制"</string>
-    <string name="us_measurement_system" msgid="8406695347890345490">"美國"</string>
-    <string name="uk_measurement_system" msgid="1814065008707689505">"英國"</string>
+    <string name="us_measurement_system" msgid="8406695347890345490">"美制"</string>
+    <string name="uk_measurement_system" msgid="1814065008707689505">"英制"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"其他偏好設定"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"選擇你的稱呼"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"裝置可以將你的稱呼個人化"</string>
@@ -993,7 +993,7 @@
     <string name="wifi_display_settings_title" msgid="6451625615274960175">"投放"</string>
     <string name="keywords_wifi_display_settings" msgid="5753883229564422679">"鏡像"</string>
     <string name="wifi_display_enable_menu_item" msgid="7391841780777318134">"啟用無線螢幕分享"</string>
-    <string name="wifi_display_no_devices_found" msgid="7904877793677102805">"找不到附近的裝置。"</string>
+    <string name="wifi_display_no_devices_found" msgid="7904877793677102805">"附近找不到裝置。"</string>
     <string name="wifi_display_status_connecting" msgid="530880182560077334">"連線中"</string>
     <string name="wifi_display_status_connected" msgid="2189925211258519539">"已連線"</string>
     <string name="wifi_display_status_in_use" msgid="5904009697167947449">"使用中"</string>
@@ -1336,7 +1336,7 @@
     <string name="color_mode_option_natural" msgid="6192875655101283303">"自然"</string>
     <string name="color_mode_option_boosted" msgid="4698797857766774289">"強化"</string>
     <string name="color_mode_option_saturated" msgid="3413853820158447300">"飽和"</string>
-    <string name="color_mode_option_automatic" msgid="2281217686509980870">"自動調整"</string>
+    <string name="color_mode_option_automatic" msgid="2281217686509980870">"自動調節"</string>
     <string name="brightness" msgid="6216871641021779698">"亮度"</string>
     <string name="auto_brightness_title" msgid="4239324728760986697">"自動調校光暗"</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"系統會根據你所在的環境和活動自動調校螢幕光暗。你可以移動滑桿，幫助自動調校光暗功能瞭解你偏好的亮度。"</string>
@@ -1813,9 +1813,9 @@
     <string name="lockpassword_choose_your_password_header_for_face" msgid="622276003801157839">"如要使用「面孔解鎖」，請設定密碼"</string>
     <string name="lockpassword_choose_your_pattern_header_for_face" msgid="7333603579958317102">"如要使用「面孔解鎖」，請設定圖案"</string>
     <string name="lockpassword_choose_your_pin_header_for_face" msgid="704061826984851309">"如要使用「面孔解鎖」，請設定 PIN"</string>
-    <string name="lockpassword_choose_your_password_header_for_biometrics" msgid="2053366309272487015">"設定面孔或指紋解鎖的備用密碼"</string>
+    <string name="lockpassword_choose_your_password_header_for_biometrics" msgid="2053366309272487015">"設定密碼作為面孔或指紋解鎖以外的備用解鎖方式"</string>
     <string name="lockpassword_choose_your_pattern_header_for_biometrics" msgid="4038476475293734905">"設定面孔或指紋解鎖的備用圖案"</string>
-    <string name="lockpassword_choose_your_pin_header_for_biometrics" msgid="9086039918921009380">"設定面孔或指紋解鎖的備用 PIN"</string>
+    <string name="lockpassword_choose_your_pin_header_for_biometrics" msgid="9086039918921009380">"設定 PIN 作為面孔或指紋解鎖以外的備用解鎖方式"</string>
     <string name="lockpassword_forgot_password" msgid="5730587692489737223">"忘記密碼嗎？"</string>
     <string name="lockpassword_forgot_pattern" msgid="1196116549051927516">"要忘記圖案嗎？"</string>
     <string name="lockpassword_forgot_pin" msgid="7164232234705747672">"忘記 PIN 嗎？"</string>
@@ -1856,7 +1856,7 @@
     <string name="lockpattern_change_lock_pin_label" msgid="7327409886587802756">"變更解鎖 PIN"</string>
     <string name="lockpattern_recording_intro_header" msgid="8325736706877916560">"畫出解鎖圖案"</string>
     <string name="lockpattern_recording_intro_footer" msgid="2656868858594487197">"按選單鍵可開啟說明。"</string>
-    <string name="lockpattern_recording_inprogress" msgid="7268008332694009191">"完成時請移開手指"</string>
+    <string name="lockpattern_recording_inprogress" msgid="7268008332694009191">"完成後請移開手指"</string>
     <string name="lockpattern_recording_incorrect_too_short" msgid="3351522018450593723">"圖案至少要連接 <xliff:g id="NUMBER">%d</xliff:g> 點，請再試一次。"</string>
     <string name="lockpattern_pattern_entered_header" msgid="7709618312713127249">"已記錄圖案"</string>
     <string name="lockpattern_need_to_confirm" msgid="6489499109451714360">"請再次畫出圖案以確認"</string>
@@ -3845,7 +3845,7 @@
     <string name="recent_convo_removed" msgid="8686414146325958281">"已移除對話"</string>
     <string name="clear" msgid="5092178335409471100">"清除"</string>
     <string name="clear_conversation" msgid="5564321180363279096">"清除<xliff:g id="CONVERSATION_NAME">%1$s</xliff:g>"</string>
-    <string name="conversation_onboarding_title" msgid="5194559958353468484">"優先對話和已修改的對話會顯示在這裡"</string>
+    <string name="conversation_onboarding_title" msgid="5194559958353468484">"優先對話和修改過的對話會顯示在這裡"</string>
     <string name="conversation_onboarding_summary" msgid="2484845363368486941">"這裡會顯示你標記為優先對話或有其他變更的對話。\n\n如要變更對話設定，請按照下列步驟操作：\n從螢幕頂部向下滑動以開啟下拉式面板，然後輕觸並按住對話。"</string>
     <string name="notification_importance_min_title" msgid="7676541266705442501">"最小化"</string>
     <string name="notification_importance_high_title" msgid="394129291760607808">"在螢幕上彈出"</string>
@@ -4150,7 +4150,7 @@
     <string name="zen_mode_blurb_immersive" msgid="5884004861848687869">"阻擋來自裝置的干擾以提升專注力"</string>
     <string name="zen_mode_blurb_theater" msgid="2999237960059524225">"消除一切干擾，營造一個寧靜的環境"</string>
     <string name="zen_mode_blurb_managed" msgid="5473921634985032149">"個人化裝置體驗和適合不同使用者的設定"</string>
-    <string name="zen_mode_blurb_generic" msgid="3041601339807075625">"只允許重要的人和應用程式與你聯絡，盡量減少干擾"</string>
+    <string name="zen_mode_blurb_generic" msgid="3041601339807075625">"只允許來自重要聯絡人和應用程式的通知，盡量減少干擾"</string>
     <string name="zen_mode_inspiration_schedule_time" msgid="5596540503159096153">"設定模式助你遵從有規律的時間表"</string>
     <string name="zen_mode_inspiration_schedule_calendar" msgid="3678727180860212700">"保持裝置與日常活動同步"</string>
     <string name="zen_mode_inspiration_bedtime" msgid="6294822414181670666">"早上精神 100 分"</string>
@@ -4170,7 +4170,7 @@
     <string name="screen_pinning_switch_on_text" msgid="6971386830247542552">"已開啟"</string>
     <string name="screen_pinning_switch_off_text" msgid="5032105155623003875">"關閉"</string>
     <string name="screen_pinning_title" msgid="6927227272780208966">"固定應用程式"</string>
-    <string name="app_pinning_intro" msgid="6409063008733004245">"應用程式固定功能可讓目前使用的應用程式持續在畫面上顯示，直到你取消固定為止。此功能可讓信任的朋友玩特定遊戲。"</string>
+    <string name="app_pinning_intro" msgid="6409063008733004245">"固定應用程式功能可讓目前使用的應用程式持續在畫面上顯示，直到你取消固定為止。此功能可讓信任的朋友玩特定遊戲。"</string>
     <string name="screen_pinning_description" msgid="5822120806426139396">"固定應用程式後，該應用程式可開啟其他應用程式，亦能存取個人資料。\n\n請按照下列步驟使用固定應用程式功能：	\n{0,number,integer}. 開啟固定應用程式功能 	\n{1,number,integer}. 開啟概覽 	\n{2,number,integer}. 輕按畫面頂部的應用程式圖示，然後輕按 [固定]"</string>
     <string name="screen_pinning_guest_user_description" msgid="2307270321127139579">"固定應用程式後，該應用程式可開啟其他應用程式，亦能存取個人資料。\n\n如要安全地與他人共用裝置，建議你改用訪客使用者。\n\n請按照下列步驟使用固定應用程式功能：	\n{0,number,integer}. 開啟固定應用程式功能 	\n{1,number,integer}. 開啟概覽 	\n{2,number,integer}. 輕按畫面頂部的應用程式圖示，然後輕按 [固定]"</string>
     <string name="screen_pinning_dialog_message" msgid="8144925258679476654">"固定應用程式後：\n\n•	 該應用程式可存取個人資料\n		(例如聯絡人和電郵內容)\n•	 固定的應用程式可開啟其他應用程式\n\n僅與你信任的人使用應用程式固定功能。"</string>
@@ -4834,7 +4834,7 @@
     <string name="credman_autofill_keywords" msgid="701180623776848914">"自動, 填入, 自動填入, 資料, 密鑰, 密碼"</string>
     <string name="credman_button_change" msgid="4072629639218503790">"變更"</string>
     <string name="credman_button_open" msgid="7519871964170816850">"開啟"</string>
-    <string name="credman_app_list_preference_none" msgid="2509646651254971448">"未選取任何項目"</string>
+    <string name="credman_app_list_preference_none" msgid="2509646651254971448">"未選取任何服務"</string>
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;請確定你信任此應用程式&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; 應用程式會根據你畫面上的內容判斷可自動填入的資料。"</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"&lt;b&gt;要使用「&lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt;」嗎？&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; 從現在起，新的密碼、密鑰和其他資料都會儲存在這裡。「&lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt;」可能會根據畫面內容判斷要自動填入的資料。"</string>
     <string name="credman_picker_title" msgid="8442086614222006564">"密碼、密鑰和自動填入的偏好服務"</string>

@@ -713,8 +713,8 @@
     <string name="private_space_install_apps_text" msgid="8072027796190028830"><b>"Установите приложения"</b>\n"Доступ к ним будет только у вас"</string>
     <string name="private_space_keep_in_mind_text" msgid="7721081172657563800">"Важно!"</string>
     <string name="private_space_apps_stopped_text" msgid="4034574118911250169"><b>"Если заблокировать частное пространство, работа приложений в нем остановится"</b>\n"Также перестанут приходить уведомления от них"</string>
-    <string name="private_space_apps_permission_text" msgid="4416201648436201393">"Частное пространство не подходит для приложений, например медицинских, которым необходимо работать в фоновом режиме и отправлять важные уведомления. Когда частное пространство заблокировано, вся фоновая активность в нем остановлена и уведомления не отправляются.\n\nПри этом приложения из него не показываются на экране управления разрешениями, панели управления доступом и в других настройках.\n\nЧастное пространство нельзя перенести на другое устройство, но можно создать новое.\n\nДоступ к частному пространству может получить злоумышленник, если ему удастся установить на устройство вредоносные приложения или подключить его к компьютеру."</string>
-    <string name="private_space_settings_footer_text" msgid="3742468470394835356">"Частное пространство не подходит для приложений, например медицинских, которым необходимо работать в фоновом режиме и отправлять важные уведомления. Когда частное пространство заблокировано, вся фоновая активность в нем остановлена и уведомления не отправляются.\n\nПри этом приложения из него не показываются на экране управления разрешениями, панели управления доступом и в других настройках.\n\nЧастное пространство нельзя восстановить на другом устройстве, но можно создать новое.\n\nДоступ к частному пространству может получить злоумышленник, если ему удастся установить на устройство вредоносные приложения или подключить его к компьютеру."</string>
+    <string name="private_space_apps_permission_text" msgid="4416201648436201393">"Частное пространство не подходит для медицинских и иных приложений, которым необходимо работать в фоновом режиме и отправлять важные уведомления. Если частное пространство заблокировано, вся фоновая активность в нем останавливается и уведомления не отправляются.\n\nПри этом приложения из него не показываются в настройках, в том числе на экране управления разрешениями и панели управления доступом.\n\nНа другом устройстве частное пространство восстановить нельзя, но можно создать новое.\n\nЕсли кто-то установит на устройство вредоносные приложения или подключит его к компьютеру, он может получить доступ к частному пространству."</string>
+    <string name="private_space_settings_footer_text" msgid="3742468470394835356">"Частное пространство не подходит для медицинских и иных приложений, которым необходимо работать в фоновом режиме и отправлять важные уведомления. Если частное пространство заблокировано, вся фоновая активность в нем останавливается и уведомления не отправляются.\n\nПри этом приложения из него не показываются в настройках, в том числе на экране управления разрешениями и панели управления доступом.\n\nНа другом устройстве частное пространство восстановить нельзя, но можно создать новое.\n\nЕсли кто-то установит на устройство вредоносные приложения или подключит его к компьютеру, он может получить доступ к частному пространству."</string>
     <string name="private_space_learn_more_text" msgid="5314198983263277586">"Подробнее о частном пространстве"</string>
     <string name="private_space_few_moments_text" msgid="7166883272914424011">"Это займет некоторое время."</string>
     <string name="private_space_setting_up_text" msgid="8458035555212009528">"Создание личного пространства…"</string>
@@ -753,16 +753,16 @@
     <string name="fingerprint_last_delete_message_profile_challenge" msgid="4104208067277655068">"Вы больше не сможете использовать отпечаток пальца для разблокировки рабочего профиля, подтверждения покупок и входа в рабочие приложения."</string>
     <string name="encryption_settings_title" msgid="2848716008695618360">"Шифрование"</string>
     <string name="encrypted_summary" msgid="545623487587251207">"Зашифровано"</string>
-    <string name="no_screen_lock_issue_title" msgid="1814109590692792891">"Настройте блокировку экрана"</string>
+    <string name="no_screen_lock_issue_title" msgid="1814109590692792891">"Настройте способ разблокировки экрана"</string>
     <string name="no_screen_lock_issue_summary" msgid="2383217853510608406">"Для дополнительной безопасности установите на этом устройстве PIN-код, графический ключ или пароль."</string>
-    <string name="no_screen_lock_issue_action_label" msgid="2691229130486382863">"Настроить блокировку экрана"</string>
+    <string name="no_screen_lock_issue_action_label" msgid="2691229130486382863">"Настроить разблокировку экрана"</string>
     <string name="no_screen_lock_issue_notification_title" msgid="1214876733592830628">"Настройте блокировку экрана"</string>
     <string name="no_screen_lock_issue_notification_text" msgid="8696194459170873345">"Для дополнительной безопасности установите PIN-код, графический ключ или пароль."</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Защитите телефон"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Добавьте отпечаток пальца для разблокировки"</string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Блокировка экрана"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Способ разблокировки экрана"</string>
-    <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Выберите способ блокировки экрана"</string>
+    <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Выберите способ разблокировки экрана"</string>
     <string name="lock_settings_picker_new_profile_lock_title" msgid="2270462215256413800">"Блокировка для рабочего профиля"</string>
     <string name="lock_settings_picker_update_profile_lock_title" msgid="5929068163516308927">"Блокировка для раб. профиля"</string>
     <string name="lock_settings_picker_biometrics_added_security_message" msgid="1105247657304421299">"Для более надежной защиты настройте дополнительный способ разблокировки экрана."</string>
@@ -805,7 +805,7 @@
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"Графический ключ"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"PIN-код"</string>
     <string name="unlock_set_unlock_mode_password" msgid="8810609692771987513">"Пароль"</string>
-    <string name="unlock_disable_frp_warning_title" msgid="2545569051372893686">"Отключить все способы разблокировки устройства?"</string>
+    <string name="unlock_disable_frp_warning_title" msgid="2545569051372893686">"Отключить все?"</string>
     <string name="unlock_disable_frp_warning_title_profile" msgid="1005284289723910461">"Отключить защиту профиля?"</string>
     <string name="unlock_disable_frp_warning_content_pattern" msgid="6246242612158828147">"Графический ключ защитит данные на телефоне в случае его потери или кражи."</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="2259825377085781801">"Графический ключ защитит данные на телефоне в случае его потери или кражи.<xliff:g id="EMPTY_LINE">
@@ -862,7 +862,7 @@
 </xliff:g>Бесконтактная оплата будет недоступна.<xliff:g id="EMPTY_LINE_1">
 
 </xliff:g>Платежные и другие приложения, для использования которых требуется аутентификация (например, кошельки), могут работать неправильно."</string>
-    <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys" msgid="1574263040292024543">"Блокировка экрана, фейсконтроль и разблокировка по отпечатку пальца будут отключены.<xliff:g id="EMPTY_LINE_0">
+    <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys" msgid="1574263040292024543">"Ваш способ разблокировки экрана, фейсконтроль и разблокировка по отпечатку пальца будут отключены.<xliff:g id="EMPTY_LINE_0">
 
 </xliff:g>Бесконтактная оплата будет недоступна.<xliff:g id="EMPTY_LINE_1">
 
@@ -1687,9 +1687,9 @@
     <string name="tether_settings_title_bluetooth" msgid="8878813702520141084">"Bluetooth-модем"</string>
     <string name="tether_settings_title_usb_bluetooth" msgid="4437274151658505496">"Режим модема"</string>
     <string name="tether_settings_title_all" msgid="6807525590937697228">"Точка доступа и модем"</string>
-    <string name="tether_settings_summary_hotspot_on_tether_on" msgid="6110241048260139633">"Точка доступа, режим модема"</string>
-    <string name="tether_settings_summary_hotspot_on_tether_off" msgid="5057598961245943644">"Точка доступа"</string>
-    <string name="tether_settings_summary_hotspot_off_tether_on" msgid="7181518138494995888">"Режим модема"</string>
+    <string name="tether_settings_summary_hotspot_on_tether_on" msgid="6110241048260139633">"Включено"</string>
+    <string name="tether_settings_summary_hotspot_on_tether_off" msgid="5057598961245943644">"Включена точка доступа"</string>
+    <string name="tether_settings_summary_hotspot_off_tether_on" msgid="7181518138494995888">"Включен режим модема"</string>
     <string name="tether_settings_disabled_on_data_saver" msgid="9054069463426952689">"В режиме экономии трафика нельзя подключаться к точкам доступа"</string>
     <string name="tether_settings_summary_hotspot_only" msgid="8529008147731140279">"Только точка доступа"</string>
     <string name="tether_settings_summary_usb_tethering_only" msgid="6351624505239356221">"Только USB"</string>
@@ -2332,7 +2332,7 @@
     <string name="accessibility_screen_magnification_navbar_title" msgid="480853328665484528">"Увеличение с помощью кнопки"</string>
     <string name="accessibility_screen_magnification_state_navbar_gesture" msgid="8067042663897802231">"Увеличение с помощью кнопки и по тройному нажатию"</string>
     <string name="accessibility_introduction_title" msgid="8834950581512452348">"О функции \"<xliff:g id="SERVICE">%1$s</xliff:g>\""</string>
-    <string name="accessibility_text_reading_options_title" msgid="3224648909213325563">"Масштаб экрана и текст"</string>
+    <string name="accessibility_text_reading_options_title" msgid="3224648909213325563">"Текст и масштаб изображения"</string>
     <string name="accessibility_text_reading_options_suggestion_title" msgid="2492155642665312733">"Отображение текста"</string>
     <string name="accessibility_text_reading_preview_mail_subject" msgid="4597374768612733616">"Тема: Дизайн воздушного шара"</string>
     <string name="accessibility_text_reading_preview_mail_from" msgid="1797499780365288020">"От: Борис"</string>
@@ -2441,7 +2441,7 @@
     <string name="accessibility_force_invert_title" msgid="5248504501753732051">"Включить тёмную тему в приложениях"</string>
     <string name="accessibility_force_invert_summary" msgid="257503086198180749">"Включает тёмную тему в приложениях. Может не работать с некоторыми приложениями."</string>
     <string name="accessibility_disable_animations" msgid="2993529829457179058">"Убрать анимации"</string>
-    <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"Уменьшить количество анимаций на экране"</string>
+    <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"Уменьшить количество движений на экране"</string>
     <string name="accessibility_toggle_primary_mono_title" msgid="7587152099472946571">"Монофо­нический звук"</string>
     <string name="accessibility_toggle_primary_mono_summary" msgid="1935283927319407303">"Объединять каналы при воспроизведении аудио"</string>
     <string name="accessibility_toggle_primary_balance_title" msgid="7332275200153366714">"Баланс звука"</string>
@@ -3637,7 +3637,7 @@
     <string name="mode_wallpaper_title" msgid="5549693923133928374">"Уменьшать яркость обоев"</string>
     <string name="mode_wallpaper_title_secondary_list" msgid="5034602021811580157">"уменьшать яркость обоев"</string>
     <string name="mode_wallpaper_summary" msgid="665480011615603784">"Менять яркость обоев"</string>
-    <string name="mode_dark_theme_title" msgid="8099007897943513209">"Использовать темную тему"</string>
+    <string name="mode_dark_theme_title" msgid="8099007897943513209">"Использовать тёмную тему"</string>
     <string name="mode_dark_theme_title_secondary_list" msgid="4761262694149772845">"использовать темную тему"</string>
     <string name="mode_dark_theme_summary" msgid="2808149708986602464">"Переключить тему устройства, чтобы использовать темный фон, который более комфортен для глаз"</string>
     <string name="mode_display_settings_summary" msgid="5929234706883482380">"{count,plural,offset:2 =0{Нет изменений в настройках экрана}=1{{effect_1}}=2{{effect_1} и {effect_2}}=3{{effect_1}, {effect_2} и {effect_3}}one{{effect_1}, {effect_2} и ещё # изменение}few{{effect_1}, {effect_2} и ещё # изменения}many{{effect_1}, {effect_2} и ещё # изменений}other{{effect_1}, {effect_2} и ещё # изменения}}"</string>
@@ -4145,7 +4145,7 @@
     <string name="zen_mode_action_enable" msgid="1161480633223176531">"Включить"</string>
     <string name="zen_mode_blurb_schedule_time" msgid="8223898702097484009">"Настройте режим, который работает по расписанию"</string>
     <string name="zen_mode_blurb_schedule_calendar" msgid="382177907856065945">"Настройте синхронизацию режима с мероприятиями из календаря и ответами на приглашения"</string>
-    <string name="zen_mode_blurb_bedtime" msgid="6155075956151013457">"Создайте успокаивающую программу для подготовки ко сну. Настройте будильники, понижение яркости экрана и блокировку уведомлений."</string>
+    <string name="zen_mode_blurb_bedtime" msgid="6155075956151013457">"Включите специальный режим для подготовки ко сну. Настройте будильники, понижение яркости экрана и блокировку уведомлений."</string>
     <string name="zen_mode_blurb_driving" msgid="1316054379000667305">"Не отвлекайтесь на устройство, чтобы полностью сфокусироваться на дороге"</string>
     <string name="zen_mode_blurb_immersive" msgid="5884004861848687869">"Заблокируйте то, что отвлекает, чтобы сфокусироваться на важном"</string>
     <string name="zen_mode_blurb_theater" msgid="2999237960059524225">"Добейтесь тишины, заблокировав все отвлекающие факторы"</string>
@@ -4826,7 +4826,7 @@
     <string name="autofill_app" msgid="7595308061826307921">"Автозаполнение"</string>
     <string name="default_autofill_app" msgid="372234803718251606">"Сервис автозаполнения по умолчанию"</string>
     <string name="autofill_passwords" msgid="6708057251459761083">"Пароли"</string>
-    <string name="credman_chosen_app_title" msgid="7735183808067729319">"Предпочитаемый сервис"</string>
+    <string name="credman_chosen_app_title" msgid="7735183808067729319">"Приоритетный сервис"</string>
     <string name="credman_credentials" msgid="2620352336624160642">"Дополнительные сервисы"</string>
     <string name="autofill_passwords_count" msgid="6359289285822955973">"{count,plural, =1{# пароль}one{# пароль}few{# пароля}many{# паролей}other{# пароля}}"</string>
     <string name="autofill_keywords" msgid="8598763328489346438">"автозаполнение, автоматически, заполнение, пароль"</string>
@@ -4849,7 +4849,7 @@
     <string name="credman_confirmation_change_provider_positive_button" msgid="7732302992885116967">"Изменить"</string>
     <string name="credman_limit_error_msg_title" msgid="1525814645803612135">"Можно указать не более пяти сервисов"</string>
     <string name="credman_limit_error_msg" msgid="2521803280130310063">"Чтобы добавить сервис, отключите хотя бы один из уже выбранных."</string>
-    <string name="credman_main_settings_intro_text" msgid="4981603639240772620">"Выберите предпочтительный сервис, который будет сохранять учетные данные и предлагать подсказки для автозаполнения. Вы также можете включить дополнительные сервисы подсказок."</string>
+    <string name="credman_main_settings_intro_text" msgid="4981603639240772620">"Выберите приоритетный сервис, который будет сохранять учетные данные и предлагать подсказки для автозаполнения. Можно включить дополнительные сервисы, если хотите, чтобы они тоже показывали вам подсказки."</string>
     <string name="credman_enable_confirmation_message" msgid="8407841892310870169">"%1$s анализирует содержимое экрана и находит поля, которые можно заполнить автоматически."</string>
     <string name="credman_error_message_title" msgid="4099557206946333568">"Выбрано слишком много сервисов"</string>
     <string name="credman_error_message" msgid="8334797097200415449">"Одновременно можно использовать не более пяти сервисов для хранения паролей, ключей доступа и данных. Чтобы добавить сервис, отключите один из уже выбранных."</string>
@@ -5730,7 +5730,7 @@
     <string name="audio_streams_main_page_password_dialog_format_alert" msgid="4129498127640454717">"Пароль должен содержать от 4 до 16 знаков. Можно использовать только буквы, цифры и символы."</string>
     <string name="audio_streams_qr_code_scanner_label" msgid="8799703301071378034">"Сканер QR-кодов"</string>
     <string name="audio_streams_qr_code_help_with_link" msgid="5542328067190486479"><annotation id="link">"Нужна помощь?"</annotation></string>
-    <string name="homepage_search" msgid="6759334912284663559">"Поиск по настройкам"</string>
+    <string name="homepage_search" msgid="6759334912284663559">"Поиск настроек"</string>
     <string name="keywords_contacts_storage" msgid="9061213057165337893">"контакты, хранилище, аккаунт"</string>
     <string name="contacts_storage_settings_title" msgid="1574030546525203810">"Контакты"</string>
     <string name="contacts_storage_device_only_preference_label" msgid="970250816918108264">"Только на устройстве"</string>

@@ -57,7 +57,7 @@
     <string name="stay_awake_on_lockscreen_summary" msgid="8825321939913726566">"ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਫੋਲਡ ਕਰੋ ਅਤੇ ਐਪ ਦੀ ਵਰਤੋਂ ਜਾਰੀ ਰੱਖਣ ਲਈ ਅਗਲੀ ਡਿਸਪਲੇ \'ਤੇ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰੋ ਜਾਂ ਸਕ੍ਰੀਨ ਲਾਕ ਹੋਣ ਲਈ ਕੁਝ ਸਕਿੰਟਾਂ ਦੀ ਉਡੀਕ ਕਰੋ। ਗੇਮਾਂ ਅਤੇ ਵੀਡੀਓ ਐਪਾਂ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਚੱਲਣ ਲੱਗ ਜਾਣਗੀਆਂ।"</string>
     <string name="sleep_on_fold_title" msgid="7626123024330501411">"ਕਦੇ ਵੀ ਨਹੀਂ"</string>
     <string name="sleep_on_fold_summary" msgid="4191753338303043456">"ਜਦੋਂ ਤੁਸੀਂ ਆਪਣੇ ਡੀਵਾਈਸ ਨੂੰ ਫੋਲਡ ਕਰਦੇ ਹੋ, ਤਾਂ ਅਗਲੀ ਡਿਸਪਲੇ ਬੰਦ ਹੋ ਜਾਂਦੀ ਹੈ ਅਤੇ ਲਾਕ ਹੋ ਜਾਂਦੀ ਹੈ"</string>
-    <string name="auto_rotate_settings_primary_switch_title" msgid="3440951924928594520">"ਸਵੈ-ਘੁਮਾਉਣ ਵਾਲੀ ਸੈਟਿੰਗ ਵਰਤੋ"</string>
+    <string name="auto_rotate_settings_primary_switch_title" msgid="3440951924928594520">"ਸਵੈ-ਘੁਮਾਓ ਨੂੰ ਵਰਤੋ"</string>
     <string name="smart_rotate_text_headline" msgid="5878008933992951904">"ਚਿਹਰਾ ਪਛਾਣ \'ਸਵੈ-ਘੁਮਾਓ\' ਦੀ ਸਟੀਕਤਾ ਵਿੱਚ ਸੁਧਾਰ ਕਰਨ ਲਈ ਮੂਹਰਲੇ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕਰਦੀ ਹੈ। ਚਿੱਤਰ ਕਦੇ ਵੀ ਸਟੋਰ ਨਹੀਂ ਕੀਤੇ ਜਾਂਦੇ ਅਤੇ ਨਾ ਹੀ Google ਨੂੰ ਭੇਜੇ ਜਾਂਦੇ ਹਨ।"</string>
     <string name="bluetooth" msgid="8898478620943459654">"ਬਲੂਟੁੱਥ"</string>
     <string name="bluetooth_is_discoverable" msgid="4798961627677790935">"ਸਾਰੀਆਂ ਨੇੜਲੀਆਂ Bluetooth ਡਿਵਾਈਸਾਂ (<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g>) ਲਈ ਦ੍ਰਿਸ਼ਮਾਨ"</string>
@@ -805,7 +805,7 @@
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"ਪੈਟਰਨ"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"ਪਿੰਨ"</string>
     <string name="unlock_set_unlock_mode_password" msgid="8810609692771987513">"ਪਾਸਵਰਡ"</string>
-    <string name="unlock_disable_frp_warning_title" msgid="2545569051372893686">"ਕੀ ਸਾਰੇ ਕਿਸਮ ਦੇ ਡੀਵਾਈਸ ਅਣਲਾਕ ਨੂੰ ਹਟਾਉਣਾ ਹੈ?"</string>
+    <string name="unlock_disable_frp_warning_title" msgid="2545569051372893686">"ਕੀ ਸਾਰੀਆਂ ਕਿਸਮਾਂ ਦੇ ਡੀਵਾਈਸ ਅਣਲਾਕ ਨੂੰ ਹਟਾਉਣਾ ਹੈ?"</string>
     <string name="unlock_disable_frp_warning_title_profile" msgid="1005284289723910461">"ਕੀ ਪ੍ਰੋਫਾਈਲ ਰੱਖਿਆ ਹਟਾਉਣੀ ਹੈ?"</string>
     <string name="unlock_disable_frp_warning_content_pattern" msgid="6246242612158828147">"ਤੁਹਾਡਾ ਫ਼ੋਨ ਗੁਆਚਣ ਜਾਂ ਚੋਰੀ ਹੋਣ \'ਤੇ ਪੈਟਰਨ ਇਸਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਦਾ ਹੈ"</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="2259825377085781801">"ਤੁਹਾਡਾ ਫ਼ੋਨ ਗੁਆਚਣ ਜਾਂ ਚੋਰੀ ਹੋਣ \'ਤੇ ਪੈਟਰਨ ਇਸਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਦਾ ਹੈ।<xliff:g id="EMPTY_LINE">
@@ -1326,11 +1326,11 @@
     <string name="auto_rotate_option_on" msgid="5776678230808498171">"ਚਾਲੂ"</string>
     <string name="auto_rotate_option_face_based" msgid="3438645484087953174">"ਚਾਲੂ - ਚਿਹਰਾ-ਆਧਾਰਿਤ"</string>
     <string name="auto_rotate_switch_face_based" msgid="9116123744601564320">"ਚਿਹਰਾ ਪਛਾਣ"</string>
-    <string name="auto_rotate_link_a11y" msgid="5146188567212233286">"ਸਵੈ-ਘੁਮਾਉਣ ਬਾਰੇ ਹੋਰ ਜਾਣੋ"</string>
+    <string name="auto_rotate_link_a11y" msgid="5146188567212233286">"ਸਵੈ-ਘੁਮਾਓ ਬਾਰੇ ਹੋਰ ਜਾਣੋ"</string>
     <string name="screen_resolution_title" msgid="2690518693139811486">"ਸਕ੍ਰੀਨ ਰੈਜ਼ੋਲਿਊਸ਼ਨ"</string>
     <string name="screen_resolution_option_high" msgid="2617496842852992853">"ਜ਼ਿਆਦਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ"</string>
     <string name="screen_resolution_option_full" msgid="4456839315039000517">"ਪੂਰਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ"</string>
-    <string name="screen_resolution_footer" msgid="1230761249204935717">"ਪੂਰਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਤੁਹਾਡੀ ਬੈਟਰੀ ਦੀ ਜ਼ਿਆਦਾ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਤੁਹਾਡੇ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਵਿੱਚ ਸਵਿੱਚ ਕਰਨ ਕਰ ਕੇ ਕੁਝ ਐਪਾਂ ਮੁੜ-ਸ਼ੁਰੂ ਹੋ ਸਕਦੀਆਂ ਹਨ।"</string>
+    <string name="screen_resolution_footer" msgid="1230761249204935717">"ਪੂਰੇ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਨਾਲ ਬੈਟਰੀ ਦੀ ਜ਼ਿਆਦਾ ਵਰਤੋਂ ਹੁੰਦੀ ਹੈ। ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਨੂੰ ਸਵਿੱਚ ਕਰਨ \'ਤੇ ਕੁਝ ਐਪਾਂ ਮੁੜ-ਸ਼ੁਰੂ ਹੋ ਸਕਦੀਆਂ ਹਨ।"</string>
     <string name="screen_resolution_delimiter_a11y" msgid="5826162120538795842">"<xliff:g id="HEIGHT">%2$s</xliff:g> ਵੱਲੋਂ <xliff:g id="WIDTH">%1$s</xliff:g>"</string>
     <string name="color_mode_title" msgid="8666690832113906028">"ਰੰਗ"</string>
     <string name="color_mode_option_natural" msgid="6192875655101283303">"ਕੁਦਰਤੀ"</string>
@@ -1355,7 +1355,7 @@
     <string name="adaptive_sleep_title_no_permission" msgid="1719759921214237016">"ਕੈਮਰਾ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ"</string>
     <string name="adaptive_sleep_summary_no_permission" msgid="5822591289468803691">"ਸਕ੍ਰੀਨ ਦੇ ਚੌਕੰਨੇਪਣ ਲਈ ਕੈਮਰੇ ਤੱਕ ਪਹੁੰਚ ਲੋੜੀਂਦੀ ਹੈ। ਡੀਵਾਈਸ ਵਿਅਕਤੀਗਤਕਰਨ ਸੇਵਾਵਾਂ ਵਾਸਤੇ ਇਜਾਜ਼ਤਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ"</string>
     <string name="adaptive_sleep_manage_permission_button" msgid="1404510197847664846">"ਇਜਾਜ਼ਤਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"</string>
-    <string name="adaptive_sleep_description" msgid="1835321775327187860">"ਜੇ ਤੁਸੀਂ ਸਕ੍ਰੀਨ ਵੱਲ ਦੇਖ ਰਹੇ ਹੋ ਤਾਂ ਉਸ ਨੂੰ ਬੰਦ ਹੋਣ ਤੋਂ ਰੋਕਦੀ ਹੈ"</string>
+    <string name="adaptive_sleep_description" msgid="1835321775327187860">"ਜੇ ਤੁਸੀਂ ਸਕ੍ਰੀਨ ਵੱਲ ਦੇਖ ਰਹੇ ਹੁੰਦੇ ਹੋ, ਤਾਂ ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਉਸ ਨੂੰ ਬੰਦ ਹੋਣ ਤੋਂ ਰੋਕਦੀ ਹੈ"</string>
     <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"\'ਸਕ੍ਰੀਨ ਦਾ ਚੌਕੰਨਾਪਣ\' ਵਿਸ਼ੇਸ਼ਤਾ ਅਗਲੇ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਨਾਲ ਪਤਾ ਲਗਾਉਂਦੀ ਹੈ ਕਿ ਕੋਈ ਸਕ੍ਰੀਨ ਵੱਲ ਦੇਖ ਰਿਹਾ ਹੈ ਜਾਂ ਨਹੀਂ। ਇਹ ਡੀਵਾਈਸ \'ਤੇ ਕੰਮ ਕਰਦੀ ਹੈ ਅਤੇ ਚਿੱਤਰ ਕਦੇ ਸਟੋਰ ਨਹੀਂ ਕੀਤੇ ਜਾਂਦੇ ਜਾਂ Google ਨੂੰ ਭੇਜੇ ਨਹੀਂ ਜਾਂਦੇ।"</string>
     <string name="adaptive_sleep_contextual_slice_title" msgid="7467588613212629758">"ਸਕ੍ਰੀਨ ਦਾ ਚੌਕੰਨਾਪਣ ਚਾਲੂ ਕਰੋ"</string>
     <string name="adaptive_sleep_contextual_slice_summary" msgid="2993867044745446094">"ਸਕ੍ਰੀਨ ਵੱਲ ਦੇਖਦੇ ਸਮੇਂ ਇਸਨੂੰ ਚਾਲੂ ਰੱਖੋ"</string>
@@ -1540,7 +1540,7 @@
     <string name="storage_menu_free" msgid="616100170298501673">"ਜਗ੍ਹਾ ਖਾਲੀ ਕਰੋ"</string>
     <string name="storage_menu_manage" msgid="7465522758801346408">"ਸਟੋਰੇਜ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"</string>
     <string name="storage_free_up_space_title" msgid="281047807372131975">"ਜਗ੍ਹਾ ਖਾਲੀ ਕਰੋ"</string>
-    <string name="storage_free_up_space_summary" msgid="6650027929735481350">"ਪ੍ਰਬੰਧਨ ਕਰਨ ਅਤੇ ਜਗ੍ਹਾ ਖਾਲੀ ਕਰਨ ਲਈ Files ਐਪ \'ਤੇ ਜਾਓ"</string>
+    <string name="storage_free_up_space_summary" msgid="6650027929735481350">"ਜਗ੍ਹਾ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਅਤੇ ਇਸਨੂੰ ਖਾਲੀ ਕਰਨ ਲਈ Files ਐਪ \'ਤੇ ਜਾਓ"</string>
     <string name="storage_other_users" msgid="7017206190449510992">"ਹੋਰ ਵਰਤੋਂਕਾਰ"</string>
     <string name="storage_size_large" msgid="1155308277890194878">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small>""</string>
     <string name="storage_mount_success" msgid="393972242641313135">"<xliff:g id="NAME">%1$s</xliff:g> ਮਾਉਂਟ ਕੀਤਾ ਗਿਆ ਹੈ"</string>
@@ -1717,7 +1717,7 @@
     <string name="ethernet_network_usage" msgid="3795965384177426780">"ਨੈੱਟਵਰਕ ਵਰਤੋਂ"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"ਈਥਰਨੈੱਟ ਟੈਦਰਿੰਗ"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"ਆਪਣੇ ਡਾਟਾ ਕਨੈਕਸ਼ਨ ਰਾਹੀਂ ਹੋਰ ਡੀਵਾਈਸਾਂ ਨੂੰ ਇੰਟਰਨੈੱਟ ਮੁਹੱਈਆ ਕਰਵਾਉਣ ਲਈ, ਹੌਟਸਪੌਟ ਅਤੇ ਟੈਦਰਿੰਗ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਨਜ਼ਦੀਕੀ ਡੀਵਾਈਸਾਂ ਨਾਲ ਸਮੱਗਰੀ ਸਾਂਝੀ ਕਰਨ ਲਈ, ਐਪਾਂ ਵੀ ਇੱਕ ਹੌਟਸਪੌਟ ਬਣਾ ਸਕਦੀਆਂ ਹਨ।"</string>
-    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"ਹੋਰਾਂ ਡੀਵਾਈਸਾਂ ਨੂੰ ਆਪਣੇ ਵਾਈ-ਫਾਈ ਜਾਂ ਮੋਬਾਈਲ ਡਾਟਾ ਕਨੈਕਸ਼ਨ ਰਾਹੀਂ ਇੰਟਰਨੈੱਟ ਮੁਹੱਈਆ ਕਰਵਾਉਣ ਲਈ ਹੌਟਸਪੌਟ ਅਤੇ ਟੈਦਰਿੰਗ ਵਰਤੋ। ਐਪਾਂ ਨਜ਼ਦੀਕੀ ਡੀਵਾਈਸਾਂ ਨਾਲ ਸਮੱਗਰੀ ਸਾਂਝੀ ਕਰਨ ਲਈ ਇੱਕ ਹੌਟਸਪੌਟ ਵੀ ਬਣਾ ਸਕਦੀਆਂ ਹਨ।"</string>
+    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"ਹੋਰਾਂ ਡੀਵਾਈਸਾਂ ਨੂੰ ਆਪਣੇ ਵਾਈ-ਫਾਈ ਜਾਂ ਮੋਬਾਈਲ ਡਾਟਾ ਕਨੈਕਸ਼ਨ ਰਾਹੀਂ ਇੰਟਰਨੈੱਟ ਮੁਹੱਈਆ ਕਰਵਾਉਣ ਲਈ ਹੌਟਸਪੌਟ ਅਤੇ ਟੈਦਰਿੰਗ ਵਰਤੋ। ਐਪਾਂ ਨਜ਼ਦੀਕੀ ਡੀਵਾਈਸਾਂ ਨਾਲ ਸਮੱਗਰੀ ਸਾਂਝੀ ਕਰਨ ਲਈ ਵੀ ਹੌਟਸਪੌਟ ਬਣਾ ਸਕਦੀਆਂ ਹਨ।"</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"ਮਦਦ"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"ਮੋਬਾਈਲ ਨੈੱਟਵਰਕ"</string>
     <string name="sms_application_title" msgid="4791107002724108809">"SMS ਐਪ"</string>
@@ -2935,7 +2935,7 @@
     <string name="vpn_settings_single_insecure_multiple_total" msgid="6107225844641301139">"<xliff:g id="VPN_COUNT">%d</xliff:g> ਸੁਰੱਖਿਅਤ ਨਹੀਂ"</string>
     <string name="vpn_settings_multiple_insecure_multiple_total" msgid="1706236062478680488">"<xliff:g id="VPN_COUNT">%d</xliff:g> ਸੁਰੱਖਿਅਤ ਨਹੀਂ"</string>
     <string name="adaptive_connectivity_title" msgid="7464959640138428192">"ਅਡੈਪਟਿਵ ਕਨੈਕਟੀਵਿਟੀ"</string>
-    <string name="adaptive_connectivity_summary" msgid="3648731530666326885">"ਇਹ ਤੁਹਾਡੇ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨਾਂ ਦਾ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਪ੍ਰਬੰਧਨ ਕਰਕੇ, ਬੈਟਰੀ ਲਾਈਫ਼ ਨੂੰ ਵਧਾਉਂਦੀ ਹੈ ਅਤੇ ਡੀਵਾਈਸ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਵਿੱਚ ਸੁਧਾਰ ਕਰਦੀ ਹੈ"</string>
+    <string name="adaptive_connectivity_summary" msgid="3648731530666326885">"ਇਹ ਵਿਸ਼ੇਸਤਾ ਤੁਹਾਡੇ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨਾਂ ਦਾ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਪ੍ਰਬੰਧਨ ਕਰ ਕੇ, ਬੈਟਰੀ ਲਾਈਫ਼ ਨੂੰ ਵਧਾਉਂਦੀ ਹੈ ਅਤੇ ਡੀਵਾਈਸ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਵਿੱਚ ਸੁਧਾਰ ਕਰਦੀ ਹੈ"</string>
     <string name="adaptive_connectivity_switch_on" msgid="3653067561620745493">"ਚਾਲੂ"</string>
     <string name="adaptive_connectivity_switch_off" msgid="5076172560836115265">"ਬੰਦ"</string>
     <string name="adaptive_connectivity_main_switch_title" msgid="261045483524512420">"ਅਡੈਪਟਿਵ ਕਨੈਕਟੀਵਿਟੀ ਦੀ ਵਰਤੋਂ ਕਰੋ"</string>
@@ -3049,7 +3049,7 @@
     <string name="add_account_label" msgid="7134707140831385869">"ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ"</string>
     <string name="managed_profile_not_available_label" msgid="7500578232182547365">"ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਅਜੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ"</string>
     <string name="work_mode_label" msgid="4687734487641548872">"ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ"</string>
-    <string name="remove_managed_profile_label" msgid="1294933737673830431">"ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਹਟਾਓ"</string>
+    <string name="remove_managed_profile_label" msgid="1294933737673830431">"ਕੰਮ ਸੰਬੰਧੀ ਪ੍ਰੋਫਾਈਲ ਹਟਾਓ"</string>
     <string name="background_data" msgid="321903213000101158">"ਪਿਛੋਕੜ  ਡਾਟਾ"</string>
     <string name="background_data_summary" msgid="6572245922513522466">"ਐਪਸ ਕਿਸੇ ਵੀ ਸਮੇਂ  ਡਾਟਾ  ਸਿੰਕ ਕਰ ਸਕਦੇ ਹਨ, ਭੇਜ ਅਤੇ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹਨ"</string>
     <string name="background_data_dialog_title" msgid="1692005302993229867">"ਕੀ ਪਿਛੋਕੜ  ਡਾਟਾ  ਅਸਮਰੱਥ ਬਣਾਉਣਾ ਹੈ?"</string>
@@ -3118,7 +3118,7 @@
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"ਬੈਕਗ੍ਰਾਊਂਡ ਡਾਟੇ \'ਤੇ ਪਾਬੰਦੀ ਲਗਾਉਣਾ ਸਿਰਫ਼ ਉਦੋਂ ਸੰਭਵ ਹੈ ਜਦੋਂ ਤੁਸੀਂ ਇੱਕ ਮੋਬਾਈਲ ਡਾਟਾ ਸੀਮਾ ਸੈੱਟ ਕੀਤੀ ਹੋਵੇ।"</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"ਕੀ ਸਵੈ-ਸਿੰਕ ਡਾਟਾ ਚਾਲੂ ਕਰਨਾ ਹੈ?"</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"ਕੀ ਡਾਟਾ ਦਾ ਸਵੈ-ਸਿੰਕ ਬੰਦ ਕਰਨਾ ਹੈ?"</string>
-    <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"ਇਹ ਡਾਟਾ ਅਤੇ ਬੈਟਰੀ ਦੀ ਬੱਚਤ ਕਰੇਗਾ, ਪਰ ਹਾਲੀਆ ਜਾਣਕਾਰੀ ਇਕੱਤਰ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਹਰੇਕ ਖਾਤੇ ਦਾ ਹੱਥੀਂ ਸਿੰਕ ਕਰਨਾ ਪਵੇਗਾ। ਇਸਤੋਂ ਇਲਾਵਾ ਜਦੋਂ ਅੱਪਡੇਟ ਹੁੰਦੇ ਹਨ ਤਾਂ ਤੁਸੀਂ ਸੂਚਨਾਵਾਂ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰੋਗੇ।"</string>
+    <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"ਇਸ ਨਾਲ ਡਾਟਾ ਅਤੇ ਬੈਟਰੀ ਦੀ ਬੱਚਤ ਹੋਵੇਗੀ, ਪਰ ਹਾਲੀਆ ਜਾਣਕਾਰੀ ਇਕੱਤਰ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਹਰੇਕ ਖਾਤੇ ਨੂੰ ਹੱਥੀਂ ਸਿੰਕ ਕਰਨਾ ਪਵੇਗਾ। ਇਸ ਤੋਂ ਇਲਾਵਾ ਅੱਪਡੇਟ ਹੋਣ ਸਮੇਂ ਤੁਸੀਂ ਸੂਚਨਾਵਾਂ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰੋਗੇ।"</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"ਵਰਤੋਂ ਚੱਕਰ ਰੀਸੈੱਟ ਕਰਨ ਦੀ ਤਾਰੀਖ"</string>
     <string name="data_usage_cycle_editor_subtitle" msgid="1026234456777365545">"ਹਰੇਕ ਮਹੀਨੇ ਦੀ ਤਾਰੀਖ:"</string>
     <string name="data_usage_cycle_editor_positive" msgid="6110165528024717527">"ਸੈੱਟ ਕਰੋ"</string>
@@ -3245,7 +3245,7 @@
     <string name="user_confirm_remove_self_title" msgid="926265330805361832">"ਕੀ ਖੁਦ ਨੂੰ ਹਟਾਉਣਾ ਹੈ?"</string>
     <string name="user_confirm_remove_title" msgid="3626559103278006002">"ਇਹ ਵਰਤੋਂਕਾਰ ਮਿਟਾਉਣਾ ਹੈ?"</string>
     <string name="user_profile_confirm_remove_title" msgid="3131574314149375354">"ਕੀ ਇਹ ਪ੍ਰੋਫਾਈਲ ਹਟਾਉਣੀ ਹੈ?"</string>
-    <string name="work_profile_confirm_remove_title" msgid="6229618888167176036">"ਕੀ ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਹਟਾਉਣਾ ਹੈ?"</string>
+    <string name="work_profile_confirm_remove_title" msgid="6229618888167176036">"ਕੀ ਕੰਮ ਸੰਬੰਧੀ ਪ੍ਰੋਫਾਈਲ ਹਟਾਉਣਾ ਹੈ?"</string>
     <string name="user_confirm_remove_message" msgid="362545924965977597">"ਸਾਰੀਆਂ ਐਪਾਂ ਅਤੇ ਡਾਟੇ ਨੂੰ ਮਿਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।"</string>
     <string name="work_profile_confirm_remove_message" msgid="1037294114103024478">"ਜੇ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਦੇ ਹੋ ਤਾਂ ਇਸ ਪ੍ਰੋਫਾਈਲ ਦੀਆਂ ਸਾਰੀਆਂ ਐਪਾਂ ਅਤੇ ਡਾਟੇ ਨੂੰ ਮਿਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।"</string>
     <string name="user_profile_confirm_remove_message" msgid="3641289528179850718">"ਸਾਰੀਆਂ ਐਪਾਂ ਅਤੇ ਡਾਟਾ ਨੂੰ ਮਿਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।"</string>
@@ -3846,7 +3846,7 @@
     <string name="clear" msgid="5092178335409471100">"ਕਲੀਅਰ ਕਰੋ"</string>
     <string name="clear_conversation" msgid="5564321180363279096">"<xliff:g id="CONVERSATION_NAME">%1$s</xliff:g> ਨੂੰ ਕਲੀਅਰ ਕਰੋ"</string>
     <string name="conversation_onboarding_title" msgid="5194559958353468484">"ਤਰਜੀਹੀ ਅਤੇ ਸੋਧੀਆਂ ਗਈਆਂ ਗੱਲਾਂਬਾਤਾਂ ਇੱਥੇ ਦਿਸਣਗੀਆਂ"</string>
-    <string name="conversation_onboarding_summary" msgid="2484845363368486941">"ਗੱਲਬਾਤ ਨੂੰ ਤਰਜੀਹੀ ਵਜੋਂ ਨਿਸ਼ਾਸਬੱਧ ਕਰਨ ਜਾਂ ਗੱਲਾਂਬਾਤਾਂ ਵਿੱਚ ਕੋਈ ਹੋਰ ਤਬਦੀਲੀ ਕਰਨ ਤੋਂ ਬਾਅਦ, ਉਹ ਇੱਥੇ ਦਿਸਣਗੀਆਂ। \n\nਗੱਲਬਾਤ ਸੈਟਿੰਗਾਂ ਨੂੰ ਬਦਲਣ ਲਈ: \nਹੇਠਾਂ ਖਿੱਚੀ ਜਾਣ ਵਾਲੀ ਸੂਚੀ ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ ਸਕ੍ਰੀਨ ਦੇ ਸਿਖਰ ਤੋਂ ਹੇਠਾਂ ਵੱਲ ਸਵਾਈਪ ਕਰਕੇ ਗੱਲਬਾਤ ਨੂੰ ਸਪਰਸ਼ ਕਰਕੇ ਰੱਖੋ।"</string>
+    <string name="conversation_onboarding_summary" msgid="2484845363368486941">"ਗੱਲਬਾਤ ਨੂੰ ਤਰਜੀਹੀ ਵਜੋਂ ਨਿਸ਼ਾਨਬੱਧ ਕਰਨ ਜਾਂ ਗੱਲਾਂਬਾਤਾਂ ਵਿੱਚ ਕੋਈ ਹੋਰ ਤਬਦੀਲੀ ਕਰਨ ਤੋਂ ਬਾਅਦ, ਉਹ ਇੱਥੇ ਦਿਸਣਗੀਆਂ। \n\nਗੱਲਬਾਤ ਸੈਟਿੰਗਾਂ ਨੂੰ ਬਦਲਣ ਲਈ: \nਹੇਠਾਂ ਖਿੱਚੀ ਜਾਣ ਵਾਲੀ ਸੂਚੀ ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ ਸਕ੍ਰੀਨ ਦੇ ਸਿਖਰ ਤੋਂ ਹੇਠਾਂ ਵੱਲ ਸਵਾਈਪ ਕਰ ਕੇ ਗੱਲਬਾਤ ਨੂੰ ਸਪਰਸ਼ ਕਰ ਕੇ ਰੱਖੋ।"</string>
     <string name="notification_importance_min_title" msgid="7676541266705442501">"ਛੋਟਾ ਕਰੋ"</string>
     <string name="notification_importance_high_title" msgid="394129291760607808">"ਸਕ੍ਰੀਨ \'ਤੇ ਦਿਖਾਓ"</string>
     <string name="notification_silence_title" msgid="4085829874452944989">"ਸ਼ਾਂਤ"</string>
@@ -4196,7 +4196,7 @@
     <string name="memtag_reboot_yes" msgid="5788896350697141429">"ਮੁੜ-ਸ਼ੁਰੂ ਕਰੋ"</string>
     <string name="memtag_reboot_no" msgid="2860671356184849330">"ਹੁਣੇ ਨਹੀਂ"</string>
     <string name="memtag_learn_more" msgid="1596145970669119776">"ਅਡਵਾਂਸ ਮੈਮੋਰੀ ਸੁਰੱਖਿਆ ਬਾਰੇ ਹੋਰ ਜਾਣੋ।"</string>
-    <string name="opening_paragraph_delete_profile_unknown_company" msgid="2951348192319498135">"ਇਸ ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਦਾ ਇਨ੍ਹਾਂ ਵੱਲੋਂ ਪ੍ਰਬੰਧਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ:"</string>
+    <string name="opening_paragraph_delete_profile_unknown_company" msgid="2951348192319498135">"ਇਸ ਕੰਮ ਸੰਬੰਧੀ ਪ੍ਰੋਫਾਈਲ ਦਾ ਇਨ੍ਹਾਂ ਵੱਲੋਂ ਪ੍ਰਬੰਧਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ:"</string>
     <string name="managing_admin" msgid="2633920317425356619">"<xliff:g id="ADMIN_APP_LABEL">%s</xliff:g> ਦੁਆਰਾ ਪ੍ਰਬੰਧਿਤ"</string>
     <string name="launch_by_default" msgid="892824422067985734">"ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਵਜੋਂ ਖੋਲ੍ਹੋ"</string>
     <string name="app_launch_open_domain_urls_title" msgid="4805388403977096285">"ਸਮਰਥਿਤ ਲਿੰਕਾਂ ਨੂੰ ਖੋਲ੍ਹੋ"</string>
@@ -4626,7 +4626,7 @@
     <string name="adb_authorization_timeout_title" msgid="6996844506783749754">"ADB ਇਖਤਿਆਰੀਕਰਨ ਸਮਾਂ ਸਮਾਪਤੀ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ ਬੰਦ ਕਰੋ"</string>
     <string name="adb_authorization_timeout_summary" msgid="409931540424019778">"adb ਇਖਤਿਆਰੀਕਰਨਾਂ ਦਾ ਉਨ੍ਹਾਂ ਸਿਸਟਮਾਂ ਲਈ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਰੱਦੀਕਰਨ ਕਰਨਾ ਬੰਦ ਕਰੋ ਜਿਨ੍ਹਾਂ ਨੇ ਪੂਰਵ-ਨਿਰਧਾਰਿਤ (7 ਦਿਨ) ਜਾਂ ਵਰਤੋਂਕਾਰ ਵੱਲੋਂ ਸੰਰੂਪਣ ਕੀਤੀ (ਘੱਟੋ-ਘੱਟ 1 ਦਿਨ) ਸਮਾਂ ਮਿਆਦ ਦੇ ਅੰਦਰ ਮੁੜ-ਕਨੈਕਟ ਨਹੀਂ ਕੀਤਾ।"</string>
     <string name="sensors_off_quick_settings_title" msgid="8472151847125917167">"ਸੈਂਸਰ ਬੰਦ ਕਰੋ"</string>
-    <string name="managed_profile_settings_title" msgid="3400923723423564217">"ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਸੈਟਿੰਗਾਂ"</string>
+    <string name="managed_profile_settings_title" msgid="3400923723423564217">"ਕੰਮ ਸੰਬੰਧੀ ਪ੍ਰੋਫਾਈਲ ਦੀਆਂ ਸੈਟਿੰਗਾਂ"</string>
     <string name="managed_profile_contact_search_title" msgid="6562061740814513737">"ਨਿੱਜੀ ਐਪਾਂ ਵਿੱਚ ਕੰਮ ਸੰਬੰਧੀ ਡਾਇਰੈਕਟਰੀ ਵਿਚਲੇ ਸੰਪਰਕਾਂ ਨੂੰ ਖੋਜੋ"</string>
     <string name="managed_profile_contact_search_summary" msgid="4974727886709219105">"ਤੁਹਾਡੇ ਆਈ.ਟੀ. ਪ੍ਰਸ਼ਾਸਕ ਨੂੰ ਤੁਹਾਡੀਆਂ ਖੋਜਾਂ ਅਤੇ ਇਨਕਮਿੰਗ ਕਾਲਾਂ ਦਿਖਾਈ ਦੇ ਸਕਦੀਆਂ ਹਨ"</string>
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"ਕ੍ਰਾਸ-ਪ੍ਰੋਫਾਈਲ ਕੈਲੰਡਰ"</string>

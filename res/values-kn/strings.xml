@@ -1336,7 +1336,7 @@
     <string name="color_mode_option_natural" msgid="6192875655101283303">"ಸ್ವಾಭಾವಿಕ"</string>
     <string name="color_mode_option_boosted" msgid="4698797857766774289">"ಬೂಸ್ಟ್ ಮಾಡಿರುವುದು"</string>
     <string name="color_mode_option_saturated" msgid="3413853820158447300">"ಸ್ಯಾಚುರೇಟೆಡ್"</string>
-    <string name="color_mode_option_automatic" msgid="2281217686509980870">"ಅಡಾಪ್ಟಿವ್"</string>
+    <string name="color_mode_option_automatic" msgid="2281217686509980870">"ರೂಪಾಂತರಗೊಳ್ಳುವಿಕೆ"</string>
     <string name="brightness" msgid="6216871641021779698">"ಪ್ರಖರತೆಯ ಮಟ್ಟ"</string>
     <string name="auto_brightness_title" msgid="4239324728760986697">"ಅಡಾಪ್ಟಿವ್‌ ಪ್ರಖರತೆ"</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"ನಿಮ್ಮ ಸ್ಕ್ರೀನ್‌ನ ಪ್ರಖರತೆಯು ನಿಮ್ಮ ಪರಿಸರ ಮತ್ತು ಚಟುವಟಿಕೆಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಡ್ಜಸ್ಟ್ ಆಗುತ್ತದೆ. ನಿಮ್ಮ ಆದ್ಯತೆಗಳನ್ನು ತಿಳಿದುಕೊಳ್ಳಲು ಅಡಾಪ್ಟಿವ್ ಪ್ರಖರತೆಗೆ ಸಹಾಯ ಮಾಡಲು ನೀವು ಹಸ್ತಚಾಲಿತವಾಗಿ ಸ್ಲೈಡರ್ ಅನ್ನು ಸರಿಸಬಹುದು."</string>
@@ -1803,8 +1803,8 @@
     <string name="lockpassword_confirm_your_pin_header" msgid="2241722970567131308">"ನಿಮ್ಮ ಪಿನ್‌ ಅನ್ನು ಪುನಃ ನಮೂದಿಸಿ"</string>
     <string name="lockpassword_reenter_your_profile_pin_header" msgid="2890233614560435538">"ನಿಮ್ಮ ಕೆಲಸದ ಪಿನ್ ಅನ್ನು ಮರು ನಮೂದಿಸಿ"</string>
     <string name="lockpassword_confirm_your_work_pin_header" msgid="4229765521391960255">"ನಿಮ್ಮ ಕೆಲಸದ ಪಿನ್ ನಮೂದಿಸಿ"</string>
-    <string name="lockpassword_confirm_passwords_dont_match" msgid="2100071354970605232">"ಪಾಸ್‌ವರ್ಡ್‌ ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ"</string>
-    <string name="lockpassword_confirm_pins_dont_match" msgid="1103699575489401030">"ಪಿನ್‌ಗಳು ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿಲ್ಲ"</string>
+    <string name="lockpassword_confirm_passwords_dont_match" msgid="2100071354970605232">"ಪಾಸ್‌ವರ್ಡ್‌‍ಗಳು ಮ್ಯಾಚ್ ಆಗುತ್ತಿಲ್ಲ"</string>
+    <string name="lockpassword_confirm_pins_dont_match" msgid="1103699575489401030">"ಪಿನ್‌ ಮ್ಯಾಚ್ ಆಗುತ್ತಿಲ್ಲ"</string>
     <string name="lockpassword_draw_your_pattern_again_header" msgid="1045638030120803622">"ನಿಮ್ಮ ಪ್ಯಾಟರ್ನ್ ಅನ್ನು ಪುನಃ ಬರೆಯಿರಿ"</string>
     <string name="lockpassword_choose_lock_generic_header" msgid="5669348379247148696">"ಅನ್‌ಲಾಕ್ ಆಯ್ಕೆ"</string>
     <string name="lockpassword_password_set_toast" msgid="6615759749393973795">"ಪಾಸ್‌ವರ್ಡ್‌ ಹೊಂದಿಸಲಾಗಿದೆ"</string>
@@ -2258,7 +2258,7 @@
     <string name="color_contrast_preview" msgid="6791430227535363883">"ಪೂರ್ವವೀಕ್ಷಿಸಿ"</string>
     <string name="color_contrast_preview_sender_name" msgid="8641943417589238147">"ಹೆಲೆನ್, ಆಡಮ್"</string>
     <string name="color_contrast_preview_email_send_date" msgid="2108702726171600080">"2 ದಿನಗಳ ಹಿಂದೆ"</string>
-    <string name="color_contrast_preview_email_badge" msgid="4845484039428505392">"ಅನುಸರಿಸುವಿರಾ?"</string>
+    <string name="color_contrast_preview_email_badge" msgid="4845484039428505392">"ಫಾಲೋ ಅಪ್ ಮಾಡಬೇಕೆ?"</string>
     <string name="color_contrast_preview_email_title" msgid="198712116139754823">"ವ್ಯಾಪಾರ ಪ್ರವಾಸದ ವರದಿ"</string>
     <string name="color_contrast_preview_email_body" msgid="2714343154965937945">"ಹೆಚ್ಚಿನ ಸಹಾಯಕ್ಕಾಗಿ, ದಯವಿಟ್ಟು ನನ್ನನ್ನು ಅಥವಾ ಹೆಲೆನ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ. ಈ ವರದಿ ಹೀಗೆ ಇರಲಿದೆ"</string>
     <string name="color_contrast_preview_email_attachment_name" msgid="852407311884814746">"ಕ್ಲೈಂಟ್ ವೆಚ್ಚಗಳು"</string>
@@ -3869,7 +3869,7 @@
     <string name="notifications_sent_daily" msgid="10274479224185437">"{count,plural, =1{ಪ್ರತಿ ದಿನಕ್ಕೆ ಸುಮಾರು # ನೋಟಿಫಿಕೇಶನ್}one{ಪ್ರತಿ ದಿನಕ್ಕೆ ಸುಮಾರು # ನೋಟಿಫಿಕೇಶನ್‌ಗಳು}other{ಪ್ರತಿ ದಿನಕ್ಕೆ ಸುಮಾರು # ನೋಟಿಫಿಕೇಶನ್‌ಗಳು}}"</string>
     <string name="notifications_sent_weekly" msgid="7895656213187555346">"{count,plural, =1{ಪ್ರತಿ ವಾರಕ್ಕೆ ಸುಮಾರು # ನೋಟಿಫಿಕೇಶನ್}one{ಪ್ರತಿ ವಾರಕ್ಕೆ ಸುಮಾರು # ನೋಟಿಫಿಕೇಶನ್‌ಗಳು}other{ಪ್ರತಿ ವಾರಕ್ಕೆ ಸುಮಾರು # ನೋಟಿಫಿಕೇಶನ್‌ಗಳು}}"</string>
     <string name="notifications_sent_never" msgid="9081278709126812062">"ಎಂದೂ ಇಲ್ಲ"</string>
-    <string name="manage_notification_access_title" msgid="4154723216570646451">"ನೋಟಿಫಿಕೇಶನ್ ಅನ್ನು ಓದಿ, ಪ್ರತ್ಯುತ್ತರ &amp; ನಿಯಂತ್ರಣ"</string>
+    <string name="manage_notification_access_title" msgid="4154723216570646451">"ನೋಟಿಫಿಕೇಶನ್ ಓದುವಿಕೆ, ಪ್ರತ್ಯುತ್ತರ ಮತ್ತು ನಿಯಂತ್ರಣ"</string>
     <string name="manage_notification_access_summary" msgid="2907135226478903997">"ಯಾವ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಸಾಧನಗಳು ನೋಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ಓದಬಹುದು ಎಂಬುದನ್ನು ನಿಯಂತ್ರಿಸಿ"</string>
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"ಉದ್ಯೋಗ ಪ್ರೊಫೈಲ್‌ ಅಧಿಸೂಚನೆಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ"</string>
     <string name="notification_assistant_title" msgid="5889201903272393099">"ವರ್ಧಿತ ಅಧಿಸೂಚನೆಗಳು"</string>
@@ -4306,7 +4306,7 @@
     <string name="usb_use" msgid="6783183432648438528">"USB ಅನ್ನು ಇದಕ್ಕಾಗಿ ಬಳಸಿ"</string>
     <string name="usb_default_label" msgid="3372838450371060750">"ಡಿಫಾಲ್ಟ್‌‌ USB ಕಾನ್ಫಿಗರೇಶನ್"</string>
     <string name="usb_default_info" msgid="167172599497085266">"ಮತ್ತೊಂದು ಸಾಧನವನ್ನು ಸಂಪರ್ಕಿಸಿದಾಗ ಮತ್ತು ನಿಮ್ಮ ಫೋನ್ ಅನ್‌ಲಾಕ್ ಆಗಿರುವಾಗ, ಈ ಸೆಟ್ಟಿಂಗ್‍ಗಳನ್ನು ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ. ವಿಶ್ವಾಸಾರ್ಹ ಸಾಧನಗಳನ್ನು ಮಾತ್ರ ಸಂಪರ್ಕಿಸಿ."</string>
-    <string name="usb_power_title" msgid="5602112548385798646">"ಪವರ್‌ ಸಂಬಂಧಿತ ಆಯ್ಕೆಗಳು"</string>
+    <string name="usb_power_title" msgid="5602112548385798646">"ಪವರ್‌ ಬಳಸುವ ಆಯ್ಕೆಗಳು"</string>
     <string name="usb_file_transfer_title" msgid="2261577861371481478">"ಫೈಲ್ ವರ್ಗಾವಣೆಯ ಆಯ್ಕೆಗಳು"</string>
     <string name="usb_pref" msgid="8521832005703261700">"USB"</string>
     <string name="usb_preference" msgid="5084550082591493765">"USB ಆದ್ಯತೆಗಳು"</string>
@@ -4671,7 +4671,7 @@
     <string name="right_edge" msgid="1505309103265829121">"ಬಲ ತುದಿ"</string>
     <string name="back_sensitivity_dialog_message" msgid="6638367716784103306">"ಅಧಿಕ ಸೆನ್ಸಿಟಿವಿಟಿಯು ಸ್ಕ್ರೀನ್‌ನ ತುದಿಗಳುದ್ದಕ್ಕೂ ಬಳಸಲಾಗುವ ಯಾವುದೇ ಆ್ಯಪ್‌ ಗೆಸ್ಚರ್‌ಗಳ ಜೊತೆಗೆ ಸಂಘರ್ಷವನ್ನು ಉಂಟುಮಾಡಬಹುದು."</string>
     <string name="back_sensitivity_dialog_title" msgid="6153608904168908264">"ಬ್ಯಾಕ್ ಸೆನ್ಸಿಟಿವಿಟಿ"</string>
-    <string name="gesture_settings_activity_title" msgid="1882463161833981820">"ಗೆಸ್ಚರ್ ನ್ಯಾವಿಗೇಶನ್"</string>
+    <string name="gesture_settings_activity_title" msgid="1882463161833981820">"ಜೆಸ್ಚರ್ ನ್ಯಾವಿಗೇಶನ್"</string>
     <string name="gesture_navigation_tutorial_title" msgid="1605955266131665429">"ಡೆಮೋ ಪ್ರಯತ್ನಿಸಿ ನೋಡಿ"</string>
     <string name="button_navigation_settings_activity_title" msgid="7335636045504461813">"ಬಟನ್ ನ್ಯಾವಿಗೇಶನ್"</string>
     <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"ಗೆಸ್ಚರ್ ನ್ಯಾವಿಗೇಶನ್, ಹಿಂಬದಿ ಸೂಕ್ಷ್ಮತೆ, ಹಿಂಬದಿ ಗೆಸ್ಚರ್"</string>
@@ -5597,7 +5597,7 @@
     <string name="about_phone_device_name_warning" msgid="3243226572404472381">"ನೀವು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದ ಆ್ಯಪ್‌ಗಳಿಗೆ ನಿಮ್ಮ ಸಾಧನದ ಹೆಸರು ಗೋಚರಿಸುತ್ತದೆ. ನೀವು ಬ್ಲೂಟೂತ್ ಸಾಧನಗಳಿಗೆ ಕನೆಕ್ಟ್ ಮಾಡಿದಾಗ, ವೈ-ಫೈ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಕನೆಕ್ಟ್ ಮಾಡಿದಾಗ ಅಥವಾ ವೈ-ಫೈ ಹಾಟ್‌ಸ್ಪಾಟ್ ಅನ್ನು ಸೆಟಪ್ ಮಾಡಿದಾಗ ಇತರ ಜನರು ಸಹ ಅದನ್ನು ನೋಡಬಹುದು."</string>
     <string name="grammatical_gender_title" msgid="8584242850477270828">"ವ್ಯಾಕರಣ ಲಿಂಗ"</string>
     <string name="grammatical_gender_dialog_title" msgid="8754048592099871587">"ವ್ಯಾಕರಣದ ಲಿಂಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
-    <string name="content_protection_preference_title" msgid="5069260032659193074">"ಮೋಸಗೊಳಿಸುವ ಆ್ಯಪ್‌ಗಳಿಗಾಗಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ"</string>
+    <string name="content_protection_preference_title" msgid="5069260032659193074">"ಮೋಸಗೊಳಿಸುವ ಆ್ಯಪ್‌ಗಳಿವೆಯೇ ಎಂದು ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ"</string>
     <string name="content_protection_preference_summary" msgid="2252393849408445391">"ಫಿಶಿಂಗ್‌ಗಾಗಿ ಆ್ಯಪ್‌ನ ಚಟುವಟಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸಿ"</string>
     <string name="content_protection_preference_user_consent_switch_title" msgid="1797782616799594426">"ಮೋಸಗೊಳಿಸುವ ಆ್ಯಪ್‌ಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸ್ಕ್ಯಾನಿಂಗ್ ಬಳಸಿ"</string>
     <string name="content_protection_preference_user_consent_work_profile_switch_title" msgid="3004347470520916069">"ಕೆಲಸದ ಸ್ಥಳದಲ್ಲಿ ಮೋಸಗೊಳಿಸುವ ಆ್ಯಪ್‌ಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸ್ಕ್ಯಾನಿಂಗ್ ಬಳಸಿ"</string>

@@ -245,7 +245,7 @@
     <string name="regional_preferences_title" msgid="4304567374498629528">"क्षेत्रीय प्राथमिकताहरू"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"एकाइ तथा सङ्ख्यासम्बन्धी प्राथमिकताहरू तोक्नुहोस्"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"एपहरूले तपाईंलाई पर्सनलाइज गरिएका सुविधा प्रदान गर्न सकुन् भन्नाका लागि ती एपहरूलाई तपाईंका क्षेत्रीय प्राथमिकताहरू बारेमा जानकारी दिनुहोस्।"</string>
-    <string name="regional_preferences_option_page_sub_title" msgid="8303661099255197036">"एपहरूले सम्भव भएसम्म तपाईंले तोकेका क्षेत्रीय प्राथमिकताहरू प्रयोग गर्ने छ।"</string>
+    <string name="regional_preferences_option_page_sub_title" msgid="8303661099255197036">"एपहरूले सम्भव भएसम्म तपाईंले तोकेका क्षेत्रीय प्राथमिकताहरू प्रयोग गर्ने छन्।"</string>
     <string name="regional_preferences_category_title" msgid="6754667410178749022">"क्षेत्रीय प्राथमिकताहरू"</string>
     <string name="temperature_preferences_title" msgid="5009881556503629058">"तापक्रम"</string>
     <string name="first_day_of_week_preferences_title" msgid="1971850087589599553">"हप्ताको पहिलो दिन"</string>
@@ -926,7 +926,7 @@
     <string name="bluetooth_enter_passkey_other_device" msgid="8270426446247344709">"तपाईँले सायद यो पासकि अन्य उपकरणमा पनि टाइप गर्नुपर्छ।"</string>
     <string name="bluetooth_paring_group_msg" msgid="2455293929036668131">"अडियो डिभाइससँग कनेक्ट गर्न पुष्टि गर्नुहोस्"</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"आफ्ना कन्ट्याक्ट र कल हिष्ट्री हेर्ने अनुमति दिनुहोस्"</string>
-    <string name="bluetooth_pairing_phonebook_toggle_text" msgid="2474015367387690034">"कन्ट्याक्ट र कल हिस्ट्री हेर्ने र प्रयोग गर्ने अनुमति पनि दिइयोस्"</string>
+    <string name="bluetooth_pairing_phonebook_toggle_text" msgid="2474015367387690034">"कन्ट्याक्ट र कल हिस्ट्री हेर्ने र प्रयोग गर्ने अनुमति पनि दिनुहोस्"</string>
     <string name="bluetooth_pairing_phonebook_toggle_details" msgid="1367197978487212581">"यो जानकारीको प्रयोग कल आएको जानकारी दिने लगायतका कुराका लागि प्रयोग गरिने छ"</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> उपकरणसँग जडान गर्न सकेन।"</string>
@@ -1374,7 +1374,7 @@
     <string name="night_display_start_time_title" msgid="2611541851596977786">"सुरु हुने समय"</string>
     <string name="night_display_end_time_title" msgid="5243112480391192111">"समाप्त हुने समय"</string>
     <string name="night_display_temperature_title" msgid="857248782470764263">"तीव्रता"</string>
-    <string name="night_display_summary_off_auto_mode_never" msgid="7406899634169354142">"कहिले पनि स्वतः अन नहोस्"</string>
+    <string name="night_display_summary_off_auto_mode_never" msgid="7406899634169354142">"कहिले पनि स्वतः अन हुने छैन"</string>
     <string name="night_display_summary_off_auto_mode_custom" msgid="6667008039080687931">"<xliff:g id="ID_1">%1$s</xliff:g> मा स्वतः अन हुने छ"</string>
     <string name="night_display_summary_off_auto_mode_twilight" msgid="3669132200611324994">"सूर्यास्तको बेला स्वतः अन हुने छ"</string>
     <string name="night_display_summary_on_auto_mode_never" msgid="832333009202889350">"कहिल्यै पनि स्वतः अफ हुने छैन"</string>
@@ -1395,7 +1395,7 @@
     <string name="dark_ui_auto_mode_custom" msgid="3800138185265182170">"तोकिएको समयमा अन हुन्छ"</string>
     <string name="dark_ui_auto_mode_custom_bedtime" msgid="8465023741946439266">"सुत्ने समयमा अन हुन्छ"</string>
     <string name="dark_ui_status_title" msgid="3505119141437774329">"स्थिति"</string>
-    <string name="dark_ui_summary_off_auto_mode_never" msgid="5828281549475697398">"कहिले पनि स्वतः अन नहोस्"</string>
+    <string name="dark_ui_summary_off_auto_mode_never" msgid="5828281549475697398">"कहिले पनि स्वतः अन हुने छैन"</string>
     <string name="dark_ui_summary_off_auto_mode_auto" msgid="6766831395970887213">"सूर्यास्तको बेला स्वतः अन हुने छ"</string>
     <string name="dark_ui_summary_off_auto_mode_custom" msgid="1345906088326708376">"<xliff:g id="ID_1">%1$s</xliff:g> मा स्वतः अन हुने छ"</string>
     <string name="dark_ui_summary_off_auto_mode_custom_bedtime" msgid="7759826673214624622">"सुत्ने समयमा स्वतः अन हुने छ"</string>
@@ -1798,7 +1798,7 @@
     <string name="lockpassword_confirm_your_password_header" msgid="6132312814563023990">"आफ्नो पासवर्ड फेरि हाल्नुहोस्"</string>
     <string name="lockpassword_reenter_your_profile_password_header" msgid="3812040127714827685">"कार्य प्रोफाइलको पासवर्ड पुनः हाल्नुहोस्"</string>
     <string name="lockpassword_confirm_your_work_password_header" msgid="4647071231702288305">"आफ्नो कार्यको पासवर्ड प्रविष्टि गर्नुहोस्"</string>
-    <string name="lockpassword_confirm_your_pattern_header" msgid="4037701363240138651">"तपाईँको ढाँचा पुष्टि गर्नुहोस्"</string>
+    <string name="lockpassword_confirm_your_pattern_header" msgid="4037701363240138651">"आफ्नो प्याटर्न पुष्टि गर्नुहोस्"</string>
     <string name="lockpassword_confirm_your_work_pattern_header" msgid="2668883108969165844">"आफ्नो कार्यको ढाँचा प्रविष्टि गर्नु…"</string>
     <string name="lockpassword_confirm_your_pin_header" msgid="2241722970567131308">"PIN फेरि हाल्नुहोस्"</string>
     <string name="lockpassword_reenter_your_profile_pin_header" msgid="2890233614560435538">"कार्य प्रोफाइलको PIN पुनः हाल्नुहोस्"</string>
@@ -1831,7 +1831,7 @@
     <string name="lockpassword_strong_auth_required_work_pattern" msgid="6803652050512161140">"थप सुरक्षाका लागि आफ्नो डिभाइसको कार्य प्रोफाइलको ढाँचा प्रयोग गर्नुहोस्"</string>
     <string name="lockpassword_strong_auth_required_work_pin" msgid="4208510396448713500">"थप सुरक्षाका लागि आफ्नो डिभाइसको कार्य प्रोफाइलको PIN हाल्नुहोस्"</string>
     <string name="lockpassword_strong_auth_required_work_password" msgid="6119482061429323090">"थप सुरक्षाका लागि आफ्नो डिभाइसको कार्य प्रोफाइलको पासवर्ड प्रविष्टि गर्नुहोस्"</string>
-    <string name="lockpassword_confirm_your_pattern_header_frp" msgid="5641858015891896427">"ढाँचा पुष्टि गर्नुहोस्‌"</string>
+    <string name="lockpassword_confirm_your_pattern_header_frp" msgid="5641858015891896427">"प्याटर्न पुष्टि गर्नुहोस्‌"</string>
     <string name="lockpassword_confirm_your_pin_header_frp" msgid="8285647793164729982">"PIN पुष्टि गर्नुहोस्‌"</string>
     <string name="lockpassword_confirm_your_password_header_frp" msgid="7932240547542564033">"पासवर्ड पुष्टि गर्नुहोस्"</string>
     <string name="lockpassword_remote_validation_header" msgid="4992647285784962073">"आफ्नो पहिचान पुष्टि गर्नुहोस्"</string>
@@ -1868,7 +1868,7 @@
     <string name="lockpattern_settings_title" msgid="9223165804553269083">"प्याटर्न अनलक गर्नुहोस्"</string>
     <string name="lockpattern_settings_enable_title" msgid="7401197111303283723">"ढाँचा आवश्यक पर्छ"</string>
     <string name="lockpattern_settings_enable_summary" msgid="1116467204475387886">"स्क्रिन अनलक गर्न ढाँचा चित्रण गर्नै पर्छ"</string>
-    <string name="lockpattern_settings_enable_visible_pattern_title" msgid="3340969054395584754">"प्याटर्न देखिने पारियोस्"</string>
+    <string name="lockpattern_settings_enable_visible_pattern_title" msgid="3340969054395584754">"प्याटर्न देखिने पार्नुहोस्"</string>
     <string name="lockpattern_settings_enhanced_pin_privacy_title" msgid="7172693275721931683">"PIN सम्बन्धी परिष्कृत गोपनीयता"</string>
     <string name="lockpattern_settings_enhanced_pin_privacy_summary" msgid="8639588868341114740">"PIN हाल्दा एनिमेसन अफ गर्नुहोस्"</string>
     <string name="lockpattern_settings_enable_visible_pattern_title_profile" msgid="5138189101808127489">"प्रोफाइलको प्याटर्न देखिने बनाउनुहोस्"</string>
@@ -2437,7 +2437,7 @@
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"कन्ट्रास्ट बढाउन टेक्स्टको वरिपरि कालो वा सेतो ब्याकग्राउन्ड हाल्नुहोस्"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"स्क्रिन आवर्धन स्वतः अपडेट गर्नुहोस्"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"एप ट्रान्जिसनहरूमा स्क्रिन आवर्धन अपडेट गर्नुहोस्"</string>
-    <string name="accessibility_power_button_ends_call_prerefence_title" msgid="8187306131979612144">"पावर बटन थोच्दा फोन काटियोस्"</string>
+    <string name="accessibility_power_button_ends_call_prerefence_title" msgid="8187306131979612144">"पावर बटन थिच्दा फोन काटिन्छ"</string>
     <string name="accessibility_force_invert_title" msgid="5248504501753732051">"थप एपमा अँध्यारो थिम प्रयोग गर्नुहोस्"</string>
     <string name="accessibility_force_invert_summary" msgid="257503086198180749">"थप एपहरूमा अँध्यारो थिम लागू गर्छ। सबै एपहरूमा काम नगर्न सक्छ।"</string>
     <string name="accessibility_disable_animations" msgid="2993529829457179058">"एनिमेसन हटाउनुहोस्"</string>
@@ -2577,8 +2577,8 @@
     <string name="accessibility_description_state_stopped" msgid="5364752492861199133">"यो सेवाले राम्ररी काम गरिरहेको छैन।"</string>
     <string name="accessibility_shortcuts_settings_title" msgid="974740249671825145">"एक्सेसिबिलिटी सर्टकट"</string>
     <string name="enable_quick_setting" msgid="6648073323202243604">"द्रुत सेटिङमा देखाउनुहोस्"</string>
-    <string name="daltonizer_mode_deuteranomaly_title" msgid="3229433065035047931">"रातो-हरियो, हरियो रङ ठम्याउन नसकिने समस्या"</string>
-    <string name="daltonizer_mode_protanomaly_title" msgid="2572040492905945405">"रातो-हरियो, रातो रङ ठम्याउन नसकिने समस्या"</string>
+    <string name="daltonizer_mode_deuteranomaly_title" msgid="3229433065035047931">"रातो-हरियो, हरियो रङ हल्का"</string>
+    <string name="daltonizer_mode_protanomaly_title" msgid="2572040492905945405">"रातो-हरियो, रातो रङ हल्का"</string>
     <string name="daltonizer_mode_tritanomaly_title" msgid="2278786218762602022">"निलो-पहेँलो"</string>
     <string name="daltonizer_mode_grayscale_title" msgid="152005391387952588">"ग्रेस्केल"</string>
     <string name="daltonizer_saturation_title" msgid="2999486412114963068">"सघनता"</string>
@@ -3117,7 +3117,7 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"यस फिचरले पृष्ठभूमि डेटामा निर्भर एपलाई मोबाइल सञ्जाल उपलब्ध हुने समयमा मात्र काम नगर्ने बनाउन सक्छ। \n \n यस एप भित्रको सेटिङमा तपाईँले थप उपयुक्त डेटाको प्रयोग नियन्त्रणहरू भेट्टाउन सक्नुहुन्छ।"</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"तपाईंले मोबाइल डेटाको सीमा सेट गर्नुभएको बेलामा मात्र पृष्ठभूमिको डेटालाई सीमित गर्न सम्भव हुन्छ।"</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"डेटाको अटो सिंक अन गर्ने हो?"</string>
-    <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"डेटा स्वतः सिंक हुने कार्य बन्द गर्ने हो?"</string>
+    <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"डेटाको अटो सिंक अफ गर्ने हो?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"यस कार्यले डेटा र ब्याट्री बचत गर्दछ, तर जानकारी संकलन गर्न तपाईंले प्रत्येक खाता म्यानुअल तरिकाले सिंक गर्नु पर्ने हुन्छ तथा र अपडेट हुँदा तपाईं सूचना प्राप्त गर्नु हुने छैन।"</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"खपत चक्र रिसेट गर्ने मिति"</string>
     <string name="data_usage_cycle_editor_subtitle" msgid="1026234456777365545">"प्रत्येक महिनाको तारिख:"</string>
@@ -3245,7 +3245,7 @@
     <string name="user_confirm_remove_self_title" msgid="926265330805361832">"आफैंलाई हटाउने हो?"</string>
     <string name="user_confirm_remove_title" msgid="3626559103278006002">"यो प्रयोगकर्ता हटाउने हो?"</string>
     <string name="user_profile_confirm_remove_title" msgid="3131574314149375354">"यो प्रोफाइल हटाउने?"</string>
-    <string name="work_profile_confirm_remove_title" msgid="6229618888167176036">"कार्य प्रोफाइल हटाउने?"</string>
+    <string name="work_profile_confirm_remove_title" msgid="6229618888167176036">"कार्य प्रोफाइल हटाउने हो?"</string>
     <string name="user_confirm_remove_message" msgid="362545924965977597">"सबै एपहरू र डेटा मेटाइने छन्।"</string>
     <string name="work_profile_confirm_remove_message" msgid="1037294114103024478">"तपाईंले जारी राख्नुभयो भने यो प्रोफाइलका सबै एपहरू र डेटा मेटाइने छन्।"</string>
     <string name="user_profile_confirm_remove_message" msgid="3641289528179850718">"सबै एपहरू र डेटा मेटाइने छन्।"</string>
@@ -4642,7 +4642,7 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"पावर बटनलाई दुई पटक थिच्दा क्यामेरा द्रुत रूपमा खुलोस्। जुनसुकै स्क्रिन मार्फत यो सुविधाको प्रयोग गर्न सकिन्छ।"</string>
     <string name="double_tap_power_title" msgid="8129216801770589261">"पावर बटन दुई पटक थिच्ने"</string>
     <string name="double_tap_power_enabled" msgid="7609935047996304482">"दुई पटक थिच्ने सुविधा प्रयोग गर्नुहोस्"</string>
-    <string name="double_tap_power_target_action_category" msgid="2568741597095863728">"खोल्न पावर बटन दुई पटक थिच्नुहोस्"</string>
+    <string name="double_tap_power_target_action_category" msgid="2568741597095863728">"निम्न एप खोल्न पावर बटन दुई पटक थिच्नुहोस्"</string>
     <string name="double_tap_power_camera_action_title" msgid="6641206739933181509">"क्यामेरा"</string>
     <string name="double_tap_power_camera_action_summary" msgid="4942585540579590444">"क्यामेरा खोल्नुहोस्"</string>
     <string name="double_tap_power_wallet_action_title" msgid="2460162990983117189">"Wallet"</string>

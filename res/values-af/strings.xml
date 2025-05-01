@@ -262,7 +262,7 @@
     <string name="friday_first_day_of_week" msgid="7074795061812083541">"Vrydag"</string>
     <string name="saturday_first_day_of_week" msgid="3702282590450322727">"Saterdag"</string>
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"As ’n app nie streeksvoorkeure steun nie, sal die app sy versteklocale-instellings gebruik."</string>
-    <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Kom meer te wete oor taalvoorkeure."</string>
+    <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Kry meer inligting oor taalvoorkeure."</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"Metriek"</string>
     <string name="us_measurement_system" msgid="8406695347890345490">"VSA"</string>
     <string name="uk_measurement_system" msgid="1814065008707689505">"VK"</string>
@@ -530,7 +530,7 @@
     <string name="security_settings_remoteauth_settings_learn_more" msgid="5653556124819260050">"Kom meer te wete oor Horlosieontsluiting"</string>
     <string name="security_settings_remoteauth_settings_register_new_authenticator" msgid="9191331738306527887">"Voeg horlosie by"</string>
     <string name="security_settings_remoteauth_settings_remove_device" msgid="2436226120578851282">"Verwyder horlosie"</string>
-    <string name="security_settings_biometric_preference_title" msgid="298146483579539448">"Gesigslot en vingerafdrukslot"</string>
+    <string name="security_settings_biometric_preference_title" msgid="298146483579539448">"Gesigslot en Vingerafdrukslot"</string>
     <string name="security_settings_work_biometric_preference_title" msgid="3121755615533533585">"Gesig- en Vingerafdrukslot vir werk"</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled" msgid="213377753727694575">"Opstelling is nodig"</string>
     <string name="security_settings_biometric_preference_summary_both_fp_multiple" msgid="4821859306609955966">"Gesig en vingerafdrukke is bygevoeg"</string>
@@ -649,7 +649,7 @@
     <string name="private_space_lock_title" msgid="7230836881433350526">"Privaatruimte-slot"</string>
     <string name="private_space_one_lock_summary" msgid="2106513606571219068">"Jy kan jou privaat ruimte ontsluit nes jy jou toestel ontsluit of jy kan ’n ander slot kies"</string>
     <string name="private_space_screen_lock_title" msgid="8679383894967823163">"Gebruik toestelskermslot"</string>
-    <string name="private_space_biometric_title" msgid="3934339826674553174">"Gesig- en Vingerafdrukslot"</string>
+    <string name="private_space_biometric_title" msgid="3934339826674553174">"Gesigslot en Vingerafdrukslot"</string>
     <string name="private_space_fingerprint_title" msgid="5989254643211889931">"Vingerafdrukslot"</string>
     <string name="private_space_face_title" msgid="3290402865367663079">"Gesigslot"</string>
     <string name="private_space_biometric_summary" msgid="4403837276018724581">"Tik om op te stel"</string>
@@ -1028,7 +1028,7 @@
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Nie beskikbaar nie want NFC is afgeskakel"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Wanneer hierdie kenmerk aangeskakel is, kan jy appinhoud na \'n ander toestel met NFC-vermoë straal deur die toestelle na aan mekaar te hou. Jy kan byvoorbeeld webbladsye, YouTube-video\'s, kontakte en meer straal.\n\nHou eenvoudig die toestelle bymekaar (gewoonlik rug aan rug) en tik dan op jou skerm. Die app bepaal wat gestraal word."</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wi-fi"</string>
-    <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Gebruik Wi-Fi"</string>
+    <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Gebruik wi-fi"</string>
     <string name="wifi_settings_category" msgid="3523464780563778321">"Wi-Fi-instellings"</string>
     <string name="wifi_select_network" msgid="6692897876718813259">"Kies Wi-Fi"</string>
     <string name="wifi_starting" msgid="6147022683967506341">"Skakel tans Wi-Fi aan…"</string>
@@ -1050,7 +1050,7 @@
     <string name="wifi_cellular_data_fallback_title" msgid="2844653839490977040">"Skakel outomaties oor na mobiele data"</string>
     <string name="wifi_cellular_data_fallback_summary" msgid="7039944853033554386">"Gebruik mobiele data wanneer Wi-Fi geen internettoegang het nie. Datagebruik kan geld."</string>
     <string name="wifi_add_network" msgid="4178564862173751181">"Voeg netwerk by"</string>
-    <string name="wifi_configure_settings_preference_title" msgid="2536725796700696566">"Wi‑Fi-voorkeure"</string>
+    <string name="wifi_configure_settings_preference_title" msgid="2536725796700696566">"Wi‑fi-voorkeure"</string>
     <string name="wifi_configure_settings_preference_summary_wakeup_on" msgid="7822368955551467382">"Wi‑fi skakel outomaties weer aan"</string>
     <string name="wifi_configure_settings_preference_summary_wakeup_off" msgid="5710203586018223864">"Wi‑fi skakel nie outomaties weer aan nie"</string>
     <string name="wifi_menu_p2p" msgid="5234165837732940385">"Wi-Fi Direct"</string>
@@ -1717,7 +1717,7 @@
     <string name="ethernet_network_usage" msgid="3795965384177426780">"Netwerkgebruik"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"Ethernet-verbinding"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"Gebruik warmkol en verbinding om deur jou mobiele dataverbinding internet aan ander toestelle te verskaf. Apps kan ook ’n warmkol skep om inhoud met toestelle in die omtrek te deel."</string>
-    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Gebruik warmkol en verbinding om deur jou wi-fi- of mobiele dataverbinding internet aan ander toestelle te verskaf. Apps kan ook \'n warmkol skep om inhoud met toestelle in die omtrek te deel."</string>
+    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Gebruik warmkol en verbinding om deur jou wi-fi- of mobieledataverbinding internet aan ander toestelle te verskaf. Apps kan ook ’n warmkol skep om inhoud met toestelle in die omtrek te deel."</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"Hulp"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"Mobiele netwerk"</string>
     <string name="sms_application_title" msgid="4791107002724108809">"SMS-app"</string>
@@ -2260,7 +2260,7 @@
     <string name="color_contrast_preview_email_send_date" msgid="2108702726171600080">"2 dae gelede"</string>
     <string name="color_contrast_preview_email_badge" msgid="4845484039428505392">"Volg op?"</string>
     <string name="color_contrast_preview_email_title" msgid="198712116139754823">"Sakereisverslag"</string>
-    <string name="color_contrast_preview_email_body" msgid="2714343154965937945">"Kontak my of Helen vir verdere hulp. Hierdie verslag sal"</string>
+    <string name="color_contrast_preview_email_body" msgid="2714343154965937945">"Kontak my of Helen vir verdere hulp. Hierdie verslag bevat"</string>
     <string name="color_contrast_preview_email_attachment_name" msgid="852407311884814746">"Kliëntuitgawes"</string>
     <string name="color_contrast_about_title" msgid="5939566801408667867">"Meer oor kleurkontras"</string>
     <string name="accessibility_turn_screen_darker_title" msgid="5986223133285858349">"Maak skerm donkerder"</string>
@@ -2487,7 +2487,7 @@
     <string name="accessibility_vibration_settings_state_off" msgid="7946588741954981703">"Af"</string>
     <string name="accessibility_vibration_setting_disabled_for_silent_mode_summary" msgid="3982701772953323190">"Instelling is gedeaktiveer omdat die toestel op stil gestel is"</string>
     <string name="accessibility_call_vibration_category_title" msgid="2545607568768192318">"Oproepe"</string>
-    <string name="accessibility_notification_alarm_vibration_category_title" msgid="2683635252414849417">"Kennisgewings en alarms"</string>
+    <string name="accessibility_notification_alarm_vibration_category_title" msgid="2683635252414849417">"Kennisgewings en wekkers"</string>
     <string name="accessibility_interactive_haptics_category_title" msgid="3162855291184592021">"Interaktiewe fisiese terugvoer"</string>
     <string name="accessibility_vibration_primary_switch_title" msgid="6162579254864450592">"Gebruik vibrasie en fisiese terugvoer"</string>
     <string name="accessibility_alarm_vibration_title" msgid="4661294337828522745">"Wekkervibrasie"</string>
@@ -3664,7 +3664,7 @@
     <string name="zen_mode_block_effect_intent" msgid="7621578645742903531">"Moenie skerm aanskakel nie"</string>
     <string name="zen_mode_block_effect_light" msgid="1997222991427784993">"Moenie lig laat flikker nie"</string>
     <string name="zen_mode_block_effect_peek" msgid="2525844009475266022">"Geen skerm-opspringkennisgewings nie"</string>
-    <string name="zen_mode_block_effect_status" msgid="5765965061064691918">"Versteek statusbalk boaan skerm"</string>
+    <string name="zen_mode_block_effect_status" msgid="5765965061064691918">"Versteek statusbalkikone boaan skerm"</string>
     <string name="zen_mode_block_effect_badge" msgid="332151258515152429">"Versteek kennisgewingkolle op appikone"</string>
     <string name="zen_mode_block_effect_ambient" msgid="1247740599476031543">"Moenie wakker maak vir kennisgewings nie"</string>
     <string name="zen_mode_block_effect_list" msgid="7549367848660137118">"Versteek op aftrekskerm"</string>
@@ -5336,7 +5336,7 @@
     <string name="media_controls_show_player" msgid="8504571042365814021">"Wys speler"</string>
     <string name="keywords_media_controls" msgid="8345490568291778638">"media"</string>
     <string name="camera_extensions_fallback_title" msgid="3604579046777004989">"Laat kamerasagteware-uitbreidings toe"</string>
-    <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"Aktiveer die versteksagteware-implementering van gevorderde kamera-eienskappe soos HDR, Nag, of ander kamera-uitbreidings."</string>
+    <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"Aktiveer die versteksagteware-implementering van gevorderde kamera-kenmerke soos HDR, Nag, of ander kamera-uitbreidings."</string>
     <string name="connected_device_see_all_summary" msgid="2056010318537268108">"Bluetooth sal aanskakel"</string>
     <string name="provider_internet_settings" msgid="3831259474776313323">"Internet"</string>
     <string name="provider_network_settings_title" msgid="2624756136016346774">"SIM\'s"</string>
@@ -5426,7 +5426,7 @@
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"Foonnommer ontbreek."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"OK"</string>
     <string name="enable_2g_title" msgid="5657132300321750181">"2G-netwerkbeskerming"</string>
-    <string name="enable_2g_summary" msgid="6317192326100541563">"/vermy 2G-netwerke wat minder veilig is. Dit kan konnektiwiteit in sommige plekke beperk. Noodoproepe word altyd toegelaat."</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"Vermy 2G-netwerke wat minder veilig is. Dit kan konnektiwiteit in sommige plekke beperk. Noodoproepe word altyd toegelaat."</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> vereis 2G om beskikbaar te wees"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"Laat slegs geënkripteerde netwerke toe"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"Dit is veiliger, maar kan jou selnetwerkverbinding in sekere liggings beperk. Noodoproepe word altyd toegelaat."</string>

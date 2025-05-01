@@ -3083,7 +3083,7 @@
     <string name="data_usage_summary_title" msgid="394067070764360142">"Podatkovni promet"</string>
     <string name="data_usage_app_summary_title" msgid="4933742247928064178">"Mobilni podatki in Wi‑Fi"</string>
     <string name="account_settings_menu_auto_sync_personal" msgid="2905595464540145671">"Samod. sinhron. oseb. podatkov"</string>
-    <string name="account_settings_menu_auto_sync_work" msgid="8561102487795657789">"Samod. sinhr. delov. podatkov"</string>
+    <string name="account_settings_menu_auto_sync_work" msgid="8561102487795657789">"Samod. sinhr. delovne podatke"</string>
     <string name="account_settings_menu_auto_sync_private" msgid="2315144351530596228">"Samodejna sinhronizacija zasebnih podatkov"</string>
     <string name="data_usage_change_cycle" msgid="4501026427365283899">"Spremeni cikel ..."</string>
     <string name="data_usage_pick_cycle_day" msgid="3548922497494790123">"Dan za ponastavitev cikla porabe podatkov:"</string>
@@ -4641,7 +4641,7 @@
     <string name="double_tap_power_for_camera_title" msgid="7982364144330923683">"Hitro odpiranje fotoaparata"</string>
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Če želite hitro odpreti fotoaparat, dvakrat pritisnite gumb za vklop. Deluje na vsakem zaslonu."</string>
     <string name="double_tap_power_title" msgid="8129216801770589261">"Dvakratni pritisk gumba za vklop"</string>
-    <string name="double_tap_power_enabled" msgid="7609935047996304482">"Uporaba dvakratnega pritiska"</string>
+    <string name="double_tap_power_enabled" msgid="7609935047996304482">"Uporabi dvakratni pritisk"</string>
     <string name="double_tap_power_target_action_category" msgid="2568741597095863728">"Odpiranje z dvakratnim pritiskom gumba za vklop"</string>
     <string name="double_tap_power_camera_action_title" msgid="6641206739933181509">"Fotoaparat"</string>
     <string name="double_tap_power_camera_action_summary" msgid="4942585540579590444">"Odpiranje Fotoaparata"</string>
@@ -4718,7 +4718,7 @@
     <string name="domain_url_section_title" msgid="9028890472923474958">"Nameščene aplikacije"</string>
     <string name="automatic_storage_manager_activation_warning" msgid="170508173207142665">"Shrambo zdaj upravlja upravitelj shrambe"</string>
     <string name="account_for_section_header" msgid="7466759342105251096">"Računi uporabnika »<xliff:g id="USER_NAME">%1$s</xliff:g>«"</string>
-    <string name="auto_sync_account_title" msgid="1070908045600374254">"Samodejno sinhroniziranje podatkov aplikacij"</string>
+    <string name="auto_sync_account_title" msgid="1070908045600374254">"Samodejno sinhroniziraj podatke aplikacij"</string>
     <string name="auto_sync_account_summary" msgid="7580352130028957346">"Omogoči, da aplikacije samodejno osvežijo podatke."</string>
     <string name="account_sync_title" msgid="7036067017433297574">"Sinhronizacija računa"</string>
     <string name="account_sync_summary_some_on" msgid="911460286297968724">"Sinhronizacija je vklopljena za <xliff:g id="ID_1">%1$d</xliff:g> od <xliff:g id="ID_2">%2$d</xliff:g> elementov"</string>
@@ -5303,7 +5303,7 @@
     <string name="lockscreen_privacy_qr_code_scanner_summary" msgid="4577409244972250235">"Dovoli dostop do optičnega bralnika kod QR pri zaklenjenem zaslonu"</string>
     <string name="lockscreen_privacy_controls_setting_toggle" msgid="7445725343949588613">"Prikaz kontrolnikov naprave"</string>
     <string name="lockscreen_privacy_controls_summary" msgid="7522918441738915364">"Na zaklenjenem zaslonu"</string>
-    <string name="lockscreen_trivial_controls_setting_toggle" msgid="2174300719855112358">"Uporaba kontrolnikov naprave"</string>
+    <string name="lockscreen_trivial_controls_setting_toggle" msgid="2174300719855112358">"Uporabi kontrolnike naprave"</string>
     <string name="lockscreen_trivial_disabled_controls_summary" msgid="7593626010580689155">"Za uporabo najprej vklopite »Prikaži kontrolnike naprave«."</string>
     <string name="lockscreen_double_line_clock_summary" msgid="4109235686687860393">"Velikost ure se spremeni glede na vsebino zaklenjenega zaslona."</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="802271087416091548">"Dinamična ura"</string>

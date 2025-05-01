@@ -357,7 +357,7 @@
     <string name="usb_tethering_subtext" product="tablet" msgid="4550828946207155142">"Shiriki muunganisho wa intaneti ya kompyuta kibao kupitia USB"</string>
     <string name="usb_tethering_subtext" product="device" msgid="6586391707794559573">"Tumia kwa pamoja muunganisho wa intaneti kupitia USB"</string>
     <string name="usb_tethering_subtext" product="desktop" msgid="6586391707794559573">"Tumia kwa pamoja muunganisho wa intaneti kupitia USB"</string>
-    <string name="bluetooth_tethering_subtext" product="default" msgid="3638886236597805392">"Shiriki muunganisho wa intaneti ya simu kupitia Bluetooth"</string>
+    <string name="bluetooth_tethering_subtext" product="default" msgid="3638886236597805392">"Tumia pamoja muunganisho wa intaneti ya simu kupitia Bluetooth"</string>
     <string name="bluetooth_tethering_subtext" product="tablet" msgid="1339730853653511849">"Shiriki muunganisho wa intaneti ya kompyuta kibao kupitia Bluetooth"</string>
     <string name="bluetooth_tethering_subtext" product="device" msgid="4847586521141330988">"Tumia kwa pamoja muunganisho wa intaneti kupitia Bluetooth"</string>
     <string name="bluetooth_tethering_subtext" product="desktop" msgid="4847586521141330988">"Tumia kwa pamoja muunganisho wa intaneti kupitia Bluetooth"</string>

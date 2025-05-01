@@ -862,11 +862,11 @@
 </xliff:g>Kontakturik gabe ordaintzeko eginbidea ez da erabilgarri egongo.<xliff:g id="EMPTY_LINE_1">
 
 </xliff:g>Diru-zorroak, ordainketa-aplikazioek eta autentifikazioa behar duten bestelako aplikazioek agian ez dute behar bezala funtzionatuko."</string>
-    <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys" msgid="1574263040292024543">"Pantailaren blokeoa, aurpegi bidez desblokeatzeko eginbidea eta hatz-marka bidez desblokeatzeko eginbideak kenduko dira.<xliff:g id="EMPTY_LINE_0">
+    <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys" msgid="1574263040292024543">"Pantailaren blokeoa eta aurpegi eta hatz-marka bidez desblokeatzeko eginbideak kenduko dira.<xliff:g id="EMPTY_LINE_0">
 
 </xliff:g>Kontakturik gabe ordaintzeko eginbidea ez da erabilgarri egongo.<xliff:g id="EMPTY_LINE_1">
 
-</xliff:g>Diru-zorroak, ordainketa-aplikazioek eta autentifikazioa behar duten bestelako aplikazioek agian ez dute behar bezala funtzionatuko."</string>
+</xliff:g>Diru-zorroa aplikazioak, ordainketa-aplikazioek eta autentifikazioa behar duten bestelako aplikazioek agian ez dute behar bezala funtzionatuko."</string>
     <string name="unlock_disable_frp_warning_ok" msgid="6173427638951230842">"Ezabatu"</string>
     <string name="unlock_footer_high_complexity_requested" msgid="4471274783909915352">"<xliff:g id="APP_NAME">%1$s</xliff:g> aplikazioak PIN edo pasahitz konplexu bat erabiltzea gomendatzen du, eta baliteke ez funtzionatzea behar bezala halakorik gabe"</string>
     <string name="unlock_footer_medium_complexity_requested" msgid="5515870066751600640">"<xliff:g id="APP_NAME">%1$s</xliff:g> aplikazioak beste PIN edo pasahitz bat erabiltzea gomendatzen du, eta baliteke ez funtzionatzea behar bezala halakorik gabe"</string>
@@ -1717,7 +1717,7 @@
     <string name="ethernet_network_usage" msgid="3795965384177426780">"Sarearen erabilera"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"Konexioa partekatzea (Ethernet)"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"Erabili wifi-gunea eta konexioa partekatzea beste gailuei Interneteko konexioa emateko zure datu-konexioaren bidez. Halaber, aplikazioek wifi-guneak sor ditzakete, edukia inguruko gailuekin partekatzeko."</string>
-    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Erabili wifi-guneak eta konexioa partekatzeko aukera beste gailu batzuei Interneteko konexioa emateko wifi- edo datu-konexioaren bidez. Aplikazioek ere wifi-guneak sor ditzakete edukia inguruko gailuekin partekatzeko."</string>
+    <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Erabili wifi-gunea eta konexioa partekatzeko aukera beste gailu batzuei Interneteko konexioa emateko wifi- edo datu-konexioaren bidez. Aplikazioek ere wifi-guneak sor ditzakete edukia inguruko gailuekin partekatzeko."</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"Laguntza"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"Sare mugikorra"</string>
     <string name="sms_application_title" msgid="4791107002724108809">"SMSetarako aplikazioa"</string>
@@ -2550,7 +2550,7 @@
     <string name="accessibility_hearing_device_control" msgid="2661965917013100611">"Entzumen-gailuak kontrolatzeko aukerak"</string>
     <string name="accessibility_hearing_device_shortcut_title" msgid="7645100199603031360">"Entzumen-gailuaren lasterbidea"</string>
     <string name="accessibility_hac_mode_title" msgid="2037950424429555652">"Audifonoekiko bateragarritasuna"</string>
-    <string name="accessibility_hac_mode_summary" msgid="5198760061256669067">"Teleharilarekiko bateragarritasuna hobetzen du, eta nahi ez den zarata murrizten"</string>
+    <string name="accessibility_hac_mode_summary" msgid="5198760061256669067">"Telebobinekiko bateragarritasuna hobetzen du, eta nahi ez den zarata murrizten"</string>
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"Entzumen-gailuei buruz"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"ASHArekin edo kontsumo txikiko audioarekin bateragarriak ez diren beste entzumen-gailu batzuk aurkitzeko, sakatu &lt;b&gt;Parekatu beste gailu bat&lt;/b&gt; &gt; &lt;b&gt;Ikusi gailu gehiago&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"ASHArekin edo kontsumo txikiko audioarekin bateragarriak ez diren beste entzumen-gailu batzuk aurkitzeko, sakatu "<b>"Parekatu beste gailu bat"</b>" eta, jarraian, "<b>"Ikusi gailu gehiago"</b></string>
@@ -4132,7 +4132,7 @@
     <string name="zen_mode_edit_name_empty_error" msgid="5788063278827188275">"Moduaren izena ezin da hutsik egon"</string>
     <string name="zen_mode_edit_choose_icon_title" msgid="6452801577128788362">"Aukeratu ikono bat"</string>
     <string name="zen_mode_trigger_title_schedule_calendar" msgid="9206609438617550331">"Egutegiko gertaerak"</string>
-    <string name="zen_mode_trigger_title_bedtime" msgid="3287241454965736913">"Lotara joateko garaiko ohitura"</string>
+    <string name="zen_mode_trigger_title_bedtime" msgid="3287241454965736913">"Lotara joateko ohitura"</string>
     <string name="zen_mode_trigger_title_driving" msgid="7890990983453164403">"Gidatu bitartean"</string>
     <string name="zen_mode_trigger_title_generic" msgid="1347753445938095789">"Aplikazioen ezarpenak"</string>
     <string name="zen_mode_trigger_summary_settings_in_app" msgid="4860667191183702601">"<xliff:g id="APP_NAME">%1$s</xliff:g> aplikazioan dituzu informazioa eta ezarpenak"</string>
@@ -4298,7 +4298,7 @@
     <string name="usb_use_power_only" msgid="3408055485802114621">"Kargatu konektatutako gailua"</string>
     <string name="usb_use_file_transfers" msgid="483915710802018503">"Fitxategi-transferentzia"</string>
     <string name="usb_use_photo_transfers" msgid="4641181628966036093">"PTP"</string>
-    <string name="usb_use_uvc_webcam" msgid="6595429508472038732">"Web-kamera"</string>
+    <string name="usb_use_uvc_webcam" msgid="6595429508472038732">"Webcama"</string>
     <string name="usb_transcode_files" msgid="2441954752105119109">"Bihurtu bideoak AVC"</string>
     <string name="usb_transcode_files_summary" msgid="307102635711961513">"Multimedia-erreproduzigailu gehiagotan erreproduzitu ahal izango dira bideoak, baina baliteke kalitatea ez izatea hain ona"</string>
     <string name="usb_use_tethering" msgid="2897063414491670531">"Konexioa USB bidez partekatzea"</string>
@@ -4642,7 +4642,7 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Kamera bizkor irekitzeko, sakatu birritan etengailua. Edozein pantailatan erabil daiteke."</string>
     <string name="double_tap_power_title" msgid="8129216801770589261">"Sakatu birritan etengailua"</string>
     <string name="double_tap_power_enabled" msgid="7609935047996304482">"Erabili sakatze bikoitza"</string>
-    <string name="double_tap_power_target_action_category" msgid="2568741597095863728">"Irekitzeko, sakatu birritan etengailua"</string>
+    <string name="double_tap_power_target_action_category" msgid="2568741597095863728">"Sakatu birritan etengailua hau irekitzeko:"</string>
     <string name="double_tap_power_camera_action_title" msgid="6641206739933181509">"Kamera"</string>
     <string name="double_tap_power_camera_action_summary" msgid="4942585540579590444">"Ireki Kamera"</string>
     <string name="double_tap_power_wallet_action_title" msgid="2460162990983117189">"Diru-zorroa"</string>

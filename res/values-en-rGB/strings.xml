@@ -413,7 +413,7 @@
     <string name="security_settings_face_footer_description_class3" msgid="2639208414351635622"></string>
     <string name="security_settings_face_footer_learn_more_description" msgid="1418112576619086897"></string>
     <string name="security_settings_face_settings_face_category" msgid="60058016983772899">"Face"</string>
-    <string name="security_settings_face_settings_use_face_to_category" msgid="3349153603335284583">"Use Face to"</string>
+    <string name="security_settings_face_settings_use_face_to_category" msgid="3349153603335284583">"Use face to"</string>
     <string name="security_settings_face_settings_preferences_category" msgid="7628929873407280453">"When using Face Unlock"</string>
     <string name="security_settings_face_settings_require_attention" msgid="4395309855914391104">"Require eyes to be open"</string>
     <string name="security_settings_face_settings_require_attention_details" msgid="2546230511769544074">"To unlock the phone, your eyes must be open"</string>
@@ -3788,7 +3788,7 @@
     <string name="notification_pulse_title" msgid="8013178454646671529">"Blink light"</string>
     <string name="lock_screen_notifications_title" msgid="2876323153692406203">"Privacy"</string>
     <string name="lockscreen_bypass_title" msgid="6519964196744088573">"Skip lock screen"</string>
-    <string name="lockscreen_bypass_summary" msgid="4578154430436224161">"After unlocking, go directly to last used screen. Notifications won’t show on lock screen. Swipe down from top to see them."</string>
+    <string name="lockscreen_bypass_summary" msgid="4578154430436224161">"After unlocking, go directly to last-used screen. Notifications won’t show on lock screen. Swipe down from top to see them."</string>
     <string name="keywords_lockscreen_bypass" msgid="41035425468915498">"Lock screen, Lockscreen, Skip, Bypass"</string>
     <string name="locked_work_profile_notification_title" msgid="279367321791301499">"When work profile is locked"</string>
     <string name="lock_screen_notif_minimalism" msgid="5556871004042668149">"Lock screen notification minimalism"</string>
