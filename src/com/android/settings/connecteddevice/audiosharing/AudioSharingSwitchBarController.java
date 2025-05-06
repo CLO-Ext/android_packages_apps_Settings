@@ -747,6 +747,7 @@ public class AudioSharingSwitchBarController extends BasePreferenceController
     private void showErrorDialog() {
         AudioSharingUtils.postOnMainThread(mContext,
                 () -> {
+                    dismissProgressDialogIfNeeded();
                     // Remove all stale dialogs before showing error dialog
                     dismissStaleDialogsOtherThanErrorDialog();
                     AudioSharingErrorDialogFragment.show(mFragment);
