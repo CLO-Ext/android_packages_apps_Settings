@@ -23,6 +23,8 @@ import android.app.settings.SettingsEnums;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.drawable.AnimatedImageDrawable;
+import android.graphics.drawable.Drawable;
 import android.hardware.face.FaceManager;
 import android.os.Bundle;
 import android.os.Handler;
@@ -34,6 +36,7 @@ import android.view.View;
 import android.view.accessibility.AccessibilityManager;
 import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 
 import androidx.annotation.NonNull;
@@ -49,11 +52,9 @@ import com.android.settings.password.SetupSkipDialog;
 import com.android.systemui.unfold.compat.ScreenSizeFoldProvider;
 import com.android.systemui.unfold.updates.FoldProvider;
 
-import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.setupcompat.template.FooterBarMixin;
 import com.google.android.setupcompat.template.FooterButton;
 import com.google.android.setupcompat.util.WizardManagerHelper;
-import com.google.android.setupdesign.view.IllustrationVideoView;
 
 /**
  * Provides animated education for users to know how to enroll a face with appropriate posture.
@@ -63,29 +64,24 @@ public class FaceEnrollEducation extends BiometricEnrollBase {
 
     private FaceManager mFaceManager;
     private FaceEnrollAccessibilityToggle mSwitchDiversity;
-    private boolean mIsUsingLottie;
-    private IllustrationVideoView mIllustrationDefault;
-    private LottieAnimationView mIllustrationLottie;
+    private ImageView mFaceEducationAnimation;
     private View mIllustrationAccessibility;
     private Intent mResultIntent;
     private boolean mAccessibilityEnabled;
 
     private final CompoundButton.OnCheckedChangeListener mSwitchDiversityListener =
-            new CompoundButton.OnCheckedChangeListener() {
-                @Override
-                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                    final int descriptionRes = isChecked
-                            ? R.string.security_settings_face_enroll_education_message_accessibility
-                            : R.string.security_settings_face_enroll_education_message;
-                    setDescriptionText(descriptionRes);
+            (buttonView, isChecked) -> {
+                final int descriptionRes = isChecked
+                        ? R.string.security_settings_face_enroll_education_message_accessibility
+                        : R.string.security_settings_face_enroll_education_message;
+                setDescriptionText(descriptionRes);
 
-                    if (isChecked) {
-                        hideDefaultIllustration();
-                        mIllustrationAccessibility.setVisibility(View.VISIBLE);
-                    } else {
-                        showDefaultIllustration();
-                        mIllustrationAccessibility.setVisibility(View.INVISIBLE);
-                    }
+                if (isChecked) {
+                    hideDefaultIllustration();
+                    mIllustrationAccessibility.setVisibility(View.VISIBLE);
+                } else {
+                    showDefaultIllustration();
+                    mIllustrationAccessibility.setVisibility(View.INVISIBLE);
                 }
             };
 
@@ -116,18 +112,10 @@ public class FaceEnrollEducation extends BiometricEnrollBase {
 
         mFaceManager = Utils.getFaceManagerOrNull(this);
 
-        mIllustrationDefault = findViewById(R.id.illustration_default);
-        mIllustrationLottie = findViewById(R.id.illustration_lottie);
+        mFaceEducationAnimation = findViewById(R.id.face_education_animation);
         mIllustrationAccessibility = findViewById(R.id.illustration_accessibility);
 
-        mIsUsingLottie = getResources().getBoolean(R.bool.config_face_education_use_lottie);
-        if (mIsUsingLottie) {
-            mIllustrationDefault.stop();
-            mIllustrationDefault.setVisibility(View.INVISIBLE);
-            mIllustrationLottie.setAnimation(R.raw.face_education_lottie);
-            mIllustrationLottie.setVisibility(View.VISIBLE);
-            mIllustrationLottie.playAnimation();
-        }
+        showDefaultIllustration();
 
         mFooterBarMixin = getLayout().getMixin(FooterBarMixin.class);
 
@@ -352,24 +340,23 @@ public class FaceEnrollEducation extends BiometricEnrollBase {
     }
 
     private void hideDefaultIllustration() {
-        if (mIsUsingLottie) {
-            mIllustrationLottie.cancelAnimation();
-            mIllustrationLottie.setVisibility(View.INVISIBLE);
-        } else {
-            mIllustrationDefault.stop();
-            mIllustrationDefault.setVisibility(View.INVISIBLE);
+        if (mFaceEducationAnimation != null) {
+            mFaceEducationAnimation.setVisibility(View.INVISIBLE);
+            Drawable drawable = mFaceEducationAnimation.getDrawable();
+            if (drawable instanceof AnimatedImageDrawable) {
+                ((AnimatedImageDrawable) drawable).stop();
+            }
         }
     }
 
     private void showDefaultIllustration() {
-        if (mIsUsingLottie) {
-            mIllustrationLottie.setAnimation(R.raw.face_education_lottie);
-            mIllustrationLottie.setVisibility(View.VISIBLE);
-            mIllustrationLottie.playAnimation();
-            mIllustrationLottie.setProgress(0f);
-        } else {
-            mIllustrationDefault.setVisibility(View.VISIBLE);
-            mIllustrationDefault.start();
+        if (mFaceEducationAnimation != null) {
+            mFaceEducationAnimation.setVisibility(View.VISIBLE);
+            Drawable drawable = mFaceEducationAnimation.getDrawable();
+            if (drawable instanceof AnimatedImageDrawable) {
+                ((AnimatedImageDrawable) drawable).setRepeatCount(AnimatedImageDrawable.REPEAT_INFINITE);
+                ((AnimatedImageDrawable) drawable).start();
+            }
         }
     }
 }
