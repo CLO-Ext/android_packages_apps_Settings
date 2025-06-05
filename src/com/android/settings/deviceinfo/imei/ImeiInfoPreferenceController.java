@@ -210,6 +210,9 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
+        if (!TelephonyUtils.isQPSAModemEnabled()) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
         if (!SubscriptionUtil.isSimHardwareVisible(mContext) || Utils.isWifiOnly(mContext)) {
             return UNSUPPORTED_ON_DEVICE;
         }
