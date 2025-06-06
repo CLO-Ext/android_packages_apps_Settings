@@ -38,6 +38,7 @@ import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.network.SubscriptionUtil;
+import com.android.settings.network.telephony.TelephonyUtils;
 import com.android.settingslib.Utils;
 
 import java.util.ArrayList;
@@ -88,6 +89,9 @@ public class PhoneNumberPreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
+        if (!TelephonyUtils.isQPSAModemEnabled()) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
         if (!SubscriptionUtil.isSimHardwareVisible(mContext) || Utils.isWifiOnly(mContext)) {
             return UNSUPPORTED_ON_DEVICE;
         }
