@@ -143,6 +143,12 @@
         android:summary="@string/hide_applist_summary"
         android:fragment="com.android.settings.security.HideAppListSettings" />
 
+    <com.android.settings.applications.KeyboxDataPreference
+        android:key="keybox_data_setting"
+        android:title="@string/keybox_data_title"
+        android:summary="@string/keybox_data_summary"
+        android:defaultValue=""/>
+
     <PreferenceCategory
         android:key="advanced_category"
         android:title="@string/advanced_apps"
