@@ -35,6 +35,7 @@ import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.network.SubscriptionUtil;
 import com.android.settings.network.telephony.DomesticRoamUtils;
+import com.android.settings.network.telephony.TelephonyUtils;
 import com.android.settingslib.Utils;
 import com.android.settingslib.search.SearchIndexableRaw;
 
@@ -74,6 +75,9 @@ public class SimStatusPreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
+        if (!TelephonyUtils.isQPSAModemEnabled()) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
         if (!SubscriptionUtil.isSimHardwareVisible(mContext)
                 || Utils.isWifiOnly(mContext)
                 || getSimSlotIndex() == SubscriptionManager.INVALID_SIM_SLOT_INDEX) {

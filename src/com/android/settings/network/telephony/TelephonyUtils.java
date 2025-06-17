@@ -39,6 +39,7 @@ package com.android.settings.network.telephony;
 import android.content.Context;
 import android.os.RemoteException;
 import android.os.ServiceManager;
+import android.os.SystemProperties;
 import android.provider.Settings;
 import android.telephony.TelephonyManager;
 import android.telephony.UiccSlotInfo;
@@ -69,6 +70,8 @@ public final class TelephonyUtils {
     private static final String PROPERTY_DSDS_TO_SS = "persist.vendor.radio.dsds_to_ss";
     private static final String PROPERTY_SUBSIDY_DEVICE  = "persist.vendor.radio.subsidydevice";
     private static final String ALLOW_USER_SELECT_DDS = "allow_user_select_dds";
+    private static final String PROPERTY_QPSA_MODEM = "ro.boot.vendor.qspa.modem";
+    private static final String QPSA_MODEM_ENABLED = "enabled";
 
     // Modem version prefix tag
     private static final String MODEM_VERSION_PREFIX_HI_TAG = "MPSS.HI."; // Himalaya
@@ -98,11 +101,11 @@ public final class TelephonyUtils {
         return slotsInfo;
     }
 
-    public static int getUiccSlotsCount(Context context){
+    public static int getUiccSlotsCount(Context context) {
         if (sSlotsInfo == null) {
             sSlotsInfo = getUiccSlotsInfo(context);
         }
-        return sSlotsInfo.length;
+        return sSlotsInfo == null ? 0 : sSlotsInfo.length;
     }
 
     public static boolean isDsdsToSsConfigValid(){
@@ -288,4 +291,13 @@ public final class TelephonyUtils {
             mIsServiceBound = false;
         }
     };
+
+    public static boolean isQPSAModemEnabled() {
+        String modemEnabled = SystemProperties.get(PROPERTY_QPSA_MODEM, QPSA_MODEM_ENABLED);
+        Log.d(TAG, "isQPSAModemEnabled: modemEnabled = " + modemEnabled);
+        if (QPSA_MODEM_ENABLED.equalsIgnoreCase(modemEnabled)) {
+            return true;
+        }
+        return false;
+    }
 }
