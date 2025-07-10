@@ -81,6 +81,7 @@ import com.android.settings.safetycenter.SafetyCenterManagerWrapper;
 import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.HideNonSystemOverlayMixin;
 
+import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import java.net.URISyntaxException;
@@ -400,16 +401,9 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                 (v, windowInsets) -> {
                     Insets insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars()
                             | WindowInsetsCompat.Type.displayCutout());
-                    // Apply the insets paddings to the view.
-                    v.setPadding(insets.left, 0, insets.right, insets.bottom);
 
-                    // reset the top padding of search bar container to original top padding
-                    // plus insets top.
-                    View container = findViewById(R.id.app_bar_container);
-                    final int top_padding = getResources().getDimensionPixelSize(
-                            R.dimen.search_bar_container_top_padding);
-                    container.setPadding(container.getPaddingLeft(), top_padding + insets.top,
-                            container.getPaddingRight(), container.getPaddingBottom());
+                    // Apply the insets paddings to the view.
+                    v.setPadding(insets.left, insets.top, insets.right, insets.bottom);
 
                     // Return CONSUMED if you don't want the window insets to keep being
                     // passed down to descendant views.
@@ -418,24 +412,30 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     }
 
     private void initSearchBarView() {
-        if (Flags.homepageRevamp()) {
-            View toolbar = findViewById(R.id.search_action_bar);
-            FeatureFactory.getFeatureFactory().getSearchFeatureProvider()
-                    .initSearchToolbar(this /* activity */, toolbar,
-                            SettingsEnums.SETTINGS_HOMEPAGE);
-        } else {
-            final Toolbar toolbar = findViewById(R.id.search_action_bar);
-            FeatureFactory.getFeatureFactory().getSearchFeatureProvider()
-                    .initSearchToolbar(this /* activity */, toolbar,
-                            SettingsEnums.SETTINGS_HOMEPAGE);
+        View toolbar = findViewById(R.id.search_action_bar);
+        FeatureFactory.getFeatureFactory().getSearchFeatureProvider()
+                .initSearchToolbar(this /* activity */, toolbar,
+                        SettingsEnums.SETTINGS_HOMEPAGE);
 
-            if (mIsEmbeddingActivityEnabled) {
-                final Toolbar toolbarTwoPaneVersion = findViewById(R.id.search_action_bar_two_pane);
-                FeatureFactory.getFeatureFactory().getSearchFeatureProvider()
-                        .initSearchToolbar(this /* activity */, toolbarTwoPaneVersion,
-                                SettingsEnums.SETTINGS_HOMEPAGE);
-            }
+        if (mIsEmbeddingActivityEnabled) {
+            View toolbarTwoPaneVersion = findViewById(R.id.search_action_bar_two_pane);
+            FeatureFactory.getFeatureFactory().getSearchFeatureProvider()
+                    .initSearchToolbar(this /* activity */, toolbarTwoPaneVersion,
+                            SettingsEnums.SETTINGS_HOMEPAGE);
         }
+
+        AppBarLayout appBarLayout = findViewById(R.id.app_bar);
+        View homeTitle = findViewById(R.id.homepage_title);
+
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                int totalScrollRange = appBarLayout.getTotalScrollRange();
+                float collapseRatio = (float) -verticalOffset / totalScrollRange;
+
+                homeTitle.setAlpha(1 - collapseRatio);
+            }
+        });
     }
 
     private void initAvatarView() {
@@ -791,7 +791,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     }
 
     private void updateHomepageAppBar() {
-        if (Flags.homepageRevamp() || !mIsEmbeddingActivityEnabled) {
+        if (!mIsEmbeddingActivityEnabled) {
             return;
         }
         updateAppBarMinHeight();
@@ -821,14 +821,16 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     }
 
     private void updateAppBarMinHeight() {
-        if (Flags.homepageRevamp()) {
-            return;
-        }
         final int searchBarHeight = getResources().getDimensionPixelSize(R.dimen.search_bar_height);
-        final int margin = getResources().getDimensionPixelSize(
-                mIsEmbeddingActivityEnabled && mIsTwoPane
-                        ? R.dimen.homepage_app_bar_padding_two_pane
-                        : R.dimen.search_bar_margin);
+        final int margin;
+        if (Flags.homepageRevamp()) {
+            margin = getResources().getDimensionPixelSize(R.dimen.search_bar_margin);
+        } else {
+            margin = getResources().getDimensionPixelSize(
+                    mIsEmbeddingActivityEnabled && mIsTwoPane
+                            ? R.dimen.homepage_app_bar_padding_two_pane
+                            : R.dimen.search_bar_margin);
+        }
         findViewById(R.id.app_bar_container).setMinimumHeight(searchBarHeight + margin * 2);
     }
 
