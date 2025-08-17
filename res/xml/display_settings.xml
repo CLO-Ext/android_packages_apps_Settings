@@ -137,6 +137,12 @@
             android:title="@string/data_disabled_icon_title"
             android:summary="@string/data_disabled_icon_summary"
             android:defaultValue="true" />
+
+        <org.neoteric.preference.SecureSettingSwitchPreference
+            android:key="qs_show_data_usage"
+            android:title="@string/qs_show_data_usage_title"
+            android:summary="@string/qs_show_data_usage_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
