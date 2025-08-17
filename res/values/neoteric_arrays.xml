@@ -23,10 +23,6 @@
         <item>@string/battery_style_icon_portrait</item>
         <item>@string/battery_style_circle</item>
         <item>@string/battery_style_text</item>
-        <item>@string/battery_style_icon_rlandscape</item> 
-        <item>@string/battery_style_icon_landscape</item> 
-        <item>@string/battery_style_icon_ios_15</item> 
-        <item>@string/battery_style_icon_ios_16</item> 
         <item>@string/battery_style_hidden</item>
     </string-array>
 
@@ -35,10 +31,6 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
     </string-array>
 
     <!-- Battery Percent -->
