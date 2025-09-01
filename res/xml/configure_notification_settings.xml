@@ -209,11 +209,13 @@
             android:defaultValue="false"
             settings:controller="com.android.settings.display.EdgeLightPreferenceController" />
 
-        <Preference
-            android:key="heads_up_notifications"
+        <com.android.settingslib.PrimarySwitchPreference
+            android:key="heads_up_notifications_enabled"
             android:summary="@string/heads_up_notifications_summary"
             android:title="@string/heads_up_notifications_title"
-            android:fragment="com.android.settings.notification.HeadsUpSettings"/>
+            android:fragment="com.android.settings.notification.HeadsUpSettings"
+            android:defaultValue="true"
+            settings:controller="com.android.settings.notification.HeadsUpPreferenceController" />
 
         <Preference
             android:key="ticker_settings"
