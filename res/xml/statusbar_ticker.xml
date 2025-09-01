@@ -16,10 +16,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/ticker_screen_title" >
 
-    <org.neoteric.preference.SystemSettingSwitchPreference
+    <org.neoteric.preference.SystemSettingMainSwitchPreference
         android:key="status_bar_show_ticker"
         android:title="@string/ticker_title"
-        android:summary="@string/ticker_summary"
         android:defaultValue="false" />
 
     <org.neoteric.preference.SystemSettingListPreference
@@ -27,6 +26,7 @@
         android:title="@string/ticker_animation_mode_title"
         android:entries="@array/ticker_animation_mode_entries"
         android:entryValues="@array/ticker_animation_mode_values"
+        android:dependency="status_bar_show_ticker"
         android:defaultValue="1" />
 
     <org.neoteric.preference.SystemSettingSeekBarPreference
@@ -36,10 +36,12 @@
         settings:interval="100"
         android:max="10000"
         android:defaultValue="3000"
+        android:dependency="status_bar_show_ticker"
         settings:units="@string/unit_milliseconds" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="statusbar_ticker_footer"
+        android:title="@string/ticker_screen_footer"
         android:selectable="false"
         settings:searchable="false" />
 </PreferenceScreen>

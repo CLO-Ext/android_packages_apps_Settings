@@ -27,13 +27,10 @@ import com.android.settingslib.search.SearchIndexable;
 @SearchIndexable
 public class Ticker extends SettingsPreferenceFragment {
 
-    private static final String STATUSBAR_TICKER_FOOTER = "statusbar_ticker_footer";
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.statusbar_ticker);
-        findPreference(STATUSBAR_TICKER_FOOTER).setTitle(R.string.ticker_screen_footer);
     }
 
     @Override
@@ -42,5 +39,5 @@ public class Ticker extends SettingsPreferenceFragment {
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.statusbar_ticker);    
+            new BaseSearchIndexProvider(R.xml.statusbar_ticker);
 }

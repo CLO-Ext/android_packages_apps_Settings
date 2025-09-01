@@ -217,11 +217,13 @@
             android:defaultValue="true"
             settings:controller="com.android.settings.notification.HeadsUpPreferenceController" />
 
-        <Preference
-            android:key="ticker_settings"
+        <com.android.settingslib.PrimarySwitchPreference
+            android:key="status_bar_show_ticker"
             android:title="@string/ticker_screen_title"
             android:summary="@string/ticker_screen_summary"
-            android:fragment="com.android.settings.notification.Ticker"/> 
+            android:fragment="com.android.settings.notification.Ticker"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.notification.TickerPreferenceController" />
 
         <SwitchPreferenceCompat
              android:key="silent_icons"
