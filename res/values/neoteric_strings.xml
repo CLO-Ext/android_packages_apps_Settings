@@ -435,6 +435,12 @@
     <!-- QS footer data usage -->
     <string name="qs_show_data_usage_title">Show data usage</string>
     <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+    <string name="qs_data_usage_cycle_type_title">Data usage cycle</string>
+    <string name="qs_data_usage_cycle_type_summary">Choose between daily or weekly data usage display</string>
+    <string name="qs_data_usage_cycle_daily">Daily</string>
+    <string name="qs_data_usage_cycle_weekly">Weekly</string>
+    <string name="qs_show_data_usage_cycle_info_title">Show cycle info</string>
+    <string name="qs_show_data_usage_cycle_info_summary">Display additional information about the data usage cycle</string>
 
     <!-- Notification sound while screen on -->
     <string name="notification_sound_vib_screen_on_title">Annoying notifications</string>
