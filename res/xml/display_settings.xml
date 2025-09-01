@@ -132,26 +132,19 @@
             android:summary="@string/network_traffic_settings_summary"
             android:fragment="com.android.settings.display.NetworkTrafficSettings" />
 
+        <com.android.settingslib.PrimarySwitchPreference
+            android:key="qs_show_data_usage"
+            android:title="@string/qs_data_usage_title"
+            android:summary="@string/qs_show_data_usage_summary"
+            android:defaultValue="true"
+            android:fragment="com.android.settings.display.QSDataUsageSettings" 
+            settings:controller="com.android.settings.display.QSDataUsagePreferenceController" />
+
 	<org.neoteric.preference.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:title="@string/data_disabled_icon_title"
             android:summary="@string/data_disabled_icon_summary"
             android:defaultValue="true" />
-
-        <org.neoteric.preference.SecureSettingSwitchPreference
-            android:key="qs_show_data_usage"
-            android:title="@string/qs_show_data_usage_title"
-            android:summary="@string/qs_show_data_usage_summary"
-            android:defaultValue="true" />
-
-        <org.neoteric.preference.SecureSettingListPreference
-            android:key="qs_data_usage_cycle_type"
-            android:dependency="qs_show_data_usage"
-            android:title="@string/qs_data_usage_cycle_type_title"
-            android:summary="@string/qs_data_usage_cycle_type_summary"
-            android:entries="@array/qs_data_usage_cycle_type_entries"
-            android:entryValues="@array/qs_data_usage_cycle_type_values"
-            android:defaultValue="0" />
     </PreferenceCategory>
 
     <PreferenceCategory
