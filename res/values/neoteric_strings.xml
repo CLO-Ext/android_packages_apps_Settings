@@ -445,4 +445,7 @@
     <!-- Notification sound while screen on -->
     <string name="notification_sound_vib_screen_on_title">Annoying notifications</string>
     <string name="notification_sound_vib_screen_on_summary">Allow notification sound and vibration alerts when the screen is on</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
 </resources>
