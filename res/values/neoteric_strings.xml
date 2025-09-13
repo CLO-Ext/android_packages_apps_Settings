@@ -337,11 +337,6 @@
     <string name="hide_from_launcher_title">Hide from launcher</string>
     <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
 
-    <!-- Bluetooth QS Tile behavior -->
-    <string name="click_bluetooth_tile_behavior_title">Click Bluetooth tile behavior</string>
-    <string name="b_bluetooth_tile">Toggle Bluetooth</string>
-    <string name="modern_panel_bluetooth_tile">Open Bluetooth QS panel</string>
-
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Refresh rate</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
